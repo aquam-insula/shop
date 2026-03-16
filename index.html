@@ -179,7 +179,6 @@ body {
 }
 
 #supercategories-container{
-  padding-top:160px;
   opacity:0;
   transition:opacity .5s ease-in-out;
 }
@@ -379,6 +378,15 @@ body {
   function s(v){ return v==null? "" : String(v).trim(); }
   function n(v){ return (typeof v==="number")? v : parseFloat(String(v).replace(/[^\d.-]/g,"")) || 0; }
 
+function adjustContentOffset(){
+  const header = document.getElementById("menu-container");
+  const supercats = document.getElementById("supercategories-container");
+
+  const headerHeight = header.offsetHeight;
+
+  supercats.style.marginTop = (headerHeight + 30) + "px";
+}
+  
 function toDriveImg(urlOrId){
   const str = String(urlOrId || "").trim();
   if (!str) return "";
@@ -1337,9 +1345,12 @@ function toDriveImg(urlOrId){
     }
   });
 
+  window.addEventListener("resize", adjustContentOffset);
+
   // ======= INITIAL LOAD =======
   window.onload = async function(){
     document.getElementById("loading-spinner").style.display = "block";
+    adjustContentOffset();
 
     const savedBasket = localStorage.getItem('basket');
     if (savedBasket){
