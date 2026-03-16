@@ -161,8 +161,16 @@ body {
 }
 
 #menu-container{
-  position:fixed; top:0; left:0; width:100%; height:160px; z-index:9999;
-  transition:opacity .3s ease, visibility .3s ease; background-color:white;
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  z-index:9999;
+  background-color:white;
+  padding:10px 20px 8px 20px;
+  display:flex;
+  flex-direction:column;
+  gap:4px;
 }
 
 #up-icon{
@@ -171,8 +179,11 @@ body {
 }
 
 #supercategories-container{
-  margin-top:180px; opacity:0; transition:opacity .5s ease-in-out;
+  padding-top:140px;
+  opacity:0;
+  transition:opacity .5s ease-in-out;
 }
+    
 #supercategories-container.show{ opacity:1; }
 
 /* Pagination */
@@ -190,7 +201,44 @@ body {
 #pagination-controls span{ font-size:1.5rem; cursor:pointer; }
 
 .contact-info{
-  font-size:1.0rem; margin:20px 0; text-align:center; position:relative; z-index:10;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:4px;
+  font-size:0.95rem;
+}
+
+.contact-link,
+.map-link{
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+  color:#2f2f2f;
+  text-decoration:none;
+  background:rgba(255,255,255,0.96);
+  padding:6px 10px;
+  border-radius:8px;
+  transition:background-color .2s ease, box-shadow .2s ease, color .2s ease;
+}
+
+.contact-link:hover,
+.map-link:hover{
+  background:#f5f5f5;
+  color:#000;
+  box-shadow:0 2px 8px rgba(0,0,0,0.10);
+}
+
+.contact-icon,
+.map-icon{
+  width:18px;
+  height:18px;
+  flex:0 0 18px;
+  display:inline-block;
+}
+
+.map-link{
+  font-size:0.94rem;
+  color:#555;
 }
 
 #loading-spinner{
@@ -233,11 +281,32 @@ body {
     <div id="search-result-count">0 results</div>
   </div>
 
+    <!-- Contact Information -->
+  <div class="contact-info">
+    <a href="mailto:maritime-lifestyle@aquam-insula.com" class="contact-link">
+      <svg class="contact-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+        <path d="M4 6.5h16a1.5 1.5 0 0 1 1.5 1.5v8A1.5 1.5 0 0 1 20 17.5H4A1.5 1.5 0 0 1 2.5 16V8A1.5 1.5 0 0 1 4 6.5Z" stroke="currentColor" stroke-width="1.8"/>
+        <path d="m3.5 8 8.06 5.64a.75.75 0 0 0 .88 0L20.5 8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      <span>maritime-lifestyle@aquam-insula.com</span>
+    </a>
+
+    <a href="https://maps.app.goo.gl/fnwXXX1DL6o8bV1n9"
+       class="map-link"
+       target="_blank"
+       rel="noopener noreferrer">
+      <svg class="map-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+        <path d="M12 21s6-5.55 6-11a6 6 0 1 0-12 0c0 5.45 6 11 6 11Z" stroke="currentColor" stroke-width="1.8"/>
+        <circle cx="12" cy="10" r="2.5" stroke="currentColor" stroke-width="1.8"/>
+      </svg>
+      <span>Find us on Google Maps</span>
+    </a>
+  </div>
   <div id="basket-sidebar">
     <div id="close-basket" class="close-basket" onclick="toggleBasket()">×</div>
     <div id="basket-toggle" style="cursor: pointer;">
       <img id="basket-icon"
-           src="https://github.com/toralf-dittmann/aqiml/blob/main/Shopping%20Bag.png?raw=true"
+           src="https://raw.githubusercontent.com/toralf-dittmann/aqiml/main/Shopping%20Bag.png"
            alt="Basket" width="8">
       <span id="basket-count" style="margin-top:8px; margin-left:3px;">0</span>
     </div>
@@ -259,27 +328,18 @@ body {
       </div>
     </div>
   </div>
-
-  <!-- Contact Information -->
-  <div class="contact-info">
-    Contact:
-    <a href="mailto:maritime-lifestyle@aquam-insula.com"
-       style="color: inherit; text-decoration: underline;">
-      maritime-lifestyle@aquam-insula.com
-    </a>
-  </div>
 </div>
 
 <!-- Supercategory Table -->
 <div id="supercategories-container" style="display: none;">
   <div class="row">
     <div class="col-12 col-md-6 supercategory" id="marine-chandlery-header">
-      <img src="https://github.com/toralf-dittmann/aqiml/blob/main/Marine%20Chandlery.jpg?raw=true"
+      <img src="https://raw.githubusercontent.com/toralf-dittmann/aqiml/main/Marine%20Chandlery.jpg"
            alt="Marine Chandlery">
       <h3>Marine Chandlery</h3>
     </div>
     <div class="col-12 col-md-6 supercategory" id="maritime-lifestyle-header">
-      <img src="https://github.com/toralf-dittmann/aqiml/blob/main/Fashion.jpg?raw=true"
+      <img src="https://raw.githubusercontent.com/toralf-dittmann/aqiml/main/Fashion.jpg"
            alt="Maritime Lifestyle">
       <h3>Maritime Lifestyle</h3>
     </div>
@@ -302,7 +362,7 @@ body {
 </div>
 
 <div id="up-icon">
-  <img src="https://github.com/toralf-dittmann/aqiml/blob/main/up-round.png?raw=true"
+  <img src="https://raw.githubusercontent.com/toralf-dittmann/aqiml/main/up-round.png"
        alt="up Icon" width="40">
 </div>
 
@@ -317,11 +377,37 @@ body {
   function s(v){ return v==null? "" : String(v).trim(); }
   function n(v){ return (typeof v==="number")? v : parseFloat(String(v).replace(/[^\d.-]/g,"")) || 0; }
 
-  function toDriveImg(urlOrId){
-    const str = String(urlOrId||"");
-    const m = str.match(/[-\w]{25,}/);
-    return m ? ("https://drive.google.com/thumbnail?id="+m[0]+"&sz=w1200") : str;
+function toDriveImg(urlOrId){
+  const str = String(urlOrId || "").trim();
+  if (!str) return "";
+
+  // plain Google Drive file ID only
+  if (/^[A-Za-z0-9_-]{25,}$/.test(str) && !str.startsWith("http")) {
+    return `https://drive.google.com/thumbnail?id=${str}&sz=w1200`;
   }
+
+  // Google Drive URLs
+  if (str.includes("drive.google.com")) {
+    let m =
+      str.match(/\/file\/d\/([A-Za-z0-9_-]{25,})/) ||
+      str.match(/[?&]id=([A-Za-z0-9_-]{25,})/) ||
+      str.match(/\/thumbnail\?id=([A-Za-z0-9_-]{25,})/);
+
+    if (m) {
+      return `https://drive.google.com/thumbnail?id=${m[1]}&sz=w1200`;
+    }
+  }
+
+  // GitHub blob URL -> raw URL
+  if (str.includes("github.com") && str.includes("/blob/")) {
+    return str
+      .replace("github.com", "raw.githubusercontent.com")
+      .replace("/blob/", "/");
+  }
+
+  // GitHub raw URLs and all other normal URLs stay unchanged
+  return str;
+}
 
   function getStartParam() {
     const params = new URLSearchParams(window.location.search);
@@ -426,12 +512,19 @@ body {
     console.log("fuzzysort ready with", productsData.length, "products");
   }
 
+  function getGroupKey(product){
+    const descKey = s(product.description);
+  
+    // Prefer imageHash if available, otherwise use canonicalized image URL
+    const visualKey = s(product.imageHash) || canonicalizeImageUrl(s(product.imageUrl)) || 'no-image';
+  
+    return `${visualKey}|${descKey}`;
+  }
+  
   function groupProducts(){
     productsByGroupKey = {};
     products.forEach(p=>{
-      const hashKey = s(p.imageHash) || 'no-hash';
-      const descKey = s(p.description);
-      const key = `${hashKey}|${descKey}`;
+      const key = getGroupKey(p);
       if(!productsByGroupKey[key]) productsByGroupKey[key] = [];
       productsByGroupKey[key].push(p);
     });
@@ -606,23 +699,22 @@ body {
     displayCurrentPage();
     updatePaginationControls();
   }
-
+  
   function displayCurrentPage(){
     const groupKeys = [];
     const seenKeys = new Set();
+  
     searchResults.forEach(item=>{
-      const hashKey = s(item.imageHash) || 'no-hash';
-      const descKey = s(item.description);
-      const key = `${hashKey}|${descKey}`;
+      const key = getGroupKey(item);
       if(!seenKeys.has(key)){
         groupKeys.push(key);
         seenKeys.add(key);
       }
     });
-
+  
     const start = (currentPage - 1) * resultsPerPage;
     const pageKeys = groupKeys.slice(start, start + resultsPerPage);
-
+  
     const grid = document.getElementById('product-grid-row');
     grid.innerHTML = '';
 
@@ -788,39 +880,52 @@ body {
       document.getElementById('product-grid').appendChild(container);
     }
     container.innerHTML = '';
-
+  
+    const seenKeys = new Set();
     const groupKeys = [];
+  
     searchResults.forEach(item=>{
-      const imgKey = canonicalizeImageUrl(s(item.imageUrl));
-      const key = `${s(item.description)}|${imgKey}`;
-      if(!groupKeys.includes(key)) groupKeys.push(key);
+      const key = getGroupKey(item);
+      if(!seenKeys.has(key)){
+        seenKeys.add(key);
+        groupKeys.push(key);
+      }
     });
-
+  
     const totalPages = Math.ceil(groupKeys.length / resultsPerPage);
     if (totalPages <= 1) return;
-
+  
     const left = document.createElement('span');
     left.textContent = '◀';
     left.classList.add('page-arrow');
     left.addEventListener('click', ()=>{
-      if(currentPage>1){ currentPage--; displayCurrentPage(); }
+      if(currentPage > 1){
+        currentPage--;
+        displayCurrentPage();
+      }
     });
     container.appendChild(left);
-
-    for (let p=1; p<=totalPages; p++){
+  
+    for (let p = 1; p <= totalPages; p++){
       const btn = document.createElement('button');
       btn.textContent = p;
       btn.classList.add('page-number');
-      if (p===currentPage) btn.classList.add('active');
-      btn.addEventListener('click', ()=>{ currentPage = p; displayCurrentPage(); });
+      if (p === currentPage) btn.classList.add('active');
+      btn.addEventListener('click', ()=>{
+        currentPage = p;
+        displayCurrentPage();
+      });
       container.appendChild(btn);
     }
-
+  
     const right = document.createElement('span');
     right.textContent = '▶';
     right.classList.add('page-arrow');
     right.addEventListener('click', ()=>{
-      if(currentPage<totalPages){ currentPage++; displayCurrentPage(); }
+      if(currentPage < totalPages){
+        currentPage++;
+        displayCurrentPage();
+      }
     });
     container.appendChild(right);
   }
