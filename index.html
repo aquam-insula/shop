@@ -179,7 +179,7 @@ body {
 }
 
 #supercategories-container{
-  padding-top:140px;
+  padding-top:160px;
   opacity:0;
   transition:opacity .5s ease-in-out;
 }
@@ -230,10 +230,8 @@ body {
 
 .contact-icon,
 .map-icon{
-  width:18px;
-  height:18px;
-  flex:0 0 18px;
-  display:inline-block;
+  width:20px;
+  height:20px;
 }
 
 .map-link{
@@ -290,17 +288,21 @@ body {
       </svg>
       <span>maritime-lifestyle@aquam-insula.com</span>
     </a>
-
-    <a href="https://maps.app.goo.gl/fnwXXX1DL6o8bV1n9"
-       class="map-link"
-       target="_blank"
-       rel="noopener noreferrer">
-      <svg class="map-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-        <path d="M12 21s6-5.55 6-11a6 6 0 1 0-12 0c0 5.45 6 11 6 11Z" stroke="currentColor" stroke-width="1.8"/>
-        <circle cx="12" cy="10" r="2.5" stroke="currentColor" stroke-width="1.8"/>
-      </svg>
-      <span>Find us on Google Maps</span>
-    </a>
+  
+  <a href="https://maps.app.goo.gl/fnwXXX1DL6o8bV1n9"
+     class="map-link"
+     target="_blank"
+     rel="noopener noreferrer">
+  
+  <svg class="map-icon" viewBox="0 0 24 24">
+    <path fill="#EA4335"
+          d="M12 2C8.69 2 6 4.69 6 8c0 5.25 6 12 6 12s6-6.75 6-12c0-3.31-2.69-6-6-6z"/>
+    <circle cx="12" cy="8" r="2.5" fill="white"/>
+  </svg>
+  
+  <span>Find us on Google Maps</span>
+  </a>
+    
   </div>
   <div id="basket-sidebar">
     <div id="close-basket" class="close-basket" onclick="toggleBasket()">×</div>
