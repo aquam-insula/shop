@@ -30,8 +30,9 @@ body {
 #basket-sidebar {
   display: flex; flex-direction: column; align-items: center; justify-content: center;
   position: fixed; top: 10px; right: 10px; width: 110px; height: auto; background-color: white;
-  z-index: 9999; border: none; box-shadow: none;
+  z-index: 1035; border: none; box-shadow: none;
 }
+    
 #basket-sidebar.expanded {
   width: 400px; padding: 20px;
   box-shadow: 0px 4px 12px rgba(0, 102, 204, 1);
@@ -39,7 +40,7 @@ body {
 #basket-icon { width: 43px; height: auto; }
 #basket-total { font-size: 1.0rem; margin-top: 5px; }
 #basket-sidebar #close-basket {
-  font-size: 3rem; z-index:10000; color: #333; cursor: pointer; position: absolute;
+  font-size: 3rem; z-index:1036; color: #333; cursor: pointer; position: absolute;
   top: 10px; right: 10px; display: none;
 }
 #basket-content { display: none; max-height: 60vh; overflow-y: auto; padding-right: 10px; }
@@ -139,7 +140,7 @@ body {
 
 #search-container{
   display:none; height:80px; position:absolute; top:10px; left:450px; margin-left:50px;
-  align-items:flex-start; flex-direction:column; z-index:9999;
+  align-items:flex-start; flex-direction:column; z-index:1035;
 }
 .input-row{ display:flex; align-items:center; width:100%; position:relative; }
 .product-meta{ font-size:.95rem; color:#666; }
@@ -165,7 +166,7 @@ body {
   top:0;
   left:0;
   width:100%;
-  z-index:9999;
+  z-index:1030;
   background-color:white;
   padding:10px 20px 8px 20px;
   display:flex;
@@ -174,7 +175,7 @@ body {
 }
 
 #up-icon{
-  position:fixed; bottom:10px; right:10px; z-index:9999; border-radius:5px;
+  position:fixed; bottom:10px; right:10px; z-index:1035; border-radius:5px;
   background-color:rgba(255,255,255,.8); padding:5px;
 }
 
@@ -240,7 +241,7 @@ body {
 
 #loading-spinner{
   position:fixed; top:50%; left:50%; transform:translate(-50%,-50%);
-  z-index:9999;
+  z-index:1040;
 }
 
 /* Mobile: keep mostly desktop-like by viewport width=1000, so we just scale fonts a bit */
@@ -260,6 +261,15 @@ body {
 #product-grid-row .grid-item .card .card-body{
   flex:1 1 auto !important; display:flex !important; flex-direction:column !important;
   justify-content:space-between;
+}
+
+    /* Keep Product Detail modal above fixed site chrome */
+#productDetailModal{
+  z-index:1060 !important;
+}
+
+.modal-backdrop.show{
+  z-index:1055 !important;
 }
   </style>
 </head>
