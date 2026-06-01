@@ -477,6 +477,8 @@ function toDriveImg(urlOrId){
   let productsByGroupKey = {};
   let searchResults = [];
   let fuzzyOptions = null;
+  let searchTimer = null;
+  let searchRequestId = 0;
   let resultsPerPage = 100;
   let currentPage = 1;
   let itemCount = 0;
@@ -662,10 +664,104 @@ function toDriveImg(urlOrId){
   }
 
   function executeSearch(){
+    clearTimeout(searchTimer);
+    searchTimer = setTimeout(runSearch, 350);
+  }
+
+  function getSearchBase(){
+    return products.filter(p =>
+      p.superCategory === currentSupercategory
+    );
+  }
+
+  function normalizeSearchText(value){
+    return normalizeSearchTokens(value).join(' ');
+  }
+
+  function normalizeSearchTokens(value){
+    return s(value)
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, ' ')
+      .split(/\s+/)
+      .filter(Boolean)
+      .map(token => {
+        if (token === 'glasses') return 'glass';
+        if (token.endsWith('ies')) return token.slice(0, -3) + 'y';
+        return token.replace(/s$/, '');
+      });
+  }
+
+  function localSearch(query, base){
+    const normalizedQuery = normalizeSearchText(query);
+    const queryTokens = normalizeSearchTokens(query);
+    const scored = base.map(product => {
+      const textTokens = normalizeSearchTokens([
+        product.productNumber,
+        product.description,
+        product.variant,
+        product.material,
+        product.sheetName,
+        product.superCategory,
+        product.subCategory
+      ].join(' '));
+      const text = textTokens.join(' ');
+      const textTokenSet = new Set(textTokens);
+      const tokenHits = queryTokens.filter(token => textTokenSet.has(token)).length;
+      const exactPhrase = text.includes(normalizedQuery);
+      return { product, tokenHits, exactPhrase };
+    }).filter(row => row.tokenHits > 0);
+
+    const strictMatches = scored.filter(row => row.tokenHits === queryTokens.length);
+    const matches = strictMatches.length ? strictMatches : scored;
+
+    matches.sort((a, b) =>
+      (b.tokenHits - a.tokenHits) ||
+      (Number(b.exactPhrase) - Number(a.exactPhrase)) ||
+      s(a.product.description).localeCompare(s(b.product.description))
+    );
+
+    const localResults = matches.map(row => row.product);
+    if (strictMatches.length) return localResults;
+
+    const fuzzyResults = fuzzysort.go(query, base, fuzzyOptions).map(r => r.obj);
+    const seen = new Set();
+    return [...localResults, ...fuzzyResults].filter(product => {
+      const key = getGroupKey(product);
+      if (seen.has(key)) return false;
+      seen.add(key);
+      return true;
+    });
+  }
+
+  async function searchWithAi(query, base){
+    const productNumbers = new Set(base.map(p => s(p.productNumber)));
+    const data = await postFormOrError(
+      GAS_URL + '?action=searchProducts',
+      {
+        query,
+        superCategory: currentSupercategory,
+        subCategory: '',
+        limit: '100'
+      }
+    );
+
+    const rankedNumbers = Array.isArray(data.productNumbers)
+      ? data.productNumbers
+      : (Array.isArray(data.results) ? data.results.map(item => s(item.productNumber || item)) : []);
+
+    const byNumber = new Map(base.map(p => [s(p.productNumber), p]));
+    return rankedNumbers
+      .filter(productNumber => productNumbers.has(s(productNumber)))
+      .map(productNumber => byNumber.get(s(productNumber)))
+      .filter(Boolean);
+  }
+
+  async function runSearch(){
     const searchInput = document.getElementById('search-input');
     const closeSearchButton = document.getElementById('close-search');
     const searchResultCount = document.getElementById('search-result-count');
     const query = s(searchInput.value).toLowerCase();
+    const requestId = ++searchRequestId;
 
     if (query){
       closeSearchButton.style.display = 'block';
@@ -676,13 +772,18 @@ function toDriveImg(urlOrId){
     }
     if (!query) return;
 
-    const base = products.filter(p =>
-      p.superCategory === currentSupercategory &&
-      (currentSubcategory ? p.subCategory === currentSubcategory : true)
-    );
+    const base = getSearchBase();
+    searchResultCount.textContent = 'Searching...';
 
-    const results = fuzzysort.go(query, base, fuzzyOptions);
-    searchResults = results.map(r => r.obj);
+    try {
+      searchResults = await searchWithAi(query, base);
+      if (!searchResults.length) searchResults = localSearch(query, base);
+    } catch (err) {
+      console.warn('AI search unavailable; using local search fallback.', err);
+      searchResults = localSearch(query, base);
+    }
+
+    if (requestId !== searchRequestId) return;
 
     currentPage = 1;
     updateSearchResultsCount(searchResults.length);
