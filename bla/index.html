@@ -125,7 +125,7 @@
     }
     .search-row {
       display: grid;
-      grid-template-columns: minmax(300px, 1fr) 150px 220px 140px;
+      grid-template-columns: minmax(300px, 1fr) 48px 220px 140px;
       gap: 10px;
       width: calc(100% - 40px);
       margin: 16px 20px 0;
@@ -144,6 +144,11 @@
       background: var(--aq-ocean);
       color: #fff;
       font-weight: 700;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 21px;
+      line-height: 1;
     }
     .search-row button:hover {
       border-color: var(--aq-magenta);
@@ -152,6 +157,25 @@
     .search-row button:disabled {
       cursor: wait;
       opacity: .65;
+    }
+    .search-lens {
+      width: 16px;
+      height: 16px;
+      border: 2px solid #fff;
+      border-radius: 50%;
+      position: relative;
+      display: inline-block;
+    }
+    .search-lens::after {
+      content: "";
+      width: 8px;
+      height: 2px;
+      background: #fff;
+      position: absolute;
+      right: -7px;
+      bottom: -4px;
+      transform: rotate(45deg);
+      transform-origin: left center;
     }
     .mode-tabs {
       display: flex;
@@ -629,7 +653,7 @@
     </div>
     <div class="search-row">
       <input id="search" type="search" placeholder="Search product code, product, brand or category">
-      <button id="aiSearch" type="button">GPT Search</button>
+      <button id="aiSearch" type="button" aria-label="Search" title="Search"><span class="search-lens" aria-hidden="true"></span></button>
       <select id="sort">
         <option value="category">Sort by category</option>
         <option value="code">Sort by product code</option>
@@ -1071,16 +1095,16 @@
       const rows = currentRows();
       const limit = Number(document.getElementById('limit').value);
       const query = document.getElementById('search').value.trim();
-      const awaitingGptSearch = !!query && !aiResultCodes;
+      const awaitingSearch = !!query && !aiResultCodes;
       document.getElementById('viewTitle').textContent = currentSubCategory || currentTopCategory || 'All BLA Products';
       document.getElementById('resultCount').textContent = catalogueLoaded
-        ? (awaitingGptSearch ? 'Press GPT Search or Enter for intelligent product matching.' : `${rows.length} products found | showing ${Math.min(limit, rows.length)}${aiResultCodes ? ' | GPT ranked' : ''}`)
+        ? (awaitingSearch ? 'Press Enter or the search button to find matching products.' : `${rows.length} products found | showing ${Math.min(limit, rows.length)}`)
         : 'Loading products and prices...';
       document.getElementById('categoryGrid').style.display = 'none';
       document.getElementById('productGrid').style.display = 'grid';
       document.getElementById('backRow').style.display = currentTopCategory ? 'block' : 'none';
       document.getElementById('backToCategories').textContent = 'Back to Categories';
-      document.getElementById('productGrid').innerHTML = catalogueLoaded && !awaitingGptSearch ? rows.slice(0, limit).map(p => `
+      document.getElementById('productGrid').innerHTML = catalogueLoaded && !awaitingSearch ? rows.slice(0, limit).map(p => `
         <article class="product-card" ${cardStyle(topCategory(p))}>
           <div class="image-container">${imageMarkup(p, 'card')}</div>
           <div class="product-body">
@@ -1100,7 +1124,7 @@
             </div>
             <button class="btn view-product" data-code="${esc(p.productNumber)}">View Product</button>
           </div>
-        </article>`).join('') : `<div class="placeholder">${catalogueLoaded ? 'Use GPT Search for intelligent product matching.' : 'Loading BLA products...'}</div>`;
+        </article>`).join('') : `<div class="placeholder">${catalogueLoaded ? 'Press Enter or the search button to see matching products.' : 'Loading BLA products...'}</div>`;
       document.querySelectorAll('.view-product').forEach(btn => {
         btn.addEventListener('click', () => openProduct(btn.dataset.code));
       });
@@ -1203,7 +1227,7 @@
       if (aiSearchRunning) return;
       aiSearchRunning = true;
       button.disabled = true;
-      status.textContent = 'GPT is searching the BLA catalogue...';
+      status.textContent = 'Searching the BLA catalogue...';
       try {
         const data = await postFormOrError(
           GAS_URL + '?action=searchBlaCatalogueAi',
@@ -1215,11 +1239,11 @@
         currentSubCategory = '';
         mode = 'products';
         if (catalogueLoadPromise) await catalogueLoadPromise;
-        status.textContent = data.summary || `${codes.length} GPT-ranked products found.`;
+        status.textContent = data.summary || `${codes.length} products found.`;
         render();
       } catch (error) {
-        console.error('BLA GPT search failed', error);
-        status.textContent = error.message || 'GPT search is temporarily unavailable.';
+        console.error('BLA search failed', error);
+        status.textContent = error.message || 'Search is temporarily unavailable.';
       } finally {
         aiSearchRunning = false;
         button.disabled = false;
