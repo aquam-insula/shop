@@ -416,6 +416,47 @@
       font-size: 13px;
       background: rgba(255,255,255,.7);
     }
+    .loading-state {
+      min-height: 120px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      color: var(--muted);
+      text-align: center;
+      padding: 16px;
+    }
+    .spinner {
+      width: 30px;
+      height: 30px;
+      border: 3px solid #d5e7ef;
+      border-top-color: var(--aq-ocean);
+      border-radius: 50%;
+      animation: spin .75s linear infinite;
+    }
+    .spinner.small {
+      width: 18px;
+      height: 18px;
+      border-width: 2px;
+    }
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+    .image-loading-overlay {
+      position: absolute;
+      inset: 0;
+      z-index: 2;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      background: rgba(255,255,255,.86);
+      color: var(--muted);
+      font-size: 13px;
+    }
     .product-body {
       padding: 12px;
       display: flex;
@@ -711,6 +752,12 @@
       color: var(--ok);
       font-weight: 650;
       line-height: 1.4;
+    }
+    .request-status.is-loading {
+      color: var(--muted);
+      display: flex;
+      align-items: center;
+      gap: 8px;
     }
     .request-actions {
       display: flex;
@@ -1088,6 +1135,28 @@
     function cardStyle(cat) {
       return `style="--cat-color:${esc(categoryColors[cat] || '#00a0d7')}"`;
     }
+    function loadingMarkup(text) {
+      return `<div class="loading-state"><div class="spinner" aria-hidden="true"></div><div>${esc(text)}</div></div>`;
+    }
+    function imageLoadingOverlay(text) {
+      return `<div class="image-loading-overlay"><div class="spinner" aria-hidden="true"></div><div>${esc(text)}</div></div>`;
+    }
+    function monitorImageLoading(container, text) {
+      const img = container.querySelector('img');
+      if (!img) return;
+      const overlay = document.createElement('div');
+      overlay.className = 'image-loading-overlay';
+      overlay.innerHTML = `<div class="spinner" aria-hidden="true"></div><div>${esc(text)}</div>`;
+      container.appendChild(overlay);
+      const done = () => overlay.remove();
+      if (img.dataset.loaded === '1' || (img.complete && !img.dataset.blaAsset)) {
+        done();
+        return;
+      }
+      img.addEventListener('load', done, { once: true });
+      img.addEventListener('bla-asset-loaded', done, { once: true });
+      img.addEventListener('error', done, { once: true });
+    }
     function assetImageTag(src, alt, className, thumb) {
       if (!src) return '';
       const loading = thumb === 'card' ? ' loading="lazy" decoding="async"' : ' decoding="async"';
@@ -1149,6 +1218,7 @@
               console.warn('BLA Drive image unavailable', item.path, error);
               item.img.src = driveImagePlaceholder(item.img.alt || 'BLA');
               item.img.dataset.loading = '0';
+              item.img.dispatchEvent(new CustomEvent('bla-asset-loaded'));
             }
           })
           .finally(() => {
@@ -1166,6 +1236,7 @@
         img.src = driveImageCache.get(cacheKey);
         img.dataset.loaded = '1';
         img.dataset.loading = '0';
+        img.dispatchEvent(new CustomEvent('bla-asset-loaded'));
         return Promise.resolve();
       }
       const url = `${GAS_URL}?action=getBlaAssetData&token=${encodeURIComponent(accessToken)}&path=${encodeURIComponent(path)}${thumb ? `&thumb=${encodeURIComponent(thumb)}` : ''}`;
@@ -1178,6 +1249,7 @@
           img.src = dataUrl;
           img.dataset.loaded = '1';
           img.dataset.loading = '0';
+          img.dispatchEvent(new CustomEvent('bla-asset-loaded'));
         });
     }
     function hydrateDriveImages(root, immediate) {
@@ -1383,7 +1455,7 @@
             </div>
             <button class="btn view-product" data-code="${esc(p.productNumber)}">View Product</button>
           </div>
-        </article>`).join('') : `<div class="placeholder">${catalogueLoaded ? 'Press Enter or the search button to see matching products.' : 'Loading BLA products...'}</div>`;
+        </article>`).join('') : (catalogueLoaded ? `<div class="placeholder">Press Enter or the search button to see matching products.</div>` : loadingMarkup('Loading products...'));
       document.querySelectorAll('.product-card').forEach(card => {
         const openCardProduct = () => openProduct(card.dataset.code);
         card.addEventListener('click', event => {
@@ -1417,6 +1489,7 @@
       const detailImage = document.getElementById('detailImage');
       detailImage.onclick = null;
       detailImage.innerHTML = `${imageMarkup(p, 'card')}<button class="image-zoom-button" type="button" aria-label="Open larger product image"><span class="zoom-lens" aria-hidden="true"><span class="zoom-plus-h"></span><span class="zoom-plus-v"></span></span></button>`;
+      monitorImageLoading(detailImage, 'Loading product image...');
       detailImage.querySelector('.image-zoom-button').addEventListener('click', event => {
         event.stopPropagation();
         openLargeProductImage(p);
@@ -1470,10 +1543,44 @@
       const viewer = document.getElementById('imageViewer');
       const body = document.getElementById('imageViewerBody');
       document.getElementById('imageViewerTitle').textContent = `${product.productNumber} - ${product.description}`;
-      body.innerHTML = imageMarkup(product);
       viewer.classList.add('open');
       viewer.setAttribute('aria-hidden', 'false');
-      hydrateDriveImages(body, true);
+      loadDetailedImageInto(body, product);
+    }
+    function loadDetailedImageInto(container, product) {
+      const src = productImageSource(product);
+      container.innerHTML = loadingMarkup('Loading detailed image...');
+      if (!src) {
+        container.innerHTML = '<div class="placeholder">Detailed image coming soon</div>';
+        return;
+      }
+      if (isRemoteAsset(src) || isStaticSiteAsset(src) || isLocalPreview) {
+        const img = new Image();
+        img.alt = product.description || '';
+        img.onload = () => container.replaceChildren(img);
+        img.onerror = () => { container.innerHTML = '<div class="placeholder">Detailed image could not be loaded</div>'; };
+        img.src = src;
+        return;
+      }
+      const path = normalizeDriveAssetPath(src);
+      const cacheKey = `full:${path}`;
+      if (driveImageCache.has(cacheKey)) {
+        container.innerHTML = `<img src="${driveImageCache.get(cacheKey)}" alt="${esc(product.description || '')}">`;
+        return;
+      }
+      const url = `${GAS_URL}?action=getBlaAssetData&token=${encodeURIComponent(accessToken)}&path=${encodeURIComponent(path)}`;
+      fetch(url)
+        .then(response => response.json())
+        .then(data => {
+          if (!data || data.error || !data.base64) throw new Error(data && data.error ? data.error : 'Image unavailable');
+          const dataUrl = `data:${data.mimeType || 'image/jpeg'};base64,${data.base64}`;
+          driveImageCache.set(cacheKey, dataUrl);
+          container.innerHTML = `<img src="${dataUrl}" alt="${esc(product.description || '')}">`;
+        })
+        .catch(error => {
+          console.warn('Detailed image unavailable', path, error);
+          container.innerHTML = '<div class="placeholder">Detailed image could not be loaded</div>';
+        });
     }
     function closeLargeProductImage() {
       const viewer = document.getElementById('imageViewer');
@@ -1490,6 +1597,7 @@
       document.getElementById('requestComments').value = activeRequestType === 'advice'
         ? ''
         : `Please send me a quotation for ${product.productNumber} - ${product.description}.`;
+      document.getElementById('requestStatus').classList.remove('is-loading');
       document.getElementById('requestStatus').textContent = '';
       document.getElementById('requestDialog').classList.add('open');
       document.getElementById('requestDialog').setAttribute('aria-hidden', 'false');
@@ -1516,15 +1624,18 @@
         priceFjdVip: Number(activeRequestProduct.price || 0) * (1 + vatRate)
       };
       submit.disabled = true;
-      status.textContent = 'Sending your request...';
+      status.classList.add('is-loading');
+      status.innerHTML = '<span class="spinner small" aria-hidden="true"></span><span>Sending your request...</span>';
       try {
         const data = await postFormOrError(
           GAS_URL + '?action=sendBlaProductRequest',
           { token: accessToken, request: JSON.stringify(payload) }
         );
+        status.classList.remove('is-loading');
         status.textContent = data.message || 'Thank you. Your request was received.';
         setTimeout(closeRequestDialog, 1400);
       } catch (error) {
+        status.classList.remove('is-loading');
         status.textContent = error.message || 'We could not send the request. Please try again.';
       } finally {
         submit.disabled = false;
@@ -1590,7 +1701,11 @@
       if (aiSearchRunning) return;
       aiSearchRunning = true;
       button.disabled = true;
-      status.textContent = 'Searching the BLA catalogue...';
+      status.classList.add('is-loading');
+      status.innerHTML = '<span class="spinner small" aria-hidden="true"></span><span>Loading products...</span>';
+      document.getElementById('productGrid').style.display = 'grid';
+      document.getElementById('categoryGrid').style.display = 'none';
+      document.getElementById('productGrid').innerHTML = loadingMarkup('Loading products...');
       try {
         const data = await postFormOrError(
           GAS_URL + '?action=searchBlaCatalogueAi',
@@ -1602,10 +1717,12 @@
         currentSubCategory = '';
         mode = 'products';
         if (catalogueLoadPromise) await catalogueLoadPromise;
+        status.classList.remove('is-loading');
         status.textContent = data.summary || `${codes.length} products found.`;
         render();
       } catch (error) {
         console.error('BLA search failed', error);
+        status.classList.remove('is-loading');
         status.textContent = error.message || 'Search is temporarily unavailable.';
       } finally {
         aiSearchRunning = false;
@@ -1613,6 +1730,8 @@
       }
     }
     function loadCatalogue() {
+      document.getElementById('productCount').innerHTML = '<span class="spinner small" aria-hidden="true"></span> Loading products...';
+      document.getElementById('resultCount').textContent = 'Loading products...';
       render();
       const feedUrl = isLocalPreview
         ? './data/bla_shop_feed_web.json'
