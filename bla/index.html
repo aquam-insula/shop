@@ -177,25 +177,6 @@
       transform: rotate(45deg);
       transform-origin: left center;
     }
-    .mode-tabs {
-      display: flex;
-      gap: 0;
-      margin: 14px 20px 0;
-      border-bottom: 1px solid var(--line);
-    }
-    .mode-tabs button {
-      border: 1px solid var(--line);
-      border-bottom: 0;
-      background: #fff;
-      padding: 9px 16px;
-      cursor: pointer;
-      font: inherit;
-    }
-    .mode-tabs button.active {
-      background: var(--aq-ocean);
-      color: #fff;
-      border-color: var(--aq-ocean);
-    }
     .intro {
       margin: 24px 20px 12px;
       min-height: 280px;
@@ -673,10 +654,6 @@
         <option value="1000">1000 shown</option>
       </select>
     </div>
-    <div class="mode-tabs">
-      <button id="tabCategories" class="active">BLA Categories</button>
-      <button id="tabProducts">All BLA Products</button>
-    </div>
   </div>
 
   <section class="intro">
@@ -1025,8 +1002,9 @@
         const top = topCategory(p);
         const sub = subCategoryName(p);
         const aiMatch = !aiResultCodes || aiResultCodes.has(String(p.productNumber));
-        return (!currentTopCategory || top === currentTopCategory) &&
-          (!currentSubCategory || sub === currentSubCategory) &&
+        const globalSearch = !!aiResultCodes;
+        return (globalSearch || !currentTopCategory || top === currentTopCategory) &&
+          (globalSearch || !currentSubCategory || sub === currentSubCategory) &&
           aiMatch;
       });
       rows.sort((a, b) => {
@@ -1054,11 +1032,7 @@
       });
     }
     function renderCategories() {
-      const query = document.getElementById('search').value.trim().toLowerCase();
-      const cats = groupedTopCategories().filter(([cat, rows]) => {
-        if (!query) return true;
-        return cat.toLowerCase().includes(query) || rows.some(p => [p.description, p.productNumber, subCategoryName(p)].join(' ').toLowerCase().includes(query));
-      });
+      const cats = groupedTopCategories();
       document.getElementById('viewTitle').textContent = 'BLA Categories';
       document.getElementById('resultCount').textContent = catalogueLoaded
         ? `${cats.length} categories`
@@ -1160,8 +1134,6 @@
       hydrateDriveImages(document.getElementById('productGrid'));
     }
     function render() {
-      document.getElementById('tabCategories').classList.toggle('active', mode === 'categories');
-      document.getElementById('tabProducts').classList.toggle('active', mode === 'products');
       renderSidebar();
       if (mode === 'categories') renderCategories();
       else renderProducts();
@@ -1212,8 +1184,6 @@
           });
       }
     }
-    document.getElementById('tabCategories').addEventListener('click', () => { currentTopCategory = ''; currentSubCategory = ''; mode = 'categories'; render(); });
-    document.getElementById('tabProducts').addEventListener('click', () => { mode = 'products'; render(); });
     document.getElementById('backToCategories').addEventListener('click', () => {
       currentTopCategory = '';
       currentSubCategory = '';
@@ -1226,9 +1196,10 @@
     });
     ['search', 'sort', 'limit'].forEach(id => {
       document.getElementById(id).addEventListener('input', () => {
-        if (id === 'search' && mode === 'categories' && document.getElementById('search').value.trim()) {
+        if (id === 'search' && document.getElementById('search').value.trim()) {
           currentTopCategory = '';
           currentSubCategory = '';
+          mode = 'products';
         }
         if (id === 'search') {
           aiResultCodes = null;
