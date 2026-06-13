@@ -1535,8 +1535,7 @@
       else renderProducts();
     }
     function scrollResultsToTop() {
-      const target = document.querySelector('.catalogue-shell') || document.getElementById('viewTitle');
-      if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      window.scrollTo({ top: 0, behavior: 'smooth' });
     }
     function openProduct(code) {
       const p = products.find(x => String(x.productNumber) === String(code));
