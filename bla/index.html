@@ -407,8 +407,14 @@
       display: flex;
       flex-direction: column;
       min-height: 410px;
+      cursor: pointer;
       transition: box-shadow .2s;
       box-shadow: 0 0 0 1px color-mix(in srgb, var(--cat-color, var(--aq-ocean)) 18%, transparent);
+    }
+    .category-card:focus-visible,
+    .product-card:focus-visible {
+      outline: 3px solid var(--aq-magenta);
+      outline-offset: 3px;
     }
     .image-container {
       height: 215px;
@@ -1070,7 +1076,7 @@
           : 'Prices loading';
         const exampleLine = sample.description ? `<div class="muted">Example: ${esc(sample.description)}</div>` : '';
         return `
-          <article class="category-card" data-top="${esc(cat)}" ${cardStyle(cat)}>
+          <article class="category-card" data-top="${esc(cat)}" role="button" tabindex="0" aria-label="Open ${esc(cat)}" ${cardStyle(cat)}>
             <div class="category-image">${categoryImage(sample.categoryImage, cat)}</div>
             <div class="category-body">
               <h3>${esc(cat)}</h3>
@@ -1082,11 +1088,18 @@
           </article>`;
       }).join('');
       document.querySelectorAll('.category-card').forEach(card => {
-        card.addEventListener('click', () => {
+        const openCategory = () => {
           currentTopCategory = card.dataset.top;
           currentSubCategory = '';
           mode = 'products';
           render();
+        };
+        card.addEventListener('click', openCategory);
+        card.addEventListener('keydown', event => {
+          if (event.key === 'Enter' || event.key === ' ') {
+            event.preventDefault();
+            openCategory();
+          }
         });
       });
       hydrateDriveImages(document.getElementById('categoryGrid'), true);
@@ -1105,7 +1118,7 @@
       document.getElementById('backRow').style.display = currentTopCategory ? 'block' : 'none';
       document.getElementById('backToCategories').textContent = 'Back to Categories';
       document.getElementById('productGrid').innerHTML = catalogueLoaded && !awaitingSearch ? rows.slice(0, limit).map(p => `
-        <article class="product-card" ${cardStyle(topCategory(p))}>
+        <article class="product-card" data-code="${esc(p.productNumber)}" role="button" tabindex="0" aria-label="View ${esc(p.description)}" ${cardStyle(topCategory(p))}>
           <div class="image-container">${imageMarkup(p, 'card')}</div>
           <div class="product-body">
             <div class="product-brand-row">
@@ -1125,8 +1138,24 @@
             <button class="btn view-product" data-code="${esc(p.productNumber)}">View Product</button>
           </div>
         </article>`).join('') : `<div class="placeholder">${catalogueLoaded ? 'Press Enter or the search button to see matching products.' : 'Loading BLA products...'}</div>`;
+      document.querySelectorAll('.product-card').forEach(card => {
+        const openCardProduct = () => openProduct(card.dataset.code);
+        card.addEventListener('click', event => {
+          if (event.target.closest('button, a')) return;
+          openCardProduct();
+        });
+        card.addEventListener('keydown', event => {
+          if (event.key === 'Enter' || event.key === ' ') {
+            event.preventDefault();
+            openCardProduct();
+          }
+        });
+      });
       document.querySelectorAll('.view-product').forEach(btn => {
-        btn.addEventListener('click', () => openProduct(btn.dataset.code));
+        btn.addEventListener('click', event => {
+          event.stopPropagation();
+          openProduct(btn.dataset.code);
+        });
       });
       hydrateDriveImages(document.getElementById('productGrid'));
     }
