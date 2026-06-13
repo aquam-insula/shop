@@ -654,6 +654,8 @@
     let accessToken = '';
     const isLocalPreview = ['127.0.0.1', 'localhost'].includes(window.location.hostname);
     const driveImageCache = new Map();
+    const driveImageQueue = [];
+    let driveImageActive = 0;
     let driveImageObserver;
     const aiCache = new Map();
     const fallbackIntro = 'Additional product information is currently being prepared.';
@@ -806,25 +808,53 @@
       if (src) return assetImageTag(src, product.description);
       return `<div class="placeholder">Product image coming soon</div>`;
     }
-    function loadDriveAssetImage(img) {
+    function queueDriveAssetImage(img) {
       const path = img.dataset.blaAsset;
-      if (!path || img.dataset.loaded === '1') return;
-      img.dataset.loaded = '1';
+      if (!path || img.dataset.loaded === '1' || img.dataset.loading === '1') return;
+      img.dataset.loading = '1';
+      driveImageQueue.push({ img, path, attempt: 0 });
+      processDriveImageQueue();
+    }
+    function processDriveImageQueue() {
+      while (driveImageActive < 2 && driveImageQueue.length) {
+        const item = driveImageQueue.shift();
+        driveImageActive += 1;
+        loadDriveAssetImage(item)
+          .catch(error => {
+            if (item.attempt < 1) {
+              item.attempt += 1;
+              driveImageQueue.push(item);
+            } else {
+              console.warn('BLA Drive image unavailable', item.path, error);
+              item.img.src = driveImagePlaceholder(item.img.alt || 'BLA');
+              item.img.dataset.loading = '0';
+            }
+          })
+          .finally(() => {
+            driveImageActive -= 1;
+            processDriveImageQueue();
+          });
+      }
+    }
+    function loadDriveAssetImage(item) {
+      const img = item.img;
+      const path = item.path;
       if (driveImageCache.has(path)) {
         img.src = driveImageCache.get(path);
-        return;
+        img.dataset.loaded = '1';
+        img.dataset.loading = '0';
+        return Promise.resolve();
       }
       const url = `${GAS_URL}?action=getBlaAssetData&token=${encodeURIComponent(accessToken)}&path=${encodeURIComponent(path)}`;
-      fetch(url)
+      return fetch(url)
         .then(response => response.json())
         .then(data => {
           if (!data || data.error || !data.base64) throw new Error(data && data.error ? data.error : 'Image unavailable');
           const dataUrl = `data:${data.mimeType || 'image/jpeg'};base64,${data.base64}`;
           driveImageCache.set(path, dataUrl);
           img.src = dataUrl;
-        })
-        .catch(() => {
-          img.src = driveImagePlaceholder(img.alt || 'BLA');
+          img.dataset.loaded = '1';
+          img.dataset.loading = '0';
         });
     }
     function hydrateDriveImages(root) {
@@ -832,7 +862,7 @@
       const images = Array.from((root || document).querySelectorAll('img[data-bla-asset]'));
       if (!images.length) return;
       if (!('IntersectionObserver' in window)) {
-        images.forEach(loadDriveAssetImage);
+        images.forEach(queueDriveAssetImage);
         return;
       }
       if (!driveImageObserver) {
@@ -840,7 +870,7 @@
           entries.forEach(entry => {
             if (entry.isIntersecting) {
               driveImageObserver.unobserve(entry.target);
-              loadDriveAssetImage(entry.target);
+              queueDriveAssetImage(entry.target);
             }
           });
         }, { rootMargin: '320px 0px' });
