@@ -125,18 +125,33 @@
     }
     .search-row {
       display: grid;
-      grid-template-columns: minmax(300px, 1fr) 220px 140px;
+      grid-template-columns: minmax(300px, 1fr) 150px 220px 140px;
       gap: 10px;
       width: calc(100% - 40px);
       margin: 16px 20px 0;
       align-items: center;
     }
-    input, select {
+    input, select, .search-row button {
       height: 40px;
       border: 1px solid var(--line);
       padding: 0 10px;
       font: inherit;
       background: #fff;
+    }
+    .search-row button {
+      cursor: pointer;
+      border-color: var(--aq-ocean);
+      background: var(--aq-ocean);
+      color: #fff;
+      font-weight: 700;
+    }
+    .search-row button:hover {
+      border-color: var(--aq-magenta);
+      background: var(--aq-magenta);
+    }
+    .search-row button:disabled {
+      cursor: wait;
+      opacity: .65;
     }
     .mode-tabs {
       display: flex;
@@ -182,6 +197,11 @@
       margin: 0;
       color: var(--muted);
       line-height: 1.5;
+    }
+    .ai-search-status {
+      margin-top: 4px;
+      color: var(--aq-ocean);
+      font-weight: 650;
     }
     .intro p {
       color: #eef8ff;
@@ -609,6 +629,7 @@
     </div>
     <div class="search-row">
       <input id="search" type="search" placeholder="Search product code, product, brand or category">
+      <button id="aiSearch" type="button">GPT Search</button>
       <select id="sort">
         <option value="category">Sort by category</option>
         <option value="code">Sort by product code</option>
@@ -658,6 +679,7 @@
         <div>
           <h2 id="viewTitle">BLA Categories</h2>
           <div id="resultCount" class="muted">Loading...</div>
+          <div id="aiSearchStatus" class="ai-search-status" aria-live="polite"></div>
         </div>
       </div>
       <section id="categoryGrid" class="category-grid"></section>
@@ -688,6 +710,10 @@
     let currentSubCategory = '';
     let mode = 'categories';
     let accessToken = '';
+    let catalogueLoaded = false;
+    let catalogueLoadPromise = null;
+    let aiResultCodes = null;
+    let aiSearchRunning = false;
     const isLocalPreview = ['127.0.0.1', 'localhost'].includes(window.location.hostname);
     const driveImageCache = new Map();
     const driveImageQueue = [];
@@ -709,6 +735,7 @@
       'Tools & Chandlery': './assets/categories/tools-chandlery.jpg',
       'Trailering': './assets/categories/trailering.jpg'
     };
+    const categoryNames = Object.keys(categoryIllustrations);
     const categoryColors = {
       'Anchoring & Mooring': '#00a6b2',
       'Covers, Seats & Boat Fitout': '#7a8a97',
@@ -838,10 +865,11 @@
     }
     function assetImageTag(src, alt, className, thumb) {
       if (!src) return '';
+      const loading = thumb === 'card' ? ' loading="lazy" decoding="async"' : ' decoding="async"';
       if (isRemoteAsset(src) || isStaticSiteAsset(src) || isLocalPreview) {
-        return `<img src="${esc(src)}" alt="${esc(alt)}"${className ? ` class="${esc(className)}"` : ''}>`;
+        return `<img src="${esc(src)}" alt="${esc(alt)}"${className ? ` class="${esc(className)}"` : ''}${loading}>`;
       }
-      return `<img src="${driveImagePlaceholder(alt)}" data-bla-asset="${esc(normalizeDriveAssetPath(src))}"${thumb ? ` data-bla-thumb="${esc(thumb)}"` : ''} alt="${esc(alt)}"${className ? ` class="${esc(className)}"` : ''}>`;
+      return `<img src="${driveImagePlaceholder(alt)}" data-bla-asset="${esc(normalizeDriveAssetPath(src))}"${thumb ? ` data-bla-thumb="${esc(thumb)}"` : ''} alt="${esc(alt)}"${className ? ` class="${esc(className)}"` : ''}${loading}>`;
     }
     function categoryImage(src, label) {
       const illustrative = categoryIllustrations[label] || src;
@@ -953,6 +981,7 @@
     }
     function groupedTopCategories() {
       const map = new Map();
+      categoryNames.forEach(cat => map.set(cat, []));
       products.forEach(p => {
         const cat = topCategory(p);
         if (!map.has(cat)) map.set(cat, []);
@@ -967,8 +996,10 @@
         const top = topCategory(p);
         const sub = subCategoryName(p);
         const text = [p.productNumber, p.description, p.brand, top, sub, p.subCategory].join(' ').toLowerCase();
+        const aiMatch = !aiResultCodes || aiResultCodes.has(String(p.productNumber));
         return (!currentTopCategory || top === currentTopCategory) &&
           (!currentSubCategory || sub === currentSubCategory) &&
+          aiMatch &&
           (!query || text.includes(query));
       });
       rows.sort((a, b) => {
@@ -1002,7 +1033,9 @@
         return cat.toLowerCase().includes(query) || rows.some(p => [p.description, p.productNumber, subCategoryName(p)].join(' ').toLowerCase().includes(query));
       });
       document.getElementById('viewTitle').textContent = 'BLA Categories';
-      document.getElementById('resultCount').textContent = `${cats.length} categories`;
+      document.getElementById('resultCount').textContent = catalogueLoaded
+        ? `${cats.length} categories`
+        : `${cats.length} categories | loading prices and product counts`;
       document.getElementById('categoryGrid').style.display = 'grid';
       document.getElementById('productGrid').style.display = 'none';
       document.getElementById('backRow').style.display = 'none';
@@ -1010,15 +1043,20 @@
       document.getElementById('categoryGrid').innerHTML = cats.map(([cat, rows]) => {
         const minPrice = Math.min(...rows.map(p => Number(p.price || 0)).filter(Boolean));
         const sample = rows[0] || {};
+        const countLine = catalogueLoaded ? `${rows.length} BLA products` : 'Catalogue loading';
+        const priceLine = catalogueLoaded
+          ? `From FJD incl. VAT ${money(isFinite(minPrice) ? minPrice * (1 + vatRate) : 0)}`
+          : 'Prices loading';
+        const exampleLine = sample.description ? `<div class="muted">Example: ${esc(sample.description)}</div>` : '';
         return `
           <article class="category-card" data-top="${esc(cat)}" ${cardStyle(cat)}>
             <div class="category-image">${categoryImage(sample.categoryImage, cat)}</div>
             <div class="category-body">
               <h3>${esc(cat)}</h3>
-              <div class="muted">${rows.length} BLA products</div>
-              <div class="muted">From FJD incl. VAT ${money(isFinite(minPrice) ? minPrice * (1 + vatRate) : 0)}</div>
+              <div class="muted">${countLine}</div>
+              <div class="muted">${priceLine}</div>
               <div class="muted">${esc(cat)} from the BLA Australia catalogue.</div>
-              <div class="muted">Example: ${esc(sample.description || '')}</div>
+              ${exampleLine}
             </div>
           </article>`;
       }).join('');
@@ -1036,12 +1074,14 @@
       const rows = currentRows();
       const limit = Number(document.getElementById('limit').value);
       document.getElementById('viewTitle').textContent = currentSubCategory || currentTopCategory || 'All BLA Products';
-      document.getElementById('resultCount').textContent = `${rows.length} products found | showing ${Math.min(limit, rows.length)}`;
+      document.getElementById('resultCount').textContent = catalogueLoaded
+        ? `${rows.length} products found | showing ${Math.min(limit, rows.length)}${aiResultCodes ? ' | GPT ranked' : ''}`
+        : 'Loading products and prices...';
       document.getElementById('categoryGrid').style.display = 'none';
       document.getElementById('productGrid').style.display = 'grid';
       document.getElementById('backRow').style.display = currentTopCategory ? 'block' : 'none';
       document.getElementById('backToCategories').textContent = 'Back to Categories';
-      document.getElementById('productGrid').innerHTML = rows.slice(0, limit).map(p => `
+      document.getElementById('productGrid').innerHTML = catalogueLoaded ? rows.slice(0, limit).map(p => `
         <article class="product-card" ${cardStyle(topCategory(p))}>
           <div class="image-container">${imageMarkup(p, 'card')}</div>
           <div class="product-body">
@@ -1061,7 +1101,7 @@
             </div>
             <button class="btn view-product" data-code="${esc(p.productNumber)}">View Product</button>
           </div>
-        </article>`).join('');
+        </article>`).join('') : '<div class="placeholder">Loading BLA products...</div>';
       document.querySelectorAll('.view-product').forEach(btn => {
         btn.addEventListener('click', () => openProduct(btn.dataset.code));
       });
@@ -1138,19 +1178,59 @@
           currentTopCategory = '';
           currentSubCategory = '';
         }
+        if (id === 'search') {
+          aiResultCodes = null;
+          document.getElementById('aiSearchStatus').textContent = '';
+        }
         render();
       });
       document.getElementById(id).addEventListener('change', render);
     });
+    document.getElementById('aiSearch').addEventListener('click', runAiSearch);
+    async function runAiSearch() {
+      const query = document.getElementById('search').value.trim();
+      const status = document.getElementById('aiSearchStatus');
+      const button = document.getElementById('aiSearch');
+      if (!query) {
+        status.textContent = 'Enter a search phrase first.';
+        return;
+      }
+      if (aiSearchRunning) return;
+      aiSearchRunning = true;
+      button.disabled = true;
+      status.textContent = 'GPT is searching the BLA catalogue...';
+      try {
+        const data = await postFormOrError(
+          GAS_URL + '?action=searchBlaCatalogueAi',
+          { token: accessToken, query }
+        );
+        const codes = Array.isArray(data.codes) ? data.codes.map(String) : [];
+        aiResultCodes = new Set(codes);
+        currentTopCategory = '';
+        currentSubCategory = '';
+        mode = 'products';
+        if (catalogueLoadPromise) await catalogueLoadPromise;
+        status.textContent = data.summary || `${codes.length} GPT-ranked products found.`;
+        render();
+      } catch (error) {
+        console.error('BLA GPT search failed', error);
+        status.textContent = error.message || 'GPT search is temporarily unavailable.';
+      } finally {
+        aiSearchRunning = false;
+        button.disabled = false;
+      }
+    }
     function loadCatalogue() {
+      render();
       const feedUrl = isLocalPreview
         ? './data/bla_shop_feed_web.json'
         : `${GAS_URL}?action=getBlaCatalogueFeed&token=${encodeURIComponent(accessToken)}`;
-      fetch(feedUrl)
+      catalogueLoadPromise = fetch(feedUrl)
         .then(response => response.json())
         .then(data => {
           if (data && data.error) throw new Error(data.error);
           products = data;
+          catalogueLoaded = true;
           document.getElementById('productCount').textContent = `${products.length.toLocaleString('en-US')} BLA products`;
           render();
         })
