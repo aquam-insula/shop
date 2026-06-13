@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=1000">
   <meta name="robots" content="noindex,nofollow">
   <title>AQUAM INSULA | BLA Partner Catalogue</title>
+  <link rel="preload" as="image" href="./assets/wave-hero.jpg">
   <style>
     :root {
       --aq-blue: #00a0d7;
@@ -38,7 +39,7 @@
       padding: 28px;
       background:
         linear-gradient(0deg, rgba(255,255,255,.74), rgba(255,255,255,.74)),
-        url("./assets/wave.jpg");
+        url("./assets/wave-hero-small.jpg");
       background-size: cover;
       background-position: center;
     }
@@ -183,7 +184,7 @@
       display: flex;
       align-items: center;
       border: 1px solid #d6e3ee;
-      background: url("./assets/wave.jpg");
+      background: url("./assets/wave-hero.jpg");
       background-size: cover;
       background-position: center 54%;
       color: #fff;
@@ -191,6 +192,11 @@
     .intro-main {
       max-width: 760px;
       padding: 36px 42px;
+      opacity: 0;
+      transition: opacity .18s ease;
+    }
+    body.hero-ready .intro-main {
+      opacity: 1;
     }
     h1 {
       margin: 0 0 8px;
@@ -525,6 +531,7 @@
       padding: 18px;
     }
     .detail-image-main {
+      position: relative;
       height: 390px;
       display: flex;
       align-items: center;
@@ -534,6 +541,21 @@
       text-align: center;
       padding: 16px;
       color: var(--muted);
+    }
+    .detail-image-main.is-clickable {
+      cursor: zoom-in;
+    }
+    .detail-image-hint {
+      position: absolute;
+      left: 12px;
+      right: 12px;
+      bottom: 12px;
+      padding: 7px 10px;
+      background: rgba(0, 71, 97, .86);
+      color: #fff;
+      font-size: 12px;
+      text-align: center;
+      pointer-events: none;
     }
     .detail-image-main img {
       max-width: 100%;
@@ -728,6 +750,12 @@
     let driveImageObserver;
     const aiCache = new Map();
     const fallbackIntro = 'Additional product information is currently being prepared.';
+    const heroImage = new Image();
+    const markHeroReady = () => document.body.classList.add('hero-ready');
+    heroImage.onload = markHeroReady;
+    heroImage.onerror = markHeroReady;
+    heroImage.src = './assets/wave-hero.jpg';
+    setTimeout(markHeroReady, 1200);
     const categoryIllustrations = {
       'Anchoring & Mooring': './assets/categories/anchoring-mooring.jpg',
       'Covers, Seats & Boat Fitout': './assets/categories/covers-seats-fitout.jpg',
@@ -1141,8 +1169,16 @@
     function openProduct(code) {
       const p = products.find(x => String(x.productNumber) === String(code));
       if (!p) return;
-      document.getElementById('detailImage').innerHTML = imageMarkup(p);
-      hydrateDriveImages(document.getElementById('detailImage'), true);
+      const detailImage = document.getElementById('detailImage');
+      detailImage.classList.add('is-clickable');
+      detailImage.innerHTML = `${imageMarkup(p, 'card')}<div class="detail-image-hint">Click image to load full size</div>`;
+      detailImage.onclick = () => {
+        detailImage.classList.remove('is-clickable');
+        detailImage.innerHTML = imageMarkup(p);
+        detailImage.onclick = null;
+        hydrateDriveImages(detailImage, true);
+      };
+      hydrateDriveImages(detailImage, true);
       const specs = Array.isArray(p.specifications) ? p.specifications : [];
       document.getElementById('detailContent').innerHTML = `
         <div class="product-brand-row detail-brand-row">
