@@ -1000,7 +1000,7 @@
         return (!currentTopCategory || top === currentTopCategory) &&
           (!currentSubCategory || sub === currentSubCategory) &&
           aiMatch &&
-          (!query || text.includes(query));
+          (!query || aiResultCodes || text.includes(query));
       });
       rows.sort((a, b) => {
         if (sort === 'priceAsc') return Number(a.price || 0) - Number(b.price || 0);
