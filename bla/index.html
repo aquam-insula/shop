@@ -1344,10 +1344,14 @@
       list.querySelectorAll('button').forEach(btn => {
         if (btn.disabled) return;
         btn.addEventListener('click', () => {
-          currentTopCategory = btn.dataset.top || '';
-          currentSubCategory = btn.dataset.sub || '';
-          mode = currentSubCategory ? 'products' : (currentTopCategory ? 'subcategories' : 'categories');
-          render();
+          if (btn.dataset.sub) {
+            currentTopCategory = btn.dataset.top || '';
+            currentSubCategory = btn.dataset.sub || '';
+            mode = 'products';
+            render();
+          } else {
+            openTopCategory(btn.dataset.top || '');
+          }
         });
       });
     }
@@ -1361,6 +1365,24 @@
           map.get(sub).push(p);
         });
       return Array.from(map.entries()).sort((a, b) => a[0].localeCompare(b[0]));
+    }
+    function openTopCategory(cat) {
+      currentTopCategory = cat || '';
+      currentSubCategory = '';
+      if (!currentTopCategory) {
+        mode = 'categories';
+      } else if (catalogueLoaded) {
+        const subs = groupedSubCategories();
+        if (subs.length === 1) {
+          currentSubCategory = subs[0][0];
+          mode = 'products';
+        } else {
+          mode = 'subcategories';
+        }
+      } else {
+        mode = 'subcategories';
+      }
+      render();
     }
     function renderCategories() {
       const cats = groupedTopCategories();
@@ -1395,10 +1417,7 @@
       }).join('');
       document.querySelectorAll('.category-card').forEach(card => {
         const openCategory = () => {
-          currentTopCategory = card.dataset.top;
-          currentSubCategory = '';
-          mode = 'subcategories';
-          render();
+          openTopCategory(card.dataset.top);
         };
         card.addEventListener('click', openCategory);
         card.addEventListener('keydown', event => {
@@ -1412,6 +1431,12 @@
     }
     function renderSubCategories() {
       const subs = groupedSubCategories();
+      if (catalogueLoaded && subs.length === 1) {
+        currentSubCategory = subs[0][0];
+        mode = 'products';
+        renderProducts();
+        return;
+      }
       document.getElementById('viewTitle').textContent = currentTopCategory || 'BLA Subcategories';
       document.getElementById('resultCount').textContent = `${subs.length} subcategories`;
       document.getElementById('categoryGrid').style.display = 'grid';
@@ -1508,6 +1533,10 @@
       if (mode === 'categories') renderCategories();
       else if (mode === 'subcategories') renderSubCategories();
       else renderProducts();
+    }
+    function scrollResultsToTop() {
+      const target = document.querySelector('.catalogue-shell') || document.getElementById('viewTitle');
+      if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
     function openProduct(code) {
       const p = products.find(x => String(x.productNumber) === String(code));
@@ -1716,6 +1745,38 @@
         runAiSearch();
       }
     });
+    function localSearchCodes(query, limit) {
+      const terms = query.toLowerCase().split(/[^a-z0-9]+/).filter(term => term.length > 1);
+      const phrase = query.toLowerCase();
+      return products.map(p => {
+        const code = String(p.productNumber || '').toLowerCase();
+        const title = String(p.description || '').toLowerCase();
+        const text = [
+          p.productNumber,
+          p.description,
+          p.brand,
+          topCategory(p),
+          subCategoryName(p),
+          p.catalogueDescription,
+          p.websiteDescription,
+          p.subCategoryDescription
+        ].join(' ').toLowerCase();
+        let score = 0;
+        if (code === phrase) score += 300;
+        if (code.includes(phrase)) score += 150;
+        if (title.includes(phrase)) score += 120;
+        if (text.includes(phrase)) score += 80;
+        terms.forEach(term => {
+          if (code.includes(term)) score += 40;
+          if (title.includes(term)) score += 24;
+          if (text.includes(term)) score += 10;
+        });
+        return { code: String(p.productNumber || ''), score };
+      }).filter(item => item.code && item.score > 0)
+        .sort((a, b) => b.score - a.score)
+        .slice(0, limit || 48)
+        .map(item => item.code);
+    }
     async function runAiSearch() {
       const query = document.getElementById('search').value.trim();
       const status = document.getElementById('aiSearchStatus');
@@ -1732,6 +1793,18 @@
       document.getElementById('productGrid').style.display = 'grid';
       document.getElementById('categoryGrid').style.display = 'none';
       document.getElementById('productGrid').innerHTML = loadingMarkup('Loading products...');
+      if (catalogueLoaded) {
+        const previewCodes = localSearchCodes(query, 48);
+        if (previewCodes.length) {
+          aiResultCodes = new Set(previewCodes);
+          currentTopCategory = '';
+          currentSubCategory = '';
+          mode = 'products';
+          status.innerHTML = '<span class="spinner small" aria-hidden="true"></span><span>Refining products...</span>';
+          render();
+          scrollResultsToTop();
+        }
+      }
       try {
         const data = await postFormOrError(
           GAS_URL + '?action=searchBlaCatalogueAi',
@@ -1746,6 +1819,7 @@
         status.classList.remove('is-loading');
         status.textContent = data.summary || `${codes.length} products found.`;
         render();
+        scrollResultsToTop();
       } catch (error) {
         console.error('BLA search failed', error);
         status.classList.remove('is-loading');
