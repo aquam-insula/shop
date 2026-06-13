@@ -992,6 +992,8 @@
     let mode = 'categories';
     let accessToken = '';
     let catalogueLoaded = false;
+    let categorySummaryLoaded = false;
+    let categorySummary = null;
     let catalogueLoadPromise = null;
     let aiResultCodes = null;
     let aiSearchRunning = false;
@@ -1155,8 +1157,19 @@
     function loadingMarkup(text) {
       return `<div class="loading-state"><div class="spinner" aria-hidden="true"></div><div>${esc(text)}</div></div>`;
     }
-    function countLabel(rows) {
-      return catalogueLoaded ? ` (${rows.length})` : ' (loading)';
+    function categorySummaryFor(cat) {
+      return categorySummary && Array.isArray(categorySummary.categories)
+        ? categorySummary.categories.find(item => item.name === cat)
+        : null;
+    }
+    function subcategorySummariesFor(cat) {
+      const summary = categorySummaryFor(cat);
+      return summary && Array.isArray(summary.subcategories) ? summary.subcategories : [];
+    }
+    function countLabel(rows, cat) {
+      if (catalogueLoaded) return ` (${rows.length})`;
+      const summary = cat ? categorySummaryFor(cat) : null;
+      return summary ? ` (${summary.count})` : ' (loading)';
     }
     function imageLoadingOverlay(text) {
       return `<div class="image-loading-overlay"><div class="spinner" aria-hidden="true"></div><div>${esc(text)}</div></div>`;
@@ -1299,6 +1312,12 @@
     function groupedTopCategories() {
       const map = new Map();
       categoryNames.forEach(cat => map.set(cat, []));
+      if (!catalogueLoaded && categorySummaryLoaded && categorySummary && Array.isArray(categorySummary.categories)) {
+        categorySummary.categories.forEach(category => {
+          if (!map.has(category.name)) map.set(category.name, []);
+        });
+        return Array.from(map.entries()).sort((a, b) => a[0].localeCompare(b[0]));
+      }
       products.forEach(p => {
         const cat = topCategory(p);
         if (!map.has(cat)) map.set(cat, []);
@@ -1332,14 +1351,23 @@
       const cats = groupedTopCategories();
       list.innerHTML = `<button class="${currentTopCategory ? '' : 'active'}" data-top="">All categories</button>` +
         cats.map(([cat, rows]) => {
-          const subs = currentTopCategory === cat
-            ? (catalogueLoaded
-              ? groupedSubCategories().map(([sub, subRows]) =>
-                `<button class="subcategory-node ${currentSubCategory === sub ? 'active' : ''}" data-top="${esc(cat)}" data-sub="${esc(sub)}">${esc(sub)}${countLabel(subRows)}</button>`
-              ).join('')
-              : '<button class="subcategory-node loading-node" data-top="" disabled>Loading subcategories...</button>')
-            : '';
-          return `<button class="${currentTopCategory === cat && !currentSubCategory ? 'active' : ''}" data-top="${esc(cat)}">${esc(cat)}${countLabel(rows)}</button>${subs}`;
+          let subs = '';
+          if (currentTopCategory === cat) {
+            if (catalogueLoaded) {
+              const subGroups = groupedSubCategories();
+              subs = subGroups.length > 1 ? subGroups.map(([sub, subRows]) =>
+                `<button class="subcategory-node ${currentSubCategory === sub ? 'active' : ''}" data-top="${esc(cat)}" data-sub="${esc(sub)}">${esc(sub)} (${subRows.length})</button>`
+              ).join('') : '';
+            } else if (categorySummaryLoaded) {
+              const subSummaries = subcategorySummariesFor(cat);
+              subs = subSummaries.length > 1 ? subSummaries.map(sub =>
+                `<button class="subcategory-node ${currentSubCategory === sub.name ? 'active' : ''}" data-top="${esc(cat)}" data-sub="${esc(sub.name)}">${esc(sub.name)} (${sub.count})</button>`
+              ).join('') : '';
+            } else {
+              subs = '<button class="subcategory-node loading-node" data-top="" disabled>Loading subcategories...</button>';
+            }
+          }
+          return `<button class="${currentTopCategory === cat && !currentSubCategory ? 'active' : ''}" data-top="${esc(cat)}">${esc(cat)}${countLabel(rows, cat)}</button>${subs}`;
         }).join('');
       list.querySelectorAll('button').forEach(btn => {
         if (btn.disabled) return;
@@ -1371,10 +1399,12 @@
       currentSubCategory = '';
       if (!currentTopCategory) {
         mode = 'categories';
-      } else if (catalogueLoaded) {
-        const subs = groupedSubCategories();
+      } else if (catalogueLoaded || categorySummaryLoaded) {
+        const subs = catalogueLoaded
+          ? groupedSubCategories().map(([name]) => ({ name }))
+          : subcategorySummariesFor(currentTopCategory);
         if (subs.length === 1) {
-          currentSubCategory = subs[0][0];
+          currentSubCategory = subs[0].name;
           mode = 'products';
         } else {
           mode = 'subcategories';
@@ -1389,19 +1419,26 @@
       document.getElementById('viewTitle').textContent = 'BLA Categories';
       document.getElementById('resultCount').innerHTML = catalogueLoaded
         ? `${cats.length} categories`
-        : '<span class="spinner small" aria-hidden="true"></span> Loading products and prices...';
+        : (categorySummaryLoaded
+          ? `${cats.length} categories | loading product details...`
+          : '<span class="spinner small" aria-hidden="true"></span> Loading products and prices...');
       document.getElementById('categoryGrid').style.display = 'grid';
       document.getElementById('productGrid').style.display = 'none';
       document.getElementById('backRow').style.display = 'none';
       document.getElementById('backToCategories').textContent = 'Back to Categories';
-      const loadingPanel = catalogueLoaded ? '' : `<div class="category-loading">${loadingMarkup('Loading products...')}</div>`;
+      const loadingPanel = catalogueLoaded || categorySummaryLoaded ? '' : `<div class="category-loading">${loadingMarkup('Loading products...')}</div>`;
       document.getElementById('categoryGrid').innerHTML = loadingPanel + cats.map(([cat, rows]) => {
-        const minPrice = Math.min(...rows.map(p => Number(p.price || 0)).filter(Boolean));
-        const sample = rows[0] || {};
-        const countLine = catalogueLoaded ? `${rows.length} BLA products` : 'Loading product count';
+        const summary = categorySummaryFor(cat);
+        const minPrice = catalogueLoaded
+          ? Math.min(...rows.map(p => Number(p.price || 0)).filter(Boolean))
+          : Number(summary && summary.minPrice || 0);
+        const sample = rows[0] || (summary && summary.sample) || {};
+        const countLine = catalogueLoaded
+          ? `${rows.length} BLA products`
+          : (summary ? `${summary.count} BLA products` : 'Loading product count');
         const priceLine = catalogueLoaded
           ? `From FJD incl. VAT ${money(isFinite(minPrice) ? minPrice * (1 + vatRate) : 0)}`
-          : 'Prices loading';
+          : (summary && minPrice ? `From FJD incl. VAT ${money(minPrice * (1 + vatRate))}` : 'Prices loading');
         const exampleLine = sample.description ? `<div class="muted">Example: ${esc(sample.description)}</div>` : '';
         return `
           <article class="category-card" data-top="${esc(cat)}" role="button" tabindex="0" aria-label="Open ${esc(cat)}" ${cardStyle(cat)}>
@@ -1430,9 +1467,11 @@
       hydrateDriveImages(document.getElementById('categoryGrid'), true);
     }
     function renderSubCategories() {
-      const subs = groupedSubCategories();
-      if (catalogueLoaded && subs.length === 1) {
-        currentSubCategory = subs[0][0];
+      const subs = catalogueLoaded
+        ? groupedSubCategories().map(([name, rows]) => ({ name, rows, count: rows.length }))
+        : subcategorySummariesFor(currentTopCategory).map(sub => ({ ...sub, rows: [] }));
+      if ((catalogueLoaded || categorySummaryLoaded) && subs.length === 1) {
+        currentSubCategory = subs[0].name;
         mode = 'products';
         renderProducts();
         return;
@@ -1443,15 +1482,17 @@
       document.getElementById('productGrid').style.display = 'none';
       document.getElementById('backRow').style.display = 'block';
       document.getElementById('backToCategories').textContent = 'Back to Categories';
-      document.getElementById('categoryGrid').innerHTML = subs.map(([sub, rows]) => {
-        const minPrice = Math.min(...rows.map(p => Number(p.price || 0)).filter(Boolean));
-        const sample = rows[0] || {};
+      document.getElementById('categoryGrid').innerHTML = subs.map(sub => {
+        const minPrice = catalogueLoaded
+          ? Math.min(...sub.rows.map(p => Number(p.price || 0)).filter(Boolean))
+          : Number(sub.minPrice || 0);
+        const sample = sub.rows[0] || sub.sample || {};
         return `
-          <article class="category-card" data-sub="${esc(sub)}" role="button" tabindex="0" aria-label="Open ${esc(sub)}" ${cardStyle(currentTopCategory)}>
+          <article class="category-card" data-sub="${esc(sub.name)}" role="button" tabindex="0" aria-label="Open ${esc(sub.name)}" ${cardStyle(currentTopCategory)}>
             <div class="category-image">${imageMarkup(sample, 'card')}</div>
             <div class="category-body">
-              <h3>${esc(sub)}</h3>
-              <div class="muted">${rows.length} BLA products</div>
+              <h3>${esc(sub.name)}</h3>
+              <div class="muted">${sub.count} BLA products</div>
               <div class="muted">From FJD incl. VAT ${money(isFinite(minPrice) ? minPrice * (1 + vatRate) : 0)}</div>
               <div class="muted">${esc(currentTopCategory)}</div>
             </div>
@@ -1829,9 +1870,26 @@
       document.getElementById('productCount').innerHTML = '<span class="spinner small" aria-hidden="true"></span> Loading products...';
       document.getElementById('resultCount').textContent = 'Loading products...';
       render();
+      const summaryUrl = isLocalPreview
+        ? ''
+        : `${GAS_URL}?action=getBlaCatalogueSummary&token=${encodeURIComponent(accessToken)}`;
       const feedUrl = isLocalPreview
         ? './data/bla_shop_feed_web.json'
         : `${GAS_URL}?action=getBlaCatalogueFeed&token=${encodeURIComponent(accessToken)}`;
+      if (summaryUrl) {
+        fetch(summaryUrl)
+          .then(response => response.json())
+          .then(data => {
+            if (data && data.error) throw new Error(data.error);
+            categorySummary = data;
+            categorySummaryLoaded = true;
+            if (!catalogueLoaded && data.totalProducts) {
+              document.getElementById('productCount').textContent = `${Number(data.totalProducts).toLocaleString('en-US')} BLA products`;
+            }
+            render();
+          })
+          .catch(error => console.warn('BLA catalogue summary unavailable', error));
+      }
       catalogueLoadPromise = fetch(feedUrl)
         .then(response => response.json())
         .then(data => {
