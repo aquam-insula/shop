@@ -517,20 +517,57 @@
       padding: 16px;
       color: var(--muted);
     }
-    .detail-image-main.is-clickable {
-      cursor: zoom-in;
-    }
-    .detail-image-hint {
+    .image-zoom-button {
       position: absolute;
-      left: 12px;
       right: 12px;
       bottom: 12px;
-      padding: 7px 10px;
-      background: rgba(0, 71, 97, .86);
-      color: #fff;
-      font-size: 12px;
-      text-align: center;
-      pointer-events: none;
+      width: 44px;
+      height: 44px;
+      border: 1px solid var(--aq-ocean);
+      background: var(--aq-ocean);
+      cursor: zoom-in;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .image-zoom-button:hover {
+      border-color: var(--aq-gold-dark);
+      background: var(--aq-gold-dark);
+    }
+    .zoom-lens {
+      width: 17px;
+      height: 17px;
+      border: 2px solid #fff;
+      border-radius: 50%;
+      position: relative;
+      display: inline-block;
+    }
+    .zoom-lens::after {
+      content: "";
+      position: absolute;
+      background: #fff;
+      width: 9px;
+      height: 2px;
+      right: -8px;
+      bottom: -4px;
+      transform: rotate(45deg);
+      transform-origin: left center;
+    }
+    .zoom-plus-h,
+    .zoom-plus-v {
+      position: absolute;
+      background: #fff;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .zoom-plus-h {
+      width: 9px;
+      height: 2px;
+    }
+    .zoom-plus-v {
+      width: 2px;
+      height: 9px;
     }
     .detail-image-main img {
       max-width: 100%;
@@ -539,6 +576,58 @@
     }
     .detail-content {
       padding: 18px 22px 32px;
+    }
+    .image-viewer {
+      position: fixed;
+      inset: 0;
+      z-index: 90;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      background: rgba(10, 20, 28, .82);
+      padding: 24px;
+    }
+    .image-viewer.open {
+      display: flex;
+    }
+    .image-viewer-panel {
+      width: min(1180px, 96vw);
+      height: min(860px, 92vh);
+      background: #fff;
+      border: 1px solid var(--line);
+      display: grid;
+      grid-template-rows: auto 1fr;
+      box-shadow: 0 18px 48px rgba(0,0,0,.32);
+    }
+    .image-viewer-head {
+      min-height: 54px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      padding: 8px 12px 8px 18px;
+      border-bottom: 1px solid var(--line);
+    }
+    .image-viewer-title {
+      margin: 0;
+      font-size: 16px;
+      font-weight: 650;
+      line-height: 1.35;
+    }
+    .image-viewer-body {
+      min-height: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 18px;
+      background: #f5f7fa;
+      color: var(--muted);
+    }
+    .image-viewer-body img {
+      max-width: 100%;
+      max-height: 100%;
+      object-fit: contain;
+      background: #fff;
     }
     .close {
       float: right;
@@ -696,6 +785,15 @@
         <button id="closeDrawer" class="close">&times;</button>
         <div id="detailContent"></div>
       </section>
+    </div>
+  </div>
+  <div id="imageViewer" class="image-viewer" aria-hidden="true">
+    <div class="image-viewer-panel" role="dialog" aria-modal="true" aria-labelledby="imageViewerTitle">
+      <div class="image-viewer-head">
+        <h2 id="imageViewerTitle" class="image-viewer-title"></h2>
+        <button id="closeImageViewer" class="close" type="button" aria-label="Close image">&times;</button>
+      </div>
+      <div id="imageViewerBody" class="image-viewer-body"></div>
     </div>
   </div>
   </div>
@@ -1141,14 +1239,12 @@
       const p = products.find(x => String(x.productNumber) === String(code));
       if (!p) return;
       const detailImage = document.getElementById('detailImage');
-      detailImage.classList.add('is-clickable');
-      detailImage.innerHTML = `${imageMarkup(p, 'card')}<div class="detail-image-hint">Click image to load full size</div>`;
-      detailImage.onclick = () => {
-        detailImage.classList.remove('is-clickable');
-        detailImage.innerHTML = imageMarkup(p);
-        detailImage.onclick = null;
-        hydrateDriveImages(detailImage, true);
-      };
+      detailImage.onclick = null;
+      detailImage.innerHTML = `${imageMarkup(p, 'card')}<button class="image-zoom-button" type="button" aria-label="Open larger product image"><span class="zoom-lens" aria-hidden="true"><span class="zoom-plus-h"></span><span class="zoom-plus-v"></span></span></button>`;
+      detailImage.querySelector('.image-zoom-button').addEventListener('click', event => {
+        event.stopPropagation();
+        openLargeProductImage(p);
+      });
       hydrateDriveImages(detailImage, true);
       const specs = Array.isArray(p.specifications) ? p.specifications : [];
       document.getElementById('detailContent').innerHTML = `
@@ -1191,6 +1287,21 @@
           });
       }
     }
+    function openLargeProductImage(product) {
+      const viewer = document.getElementById('imageViewer');
+      const body = document.getElementById('imageViewerBody');
+      document.getElementById('imageViewerTitle').textContent = `${product.productNumber} - ${product.description}`;
+      body.innerHTML = imageMarkup(product);
+      viewer.classList.add('open');
+      viewer.setAttribute('aria-hidden', 'false');
+      hydrateDriveImages(body, true);
+    }
+    function closeLargeProductImage() {
+      const viewer = document.getElementById('imageViewer');
+      viewer.classList.remove('open');
+      viewer.setAttribute('aria-hidden', 'true');
+      document.getElementById('imageViewerBody').innerHTML = '';
+    }
     document.getElementById('backToCategories').addEventListener('click', () => {
       currentTopCategory = '';
       currentSubCategory = '';
@@ -1200,6 +1311,15 @@
     document.getElementById('closeDrawer').addEventListener('click', () => document.getElementById('drawer').classList.remove('open'));
     document.getElementById('drawer').addEventListener('click', e => {
       if (e.target.id === 'drawer') document.getElementById('drawer').classList.remove('open');
+    });
+    document.getElementById('closeImageViewer').addEventListener('click', closeLargeProductImage);
+    document.getElementById('imageViewer').addEventListener('click', e => {
+      if (e.target.id === 'imageViewer') closeLargeProductImage();
+    });
+    document.addEventListener('keydown', event => {
+      if (event.key === 'Escape' && document.getElementById('imageViewer').classList.contains('open')) {
+        closeLargeProductImage();
+      }
     });
     ['search', 'sort', 'limit'].forEach(id => {
       document.getElementById(id).addEventListener('input', () => {
