@@ -857,10 +857,14 @@
           img.dataset.loading = '0';
         });
     }
-    function hydrateDriveImages(root) {
+    function hydrateDriveImages(root, immediate) {
       if (isLocalPreview) return;
       const images = Array.from((root || document).querySelectorAll('img[data-bla-asset]'));
       if (!images.length) return;
+      if (immediate) {
+        images.forEach(queueDriveAssetImage);
+        return;
+      }
       if (!('IntersectionObserver' in window)) {
         images.forEach(queueDriveAssetImage);
         return;
@@ -964,7 +968,7 @@
           render();
         });
       });
-      hydrateDriveImages(document.getElementById('categoryGrid'));
+      hydrateDriveImages(document.getElementById('categoryGrid'), true);
     }
     function renderProducts() {
       const rows = currentRows();
@@ -1009,7 +1013,7 @@
       const p = products.find(x => String(x.productNumber) === String(code));
       if (!p) return;
       document.getElementById('detailImage').innerHTML = imageMarkup(p);
-      hydrateDriveImages(document.getElementById('detailImage'));
+      hydrateDriveImages(document.getElementById('detailImage'), true);
       const specs = Array.isArray(p.specifications) ? p.specifications : [];
       document.getElementById('detailContent').innerHTML = `
         <div class="code">BLA ${esc(p.productNumber)}</div>
