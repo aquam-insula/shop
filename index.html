@@ -125,6 +125,104 @@ body {
   font-size:1.2rem; font-weight:normal; margin-top:10px;
 }
 
+.partner-entry{
+  margin-top:18px;
+}
+
+.partner-link{
+  display:block;
+  color:inherit;
+  text-decoration:none;
+}
+
+.bla-partner-card{
+  position:relative;
+  min-height:260px;
+  overflow:hidden;
+  border:1px solid #d8e2ec;
+  background:#0f2839;
+  box-shadow:0 10px 28px rgba(15,40,57,0.16);
+  transition:transform .2s ease, box-shadow .2s ease;
+}
+
+.bla-partner-card:hover{
+  transform:translateY(-2px);
+  box-shadow:0 16px 34px rgba(15,40,57,0.24);
+}
+
+.bla-partner-image{
+  position:absolute;
+  inset:0;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  opacity:.34;
+}
+
+.bla-partner-content{
+  position:relative;
+  min-height:260px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:flex-start;
+  padding:34px 42px;
+  color:#fff;
+  text-align:left;
+}
+
+.partner-kicker{
+  font-size:.85rem;
+  letter-spacing:.08em;
+  text-transform:uppercase;
+  color:#9fd1f1;
+  margin-bottom:8px;
+}
+
+.bla-partner-content h3{
+  font-size:2rem;
+  font-weight:650;
+  margin:0 0 8px 0;
+}
+
+.bla-partner-content p{
+  max-width:720px;
+  margin:0 0 18px 0;
+  color:#eaf5fb;
+  font-size:1.05rem;
+  line-height:1.45;
+}
+
+.partner-meta{
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+  margin-bottom:18px;
+}
+
+.partner-meta span{
+  display:inline-flex;
+  align-items:center;
+  min-height:32px;
+  padding:6px 10px;
+  border:1px solid rgba(255,255,255,.35);
+  background:rgba(255,255,255,.12);
+  color:#fff;
+  font-size:.92rem;
+}
+
+.partner-cta{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  min-height:40px;
+  padding:8px 16px;
+  background:#fff;
+  color:#0f2839;
+  font-weight:650;
+  box-shadow:0 4px 12px rgba(0,0,0,.18);
+}
+
 #quote-form input[type="text"],#quote-form input[type="email"]{
   font-size:1.0rem; padding:10px; width:100%; box-sizing:border-box; margin-top:10px;
 }
@@ -353,6 +451,26 @@ body {
       <img src="https://raw.githubusercontent.com/toralf-dittmann/aqiml/main/Fashion.jpg"
            alt="Maritime Lifestyle">
       <h3>Maritime Lifestyle</h3>
+    </div>
+    <div class="col-12 partner-entry">
+      <a class="partner-link" href="bla/" aria-label="Open BLA Australia Partner Catalogue">
+        <article class="bla-partner-card">
+          <img class="bla-partner-image"
+               src="https://bla.com.au/wp-content/uploads/2024/12/103220-scaled.jpg"
+               alt="">
+          <div class="bla-partner-content">
+            <div class="partner-kicker">Partner Catalogue</div>
+            <h3>BLA Australia</h3>
+            <p>Browse the BLA marine catalogue in Aquam Insula pricing, with Fiji quotation workflow and air-freight supply on demand.</p>
+            <div class="partner-meta">
+              <span>Marine equipment</span>
+              <span>FJD pricing</span>
+              <span>Order after paid invoice</span>
+            </div>
+            <div class="partner-cta">Open BLA Catalogue</div>
+          </div>
+        </article>
+      </a>
     </div>
   </div>
 </div>
