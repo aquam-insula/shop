@@ -1160,6 +1160,9 @@
     function searchLoadingText(query) {
       return `Searching for products matching criteria "${query}"...`;
     }
+    function searchResponseMeansNoRelevant(text) {
+      return /no\s+(directly\s+)?relevant|temporarily unavailable/i.test(String(text || ''));
+    }
     function categorySummaryFor(cat) {
       return categorySummary && Array.isArray(categorySummary.categories)
         ? categorySummary.categories.find(item => item.name === cat)
@@ -1819,14 +1822,17 @@
           GAS_URL + '?action=searchBlaCatalogueAi',
           { token: accessToken, query }
         );
-        const codes = Array.isArray(data.codes) ? data.codes.map(String) : [];
+        const responseText = data.summary || data.message || '';
+        const codes = searchResponseMeansNoRelevant(responseText)
+          ? []
+          : (Array.isArray(data.codes) ? data.codes.map(String) : []);
         aiResultCodes = new Set(codes);
         currentTopCategory = '';
         currentSubCategory = '';
         mode = 'products';
         if (catalogueLoadPromise) await catalogueLoadPromise;
         status.classList.remove('is-loading');
-        status.textContent = data.summary || data.message || (codes.length ? `${codes.length} products found.` : `No directly relevant products were found for "${query}".`);
+        status.textContent = responseText || (codes.length ? `${codes.length} products found.` : `No directly relevant products were found for "${query}".`);
         render();
         scrollResultsToTop();
       } catch (error) {
