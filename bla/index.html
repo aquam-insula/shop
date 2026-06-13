@@ -1722,20 +1722,17 @@
       if (e.target.id === 'requestDialog') closeRequestDialog();
     });
     document.getElementById('requestForm').addEventListener('submit', submitProductRequest);
-    ['search', 'sort', 'limit'].forEach(id => {
+    ['sort', 'limit'].forEach(id => {
       document.getElementById(id).addEventListener('input', () => {
-        if (id === 'search' && document.getElementById('search').value.trim()) {
-          currentTopCategory = '';
-          currentSubCategory = '';
-          mode = 'products';
-        }
-        if (id === 'search') {
-          aiResultCodes = null;
-          document.getElementById('aiSearchStatus').textContent = '';
-        }
         render();
       });
       document.getElementById(id).addEventListener('change', render);
+    });
+    document.getElementById('search').addEventListener('input', () => {
+      const query = document.getElementById('search').value.trim();
+      document.getElementById('aiSearchStatus').textContent = query
+        ? 'Press Enter or the search button to search.'
+        : '';
     });
     document.getElementById('aiSearch').addEventListener('click', runAiSearch);
     document.getElementById('search').addEventListener('keydown', event => {
