@@ -1825,8 +1825,13 @@
       if (aiSearchRunning) return;
       aiSearchRunning = true;
       button.disabled = true;
+      aiResultCodes = new Set();
+      currentTopCategory = '';
+      currentSubCategory = '';
+      mode = 'products';
       status.classList.add('is-loading');
       status.innerHTML = '<span class="spinner small" aria-hidden="true"></span><span>Loading products...</span>';
+      document.getElementById('resultCount').innerHTML = '<span class="spinner small" aria-hidden="true"></span> Loading products...';
       document.getElementById('productGrid').style.display = 'grid';
       document.getElementById('categoryGrid').style.display = 'none';
       document.getElementById('productGrid').innerHTML = loadingMarkup('Loading products...');
