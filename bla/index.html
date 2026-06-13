@@ -292,6 +292,15 @@
       color: var(--aq-gold-dark);
       background: #fff3f9;
     }
+    .category-list button.loading-node {
+      color: var(--muted);
+      cursor: progress;
+      background: #fbfcfd;
+    }
+    .category-list button.loading-node:hover {
+      color: var(--muted);
+      background: #fbfcfd;
+    }
     .view-head {
       display: flex;
       justify-content: space-between;
@@ -427,6 +436,14 @@
       color: var(--muted);
       text-align: center;
       padding: 16px;
+    }
+    .category-loading {
+      grid-column: 1 / -1;
+      border: 1px solid var(--line);
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 8px 24px rgba(0, 77, 105, 0.08);
+      overflow: hidden;
     }
     .spinner {
       width: 30px;
@@ -1138,6 +1155,9 @@
     function loadingMarkup(text) {
       return `<div class="loading-state"><div class="spinner" aria-hidden="true"></div><div>${esc(text)}</div></div>`;
     }
+    function countLabel(rows) {
+      return catalogueLoaded ? ` (${rows.length})` : ' (loading)';
+    }
     function imageLoadingOverlay(text) {
       return `<div class="image-loading-overlay"><div class="spinner" aria-hidden="true"></div><div>${esc(text)}</div></div>`;
     }
@@ -1312,12 +1332,17 @@
       const cats = groupedTopCategories();
       list.innerHTML = `<button class="${currentTopCategory ? '' : 'active'}" data-top="">All categories</button>` +
         cats.map(([cat, rows]) => {
-          const subs = currentTopCategory === cat ? groupedSubCategories().map(([sub, subRows]) =>
-            `<button class="subcategory-node ${currentSubCategory === sub ? 'active' : ''}" data-top="${esc(cat)}" data-sub="${esc(sub)}">${esc(sub)} (${subRows.length})</button>`
-          ).join('') : '';
-          return `<button class="${currentTopCategory === cat && !currentSubCategory ? 'active' : ''}" data-top="${esc(cat)}">${esc(cat)} (${rows.length})</button>${subs}`;
+          const subs = currentTopCategory === cat
+            ? (catalogueLoaded
+              ? groupedSubCategories().map(([sub, subRows]) =>
+                `<button class="subcategory-node ${currentSubCategory === sub ? 'active' : ''}" data-top="${esc(cat)}" data-sub="${esc(sub)}">${esc(sub)}${countLabel(subRows)}</button>`
+              ).join('')
+              : '<button class="subcategory-node loading-node" data-top="" disabled>Loading subcategories...</button>')
+            : '';
+          return `<button class="${currentTopCategory === cat && !currentSubCategory ? 'active' : ''}" data-top="${esc(cat)}">${esc(cat)}${countLabel(rows)}</button>${subs}`;
         }).join('');
       list.querySelectorAll('button').forEach(btn => {
+        if (btn.disabled) return;
         btn.addEventListener('click', () => {
           currentTopCategory = btn.dataset.top || '';
           currentSubCategory = btn.dataset.sub || '';
@@ -1340,17 +1365,18 @@
     function renderCategories() {
       const cats = groupedTopCategories();
       document.getElementById('viewTitle').textContent = 'BLA Categories';
-      document.getElementById('resultCount').textContent = catalogueLoaded
+      document.getElementById('resultCount').innerHTML = catalogueLoaded
         ? `${cats.length} categories`
-        : `${cats.length} categories | loading prices and product counts`;
+        : '<span class="spinner small" aria-hidden="true"></span> Loading products and prices...';
       document.getElementById('categoryGrid').style.display = 'grid';
       document.getElementById('productGrid').style.display = 'none';
       document.getElementById('backRow').style.display = 'none';
       document.getElementById('backToCategories').textContent = 'Back to Categories';
-      document.getElementById('categoryGrid').innerHTML = cats.map(([cat, rows]) => {
+      const loadingPanel = catalogueLoaded ? '' : `<div class="category-loading">${loadingMarkup('Loading products...')}</div>`;
+      document.getElementById('categoryGrid').innerHTML = loadingPanel + cats.map(([cat, rows]) => {
         const minPrice = Math.min(...rows.map(p => Number(p.price || 0)).filter(Boolean));
         const sample = rows[0] || {};
-        const countLine = catalogueLoaded ? `${rows.length} BLA products` : 'Catalogue loading';
+        const countLine = catalogueLoaded ? `${rows.length} BLA products` : 'Loading product count';
         const priceLine = catalogueLoaded
           ? `From FJD incl. VAT ${money(isFinite(minPrice) ? minPrice * (1 + vatRate) : 0)}`
           : 'Prices loading';
