@@ -1157,6 +1157,9 @@
     function loadingMarkup(text) {
       return `<div class="loading-state"><div class="spinner" aria-hidden="true"></div><div>${esc(text)}</div></div>`;
     }
+    function searchLoadingText(query) {
+      return `Searching for products matching criteria "${query}"...`;
+    }
     function categorySummaryFor(cat) {
       return categorySummary && Array.isArray(categorySummary.categories)
         ? categorySummary.categories.find(item => item.name === cat)
@@ -1521,13 +1524,20 @@
       const awaitingSearch = !!query && !aiResultCodes;
       document.getElementById('viewTitle').textContent = currentSubCategory || currentTopCategory || 'All BLA Products';
       document.getElementById('resultCount').textContent = catalogueLoaded
-        ? (awaitingSearch ? 'Press Enter or the search button to find matching products.' : `${rows.length} products found | showing ${Math.min(limit, rows.length)}`)
+        ? (awaitingSearch
+          ? 'Press Enter or the search button to find matching products.'
+          : (query && aiResultCodes && !rows.length
+            ? 'No directly relevant products found'
+            : `${rows.length} products found | showing ${Math.min(limit, rows.length)}`))
         : 'Loading products and prices...';
       document.getElementById('categoryGrid').style.display = 'none';
       document.getElementById('productGrid').style.display = 'grid';
       document.getElementById('backRow').style.display = currentTopCategory ? 'block' : 'none';
       document.getElementById('backToCategories').textContent = 'Back to Categories';
-      document.getElementById('productGrid').innerHTML = catalogueLoaded && !awaitingSearch ? rows.slice(0, limit).map(p => `
+      const emptySearchText = query && aiResultCodes
+        ? `No directly relevant products were found for "${esc(query)}". Try a broader product type, brand, use case, or BLA code.`
+        : 'Press Enter or the search button to see matching products.';
+      document.getElementById('productGrid').innerHTML = catalogueLoaded && !awaitingSearch && rows.length ? rows.slice(0, limit).map(p => `
         <article class="product-card" data-code="${esc(p.productNumber)}" role="button" tabindex="0" aria-label="View ${esc(p.description)}" ${cardStyle(topCategory(p))}>
           <div class="image-container">${imageMarkup(p, 'card')}</div>
           <div class="product-body">
@@ -1547,7 +1557,7 @@
             </div>
             <button class="btn view-product" data-code="${esc(p.productNumber)}">View Product</button>
           </div>
-        </article>`).join('') : (catalogueLoaded ? `<div class="placeholder">Press Enter or the search button to see matching products.</div>` : loadingMarkup('Loading products...'));
+        </article>`).join('') : (catalogueLoaded ? `<div class="placeholder">${emptySearchText}</div>` : loadingMarkup('Loading products...'));
       document.querySelectorAll('.product-card').forEach(card => {
         const openCardProduct = () => openProduct(card.dataset.code);
         card.addEventListener('click', event => {
@@ -1797,12 +1807,13 @@
       currentTopCategory = '';
       currentSubCategory = '';
       mode = 'products';
+      const loadingText = searchLoadingText(query);
       status.classList.add('is-loading');
-      status.innerHTML = '<span class="spinner small" aria-hidden="true"></span><span>Loading products...</span>';
-      document.getElementById('resultCount').innerHTML = '<span class="spinner small" aria-hidden="true"></span> Loading products...';
+      status.innerHTML = `<span class="spinner small" aria-hidden="true"></span><span>${esc(loadingText)}</span>`;
+      document.getElementById('resultCount').innerHTML = `<span class="spinner small" aria-hidden="true"></span> ${esc(loadingText)}`;
       document.getElementById('productGrid').style.display = 'grid';
       document.getElementById('categoryGrid').style.display = 'none';
-      document.getElementById('productGrid').innerHTML = loadingMarkup('Loading products...');
+      document.getElementById('productGrid').innerHTML = loadingMarkup(loadingText);
       try {
         const data = await postFormOrError(
           GAS_URL + '?action=searchBlaCatalogueAi',
@@ -1815,7 +1826,7 @@
         mode = 'products';
         if (catalogueLoadPromise) await catalogueLoadPromise;
         status.classList.remove('is-loading');
-        status.textContent = data.summary || `${codes.length} products found.`;
+        status.textContent = data.summary || data.message || (codes.length ? `${codes.length} products found.` : `No directly relevant products were found for "${query}".`);
         render();
         scrollResultsToTop();
       } catch (error) {
