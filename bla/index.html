@@ -990,17 +990,14 @@
       return Array.from(map.entries()).sort((a, b) => a[0].localeCompare(b[0]));
     }
     function currentRows() {
-      const query = document.getElementById('search').value.trim().toLowerCase();
       const sort = document.getElementById('sort').value;
       const rows = products.filter(p => {
         const top = topCategory(p);
         const sub = subCategoryName(p);
-        const text = [p.productNumber, p.description, p.brand, top, sub, p.subCategory].join(' ').toLowerCase();
         const aiMatch = !aiResultCodes || aiResultCodes.has(String(p.productNumber));
         return (!currentTopCategory || top === currentTopCategory) &&
           (!currentSubCategory || sub === currentSubCategory) &&
-          aiMatch &&
-          (!query || aiResultCodes || text.includes(query));
+          aiMatch;
       });
       rows.sort((a, b) => {
         if (sort === 'priceAsc') return Number(a.price || 0) - Number(b.price || 0);
@@ -1073,15 +1070,17 @@
     function renderProducts() {
       const rows = currentRows();
       const limit = Number(document.getElementById('limit').value);
+      const query = document.getElementById('search').value.trim();
+      const awaitingGptSearch = !!query && !aiResultCodes;
       document.getElementById('viewTitle').textContent = currentSubCategory || currentTopCategory || 'All BLA Products';
       document.getElementById('resultCount').textContent = catalogueLoaded
-        ? `${rows.length} products found | showing ${Math.min(limit, rows.length)}${aiResultCodes ? ' | GPT ranked' : ''}`
+        ? (awaitingGptSearch ? 'Press GPT Search or Enter for intelligent product matching.' : `${rows.length} products found | showing ${Math.min(limit, rows.length)}${aiResultCodes ? ' | GPT ranked' : ''}`)
         : 'Loading products and prices...';
       document.getElementById('categoryGrid').style.display = 'none';
       document.getElementById('productGrid').style.display = 'grid';
       document.getElementById('backRow').style.display = currentTopCategory ? 'block' : 'none';
       document.getElementById('backToCategories').textContent = 'Back to Categories';
-      document.getElementById('productGrid').innerHTML = catalogueLoaded ? rows.slice(0, limit).map(p => `
+      document.getElementById('productGrid').innerHTML = catalogueLoaded && !awaitingGptSearch ? rows.slice(0, limit).map(p => `
         <article class="product-card" ${cardStyle(topCategory(p))}>
           <div class="image-container">${imageMarkup(p, 'card')}</div>
           <div class="product-body">
@@ -1101,7 +1100,7 @@
             </div>
             <button class="btn view-product" data-code="${esc(p.productNumber)}">View Product</button>
           </div>
-        </article>`).join('') : '<div class="placeholder">Loading BLA products...</div>';
+        </article>`).join('') : `<div class="placeholder">${catalogueLoaded ? 'Use GPT Search for intelligent product matching.' : 'Loading BLA products...'}</div>`;
       document.querySelectorAll('.view-product').forEach(btn => {
         btn.addEventListener('click', () => openProduct(btn.dataset.code));
       });
@@ -1187,6 +1186,12 @@
       document.getElementById(id).addEventListener('change', render);
     });
     document.getElementById('aiSearch').addEventListener('click', runAiSearch);
+    document.getElementById('search').addEventListener('keydown', event => {
+      if (event.key === 'Enter') {
+        event.preventDefault();
+        runAiSearch();
+      }
+    });
     async function runAiSearch() {
       const query = document.getElementById('search').value.trim();
       const status = document.getElementById('aiSearchStatus');
