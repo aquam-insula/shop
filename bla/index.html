@@ -91,10 +91,25 @@
       min-height: 150px;
       border-bottom: 1px solid var(--line);
     }
+    .brand-strip {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+      margin: 10px 0 0 0;
+      padding-left: 0;
+      width: fit-content;
+    }
     #title-img {
       width: 400px;
       height: auto;
-      margin: 10px 0 0 0;
+      display: block;
+    }
+    #bla-logo {
+      width: 168px;
+      height: 74px;
+      object-fit: contain;
+      display: block;
+      background: #0069a8;
     }
     .top-actions {
       position: absolute;
@@ -276,16 +291,20 @@
     }
     .category-card {
       border: 1px solid var(--line);
+      border-top: 4px solid var(--cat-color, var(--aq-ocean));
       min-height: 270px;
       display: flex;
       flex-direction: column;
       cursor: pointer;
       background: #fff;
       transition: box-shadow .2s;
+      box-shadow: 0 0 0 1px color-mix(in srgb, var(--cat-color, var(--aq-ocean)) 24%, transparent);
     }
     .category-card:hover,
     .product-card:hover {
-      box-shadow: 0 4px 12px rgba(0, 102, 204, 1);
+      box-shadow:
+        0 0 0 2px color-mix(in srgb, var(--cat-color, var(--aq-ocean)) 65%, transparent),
+        0 8px 18px color-mix(in srgb, var(--cat-color, var(--aq-ocean)) 32%, transparent);
     }
     .category-image {
       height: 160px;
@@ -340,11 +359,13 @@
     }
     .product-card {
       border: 1px solid var(--line);
+      border-top: 4px solid var(--cat-color, var(--aq-ocean));
       background: #fff;
       display: flex;
       flex-direction: column;
       min-height: 410px;
       transition: box-shadow .2s;
+      box-shadow: 0 0 0 1px color-mix(in srgb, var(--cat-color, var(--aq-ocean)) 18%, transparent);
     }
     .image-container {
       height: 215px;
@@ -565,9 +586,12 @@
   </section>
   <div id="appShell">
   <div id="menu-container">
-    <img id="title-img"
-      src="https://raw.githubusercontent.com/toralf-dittmann/aqiml/468d8135b8b830cfcfc753be0fe270cbdcdd01f1/AQUAM%20INSULA%20Maritime%20Lifestyle%20160%20x%2040.jpg"
-      alt="AQUAM INSULA Maritime Lifestyle">
+    <div class="brand-strip">
+      <img id="title-img"
+        src="https://raw.githubusercontent.com/toralf-dittmann/aqiml/468d8135b8b830cfcfc753be0fe270cbdcdd01f1/AQUAM%20INSULA%20Maritime%20Lifestyle%20160%20x%2040.jpg"
+        alt="AQUAM INSULA Maritime Lifestyle">
+      <img id="bla-logo" src="./assets/bla-logo.jpg" alt="BLA boating lifestyle adventure">
+    </div>
     <div class="top-actions">
       <a href="mailto:maritime-lifestyle@aquam-insula.com">maritime-lifestyle@aquam-insula.com</a>
     </div>
@@ -672,6 +696,20 @@
       'Safety': '../images/catalogue/product-blocks/116018.jpg',
       'Tools & Chandlery': '../images/bla-website-products/109024.jpg',
       'Trailering': '../images/bla-website-products/211200.jpg'
+    };
+    const categoryColors = {
+      'Anchoring & Mooring': '#00a6b2',
+      'Covers, Seats & Boat Fitout': '#7a8a97',
+      'Deck Hardware': '#175da8',
+      'Electrical & Electronics': '#0072bc',
+      'Fenders & Buoys': '#1fb5d8',
+      'Fishing': '#009641',
+      'Lighting': '#f2c300',
+      'Maintenance': '#8f5aa5',
+      'Pumps, Plumbing & Galley': '#00a0d7',
+      'Safety': '#e33d3d',
+      'Tools & Chandlery': '#e62382',
+      'Trailering': '#f28c28'
     };
 
     const money = value => Number(value || 0).toLocaleString('en-US', {
@@ -780,32 +818,40 @@
         `<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600" viewBox="0 0 900 600"><rect width="900" height="600" fill="#eef7f8"/><text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-family="Arial" font-size="34" fill="#006b7a">${esc(label || 'BLA')}</text></svg>`
       )}`;
     }
-    function assetImageTag(src, alt, className) {
+    function cardStyle(cat) {
+      return `style="--cat-color:${esc(categoryColors[cat] || '#00a0d7')}"`;
+    }
+    function assetImageTag(src, alt, className, thumb) {
       if (!src) return '';
       if (isRemoteAsset(src) || isLocalPreview) {
         return `<img src="${esc(src)}" alt="${esc(alt)}"${className ? ` class="${esc(className)}"` : ''}>`;
       }
-      return `<img src="${driveImagePlaceholder(alt)}" data-bla-asset="${esc(normalizeDriveAssetPath(src))}" alt="${esc(alt)}"${className ? ` class="${esc(className)}"` : ''}>`;
+      return `<img src="${driveImagePlaceholder(alt)}" data-bla-asset="${esc(normalizeDriveAssetPath(src))}"${thumb ? ` data-bla-thumb="${esc(thumb)}"` : ''} alt="${esc(alt)}"${className ? ` class="${esc(className)}"` : ''}>`;
     }
     function categoryImage(src, label) {
       const illustrative = categoryIllustrations[label] || src;
-      if (illustrative) return assetImageTag(illustrative, label);
+      if (illustrative) return assetImageTag(illustrative, label, '', 'card');
       return `<div class="category-letter">${esc(String(label || 'B').charAt(0))}</div>`;
     }
-    function imageMarkup(product) {
-      const src =
-        product.productWebsiteImageSourceUrl ||
-        product.productWebSearchImageSourceUrl ||
-        product.productBlockImageUrl ||
-        ((product.imageUrl || '').includes('/product-blocks/') ? product.imageUrl : '') ||
+    function productImageSource(product) {
+      return (
         product.productWebsiteImageUrl ||
         ((product.imageUrl || '').includes('/bla-website-products/') ? product.imageUrl : '') ||
         product.productWebSearchImageUrl ||
         ((product.imageUrl || '').includes('/web-product-images/') ? product.imageUrl : '') ||
+        product.productBlockImageUrl ||
+        ((product.imageUrl || '').includes('/product-blocks/') ? product.imageUrl : '') ||
         ((product.catalogueImageUrl || '').includes('/pages/') ? product.catalogueImageUrl : '') ||
+        product.productWebsiteImageSourceUrl ||
+        product.productWebSearchImageSourceUrl ||
         (product.images || [])[0]?.url ||
-        '';
-      if (src) return assetImageTag(src, product.description);
+        ''
+      );
+    }
+    function imageMarkup(product, thumb) {
+      const src =
+        productImageSource(product);
+      if (src) return assetImageTag(src, product.description, '', thumb);
       return `<div class="placeholder">Product image coming soon</div>`;
     }
     function queueDriveAssetImage(img) {
@@ -839,19 +885,21 @@
     function loadDriveAssetImage(item) {
       const img = item.img;
       const path = item.path;
-      if (driveImageCache.has(path)) {
-        img.src = driveImageCache.get(path);
+      const thumb = img.dataset.blaThumb || '';
+      const cacheKey = thumb ? `${thumb}:${path}` : path;
+      if (driveImageCache.has(cacheKey)) {
+        img.src = driveImageCache.get(cacheKey);
         img.dataset.loaded = '1';
         img.dataset.loading = '0';
         return Promise.resolve();
       }
-      const url = `${GAS_URL}?action=getBlaAssetData&token=${encodeURIComponent(accessToken)}&path=${encodeURIComponent(path)}`;
+      const url = `${GAS_URL}?action=getBlaAssetData&token=${encodeURIComponent(accessToken)}&path=${encodeURIComponent(path)}${thumb ? `&thumb=${encodeURIComponent(thumb)}` : ''}`;
       return fetch(url)
         .then(response => response.json())
         .then(data => {
           if (!data || data.error || !data.base64) throw new Error(data && data.error ? data.error : 'Image unavailable');
           const dataUrl = `data:${data.mimeType || 'image/jpeg'};base64,${data.base64}`;
-          driveImageCache.set(path, dataUrl);
+          driveImageCache.set(cacheKey, dataUrl);
           img.src = dataUrl;
           img.dataset.loaded = '1';
           img.dataset.loading = '0';
@@ -899,6 +947,10 @@
       });
       return Array.from(map.entries()).sort((a, b) => a[0].localeCompare(b[0]));
     }
+    function representativeImage(rows, label) {
+      const chosen = rows.find(p => productImageSource(p)) || rows[0] || {};
+      return productImageSource(chosen) || chosen.subCategoryImage || chosen.categoryImage || categoryIllustrations[label] || '';
+    }
     function currentRows() {
       const query = document.getElementById('search').value.trim().toLowerCase();
       const sort = document.getElementById('sort').value;
@@ -929,7 +981,7 @@
         btn.addEventListener('click', () => {
           currentTopCategory = btn.dataset.top || '';
           currentSubCategory = '';
-          mode = currentTopCategory ? 'products' : 'categories';
+          mode = currentTopCategory ? 'subcategories' : 'categories';
           render();
         });
       });
@@ -945,15 +997,18 @@
       document.getElementById('categoryGrid').style.display = 'grid';
       document.getElementById('productGrid').style.display = 'none';
       document.getElementById('backRow').style.display = 'none';
+      document.getElementById('backToCategories').textContent = 'Back to Categories';
       document.getElementById('categoryGrid').innerHTML = cats.map(([cat, rows]) => {
         const minPrice = Math.min(...rows.map(p => Number(p.price || 0)).filter(Boolean));
         const sample = rows[0] || {};
+        const subCount = groupedSubCategories(cat).length;
         return `
-          <article class="category-card" data-top="${esc(cat)}">
+          <article class="category-card" data-top="${esc(cat)}" ${cardStyle(cat)}>
             <div class="category-image">${categoryImage(sample.categoryImage, cat)}</div>
             <div class="category-body">
               <h3>${esc(cat)}</h3>
               <div class="muted">${rows.length} BLA products</div>
+              <div class="muted">${subCount} subcategories</div>
               <div class="muted">From FJD incl. VAT ${money(isFinite(minPrice) ? minPrice * (1 + vatRate) : 0)}</div>
               <div class="muted">${esc(cat)} from the BLA Australia catalogue.</div>
               <div class="muted">Example: ${esc(sample.description || '')}</div>
@@ -964,6 +1019,43 @@
         card.addEventListener('click', () => {
           currentTopCategory = card.dataset.top;
           currentSubCategory = '';
+          mode = 'subcategories';
+          render();
+        });
+      });
+      hydrateDriveImages(document.getElementById('categoryGrid'), true);
+    }
+    function renderSubCategories() {
+      const query = document.getElementById('search').value.trim().toLowerCase();
+      const groups = groupedSubCategories(currentTopCategory).filter(([sub, rows]) => {
+        if (!query) return true;
+        return sub.toLowerCase().includes(query) || rows.some(p => [p.description, p.productNumber].join(' ').toLowerCase().includes(query));
+      });
+      document.getElementById('viewTitle').textContent = currentTopCategory || 'BLA Subcategories';
+      document.getElementById('resultCount').textContent = `${groups.length} subcategories`;
+      document.getElementById('categoryGrid').style.display = 'grid';
+      document.getElementById('productGrid').style.display = 'none';
+      document.getElementById('backRow').style.display = 'block';
+      document.getElementById('backToCategories').textContent = 'Back to Categories';
+      document.getElementById('categoryGrid').innerHTML = groups.map(([sub, rows]) => {
+        const minPrice = Math.min(...rows.map(p => Number(p.price || 0)).filter(Boolean));
+        const sample = rows[0] || {};
+        const image = representativeImage(rows, currentTopCategory);
+        return `
+          <article class="category-card" data-sub="${esc(sub)}" ${cardStyle(currentTopCategory)}>
+            <div class="category-image">${assetImageTag(image, sub, '', 'card')}</div>
+            <div class="category-body">
+              <div class="crumb">${esc(currentTopCategory)}</div>
+              <h3>${esc(sub)}</h3>
+              <div class="muted">${rows.length} BLA products</div>
+              <div class="muted">From FJD incl. VAT ${money(isFinite(minPrice) ? minPrice * (1 + vatRate) : 0)}</div>
+              <div class="muted">Example: ${esc(sample.description || '')}</div>
+            </div>
+          </article>`;
+      }).join('');
+      document.querySelectorAll('.category-card[data-sub]').forEach(card => {
+        card.addEventListener('click', () => {
+          currentSubCategory = card.dataset.sub;
           mode = 'products';
           render();
         });
@@ -978,9 +1070,10 @@
       document.getElementById('categoryGrid').style.display = 'none';
       document.getElementById('productGrid').style.display = 'grid';
       document.getElementById('backRow').style.display = currentTopCategory ? 'block' : 'none';
+      document.getElementById('backToCategories').textContent = currentSubCategory ? 'Back to Subcategories' : 'Back to Categories';
       document.getElementById('productGrid').innerHTML = rows.slice(0, limit).map(p => `
-        <article class="product-card">
-          <div class="image-container">${imageMarkup(p)}</div>
+        <article class="product-card" ${cardStyle(topCategory(p))}>
+          <div class="image-container">${imageMarkup(p, 'card')}</div>
           <div class="product-body">
             <div class="code">BLA ${esc(p.productNumber)}</div>
             <div class="product-title">${esc(p.description)}</div>
@@ -1007,6 +1100,7 @@
       document.getElementById('tabProducts').classList.toggle('active', mode === 'products');
       renderSidebar();
       if (mode === 'categories') renderCategories();
+      else if (mode === 'subcategories') renderSubCategories();
       else renderProducts();
     }
     function openProduct(code) {
@@ -1055,9 +1149,14 @@
     document.getElementById('tabCategories').addEventListener('click', () => { currentTopCategory = ''; currentSubCategory = ''; mode = 'categories'; render(); });
     document.getElementById('tabProducts').addEventListener('click', () => { mode = 'products'; render(); });
     document.getElementById('backToCategories').addEventListener('click', () => {
-      currentTopCategory = '';
-      currentSubCategory = '';
-      mode = 'categories';
+      if (currentSubCategory) {
+        currentSubCategory = '';
+        mode = 'subcategories';
+      } else {
+        currentTopCategory = '';
+        currentSubCategory = '';
+        mode = 'categories';
+      }
       render();
     });
     document.getElementById('closeDrawer').addEventListener('click', () => document.getElementById('drawer').classList.remove('open'));
