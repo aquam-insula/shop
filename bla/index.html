@@ -277,6 +277,21 @@
       color: var(--aq-blue);
       background: #f2f7ff;
     }
+    .category-list button.subcategory-node {
+      padding-left: 22px;
+      font-size: 13px;
+      color: var(--dark);
+      background: #fbfcfd;
+    }
+    .category-list button.subcategory-node::before {
+      content: "> ";
+      color: var(--muted);
+    }
+    .category-list button.subcategory-node.active,
+    .category-list button.subcategory-node:hover {
+      color: var(--aq-gold-dark);
+      background: #fff3f9;
+    }
     .view-head {
       display: flex;
       justify-content: space-between;
@@ -580,7 +595,7 @@
     .image-viewer {
       position: fixed;
       inset: 0;
-      z-index: 90;
+      z-index: 320;
       display: none;
       align-items: center;
       justify-content: center;
@@ -628,6 +643,80 @@
       max-height: 100%;
       object-fit: contain;
       background: #fff;
+    }
+    .request-dialog {
+      position: fixed;
+      inset: 0;
+      z-index: 300;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      background: rgba(10, 20, 28, .58);
+      padding: 24px;
+    }
+    .request-dialog.open {
+      display: flex;
+    }
+    .request-panel {
+      width: min(560px, 94vw);
+      background: #fff;
+      border: 1px solid var(--line);
+      box-shadow: 0 18px 48px rgba(0,0,0,.26);
+      padding: 20px;
+    }
+    .request-head {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 12px;
+      border-bottom: 1px solid var(--line);
+      padding-bottom: 12px;
+      margin-bottom: 14px;
+    }
+    .request-title {
+      margin: 0 0 4px;
+      font-size: 21px;
+      font-weight: 650;
+    }
+    .request-product {
+      margin: 0;
+      color: var(--muted);
+      line-height: 1.45;
+    }
+    .request-form {
+      display: grid;
+      gap: 12px;
+    }
+    .request-form label {
+      display: grid;
+      gap: 5px;
+      color: var(--dark);
+      font-size: 13px;
+      font-weight: 650;
+    }
+    .request-form input,
+    .request-form textarea {
+      width: 100%;
+      border: 1px solid var(--line);
+      padding: 10px;
+      font: inherit;
+      background: #fff;
+    }
+    .request-form textarea {
+      min-height: 110px;
+      resize: vertical;
+    }
+    .request-status {
+      min-height: 20px;
+      color: var(--ok);
+      font-weight: 650;
+      line-height: 1.4;
+    }
+    .request-actions {
+      display: flex;
+      justify-content: flex-end;
+      gap: 10px;
+      flex-wrap: wrap;
     }
     .close {
       float: right;
@@ -796,6 +885,36 @@
       <div id="imageViewerBody" class="image-viewer-body"></div>
     </div>
   </div>
+  <div id="requestDialog" class="request-dialog" aria-hidden="true">
+    <div class="request-panel" role="dialog" aria-modal="true" aria-labelledby="requestTitle">
+      <div class="request-head">
+        <div>
+          <h2 id="requestTitle" class="request-title">Product Request</h2>
+          <p id="requestProduct" class="request-product"></p>
+        </div>
+        <button id="closeRequestDialog" class="close" type="button" aria-label="Close request form">&times;</button>
+      </div>
+      <form id="requestForm" class="request-form">
+        <label>
+          Your email address
+          <input id="requestEmail" type="email" autocomplete="email" required>
+        </label>
+        <label>
+          Your name
+          <input id="requestName" type="text" autocomplete="name">
+        </label>
+        <label>
+          Comments or questions
+          <textarea id="requestComments" placeholder="Tell us what you need, timing, vessel details, quantity, or any question you would like us to answer."></textarea>
+        </label>
+        <div id="requestStatus" class="request-status" aria-live="polite"></div>
+        <div class="request-actions">
+          <button id="cancelRequest" class="btn secondary" type="button">Cancel</button>
+          <button id="submitRequest" class="btn" type="submit">Send Request</button>
+        </div>
+      </form>
+    </div>
+  </div>
   </div>
 
   <script>
@@ -812,6 +931,8 @@
     let catalogueLoadPromise = null;
     let aiResultCodes = null;
     let aiSearchRunning = false;
+    let activeRequestProduct = null;
+    let activeRequestType = 'quote';
     const isLocalPreview = ['127.0.0.1', 'localhost'].includes(window.location.hostname);
     const driveImageCache = new Map();
     const driveImageQueue = [];
@@ -1118,15 +1239,31 @@
       const list = document.getElementById('categoryList');
       const cats = groupedTopCategories();
       list.innerHTML = `<button class="${currentTopCategory ? '' : 'active'}" data-top="">All categories</button>` +
-        cats.map(([cat, rows]) => `<button class="${currentTopCategory === cat ? 'active' : ''}" data-top="${esc(cat)}">${esc(cat)} (${rows.length})</button>`).join('');
+        cats.map(([cat, rows]) => {
+          const subs = currentTopCategory === cat ? groupedSubCategories().map(([sub, subRows]) =>
+            `<button class="subcategory-node ${currentSubCategory === sub ? 'active' : ''}" data-top="${esc(cat)}" data-sub="${esc(sub)}">${esc(sub)} (${subRows.length})</button>`
+          ).join('') : '';
+          return `<button class="${currentTopCategory === cat && !currentSubCategory ? 'active' : ''}" data-top="${esc(cat)}">${esc(cat)} (${rows.length})</button>${subs}`;
+        }).join('');
       list.querySelectorAll('button').forEach(btn => {
         btn.addEventListener('click', () => {
           currentTopCategory = btn.dataset.top || '';
-          currentSubCategory = '';
-          mode = currentTopCategory ? 'products' : 'categories';
+          currentSubCategory = btn.dataset.sub || '';
+          mode = currentSubCategory ? 'products' : (currentTopCategory ? 'subcategories' : 'categories');
           render();
         });
       });
+    }
+    function groupedSubCategories() {
+      const map = new Map();
+      products
+        .filter(p => !currentTopCategory || topCategory(p) === currentTopCategory)
+        .forEach(p => {
+          const sub = subCategoryName(p);
+          if (!map.has(sub)) map.set(sub, []);
+          map.get(sub).push(p);
+        });
+      return Array.from(map.entries()).sort((a, b) => a[0].localeCompare(b[0]));
     }
     function renderCategories() {
       const cats = groupedTopCategories();
@@ -1162,7 +1299,7 @@
         const openCategory = () => {
           currentTopCategory = card.dataset.top;
           currentSubCategory = '';
-          mode = 'products';
+          mode = 'subcategories';
           render();
         };
         card.addEventListener('click', openCategory);
@@ -1174,6 +1311,44 @@
         });
       });
       hydrateDriveImages(document.getElementById('categoryGrid'), true);
+    }
+    function renderSubCategories() {
+      const subs = groupedSubCategories();
+      document.getElementById('viewTitle').textContent = currentTopCategory || 'BLA Subcategories';
+      document.getElementById('resultCount').textContent = `${subs.length} subcategories`;
+      document.getElementById('categoryGrid').style.display = 'grid';
+      document.getElementById('productGrid').style.display = 'none';
+      document.getElementById('backRow').style.display = 'block';
+      document.getElementById('backToCategories').textContent = 'Back to Categories';
+      document.getElementById('categoryGrid').innerHTML = subs.map(([sub, rows]) => {
+        const minPrice = Math.min(...rows.map(p => Number(p.price || 0)).filter(Boolean));
+        const sample = rows[0] || {};
+        return `
+          <article class="category-card" data-sub="${esc(sub)}" role="button" tabindex="0" aria-label="Open ${esc(sub)}" ${cardStyle(currentTopCategory)}>
+            <div class="category-image">${imageMarkup(sample, 'card')}</div>
+            <div class="category-body">
+              <h3>${esc(sub)}</h3>
+              <div class="muted">${rows.length} BLA products</div>
+              <div class="muted">From FJD incl. VAT ${money(isFinite(minPrice) ? minPrice * (1 + vatRate) : 0)}</div>
+              <div class="muted">${esc(currentTopCategory)}</div>
+            </div>
+          </article>`;
+      }).join('');
+      document.querySelectorAll('.category-card').forEach(card => {
+        const openSubCategory = () => {
+          currentSubCategory = card.dataset.sub;
+          mode = 'products';
+          render();
+        };
+        card.addEventListener('click', openSubCategory);
+        card.addEventListener('keydown', event => {
+          if (event.key === 'Enter' || event.key === ' ') {
+            event.preventDefault();
+            openSubCategory();
+          }
+        });
+      });
+      hydrateDriveImages(document.getElementById('categoryGrid'));
     }
     function renderProducts() {
       const rows = currentRows();
@@ -1233,6 +1408,7 @@
     function render() {
       renderSidebar();
       if (mode === 'categories') renderCategories();
+      else if (mode === 'subcategories') renderSubCategories();
       else renderProducts();
     }
     function openProduct(code) {
@@ -1267,10 +1443,13 @@
           <div>${p.catalogueDescription ? `<p>${esc(p.catalogueDescription)}</p>` : (p.websiteDescription ? `<p>${esc(p.websiteDescription)}</p>` : (p.descriptionHtml || `<p>${esc(p.description)}</p>`))}</div>
         </div>
         <div class="detail-actions">
-          <a href="mailto:maritime-lifestyle@aquam-insula.com?subject=${encodeURIComponent('BLA ' + p.productNumber + ' enquiry')}&body=${encodeURIComponent('Please send me more information about BLA ' + p.productNumber + ' - ' + p.description)}">Request a Quote</a>
-          <a class="secondary" href="mailto:maritime-lifestyle@aquam-insula.com">Ask for Advice</a>
+          <button class="btn request-product-action" type="button" data-request-type="quote">Request a Quote</button>
+          <button class="btn secondary request-product-action" type="button" data-request-type="advice">Ask for Advice</button>
         </div>`;
       document.getElementById('drawer').classList.add('open');
+      document.querySelectorAll('.request-product-action').forEach(btn => {
+        btn.addEventListener('click', () => openRequestDialog(p, btn.dataset.requestType || 'quote'));
+      });
       const intro = document.getElementById('aiIntro');
       const cacheKey = String(p.productNumber || '');
       if (aiCache.has(cacheKey)) {
@@ -1302,6 +1481,55 @@
       viewer.setAttribute('aria-hidden', 'true');
       document.getElementById('imageViewerBody').innerHTML = '';
     }
+    function openRequestDialog(product, requestType) {
+      activeRequestProduct = product;
+      activeRequestType = requestType === 'advice' ? 'advice' : 'quote';
+      const title = activeRequestType === 'advice' ? 'Ask for Advice' : 'Request a Quote';
+      document.getElementById('requestTitle').textContent = title;
+      document.getElementById('requestProduct').textContent = `${product.productNumber} - ${product.description}`;
+      document.getElementById('requestComments').value = activeRequestType === 'advice'
+        ? ''
+        : `Please send me a quotation for ${product.productNumber} - ${product.description}.`;
+      document.getElementById('requestStatus').textContent = '';
+      document.getElementById('requestDialog').classList.add('open');
+      document.getElementById('requestDialog').setAttribute('aria-hidden', 'false');
+      document.getElementById('requestEmail').focus();
+    }
+    function closeRequestDialog() {
+      document.getElementById('requestDialog').classList.remove('open');
+      document.getElementById('requestDialog').setAttribute('aria-hidden', 'true');
+    }
+    async function submitProductRequest(event) {
+      event.preventDefault();
+      if (!activeRequestProduct) return;
+      const submit = document.getElementById('submitRequest');
+      const status = document.getElementById('requestStatus');
+      const payload = {
+        requestType: activeRequestType,
+        email: document.getElementById('requestEmail').value.trim(),
+        name: document.getElementById('requestName').value.trim(),
+        comments: document.getElementById('requestComments').value.trim(),
+        productNumber: activeRequestProduct.productNumber,
+        description: activeRequestProduct.description,
+        category: topCategory(activeRequestProduct),
+        subCategory: subCategoryName(activeRequestProduct),
+        priceFjdVip: Number(activeRequestProduct.price || 0) * (1 + vatRate)
+      };
+      submit.disabled = true;
+      status.textContent = 'Sending your request...';
+      try {
+        const data = await postFormOrError(
+          GAS_URL + '?action=sendBlaProductRequest',
+          { token: accessToken, request: JSON.stringify(payload) }
+        );
+        status.textContent = data.message || 'Thank you. Your request was received.';
+        setTimeout(closeRequestDialog, 1400);
+      } catch (error) {
+        status.textContent = error.message || 'We could not send the request. Please try again.';
+      } finally {
+        submit.disabled = false;
+      }
+    }
     document.getElementById('backToCategories').addEventListener('click', () => {
       currentTopCategory = '';
       currentSubCategory = '';
@@ -1319,8 +1547,16 @@
     document.addEventListener('keydown', event => {
       if (event.key === 'Escape' && document.getElementById('imageViewer').classList.contains('open')) {
         closeLargeProductImage();
+      } else if (event.key === 'Escape' && document.getElementById('requestDialog').classList.contains('open')) {
+        closeRequestDialog();
       }
     });
+    document.getElementById('closeRequestDialog').addEventListener('click', closeRequestDialog);
+    document.getElementById('cancelRequest').addEventListener('click', closeRequestDialog);
+    document.getElementById('requestDialog').addEventListener('click', e => {
+      if (e.target.id === 'requestDialog') closeRequestDialog();
+    });
+    document.getElementById('requestForm').addEventListener('submit', submitProductRequest);
     ['search', 'sort', 'limit'].forEach(id => {
       document.getElementById(id).addEventListener('input', () => {
         if (id === 'search' && document.getElementById('search').value.trim()) {
