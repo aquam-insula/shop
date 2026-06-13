@@ -1,0 +1,1066 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=1000">
+  <meta name="robots" content="noindex,nofollow">
+  <title>AQUAM INSULA | BLA Partner Catalogue</title>
+  <style>
+    :root {
+      --aq-blue: #00a0d7;
+      --aq-ocean: #00a0d7;
+      --aq-lagoon: #009641;
+      --aq-gold: #009641;
+      --aq-gold-dark: #e62382;
+      --ink: #222;
+      --muted: #666;
+      --line: #dddddd;
+      --soft: #f6f8fa;
+      --dark: #4a4a4a;
+      --ok: #157a38;
+    }
+    * { box-sizing: border-box; outline: none; caret-color: transparent; }
+    input, textarea { outline: auto; caret-color: auto; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: #fff;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+    body.auth-locked #appShell {
+      display: none;
+    }
+    .auth-gate {
+      min-height: 100vh;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 28px;
+      background:
+        linear-gradient(0deg, rgba(255,255,255,.74), rgba(255,255,255,.74)),
+        url("./assets/wave.jpg");
+      background-size: cover;
+      background-position: center;
+    }
+    body.auth-locked .auth-gate {
+      display: flex;
+    }
+    .auth-card {
+      width: min(460px, 100%);
+      background: #fff;
+      border: 1px solid var(--line);
+      padding: 28px;
+      box-shadow: 0 12px 36px rgba(0,0,0,.18);
+    }
+    .auth-card h1 {
+      color: var(--ink);
+      text-shadow: none;
+      font-size: 26px;
+      margin-bottom: 10px;
+    }
+    .auth-card p {
+      color: var(--muted);
+      line-height: 1.45;
+      margin: 0 0 18px;
+    }
+    .auth-card form {
+      display: grid;
+      gap: 10px;
+    }
+    .auth-card button {
+      min-height: 42px;
+      border: 0;
+      background: var(--aq-ocean);
+      color: #fff;
+      font-weight: 700;
+      cursor: pointer;
+    }
+    .auth-card button:hover {
+      background: var(--aq-gold-dark);
+    }
+    .auth-error {
+      min-height: 20px;
+      color: #b00020;
+      font-size: 14px;
+    }
+    #menu-container {
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      background: #fff;
+      min-height: 150px;
+      border-bottom: 1px solid var(--line);
+    }
+    #title-img {
+      width: 400px;
+      height: auto;
+      margin: 10px 0 0 0;
+    }
+    .top-actions {
+      position: absolute;
+      right: 20px;
+      top: 18px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .top-actions a {
+      color: var(--ink);
+      text-decoration: underline;
+      font-size: 14px;
+    }
+    .search-row {
+      display: grid;
+      grid-template-columns: minmax(300px, 1fr) 220px 140px;
+      gap: 10px;
+      width: calc(100% - 40px);
+      margin: 16px 20px 0;
+      align-items: center;
+    }
+    input, select {
+      height: 40px;
+      border: 1px solid var(--line);
+      padding: 0 10px;
+      font: inherit;
+      background: #fff;
+    }
+    .mode-tabs {
+      display: flex;
+      gap: 0;
+      margin: 14px 20px 0;
+      border-bottom: 1px solid var(--line);
+    }
+    .mode-tabs button {
+      border: 1px solid var(--line);
+      border-bottom: 0;
+      background: #fff;
+      padding: 9px 16px;
+      cursor: pointer;
+      font: inherit;
+    }
+    .mode-tabs button.active {
+      background: var(--aq-ocean);
+      color: #fff;
+      border-color: var(--aq-ocean);
+    }
+    .intro {
+      margin: 24px 20px 12px;
+      min-height: 280px;
+      display: flex;
+      align-items: center;
+      border: 1px solid #d6e3ee;
+      background: url("./assets/wave.jpg");
+      background-size: cover;
+      background-position: center 54%;
+      color: #fff;
+    }
+    .intro-main {
+      max-width: 760px;
+      padding: 36px 42px;
+    }
+    h1 {
+      margin: 0 0 8px;
+      font-size: 38px;
+      font-weight: 800;
+      text-shadow: 0 2px 3px rgba(0,0,0,.75), 0 5px 16px rgba(0,0,0,.55);
+    }
+    .intro p, .muted {
+      margin: 0;
+      color: var(--muted);
+      line-height: 1.5;
+    }
+    .intro p {
+      color: #eef8ff;
+      font-size: 18px;
+      font-weight: 650;
+      max-width: 680px;
+      text-shadow: 0 2px 3px rgba(0,0,0,.78), 0 4px 12px rgba(0,0,0,.55);
+    }
+    .intro-actions {
+      display: flex;
+      gap: 12px;
+      margin-top: 22px;
+      flex-wrap: wrap;
+    }
+    .hero-button {
+      min-height: 42px;
+      padding: 9px 16px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      background: var(--aq-ocean);
+      color: #fff;
+      text-decoration: none;
+      font-weight: 650;
+      border: 1px solid var(--aq-ocean);
+    }
+    .hero-button.secondary {
+      background: var(--aq-gold);
+      color: #fff;
+      border: 1px solid var(--aq-gold);
+    }
+    .hero-button:hover,
+    .hero-button.secondary:hover,
+    .btn:hover,
+    .detail-actions a:hover,
+    .detail-actions a.secondary:hover {
+      background: var(--aq-gold-dark);
+      border-color: var(--aq-gold-dark);
+      color: #fff;
+    }
+    .policy-box {
+      border: 1px solid #c8e6d0;
+      background: #effaf2;
+      padding: 13px;
+      color: var(--ok);
+      font-size: 14px;
+    }
+    .stats {
+      display: flex;
+      gap: 14px;
+      margin: 14px 20px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+    .stat {
+      border: 1px solid var(--line);
+      padding: 7px 10px;
+      background: var(--soft);
+    }
+    .layout {
+      display: grid;
+      grid-template-columns: 260px minmax(0, 1fr);
+      gap: 16px;
+      padding: 0 20px 40px;
+    }
+    aside {
+      border-right: 1px solid var(--line);
+      padding-right: 12px;
+    }
+    .side-title {
+      font-weight: 600;
+      margin: 0 0 8px;
+    }
+    .category-list button {
+      width: 100%;
+      min-height: 36px;
+      text-align: left;
+      border: 0;
+      border-bottom: 1px solid #eeeeee;
+      background: #fff;
+      padding: 8px 6px;
+      cursor: pointer;
+      font: inherit;
+    }
+    .category-list button.active,
+    .category-list button:hover {
+      color: var(--aq-blue);
+      background: #f2f7ff;
+    }
+    .view-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: end;
+      gap: 12px;
+      margin-bottom: 12px;
+    }
+    .view-head h2 {
+      margin: 0;
+      font-weight: 500;
+      font-size: 24px;
+    }
+    .category-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 12px;
+    }
+    .category-card {
+      border: 1px solid var(--line);
+      min-height: 270px;
+      display: flex;
+      flex-direction: column;
+      cursor: pointer;
+      background: #fff;
+      transition: box-shadow .2s;
+    }
+    .category-card:hover,
+    .product-card:hover {
+      box-shadow: 0 4px 12px rgba(0, 102, 204, 1);
+    }
+    .category-image {
+      height: 160px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #eef2f5;
+      overflow: hidden;
+    }
+    .category-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .category-letter {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background:
+        linear-gradient(0deg, rgba(0,71,97,.28), rgba(0,71,97,.28)),
+        url("../images/catalogue/bla-edition-15-cover.jpg");
+      background-size: cover;
+      background-position: center;
+      color: #fff;
+      text-shadow: 0 1px 3px rgba(0,0,0,.45);
+      font-size: 34px;
+      font-weight: 600;
+    }
+    .crumb {
+      color: var(--muted);
+      font-size: 13px;
+      margin-bottom: 4px;
+    }
+    .category-body {
+      padding: 12px;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      flex: 1;
+    }
+    .category-body h3 {
+      margin: 0;
+      font-size: 18px;
+      font-weight: 500;
+    }
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 12px;
+    }
+    .product-card {
+      border: 1px solid var(--line);
+      background: #fff;
+      display: flex;
+      flex-direction: column;
+      min-height: 410px;
+      transition: box-shadow .2s;
+    }
+    .image-container {
+      height: 215px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #f3f5f8;
+      border-bottom: 1px solid var(--line);
+      padding: 12px;
+      text-align: center;
+      color: var(--muted);
+    }
+    .image-container img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      background: #fff;
+    }
+    .placeholder {
+      border: 1px dashed #b8c3cf;
+      padding: 12px;
+      font-size: 13px;
+      background: rgba(255,255,255,.7);
+    }
+    .product-body {
+      padding: 12px;
+      display: flex;
+      flex-direction: column;
+      gap: 7px;
+      flex: 1;
+      text-align: center;
+    }
+    .code {
+      color: var(--aq-blue);
+      font-weight: 700;
+      font-size: 13px;
+    }
+    .product-title {
+      min-height: 44px;
+      font-size: 15px;
+      font-weight: 500;
+    }
+    .catalogue-snippet {
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.35;
+      min-height: 48px;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      text-align: left;
+    }
+    .badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 5px;
+      justify-content: center;
+    }
+    .badge {
+      border: 1px solid var(--line);
+      background: #fafafa;
+      padding: 3px 7px;
+      font-size: 12px;
+      color: var(--muted);
+    }
+    .price-row {
+      margin-top: auto;
+      border-top: 1px solid var(--line);
+      padding-top: 9px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 10px;
+      text-align: left;
+    }
+    .price-row strong {
+      color: var(--aq-blue);
+      font-size: 18px;
+    }
+    .btn {
+      border: 0;
+      background: var(--aq-ocean);
+      color: #fff;
+      min-height: 36px;
+      padding: 8px 12px;
+      cursor: pointer;
+      font: inherit;
+    }
+    .back-row {
+      margin-bottom: 10px;
+    }
+    .drawer {
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,.45);
+      display: none;
+      z-index: 200;
+      align-items: stretch;
+      justify-content: flex-end;
+    }
+    .drawer.open { display: flex; }
+    .drawer-panel {
+      width: min(980px, 94vw);
+      height: 100vh;
+      overflow: auto;
+      background: #fff;
+      display: grid;
+      grid-template-columns: 40% 60%;
+    }
+    .detail-image {
+      background: #f5f7fa;
+      border-right: 1px solid var(--line);
+      padding: 18px;
+    }
+    .detail-image-main {
+      height: 390px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #fff;
+      border: 1px solid var(--line);
+      text-align: center;
+      padding: 16px;
+      color: var(--muted);
+    }
+    .detail-image-main img {
+      max-width: 100%;
+      max-height: 100%;
+      object-fit: contain;
+    }
+    .detail-content {
+      padding: 18px 22px 32px;
+    }
+    .close {
+      float: right;
+      width: 38px;
+      height: 38px;
+      border: 1px solid var(--line);
+      background: #fff;
+      font-size: 25px;
+      cursor: pointer;
+    }
+    .detail-content h2 {
+      margin: 6px 48px 10px 0;
+      font-size: 24px;
+      font-weight: 500;
+      line-height: 1.25;
+    }
+    .detail-section {
+      border-top: 1px solid var(--line);
+      margin-top: 16px;
+      padding-top: 13px;
+    }
+    .detail-section h3 {
+      margin: 0 0 8px;
+      font-size: 17px;
+      font-weight: 600;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 13px;
+    }
+    th, td {
+      border-bottom: 1px solid var(--line);
+      padding: 7px 6px;
+      text-align: left;
+      vertical-align: top;
+    }
+    th {
+      width: 38%;
+      color: var(--muted);
+      font-weight: 600;
+    }
+    .pricing-note {
+      color: var(--muted);
+      line-height: 1.45;
+      font-size: 13px;
+      margin-top: 10px;
+    }
+    .detail-actions {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin: 16px 0;
+    }
+    .detail-actions a {
+      min-height: 40px;
+      padding: 8px 14px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      background: var(--aq-ocean);
+      color: #fff;
+      font-weight: 650;
+      border: 1px solid var(--aq-ocean);
+    }
+    .detail-actions a.secondary {
+      background: var(--aq-gold);
+      color: #fff;
+      border: 1px solid var(--aq-gold);
+    }
+  </style>
+</head>
+<body class="auth-locked">
+  <section id="authGate" class="auth-gate" aria-label="BLA catalogue access">
+    <div class="auth-card">
+      <h1>BLA Catalogue Preview</h1>
+      <p>This catalogue preview is available for Aquam Insula internal testing.</p>
+      <form id="authForm">
+        <input id="accessToken" type="password" autocomplete="current-password" placeholder="Access token">
+        <button type="submit">Open Catalogue</button>
+        <div id="authError" class="auth-error" aria-live="polite"></div>
+      </form>
+    </div>
+  </section>
+  <div id="appShell">
+  <div id="menu-container">
+    <img id="title-img"
+      src="https://raw.githubusercontent.com/toralf-dittmann/aqiml/468d8135b8b830cfcfc753be0fe270cbdcdd01f1/AQUAM%20INSULA%20Maritime%20Lifestyle%20160%20x%2040.jpg"
+      alt="AQUAM INSULA Maritime Lifestyle">
+    <div class="top-actions">
+      <a href="mailto:maritime-lifestyle@aquam-insula.com">maritime-lifestyle@aquam-insula.com</a>
+    </div>
+    <div class="search-row">
+      <input id="search" type="search" placeholder="Search product code, product, brand or category">
+      <select id="sort">
+        <option value="category">Sort by category</option>
+        <option value="code">Sort by product code</option>
+        <option value="priceAsc">Price low to high</option>
+        <option value="priceDesc">Price high to low</option>
+      </select>
+      <select id="limit">
+        <option value="60">60 shown</option>
+        <option value="120" selected>120 shown</option>
+        <option value="300">300 shown</option>
+        <option value="1000">1000 shown</option>
+      </select>
+    </div>
+    <div class="mode-tabs">
+      <button id="tabCategories" class="active">BLA Categories</button>
+      <button id="tabProducts">All BLA Products</button>
+    </div>
+  </div>
+
+  <section class="intro">
+    <div class="intro-main">
+      <h1>BLA Australia Marine Catalogue</h1>
+      <p>Access BLA's marine catalogue from Fiji. We order on demand from Australia and arrange air freight delivery within a few days, with prices shown in FJD including freight costs and import duties.</p>
+      <div class="intro-actions">
+        <a class="hero-button" href="#categoryGrid">Browse Categories</a>
+        <a class="hero-button secondary" href="mailto:maritime-lifestyle@aquam-insula.com">Request Advice</a>
+      </div>
+    </div>
+  </section>
+
+  <div class="stats">
+    <div class="stat" id="productCount">Loading products...</div>
+    <div class="stat">Air freight from Australia</div>
+    <div class="stat">Prices include freight and duties</div>
+  </div>
+
+  <div class="layout">
+    <aside>
+      <div class="side-title">BLA Categories</div>
+      <div id="categoryList" class="category-list"></div>
+    </aside>
+    <main>
+      <div id="backRow" class="back-row" style="display:none">
+        <button class="btn" id="backToCategories">Back to Categories</button>
+      </div>
+      <div class="view-head">
+        <div>
+          <h2 id="viewTitle">BLA Categories</h2>
+          <div id="resultCount" class="muted">Loading...</div>
+        </div>
+      </div>
+      <section id="categoryGrid" class="category-grid"></section>
+      <section id="productGrid" class="product-grid" style="display:none"></section>
+    </main>
+  </div>
+
+  <div id="drawer" class="drawer">
+    <div class="drawer-panel">
+      <section class="detail-image">
+        <div id="detailImage" class="detail-image-main"></div>
+      </section>
+      <section class="detail-content">
+        <button id="closeDrawer" class="close">&times;</button>
+        <div id="detailContent"></div>
+      </section>
+    </div>
+  </div>
+  </div>
+
+  <script>
+    const ACCESS_TOKEN_HASH = '4d30a098c2e7ed02e0a66d0a3ec2034d87ee987c7221e6afe17d74b02d066436';
+    const ACCESS_STORAGE_KEY = 'aqiml-bla-preview-token';
+    const GAS_URL = 'https://script.google.com/macros/s/AKfycbxpg0ptxrXsGXO6vmir-RxK5mHQ_I5XdFPxNeIp9uDgPumGxz9c9ATs_r51Mr4R4UpONA/exec';
+    const vatRate = 0.15;
+    let products = [];
+    let currentTopCategory = '';
+    let currentSubCategory = '';
+    let mode = 'categories';
+    let accessToken = '';
+    const isLocalPreview = ['127.0.0.1', 'localhost'].includes(window.location.hostname);
+    const driveImageCache = new Map();
+    let driveImageObserver;
+    const aiCache = new Map();
+    const fallbackIntro = 'Additional product information is currently being prepared.';
+    const categoryIllustrations = {
+      'Anchoring & Mooring': '../images/catalogue/product-blocks/141652.jpg',
+      'Covers, Seats & Boat Fitout': '../images/web-product-images/181034.jpg',
+      'Deck Hardware': '../images/catalogue/product-blocks/143054.jpg',
+      'Electrical & Electronics': '../images/bla-website-products/101088.jpg',
+      'Fenders & Buoys': '../images/catalogue/product-blocks/141002.jpg',
+      'Fishing': '../images/bla-website-products/109176.jpg',
+      'Lighting': '../images/catalogue/product-blocks/106350.jpg',
+      'Maintenance': '../images/web-product-images/200204.jpg',
+      'Pumps, Plumbing & Galley': '../images/bla-website-products/114030.jpg',
+      'Safety': '../images/catalogue/product-blocks/116018.jpg',
+      'Tools & Chandlery': '../images/bla-website-products/109024.jpg',
+      'Trailering': '../images/bla-website-products/211200.jpg'
+    };
+
+    const money = value => Number(value || 0).toLocaleString('en-US', {
+      minimumFractionDigits: 2,
+      maximumFractionDigits: 2
+    });
+    const esc = value => String(value ?? '').replace(/[&<>"']/g, ch => ({
+      '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
+    }[ch]));
+
+    async function sha256Hex(value) {
+      const bytes = new TextEncoder().encode(value);
+      const digest = await crypto.subtle.digest('SHA-256', bytes);
+      return Array.from(new Uint8Array(digest)).map(byte => byte.toString(16).padStart(2, '0')).join('');
+    }
+
+    function setAuthError(message) {
+      document.getElementById('authError').textContent = message || '';
+    }
+
+    async function applyAccessToken(token) {
+      if (!token) return false;
+      const hash = await sha256Hex(token);
+      if (hash !== ACCESS_TOKEN_HASH) return false;
+      accessToken = token;
+      sessionStorage.setItem(ACCESS_STORAGE_KEY, token);
+      document.body.classList.remove('auth-locked');
+      document.getElementById('authGate').setAttribute('hidden', '');
+      return true;
+    }
+
+    async function ensureAccess() {
+      const params = new URLSearchParams(window.location.search);
+      const urlToken = params.get('token') || '';
+      const storedToken = sessionStorage.getItem(ACCESS_STORAGE_KEY) || '';
+      if (await applyAccessToken(urlToken || storedToken)) {
+        if (urlToken) {
+          params.delete('token');
+          const cleanQuery = params.toString();
+          const cleanUrl = window.location.pathname + (cleanQuery ? `?${cleanQuery}` : '') + window.location.hash;
+          window.history.replaceState({}, document.title, cleanUrl);
+        }
+        return true;
+      }
+      if (urlToken) setAuthError('The access token is not valid.');
+      document.getElementById('authForm').addEventListener('submit', async event => {
+        event.preventDefault();
+        setAuthError('');
+        const token = document.getElementById('accessToken').value.trim();
+        if (await applyAccessToken(token)) {
+          loadCatalogue();
+        } else {
+          setAuthError('The access token is not valid.');
+        }
+      }, { once: false });
+      return false;
+    }
+
+    async function postFormOrError(url, params) {
+      const body = new URLSearchParams();
+      Object.keys(params || {}).forEach(key => body.append(key, params[key]));
+      const response = await fetch(url, { method: 'POST', body });
+      const text = await response.text();
+      let data = {};
+      try { data = JSON.parse(text); } catch (error) {}
+      if (!response.ok || data.error) throw new Error(data.error || response.statusText || 'POST failed');
+      return data;
+    }
+
+    async function fetchAiDescription(product) {
+      const payload = {
+        productNumber: product.productNumber,
+        description: product.description,
+        brand: product.brand || '',
+        category: topCategory(product),
+        subCategory: subCategoryName(product),
+        catalogueDescription: product.catalogueDescription || '',
+        websiteDescription: product.websiteDescription || ''
+      };
+      const data = await postFormOrError(
+        GAS_URL + '?action=getAiDescription',
+        { product: JSON.stringify(payload) }
+      );
+      return data && typeof data.text === 'string' ? data.text : fallbackIntro;
+    }
+
+    function topCategory(product) {
+      if (product.topCategory) return product.topCategory;
+      if (product.categoryName) return product.categoryName;
+      const path = Array.isArray(product.categoryPath) ? product.categoryPath : [];
+      return path.length > 1 ? path[1] : 'Tools & Chandlery';
+    }
+    function subCategoryName(product) {
+      if (product.subCategoryName) return product.subCategoryName;
+      const path = Array.isArray(product.categoryPath) ? product.categoryPath : [];
+      return path.length > 2 ? path[2] : (product.subCategory || 'General Marine Supplies');
+    }
+    function isRemoteAsset(src) {
+      return /^https?:\/\//i.test(String(src || '')) || /^data:/i.test(String(src || ''));
+    }
+    function normalizeDriveAssetPath(src) {
+      return String(src || '').replace(/\\/g, '/').replace(/^\.\.\//, '').replace(/^\.\//, '');
+    }
+    function driveImagePlaceholder(label) {
+      return `data:image/svg+xml;charset=UTF-8,${encodeURIComponent(
+        `<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600" viewBox="0 0 900 600"><rect width="900" height="600" fill="#eef7f8"/><text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-family="Arial" font-size="34" fill="#006b7a">${esc(label || 'BLA')}</text></svg>`
+      )}`;
+    }
+    function assetImageTag(src, alt, className) {
+      if (!src) return '';
+      if (isRemoteAsset(src) || isLocalPreview) {
+        return `<img src="${esc(src)}" alt="${esc(alt)}"${className ? ` class="${esc(className)}"` : ''}>`;
+      }
+      return `<img src="${driveImagePlaceholder(alt)}" data-bla-asset="${esc(normalizeDriveAssetPath(src))}" alt="${esc(alt)}"${className ? ` class="${esc(className)}"` : ''}>`;
+    }
+    function categoryImage(src, label) {
+      const illustrative = categoryIllustrations[label] || src;
+      if (illustrative) return assetImageTag(illustrative, label);
+      return `<div class="category-letter">${esc(String(label || 'B').charAt(0))}</div>`;
+    }
+    function imageMarkup(product) {
+      const src =
+        product.productWebsiteImageSourceUrl ||
+        product.productWebSearchImageSourceUrl ||
+        product.productBlockImageUrl ||
+        ((product.imageUrl || '').includes('/product-blocks/') ? product.imageUrl : '') ||
+        product.productWebsiteImageUrl ||
+        ((product.imageUrl || '').includes('/bla-website-products/') ? product.imageUrl : '') ||
+        product.productWebSearchImageUrl ||
+        ((product.imageUrl || '').includes('/web-product-images/') ? product.imageUrl : '') ||
+        ((product.catalogueImageUrl || '').includes('/pages/') ? product.catalogueImageUrl : '') ||
+        (product.images || [])[0]?.url ||
+        '';
+      if (src) return assetImageTag(src, product.description);
+      return `<div class="placeholder">Product image coming soon</div>`;
+    }
+    function loadDriveAssetImage(img) {
+      const path = img.dataset.blaAsset;
+      if (!path || img.dataset.loaded === '1') return;
+      img.dataset.loaded = '1';
+      if (driveImageCache.has(path)) {
+        img.src = driveImageCache.get(path);
+        return;
+      }
+      const url = `${GAS_URL}?action=getBlaAssetData&token=${encodeURIComponent(accessToken)}&path=${encodeURIComponent(path)}`;
+      fetch(url)
+        .then(response => response.json())
+        .then(data => {
+          if (!data || data.error || !data.base64) throw new Error(data && data.error ? data.error : 'Image unavailable');
+          const dataUrl = `data:${data.mimeType || 'image/jpeg'};base64,${data.base64}`;
+          driveImageCache.set(path, dataUrl);
+          img.src = dataUrl;
+        })
+        .catch(() => {
+          img.src = driveImagePlaceholder(img.alt || 'BLA');
+        });
+    }
+    function hydrateDriveImages(root) {
+      if (isLocalPreview) return;
+      const images = Array.from((root || document).querySelectorAll('img[data-bla-asset]'));
+      if (!images.length) return;
+      if (!('IntersectionObserver' in window)) {
+        images.forEach(loadDriveAssetImage);
+        return;
+      }
+      if (!driveImageObserver) {
+        driveImageObserver = new IntersectionObserver(entries => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              driveImageObserver.unobserve(entry.target);
+              loadDriveAssetImage(entry.target);
+            }
+          });
+        }, { rootMargin: '320px 0px' });
+      }
+      images.forEach(img => driveImageObserver.observe(img));
+    }
+    function groupedTopCategories() {
+      const map = new Map();
+      products.forEach(p => {
+        const cat = topCategory(p);
+        if (!map.has(cat)) map.set(cat, []);
+        map.get(cat).push(p);
+      });
+      return Array.from(map.entries()).sort((a, b) => a[0].localeCompare(b[0]));
+    }
+    function groupedSubCategories(top) {
+      const map = new Map();
+      products.filter(p => topCategory(p) === top).forEach(p => {
+        const sub = subCategoryName(p);
+        if (!map.has(sub)) map.set(sub, []);
+        map.get(sub).push(p);
+      });
+      return Array.from(map.entries()).sort((a, b) => a[0].localeCompare(b[0]));
+    }
+    function currentRows() {
+      const query = document.getElementById('search').value.trim().toLowerCase();
+      const sort = document.getElementById('sort').value;
+      const rows = products.filter(p => {
+        const top = topCategory(p);
+        const sub = subCategoryName(p);
+        const text = [p.productNumber, p.description, p.brand, top, sub, p.subCategory].join(' ').toLowerCase();
+        return (!currentTopCategory || top === currentTopCategory) &&
+          (!currentSubCategory || sub === currentSubCategory) &&
+          (!query || text.includes(query));
+      });
+      rows.sort((a, b) => {
+        if (sort === 'priceAsc') return Number(a.price || 0) - Number(b.price || 0);
+        if (sort === 'priceDesc') return Number(b.price || 0) - Number(a.price || 0);
+        if (sort === 'code') return String(a.productNumber).localeCompare(String(b.productNumber), undefined, { numeric: true });
+        return topCategory(a).localeCompare(topCategory(b)) ||
+          subCategoryName(a).localeCompare(subCategoryName(b)) ||
+          String(a.productNumber).localeCompare(String(b.productNumber), undefined, { numeric: true });
+      });
+      return rows;
+    }
+    function renderSidebar() {
+      const list = document.getElementById('categoryList');
+      const cats = groupedTopCategories();
+      list.innerHTML = `<button class="${currentTopCategory ? '' : 'active'}" data-top="">All categories</button>` +
+        cats.map(([cat, rows]) => `<button class="${currentTopCategory === cat ? 'active' : ''}" data-top="${esc(cat)}">${esc(cat)} (${rows.length})</button>`).join('');
+      list.querySelectorAll('button').forEach(btn => {
+        btn.addEventListener('click', () => {
+          currentTopCategory = btn.dataset.top || '';
+          currentSubCategory = '';
+          mode = currentTopCategory ? 'products' : 'categories';
+          render();
+        });
+      });
+    }
+    function renderCategories() {
+      const query = document.getElementById('search').value.trim().toLowerCase();
+      const cats = groupedTopCategories().filter(([cat, rows]) => {
+        if (!query) return true;
+        return cat.toLowerCase().includes(query) || rows.some(p => [p.description, p.productNumber, subCategoryName(p)].join(' ').toLowerCase().includes(query));
+      });
+      document.getElementById('viewTitle').textContent = 'BLA Categories';
+      document.getElementById('resultCount').textContent = `${cats.length} categories`;
+      document.getElementById('categoryGrid').style.display = 'grid';
+      document.getElementById('productGrid').style.display = 'none';
+      document.getElementById('backRow').style.display = 'none';
+      document.getElementById('categoryGrid').innerHTML = cats.map(([cat, rows]) => {
+        const minPrice = Math.min(...rows.map(p => Number(p.price || 0)).filter(Boolean));
+        const sample = rows[0] || {};
+        return `
+          <article class="category-card" data-top="${esc(cat)}">
+            <div class="category-image">${categoryImage(sample.categoryImage, cat)}</div>
+            <div class="category-body">
+              <h3>${esc(cat)}</h3>
+              <div class="muted">${rows.length} BLA products</div>
+              <div class="muted">From FJD incl. VAT ${money(isFinite(minPrice) ? minPrice * (1 + vatRate) : 0)}</div>
+              <div class="muted">${esc(cat)} from the BLA Australia catalogue.</div>
+              <div class="muted">Example: ${esc(sample.description || '')}</div>
+            </div>
+          </article>`;
+      }).join('');
+      document.querySelectorAll('.category-card').forEach(card => {
+        card.addEventListener('click', () => {
+          currentTopCategory = card.dataset.top;
+          currentSubCategory = '';
+          mode = 'products';
+          render();
+        });
+      });
+      hydrateDriveImages(document.getElementById('categoryGrid'));
+    }
+    function renderProducts() {
+      const rows = currentRows();
+      const limit = Number(document.getElementById('limit').value);
+      document.getElementById('viewTitle').textContent = currentSubCategory || currentTopCategory || 'All BLA Products';
+      document.getElementById('resultCount').textContent = `${rows.length} products found | showing ${Math.min(limit, rows.length)}`;
+      document.getElementById('categoryGrid').style.display = 'none';
+      document.getElementById('productGrid').style.display = 'grid';
+      document.getElementById('backRow').style.display = currentTopCategory ? 'block' : 'none';
+      document.getElementById('productGrid').innerHTML = rows.slice(0, limit).map(p => `
+        <article class="product-card">
+          <div class="image-container">${imageMarkup(p)}</div>
+          <div class="product-body">
+            <div class="code">BLA ${esc(p.productNumber)}</div>
+            <div class="product-title">${esc(p.description)}</div>
+            <div class="catalogue-snippet">${esc(p.catalogueDescription || p.websiteDescription || p.subCategoryDescription || '')}</div>
+            <div class="muted">${esc(topCategory(p))} / ${esc(subCategoryName(p))}</div>
+            <div class="badges">
+              ${p.brand ? `<span class="badge">${esc(p.brand)}</span>` : ''}
+              <span class="badge">${esc(p.variant || 'PC')}</span>
+            </div>
+            <div class="price-row">
+              <span>FJD incl. VAT</span>
+              <strong>${money(Number(p.price || 0) * (1 + vatRate))}</strong>
+            </div>
+            <button class="btn view-product" data-code="${esc(p.productNumber)}">View Product</button>
+          </div>
+        </article>`).join('');
+      document.querySelectorAll('.view-product').forEach(btn => {
+        btn.addEventListener('click', () => openProduct(btn.dataset.code));
+      });
+      hydrateDriveImages(document.getElementById('productGrid'));
+    }
+    function render() {
+      document.getElementById('tabCategories').classList.toggle('active', mode === 'categories');
+      document.getElementById('tabProducts').classList.toggle('active', mode === 'products');
+      renderSidebar();
+      if (mode === 'categories') renderCategories();
+      else renderProducts();
+    }
+    function openProduct(code) {
+      const p = products.find(x => String(x.productNumber) === String(code));
+      if (!p) return;
+      document.getElementById('detailImage').innerHTML = imageMarkup(p);
+      hydrateDriveImages(document.getElementById('detailImage'));
+      const specs = Array.isArray(p.specifications) ? p.specifications : [];
+      document.getElementById('detailContent').innerHTML = `
+        <div class="code">BLA ${esc(p.productNumber)}</div>
+        <h2>${esc(p.description)}</h2>
+        <div class="muted">${esc(topCategory(p))} / ${esc(subCategoryName(p))}</div>
+        <div class="price-row">
+          <span>FJD incl. VAT</span>
+          <strong>${money(Number(p.price || 0) * (1 + vatRate))}</strong>
+        </div>
+        <div class="detail-section">
+          <h3>Introduction</h3>
+          <div id="aiIntro" class="muted">Loading product introduction...</div>
+        </div>
+        <div class="detail-section">
+          <h3>Product Information</h3>
+          <div>${p.catalogueDescription ? `<p>${esc(p.catalogueDescription)}</p>` : (p.websiteDescription ? `<p>${esc(p.websiteDescription)}</p>` : (p.descriptionHtml || `<p>${esc(p.description)}</p>`))}</div>
+        </div>
+        <div class="detail-actions">
+          <a href="mailto:maritime-lifestyle@aquam-insula.com?subject=${encodeURIComponent('BLA ' + p.productNumber + ' enquiry')}&body=${encodeURIComponent('Please send me more information about BLA ' + p.productNumber + ' - ' + p.description)}">Request a Quote</a>
+          <a class="secondary" href="mailto:maritime-lifestyle@aquam-insula.com">Ask for Advice</a>
+        </div>`;
+      document.getElementById('drawer').classList.add('open');
+      const intro = document.getElementById('aiIntro');
+      const cacheKey = String(p.productNumber || '');
+      if (aiCache.has(cacheKey)) {
+        intro.textContent = aiCache.get(cacheKey);
+      } else {
+        fetchAiDescription(p)
+          .then(text => {
+            aiCache.set(cacheKey, text);
+            intro.textContent = text;
+          })
+          .catch(error => {
+            console.error('AI product intro failed', error);
+            intro.textContent = fallbackIntro;
+          });
+      }
+    }
+    document.getElementById('tabCategories').addEventListener('click', () => { currentTopCategory = ''; currentSubCategory = ''; mode = 'categories'; render(); });
+    document.getElementById('tabProducts').addEventListener('click', () => { mode = 'products'; render(); });
+    document.getElementById('backToCategories').addEventListener('click', () => {
+      currentTopCategory = '';
+      currentSubCategory = '';
+      mode = 'categories';
+      render();
+    });
+    document.getElementById('closeDrawer').addEventListener('click', () => document.getElementById('drawer').classList.remove('open'));
+    document.getElementById('drawer').addEventListener('click', e => {
+      if (e.target.id === 'drawer') document.getElementById('drawer').classList.remove('open');
+    });
+    ['search', 'sort', 'limit'].forEach(id => {
+      document.getElementById(id).addEventListener('input', () => {
+        if (id === 'search' && mode === 'categories' && document.getElementById('search').value.trim()) {
+          currentTopCategory = '';
+          currentSubCategory = '';
+        }
+        render();
+      });
+      document.getElementById(id).addEventListener('change', render);
+    });
+    function loadCatalogue() {
+      const feedUrl = isLocalPreview
+        ? './data/bla_shop_feed_web.json'
+        : `${GAS_URL}?action=getBlaCatalogueFeed&token=${encodeURIComponent(accessToken)}`;
+      fetch(feedUrl)
+        .then(response => response.json())
+        .then(data => {
+          if (data && data.error) throw new Error(data.error);
+          products = data;
+          document.getElementById('productCount').textContent = `${products.length.toLocaleString('en-US')} BLA products`;
+          render();
+        })
+        .catch(error => {
+          document.getElementById('productCount').textContent = 'Catalogue is temporarily unavailable';
+          document.getElementById('resultCount').textContent = error.message;
+        });
+    }
+
+    ensureAccess().then(hasAccess => {
+      if (hasAccess) loadCatalogue();
+    });
+  </script>
+</body>
+</html>
