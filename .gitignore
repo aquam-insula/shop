@@ -1,3 +1,6 @@
 images/
 bla/data/
 bla/assets/aquam-logo-sample.jpg
+!bla/assets/product-thumbs/
+!bla/assets/product-thumbs/images/
+!bla/assets/product-thumbs/images/**

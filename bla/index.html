@@ -397,6 +397,19 @@
       flex: 1;
       text-align: center;
     }
+    .product-brand-row {
+      min-height: 36px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+    }
+    .product-card-logo {
+      width: auto;
+      height: 28px;
+      object-fit: contain;
+      display: block;
+    }
     .code {
       color: var(--aq-blue);
       font-weight: 700;
@@ -683,18 +696,18 @@
     const aiCache = new Map();
     const fallbackIntro = 'Additional product information is currently being prepared.';
     const categoryIllustrations = {
-      'Anchoring & Mooring': '../images/catalogue/product-blocks/141652.jpg',
-      'Covers, Seats & Boat Fitout': '../images/web-product-images/181034.jpg',
-      'Deck Hardware': '../images/catalogue/product-blocks/143054.jpg',
-      'Electrical & Electronics': '../images/bla-website-products/101088.jpg',
-      'Fenders & Buoys': '../images/catalogue/product-blocks/141002.jpg',
-      'Fishing': '../images/bla-website-products/109176.jpg',
-      'Lighting': '../images/catalogue/product-blocks/106350.jpg',
-      'Maintenance': '../images/web-product-images/200204.jpg',
-      'Pumps, Plumbing & Galley': '../images/bla-website-products/114030.jpg',
-      'Safety': '../images/catalogue/product-blocks/116018.jpg',
-      'Tools & Chandlery': '../images/bla-website-products/109024.jpg',
-      'Trailering': '../images/bla-website-products/211200.jpg'
+      'Anchoring & Mooring': './assets/categories/anchoring-mooring.jpg',
+      'Covers, Seats & Boat Fitout': './assets/categories/covers-seats-fitout.jpg',
+      'Deck Hardware': './assets/categories/deck-hardware.jpg',
+      'Electrical & Electronics': './assets/categories/electrical-electronics.jpg',
+      'Fenders & Buoys': './assets/categories/fenders-buoys.jpg',
+      'Fishing': './assets/categories/fishing.jpg',
+      'Lighting': './assets/categories/lighting.jpg',
+      'Maintenance': './assets/categories/maintenance.jpg',
+      'Pumps, Plumbing & Galley': './assets/categories/pumps-plumbing-galley.jpg',
+      'Safety': './assets/categories/safety.jpg',
+      'Tools & Chandlery': './assets/categories/tools-chandlery.jpg',
+      'Trailering': './assets/categories/trailering.jpg'
     };
     const categoryColors = {
       'Anchoring & Mooring': '#00a6b2',
@@ -809,6 +822,9 @@
     function isRemoteAsset(src) {
       return /^https?:\/\//i.test(String(src || '')) || /^data:/i.test(String(src || ''));
     }
+    function isStaticSiteAsset(src) {
+      return /^\.\//.test(String(src || '')) || /^assets\//.test(String(src || ''));
+    }
     function normalizeDriveAssetPath(src) {
       return String(src || '').replace(/\\/g, '/').replace(/^\.\.\//, '').replace(/^\.\//, '');
     }
@@ -822,14 +838,14 @@
     }
     function assetImageTag(src, alt, className, thumb) {
       if (!src) return '';
-      if (isRemoteAsset(src) || isLocalPreview) {
+      if (isRemoteAsset(src) || isStaticSiteAsset(src) || isLocalPreview) {
         return `<img src="${esc(src)}" alt="${esc(alt)}"${className ? ` class="${esc(className)}"` : ''}>`;
       }
       return `<img src="${driveImagePlaceholder(alt)}" data-bla-asset="${esc(normalizeDriveAssetPath(src))}"${thumb ? ` data-bla-thumb="${esc(thumb)}"` : ''} alt="${esc(alt)}"${className ? ` class="${esc(className)}"` : ''}>`;
     }
     function categoryImage(src, label) {
       const illustrative = categoryIllustrations[label] || src;
-      if (illustrative) return assetImageTag(illustrative, label, '', 'card');
+      if (illustrative) return assetImageTag(illustrative, label);
       return `<div class="category-letter">${esc(String(label || 'B').charAt(0))}</div>`;
     }
     function productImageSource(product) {
@@ -850,8 +866,15 @@
     function imageMarkup(product, thumb) {
       const src =
         productImageSource(product);
-      if (src) return assetImageTag(src, product.description, '', thumb);
+      if (src) return assetImageTag(thumb === 'card' ? staticCardImageSource(src) : src, product.description, '', thumb);
       return `<div class="placeholder">Product image coming soon</div>`;
+    }
+    function staticCardImageSource(src) {
+      if (!src || isRemoteAsset(src) || isStaticSiteAsset(src)) return src;
+      const path = normalizeDriveAssetPath(src);
+      if (!path.startsWith('images/')) return src;
+      if (/\.webp$/i.test(path)) return src;
+      return './assets/product-thumbs/' + path.replace(/\.(webp|png|gif|jpe?g)$/i, '.jpg');
     }
     function queueDriveAssetImage(img) {
       const path = img.dataset.blaAsset;
@@ -937,19 +960,6 @@
       });
       return Array.from(map.entries()).sort((a, b) => a[0].localeCompare(b[0]));
     }
-    function groupedSubCategories(top) {
-      const map = new Map();
-      products.filter(p => topCategory(p) === top).forEach(p => {
-        const sub = subCategoryName(p);
-        if (!map.has(sub)) map.set(sub, []);
-        map.get(sub).push(p);
-      });
-      return Array.from(map.entries()).sort((a, b) => a[0].localeCompare(b[0]));
-    }
-    function representativeImage(rows, label) {
-      const chosen = rows.find(p => productImageSource(p)) || rows[0] || {};
-      return productImageSource(chosen) || chosen.subCategoryImage || chosen.categoryImage || categoryIllustrations[label] || '';
-    }
     function currentRows() {
       const query = document.getElementById('search').value.trim().toLowerCase();
       const sort = document.getElementById('sort').value;
@@ -980,7 +990,7 @@
         btn.addEventListener('click', () => {
           currentTopCategory = btn.dataset.top || '';
           currentSubCategory = '';
-          mode = currentTopCategory ? 'subcategories' : 'categories';
+          mode = currentTopCategory ? 'products' : 'categories';
           render();
         });
       });
@@ -1000,14 +1010,12 @@
       document.getElementById('categoryGrid').innerHTML = cats.map(([cat, rows]) => {
         const minPrice = Math.min(...rows.map(p => Number(p.price || 0)).filter(Boolean));
         const sample = rows[0] || {};
-        const subCount = groupedSubCategories(cat).length;
         return `
           <article class="category-card" data-top="${esc(cat)}" ${cardStyle(cat)}>
             <div class="category-image">${categoryImage(sample.categoryImage, cat)}</div>
             <div class="category-body">
               <h3>${esc(cat)}</h3>
               <div class="muted">${rows.length} BLA products</div>
-              <div class="muted">${subCount} subcategories</div>
               <div class="muted">From FJD incl. VAT ${money(isFinite(minPrice) ? minPrice * (1 + vatRate) : 0)}</div>
               <div class="muted">${esc(cat)} from the BLA Australia catalogue.</div>
               <div class="muted">Example: ${esc(sample.description || '')}</div>
@@ -1018,43 +1026,6 @@
         card.addEventListener('click', () => {
           currentTopCategory = card.dataset.top;
           currentSubCategory = '';
-          mode = 'subcategories';
-          render();
-        });
-      });
-      hydrateDriveImages(document.getElementById('categoryGrid'), true);
-    }
-    function renderSubCategories() {
-      const query = document.getElementById('search').value.trim().toLowerCase();
-      const groups = groupedSubCategories(currentTopCategory).filter(([sub, rows]) => {
-        if (!query) return true;
-        return sub.toLowerCase().includes(query) || rows.some(p => [p.description, p.productNumber].join(' ').toLowerCase().includes(query));
-      });
-      document.getElementById('viewTitle').textContent = currentTopCategory || 'BLA Subcategories';
-      document.getElementById('resultCount').textContent = `${groups.length} subcategories`;
-      document.getElementById('categoryGrid').style.display = 'grid';
-      document.getElementById('productGrid').style.display = 'none';
-      document.getElementById('backRow').style.display = 'block';
-      document.getElementById('backToCategories').textContent = 'Back to Categories';
-      document.getElementById('categoryGrid').innerHTML = groups.map(([sub, rows]) => {
-        const minPrice = Math.min(...rows.map(p => Number(p.price || 0)).filter(Boolean));
-        const sample = rows[0] || {};
-        const image = representativeImage(rows, currentTopCategory);
-        return `
-          <article class="category-card" data-sub="${esc(sub)}" ${cardStyle(currentTopCategory)}>
-            <div class="category-image">${assetImageTag(image, sub, '', 'card')}</div>
-            <div class="category-body">
-              <div class="crumb">${esc(currentTopCategory)}</div>
-              <h3>${esc(sub)}</h3>
-              <div class="muted">${rows.length} BLA products</div>
-              <div class="muted">From FJD incl. VAT ${money(isFinite(minPrice) ? minPrice * (1 + vatRate) : 0)}</div>
-              <div class="muted">Example: ${esc(sample.description || '')}</div>
-            </div>
-          </article>`;
-      }).join('');
-      document.querySelectorAll('.category-card[data-sub]').forEach(card => {
-        card.addEventListener('click', () => {
-          currentSubCategory = card.dataset.sub;
           mode = 'products';
           render();
         });
@@ -1069,18 +1040,20 @@
       document.getElementById('categoryGrid').style.display = 'none';
       document.getElementById('productGrid').style.display = 'grid';
       document.getElementById('backRow').style.display = currentTopCategory ? 'block' : 'none';
-      document.getElementById('backToCategories').textContent = currentSubCategory ? 'Back to Subcategories' : 'Back to Categories';
+      document.getElementById('backToCategories').textContent = 'Back to Categories';
       document.getElementById('productGrid').innerHTML = rows.slice(0, limit).map(p => `
         <article class="product-card" ${cardStyle(topCategory(p))}>
           <div class="image-container">${imageMarkup(p, 'card')}</div>
           <div class="product-body">
-            <div class="code">BLA ${esc(p.productNumber)}</div>
+            <div class="product-brand-row">
+              <img class="product-card-logo" src="./assets/bla-logo.jpg" alt="BLA">
+              <div class="code">${esc(p.productNumber)}</div>
+            </div>
             <div class="product-title">${esc(p.description)}</div>
             <div class="catalogue-snippet">${esc(p.catalogueDescription || p.websiteDescription || p.subCategoryDescription || '')}</div>
             <div class="muted">${esc(topCategory(p))} / ${esc(subCategoryName(p))}</div>
             <div class="badges">
               ${p.brand ? `<span class="badge">${esc(p.brand)}</span>` : ''}
-              <span class="badge">${esc(p.variant || 'PC')}</span>
             </div>
             <div class="price-row">
               <span>FJD incl. VAT</span>
@@ -1099,7 +1072,6 @@
       document.getElementById('tabProducts').classList.toggle('active', mode === 'products');
       renderSidebar();
       if (mode === 'categories') renderCategories();
-      else if (mode === 'subcategories') renderSubCategories();
       else renderProducts();
     }
     function openProduct(code) {
@@ -1109,7 +1081,10 @@
       hydrateDriveImages(document.getElementById('detailImage'), true);
       const specs = Array.isArray(p.specifications) ? p.specifications : [];
       document.getElementById('detailContent').innerHTML = `
-        <div class="code">BLA ${esc(p.productNumber)}</div>
+        <div class="product-brand-row detail-brand-row">
+          <img class="product-card-logo" src="./assets/bla-logo.jpg" alt="BLA">
+          <div class="code">${esc(p.productNumber)}</div>
+        </div>
         <h2>${esc(p.description)}</h2>
         <div class="muted">${esc(topCategory(p))} / ${esc(subCategoryName(p))}</div>
         <div class="price-row">
@@ -1148,14 +1123,9 @@
     document.getElementById('tabCategories').addEventListener('click', () => { currentTopCategory = ''; currentSubCategory = ''; mode = 'categories'; render(); });
     document.getElementById('tabProducts').addEventListener('click', () => { mode = 'products'; render(); });
     document.getElementById('backToCategories').addEventListener('click', () => {
-      if (currentSubCategory) {
-        currentSubCategory = '';
-        mode = 'subcategories';
-      } else {
-        currentTopCategory = '';
-        currentSubCategory = '';
-        mode = 'categories';
-      }
+      currentTopCategory = '';
+      currentSubCategory = '';
+      mode = 'categories';
       render();
     });
     document.getElementById('closeDrawer').addEventListener('click', () => document.getElementById('drawer').classList.remove('open'));
