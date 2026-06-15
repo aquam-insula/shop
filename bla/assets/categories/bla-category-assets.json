@@ -1,0 +1,170 @@
+[
+  {
+    "category": "Electronics & Accessories",
+    "source": "assets\\product-thumbs\\images\\web-product-images\\103204.jpg",
+    "target": "assets\\categories\\bla-electronics-and-accessories.jpg",
+    "status": "created"
+  },
+  {
+    "category": "Electrical",
+    "source": "assets\\product-thumbs\\images\\web-product-images\\110974.jpg",
+    "target": "assets\\categories\\bla-electrical.jpg",
+    "status": "created"
+  },
+  {
+    "category": "Lighting",
+    "source": "assets\\product-thumbs\\images\\web-product-images\\121015.jpg",
+    "target": "assets\\categories\\bla-lighting.jpg",
+    "status": "created"
+  },
+  {
+    "category": "Pumps, Plumbing & Galley",
+    "source": "assets\\product-thumbs\\images\\web-product-images\\131021.jpg",
+    "target": "assets\\categories\\bla-pumps-plumbing-and-galley.jpg",
+    "status": "created"
+  },
+  {
+    "category": "Anchoring & Mooring",
+    "source": "assets\\product-thumbs\\images\\catalogue\\product-blocks\\141002.jpg",
+    "target": "assets\\categories\\bla-anchoring-and-mooring.jpg",
+    "status": "created"
+  },
+  {
+    "category": "Anchor Winches & Accessories",
+    "source": "assets\\product-thumbs\\images\\web-product-images\\153180.jpg",
+    "target": "assets\\categories\\bla-anchor-winches-and-accessories.jpg",
+    "status": "created"
+  },
+  {
+    "category": "Rigging & Architectural",
+    "source": "assets\\product-thumbs\\images\\web-product-images\\161130B10.jpg",
+    "target": "assets\\categories\\bla-rigging-and-architectural.jpg",
+    "status": "created"
+  },
+  {
+    "category": "Hatches & Ventilation",
+    "source": "assets\\product-thumbs\\images\\web-product-images\\170073.jpg",
+    "target": "assets\\categories\\bla-hatches-and-ventilation.jpg",
+    "status": "created"
+  },
+  {
+    "category": "Seats & Accessories",
+    "source": "assets\\product-thumbs\\images\\web-product-images\\181034.jpg",
+    "target": "assets\\categories\\bla-seats-and-accessories.jpg",
+    "status": "created"
+  },
+  {
+    "category": "Hull, Deck & Cabin Hardware",
+    "source": "assets\\product-thumbs\\images\\web-product-images\\192154.jpg",
+    "target": "assets\\categories\\bla-hull-deck-and-cabin-hardware.jpg",
+    "status": "created"
+  },
+  {
+    "category": "Engine Parts & Accessories",
+    "source": "assets\\product-thumbs\\images\\web-product-images\\Q59362A4.jpg",
+    "target": "assets\\categories\\bla-engine-parts-and-accessories.jpg",
+    "status": "created"
+  },
+  {
+    "category": "Trailer Accessories",
+    "source": "assets\\product-thumbs\\images\\web-product-images\\211903.jpg",
+    "target": "assets\\categories\\bla-trailer-accessories.jpg",
+    "status": "created"
+  },
+  {
+    "category": "Safety Equipment",
+    "source": "assets\\product-thumbs\\images\\web-product-images\\241084.jpg",
+    "target": "assets\\categories\\bla-safety-equipment.jpg",
+    "status": "created"
+  },
+  {
+    "category": "Navigation",
+    "source": "assets\\product-thumbs\\images\\web-product-images\\232118.jpg",
+    "target": "assets\\categories\\bla-navigation.jpg",
+    "status": "created"
+  },
+  {
+    "category": "Oils, Sealants & Maintenance",
+    "source": "assets\\product-thumbs\\images\\web-product-images\\260060.jpg",
+    "target": "assets\\categories\\bla-oils-sealants-and-maintenance.jpg",
+    "status": "created"
+  },
+  {
+    "category": "Steering Wheels",
+    "source": "assets\\product-thumbs\\images\\web-product-images\\271031.jpg",
+    "target": "assets\\categories\\bla-steering-wheels.jpg",
+    "status": "created"
+  },
+  {
+    "category": "Mechanical Steering - Power & Sail",
+    "source": "assets\\product-thumbs\\images\\web-product-images\\280009.jpg",
+    "target": "assets\\categories\\bla-mechanical-steering-power-and-sail.jpg",
+    "status": "created"
+  },
+  {
+    "category": "Hydraulic & Electric Power Steer Systems",
+    "source": "assets\\product-thumbs\\images\\web-product-images\\291563.jpg",
+    "target": "assets\\categories\\bla-hydraulic-and-electric-power-steer-systems.jpg",
+    "status": "created"
+  },
+  {
+    "category": "Engine Controls",
+    "source": "assets\\product-thumbs\\images\\web-product-images\\301181.jpg",
+    "target": "assets\\categories\\bla-engine-controls.jpg",
+    "status": "created"
+  },
+  {
+    "category": "Trim Tabs & Thrusters",
+    "source": "assets\\product-thumbs\\images\\web-product-images\\312422.jpg",
+    "target": "assets\\categories\\bla-trim-tabs-and-thrusters.jpg",
+    "status": "created"
+  },
+  {
+    "category": "Power Generation & Engine Room",
+    "source": "assets\\product-thumbs\\images\\web-product-images\\333241.jpg",
+    "target": "assets\\categories\\bla-power-generation-and-engine-room.jpg",
+    "status": "created"
+  },
+  {
+    "category": "Boat Building Materials",
+    "source": "assets\\product-thumbs\\images\\web-product-images\\341005.jpg",
+    "target": "assets\\categories\\bla-boat-building-materials.jpg",
+    "status": "created"
+  },
+  {
+    "category": "Rope",
+    "source": "assets\\categories\\rope-generated-source.png",
+    "target": "assets\\categories\\bla-rope.jpg",
+    "status": "created"
+  },
+  {
+    "category": "Refrigeration",
+    "source": "assets\\product-thumbs\\images\\web-product-images\\381503.jpg",
+    "target": "assets\\categories\\bla-refrigeration.jpg",
+    "status": "created"
+  },
+  {
+    "category": "Fishing Accessories",
+    "source": "assets\\product-thumbs\\images\\web-product-images\\394740.jpg",
+    "target": "assets\\categories\\bla-fishing-accessories.jpg",
+    "status": "created"
+  },
+  {
+    "category": "Sailboat Hardware & Sheet Winches",
+    "source": "assets\\product-thumbs\\images\\web-product-images\\420302.jpg",
+    "target": "assets\\categories\\bla-sailboat-hardware-and-sheet-winches.jpg",
+    "status": "created"
+  },
+  {
+    "category": "Watersports",
+    "source": "assets\\product-thumbs\\images\\bla-website-products\\501047.jpg",
+    "target": "assets\\categories\\bla-watersports.jpg",
+    "status": "created"
+  },
+  {
+    "category": "Electric Motors",
+    "source": "assets\\product-thumbs\\images\\web-product-images\\601318.jpg",
+    "target": "assets\\categories\\bla-electric-motors.jpg",
+    "status": "created"
+  }
+]
