@@ -1177,12 +1177,12 @@
       if (product.topCategory) return product.topCategory;
       if (product.categoryName) return product.categoryName;
       const path = Array.isArray(product.categoryPath) ? product.categoryPath : [];
-      return path.length > 1 ? path[1] : 'Tools & Chandlery';
+      return path.length > 1 ? path[1] : 'Hull, Deck & Cabin Hardware';
     }
     function subCategoryName(product) {
       if (product.subCategoryName) return product.subCategoryName;
       const path = Array.isArray(product.categoryPath) ? product.categoryPath : [];
-      return path.length > 2 ? path[2] : (product.subCategory || 'General Marine Supplies');
+      return path.length > 2 ? path[2] : (product.subCategory || 'General Hull, Deck & Cabin Hardware');
     }
     function isRemoteAsset(src) {
       return /^https?:\/\//i.test(String(src || '')) || /^data:/i.test(String(src || ''));
