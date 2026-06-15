@@ -999,6 +999,7 @@
     let catalogueLoadPromise = null;
     let aiResultCodes = null;
     let aiSearchRunning = false;
+    let searchRunId = 0;
     let activeRequestProduct = null;
     let activeRequestType = 'quote';
     const isLocalPreview = ['127.0.0.1', 'localhost'].includes(window.location.hostname);
@@ -1232,6 +1233,17 @@
     function searchResponseMeansNoRelevant(text) {
       return /no\s+(directly\s+)?relevant|temporarily unavailable/i.test(String(text || ''));
     }
+    function clearSearchState(options = {}) {
+      searchRunId += 1;
+      aiResultCodes = null;
+      aiSearchRunning = false;
+      const status = document.getElementById('aiSearchStatus');
+      const button = document.getElementById('aiSearch');
+      if (options.clearInput !== false) document.getElementById('search').value = '';
+      status.classList.remove('is-loading');
+      status.textContent = '';
+      button.disabled = false;
+    }
     function categorySummaryFor(cat) {
       return categorySummary && Array.isArray(categorySummary.categories)
         ? categorySummary.categories.find(item => item.name === cat)
@@ -1399,11 +1411,12 @@
     }
     function currentRows() {
       const sort = document.getElementById('sort').value;
+      const searchMode = mode === 'search';
       const rows = products.filter(p => {
         const top = topCategory(p);
         const sub = subCategoryName(p);
-        const aiMatch = !aiResultCodes || aiResultCodes.has(String(p.productNumber));
-        const globalSearch = !!aiResultCodes;
+        const aiMatch = !searchMode || !aiResultCodes || aiResultCodes.has(String(p.productNumber));
+        const globalSearch = searchMode && !!aiResultCodes;
         return (globalSearch || !currentTopCategory || top === currentTopCategory) &&
           (globalSearch || !currentSubCategory || sub === currentSubCategory) &&
           aiMatch;
@@ -1445,6 +1458,7 @@
         if (btn.disabled) return;
         btn.addEventListener('click', () => {
           if (btn.dataset.sub) {
+            clearSearchState();
             currentTopCategory = btn.dataset.top || '';
             currentSubCategory = btn.dataset.sub || '';
             mode = 'products';
@@ -1467,6 +1481,7 @@
       return Array.from(map.entries()).sort((a, b) => a[0].localeCompare(b[0]));
     }
     function openTopCategory(cat) {
+      clearSearchState();
       currentTopCategory = cat || '';
       currentSubCategory = '';
       if (!currentTopCategory) {
@@ -1572,6 +1587,7 @@
       }).join('');
       document.querySelectorAll('.category-card').forEach(card => {
         const openSubCategory = () => {
+          clearSearchState();
           currentSubCategory = card.dataset.sub;
           mode = 'products';
           render();
@@ -1590,12 +1606,13 @@
       const rows = currentRows();
       const limit = Number(document.getElementById('limit').value);
       const query = document.getElementById('search').value.trim();
-      const awaitingSearch = !!query && !aiResultCodes;
-      document.getElementById('viewTitle').textContent = currentSubCategory || currentTopCategory || 'All BLA Products';
+      const searchMode = mode === 'search';
+      const awaitingSearch = searchMode && !!query && !aiResultCodes;
+      document.getElementById('viewTitle').textContent = searchMode ? 'Search Results' : (currentSubCategory || currentTopCategory || 'All BLA Products');
       document.getElementById('resultCount').textContent = catalogueLoaded
         ? (awaitingSearch
           ? 'Press Enter or the search button to find matching products.'
-          : (query && aiResultCodes && !rows.length
+          : (searchMode && query && aiResultCodes && !rows.length
             ? 'No directly relevant products found'
             : `${rows.length} products found | showing ${Math.min(limit, rows.length)}`))
         : 'Loading products and prices...';
@@ -1603,7 +1620,7 @@
       document.getElementById('productGrid').style.display = 'grid';
       document.getElementById('backRow').style.display = currentTopCategory ? 'block' : 'none';
       document.getElementById('backToCategories').textContent = 'Back to Categories';
-      const emptySearchText = query && aiResultCodes
+      const emptySearchText = searchMode && query && aiResultCodes
         ? `No directly relevant products were found for "${esc(query)}". Try a broader product type, brand, use case, or BLA code.`
         : 'Press Enter or the search button to see matching products.';
       document.getElementById('productGrid').innerHTML = catalogueLoaded && !awaitingSearch && rows.length ? rows.slice(0, limit).map(p => `
@@ -1816,6 +1833,7 @@
       }
     }
     document.getElementById('backToCategories').addEventListener('click', () => {
+      clearSearchState();
       currentTopCategory = '';
       currentSubCategory = '';
       mode = 'categories';
@@ -1850,6 +1868,14 @@
     });
     document.getElementById('search').addEventListener('input', () => {
       const query = document.getElementById('search').value.trim();
+      if (aiResultCodes || aiSearchRunning) {
+        const wasSearchMode = mode === 'search';
+        clearSearchState({ clearInput: false });
+        if (wasSearchMode) {
+          mode = 'search';
+          renderProducts();
+        }
+      }
       document.getElementById('aiSearchStatus').textContent = query
         ? 'Press Enter or the search button to search.'
         : '';
@@ -1870,12 +1896,13 @@
         return;
       }
       if (aiSearchRunning) return;
+      const runId = ++searchRunId;
       aiSearchRunning = true;
       button.disabled = true;
       aiResultCodes = new Set();
       currentTopCategory = '';
       currentSubCategory = '';
-      mode = 'products';
+      mode = 'search';
       const loadingText = searchLoadingText(query);
       status.classList.add('is-loading');
       status.innerHTML = `<span class="spinner small" aria-hidden="true"></span><span>${esc(loadingText)}</span>`;
@@ -1888,6 +1915,7 @@
           GAS_URL + '?action=searchBlaCatalogueAi',
           { token: accessToken, query }
         );
+        if (runId !== searchRunId) return;
         const responseText = data.summary || data.message || '';
         const codes = searchResponseMeansNoRelevant(responseText)
           ? []
@@ -1895,19 +1923,23 @@
         aiResultCodes = new Set(codes);
         currentTopCategory = '';
         currentSubCategory = '';
-        mode = 'products';
+        mode = 'search';
         if (catalogueLoadPromise) await catalogueLoadPromise;
+        if (runId !== searchRunId) return;
         status.classList.remove('is-loading');
         status.textContent = responseText || (codes.length ? `${codes.length} products found.` : `No directly relevant products were found for "${query}".`);
         render();
         scrollResultsToTop();
       } catch (error) {
+        if (runId !== searchRunId) return;
         console.error('BLA search failed', error);
         status.classList.remove('is-loading');
         status.textContent = error.message || 'Search is temporarily unavailable.';
       } finally {
-        aiSearchRunning = false;
-        button.disabled = false;
+        if (runId === searchRunId) {
+          aiSearchRunning = false;
+          button.disabled = false;
+        }
       }
     }
     function loadCatalogue() {
