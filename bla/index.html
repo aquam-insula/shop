@@ -15,7 +15,6 @@
       --aq-lagoon: #009641;
       --aq-gold: #009641;
       --aq-gold-dark: #e62382;
-      --bla-blue: #0067a6;
       --ink: #222;
       --muted: #666;
       --line: #dddddd;
@@ -187,29 +186,16 @@
       display: flex;
       align-items: center;
       border: 1px solid #d6e3ee;
-      background: #e8f6fb;
-      color: var(--bla-blue);
-      overflow: hidden;
-      position: relative;
-    }
-    .intro::before {
-      content: "";
-      position: absolute;
-      inset: -14px;
       background: url("./assets/wave-hero.jpg");
       background-size: cover;
       background-position: center 54%;
-      filter: blur(8px);
-      transform: scale(1.04);
-      z-index: 0;
+      color: #fff;
     }
     .intro-main {
       max-width: 760px;
       padding: 36px 42px;
       opacity: 0;
       transition: opacity .18s ease;
-      position: relative;
-      z-index: 1;
     }
     body.hero-ready .intro-main {
       opacity: 1;
@@ -218,8 +204,7 @@
       margin: 0 0 8px;
       font-size: 38px;
       font-weight: 800;
-      color: var(--bla-blue);
-      text-shadow: 0 1px 0 rgba(255,255,255,.95), 0 3px 12px rgba(255,255,255,.82);
+      text-shadow: 0 2px 3px rgba(0,0,0,.75), 0 5px 16px rgba(0,0,0,.55);
     }
     .intro p, .muted {
       margin: 0;
@@ -232,11 +217,11 @@
       font-weight: 650;
     }
     .intro p {
-      color: var(--bla-blue);
+      color: #eef8ff;
       font-size: 18px;
       font-weight: 650;
       max-width: 680px;
-      text-shadow: 0 1px 0 rgba(255,255,255,.95), 0 3px 12px rgba(255,255,255,.85);
+      text-shadow: 0 2px 3px rgba(0,0,0,.78), 0 4px 12px rgba(0,0,0,.55);
     }
     .btn:hover,
     .detail-actions a:hover,
