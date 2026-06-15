@@ -1308,6 +1308,21 @@
       if (src) return assetImageTag(thumb === 'card' ? staticCardImageSource(src) : src, product.description, '', thumb);
       return `<div class="placeholder">Product image coming soon</div>`;
     }
+    function stripHtml(value) {
+      return String(value || '').replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ');
+    }
+    function publicCardSnippet(product) {
+      const candidates = [
+        product.catalogueDescription,
+        product.websiteDescription,
+        product.descriptionHtml
+      ];
+      const text = candidates.find(value => {
+        const plain = stripHtml(String(value || '')).trim();
+        return plain && !/products grouped for aquam insula/i.test(plain) && !/paid-order fulfilment/i.test(plain);
+      });
+      return stripHtml(String(text || '')).trim();
+    }
     function staticCardImageSource(src) {
       if (!src || isRemoteAsset(src) || isStaticSiteAsset(src)) return src;
       const path = normalizeDriveAssetPath(src);
@@ -1632,7 +1647,7 @@
               <div class="code">${esc(p.productNumber)}</div>
             </div>
             <div class="product-title">${esc(p.description)}</div>
-            <div class="catalogue-snippet">${esc(p.catalogueDescription || p.websiteDescription || p.subCategoryDescription || '')}</div>
+            <div class="catalogue-snippet">${esc(publicCardSnippet(p))}</div>
             <div class="muted">${esc(topCategory(p))} / ${esc(subCategoryName(p))}</div>
             <div class="badges">
               ${p.brand ? `<span class="badge">${esc(p.brand)}</span>` : ''}
