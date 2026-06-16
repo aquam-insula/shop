@@ -15,6 +15,7 @@
       --aq-lagoon: #009641;
       --aq-gold: #009641;
       --aq-gold-dark: #e62382;
+      --aq-magenta: #e62382;
       --ink: #222;
       --muted: #666;
       --line: #dddddd;
@@ -854,6 +855,44 @@
       color: #fff;
       border: 1px solid var(--aq-gold);
     }
+    .back-to-top {
+      position: fixed;
+      right: 24px;
+      bottom: 24px;
+      z-index: 70;
+      width: 48px;
+      height: 48px;
+      border: 0;
+      border-radius: 50%;
+      background: var(--aq-ocean);
+      color: #fff;
+      box-shadow: 0 10px 24px rgba(0,0,0,.24);
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      opacity: 0;
+      pointer-events: none;
+      transform: translateY(10px);
+      transition: opacity .16s ease, transform .16s ease, background .16s ease;
+    }
+    .back-to-top.is-visible {
+      opacity: 1;
+      pointer-events: auto;
+      transform: translateY(0);
+    }
+    .back-to-top:hover,
+    .back-to-top:focus-visible {
+      background: var(--aq-magenta);
+    }
+    .back-to-top::before {
+      content: "";
+      width: 14px;
+      height: 14px;
+      border-top: 3px solid #fff;
+      border-left: 3px solid #fff;
+      transform: translateY(4px) rotate(45deg);
+    }
   </style>
 </head>
 <body class="auth-locked">
@@ -982,6 +1021,7 @@
     </div>
   </div>
   </div>
+  <button id="backToTop" class="back-to-top" type="button" aria-label="Back to top" title="Back to top"></button>
 
   <script>
     const ACCESS_TOKEN_HASH = '4d30a098c2e7ed02e0a66d0a3ec2034d87ee987c7221e6afe17d74b02d066436';
@@ -1903,6 +1943,15 @@
         runAiSearch();
       }
     });
+    const backToTop = document.getElementById('backToTop');
+    function updateBackToTop() {
+      backToTop.classList.toggle('is-visible', window.scrollY > 420);
+    }
+    backToTop.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+    window.addEventListener('scroll', updateBackToTop, { passive: true });
+    updateBackToTop();
     async function runAiSearch() {
       const query = document.getElementById('search').value.trim();
       const status = document.getElementById('aiSearchStatus');
