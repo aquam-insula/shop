@@ -1298,6 +1298,7 @@
         ((product.imageUrl || '').includes('/web-product-images/') ? product.imageUrl : '') ||
         product.productWebsiteImageSourceUrl ||
         product.productWebSearchImageSourceUrl ||
+        product.productBlockImageUrl ||
         (product.images || [])[0]?.url ||
         ''
       );
