@@ -1040,6 +1040,7 @@
     let aiResultCodes = null;
     let aiSearchRunning = false;
     let searchRunId = 0;
+    let provisionalSearchCodes = null;
     let activeRequestProduct = null;
     let activeRequestType = 'quote';
     const isLocalPreview = ['127.0.0.1', 'localhost'].includes(window.location.hostname);
@@ -1277,6 +1278,7 @@
       searchRunId += 1;
       aiResultCodes = null;
       aiSearchRunning = false;
+      provisionalSearchCodes = null;
       const status = document.getElementById('aiSearchStatus');
       const button = document.getElementById('aiSearch');
       if (options.clearInput !== false) document.getElementById('search').value = '';
@@ -1351,6 +1353,82 @@
     }
     function stripHtml(value) {
       return String(value || '').replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ');
+    }
+    function searchText(value) {
+      return stripHtml(value).toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
+    }
+    function searchTermVariants(term) {
+      const variants = new Set([term]);
+      if (term.length > 4 && term.endsWith('ies')) variants.add(term.slice(0, -3) + 'y');
+      if (term.length > 3 && term.endsWith('es')) variants.add(term.slice(0, -2));
+      if (term.length > 3 && term.endsWith('s')) variants.add(term.slice(0, -1));
+      const synonyms = {
+        anchor: ['anchoring', 'mooring'],
+        anchoring: ['anchor', 'mooring'],
+        mooring: ['anchor', 'anchoring'],
+        rope: ['line', 'cordage'],
+        line: ['rope', 'cordage'],
+        winch: ['windlass'],
+        windlass: ['winch'],
+        hatch: ['deck hatch', 'portlight'],
+        toilet: ['sanitation', 'head'],
+        pump: ['bilge', 'water pump'],
+        trailer: ['trailering'],
+        battery: ['batteries', 'charging'],
+        solar: ['charging', 'panel'],
+        fishfinder: ['sounder', 'sonar'],
+        sounder: ['fishfinder', 'sonar'],
+        vhf: ['radio'],
+        paint: ['coating'],
+        glue: ['adhesive', 'sealant'],
+        adhesive: ['glue', 'sealant'],
+        sealant: ['adhesive', 'sika']
+      };
+      (synonyms[term] || []).forEach(item => variants.add(item));
+      return Array.from(variants);
+    }
+    function localSearchCodes(query, limit) {
+      if (!catalogueLoaded || !products.length) return [];
+      const normalizedQuery = searchText(query);
+      const compactQuery = normalizedQuery.replace(/\s+/g, '');
+      const rawTerms = normalizedQuery.split(/\s+/).filter(term => term.length > 1);
+      if (!normalizedQuery || !rawTerms.length) return [];
+      const termGroups = rawTerms.map(searchTermVariants);
+      const scored = products.map(product => {
+        const code = String(product.productNumber || '').toLowerCase();
+        const description = searchText(product.description);
+        const brand = searchText(product.brand);
+        const category = searchText(`${topCategory(product)} ${subCategoryName(product)} ${product.subCategory || ''}`);
+        const details = searchText(`${product.catalogueDescription || ''} ${product.websiteDescription || ''}`);
+        const core = `${code} ${description} ${brand} ${category}`;
+        const full = `${core} ${details}`;
+        let score = 0;
+        if (code === compactQuery) score += 1000;
+        if (compactQuery.length >= 3 && code.indexOf(compactQuery) === 0) score += 450;
+        if (description.indexOf(normalizedQuery) !== -1) score += 240;
+        if (brand && brand.indexOf(normalizedQuery) !== -1) score += 170;
+        if (category.indexOf(normalizedQuery) !== -1) score += 160;
+        let matchedGroups = 0;
+        termGroups.forEach(group => {
+          const matched = group.some(term => full.indexOf(term) !== -1);
+          if (!matched) return;
+          matchedGroups += 1;
+          group.forEach(term => {
+            if (code.indexOf(term) !== -1) score += 55;
+            if (description.indexOf(term) !== -1) score += 46;
+            if (brand.indexOf(term) !== -1) score += 32;
+            if (category.indexOf(term) !== -1) score += 30;
+            if (details.indexOf(term) !== -1) score += 8;
+          });
+        });
+        if (matchedGroups === termGroups.length) score += 120;
+        if (matchedGroups && matchedGroups < Math.min(2, termGroups.length)) score -= 80;
+        return { code: String(product.productNumber || ''), score };
+      })
+        .filter(item => item.code && item.score >= 95)
+        .sort((a, b) => b.score - a.score || String(a.code).localeCompare(String(b.code), undefined, { numeric: true }))
+        .slice(0, limit || 80);
+      return scored.map(item => item.code);
     }
     function publicCardSnippet(product) {
       const candidates = [
@@ -1965,6 +2043,7 @@
       aiSearchRunning = true;
       button.disabled = true;
       aiResultCodes = new Set();
+      provisionalSearchCodes = null;
       currentTopCategory = '';
       currentSubCategory = '';
       mode = 'search';
@@ -1975,6 +2054,15 @@
       document.getElementById('productGrid').style.display = 'grid';
       document.getElementById('categoryGrid').style.display = 'none';
       document.getElementById('productGrid').innerHTML = loadingMarkup(loadingText);
+      const quickCodes = localSearchCodes(query, 80);
+      if (quickCodes.length) {
+        provisionalSearchCodes = new Set(quickCodes);
+        aiResultCodes = new Set(quickCodes);
+        renderProducts();
+        status.innerHTML = `<span class="spinner small" aria-hidden="true"></span><span>Showing close catalogue matches while final ranking completes...</span>`;
+        document.getElementById('resultCount').innerHTML = `<span class="spinner small" aria-hidden="true"></span> Showing close catalogue matches while final ranking completes...`;
+        scrollResultsToTop();
+      }
       try {
         const data = await postFormOrError(
           GAS_URL + '?action=searchBlaCatalogueAi',
@@ -1986,6 +2074,7 @@
           ? []
           : (Array.isArray(data.codes) ? data.codes.map(String) : []);
         aiResultCodes = new Set(codes);
+        provisionalSearchCodes = null;
         currentTopCategory = '';
         currentSubCategory = '';
         mode = 'search';
@@ -1999,7 +2088,14 @@
         if (runId !== searchRunId) return;
         console.error('BLA search failed', error);
         status.classList.remove('is-loading');
-        status.textContent = error.message || 'Search is temporarily unavailable.';
+        if (provisionalSearchCodes && provisionalSearchCodes.size) {
+          aiResultCodes = provisionalSearchCodes;
+          status.textContent = 'Showing close catalogue matches. Final ranking is temporarily unavailable.';
+          render();
+          scrollResultsToTop();
+        } else {
+          status.textContent = error.message || 'Search is temporarily unavailable.';
+        }
       } finally {
         if (runId === searchRunId) {
           aiSearchRunning = false;
