@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=1000">
   <meta name="robots" content="noindex,nofollow">
-  <title>AQUAM INSULA | BLA Partner Catalogue</title>
+  <title>AQUAM INSULA - BLA Catalogue</title>
   <link rel="icon" type="image/x-icon" href="../favicon.ico">
   <link rel="shortcut icon" type="image/x-icon" href="../favicon.ico">
   <link rel="preload" as="image" href="./assets/wave-hero.jpg">
@@ -938,7 +938,7 @@
 
   <section class="intro">
     <div class="intro-main">
-      <h1>BLA Australia Marine Catalogue</h1>
+      <h1>AQUAM INSULA - BLA Catalogue</h1>
       <p>Access BLA's marine catalogue from Fiji. We order on demand from Australia and arrange air freight delivery within a few days, with prices shown in FJD including freight costs and import duties.</p>
     </div>
   </section>
@@ -1888,6 +1888,10 @@
         return;
       }
       const path = normalizeDriveAssetPath(src);
+      const staticPreview = staticCardImageSource(src);
+      if (staticPreview && staticPreview !== src) {
+        container.innerHTML = `<img src="${esc(staticPreview)}" alt="${esc(product.description || '')}"><div class="image-loading-overlay"><div class="spinner" aria-hidden="true"></div><div>Loading detailed image...</div></div>`;
+      }
       const cacheKey = `full:${path}`;
       if (driveImageCache.has(cacheKey)) {
         container.innerHTML = `<img src="${driveImageCache.get(cacheKey)}" alt="${esc(product.description || '')}">`;
@@ -1904,7 +1908,11 @@
         })
         .catch(error => {
           console.warn('Detailed image unavailable', path, error);
-          container.innerHTML = '<div class="placeholder">Detailed image could not be loaded</div>';
+          if (staticPreview && staticPreview !== src) {
+            container.innerHTML = `<img src="${esc(staticPreview)}" alt="${esc(product.description || '')}">`;
+          } else {
+            container.innerHTML = '<div class="placeholder">Detailed image could not be loaded</div>';
+          }
         });
     }
     function closeLargeProductImage() {
