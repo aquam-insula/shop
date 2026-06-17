@@ -1440,6 +1440,38 @@
         .slice(0, limit || 80);
       return scored.map(item => item.code);
     }
+    function looksLikeProductCode(query) {
+      const value = String(query || '').trim();
+      return /[0-9]/.test(value) && /^[A-Za-z0-9-]{4,18}$/.test(value);
+    }
+    function normalizeProductCode(value) {
+      return String(value || '').toLowerCase().replace(/[^a-z0-9]+/g, '');
+    }
+    async function ensureCatalogueReadyForSearch(query, status) {
+      if (catalogueLoaded) return true;
+      if (!catalogueLoadPromise) return false;
+      const loadingText = looksLikeProductCode(query)
+        ? `Looking up product ${query}...`
+        : 'Loading catalogue data for search...';
+      if (status) {
+        status.classList.add('is-loading');
+        status.innerHTML = `<span class="spinner small" aria-hidden="true"></span><span>${esc(loadingText)}</span>`;
+      }
+      document.getElementById('resultCount').innerHTML = `<span class="spinner small" aria-hidden="true"></span> ${esc(loadingText)}`;
+      document.getElementById('productGrid').style.display = 'grid';
+      document.getElementById('categoryGrid').style.display = 'none';
+      document.getElementById('productGrid').innerHTML = loadingMarkup(loadingText);
+      try {
+        await catalogueLoadPromise;
+      } catch (error) {
+        if (status) {
+          status.classList.remove('is-loading');
+          status.textContent = 'Catalogue data is temporarily unavailable.';
+        }
+        return false;
+      }
+      return catalogueLoaded;
+    }
     function publicCardSnippet(product) {
       const candidates = [
         product.catalogueDescription,
@@ -2065,6 +2097,28 @@
       currentTopCategory = '';
       currentSubCategory = '';
       mode = 'search';
+      renderSidebar();
+      const catalogueReady = await ensureCatalogueReadyForSearch(query, status);
+      if (runId !== searchRunId) return;
+      if (!catalogueReady) {
+        aiSearchRunning = false;
+        button.disabled = false;
+        return;
+      }
+      if (looksLikeProductCode(query)) {
+        const compactQuery = normalizeProductCode(query);
+        const exactProduct = products.find(product => normalizeProductCode(product.productNumber) === compactQuery);
+        if (exactProduct) {
+          aiResultCodes = new Set([String(exactProduct.productNumber)]);
+          status.classList.remove('is-loading');
+          status.textContent = `Product ${exactProduct.productNumber} found.`;
+          render();
+          scrollResultsToTop();
+          aiSearchRunning = false;
+          button.disabled = false;
+          return;
+        }
+      }
       const loadingText = searchLoadingText(query);
       status.classList.add('is-loading');
       status.innerHTML = `<span class="spinner small" aria-hidden="true"></span><span>${esc(loadingText)}</span>`;
