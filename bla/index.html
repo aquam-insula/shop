@@ -1806,9 +1806,10 @@
       const limit = Number(document.getElementById('limit').value);
       const query = document.getElementById('search').value.trim();
       const searchMode = mode === 'search';
+      const productDataReady = catalogueLoaded || (searchMode && Array.isArray(searchOverrideRows));
       const awaitingSearch = searchMode && !!query && !aiResultCodes;
       document.getElementById('viewTitle').textContent = searchMode ? 'Search Results' : (currentSubCategory || currentTopCategory || 'All BLA Products');
-      document.getElementById('resultCount').textContent = catalogueLoaded
+      document.getElementById('resultCount').textContent = productDataReady
         ? (awaitingSearch
           ? 'Press Enter or the search button to find matching products.'
           : (searchMode && query && aiResultCodes && !rows.length
@@ -1822,7 +1823,7 @@
       const emptySearchText = searchMode && query && aiResultCodes
         ? `No directly relevant products were found for "${esc(query)}". Try a broader product type, brand, use case, or BLA code.`
         : 'Press Enter or the search button to see matching products.';
-      document.getElementById('productGrid').innerHTML = catalogueLoaded && !awaitingSearch && rows.length ? rows.slice(0, limit).map(p => `
+      document.getElementById('productGrid').innerHTML = productDataReady && !awaitingSearch && rows.length ? rows.slice(0, limit).map(p => `
         <article class="product-card" data-code="${esc(p.productNumber)}" role="button" tabindex="0" aria-label="View ${esc(p.description)}" ${cardStyle(topCategory(p))}>
           <div class="image-container">${productThumbnailMarkup(p, searchMode)}</div>
           <div class="product-body">
@@ -1842,7 +1843,7 @@
             </div>
             <button class="btn view-product" data-code="${esc(p.productNumber)}">View Product</button>
           </div>
-        </article>`).join('') : (catalogueLoaded ? `<div class="placeholder">${emptySearchText}</div>` : loadingMarkup('Loading products...'));
+        </article>`).join('') : (productDataReady ? `<div class="placeholder">${emptySearchText}</div>` : loadingMarkup('Loading products...'));
       document.querySelectorAll('.product-card').forEach(card => {
         const openCardProduct = () => openProduct(card.dataset.code);
         card.addEventListener('click', event => {
