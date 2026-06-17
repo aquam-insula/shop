@@ -1041,6 +1041,7 @@
     let aiSearchRunning = false;
     let searchRunId = 0;
     let provisionalSearchCodes = null;
+    let searchOverrideRows = null;
     let activeRequestProduct = null;
     let activeRequestType = 'quote';
     const isLocalPreview = ['127.0.0.1', 'localhost'].includes(window.location.hostname);
@@ -1049,6 +1050,7 @@
     let driveImageActive = 0;
     let driveImageObserver;
     const aiCache = new Map();
+    const productLookupCache = new Map();
     const fallbackIntro = 'Additional product information is currently being prepared.';
     const heroImage = new Image();
     const markHeroReady = () => document.body.classList.add('hero-ready');
@@ -1279,6 +1281,7 @@
       aiResultCodes = null;
       aiSearchRunning = false;
       provisionalSearchCodes = null;
+      searchOverrideRows = null;
       const status = document.getElementById('aiSearchStatus');
       const button = document.getElementById('aiSearch');
       if (options.clearInput !== false) document.getElementById('search').value = '';
@@ -1447,6 +1450,26 @@
     function normalizeProductCode(value) {
       return String(value || '').toLowerCase().replace(/[^a-z0-9]+/g, '');
     }
+    function productLookupPrefix(value) {
+      return normalizeProductCode(value).slice(0, 3) || 'misc';
+    }
+    async function fetchStaticProductByCode(query) {
+      if (!looksLikeProductCode(query)) return null;
+      const compactQuery = normalizeProductCode(query);
+      if (catalogueLoaded && products.length) {
+        return products.find(product => normalizeProductCode(product.productNumber) === compactQuery) || null;
+      }
+      const prefix = productLookupPrefix(query);
+      if (!productLookupCache.has(prefix)) {
+        productLookupCache.set(prefix, fetch(`./data/product-lookup/${encodeURIComponent(prefix)}.json`)
+          .then(response => response.ok ? response.json() : [])
+          .catch(() => []));
+      }
+      const rows = await productLookupCache.get(prefix);
+      return Array.isArray(rows)
+        ? rows.find(product => normalizeProductCode(product.productNumber) === compactQuery) || null
+        : null;
+    }
     async function ensureCatalogueReadyForSearch(query, status) {
       if (catalogueLoaded) return true;
       if (!catalogueLoadPromise) return false;
@@ -1587,7 +1610,8 @@
     function currentRows() {
       const sort = document.getElementById('sort').value;
       const searchMode = mode === 'search';
-      const rows = products.filter(p => {
+      const sourceRows = searchMode && Array.isArray(searchOverrideRows) ? searchOverrideRows : products;
+      const rows = sourceRows.filter(p => {
         const top = topCategory(p);
         const sub = subCategoryName(p);
         const aiMatch = !searchMode || !aiResultCodes || aiResultCodes.has(String(p.productNumber));
@@ -2097,6 +2121,21 @@
       currentSubCategory = '';
       mode = 'search';
       renderSidebar();
+      if (looksLikeProductCode(query)) {
+        const exactFastProduct = await fetchStaticProductByCode(query);
+        if (runId !== searchRunId) return;
+        if (exactFastProduct) {
+          searchOverrideRows = [exactFastProduct];
+          aiResultCodes = new Set([String(exactFastProduct.productNumber)]);
+          status.classList.remove('is-loading');
+          status.textContent = `Product ${exactFastProduct.productNumber} found.`;
+          render();
+          scrollResultsToTop();
+          aiSearchRunning = false;
+          button.disabled = false;
+          return;
+        }
+      }
       const catalogueReady = await ensureCatalogueReadyForSearch(query, status);
       if (runId !== searchRunId) return;
       if (!catalogueReady) {
@@ -2109,6 +2148,7 @@
         const exactProduct = products.find(product => normalizeProductCode(product.productNumber) === compactQuery);
         if (exactProduct) {
           aiResultCodes = new Set([String(exactProduct.productNumber)]);
+          searchOverrideRows = null;
           status.classList.remove('is-loading');
           status.textContent = `Product ${exactProduct.productNumber} found.`;
           render();
@@ -2119,6 +2159,7 @@
         }
       }
       const loadingText = searchLoadingText(query);
+      searchOverrideRows = null;
       status.classList.add('is-loading');
       status.innerHTML = `<span class="spinner small" aria-hidden="true"></span><span>${esc(loadingText)}</span>`;
       document.getElementById('resultCount').innerHTML = `<span class="spinner small" aria-hidden="true"></span> ${esc(loadingText)}`;
