@@ -1351,6 +1351,16 @@
       if (src) return assetImageTag(thumb === 'card' ? staticCardImageSource(src) : src, product.description, '', thumb);
       return `<div class="placeholder">Product image coming soon</div>`;
     }
+    function productThumbnailMarkup(product, eager) {
+      const src = productImageSource(product);
+      if (!src) return `<div class="placeholder">Product image coming soon</div>`;
+      const thumbnail = staticCardImageSource(src);
+      const loading = eager ? 'eager' : 'lazy';
+      if (thumbnail && (isStaticSiteAsset(thumbnail) || isRemoteAsset(thumbnail))) {
+        return `<img src="${esc(thumbnail)}" alt="${esc(product.description || '')}" loading="${loading}" decoding="async">`;
+      }
+      return assetImageTag(thumbnail || src, product.description, '', 'card');
+    }
     function stripHtml(value) {
       return String(value || '').replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ');
     }
@@ -1759,7 +1769,7 @@
         : 'Press Enter or the search button to see matching products.';
       document.getElementById('productGrid').innerHTML = catalogueLoaded && !awaitingSearch && rows.length ? rows.slice(0, limit).map(p => `
         <article class="product-card" data-code="${esc(p.productNumber)}" role="button" tabindex="0" aria-label="View ${esc(p.description)}" ${cardStyle(topCategory(p))}>
-          <div class="image-container">${imageMarkup(p, 'card')}</div>
+          <div class="image-container">${productThumbnailMarkup(p, searchMode)}</div>
           <div class="product-body">
             <div class="product-brand-row">
               <img class="product-card-logo" src="./assets/bla-logo.jpg" alt="BLA">
@@ -1797,7 +1807,7 @@
           openProduct(btn.dataset.code);
         });
       });
-      hydrateDriveImages(document.getElementById('productGrid'));
+      if (!searchMode) hydrateDriveImages(document.getElementById('productGrid'));
     }
     function render() {
       renderSidebar();
@@ -1813,7 +1823,7 @@
       if (!p) return;
       const detailImage = document.getElementById('detailImage');
       detailImage.onclick = null;
-      detailImage.innerHTML = `${imageMarkup(p, 'card')}<button class="image-zoom-button" type="button" aria-label="Open larger product image"><span class="zoom-lens" aria-hidden="true"><span class="zoom-plus-h"></span><span class="zoom-plus-v"></span></span></button>`;
+      detailImage.innerHTML = `${productThumbnailMarkup(p, true)}<button class="image-zoom-button" type="button" aria-label="Open larger product image"><span class="zoom-lens" aria-hidden="true"><span class="zoom-plus-h"></span><span class="zoom-plus-v"></span></span></button>`;
       monitorImageLoading(detailImage, 'Loading product image...');
       detailImage.querySelector('.image-zoom-button').addEventListener('click', event => {
         event.stopPropagation();
