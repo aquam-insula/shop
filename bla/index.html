@@ -2183,7 +2183,7 @@
         : `${GAS_URL}?action=getBlaCatalogueSummary&token=${encodeURIComponent(accessToken)}`;
       const feedUrl = isLocalPreview
         ? './data/bla_shop_feed_web.json'
-        : `${GAS_URL}?action=getBlaCatalogueFeed&token=${encodeURIComponent(accessToken)}`;
+        : './data/bla_shop_feed_web.json';
       if (summaryUrl) {
         fetch(summaryUrl)
           .then(response => response.json())
