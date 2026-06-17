@@ -1488,7 +1488,6 @@
       if (!src || isRemoteAsset(src) || isStaticSiteAsset(src)) return src;
       const path = normalizeDriveAssetPath(src);
       if (!path.startsWith('images/')) return src;
-      if (/\.webp$/i.test(path)) return src;
       return './assets/product-thumbs/' + path.replace(/\.(webp|png|gif|jpe?g)$/i, '.jpg');
     }
     function queueDriveAssetImage(img) {
