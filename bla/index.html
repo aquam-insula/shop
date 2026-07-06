@@ -1670,6 +1670,7 @@
             currentSubCategory = btn.dataset.sub || '';
             mode = 'products';
             render();
+            loadCatalogueFeed();
           } else {
             openTopCategory(btn.dataset.top || '');
           }
@@ -1707,6 +1708,7 @@
         mode = 'subcategories';
       }
       render();
+      if (currentTopCategory) loadCatalogueFeed();
     }
     function renderCategories() {
       const cats = groupedTopCategories();
@@ -1714,7 +1716,7 @@
       document.getElementById('resultCount').innerHTML = catalogueLoaded
         ? `${cats.length} categories`
         : (categorySummaryLoaded
-          ? `${cats.length} categories | loading product details...`
+          ? `${cats.length} categories`
           : '<span class="spinner small" aria-hidden="true"></span> Loading products and prices...');
       document.getElementById('categoryGrid').style.display = 'grid';
       document.getElementById('productGrid').style.display = 'none';
@@ -2144,16 +2146,11 @@
           return;
         }
       }
-      const catalogueReady = await ensureCatalogueReadyForSearch(query, status);
-      if (runId !== searchRunId) return;
-      if (!catalogueReady) {
-        aiSearchRunning = false;
-        button.disabled = false;
-        return;
-      }
       if (looksLikeProductCode(query)) {
         const compactQuery = normalizeProductCode(query);
-        const exactProduct = products.find(product => normalizeProductCode(product.productNumber) === compactQuery);
+        const exactProduct = catalogueLoaded
+          ? products.find(product => normalizeProductCode(product.productNumber) === compactQuery)
+          : null;
         if (exactProduct) {
           aiResultCodes = new Set([String(exactProduct.productNumber)]);
           searchOverrideRows = null;
@@ -2192,10 +2189,6 @@
         currentSubCategory = '';
         mode = 'search';
         searchOverrideRows = productsFromSearchResponse(codes, responseProducts);
-        if (catalogueLoadPromise && !catalogueLoaded) {
-          await catalogueLoadPromise.catch(error => console.warn('Catalogue feed still unavailable after BLA search', error));
-          searchOverrideRows = productsFromSearchResponse(codes, responseProducts);
-        }
         if (runId !== searchRunId) return;
         status.classList.remove('is-loading');
         status.textContent = responseText || `${codes.length} products found.`;
@@ -2214,15 +2207,12 @@
       }
     }
     function loadCatalogue() {
-      document.getElementById('productCount').innerHTML = '<span class="spinner small" aria-hidden="true"></span> Loading products...';
-      document.getElementById('resultCount').textContent = 'Loading products...';
+      document.getElementById('productCount').innerHTML = '<span class="spinner small" aria-hidden="true"></span> Loading catalogue...';
+      document.getElementById('resultCount').textContent = 'Loading catalogue...';
       render();
       const summaryUrl = isLocalPreview
         ? ''
         : `${GAS_URL}?action=getBlaCatalogueSummary&token=${encodeURIComponent(accessToken)}`;
-      const feedUrl = isLocalPreview
-        ? './data/bla_shop_feed_web.json'
-        : `${GAS_URL}?action=getBlaCatalogueFeed&token=${encodeURIComponent(accessToken)}`;
       if (summaryUrl) {
         fetch(summaryUrl)
           .then(response => response.json())
@@ -2237,6 +2227,14 @@
           })
           .catch(error => console.warn('BLA catalogue summary unavailable', error));
       }
+      if (isLocalPreview) loadCatalogueFeed();
+    }
+    function loadCatalogueFeed() {
+      if (catalogueLoaded) return Promise.resolve(products);
+      if (catalogueLoadPromise) return catalogueLoadPromise;
+      const feedUrl = isLocalPreview
+        ? './data/bla_shop_feed_web.json'
+        : `${GAS_URL}?action=getBlaCatalogueFeed&token=${encodeURIComponent(accessToken)}`;
       catalogueLoadPromise = fetch(feedUrl)
         .then(response => response.json())
         .then(data => {
@@ -2249,7 +2247,10 @@
         .catch(error => {
           document.getElementById('productCount').textContent = 'Catalogue is temporarily unavailable';
           document.getElementById('resultCount').textContent = error.message;
+          catalogueLoadPromise = null;
+          throw error;
         });
+      return catalogueLoadPromise;
     }
 
     ensureAccess().then(hasAccess => {
