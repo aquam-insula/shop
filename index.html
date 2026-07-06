@@ -141,7 +141,7 @@ body {
   display:none; height:80px; position:absolute; top:10px; left:450px; margin-left:50px;
   align-items:flex-start; flex-direction:column; z-index:1035;
 }
-.input-row{ display:flex; align-items:center; width:100%; position:relative; }
+.input-row{ display:flex; align-items:center; gap:10px; width:100%; position:relative; }
 .product-meta{ font-size:.95rem; color:#666; }
 .detail-material{ font-size:0.95rem; margin-bottom:0.5rem; }
 
@@ -151,9 +151,21 @@ body {
 #search-input{
   display:block; padding:5px; box-sizing:border-box; margin:0;
 }
+#bla-catalog-link{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  height:40px;
+  padding:0 10px;
+  border:1px solid #d8e4ea;
+  background:#fff;
+  text-decoration:none;
+}
+#bla-catalog-link:hover{ border-color:#00a0d7; }
+#bla-catalog-link img{ height:28px; width:auto; display:block; }
 #close-search{
   display:none; font-size:2rem; cursor:pointer; margin-left:10px;
-  position:absolute; right:0;
+  position:static;
 }
 
 .hidden{
@@ -282,6 +294,9 @@ body {
   <div id="search-container">
     <div class="input-row">
       <input type="text" id="search-input" placeholder="Search" oninput="executeSearch()">
+      <a id="bla-catalog-link" href="./bla/" target="_blank" rel="noopener noreferrer" title="Open BLA catalogue" aria-label="Open BLA catalogue">
+        <img src="./bla/assets/bla-logo.jpg" alt="BLA">
+      </a>
       <span id="close-search" onclick="clearSearch()" title="exit search">&times;</span>
     </div>
     <div id="search-result-count">0 results</div>
