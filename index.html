@@ -113,6 +113,7 @@ body {
 .product-price{ font-size:1.0rem; }
 .image-container{ width:300px; height:300px; overflow:hidden; }
 .card-image{ max-width:100%; max-height:300px; object-fit:contain; }
+.bla-catalog-card .card-image{ height:220px; width:100%; padding:28px; object-fit:contain; }
 
 #product-grid-row{
   display:grid; grid-template-columns:repeat(auto-fill, minmax(300px,1fr)); gap:10px;
@@ -141,7 +142,7 @@ body {
   display:none; height:80px; position:absolute; top:10px; left:450px; margin-left:50px;
   align-items:flex-start; flex-direction:column; z-index:1035;
 }
-.input-row{ display:flex; align-items:center; gap:28px; width:100%; position:relative; }
+.input-row{ display:flex; align-items:center; gap:10px; width:100%; position:relative; }
 .product-meta{ font-size:.95rem; color:#666; }
 .detail-material{ font-size:0.95rem; margin-bottom:0.5rem; }
 
@@ -151,19 +152,6 @@ body {
 #search-input{
   display:block; padding:5px; box-sizing:border-box; margin:0;
 }
-#bla-catalog-link{
-  display:inline-flex;
-  align-items:center;
-  justify-content:center;
-  height:99px;
-  padding:0;
-  margin-left:8px;
-  border:0;
-  background:transparent;
-  text-decoration:none;
-}
-#bla-catalog-link:hover{ opacity:.86; }
-#bla-catalog-link img{ height:99px; width:auto; display:block; object-fit:contain; }
 #close-search{
   display:none; font-size:2rem; cursor:pointer; margin-left:10px;
   position:static;
@@ -295,9 +283,6 @@ body {
   <div id="search-container">
     <div class="input-row">
       <input type="text" id="search-input" placeholder="Search" oninput="executeSearch()">
-      <a id="bla-catalog-link" href="./bla/" target="_blank" rel="noopener noreferrer" title="Open BLA catalogue" aria-label="Open BLA catalogue">
-        <img src="./bla/assets/bla-logo.jpg" alt="BLA">
-      </a>
       <span id="close-search" onclick="clearSearch()" title="exit search">&times;</span>
     </div>
     <div id="search-result-count">0 results</div>
@@ -621,6 +606,34 @@ function toDriveImg(urlOrId){
     const uniqueSubcategories = [...new Set(subcategories)];
     const subcategoryGridRow = document.getElementById('subcategory-grid-row');
     subcategoryGridRow.innerHTML = '';
+
+    if (superCategory === 'Marine Chandlery') {
+      const blaCard = document.createElement('div');
+      blaCard.classList.add('col-12','col-md-4','grid-item','subcategory','bla-catalog-card');
+
+      const card = document.createElement('div');
+      card.className = 'card subcategory';
+
+      const img = document.createElement('img');
+      img.className = 'card-image';
+      img.alt = 'BLA';
+      img.src = './bla/assets/bla-logo.jpg';
+      card.appendChild(img);
+
+      const body = document.createElement('div');
+      body.className = 'card-body';
+      const h4 = document.createElement('h4');
+      h4.className = 'card-title';
+      h4.textContent = 'BLA Catalog';
+      body.appendChild(h4);
+
+      card.appendChild(body);
+      blaCard.appendChild(card);
+      blaCard.addEventListener('click', function(){
+        window.open('./bla/', '_blank', 'noopener');
+      });
+      subcategoryGridRow.appendChild(blaCard);
+    }
 
     uniqueSubcategories.forEach(subcategory=>{
       const firstProduct = products.find(p=>p.subCategory===subcategory && p.superCategory===superCategory);
