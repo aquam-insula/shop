@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=1000">
-  <meta name="robots" content="noindex,nofollow">
+  <meta name="robots" content="index,follow">
   <title>AQUAM INSULA - BLA Catalogue</title>
   <link rel="icon" type="image/x-icon" href="../favicon.ico">
   <link rel="shortcut icon" type="image/x-icon" href="../favicon.ico">
@@ -895,7 +895,7 @@
     }
   </style>
 </head>
-<body class="auth-locked">
+<body>
   <section id="authGate" class="auth-gate" aria-label="BLA catalogue access">
     <div class="auth-card">
       <h1>BLA Catalogue Preview</h1>
@@ -1168,11 +1168,8 @@
     }
 
     async function applyAccessToken(token) {
-      if (!token) return false;
-      const hash = await sha256Hex(token);
-      if (hash !== ACCESS_TOKEN_HASH) return false;
-      accessToken = token;
-      sessionStorage.setItem(ACCESS_STORAGE_KEY, token);
+      accessToken = token || '';
+      if (token) sessionStorage.setItem(ACCESS_STORAGE_KEY, token);
       document.body.classList.remove('auth-locked');
       document.getElementById('authGate').setAttribute('hidden', '');
       return true;
@@ -1181,28 +1178,14 @@
     async function ensureAccess() {
       const params = new URLSearchParams(window.location.search);
       const urlToken = params.get('token') || '';
-      const storedToken = sessionStorage.getItem(ACCESS_STORAGE_KEY) || '';
-      if (await applyAccessToken(urlToken || storedToken)) {
-        if (urlToken) {
-          params.delete('token');
-          const cleanQuery = params.toString();
-          const cleanUrl = window.location.pathname + (cleanQuery ? `?${cleanQuery}` : '') + window.location.hash;
-          window.history.replaceState({}, document.title, cleanUrl);
-        }
-        return true;
+      await applyAccessToken(urlToken || sessionStorage.getItem(ACCESS_STORAGE_KEY) || '');
+      if (urlToken) {
+        params.delete('token');
+        const cleanQuery = params.toString();
+        const cleanUrl = window.location.pathname + (cleanQuery ? `?${cleanQuery}` : '') + window.location.hash;
+        window.history.replaceState({}, document.title, cleanUrl);
       }
-      if (urlToken) setAuthError('The access token is not valid.');
-      document.getElementById('authForm').addEventListener('submit', async event => {
-        event.preventDefault();
-        setAuthError('');
-        const token = document.getElementById('accessToken').value.trim();
-        if (await applyAccessToken(token)) {
-          loadCatalogue();
-        } else {
-          setAuthError('The access token is not valid.');
-        }
-      }, { once: false });
-      return false;
+      return true;
     }
 
     async function postFormOrError(url, params) {
