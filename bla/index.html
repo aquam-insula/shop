@@ -1042,6 +1042,8 @@
     let searchRunId = 0;
     let provisionalSearchCodes = null;
     let searchOverrideRows = null;
+    let searchIndex = [];
+    let searchIndexPromise = null;
     let activeRequestProduct = null;
     let activeRequestType = 'quote';
     const isLocalPreview = ['127.0.0.1', 'localhost'].includes(window.location.hostname);
@@ -1422,6 +1424,67 @@
         .sort((a, b) => b.score - a.score || String(a.code).localeCompare(String(b.code), undefined, { numeric: true }))
         .slice(0, limit || 80);
       return scored.map(item => item.code);
+    }
+    function loadSearchIndex() {
+      if (searchIndex.length) return Promise.resolve(searchIndex);
+      if (searchIndexPromise) return searchIndexPromise;
+      searchIndexPromise = fetch('./data/bla_search_index.json')
+        .then(response => {
+          if (!response.ok) throw new Error('Search index could not be loaded.');
+          return response.json();
+        })
+        .then(data => {
+          searchIndex = Array.isArray(data) ? data : [];
+          document.getElementById('productCount').textContent = `${searchIndex.length.toLocaleString('en-US')} BLA products`;
+          return searchIndex;
+        })
+        .catch(error => {
+          searchIndexPromise = null;
+          throw error;
+        });
+      return searchIndexPromise;
+    }
+    function fastSearchProducts(query) {
+      const normalizedQuery = searchText(query);
+      const compactQuery = normalizedQuery.replace(/\s+/g, '');
+      const rawTerms = normalizedQuery.split(/\s+/).filter(term => term.length > 1);
+      if (!normalizedQuery || !rawTerms.length) return [];
+      const termGroups = rawTerms.map(searchTermVariants);
+      return searchIndex.map(product => {
+        const code = String(product.productNumber || '').toLowerCase();
+        const compactCode = String(product.compactCode || normalizeProductCode(code));
+        const full = String(product.searchText || searchText([
+          product.productNumber,
+          product.description,
+          product.brand,
+          product.variant,
+          topCategory(product),
+          subCategoryName(product)
+        ].join(' ')));
+        let score = 0;
+        if (compactCode === compactQuery) score += 1200;
+        if (compactQuery.length >= 3 && compactCode.indexOf(compactQuery) === 0) score += 520;
+        if (full.indexOf(normalizedQuery) !== -1) score += 260;
+        let matchedGroups = 0;
+        termGroups.forEach(group => {
+          const matched = group.some(term => full.indexOf(term) !== -1);
+          if (!matched) return;
+          matchedGroups += 1;
+          group.forEach(term => {
+            if (compactCode.indexOf(term) !== -1) score += 70;
+            if (String(product.description || '').toLowerCase().indexOf(term) !== -1) score += 52;
+            if (String(product.brand || '').toLowerCase().indexOf(term) !== -1) score += 38;
+            if (String(product.topCategory || product.categoryName || '').toLowerCase().indexOf(term) !== -1) score += 34;
+            if (String(product.subCategoryName || product.subCategory || '').toLowerCase().indexOf(term) !== -1) score += 34;
+          });
+        });
+        if (matchedGroups === termGroups.length) score += 150;
+        if (termGroups.length > 1 && matchedGroups < termGroups.length) score = 0;
+        return { product, score };
+      })
+        .filter(item => item.product && item.product.productNumber && item.score >= 95)
+        .sort((a, b) => b.score - a.score || String(a.product.productNumber).localeCompare(String(b.product.productNumber), undefined, { numeric: true }))
+        .map(item => item.product);
     }
     function looksLikeProductCode(query) {
       const value = String(query || '').trim();
@@ -1822,7 +1885,7 @@
       document.getElementById('backRow').style.display = currentTopCategory ? 'block' : 'none';
       document.getElementById('backToCategories').textContent = 'Back to Categories';
       const emptySearchText = searchMode && query && aiResultCodes
-        ? `No product codes were returned for "${esc(query)}".`
+        ? `No matching catalogue products were found for "${esc(query)}".`
         : 'Press Enter or the search button to see matching products.';
       document.getElementById('productGrid').innerHTML = productDataReady && !awaitingSearch && displayRows.length ? displayRows.map(p => `
         <article class="product-card" data-code="${esc(p.productNumber)}" role="button" tabindex="0" aria-label="View ${esc(p.description)}" ${cardStyle(topCategory(p))}>
@@ -1876,7 +1939,8 @@
       window.scrollTo({ top: 0, behavior: 'smooth' });
     }
     function openProduct(code) {
-      const p = products.find(x => String(x.productNumber) === String(code));
+      const p = products.find(x => String(x.productNumber) === String(code)) ||
+        (Array.isArray(searchOverrideRows) ? searchOverrideRows.find(x => String(x.productNumber) === String(code)) : null);
       if (!p) return;
       const detailImage = document.getElementById('detailImage');
       detailImage.onclick = null;
@@ -2164,26 +2228,19 @@
       document.getElementById('categoryGrid').style.display = 'none';
       document.getElementById('productGrid').innerHTML = loadingMarkup(loadingText);
       try {
-        const data = await postFormOrError(
-          GAS_URL + '?action=searchBlaCatalogueAi',
-          { token: accessToken, query }
-        );
+        await loadSearchIndex();
         if (runId !== searchRunId) return;
-        const responseText = data.summary || data.message || '';
-        const responseProducts = Array.isArray(data.products) ? data.products : [];
-        const codes = (Array.isArray(data.codes) && data.codes.length
-          ? data.codes
-          : responseProducts.map(product => product.productNumber || product.code)
-        ).map(String).filter(Boolean);
+        const responseProducts = fastSearchProducts(query);
+        const codes = responseProducts.map(product => String(product.productNumber || '')).filter(Boolean);
         aiResultCodes = new Set(codes);
         provisionalSearchCodes = null;
         currentTopCategory = '';
         currentSubCategory = '';
         mode = 'search';
-        searchOverrideRows = productsFromSearchResponse(codes, responseProducts);
+        searchOverrideRows = responseProducts;
         if (runId !== searchRunId) return;
         status.classList.remove('is-loading');
-        status.textContent = responseText || `${codes.length} products found.`;
+        status.textContent = `${codes.length} products found.`;
         render();
         scrollResultsToTop();
       } catch (error) {
