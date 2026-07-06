@@ -1457,15 +1457,7 @@
         .filter(entry => entry[0]));
       return codes.map(code => {
         const key = String(code || '');
-        const product = feedByCode.get(key) || responseByCode.get(key);
-        if (product) return product;
-        return {
-          productNumber: key,
-          description: 'GPT returned this BLA product code, but it is not present in the loaded catalogue feed.',
-          category: 'GPT Search Result',
-          subCategory: 'Returned by search',
-          brand: ''
-        };
+        return feedByCode.get(key) || responseByCode.get(key) || null;
       }).filter(product => product && product.productNumber);
     }
     async function ensureCatalogueReadyForSearch(query, status) {
