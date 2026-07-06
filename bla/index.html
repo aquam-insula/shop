@@ -1326,6 +1326,7 @@
         product.productWebsiteImageSourceUrl ||
         product.productWebSearchImageSourceUrl ||
         product.productBlockImageUrl ||
+        ((product.imageUrl || '').includes('/catalogue/product-blocks/') ? product.imageUrl : '') ||
         (product.images || [])[0]?.url ||
         ''
       );
