@@ -1342,9 +1342,10 @@
       const src = productImageSource(product);
       if (!src) return `<div class="placeholder">Product image coming soon</div>`;
       const thumbnail = staticCardImageSource(src);
+      const fallback = staticCardImageFallbackSource(src);
       const loading = eager ? 'eager' : 'lazy';
       if (thumbnail && (isStaticSiteAsset(thumbnail) || isRemoteAsset(thumbnail))) {
-        return `<img src="${esc(thumbnail)}" alt="${esc(product.description || '')}" loading="${loading}" decoding="async">`;
+        return `<img src="${esc(thumbnail)}" alt="${esc(product.description || '')}" loading="${loading}" decoding="async"${imageFallbackAttr(fallback)}>`;
       }
       return assetImageTag(thumbnail || src, product.description, '', 'card');
     }
@@ -1596,6 +1597,15 @@
       const path = normalizeDriveAssetPath(src);
       if (!path.startsWith('images/')) return src;
       return './assets/product-thumbs/' + path.replace(/\.(webp|png|gif|jpe?g)$/i, '.jpg');
+    }
+    function staticCardImageFallbackSource(src) {
+      const thumbnail = staticCardImageSource(src);
+      if (!thumbnail || thumbnail === src || !thumbnail.includes('/catalogue/product-blocks/')) return '';
+      return thumbnail.replace('/catalogue/product-blocks/', '/catalogue/product-photos/');
+    }
+    function imageFallbackAttr(fallback) {
+      if (!fallback) return '';
+      return ` onerror="this.onerror=null;this.src=${esc(JSON.stringify(fallback))}"`;
     }
     function queueDriveAssetImage(img) {
       const path = img.dataset.blaAsset;
