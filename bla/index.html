@@ -1273,9 +1273,6 @@
     function searchLoadingText(query) {
       return `Searching for products matching criteria "${query}"...`;
     }
-    function searchResponseMeansNoRelevant(text) {
-      return /no\s+(directly\s+)?relevant|temporarily unavailable/i.test(String(text || ''));
-    }
     function clearSearchState(options = {}) {
       searchRunId += 1;
       aiResultCodes = null;
@@ -1611,6 +1608,8 @@
       const sort = document.getElementById('sort').value;
       const searchMode = mode === 'search';
       const sourceRows = searchMode && Array.isArray(searchOverrideRows) ? searchOverrideRows : products;
+      const aiOrder = searchMode && aiResultCodes ? Array.from(aiResultCodes) : [];
+      const aiOrderIndex = new Map(aiOrder.map((code, index) => [String(code), index]));
       const rows = sourceRows.filter(p => {
         const top = topCategory(p);
         const sub = subCategoryName(p);
@@ -1620,6 +1619,14 @@
           (globalSearch || !currentSubCategory || sub === currentSubCategory) &&
           aiMatch;
       });
+      if (searchMode && aiResultCodes) {
+        rows.sort((a, b) => {
+          const aIndex = aiOrderIndex.get(String(a.productNumber));
+          const bIndex = aiOrderIndex.get(String(b.productNumber));
+          return (aIndex ?? Number.MAX_SAFE_INTEGER) - (bIndex ?? Number.MAX_SAFE_INTEGER);
+        });
+        return rows;
+      }
       rows.sort((a, b) => {
         if (sort === 'priceAsc') return Number(a.price || 0) - Number(b.price || 0);
         if (sort === 'priceDesc') return Number(b.price || 0) - Number(a.price || 0);
@@ -1804,6 +1811,7 @@
     function renderProducts() {
       const rows = currentRows();
       const limit = Number(document.getElementById('limit').value);
+      const displayRows = mode === 'search' ? rows : rows.slice(0, limit);
       const query = document.getElementById('search').value.trim();
       const searchMode = mode === 'search';
       const productDataReady = catalogueLoaded || (searchMode && Array.isArray(searchOverrideRows));
@@ -1812,18 +1820,16 @@
       document.getElementById('resultCount').textContent = productDataReady
         ? (awaitingSearch
           ? 'Press Enter or the search button to find matching products.'
-          : (searchMode && query && aiResultCodes && !rows.length
-            ? 'No directly relevant products found'
-            : `${rows.length} products found | showing ${Math.min(limit, rows.length)}`))
+          : `${rows.length} products found | showing ${displayRows.length}`)
         : 'Loading products and prices...';
       document.getElementById('categoryGrid').style.display = 'none';
       document.getElementById('productGrid').style.display = 'grid';
       document.getElementById('backRow').style.display = currentTopCategory ? 'block' : 'none';
       document.getElementById('backToCategories').textContent = 'Back to Categories';
       const emptySearchText = searchMode && query && aiResultCodes
-        ? `No directly relevant products were found for "${esc(query)}". Try a broader product type, brand, use case, or BLA code.`
+        ? `No product codes were returned for "${esc(query)}".`
         : 'Press Enter or the search button to see matching products.';
-      document.getElementById('productGrid').innerHTML = productDataReady && !awaitingSearch && rows.length ? rows.slice(0, limit).map(p => `
+      document.getElementById('productGrid').innerHTML = productDataReady && !awaitingSearch && displayRows.length ? displayRows.map(p => `
         <article class="product-card" data-code="${esc(p.productNumber)}" role="button" tabindex="0" aria-label="View ${esc(p.description)}" ${cardStyle(topCategory(p))}>
           <div class="image-container">${productThumbnailMarkup(p, searchMode)}</div>
           <div class="product-body">
@@ -2167,15 +2173,6 @@
       document.getElementById('productGrid').style.display = 'grid';
       document.getElementById('categoryGrid').style.display = 'none';
       document.getElementById('productGrid').innerHTML = loadingMarkup(loadingText);
-      const quickCodes = localSearchCodes(query, 80);
-      if (quickCodes.length) {
-        provisionalSearchCodes = new Set(quickCodes);
-        aiResultCodes = new Set(quickCodes);
-        renderProducts();
-        status.innerHTML = `<span class="spinner small" aria-hidden="true"></span><span>Showing close catalogue matches while final ranking completes...</span>`;
-        document.getElementById('resultCount').innerHTML = `<span class="spinner small" aria-hidden="true"></span> Showing close catalogue matches while final ranking completes...`;
-        scrollResultsToTop();
-      }
       try {
         const data = await postFormOrError(
           GAS_URL + '?action=searchBlaCatalogueAi',
@@ -2183,9 +2180,7 @@
         );
         if (runId !== searchRunId) return;
         const responseText = data.summary || data.message || '';
-        const codes = searchResponseMeansNoRelevant(responseText)
-          ? []
-          : (Array.isArray(data.codes) ? data.codes.map(String) : []);
+        const codes = Array.isArray(data.codes) ? data.codes.map(String) : [];
         aiResultCodes = new Set(codes);
         provisionalSearchCodes = null;
         currentTopCategory = '';
@@ -2194,21 +2189,14 @@
         if (catalogueLoadPromise) await catalogueLoadPromise;
         if (runId !== searchRunId) return;
         status.classList.remove('is-loading');
-        status.textContent = responseText || (codes.length ? `${codes.length} products found.` : `No directly relevant products were found for "${query}".`);
+        status.textContent = responseText || `${codes.length} products found.`;
         render();
         scrollResultsToTop();
       } catch (error) {
         if (runId !== searchRunId) return;
         console.error('BLA search failed', error);
         status.classList.remove('is-loading');
-        if (provisionalSearchCodes && provisionalSearchCodes.size) {
-          aiResultCodes = provisionalSearchCodes;
-          status.textContent = 'Showing close catalogue matches. Final ranking is temporarily unavailable.';
-          render();
-          scrollResultsToTop();
-        } else {
-          status.textContent = error.message || 'Search is temporarily unavailable.';
-        }
+        status.textContent = error.message || 'Search is temporarily unavailable.';
       } finally {
         if (runId === searchRunId) {
           aiSearchRunning = false;
