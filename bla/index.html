@@ -1026,7 +1026,7 @@
   <script>
     const ACCESS_TOKEN_HASH = '4d30a098c2e7ed02e0a66d0a3ec2034d87ee987c7221e6afe17d74b02d066436';
     const ACCESS_STORAGE_KEY = 'aqiml-bla-preview-token';
-    const GAS_URL = 'https://script.google.com/macros/s/AKfycbxpg0ptxrXsGXO6vmir-RxK5mHQ_I5XdFPxNeIp9uDgPumGxz9c9ATs_r51Mr4R4UpONA/exec';
+    const GAS_URL = 'https://script.google.com/macros/s/AKfycbxQxHW4iCUh7im8_Q6jXbx5aLAxglySAgXkE7tIDyI6Wx0iHP2OhIOdKhB29vHZoO8/exec';
     const vatRate = 0.15;
     let products = [];
     let currentTopCategory = '';
@@ -1052,6 +1052,7 @@
     let driveImageActive = 0;
     let driveImageObserver;
     const aiCache = new Map();
+    const searchRefinementCache = new Map();
     const productLookupCache = new Map();
     const fallbackIntro = 'Additional product information is currently being prepared.';
     const heroImage = new Image();
@@ -1486,6 +1487,35 @@
         .filter(item => item.product && item.product.productNumber && item.score >= 95)
         .sort((a, b) => b.score - a.score || String(a.product.productNumber).localeCompare(String(b.product.productNumber), undefined, { numeric: true }))
         .map(item => item.product);
+    }
+    function searchRefinementRows(products) {
+      return products.slice(0, 900).map(product => ({
+        productNumber: product.productNumber,
+        description: product.description,
+        brand: product.brand,
+        variant: product.variant,
+        topCategory: product.topCategory || product.categoryName,
+        categoryName: product.categoryName,
+        subCategoryName: product.subCategoryName,
+        subCategory: product.subCategory
+      }));
+    }
+    async function refineSearchProductsWithGpt(query, candidates) {
+      if (!candidates.length) return { products: [], summary: '' };
+      const cacheKey = `${searchText(query)}::${candidates.map(product => product.productNumber).join(',')}`;
+      if (searchRefinementCache.has(cacheKey)) return searchRefinementCache.get(cacheKey);
+      const promise = postFormOrError(`${GAS_URL}?action=refineBlaCatalogueSearchAi`, {
+        token: accessToken,
+        query,
+        candidates: JSON.stringify(searchRefinementRows(candidates))
+      }).then(data => {
+        const byCode = new Map(candidates.map(product => [String(product.productNumber || ''), product]));
+        const codes = Array.isArray(data.codes) ? data.codes.map(code => String(code || '').trim()).filter(Boolean) : [];
+        const products = codes.map(code => byCode.get(code)).filter(Boolean);
+        return { products, summary: String(data.summary || '') };
+      });
+      searchRefinementCache.set(cacheKey, promise);
+      return promise;
     }
     function looksLikeProductCode(query) {
       const value = String(query || '').trim();
@@ -2231,7 +2261,25 @@
       try {
         await loadSearchIndex();
         if (runId !== searchRunId) return;
-        const responseProducts = fastSearchProducts(query);
+        const localCandidates = fastSearchProducts(query);
+        if (!localCandidates.length) {
+          aiResultCodes = new Set();
+          provisionalSearchCodes = null;
+          currentTopCategory = '';
+          currentSubCategory = '';
+          mode = 'search';
+          searchOverrideRows = [];
+          status.classList.remove('is-loading');
+          status.textContent = '0 products found.';
+          render();
+          scrollResultsToTop();
+          return;
+        }
+        status.innerHTML = `<span class="spinner small" aria-hidden="true"></span><span>Refining ${localCandidates.length.toLocaleString('en-US')} catalogue matches...</span>`;
+        document.getElementById('resultCount').innerHTML = `<span class="spinner small" aria-hidden="true"></span> Refining catalogue matches...`;
+        const refined = await refineSearchProductsWithGpt(query, localCandidates);
+        if (runId !== searchRunId) return;
+        const responseProducts = refined.products;
         const codes = responseProducts.map(product => String(product.productNumber || '')).filter(Boolean);
         aiResultCodes = new Set(codes);
         provisionalSearchCodes = null;
