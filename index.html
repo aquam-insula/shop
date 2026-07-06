@@ -724,7 +724,7 @@ function toDriveImg(urlOrId){
   async function searchWithAi(query, base){
     const productNumbers = new Set(base.map(p => s(p.productNumber)));
     const data = await postFormOrError(
-      GAS_URL + '?action=searchProducts',
+      GAS_URL + '?action=searchShopProductsAi',
       {
         query,
         superCategory: currentSupercategory,
