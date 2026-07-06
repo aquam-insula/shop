@@ -5,7 +5,14 @@
  *     return jsonResponse(searchProductsWithAi_(e.parameter));
  *   }
  *
- * This reuses the existing OPENAI_API_KEY script property.
+ * or inside the existing switch:
+ *
+ *   case 'searchProducts':
+ *     data = searchProductsWithAi_(e.parameter);
+ *     break;
+ *
+ * This searches the public shop catalogue with GPT and reuses the existing
+ * OPENAI_API_KEY script property.
  */
 
 function searchProductsWithAi_(params) {
@@ -14,55 +21,71 @@ function searchProductsWithAi_(params) {
   var subCategory = String(params.subCategory || '').trim();
   var limit = Math.min(Number(params.limit || 100), 100);
 
-  if (!query) return { productNumbers: [] };
+  if (query.length < 2) {
+    return { productNumbers: [], summary: 'Please enter a more specific search phrase.' };
+  }
 
   var cache = CacheService.getScriptCache();
-  var cacheKey = [
-    'aiSearch',
-    query.toLowerCase(),
-    superCategory.toLowerCase(),
-    subCategory.toLowerCase(),
-    limit
-  ].join('|');
+  var cacheKey = makeShopAiSearchCacheKey_(query, superCategory, subCategory, limit);
   var cached = cache.get(cacheKey);
   if (cached) return JSON.parse(cached);
 
   var allProducts = getProductsFromSheet();
-  var scopedProducts = allProducts.filter(function (p) {
-    return String(p.productNumber || '').charAt(0) !== 'X' &&
-      (!superCategory || String(p.superCategory || '') === superCategory);
-  });
+  var scopedProducts = allProducts
+    .filter(function(p) {
+      return String(p.productNumber || '').charAt(0) !== 'X' &&
+        (!superCategory || String(p.superCategory || '') === superCategory);
+    })
+    .map(compactShopSearchProduct_)
+    .filter(function(p) {
+      return p.productNumber || p.description;
+    });
 
-  var candidates = shortlistSearchCandidates_(query, scopedProducts, 80);
-  if (!candidates.length) return { productNumbers: [] };
-
-  var promptProducts = candidates.map(function (p) {
-    return {
-      productNumber: p.productNumber,
-      description: p.description,
-      variant: p.variant,
-      material: p.material,
-      superCategory: p.superCategory,
-      subCategory: p.subCategory
+  var exactMatches = findExactShopSearchMatches_(query, scopedProducts);
+  if (exactMatches.length) {
+    var exactResult = {
+      productNumbers: exactMatches.map(function(p) { return p.productNumber; }).slice(0, limit),
+      summary: 'Exact product-number match.'
     };
-  });
+    cache.put(cacheKey, JSON.stringify(exactResult), 60 * 30);
+    return exactResult;
+  }
 
   var apiKey = PropertiesService.getScriptProperties().getProperty('OPENAI_API_KEY');
   if (!apiKey) throw new Error('Missing OPENAI_API_KEY script property');
 
+  var model = PropertiesService.getScriptProperties().getProperty('SHOP_SEARCH_MODEL') || 'gpt-5.4-mini';
+  var catalogueText = buildShopCatalogueText_(scopedProducts);
+
   var payload = {
-    model: 'gpt-5.4-mini',
+    model: model,
     input: [
       {
         role: 'system',
-        content: 'Rank shop products for a customer search. Match intent, synonyms, singular/plural forms, materials, and common retail wording. Return only relevant product numbers from the provided candidates. If no candidate is truly relevant, return an empty list.'
+        content: [
+          'Rank public AQUAM INSULA shop products for a customer search.',
+          'Match buyer intent, synonyms, singular/plural forms, materials, marine use cases, lifestyle wording, category, and product compatibility.',
+          'Return only relevant product numbers from the public catalogue.',
+          'If no product is truly relevant, return an empty list.'
+        ].join(' ')
+      },
+      {
+        role: 'user',
+        content: 'Public shop catalogue:\n' + catalogueText
       },
       {
         role: 'user',
         content: JSON.stringify({
           query: query,
+          currentSuperCategory: superCategory,
+          currentSubCategory: subCategory,
           maxResults: limit,
-          products: promptProducts
+          instruction: [
+            'Return best matching productNumbers only, ranked best first.',
+            'Prefer exact product-number matches first.',
+            'If currentSubCategory is provided, prefer matches there unless another product is clearly better.',
+            'Avoid broad or weakly related products.'
+          ].join(' ')
         })
       }
     ],
@@ -78,9 +101,10 @@ function searchProductsWithAi_(params) {
             productNumbers: {
               type: 'array',
               items: { type: 'string' }
-            }
+            },
+            summary: { type: 'string' }
           },
-          required: ['productNumbers']
+          required: ['productNumbers', 'summary']
         }
       }
     }
@@ -102,65 +126,72 @@ function searchProductsWithAi_(params) {
 
   var parsed = JSON.parse(body);
   var text = parsed.output_text || extractResponseText_(parsed);
-  var result = JSON.parse(text || '{"productNumbers":[]}');
-  result.productNumbers = (result.productNumbers || []).slice(0, limit);
+  var result = JSON.parse(text || '{"productNumbers":[],"summary":""}');
+
+  var productNumberSet = {};
+  scopedProducts.forEach(function(p) {
+    productNumberSet[p.productNumber] = true;
+  });
+
+  result.productNumbers = (result.productNumbers || [])
+    .map(function(productNumber) { return String(productNumber || '').trim(); })
+    .filter(function(productNumber, index, arr) {
+      return productNumber &&
+        productNumberSet[productNumber] &&
+        arr.indexOf(productNumber) === index;
+    })
+    .slice(0, limit);
+  result.summary = String(result.summary || '').slice(0, 220);
 
   cache.put(cacheKey, JSON.stringify(result), 60 * 30);
   return result;
 }
 
-function shortlistSearchCandidates_(query, products, maxCandidates) {
-  var qTokens = normalizeSearchTokens_(query);
-  var scored = products.map(function (p) {
-    var textTokens = normalizeSearchTokens_([
-      p.productNumber,
-      p.description,
-      p.variant,
-      p.material,
-      p.sheetName,
-      p.superCategory,
-      p.subCategory
-    ].join(' '));
-    var text = textTokens.join(' ');
-    var score = qTokens.reduce(function (sum, token) {
-      return sum + (textTokens.indexOf(token) >= 0 ? 1 : 0);
-    }, 0);
-    return { product: p, score: score, exactPhrase: text.indexOf(normalizeSearch_(query)) >= 0 };
-  }).filter(function (row) {
-    return row.score > 0;
-  });
+function compactShopSearchProduct_(p) {
+  return {
+    productNumber: String(p.productNumber || '').trim(),
+    description: String(p.description || '').trim(),
+    variant: String(p.variant || '').trim(),
+    material: String(p.material || '').trim(),
+    sheetName: String(p.sheetName || '').trim(),
+    superCategory: String(p.superCategory || '').trim(),
+    subCategory: String(p.subCategory || '').trim(),
+    storageLocation: String(p.storageLocation || '').trim()
+  };
+}
 
-  var strictScored = scored.filter(function (row) {
-    return row.score === qTokens.length;
-  });
-  if (strictScored.length) scored = strictScored;
+function buildShopCatalogueText_(products) {
+  return products.map(function(p) {
+    return [
+      'productNumber=' + p.productNumber,
+      'description=' + p.description,
+      'variant=' + p.variant,
+      'material=' + p.material,
+      'superCategory=' + p.superCategory,
+      'subCategory=' + p.subCategory,
+      'sheetName=' + p.sheetName,
+      'storageLocation=' + p.storageLocation
+    ].join(' | ');
+  }).join('\n');
+}
 
-  scored.sort(function (a, b) {
-    return b.score - a.score ||
-      Number(b.exactPhrase) - Number(a.exactPhrase) ||
-      String(a.product.description || '').localeCompare(String(b.product.description || ''));
-  });
-
-  return scored.slice(0, maxCandidates).map(function (row) {
-    return row.product;
+function findExactShopSearchMatches_(query, products) {
+  var queryCode = String(query || '').toLowerCase().replace(/[^a-z0-9]/g, '');
+  return products.filter(function(p) {
+    return p.productNumber.toLowerCase().replace(/[^a-z0-9]/g, '') === queryCode;
   });
 }
 
-function normalizeSearch_(value) {
-  return normalizeSearchTokens_(value).join(' ');
-}
-
-function normalizeSearchTokens_(value) {
-  return String(value || '')
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, ' ')
-    .split(/\s+/)
-    .filter(Boolean)
-    .map(function (token) {
-      if (token === 'glasses') return 'glass';
-      if (token.slice(-3) === 'ies') return token.slice(0, -3) + 'y';
-      return token.replace(/s$/, '');
-    });
+function makeShopAiSearchCacheKey_(query, superCategory, subCategory, limit) {
+  var seed = [
+    'aiSearchFullCatalogue',
+    String(query || '').toLowerCase(),
+    String(superCategory || '').toLowerCase(),
+    String(subCategory || '').toLowerCase(),
+    String(limit || '')
+  ].join('|');
+  var digest = Utilities.computeDigest(Utilities.DigestAlgorithm.SHA_256, seed);
+  return 'aiSearchFull_' + Utilities.base64EncodeWebSafe(digest).slice(0, 80);
 }
 
 function extractResponseText_(response) {
