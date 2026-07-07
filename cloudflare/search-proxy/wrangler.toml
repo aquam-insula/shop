@@ -1,0 +1,9 @@
+name = "aqiml-search"
+main = "worker.js"
+compatibility_date = "2026-07-08"
+
+workers_dev = true
+
+[[kv_namespaces]]
+binding = "RATE_LIMIT"
+id = "REPLACE_WITH_KV_NAMESPACE_ID"

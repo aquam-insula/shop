@@ -383,6 +383,7 @@ body {
 <script>
   // ======= CONFIG: GAS URL =======
   const GAS_URL = 'https://script.google.com/macros/s/AKfycbxpg0ptxrXsGXO6vmir-RxK5mHQ_I5XdFPxNeIp9uDgPumGxz9c9ATs_r51Mr4R4UpONA/exec';
+  const SEARCH_PROXY_URL = 'https://aqiml-search.t-98d.workers.dev';
 
   // ======= UTILS =======
   function s(v){ return v==null? "" : String(v).trim(); }
@@ -897,7 +898,7 @@ function toDriveImg(urlOrId){
     searchCallTimes.push(now);
     const productNumbers = new Set(localCandidates.map(p => s(p.productNumber)));
     const data = await postFormOrError(
-      GAS_URL + '?action=searchShopProductsAi',
+      SEARCH_PROXY_URL + '?action=searchShopProductsAi',
       {
         query,
         superCategory: currentSupercategory,

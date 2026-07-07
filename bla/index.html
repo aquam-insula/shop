@@ -1027,6 +1027,7 @@
     const ACCESS_TOKEN_HASH = '4d30a098c2e7ed02e0a66d0a3ec2034d87ee987c7221e6afe17d74b02d066436';
     const ACCESS_STORAGE_KEY = 'aqiml-bla-preview-token';
     const GAS_URL = 'https://script.google.com/macros/s/AKfycbxQxHW4iCUh7im8_Q6jXbx5aLAxglySAgXkE7tIDyI6Wx0iHP2OhIOdKhB29vHZoO8/exec';
+    const SEARCH_PROXY_URL = 'https://aqiml-search.t-98d.workers.dev';
     const vatRate = 0.15;
     const SEARCH_QUERY_MAX_CHARS = 80;
     const SEARCH_QUERY_MAX_TOKENS = 10;
@@ -1530,7 +1531,7 @@
       if (!candidates.length) return { products: [], summary: '' };
       const cacheKey = `${searchText(query)}::${candidates.map(product => product.productNumber).join(',')}`;
       if (searchRefinementCache.has(cacheKey)) return searchRefinementCache.get(cacheKey);
-      const promise = postFormOrError(`${GAS_URL}?action=refineBlaCatalogueSearchAi`, {
+      const promise = postFormOrError(`${SEARCH_PROXY_URL}?action=refineBlaCatalogueSearchAi`, {
         token: accessToken,
         query,
         candidates: JSON.stringify(searchRefinementRows(candidates))
