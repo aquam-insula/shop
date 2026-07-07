@@ -282,7 +282,7 @@ body {
 
   <div id="search-container">
     <div class="input-row">
-      <input type="text" id="search-input" placeholder="Search" oninput="executeSearch()">
+      <input type="text" id="search-input" placeholder="Search" maxlength="80" autocomplete="off" oninput="executeSearch()">
       <span id="close-search" onclick="clearSearch()" title="exit search">&times;</span>
     </div>
     <div id="search-result-count">0 results</div>
@@ -484,6 +484,8 @@ function toDriveImg(urlOrId){
 
   const aiCache = new Map();
   const FALLBACK_TEXT = 'Detailed information currently unavailable. Please try again later.';
+  const SEARCH_QUERY_MAX_CHARS = 80;
+  const SEARCH_QUERY_MAX_TOKENS = 10;
 
   // ======= UI HELPERS =======
   document.addEventListener("mousedown", function(event) {
@@ -684,6 +686,30 @@ function toDriveImg(urlOrId){
     document.getElementById('search-result-count').textContent = `${count} results`;
   }
 
+  function cleanSearchQuery(value){
+    return s(value)
+      .replace(/[\x00-\x1F\x7F]/g, ' ')
+      .replace(/[^A-Za-z0-9\s'"&+.,/#()-]/g, ' ')
+      .replace(/\s+/g, ' ')
+      .trim();
+  }
+
+  function validateSearchQuery(value){
+    const raw = s(value).replace(/[\x00-\x1F\x7F]/g, ' ').replace(/\s+/g, ' ').trim();
+    if (!raw) return { query: '', error: '' };
+    if (raw.length > SEARCH_QUERY_MAX_CHARS) {
+      return { query: '', error: 'Please use 80 characters or fewer.' };
+    }
+    if (/https?:\/\//i.test(raw) || /<\s*script/i.test(raw) || /\b(union\s+select|select\s+.+\s+from|drop\s+table|insert\s+into|delete\s+from|update\s+.+\s+set|or\s+1\s*=\s*1)\b/i.test(raw) || /\b(ignore|forget|override)\b.{0,30}\b(instruction|prompt|system|developer)\b/i.test(raw)) {
+      return { query: '', error: 'Please search for product names, brands, or product codes only.' };
+    }
+    const query = cleanSearchQuery(raw);
+    if (query.split(/\s+/).filter(Boolean).length > SEARCH_QUERY_MAX_TOKENS) {
+      return { query: '', error: 'Please use 10 words or fewer.' };
+    }
+    return { query, error: '' };
+  }
+
   function executeSearch(){
     clearTimeout(searchTimer);
     searchTimer = setTimeout(runSearch, 350);
@@ -712,9 +738,30 @@ function toDriveImg(urlOrId){
       });
   }
 
+  function searchTermVariants(token){
+    const variants = new Set([token]);
+    if (token.length > 4 && token.endsWith('ies')) variants.add(token.slice(0, -3) + 'y');
+    if (token.length > 3 && token.endsWith('es')) variants.add(token.slice(0, -2));
+    if (token.length > 3 && token.endsWith('s')) variants.add(token.slice(0, -1));
+    const synonyms = {
+      winch: ['windlass'],
+      windlass: ['winch'],
+      rope: ['line', 'cordage'],
+      line: ['rope', 'cordage'],
+      anchor: ['anchoring', 'mooring'],
+      pump: ['bilge'],
+      glue: ['adhesive', 'sealant'],
+      adhesive: ['glue', 'sealant'],
+      sealant: ['adhesive', 'sika']
+    };
+    (synonyms[token] || []).forEach(item => variants.add(item));
+    return Array.from(variants);
+  }
+
   function localSearch(query, base){
     const normalizedQuery = normalizeSearchText(query);
     const queryTokens = normalizeSearchTokens(query);
+    const termGroups = queryTokens.map(searchTermVariants);
     const scored = base.map(product => {
       const textTokens = normalizeSearchTokens([
         product.productNumber,
@@ -727,15 +774,27 @@ function toDriveImg(urlOrId){
       ].join(' '));
       const text = textTokens.join(' ');
       const textTokenSet = new Set(textTokens);
-      const tokenHits = queryTokens.filter(token => textTokenSet.has(token)).length;
+      const tokenHits = termGroups.filter(group => group.some(token => textTokenSet.has(token) || text.includes(token))).length;
       const exactPhrase = text.includes(normalizedQuery);
-      return { product, tokenHits, exactPhrase };
+      const code = s(product.productNumber).toLowerCase();
+      const description = normalizeSearchText(product.description);
+      const brand = normalizeSearchText(product.brand);
+      let score = tokenHits * 100 + (exactPhrase ? 60 : 0);
+      termGroups.forEach(group => group.forEach(token => {
+        if (code.includes(token)) score += 60;
+        if (description.includes(token)) score += 45;
+        if (brand.includes(token)) score += 25;
+        if (text.includes(token)) score += 12;
+      }));
+      if (termGroups.length > 1 && tokenHits < termGroups.length) score = 0;
+      return { product, tokenHits, exactPhrase, score };
     }).filter(row => row.tokenHits > 0);
 
     const strictMatches = scored.filter(row => row.tokenHits === queryTokens.length);
     const matches = strictMatches.length ? strictMatches : scored;
 
     matches.sort((a, b) =>
+      (b.score - a.score) ||
       (b.tokenHits - a.tokenHits) ||
       (Number(b.exactPhrase) - Number(a.exactPhrase)) ||
       s(a.product.description).localeCompare(s(b.product.description))
@@ -750,15 +809,32 @@ function toDriveImg(urlOrId){
     });
   }
 
+  function shopSearchCandidateRows(rows){
+    return rows.slice(0, 500).map(p => ({
+      productNumber: s(p.productNumber),
+      description: s(p.description),
+      variant: s(p.variant),
+      material: s(p.material),
+      brand: s(p.brand),
+      sheetName: s(p.sheetName),
+      superCategory: s(p.superCategory),
+      subCategory: s(p.subCategory),
+      storageLocation: s(p.storageLocation)
+    }));
+  }
+
   async function searchWithAi(query, base){
-    const productNumbers = new Set(base.map(p => s(p.productNumber)));
+    const localCandidates = localSearch(query, base);
+    if (!localCandidates.length) return [];
+    const productNumbers = new Set(localCandidates.map(p => s(p.productNumber)));
     const data = await postFormOrError(
       GAS_URL + '?action=searchShopProductsAi',
       {
         query,
         superCategory: currentSupercategory,
         subCategory: currentSubcategory,
-        limit: '100'
+        limit: '100',
+        candidates: JSON.stringify(shopSearchCandidateRows(localCandidates))
       }
     );
 
@@ -766,7 +842,7 @@ function toDriveImg(urlOrId){
       ? data.productNumbers
       : (Array.isArray(data.results) ? data.results.map(item => s(item.productNumber || item)) : []);
 
-    const byNumber = new Map(base.map(p => [s(p.productNumber), p]));
+    const byNumber = new Map(localCandidates.map(p => [s(p.productNumber), p]));
     return rankedNumbers
       .filter(productNumber => productNumbers.has(s(productNumber)))
       .map(productNumber => byNumber.get(s(productNumber)))
@@ -777,7 +853,8 @@ function toDriveImg(urlOrId){
     const searchInput = document.getElementById('search-input');
     const closeSearchButton = document.getElementById('close-search');
     const searchResultCount = document.getElementById('search-result-count');
-    const query = s(searchInput.value).toLowerCase();
+    const validation = validateSearchQuery(searchInput.value);
+    const query = validation.query.toLowerCase();
     const requestId = ++searchRequestId;
 
     if (query){
@@ -786,6 +863,12 @@ function toDriveImg(urlOrId){
     } else {
       closeSearchButton.style.display = 'none';
       searchResultCount.style.display = 'none';
+    }
+    if (validation.error) {
+      closeSearchButton.style.display = 'block';
+      searchResultCount.style.display = 'block';
+      searchResultCount.textContent = validation.error;
+      return;
     }
     if (!query) return;
 

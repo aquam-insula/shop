@@ -919,7 +919,7 @@
       <a href="mailto:maritime-lifestyle@aquam-insula.com">maritime-lifestyle@aquam-insula.com</a>
     </div>
     <div class="search-row">
-      <input id="search" type="search" placeholder="Search product code, product, brand or category">
+      <input id="search" type="search" placeholder="Search product code, product, brand or category" maxlength="80" autocomplete="off">
       <button id="aiSearch" type="button" aria-label="Search" title="Search"><span class="search-lens" aria-hidden="true"></span></button>
       <select id="sort">
         <option value="category">Sort by category</option>
@@ -1028,6 +1028,9 @@
     const ACCESS_STORAGE_KEY = 'aqiml-bla-preview-token';
     const GAS_URL = 'https://script.google.com/macros/s/AKfycbxQxHW4iCUh7im8_Q6jXbx5aLAxglySAgXkE7tIDyI6Wx0iHP2OhIOdKhB29vHZoO8/exec';
     const vatRate = 0.15;
+    const SEARCH_QUERY_MAX_CHARS = 80;
+    const SEARCH_QUERY_MAX_TOKENS = 10;
+    const SEARCH_REFINEMENT_MAX_CANDIDATES = 500;
     let products = [];
     let currentTopCategory = '';
     let currentSubCategory = '';
@@ -1355,6 +1358,28 @@
     function searchText(value) {
       return stripHtml(value).toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
     }
+    function cleanSearchQuery(value) {
+      return String(value || '')
+        .replace(/[\x00-\x1F\x7F]/g, ' ')
+        .replace(/[^A-Za-z0-9\s'"&+.,/#()-]/g, ' ')
+        .replace(/\s+/g, ' ')
+        .trim();
+    }
+    function validateSearchQuery(value) {
+      const raw = String(value || '').replace(/[\x00-\x1F\x7F]/g, ' ').replace(/\s+/g, ' ').trim();
+      if (!raw) return { query: '', error: '' };
+      if (raw.length > SEARCH_QUERY_MAX_CHARS) {
+        return { query: '', error: 'Please use 80 characters or fewer.' };
+      }
+      if (/https?:\/\//i.test(raw) || /<\s*script/i.test(raw) || /\b(union\s+select|select\s+.+\s+from|drop\s+table|insert\s+into|delete\s+from|update\s+.+\s+set|or\s+1\s*=\s*1)\b/i.test(raw) || /\b(ignore|forget|override)\b.{0,30}\b(instruction|prompt|system|developer)\b/i.test(raw)) {
+        return { query: '', error: 'Please search for product names, brands, or product codes only.' };
+      }
+      const query = cleanSearchQuery(raw);
+      if (query.split(/\s+/).filter(Boolean).length > SEARCH_QUERY_MAX_TOKENS) {
+        return { query: '', error: 'Please use 10 words or fewer.' };
+      }
+      return { query, error: '' };
+    }
     function searchTermVariants(term) {
       const variants = new Set([term]);
       if (term.length > 4 && term.endsWith('ies')) variants.add(term.slice(0, -3) + 'y');
@@ -1490,7 +1515,7 @@
         .map(item => item.product);
     }
     function searchRefinementRows(products) {
-      return products.slice(0, 900).map(product => ({
+      return products.slice(0, SEARCH_REFINEMENT_MAX_CANDIDATES).map(product => ({
         productNumber: product.productNumber,
         description: product.description,
         brand: product.brand,
@@ -2211,9 +2236,15 @@
     window.addEventListener('scroll', updateBackToTop, { passive: true });
     updateBackToTop();
     async function runAiSearch() {
-      const query = document.getElementById('search').value.trim();
+      const validation = validateSearchQuery(document.getElementById('search').value);
+      const query = validation.query;
       const status = document.getElementById('aiSearchStatus');
       const button = document.getElementById('aiSearch');
+      if (validation.error) {
+        status.classList.remove('is-loading');
+        status.textContent = validation.error;
+        return;
+      }
       if (!query) {
         status.textContent = 'Enter a search phrase first.';
         return;
