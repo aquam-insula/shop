@@ -486,6 +486,13 @@ function toDriveImg(urlOrId){
   const FALLBACK_TEXT = 'Detailed information currently unavailable. Please try again later.';
   const SEARCH_QUERY_MAX_CHARS = 80;
   const SEARCH_QUERY_MAX_TOKENS = 10;
+  const STATIC_PRODUCTS_URL = './data/shop_products.json';
+  const PRODUCT_CACHE_KEY = 'aqiml-shop-products-cache-v1';
+  const PRODUCT_CACHE_MAX_AGE_MS = 24 * 60 * 60 * 1000;
+  const SEARCH_CALL_LIMIT = 10;
+  const SEARCH_CALL_WINDOW_MS = 60 * 1000;
+  const searchAiCache = new Map();
+  let searchCallTimes = [];
 
   // ======= UI HELPERS =======
   document.addEventListener("mousedown", function(event) {
@@ -523,6 +530,59 @@ function toDriveImg(urlOrId){
         superCategory:   s(p.superCategory),
         subCategory:     s(p.subCategory)
       }));
+  }
+
+  function cachedProductsData(){
+    try {
+      const cached = JSON.parse(localStorage.getItem(PRODUCT_CACHE_KEY) || 'null');
+      if (cached && Array.isArray(cached.products) && Date.now() - Number(cached.savedAt || 0) < PRODUCT_CACHE_MAX_AGE_MS) {
+        return cached.products;
+      }
+    } catch(e) {}
+    return null;
+  }
+
+  function rememberProductsData(productsData){
+    try {
+      localStorage.setItem(PRODUCT_CACHE_KEY, JSON.stringify({
+        savedAt: Date.now(),
+        products: productsData
+      }));
+    } catch(e) {}
+  }
+
+  async function getJsonWithTimeout(url, timeoutMs){
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), timeoutMs || 15000);
+    try {
+      const res = await fetch(url, { method: 'GET', signal: controller.signal });
+      const data = await res.json().catch(() => ({}));
+      if(!res.ok || data.error){
+        throw new Error(data.error || res.statusText || 'GET failed');
+      }
+      return data;
+    } finally {
+      clearTimeout(timer);
+    }
+  }
+
+  async function getProductsData(){
+    try {
+      const liveProducts = await getJsonWithTimeout(GAS_URL + '?action=getProductsFromSheet', 12000);
+      rememberProductsData(liveProducts);
+      return liveProducts;
+    } catch (liveError) {
+      console.warn('Live product feed unavailable; using fallback feed.', liveError);
+      try {
+        const staticProducts = await getJsonWithTimeout(`${STATIC_PRODUCTS_URL}?v=202607080933`, 15000);
+        rememberProductsData(staticProducts);
+        return staticProducts;
+      } catch (staticError) {
+        const cached = cachedProductsData();
+        if (cached) return cached;
+        throw staticError;
+      }
+    }
   }
 
   function initializeFuzzysort(productsData){
@@ -826,6 +886,15 @@ function toDriveImg(urlOrId){
   async function searchWithAi(query, base){
     const localCandidates = localSearch(query, base);
     if (!localCandidates.length) return [];
+    const cacheKey = `${currentSupercategory}|${currentSubcategory}|${query}|${localCandidates.map(p => s(p.productNumber)).join(',')}`;
+    if (searchAiCache.has(cacheKey)) return searchAiCache.get(cacheKey);
+    const now = Date.now();
+    searchCallTimes = searchCallTimes.filter(time => now - time < SEARCH_CALL_WINDOW_MS);
+    if (searchCallTimes.length >= SEARCH_CALL_LIMIT) {
+      console.warn('AI search rate limit reached; using local search results.');
+      return localCandidates;
+    }
+    searchCallTimes.push(now);
     const productNumbers = new Set(localCandidates.map(p => s(p.productNumber)));
     const data = await postFormOrError(
       GAS_URL + '?action=searchShopProductsAi',
@@ -843,10 +912,12 @@ function toDriveImg(urlOrId){
       : (Array.isArray(data.results) ? data.results.map(item => s(item.productNumber || item)) : []);
 
     const byNumber = new Map(localCandidates.map(p => [s(p.productNumber), p]));
-    return rankedNumbers
+    const refined = rankedNumbers
       .filter(productNumber => productNumbers.has(s(productNumber)))
       .map(productNumber => byNumber.get(s(productNumber)))
       .filter(Boolean);
+    searchAiCache.set(cacheKey, refined);
+    return refined;
   }
 
   async function runSearch(){
@@ -1575,8 +1646,8 @@ function toDriveImg(urlOrId){
 
     try {
       const [vatData, productsData] = await Promise.all([
-        getJsonOrError(GAS_URL + '?action=getVatRate'),
-        getJsonOrError(GAS_URL + '?action=getProductsFromSheet')
+        getJsonWithTimeout(GAS_URL + '?action=getVatRate', 8000).catch(() => ({ rate: 0.125, notice: '' })),
+        getProductsData()
       ]);
 
       vatRate   = vatData.rate   != null ? vatData.rate   : 0.15;
