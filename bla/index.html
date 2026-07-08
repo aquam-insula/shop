@@ -1242,6 +1242,12 @@
     function isStaticSiteAsset(src) {
       return /^\.\//.test(String(src || '')) || /^assets\//.test(String(src || ''));
     }
+    function staticProductThumbPath(src) {
+      const value = String(src || '').replace(/\\/g, '/');
+      if (value.startsWith('../images/')) return `./assets/product-thumbs/images/${value.slice('../images/'.length)}`;
+      if (value.startsWith('images/')) return `./assets/product-thumbs/${value}`;
+      return value;
+    }
     function normalizeDriveAssetPath(src) {
       return String(src || '').replace(/\\/g, '/').replace(/^\.\.\//, '').replace(/^\.\//, '');
     }
@@ -1313,11 +1319,12 @@
     }
     function assetImageTag(src, alt, className, thumb) {
       if (!src) return '';
+      const staticSrc = staticProductThumbPath(src);
       const loading = thumb === 'card' ? ' loading="lazy" decoding="async"' : ' decoding="async"';
-      if (isRemoteAsset(src) || isStaticSiteAsset(src) || isLocalPreview) {
-        return `<img src="${esc(src)}" alt="${esc(alt)}"${className ? ` class="${esc(className)}"` : ''}${loading}>`;
+      if (isRemoteAsset(staticSrc) || isStaticSiteAsset(staticSrc) || isLocalPreview) {
+        return `<img src="${esc(staticSrc)}" alt="${esc(alt)}"${className ? ` class="${esc(className)}"` : ''}${loading}>`;
       }
-      return `<img src="${driveImagePlaceholder(alt)}" data-bla-asset="${esc(normalizeDriveAssetPath(src))}"${thumb ? ` data-bla-thumb="${esc(thumb)}"` : ''} alt="${esc(alt)}"${className ? ` class="${esc(className)}"` : ''}${loading}>`;
+      return `<img src="${driveImagePlaceholder(alt)}" data-bla-asset="${esc(normalizeDriveAssetPath(staticSrc))}"${thumb ? ` data-bla-thumb="${esc(thumb)}"` : ''} alt="${esc(alt)}"${className ? ` class="${esc(className)}"` : ''}${loading}>`;
     }
     function categoryImage(src, label) {
       const illustrative = categoryIllustrations[label] || src;
