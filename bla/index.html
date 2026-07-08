@@ -1028,6 +1028,9 @@
     const ACCESS_STORAGE_KEY = 'aqiml-bla-preview-token';
     const GAS_URL = 'https://script.google.com/macros/s/AKfycbxQxHW4iCUh7im8_Q6jXbx5aLAxglySAgXkE7tIDyI6Wx0iHP2OhIOdKhB29vHZoO8/exec';
     const SEARCH_PROXY_URL = 'https://aqiml-search.t-98d.workers.dev';
+    const STATIC_CATALOGUE_SUMMARY_URL = './data/bla_catalogue_summary_appsscript.json';
+    const STATIC_CATALOGUE_FEED_URL = './data/bla_catalogue_feed_appsscript.json';
+    const STATIC_CATALOGUE_CHUNK_DIR = './data/catalogue-chunks/';
     const vatRate = 0.15;
     const SEARCH_QUERY_MAX_CHARS = 80;
     const SEARCH_QUERY_MAX_TOKENS = 10;
@@ -1041,6 +1044,8 @@
     let categorySummaryLoaded = false;
     let categorySummary = null;
     let catalogueLoadPromise = null;
+    let productChunkPromise = null;
+    let productChunkScope = '';
     let aiResultCodes = null;
     let aiSearchRunning = false;
     let searchRunId = 0;
@@ -1253,6 +1258,18 @@
     }
     function assetSlug(value) {
       return String(value || '').toLowerCase().replace(/&/g, 'and').replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
+    }
+    function catalogueScopeKey(cat, sub) {
+      return `${cat || ''}::${sub || ''}`;
+    }
+    function currentCatalogueScopeKey() {
+      return catalogueScopeKey(currentTopCategory, currentSubCategory);
+    }
+    function isCurrentProductChunkReady() {
+      return productChunkScope === currentCatalogueScopeKey() && Array.isArray(products);
+    }
+    function catalogueChunkPath(cat, sub) {
+      return `${STATIC_CATALOGUE_CHUNK_DIR}${assetSlug(cat)}--${assetSlug(sub)}.json`;
     }
     function subcategoryImagePath(category, subcategory) {
       return `./assets/subcategories/bla-${assetSlug(category)}--${assetSlug(subcategory)}.jpg`;
@@ -1792,7 +1809,7 @@
             currentSubCategory = btn.dataset.sub || '';
             mode = 'products';
             render();
-            loadCatalogueFeed();
+            loadCurrentProductChunk();
           } else {
             openTopCategory(btn.dataset.top || '');
           }
@@ -1830,7 +1847,7 @@
         mode = 'subcategories';
       }
       render();
-      if (currentTopCategory) loadCatalogueFeed();
+      if (mode === 'products') loadCurrentProductChunk();
     }
     function renderCategories() {
       const cats = groupedTopCategories();
@@ -1922,6 +1939,7 @@
           currentSubCategory = card.dataset.sub;
           mode = 'products';
           render();
+          loadCurrentProductChunk();
         };
         card.addEventListener('click', openSubCategory);
         card.addEventListener('keydown', event => {
@@ -1939,7 +1957,7 @@
       const displayRows = mode === 'search' ? rows : rows.slice(0, limit);
       const query = document.getElementById('search').value.trim();
       const searchMode = mode === 'search';
-      const productDataReady = catalogueLoaded || (searchMode && Array.isArray(searchOverrideRows));
+      const productDataReady = catalogueLoaded || isCurrentProductChunkReady() || (searchMode && Array.isArray(searchOverrideRows));
       const awaitingSearch = searchMode && !!query && !aiResultCodes;
       document.getElementById('viewTitle').textContent = searchMode ? 'Search Results' : (currentSubCategory || currentTopCategory || 'All BLA Products');
       document.getElementById('resultCount').textContent = productDataReady
@@ -2350,37 +2368,58 @@
       document.getElementById('productCount').innerHTML = '<span class="spinner small" aria-hidden="true"></span> Loading catalogue...';
       document.getElementById('resultCount').textContent = 'Loading catalogue...';
       render();
-      const summaryUrl = isLocalPreview
-        ? ''
-        : `${GAS_URL}?action=getBlaCatalogueSummary&token=${encodeURIComponent(accessToken)}`;
-      if (summaryUrl) {
-        fetch(summaryUrl)
-          .then(response => response.json())
-          .then(data => {
-            if (data && data.error) throw new Error(data.error);
-            categorySummary = data;
-            categorySummaryLoaded = true;
-            if (!catalogueLoaded && data.totalProducts) {
-              document.getElementById('productCount').textContent = `${Number(data.totalProducts).toLocaleString('en-US')} BLA products`;
-            }
-            render();
-          })
-          .catch(error => console.warn('BLA catalogue summary unavailable', error));
-      }
-      if (isLocalPreview) loadCatalogueFeed();
+      fetch(STATIC_CATALOGUE_SUMMARY_URL)
+        .then(response => {
+          if (!response.ok) throw new Error(response.statusText || 'Summary unavailable');
+          return response.json();
+        })
+        .then(data => {
+          if (data && data.error) throw new Error(data.error);
+          categorySummary = data;
+          categorySummaryLoaded = true;
+          if (!catalogueLoaded && data.totalProducts) {
+            document.getElementById('productCount').textContent = `${Number(data.totalProducts).toLocaleString('en-US')} BLA products`;
+          }
+          render();
+        })
+        .catch(error => console.warn('BLA catalogue summary unavailable', error));
+    }
+    function loadCurrentProductChunk() {
+      if (!currentTopCategory || !currentSubCategory || catalogueLoaded) return loadCatalogueFeed();
+      const scope = currentCatalogueScopeKey();
+      if (productChunkScope === scope) return Promise.resolve(products);
+      if (productChunkPromise && productChunkPromise.scope === scope) return productChunkPromise;
+      productChunkPromise = fetch(catalogueChunkPath(currentTopCategory, currentSubCategory))
+        .then(response => {
+          if (!response.ok) throw new Error('Product folder could not be loaded.');
+          return response.json();
+        })
+        .then(data => {
+          products = Array.isArray(data) ? data : [];
+          productChunkScope = scope;
+          productChunkPromise = null;
+          render();
+          return products;
+        })
+        .catch(error => {
+          productChunkPromise = null;
+          document.getElementById('resultCount').textContent = error.message || 'Product folder is temporarily unavailable.';
+          throw error;
+        });
+      productChunkPromise.scope = scope;
+      return productChunkPromise;
     }
     function loadCatalogueFeed() {
       if (catalogueLoaded) return Promise.resolve(products);
       if (catalogueLoadPromise) return catalogueLoadPromise;
-      const feedUrl = isLocalPreview
-        ? './data/bla_shop_feed_web.json'
-        : `${GAS_URL}?action=getBlaCatalogueFeed&token=${encodeURIComponent(accessToken)}`;
+      const feedUrl = STATIC_CATALOGUE_FEED_URL;
       catalogueLoadPromise = fetch(feedUrl)
         .then(response => response.json())
         .then(data => {
           if (data && data.error) throw new Error(data.error);
           products = data;
           catalogueLoaded = true;
+          productChunkScope = '';
           document.getElementById('productCount').textContent = `${products.length.toLocaleString('en-US')} BLA products`;
           render();
         })

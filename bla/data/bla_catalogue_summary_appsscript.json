@@ -1,0 +1,2328 @@
+{
+  "totalProducts": 14118,
+  "categories": [
+    {
+      "name": "Anchor Winches & Accessories",
+      "count": 247,
+      "minPrice": 47.46,
+      "sample": {
+        "productNumber": "153080",
+        "description": "SAVWINCH POT HAULER 1100CS-PH",
+        "categoryImage": "../images/catalogue/pages/page0481.jpg",
+        "imagePath": "",
+        "thumbnailPath": "",
+        "catalogueDescription": "Anchor Winches & Accessories from the BLA Australia catalogue.",
+        "price": 2013.17
+      },
+      "subcategories": [
+        {
+          "name": "Anchor Winches & Windlasses",
+          "count": 83,
+          "minPrice": 84.71,
+          "sample": {
+            "productNumber": "153080",
+            "description": "SAVWINCH POT HAULER 1100CS-PH",
+            "categoryImage": "../images/catalogue/pages/page0481.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "Anchor Winches & Accessories from the BLA Australia catalogue.",
+            "price": 2013.17
+          },
+          "file": "anchor-winches-and-accessories--anchor-winches-and-windlasses.json"
+        },
+        {
+          "name": "General Anchor Winches & Accessories",
+          "count": 85,
+          "minPrice": 47.46,
+          "sample": {
+            "productNumber": "153229",
+            "description": "SAVWINCH EFF2S-100 WIRELESS ELECTRONIC FREEFALL SYSTEM",
+            "categoryImage": "../images/catalogue/pages/page0481.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "Anchor Winches & Accessories from the BLA Australia catalogue.",
+            "price": 1440.44
+          },
+          "file": "anchor-winches-and-accessories--general-anchor-winches-and-accessories.json"
+        },
+        {
+          "name": "Rode, Rollers & Winch Accessories",
+          "count": 31,
+          "minPrice": 75.25,
+          "sample": {
+            "productNumber": "153160",
+            "description": "BLA CHAIN GUARD 9M SUITS 6/8MM CHAIN",
+            "categoryImage": "../images/catalogue/pages/page0369.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "udes: • Motor and gearbox • 316 grade stainless steel drum • Up/down switch • Soleniod • Circuit breaker • Double braid rope and chain kit • Backing plate and bolts • Guide roller 153120 Full Kit BLA Code Winch Model Drum Size mm Max Vessel Size m Rope Length Chain Length m Total Length m A mm B mm C mm D mm E mm 153100 4500 180 4.5 45m x 6mm 5 45 321* 317 180 190 120 153110 5500 200 5.5 65m x 6mm 6 70 332* 315 200 210 120 153120 7000 250 7 95m x 6mm 7 100 370* 377 240 250 140 Accessories: 153154 Drum Winch Switch 153160 Chain Guard 9m 7000 Winch Kit Packaging 153100 153110 A B C D E N.B. * measurement does NOT include waterproof glands or wire 153110 only has 8 mounting positions at time of printing 153120",
+            "price": 149.46
+          },
+          "file": "anchor-winches-and-accessories--rode-rollers-and-winch-accessories.json"
+        },
+        {
+          "name": "Winch Controls & Electrical Kits",
+          "count": 48,
+          "minPrice": 112.31,
+          "sample": {
+            "productNumber": "153254",
+            "description": "SAVWINCH CIRCUIT BREAKER 40AMP",
+            "categoryImage": "../images/catalogue/pages/page0061.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "410 ANCHOR WINCHES & ACCESSORIES 15 BOATING LIFESTYLE ADVENTURE Savwinch Up/Down Switch Replacement switch for all Savwinch Drum Winches with solenoid. BLA Code Amps Suits Models 153254 40 880 153255 60 1000/1500 153256 80 2000 153257 120 3000/4000 BLA Code 153266 Savwinch Circuit Breakers Circuit breakers specific for the range of Savwinch Drum Winches. 153256",
+            "price": 138.92
+          },
+          "file": "anchor-winches-and-accessories--winch-controls-and-electrical-kits.json"
+        }
+      ]
+    },
+    {
+      "name": "Anchoring & Mooring",
+      "count": 535,
+      "minPrice": 10.88,
+      "sample": {
+        "productNumber": "141002",
+        "description": "BLA ROUND STYRENE FLOAT 100MM",
+        "categoryImage": "../images/catalogue/pages/page0369.jpg",
+        "imagePath": "",
+        "thumbnailPath": "",
+        "catalogueDescription": "oy. Stop and retrieve rope and anchor hanging from ‘Quick Lift' ring. 2. \u0007To retrieve simply drive boat forward at 5-6 knots maintaining anchor rope parallel to side of boat but clear of propeller. 144309 144307 144308 144306 144305 BLA Code 144295 BLA Styrene Floats Moulded white styrene. Spherical shape with centre hole for rope. Economical float for moorings, marker buoys, nets and similar. 141028 has a groove for wind on storage of line. 141028 141010 144301 144302 BLA Code Float Dia. mm Hole Size mm Length mm 141002 100 13 95 141006 150 19 145 141010 200 28 195 141014 250 28 245 141018 300 28 295 141028 150 25 200",
+        "price": 28.7
+      },
+      "subcategories": [
+        {
+          "name": "Anchors",
+          "count": 236,
+          "minPrice": 82.9,
+          "sample": {
+            "productNumber": "143132",
+            "description": "MARINE TOWN STAINLESS STEEL ANCHOR CONNECTOR DOUBLE 9MM",
+            "categoryImage": "../images/catalogue/pages/page0369.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "0 3/8 143008P 1 10 3/8 143008B10 10 10 3/8 143008B50 50 10 3/8 143008B 200 10 3/8 143010 1 13 1/2 143010P 1 13 1/2 143010B10 10 13 1/2 143010B50 50 13 1/2 143010B 100 13 1/2 143012 1 16 5/8 143012B 100 16 5/8 143014 1 19 3/4 143014B 100 19 3/4 143016 1 22 7/8 143018 1 25 1 'B' - Denotes bulk packed item 'P' - Denotes packaged item Marine Town® Anchor Connector Swivels - Stainless Steel High quality cast and polished 316 grade stainless steel anchor connector swivels designed for use between anchor shaft and chain (143132, 143134) or rope (143138). When setting the anchor the swivel prevents the chain from becoming twisted allowing for easy deployment and retrieval. A smooth overall snag free finish helps the swivel slide freely over bow rollers and deck. The captured pin can be easily removed via an allen key (included) and ensures the fastening pin will not loosen when under load. Designed specially for use with rope, the 143138 incorporates wider, smooth rounded jaws to accommodate up to 12mm rope and 10mm thimbles. BLA Code App",
+            "price": 182.18
+          },
+          "file": "anchoring-and-mooring--anchors.json"
+        },
+        {
+          "name": "Bow Rollers & Anchor Fittings",
+          "count": 2,
+          "minPrice": 2606.32,
+          "sample": {
+            "productNumber": "146386",
+            "description": "LEWMAR CROSSBOW EXTENDABLE BOW ROLLER 16-25KG",
+            "categoryImage": "../images/catalogue/pages/page0369.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "Anchoring & Mooring from the BLA Australia catalogue.",
+            "price": 5461.7
+          },
+          "file": "anchoring-and-mooring--bow-rollers-and-anchor-fittings.json"
+        },
+        {
+          "name": "Chain, Shackles & Swivels",
+          "count": 135,
+          "minPrice": 10.88,
+          "sample": {
+            "productNumber": "143002",
+            "description": "BLA GALVANISED D SHACKLE 5MM",
+            "categoryImage": "../images/catalogue/pages/page0481.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "8 5/16 143056B50 50 8 5/16 143056B 200 8 5/16 143058 1 10 3/8 143058P 1 10 3/8 143058B10 10 10 3/8 143058B50 50 10 3/8 143058B 200 10 3/8 143060 1 13 1/2 143060B10 10 13 1/2 143060B50 50 13 1/2 143060B 100 13 1/2 143062 1 16 5/8 143062B 100 16 5/8 143064 1 19 3/4 143064B 100 19 3/4 'B' - Denotes bulk packed item 'P' - Denotes packaged item BLA 'D' Shackle - Galvanised Galvanised for general applications. Screw collared pin with hole for security tie wire. Not rated for lifting purposes. BLA Qty Pin Dia. Code mm in 143002 1 5 3/16 143002B 200 5 3/16 143004 1 6 1/4 143004P2 2 6 1/4 143004B10 10 6 1/4 143004B50 50 6 1/4 143004B 200 6 1/4 143006 1 8 5/16 143006P2 2 8 5/16 143006B10 10 8 5/16 143006B50 50 8 5/16 143006B 200 8 5/16 143008 1 10 3/8 143008P 1 10 3/8 143008B10 10 10 3/8 143008B50 50 10 3/8 143008B 200 10 3/8 143010 1 13 1/2 143010P 1 13 1/2 143010B10 10 13 1/2 143010B50 50 13 1/2 143010B 100 13 1/2 143012 1 16 5/8 143012B 100 16 5/8 143014 1 19 3/4 143014B 100 19 3/4 143016 1 22 7/8 143018 1 25 1 'B' - Denotes bulk packed",
+            "price": 10.88
+          },
+          "file": "anchoring-and-mooring--chain-shackles-and-swivels.json"
+        },
+        {
+          "name": "Fenders, Buoys & Floats",
+          "count": 96,
+          "minPrice": 28.7,
+          "sample": {
+            "productNumber": "141002",
+            "description": "BLA ROUND STYRENE FLOAT 100MM",
+            "categoryImage": "../images/catalogue/pages/page0369.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "oy. Stop and retrieve rope and anchor hanging from ‘Quick Lift' ring. 2. \u0007To retrieve simply drive boat forward at 5-6 knots maintaining anchor rope parallel to side of boat but clear of propeller. 144309 144307 144308 144306 144305 BLA Code 144295 BLA Styrene Floats Moulded white styrene. Spherical shape with centre hole for rope. Economical float for moorings, marker buoys, nets and similar. 141028 has a groove for wind on storage of line. 141028 141010 144301 144302 BLA Code Float Dia. mm Hole Size mm Length mm 141002 100 13 95 141006 150 19 145 141010 200 28 195 141014 250 28 245 141018 300 28 295 141028 150 25 200",
+            "price": 28.7
+          },
+          "file": "anchoring-and-mooring--fenders-buoys-and-floats.json"
+        },
+        {
+          "name": "General Anchoring & Mooring",
+          "count": 61,
+          "minPrice": 17.17,
+          "sample": {
+            "productNumber": "141402",
+            "description": "BLA TELESCOPIC BOAT HOOK 25MM 1.2M - 2.1M",
+            "categoryImage": "../images/catalogue/pages/page0937.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "signed to fit different line sizes. Pull and turn knob to position, allowing quick and effortless work on attaching or removing fenders. Spring loaded hook for line security. BLA Code A mm B mm C mm D mm Fender Line mm 192275 34 51 25 8 6-8 BLA Boat Hooks - Telescopic \u0007Anodised aluminium shaft with nylon hook and locking nut. Grey PVC handgrip. BLA Boat Hook Head Black moulded nylon boat hook head that fits externally over 30mm tube or timber dowel. BLA Code Length mm Width mm Outer Dia. mm 141422 219 80 35 141422 141402 141406 BLA Code Length Retraced m Length Extended m Outer Tube Dia. mm 141402 1.17 2.11 29 BLA Code Length Retraced m Tube Dia. mm 141406 1.77 29 BLA Boat Hooks - Fixed Anodised aluminium shaft, black nylon head, black PVC handgrip. BLA Boat Hook Holder Pressed stainless steel 'J' hooks for stowing boat hooks. Suits 25mm to 29mm diameter tube. Sold as a pair. BLA Code Legnth mm Width mm Mount Screws mm 141432 100 25 3 c/s 144340",
+            "price": 79.73
+          },
+          "file": "anchoring-and-mooring--general-anchoring-and-mooring.json"
+        },
+        {
+          "name": "Mooring, Docking & Cleats",
+          "count": 5,
+          "minPrice": 172.15,
+          "sample": {
+            "productNumber": "141595",
+            "description": "DOCK EDGE DOCK WHEEL WHITE INFLATABLE 229MM",
+            "categoryImage": "../images/catalogue/pages/page0659.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "ina, allowing the crew to safely and easily step onto the pontoon without resorting to leaping. Available in 1 step or 2 step models. BLA Fender - Moulded Inflatable Manufactured from a combination of TPR and EVA plastics these traditionally shaped fenders feature raised ribs to prevent rolling along hull. Rope attachment points at either end. Pneumatic energy absorbing construction. Economical protection for trailer boats. BLA Code Dia. mm Length mm Eye Dia. mm 141670 115 380 13 141674 145 510 17 BLA Code Dia. mm 141595 229 141596 305 BLA Code Description Height mm Width mm Depth mm Eye Dia. mm 141530 1 step 400 400 205 18 141532 2 step 560 450 180 18 BLA Code Style Length mm Width mm Thickness Dia. mm Eye Dia. mm 142122 Contour 530 150 63 9 142124 Flat 580 150 63 9 Fender Basket A range of quality easy to fit stainless steel fender baskets available in three popular sizes. This modular system can be easily attached to existing 22mm to 40mm rails using the adjustable stainless steel and nylon rail mounting clamp (141930). Dock Ed",
+            "price": 265.45
+          },
+          "file": "anchoring-and-mooring--mooring-docking-and-cleats.json"
+        }
+      ]
+    },
+    {
+      "name": "Boat Building Materials",
+      "count": 40,
+      "minPrice": 57.57,
+      "sample": {
+        "productNumber": "341002",
+        "description": "KING STARBOARD POLYMER BOARD 1/4\" WHITE/WHITE 54\"X96\"",
+        "categoryImage": "../images/catalogue/pages/page0481.jpg",
+        "imagePath": "",
+        "thumbnailPath": "",
+        "catalogueDescription": "........... 911 337451............................................. 911 337452............................................. 911 337454............................................. 911 337456............................................. 911 337464............................................. 911 337466............................................. 911 337470............................................. 911 337710............................................. 914 337720............................................. 914 341002............................................. 916 341004............................................. 916 341006............................................. 916 341008............................................. 916 341010............................................. 916 341012............................................. 916 341013............................................. 916 341040............................................. 916 341042............................................. 916 341044................",
+        "price": 621.89
+      },
+      "subcategories": [
+        {
+          "name": "General Boat Building Materials",
+          "count": 17,
+          "minPrice": 57.57,
+          "sample": {
+            "productNumber": "342000",
+            "description": "BIOAQUALIFE SHRINK WRAP 180 MICRON 5.5M X 97M",
+            "categoryImage": "../images/catalogue/pages/page0481.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "Boat Building Materials from the BLA Australia catalogue.",
+            "price": 3067.42
+          },
+          "file": "boat-building-materials--general-boat-building-materials.json"
+        },
+        {
+          "name": "Marine Board & Sheet Materials",
+          "count": 23,
+          "minPrice": 206.52,
+          "sample": {
+            "productNumber": "341002",
+            "description": "KING STARBOARD POLYMER BOARD 1/4\" WHITE/WHITE 54\"X96\"",
+            "categoryImage": "../images/catalogue/pages/page0481.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "........... 911 337451............................................. 911 337452............................................. 911 337454............................................. 911 337456............................................. 911 337464............................................. 911 337466............................................. 911 337470............................................. 911 337710............................................. 914 337720............................................. 914 341002............................................. 916 341004............................................. 916 341006............................................. 916 341008............................................. 916 341010............................................. 916 341012............................................. 916 341013............................................. 916 341040............................................. 916 341042............................................. 916 341044................",
+            "price": 621.89
+          },
+          "file": "boat-building-materials--marine-board-and-sheet-materials.json"
+        }
+      ]
+    },
+    {
+      "name": "Electric Motors",
+      "count": 137,
+      "minPrice": 20.28,
+      "sample": {
+        "productNumber": "601110",
+        "description": "MINN KOTA ENDURA TROLLING MOTOR C2 30LB 30\" 12V",
+        "categoryImage": "../images/catalogue/pages/page0481.jpg",
+        "imagePath": "",
+        "thumbnailPath": "",
+        "catalogueDescription": "........... 974 502450............................................. 973 502457............................................. 974 502464............................................. 975 502469............................................. 975 502476............................................. 976 502478............................................. 976 502618............................................. 975 505500............................................. 977 505501............................................. 977 601110............................................. 999 601120............................................. 999 601130............................................. 999 601136............................................. 998 601138............................................. 998 601440............................................. 999 601442............................................. 998 601444............................................. 998 601446............................................. 998 602804................",
+        "price": 782
+      },
+      "subcategories": [
+        {
+          "name": "Electric Trolling Motors",
+          "count": 134,
+          "minPrice": 20.28,
+          "sample": {
+            "productNumber": "601110",
+            "description": "MINN KOTA ENDURA TROLLING MOTOR C2 30LB 30\" 12V",
+            "categoryImage": "../images/catalogue/pages/page0481.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "........... 974 502450............................................. 973 502457............................................. 974 502464............................................. 975 502469............................................. 975 502476............................................. 976 502478............................................. 976 502618............................................. 975 505500............................................. 977 505501............................................. 977 601110............................................. 999 601120............................................. 999 601130............................................. 999 601136............................................. 998 601138............................................. 998 601440............................................. 999 601442............................................. 998 601444............................................. 998 601446............................................. 998 602804................",
+            "price": 782
+          },
+          "file": "electric-motors--electric-trolling-motors.json"
+        },
+        {
+          "name": "General Electric Motors",
+          "count": 3,
+          "minPrice": 51.9,
+          "sample": {
+            "productNumber": "603022",
+            "description": "BLA EXTENSION HANDLE TILLER OUTBOARD 460MM",
+            "categoryImage": "../images/catalogue/pages/page0481.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "........................... 998 602804........................................... 1001 602806........................................... 1001 602812........................................... 1002 602906........................................... 1012 602948........................................... 1001 602996........................................... 1003 602997........................................... 1003 603009...........................993, 995, 1004 603020........................................... 1006 603022........................................... 1006 603024........................................... 1006 603026........................................... 1006 603027........................................... 1003 603028...........................998-999, 1006 603032..................................1005-1006 603036..................................1005-1006 603041..................998-999, 1005-1006 603042..................................1005-1006 603050..................................1005-1006 604104..........",
+            "price": 51.9
+          },
+          "file": "electric-motors--general-electric-motors.json"
+        }
+      ]
+    },
+    {
+      "name": "Electrical",
+      "count": 1926,
+      "minPrice": 14.16,
+      "sample": {
+        "productNumber": "110100",
+        "description": "VANEMAR GATEWAY",
+        "categoryImage": "../images/catalogue/pages/page0481.jpg",
+        "imagePath": "",
+        "thumbnailPath": "",
+        "catalogueDescription": "63 BOATING LIFESTYLE ADVENTURE 11 ELECTRICAL Everything Works Together to Inform You Vanemar lets you take control of your boat even when you are away. Build your system with easy to install wireless sensors without dealing with wiring and drilling. Vanemar Gateway The Vanemar Gateway is the hub of the Vanemar ecosystem, helping you monitor and protect your boat. It shows your boat’s location, communicates with wireless sensors, tracks boat’s location, sounds alarm if needed. BLA Code 110100 Power Input 12/24 DC, Waterproof Circular Connector Backup Battery 3000 mAh Lithium-ion battery (up to 8 hours) Power Consumption <100mA Idle / ~400mA Gps Tracking @12V Wi-Fi 2.4 GHZ, IEEE 802.11 b/g/n Zigbee Zigbee 3.0 Accelerometer 3 Axis, Up to 8g Tamper Proximity Sensor SIM Internal Global Simcard Cellular Quadband UMTS/HSDPA/HSPA+/LTE GNSS GPS/GLONASS/Beidou Sound Output ~85db Audible Alarm Operational Temperature -10°C ~ +60°C Antennas External GPS / Inner LTE Gateway Dimensions mm 150 X 150 X 40 Installatio",
+        "price": 1632.51
+      },
+      "subcategories": [
+        {
+          "name": "Batteries, Charging & Power Conversion",
+          "count": 284,
+          "minPrice": 20.11,
+          "sample": {
+            "productNumber": "110710",
+            "description": "SCANSTRUT CHARGER FLIP PRO MAX DUAL USB C SOCKET",
+            "categoryImage": "../images/catalogue/pages/page0061.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "2 devices at a time • Easy Install, using a Ø32mm (1.25\") hole saw • Supplied as standard with an optional front fit bezel • IPX4 waterproof with the cover closed • UV resistant • 316 stainless hinge and spring Key Information To maximize charge performance, use the cable supplied with your tablet, phone etc. (C to C, or C-lightning). Phones charge at the same speed on either a 12 or 24V system, but a 24V system must be used to get the full 60W output suitable for laptops. BLA Code 110712 BLA Code 110713 BLA Code 110710 20 42 6.3 x 0.8 Spade Connector 42 68 63.6 67.1 Min. panel thickness 3mm Max panel thickness 25mm 107 47 6.3 x 0.8 Spade Connector 80 44 64 30 Ø 51 20 61 6.3 x 0.8 Spade Connector 67 64 42 68",
+            "price": 221.45
+          },
+          "file": "electrical--batteries-charging-and-power-conversion.json"
+        },
+        {
+          "name": "Cable, Connectors & Installation",
+          "count": 164,
+          "minPrice": 20.37,
+          "sample": {
+            "productNumber": "110716",
+            "description": "SCANSTRUT CHARGE SOCKET TILE INTERIOR USB A USB C 12/24V BLK",
+            "categoryImage": "../images/catalogue/pages/page0481.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "Electrical from the BLA Australia catalogue.",
+            "price": 199.29
+          },
+          "file": "electrical--cable-connectors-and-installation.json"
+        },
+        {
+          "name": "Digital Switching, Monitoring & NMEA Networks",
+          "count": 130,
+          "minPrice": 21.7,
+          "sample": {
+            "productNumber": "110100",
+            "description": "VANEMAR GATEWAY",
+            "categoryImage": "../images/catalogue/pages/page0481.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "63 BOATING LIFESTYLE ADVENTURE 11 ELECTRICAL Everything Works Together to Inform You Vanemar lets you take control of your boat even when you are away. Build your system with easy to install wireless sensors without dealing with wiring and drilling. Vanemar Gateway The Vanemar Gateway is the hub of the Vanemar ecosystem, helping you monitor and protect your boat. It shows your boat’s location, communicates with wireless sensors, tracks boat’s location, sounds alarm if needed. BLA Code 110100 Power Input 12/24 DC, Waterproof Circular Connector Backup Battery 3000 mAh Lithium-ion battery (up to 8 hours) Power Consumption <100mA Idle / ~400mA Gps Tracking @12V Wi-Fi 2.4 GHZ, IEEE 802.11 b/g/n Zigbee Zigbee 3.0 Accelerometer 3 Axis, Up to 8g Tamper Proximity Sensor SIM Internal Global Simcard Cellular Quadband UMTS/HSDPA/HSPA+/LTE GNSS GPS/GLONASS/Beidou Sound Output ~85db Audible Alarm Operational Temperature -10°C ~ +60°C Antennas External GPS / Inner LTE Gateway Dimensions mm 150 X 150 X 40 Installatio",
+            "price": 1632.51
+          },
+          "file": "electrical--digital-switching-monitoring-and-nmea-networks.json"
+        },
+        {
+          "name": "General Electrical",
+          "count": 265,
+          "minPrice": 19.55,
+          "sample": {
+            "productNumber": "111720",
+            "description": "HUMMINBIRD AUTOCHART SOFTWARE AUTOCHART PC INC ZEROLINE CARD",
+            "categoryImage": "../images/catalogue/pages/page0061.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "Electrical from the BLA Australia catalogue.",
+            "price": 842.32
+          },
+          "file": "electrical--general-electrical.json"
+        },
+        {
+          "name": "Marine Electrical Accessories",
+          "count": 77,
+          "minPrice": 20.74,
+          "sample": {
+            "productNumber": "113514",
+            "description": "BEP SINGLE STUD COVER 8MM ADAPTER",
+            "categoryImage": "../images/catalogue/pages/page0457.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "Electrical from the BLA Australia catalogue.",
+            "price": 30.91
+          },
+          "file": "electrical--marine-electrical-accessories.json"
+        },
+        {
+          "name": "Mastervolt Power Systems",
+          "count": 113,
+          "minPrice": 41.31,
+          "sample": {
+            "productNumber": "110260",
+            "description": "MASTERVOLT COMBIMASTER INVERTER/CHARGER 12V/2000VA-60A 230V",
+            "categoryImage": "../images/catalogue/pages/page0061.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "82 BOATING LIFESTYLE ADVENTURE ELECTRICAL 11 BLA Code 110260 110262 Model Combimaster 12V/2000Va-60A 230V Combimaster 12V/3000Va-100A 230V Specifications Sine Wave Inverter Nominal DC voltage 12V (10.2–6V) 12V (10.2–16V) Output voltage 230V 230V Output frequency 50/60Hz (configurable) 50/60Hz (configurable) Output waveform true sine true sine Continual power at 40°C, cos phi I 2000VA / 1600W 3000VA / 2600W Peak power (30 sec) 3000VA / 2400W 4500VA / 3900W Surge power (5 sec) 4000VA / 3200W 6000VA / 5200W Max efficiency 93% 93% Battery no-load power consumption 20W (on mode)",
+            "price": 3076.88
+          },
+          "file": "electrical--mastervolt-power-systems.json"
+        },
+        {
+          "name": "Meters, Gauges & Monitoring",
+          "count": 96,
+          "minPrice": 69.24,
+          "sample": {
+            "productNumber": "111990",
+            "description": "VEETHREE R3 3\" CAN BUS DISPLAY WITH TOUCH LCD",
+            "categoryImage": "../images/catalogue/pages/page0481.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "Electrical from the BLA Australia catalogue.",
+            "price": 2379.83
+          },
+          "file": "electrical--meters-gauges-and-monitoring.json"
+        },
+        {
+          "name": "Switches, Panels & Circuit Protection",
+          "count": 797,
+          "minPrice": 14.16,
+          "sample": {
+            "productNumber": "112500",
+            "description": "VEETHREE REED SWITCH TANK SENDER 240-33OHM 150MM",
+            "categoryImage": "../images/catalogue/pages/page0061.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "Sender - Sender style F 240 - 33 Ohm range (empty to full). Five hole mount flange. Adjustable for tank depth. Float arm can be left or right hand mounted. 100% corrosion proof construction. Works with all analogue gauges with the same Ohm rating. 5mm dia. holes. 5 holes on a 54 mm bolt circle Bend float arm as shown above for tanks less than 150mm deep Left or right hand mount Index Mark 330 61 430 84º BLA Code Tank Depth mm 112446 150-610 240-330 Ohm BLA Code 0-180 Ohm BLA Code Length mm Number of Reed Switches 112500 112550 150 7 112502 112552 175 9 112504 112554 200 9 240-330 Ohm BLA Code 0-180 Ohm BLA Code Length mm Number of Reed Switches 112508 112558 250 13 112512 112562 300 15 112516 112566 350 18 112520 112570 400 21",
+            "price": 142.32
+          },
+          "file": "electrical--switches-panels-and-circuit-protection.json"
+        }
+      ]
+    },
+    {
+      "name": "Electronics & Accessories",
+      "count": 383,
+      "minPrice": 20.91,
+      "sample": {
+        "productNumber": "101088",
+        "description": "HUMMINBIRD GPS RECEIVER AS GPS WITH HEADING SENSOR",
+        "categoryImage": "../images/catalogue/pages/page0061.jpg",
+        "imagePath": "",
+        "thumbnailPath": "",
+        "catalogueDescription": "cers or network the unit with a Mega SI+ unit. * ** Optional transducers available for extreme deepwater use. To obtain 1000 watts, optional deepwater transducer required. 1920H x 1080V 18.5\" UPGRADABLE SOFTWARE Accessories: 103040 Transducer transom high wide SOLIX APEX 103044 Transducer in hull high wide SOLIX APEX 103066 Mount kit in dash APEX 19 103069 Cable trans splitter SI & DB SOLIX APEX 750mm 103070 Cable trans splitter SI L&R SOLIX APEX 750mm 103068 Power cable APEX & Mega Live 101086 GPS receiver AS GRP 101088 GPS receiver AS GRP with heading sensor 103072 Adaptor cable for external GPS to suit APEX 103980 Coastmaster Chart Standard Australia 103981 Coastmaster Chart Premium East 103982 Coastmaster Chart Premium West ADD ONS Humminbird CoastMaster | Humminbird CoastMaster Premium | Humminbird AutoChart Zero Line | Navionics | Navionics+ | Navionics Platinum+",
+        "price": 1251.62
+      },
+      "subcategories": [
+        {
+          "name": "Fishfinders, Sounders & Transducers",
+          "count": 230,
+          "minPrice": 20.91,
+          "sample": {
+            "productNumber": "101088",
+            "description": "HUMMINBIRD GPS RECEIVER AS GPS WITH HEADING SENSOR",
+            "categoryImage": "../images/catalogue/pages/page0061.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "cers or network the unit with a Mega SI+ unit. * ** Optional transducers available for extreme deepwater use. To obtain 1000 watts, optional deepwater transducer required. 1920H x 1080V 18.5\" UPGRADABLE SOFTWARE Accessories: 103040 Transducer transom high wide SOLIX APEX 103044 Transducer in hull high wide SOLIX APEX 103066 Mount kit in dash APEX 19 103069 Cable trans splitter SI & DB SOLIX APEX 750mm 103070 Cable trans splitter SI L&R SOLIX APEX 750mm 103068 Power cable APEX & Mega Live 101086 GPS receiver AS GRP 101088 GPS receiver AS GRP with heading sensor 103072 Adaptor cable for external GPS to suit APEX 103980 Coastmaster Chart Standard Australia 103981 Coastmaster Chart Premium East 103982 Coastmaster Chart Premium West ADD ONS Humminbird CoastMaster | Humminbird CoastMaster Premium | Humminbird AutoChart Zero Line | Navionics | Navionics+ | Navionics Platinum+",
+            "price": 1251.62
+          },
+          "file": "electronics-and-accessories--fishfinders-sounders-and-transducers.json"
+        },
+        {
+          "name": "General Electronics & Accessories",
+          "count": 81,
+          "minPrice": 20.91,
+          "sample": {
+            "productNumber": "103369",
+            "description": "AIRMAR CONNECTOR 10 WIRE CONDUCTOR SPLICE",
+            "categoryImage": "../images/catalogue/pages/page0061.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "Electronics & Accessories from the BLA Australia catalogue.",
+            "price": 104.01
+          },
+          "file": "electronics-and-accessories--general-electronics-and-accessories.json"
+        },
+        {
+          "name": "Marine Radios, Antennas & AIS",
+          "count": 2,
+          "minPrice": 784.21,
+          "sample": {
+            "productNumber": "106310",
+            "description": "SCANSTRUT MOUNT GPS VHF NAVTEX CENTRAL SUIT 150-350MM TOWER",
+            "categoryImage": "../images/catalogue/pages/page0061.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": ". Features: • Small footprint • Ease of install • Marine grade stainless steel BLA Code Suits 106300 Most Radar Brands 106301 Furuno BLA Code 106362 Accessories 106303 Radar Guard BLA Code Size mm Suits 106324 150 Most Radar Brands 106341 150 Furuno BLA Code Colour Suits 106302 White Most Radar Brands 106361 Black Most Radar Brands 106322 BLA Code 106304 Accessories 106303 Radar Guard 106361 106324 106302 BLA Code Size mm Suits 106320 350 Most Radar Brands 106322 150 Most Radar Brands 106338 350 Furuno Accessories 106310 Antenna Mount - GPS, VHF, Navtex 106320",
+            "price": 784.21
+          },
+          "file": "electronics-and-accessories--marine-radios-antennas-and-ais.json"
+        },
+        {
+          "name": "Mounts, Cases & Electronic Accessories",
+          "count": 70,
+          "minPrice": 48.16,
+          "sample": {
+            "productNumber": "103375",
+            "description": "AIRMAR ADAPTOR CABLE MM1-DST-14HB MIX MATCH TO APX XPL SLX",
+            "categoryImage": "../images/catalogue/pages/page0061.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "Electronics & Accessories from the BLA Australia catalogue.",
+            "price": 453.56
+          },
+          "file": "electronics-and-accessories--mounts-cases-and-electronic-accessories.json"
+        }
+      ]
+    },
+    {
+      "name": "Engine Controls",
+      "count": 378,
+      "minPrice": 23.68,
+      "sample": {
+        "productNumber": "301002",
+        "description": "SEASTAR B700 TOP MOUNT TWIN LEVER CONTROL",
+        "categoryImage": "../images/catalogue/pages/page0481.jpg",
+        "imagePath": "",
+        "thumbnailPath": "",
+        "catalogueDescription": "............... 836 295071............................................. 836 295072............................................. 836 295076............................................. 836 297100............................................. 847 297332............................................. 845 298466............................................. 842 298467.....................................823, 841 298520............................................. 847 298566............................................. 842 301002............................................. 853 301006............................................. 853 301010............................................. 853 301014............................................. 857 301018............................................. 857 301025.............................853, 856-858 301102............................................. 859 301110............................................. 859 303006............................................. 861 303007........................",
+        "price": 1635.17
+      },
+      "subcategories": [
+        {
+          "name": "Control Accessories & Parts",
+          "count": 16,
+          "minPrice": 23.68,
+          "sample": {
+            "productNumber": "301110",
+            "description": "SEASTAR INBOARD/STERN DRIVE DUAL STATION SELECTION KIT",
+            "categoryImage": "../images/catalogue/pages/page0481.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "...............823, 841 298520............................................. 847 298566............................................. 842 301002............................................. 853 301006............................................. 853 301010............................................. 853 301014............................................. 857 301018............................................. 857 301025.............................853, 856-858 301102............................................. 859 301110............................................. 859 303006............................................. 861 303007............................................. 861 303008............................................. 861 303009............................................. 861 303010............................................. 861 303011............................................. 861 303012............................................. 861 303013............................................. 861 303014................",
+            "price": 207.85
+          },
+          "file": "engine-controls--control-accessories-and-parts.json"
+        },
+        {
+          "name": "Control Cables",
+          "count": 2,
+          "minPrice": 52.39,
+          "sample": {
+            "productNumber": "305490",
+            "description": "SEASTAR MICRO CABLE MALE/FEMALE 3' SET",
+            "categoryImage": "../images/catalogue/pages/page0061.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "........... 867 305006............................................. 867 305014............................................. 868 305018............................................. 866 305022............................................. 866 305030............................................. 866 305405............................................. 870 305407............................................. 870 305409............................................. 870 305415............................................. 870 305490............................................. 824 305492.............................823-824, 870 305496............................................. 870 305498............................................. 870 305505............................................. 870 305507............................................. 870 305509............................................. 870 305515............................................. 870 305558............................................. 870 305700......872-873, 875-876,",
+            "price": 169.6
+          },
+          "file": "engine-controls--control-cables.json"
+        },
+        {
+          "name": "General Engine Controls",
+          "count": 90,
+          "minPrice": 24.93,
+          "sample": {
+            "productNumber": "301226",
+            "description": "SEASTAR SLT OPTIONAL NEUTRAL SAFTEY SWITCH",
+            "categoryImage": "../images/catalogue/pages/page0061.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "Engine Controls from the BLA Australia catalogue.",
+            "price": 243.07
+          },
+          "file": "engine-controls--general-engine-controls.json"
+        },
+        {
+          "name": "Throttle & Shift Controls",
+          "count": 270,
+          "minPrice": 24.59,
+          "sample": {
+            "productNumber": "301002",
+            "description": "SEASTAR B700 TOP MOUNT TWIN LEVER CONTROL",
+            "categoryImage": "../images/catalogue/pages/page0481.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "............... 836 295071............................................. 836 295072............................................. 836 295076............................................. 836 297100............................................. 847 297332............................................. 845 298466............................................. 842 298467.....................................823, 841 298520............................................. 847 298566............................................. 842 301002............................................. 853 301006............................................. 853 301010............................................. 853 301014............................................. 857 301018............................................. 857 301025.............................853, 856-858 301102............................................. 859 301110............................................. 859 303006............................................. 861 303007........................",
+            "price": 1635.17
+          },
+          "file": "engine-controls--throttle-and-shift-controls.json"
+        }
+      ]
+    },
+    {
+      "name": "Engine Parts & Accessories",
+      "count": 3416,
+      "minPrice": 17.31,
+      "sample": {
+        "productNumber": "112146",
+        "description": "VEETHREE ARCTIC GAUGE TRIM MERC/MARINER/YAMAHA 2001",
+        "categoryImage": "../images/catalogue/pages/page0481.jpg",
+        "imagePath": "",
+        "thumbnailPath": "",
+        "catalogueDescription": "o 4000 RPM diesel alternator 75 Motor Alternator N.B. Refer to page 200 for tachometer application guide Speedometer: 112106 Speedo kit 65 MPH 75 G included Water temperature gauge: 112112 Water temperature 120ºF - 240ºF 50 D Oil pressure: 112120 Oil pressure 0 - 80 PSI 50 C 112122 Oil pressure 0 - 100 PSI 50 C Hourmeter: 112126 Hourmeter, 10,000 Hrs 10 - 32 volt 50 Not required Voltmeter: 112130 Voltmeter, 8 - 18 volt 50 Not required Ammeter: 112134 Ammeter 60 - 0 - 60 50 Not required Fuel: 112138 Fuel 50 F Trim: 112146 Mercury ®/Mariner®, Cobra®, Volvo® DP & SX, Yamaha® O/B 2001 on 50 Engine manufacturer Accessories: 112396 Drop resistor suit 50mm gauge * For Sender style refer page 206 A C B D",
+        "price": 132
+      },
+      "subcategories": [
+        {
+          "name": "Engine Instruments & Electrical",
+          "count": 201,
+          "minPrice": 23.66,
+          "sample": {
+            "productNumber": "200792",
+            "description": "BLA MOTOR STARTER CORD 3.5MM",
+            "categoryImage": "../images/catalogue/pages/page0369.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "........... 636 200664............................................. 657 200674............................................. 657 200680............................................. 657 200686............................................. 657 200720............................................. 658 200722............................................. 658 200723............................................. 658 200724............................................. 658 200725............................................. 658 200792.....................................655, 923 200794.....................................655, 923 200796.....................................655, 923 200798............................................. 655 200800............................................. 655 200808............................................. 656 200810............................................. 656 200812............................................. 656 200814............................................. 656 200816............................",
+            "price": 150.99
+          },
+          "file": "engine-parts-and-accessories--engine-instruments-and-electrical.json"
+        },
+        {
+          "name": "Engine Oils, Additives & Care",
+          "count": 20,
+          "minPrice": 29.21,
+          "sample": {
+            "productNumber": "S18-0038",
+            "description": "SIERRA OIL DRIP TRAY 8M0052100",
+            "categoryImage": "../images/catalogue/pages/page0717.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "Engine Parts & Accessories from the BLA Australia catalogue.",
+            "price": 29.21
+          },
+          "file": "engine-parts-and-accessories--engine-oils-additives-and-care.json"
+        },
+        {
+          "name": "Fuel Tanks, Lines & Filters",
+          "count": 555,
+          "minPrice": 18.3,
+          "sample": {
+            "productNumber": "136020",
+            "description": "SIERRA MULTIFLEX HOSE 19MM X 30M",
+            "categoryImage": "../images/catalogue/pages/page0285.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": ". Reinforced with a spiral wound rigid white PVC coil that maintains form under suction even when bent to the minimum radius. Bend radius is about twice the hose ID thickness. Resists oils, diesel and detergents. Supplied in 30 metre coils. Shields Multiflex Hose Non kink hose with a reinforced black vinyl helix in crystal clear vinyl tube. Smooth bore. Suitable for potable water fill, sinks, bilge pumps, showers, ice boxes and live-well drains (above the waterline). Sold in 30 metre rolls. BLA Code Inside Dia. mm 136020 19 136022 25 136024 28",
+            "price": 645.03
+          },
+          "file": "engine-parts-and-accessories--fuel-tanks-lines-and-filters.json"
+        },
+        {
+          "name": "General Engine Parts & Accessories",
+          "count": 417,
+          "minPrice": 22.35,
+          "sample": {
+            "productNumber": "200020",
+            "description": "SCEPTER DURAMAX FLO 'N' GO SIPHON PUMP",
+            "categoryImage": "../images/catalogue/pages/page0285.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "........... 555 196154............................................. 555 200001............................................. 558 200002............................................. 558 200004............................................. 558 200006............................................. 558 200008............................................. 559 200010............................................. 559 200012............................................. 559 200014............................................. 559 200020............................................. 559 200024............................................. 560 200026............................................. 560 200040............................................. 560 200042............................................. 560 200044............................................. 560 200046............................................. 561 200048............................................. 561 200050............................................. 561 200060................",
+            "price": 472.03
+          },
+          "file": "engine-parts-and-accessories--general-engine-parts-and-accessories.json"
+        },
+        {
+          "name": "Impellers, Pumps & Cooling",
+          "count": 722,
+          "minPrice": 19.38,
+          "sample": {
+            "productNumber": "Q14586A3",
+            "description": "QUICKSILVER THERMOSTAT KIT MERCURY 120F 6-25HP",
+            "categoryImage": "../images/catalogue/pages/page0481.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "0001.................................... 631 CDI187-0011.................................... 632 CDI511-9766.................................... 632 CDI551-33-1.................................... 632 CDI551-334K................................... 632 Q12612Q2........................................ 616 Q13563Q3........................................ 572 Q13563Q7........................................ 572 Q14213Q.......................................... 572 Q14586............................................ 614 Q14586A3........................................ 614 Q16595Q.......................................... 615 Q16755Q1........................................ 618 Q18458Q3........................................ 615 Q18458Q4........................................ 615 Q191833.......................................... 618 Q19453Q2........................................ 613 Q19453T.......................................... 613 Q31640Q4................................486, 616 Q41582Q7........................................ 572",
+            "price": 100.3
+          },
+          "file": "engine-parts-and-accessories--impellers-pumps-and-cooling.json"
+        },
+        {
+          "name": "Outboard & Sterndrive Service Parts",
+          "count": 1501,
+          "minPrice": 17.31,
+          "sample": {
+            "productNumber": "112146",
+            "description": "VEETHREE ARCTIC GAUGE TRIM MERC/MARINER/YAMAHA 2001",
+            "categoryImage": "../images/catalogue/pages/page0481.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "o 4000 RPM diesel alternator 75 Motor Alternator N.B. Refer to page 200 for tachometer application guide Speedometer: 112106 Speedo kit 65 MPH 75 G included Water temperature gauge: 112112 Water temperature 120ºF - 240ºF 50 D Oil pressure: 112120 Oil pressure 0 - 80 PSI 50 C 112122 Oil pressure 0 - 100 PSI 50 C Hourmeter: 112126 Hourmeter, 10,000 Hrs 10 - 32 volt 50 Not required Voltmeter: 112130 Voltmeter, 8 - 18 volt 50 Not required Ammeter: 112134 Ammeter 60 - 0 - 60 50 Not required Fuel: 112138 Fuel 50 F Trim: 112146 Mercury ®/Mariner®, Cobra®, Volvo® DP & SX, Yamaha® O/B 2001 on 50 Engine manufacturer Accessories: 112396 Drop resistor suit 50mm gauge * For Sender style refer page 206 A C B D",
+            "price": 132
+          },
+          "file": "engine-parts-and-accessories--outboard-and-sterndrive-service-parts.json"
+        }
+      ]
+    },
+    {
+      "name": "Fishing Accessories",
+      "count": 104,
+      "minPrice": 19.04,
+      "sample": {
+        "productNumber": "394217",
+        "description": "CANNON DOWN RIGGER OPTIMUM ELECTRIC",
+        "categoryImage": "../images/catalogue/pages/page0481.jpg",
+        "imagePath": "",
+        "thumbnailPath": "",
+        "catalogueDescription": "........... 323 393100............................................. 951 393102............................................. 951 393104............................................. 951 393106............................................. 951 393108............................................. 951 393110............................................. 950 393112............................................. 950 393114............................................. 950 393116............................................. 950 394217............................................. 941 394219............................................. 941 394231............................................. 942 394233............................................. 942 394235............................................. 942 394237............................................. 943 394239............................................. 943 394243............................................. 943 394247............................................. 944 394250................",
+        "price": 8852.18
+      },
+      "subcategories": [
+        {
+          "name": "Downriggers, Outriggers & Game Fishing",
+          "count": 58,
+          "minPrice": 78.99,
+          "sample": {
+            "productNumber": "394217",
+            "description": "CANNON DOWN RIGGER OPTIMUM ELECTRIC",
+            "categoryImage": "../images/catalogue/pages/page0481.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "........... 323 393100............................................. 951 393102............................................. 951 393104............................................. 951 393106............................................. 951 393108............................................. 951 393110............................................. 950 393112............................................. 950 393114............................................. 950 393116............................................. 950 394217............................................. 941 394219............................................. 941 394231............................................. 942 394233............................................. 942 394235............................................. 942 394237............................................. 943 394239............................................. 943 394243............................................. 943 394247............................................. 944 394250................",
+            "price": 8852.18
+          },
+          "file": "fishing-accessories--downriggers-outriggers-and-game-fishing.json"
+        },
+        {
+          "name": "General Fishing Accessories",
+          "count": 24,
+          "minPrice": 19.04,
+          "sample": {
+            "productNumber": "394746",
+            "description": "TACO HANGER REEL SS 47MM-98MM SET",
+            "categoryImage": "../images/catalogue/pages/page0937.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "........... 947 394576............................................. 948 394578............................................. 947 394604............................................. 544 394606............................................. 544 394700............................................. 953 394720............................................. 952 394722............................................. 952 394726............................................. 948 394744............................................. 948 394746............................................. 948 394794............................................. 955 394796............................................. 955 394808............................................. 952 394822............................................. 949 394832............................................. 949 394854............................................. 949 394940............................................. 949 394942............................................. 949 394947................",
+            "price": 553.52
+          },
+          "file": "fishing-accessories--general-fishing-accessories.json"
+        },
+        {
+          "name": "Rod Holders & Deck Fishing Gear",
+          "count": 18,
+          "minPrice": 32.52,
+          "sample": {
+            "productNumber": "394366",
+            "description": "CANNON DOWN RIGGER MOUNT ROD HOLDER 225MM T/S CANNON",
+            "categoryImage": "../images/catalogue/pages/page0937.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "........... 943 394243............................................. 943 394247............................................. 944 394250............................................. 944 394252............................................. 944 394320............................................. 945 394340............................................. 946 394350............................................. 945 394358............................................. 945 394364............................................. 945 394366............................................. 946 394370............................................. 946 394374............................................. 945 394400............................................. 946 394402............................................. 946 394404............................................. 946 394412............................................. 946 394424............................................. 946 394432............................................. 945 394434................",
+            "price": 541.28
+          },
+          "file": "fishing-accessories--rod-holders-and-deck-fishing-gear.json"
+        },
+        {
+          "name": "Tackle, Burley & Accessories",
+          "count": 4,
+          "minPrice": 129.65,
+          "sample": {
+            "productNumber": "395202",
+            "description": "SANT MARINE LIVE BAIT TANK INCL PUMP",
+            "categoryImage": "../images/catalogue/pages/page0285.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "f your live well pump. The two position switch panel in matt black has an integrated fuse holder and operating light. BLA Code Face size mm Volts 131728 60x40 12 hose not included Sant Marine Live Bait Tank Ready to install, moulded polyethylene live bait tank. Supplied complete with transom mount water pick-up and 12 volt submersible pump. Incorporates storage recess hinged lid. 20mm overflow outlet with filter and 20mm inlet that connects via hose (not included) to the pump. BLA Code Length mm Width mm Height mm 395202 585 340 335 N.B. Pump is not self priming, requiring gravity feed. BLA Code Length mm Width mm Height mm 131742 400 265 295 Spare Part: 173422 Lid Live Bait Tank Live bait tank 30l moulded polyethylene. Livewell Aerator Control This unit features a solid state timer with adjustable cyclic run times. Run time is approximately 1.5 minutes, off time is variable from 1–10 minutes. Three way toggle switch-off/manual/ auto. Suitable for all livewell pumps to 10 amps. Black moulded plastic face with white raised letterin",
+            "price": 898.7
+          },
+          "file": "fishing-accessories--tackle-burley-and-accessories.json"
+        }
+      ]
+    },
+    {
+      "name": "Hatches & Ventilation",
+      "count": 595,
+      "minPrice": 19.75,
+      "sample": {
+        "productNumber": "170050",
+        "description": "LEWMAR LOW PROFILE HATCH SIZE 00 SILVER",
+        "categoryImage": "../images/catalogue/pages/page0481.jpg",
+        "imagePath": "",
+        "thumbnailPath": "",
+        "catalogueDescription": "SIZE 40 SIZE 30 SIZE 65 Size 40 SIZE 00 SIZE 60 SIZE 40 SIZE 03 SIZE 41 SIZE 10 SIZE 20 SIZE 30 SIZE 44 SIZE 50 SIZE 54 SIZE 65 Size 44 Size 50 Size 54 Size 60 Size 65 Y Z R X Low Profile Hatch Dimensions Low Profile Hatch Cut Out 608.8 486.6 490 R 42.5 Cut Out 555 434.1 586 R 42.5 Cut Out BLA Code Friction Hinge BLA Code with Stay Size Outside X x Y L x W mm Cut Out X1 x Y1 L x W mm Radii R mm Radii R1 mm Height Z mm Acrylic mm Internal Trim Kit & Insect Screen Internal Trim Kit Colour Insect Screen Only to Suit 170050 - 00 281 x 281 211 x 211 72.5 42.5 25 8 170200 White - 170052 - 03 246 x 301 176 x 231 72.5 42.5 25 8 170202 White - 170054 170056 10 330 x 330 260 x 260 72.5 42.5 25 8 170204 White 170242 170058 - 20 272 x 417 202 x 347 72.5 42.5 25 8 170208 White - 170060 170062 30 397 x 527 327 x 457 72.5 42.5 25 8 170214 White - 170064 170066 40 491 x 491 421 x 421 72.5 42.5 25 8 170216 White - 170068 - 41 246 x 491 176 x 421 72.5 42.5 25 8 - White - 170070 170072 44 512 x 512 442 x 442 72.5 42.5 25 8 170220 White 170256 17007",
+        "price": 965.57
+      },
+      "subcategories": [
+        {
+          "name": "General Hatches & Ventilation",
+          "count": 147,
+          "minPrice": 24.93,
+          "sample": {
+            "productNumber": "170270",
+            "description": "LEWMAR ECLIPSE TRIM KIT SIZE 10",
+            "categoryImage": "../images/catalogue/pages/page0481.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "Hatches & Ventilation from the BLA Australia catalogue.",
+            "price": 66.16
+          },
+          "file": "hatches-and-ventilation--general-hatches-and-ventilation.json"
+        },
+        {
+          "name": "Hatch Parts & Seals",
+          "count": 23,
+          "minPrice": 20.54,
+          "sample": {
+            "productNumber": "170780",
+            "description": "JIM BLACK INTERAL HANDLE RIGHT",
+            "categoryImage": "../images/catalogue/pages/page0481.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "444 HATCHES & VENTILATION 17 BOATING LIFESTYLE ADVENTURE Jim Black® Replacement Handles Replacement handles to suit Jim Black® escape hatches, manufactured from tough high impact, U.V. resistant Saralon. Sold each, left or right hand opening. Suits 170710, 170712. BLA Code Description 170780 Right hand internal handle to suit all vent hatches 170781 Left hand internal handle to suit all vent hatches Jim Black® Insect Screens Range of insect screens to suit popular Jim Black® vents and hatches. Fine mesh design protects against most insects while robust outer flange provides support. Simple locking tabs keep screens securely in place. BLA Code Description 170930 Insect screen to suit 232 x 232 vent hatch 170710 170934 Insect screen to suit 416 x 416 hatch 170720/721 170930 170781 Hatch Seal Black polye",
+            "price": 120.73
+          },
+          "file": "hatches-and-ventilation--hatch-parts-and-seals.json"
+        },
+        {
+          "name": "Hatches & Portlights",
+          "count": 367,
+          "minPrice": 46.78,
+          "sample": {
+            "productNumber": "170050",
+            "description": "LEWMAR LOW PROFILE HATCH SIZE 00 SILVER",
+            "categoryImage": "../images/catalogue/pages/page0481.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "SIZE 40 SIZE 30 SIZE 65 Size 40 SIZE 00 SIZE 60 SIZE 40 SIZE 03 SIZE 41 SIZE 10 SIZE 20 SIZE 30 SIZE 44 SIZE 50 SIZE 54 SIZE 65 Size 44 Size 50 Size 54 Size 60 Size 65 Y Z R X Low Profile Hatch Dimensions Low Profile Hatch Cut Out 608.8 486.6 490 R 42.5 Cut Out 555 434.1 586 R 42.5 Cut Out BLA Code Friction Hinge BLA Code with Stay Size Outside X x Y L x W mm Cut Out X1 x Y1 L x W mm Radii R mm Radii R1 mm Height Z mm Acrylic mm Internal Trim Kit & Insect Screen Internal Trim Kit Colour Insect Screen Only to Suit 170050 - 00 281 x 281 211 x 211 72.5 42.5 25 8 170200 White - 170052 - 03 246 x 301 176 x 231 72.5 42.5 25 8 170202 White - 170054 170056 10 330 x 330 260 x 260 72.5 42.5 25 8 170204 White 170242 170058 - 20 272 x 417 202 x 347 72.5 42.5 25 8 170208 White - 170060 170062 30 397 x 527 327 x 457 72.5 42.5 25 8 170214 White - 170064 170066 40 491 x 491 421 x 421 72.5 42.5 25 8 170216 White - 170068 - 41 246 x 491 176 x 421 72.5 42.5 25 8 - White - 170070 170072 44 512 x 512 442 x 442 72.5 42.5 25 8 170220 White 170256 17007",
+            "price": 965.57
+          },
+          "file": "hatches-and-ventilation--hatches-and-portlights.json"
+        },
+        {
+          "name": "Ventilation & Deck Vents",
+          "count": 58,
+          "minPrice": 19.75,
+          "sample": {
+            "productNumber": "175003",
+            "description": "MARINE TOWN STAINLESS STEEL V LOUVRE VENT 3 LOUVRE",
+            "categoryImage": "../images/catalogue/pages/page0481.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "ailable in a choice of colour finish. Surface mount. 176028 175216 175220 175010 BLA Code Colour Width mm Height mm Protrusion mm Mount Screws mm 176028 White 86 86 16 4 c/s 176030 Black 86 86 16 4 c/s 175216 Black 200 100 9 4 c/s 175220 Black 258 125 16 5 c/s BLA Code Colour Length mm Width mm Intrusion mm Protrusion mm 175120 Black 447 70 19 17 175122 White 447 70 19 17 BLA Code Width mm Height mm Protrusion mm Mount Screws mm 175214 200 157 14 3 c/s BLA Code Louvres Outside mm Cut Out mm Intrusion mm Protrusion 175003 3 210 x 112 187 x 90 26 15 175005 5 325 x 112 303 x 90 26 15 BLA Code Louvres Outside mm Cut Out mm Intrusion mm Protrusion 175024 4 210 x 112 187 x 90 26 12 175026 6 325 x 112 303 x 90 26 12 175010 10 530 x 112 506 x 90 26 12 Louvre Vents - Stainless Steel 'V' Ideal for engine compartments. Raised 'V' louvres. Available in three and five louvre configurations. Pressed stainless steel construction with mounting flange. Louvre Vent - Rectangular Plastic with Screen Moulded, plastic vent with integral insect screen.",
+            "price": 48.82
+          },
+          "file": "hatches-and-ventilation--ventilation-and-deck-vents.json"
+        }
+      ]
+    },
+    {
+      "name": "Hull, Deck & Cabin Hardware",
+      "count": 1399,
+      "minPrice": 17.22,
+      "sample": {
+        "productNumber": "190150",
+        "description": "CUTLESS NON METALIC IMP BEARING ALDA 3/4\" X 1\" 1 1/4\" X 3\"",
+        "categoryImage": "../images/catalogue/pages/page0659.jpg",
+        "imagePath": "",
+        "thumbnailPath": "",
+        "catalogueDescription": "Hull, Deck & Cabin Hardware from the BLA Australia catalogue.",
+        "price": 262.25
+      },
+      "subcategories": [
+        {
+          "name": "Anodes & Corrosion Protection",
+          "count": 225,
+          "minPrice": 18.81,
+          "sample": {
+            "productNumber": "190993",
+            "description": "MARTYR DIVERS DREAM ANODE MAGNESIUM 305X150X13MM",
+            "categoryImage": "../images/catalogue/pages/page0481.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "Hull, Deck & Cabin Hardware from the BLA Australia catalogue.",
+            "price": 186.57
+          },
+          "file": "hull-deck-and-cabin-hardware--anodes-and-corrosion-protection.json"
+        },
+        {
+          "name": "Cabin Hardware & Accessories",
+          "count": 16,
+          "minPrice": 18.05,
+          "sample": {
+            "productNumber": "192275",
+            "description": "MARINE TOWN PULL UP FOLDING FENDER HOOK S/STEEL SMALL",
+            "categoryImage": "../images/catalogue/pages/page0937.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "ilver rope. One end features a whipped ten centimetre loop which simply passes through the eye of the fender then back through itself for secure attachment. Supplied in black as a pair. BLA Code Rope Dia. mm Length m 144340 6 1.5 144342 8 2 Marine Town Pull Up Fender Hook Clean and elegant design. Designed to fit different line sizes. Pull and turn knob to position, allowing quick and effortless work on attaching or removing fenders. Spring loaded hook for line security. BLA Code A mm B mm C mm D mm Fender Line mm 192275 34 51 25 8 6-8 BLA Boat Hooks - Telescopic \u0007Anodised aluminium shaft with nylon hook and locking nut. Grey PVC handgrip. BLA Boat Hook Head Black moulded nylon boat hook head that fits externally over 30mm tube or timber dowel. BLA Code Length mm Width mm Outer Dia. mm 141422 219 80 35 141422 141402 141406 BLA Code Length Retraced m Length Extended m Outer Tube Dia. mm 141402 1.17 2.11 29 BLA Code Length Retraced m Tube Dia. mm 141406 1.77 29 BLA Boat Hooks - Fixed Anodised aluminium shaft, black nylon head, black",
+            "price": 113.42
+          },
+          "file": "hull-deck-and-cabin-hardware--cabin-hardware-and-accessories.json"
+        },
+        {
+          "name": "Cutless Bearings & Stern Gear",
+          "count": 97,
+          "minPrice": 262.25,
+          "sample": {
+            "productNumber": "190150",
+            "description": "CUTLESS NON METALIC IMP BEARING ALDA 3/4\" X 1\" 1 1/4\" X 3\"",
+            "categoryImage": "../images/catalogue/pages/page0659.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "Hull, Deck & Cabin Hardware from the BLA Australia catalogue.",
+            "price": 262.25
+          },
+          "file": "hull-deck-and-cabin-hardware--cutless-bearings-and-stern-gear.json"
+        },
+        {
+          "name": "Deck Fillers, Caps & Vents",
+          "count": 45,
+          "minPrice": 34.14,
+          "sample": {
+            "productNumber": "192300",
+            "description": "ATTWOOD OVAL DECK FILLER STRAIGHT PVC GASOLINE 38MM BLACK",
+            "categoryImage": "../images/catalogue/pages/page0481.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "........... 497 192268............................................. 497 192270............................................. 497 192275............................................. 384 192276............................................. 502 192278............................................. 502 192283............................................. 502 192285............................................. 502 192289............................................. 502 192291............................................. 502 192300............................................. 501 192301............................................. 501 192302............................................. 501 192303............................................. 501 192304............................................. 501 192305............................................. 501 192306............................................. 501 192307............................................. 501 192308............................................. 501 192309................",
+            "price": 97.41
+          },
+          "file": "hull-deck-and-cabin-hardware--deck-fillers-caps-and-vents.json"
+        },
+        {
+          "name": "Deck Hardware & Fittings",
+          "count": 162,
+          "minPrice": 18.78,
+          "sample": {
+            "productNumber": "192052",
+            "description": "MARINE TOWN CHROME BRASS BOW ROLLER",
+            "categoryImage": "../images/catalogue/pages/page0369.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "........... 492 191607............................................. 492 191608............................................. 492 191609............................................. 492 191610............................................. 492 191621............................................. 492 191622............................................. 492 191624............................................. 487 191625............................................. 487 191626............................................. 487 192052............................................. 494 192060............................................. 494 192064............................................. 494 192084.....................................408, 495 192086............................................. 495 192088............................................. 495 192090............................................. 496 192094............................................. 495 192096............................................. 495 192100....................",
+            "price": 159.4
+          },
+          "file": "hull-deck-and-cabin-hardware--deck-hardware-and-fittings.json"
+        },
+        {
+          "name": "Fasteners & General Hardware",
+          "count": 43,
+          "minPrice": 19.6,
+          "sample": {
+            "productNumber": "192414",
+            "description": "BLA BUNG & WASHER BLACK PLASTIC T/S 4 POINT COARSE THREAD",
+            "categoryImage": "../images/catalogue/pages/page0481.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "............ 502 192406............................................. 504 192407............................................. 502 192408............................................. 504 192408P........................................... 504 192409............................................. 502 192410............................................. 502 192411............................................. 502 192412............................................. 504 192413............................................. 504 192414............................................. 504 192414P........................................... 504 192415............................................. 502 192415P........................................... 502 192422............................................. 503 192430............................................. 503 192440............................................. 503 192442............................................. 503 192444............................................. 503 192450..................",
+            "price": 19.6
+          },
+          "file": "hull-deck-and-cabin-hardware--fasteners-and-general-hardware.json"
+        },
+        {
+          "name": "General Hull, Deck & Cabin Hardware",
+          "count": 531,
+          "minPrice": 17.22,
+          "sample": {
+            "productNumber": "192257",
+            "description": "MARINE TOWN FAIRLEADS S/STEEL 120MM",
+            "categoryImage": "../images/catalogue/pages/page0481.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "................ 499 192235............................................. 499 192237............................................. 499 192239............................................. 499 192242............................................. 498 192243.....................................498, 503 192243B........................................... 503 192244............................................. 498 192250............................................. 499 192251............................................. 499 192257............................................. 498 192258............................................. 498 192259............................................. 498 192260............................................. 498 192262............................................. 498 192263............................................. 498 192266............................................. 497 192268............................................. 497 192270............................................. 497 192275................",
+            "price": 97.04
+          },
+          "file": "hull-deck-and-cabin-hardware--general-hull-deck-and-cabin-hardware.json"
+        },
+        {
+          "name": "Latches, Hinges & Catches",
+          "count": 264,
+          "minPrice": 19.09,
+          "sample": {
+            "productNumber": "193002",
+            "description": "MARINE TOWN PAD LOCK BRASS STAINLESS STEEL SHACKLE 30MM",
+            "categoryImage": "../images/catalogue/pages/page0481.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "........... 512 192646............................................. 512 192648............................................. 512 192650............................................. 556 192652............................................. 556 192654............................................. 556 192665............................................. 556 192666............................................. 556 192667............................................. 556 192670............................................. 556 193002.....................................514, 680 193004.....................................514, 680 193006.....................................514, 680 193008.....................................514, 680 193010.....................................476, 539 193012.....................................476, 539 193015............................................. 516 193016............................................. 516 193017............................................. 515 193018........................................",
+            "price": 47.12
+          },
+          "file": "hull-deck-and-cabin-hardware--latches-hinges-and-catches.json"
+        },
+        {
+          "name": "Mooring Deck Hardware",
+          "count": 16,
+          "minPrice": 53.72,
+          "sample": {
+            "productNumber": "192114",
+            "description": "MARINE TOWN STAINLESS STEEL BOLLARD SLOTTED",
+            "categoryImage": "../images/catalogue/pages/page0481.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": ".......408, 495 192086............................................. 495 192088............................................. 495 192090............................................. 496 192094............................................. 495 192096............................................. 495 192100............................................. 495 192102............................................. 495 192104............................................. 495 192106............................................. 495 192114............................................. 496 192116............................................. 496 192118............................................. 496 192142............................................. 496 192146............................................. 496 192148............................................. 496 192149............................................. 496 192158............................................. 496 192160............................................. 496 192162................",
+            "price": 119.28
+          },
+          "file": "hull-deck-and-cabin-hardware--mooring-deck-hardware.json"
+        }
+      ]
+    },
+    {
+      "name": "Hydraulic & Electric Power Steer Systems",
+      "count": 482,
+      "minPrice": 20.6,
+      "sample": {
+        "productNumber": "290568",
+        "description": "SEASTAR FRONT MOUNT BULKHEAD OUTBOARD HOSE STEERING KIT 18FT",
+        "categoryImage": "../images/catalogue/pages/page0285.jpg",
+        "imagePath": "",
+        "thumbnailPath": "",
+        "catalogueDescription": "Hydraulic & Electric Power Steer Systems from the BLA Australia catalogue.",
+        "price": 3717.13
+      },
+      "subcategories": [
+        {
+          "name": "General Hydraulic & Electric Power Steer Systems",
+          "count": 11,
+          "minPrice": 92.76,
+          "sample": {
+            "productNumber": "293628",
+            "description": "TH MARINE BULKHEAD MOUNTED BEND RESTRICTOR SUIT OUTBOARD/PRO",
+            "categoryImage": "../images/catalogue/pages/page0481.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "............... 842 293614............................................. 842 293615............................................. 842 293616............................................. 842 293618............................................. 842 293621......................................842-843 293622............................................. 842 293623............................................. 842 293624............................................. 842 293625............................................. 842 293628............................................. 845 293629......................................842-843 293630............................................. 843 293631.....................................842, 847 293632............................................. 843 293633............................................. 843 293634............................................. 843 293635............................................. 843 293636............................................. 842 293642........................",
+            "price": 92.76
+          },
+          "file": "hydraulic-and-electric-power-steer-systems--general-hydraulic-and-electric-power-steer-systems.json"
+        },
+        {
+          "name": "Hydraulic Hoses & Fittings",
+          "count": 17,
+          "minPrice": 28.81,
+          "sample": {
+            "productNumber": "293096",
+            "description": "CAPILANO HOSE KIT 450MM",
+            "categoryImage": "../images/catalogue/pages/page0285.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "Hydraulic & Electric Power Steer Systems from the BLA Australia catalogue.",
+            "price": 429.96
+          },
+          "file": "hydraulic-and-electric-power-steer-systems--hydraulic-hoses-and-fittings.json"
+        },
+        {
+          "name": "Hydraulic Steering Kits",
+          "count": 448,
+          "minPrice": 20.6,
+          "sample": {
+            "productNumber": "290568",
+            "description": "SEASTAR FRONT MOUNT BULKHEAD OUTBOARD HOSE STEERING KIT 18FT",
+            "categoryImage": "../images/catalogue/pages/page0285.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "Hydraulic & Electric Power Steer Systems from the BLA Australia catalogue.",
+            "price": 3717.13
+          },
+          "file": "hydraulic-and-electric-power-steer-systems--hydraulic-steering-kits.json"
+        },
+        {
+          "name": "Power Steering & Autopilot Parts",
+          "count": 6,
+          "minPrice": 4319.36,
+          "sample": {
+            "productNumber": "294002",
+            "description": "CAPILANO HELM PUMP 1250V",
+            "categoryImage": "../images/catalogue/pages/page0285.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "........... 847 293751............................................. 847 293752............................................. 847 293753............................................. 847 293755............................................. 846 293757............................................. 846 293768............................................. 847 293770............................................. 840 293778............................................. 846 293781............................................. 846 294002............................................. 806 294004............................................. 806 295034............................................. 837 295035............................................. 837 295036............................................. 837 295040............................................. 837 295042............................................. 837 295048............................................. 837 295060.....................................770, 806 295067....................",
+            "price": 5526.1
+          },
+          "file": "hydraulic-and-electric-power-steer-systems--power-steering-and-autopilot-parts.json"
+        }
+      ]
+    },
+    {
+      "name": "Lighting",
+      "count": 373,
+      "minPrice": 17.17,
+      "sample": {
+        "productNumber": "121007",
+        "description": "BLA TRADITIONAL LED SIDELIGHT NAVIGATION LIGHT BLACK",
+        "categoryImage": "../images/catalogue/pages/page0253.jpg",
+        "imagePath": "",
+        "thumbnailPath": "",
+        "catalogueDescription": "ive LED pod, provides a distinctive appearance. LED reliability, efficiency and low heat. Clear lens, the red and green light colour is created by the LED. 12 volt, sold as a pair. Complies with ABYC A-16:2016 regulations. BLA Code Cover Colour Base mm Depth mm Mount Screws mm 121021 Black 72 x 52 35 4 r/h 121023 White 72 x 52 35 4 r/h BLA Code Cover Colour Base mm Depth mm Mount Screws mm 121038 Black 93 x 56 37 4 c/s 121040 White 93 x 56 37 4 c/s BLA Code Cover Colour Length mm Height mm Depth mm Mount Screws mm 121007 Black 136 61 47 4 c/s 121009 White 136 61 47 4 c/s BLA Code Base mm Depth mm Mount Screws mm 121042 93 x 56 37 4 c/s BLA Code Cover Colour Base mm Depth mm Mount Screws mm 121030 Black 90 x 57 35 5 r/h 121032 White 90 x 57 35 5 r/h 121032 121040 121007 121038 121030 121023 121021 boatinglifestyleadventure boatinglifestyleadventure boatinglifestyleadventure boatinglifestyleadventure BLA Code Cover Colour Length mm Height mm Width mm Mount Screws mm 121080 White 85 35 81 5x r/h BLA Navigation Lights - LED Deck Mount",
+        "price": 83.44
+      },
+      "subcategories": [
+        {
+          "name": "Deck, Flood & Work Lights",
+          "count": 24,
+          "minPrice": 111.66,
+          "sample": {
+            "productNumber": "123070",
+            "description": "BLA DECK LIGHT WATERPROOF 12V 10 LED",
+            "categoryImage": "../images/catalogue/pages/page0253.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "set within a fully waterproof aluminium housing. Includes stainless steel mount adjustable both horizontally and vertically. Floodlight - LED Waterproof Deck LED floodlight with 12 extra bright diodes operating at a range between 9 to 36 volts with a low 0.4 to 1.5 amperage draw. Specially designed lens helps spread light beam and is set within a fully waterproof aluminium housing. Includes stainless steel mount adjustable both horizontally and vertically. BLA Code Overall Height mm Width mm Depth mm Mount Bolt mm 123070 120 110 45 8 BLA Code Overall Height mm Width mm Depth mm Mount Bolt mm 123072 120 110 45 8 Floodlight - Deck Halogen floodlight, 12 volt, 55 watt. White ABS housing with glass lens. Stainless steel mount hardware adjusts both horizontally and vertically. BLA Code Lens mm Overall Height mm Depth mm Mount Bolt mm 123057 120 110 45 8",
+            "price": 279.99
+          },
+          "file": "lighting--deck-flood-and-work-lights.json"
+        },
+        {
+          "name": "General Lighting",
+          "count": 216,
+          "minPrice": 18.24,
+          "sample": {
+            "productNumber": "121059",
+            "description": "ATTWOOD LED WAKE TOWER LIGHT",
+            "categoryImage": "../images/catalogue/pages/page0253.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "Lighting from the BLA Australia catalogue.",
+            "price": 122.96
+          },
+          "file": "lighting--general-lighting.json"
+        },
+        {
+          "name": "Interior & Courtesy Lighting",
+          "count": 46,
+          "minPrice": 17.17,
+          "sample": {
+            "productNumber": "122039",
+            "description": "BEST LIGHT CABIN LIGHT 48 LED WHITE",
+            "categoryImage": "../images/catalogue/pages/page0253.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "ED slim lights with extruded aluminium base and integrated on/off push switch one end. Low 12 volt power consumption makes this light suitable for a wide range of interior uses. Finished in silver grey or white with no visible fastenings. Cabin Light - LED 36 super bright 12 volt LEDs with mini rocker switch. Clear plastic lens set into white ABS surround. May be either surface or recess mounted. 7.2 watt output providing brightness of 252 Lumens. BLA Code Number of LED Length mm Width mm Protrusion mm Trim Colour 122039 48 200 90 15 White 122041 96 300 90 15 White BLA Code Length mm Width mm Height Surface Mnt. mm Height Recess Mnt. mm 122052 185 110 24 16 122039 Exterior Light - LED Waterproof 30 super bright, LEDs sealed to an IP66 waterproof rating. Extremely small protruding profile with clear lens and white end plates. Spade connections for 12 volt power attached externally. BLA Code Length mm Width mm Protrusion mm Cut Out mm 122062 164 102 9 129x84 Dome Lights - Stainless Steel Pressed stainless steel housing with integral",
+            "price": 143.08
+          },
+          "file": "lighting--interior-and-courtesy-lighting.json"
+        },
+        {
+          "name": "Navigation Lights",
+          "count": 82,
+          "minPrice": 19.63,
+          "sample": {
+            "productNumber": "121007",
+            "description": "BLA TRADITIONAL LED SIDELIGHT NAVIGATION LIGHT BLACK",
+            "categoryImage": "../images/catalogue/pages/page0253.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "ive LED pod, provides a distinctive appearance. LED reliability, efficiency and low heat. Clear lens, the red and green light colour is created by the LED. 12 volt, sold as a pair. Complies with ABYC A-16:2016 regulations. BLA Code Cover Colour Base mm Depth mm Mount Screws mm 121021 Black 72 x 52 35 4 r/h 121023 White 72 x 52 35 4 r/h BLA Code Cover Colour Base mm Depth mm Mount Screws mm 121038 Black 93 x 56 37 4 c/s 121040 White 93 x 56 37 4 c/s BLA Code Cover Colour Length mm Height mm Depth mm Mount Screws mm 121007 Black 136 61 47 4 c/s 121009 White 136 61 47 4 c/s BLA Code Base mm Depth mm Mount Screws mm 121042 93 x 56 37 4 c/s BLA Code Cover Colour Base mm Depth mm Mount Screws mm 121030 Black 90 x 57 35 5 r/h 121032 White 90 x 57 35 5 r/h 121032 121040 121007 121038 121030 121023 121021 boatinglifestyleadventure boatinglifestyleadventure boatinglifestyleadventure boatinglifestyleadventure BLA Code Cover Colour Length mm Height mm Width mm Mount Screws mm 121080 White 85 35 81 5x r/h BLA Navigation Lights - LED Deck Mount",
+            "price": 83.44
+          },
+          "file": "lighting--navigation-lights.json"
+        },
+        {
+          "name": "Trailer & Utility Lighting",
+          "count": 5,
+          "minPrice": 177.31,
+          "sample": {
+            "productNumber": "123740",
+            "description": "LUMITEC RAIL2 UTILITY LIGHT WHITE/RED/BLUE",
+            "categoryImage": "../images/catalogue/pages/page0253.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "LE ADVENTURE Lumitec™ Mini Rail2 Utility Light Small, attractive, powerful and priced just right, what else could you ask for? Lumitec’s Mini Rail2 delivers. As with all Lumitec products, the Mini Rail2 is completely water sealed (IP67 compliant), which means that, despite its great looks, it is equally effective for use in exterior as well as interior applications. BLA Code Finish Colour Output Cri Cct Volts Amp Draw Lumens+ 12V 24V 123743 Brushed White 70+ 5000 10-30 360mA 180mA 145 123743 15.3 119 25.4 149 28.2 123740 Lumitec™ Rail2 Utility Light Greater output! Available in warm white or 3-Colour versions, with up to 100% more light output than its predecessor and a sleek new look, Rail2 raises the bar on marine LED utility lights. Choose the Rail2 12” light in warm white with dimming for interior spaces, or neutral white 3-Colour for your exterior, under gunwale, T-top or even equipment space or mechanical space needs. These LED utility lights are completely water sealed and IP67 compliant, which means that, despite their gre",
+            "price": 404.91
+          },
+          "file": "lighting--trailer-and-utility-lighting.json"
+        }
+      ]
+    },
+    {
+      "name": "Mechanical Steering - Power & Sail",
+      "count": 248,
+      "minPrice": 34.53,
+      "sample": {
+        "productNumber": "280009",
+        "description": "SEASTAR NFB SAFE-T II ROTARY 3.0 TURN STEERING KIT 9FT",
+        "categoryImage": "../images/catalogue/pages/page0481.jpg",
+        "imagePath": "",
+        "thumbnailPath": "",
+        "catalogueDescription": "Mechanical Steering - Power & Sail from the BLA Australia catalogue.",
+        "price": 686.8
+      },
+      "subcategories": [
+        {
+          "name": "General Mechanical Steering - Power & Sail",
+          "count": 78,
+          "minPrice": 34.53,
+          "sample": {
+            "productNumber": "280142",
+            "description": "SEASTAR QUICK CONNECT TILT STEERING MECHANISM",
+            "categoryImage": "../images/catalogue/pages/page0481.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "............... 759 271282............................................. 759 271285............................................. 759 271400............................................. 758 271401............................................. 757 271402............................................. 757 271403............................................. 757 271404............................................. 757 2800XX............................................. 767 280132.....................................767, 771 280142.....................771, 773, 776-777 280144............................................. 771 280150......................767-768, 773-774 280152......................................771-774 280154.............................767, 771-772 2801XX.....................................767, 771 280232.....................................768, 774 280250.....................................767, 773 280251............................................. 773 2802XX.....................................768, 774 280346..........",
+            "price": 476
+          },
+          "file": "mechanical-steering-power-and-sail--general-mechanical-steering-power-and-sail.json"
+        },
+        {
+          "name": "Helms, Bezels & Steering Parts",
+          "count": 24,
+          "minPrice": 58.05,
+          "sample": {
+            "productNumber": "280152",
+            "description": "SEASTAR QUICK CONNECT BEZEL KIT 20° BLACK",
+            "categoryImage": "../images/catalogue/pages/page0481.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "..................................... 758 271401............................................. 757 271402............................................. 757 271403............................................. 757 271404............................................. 757 2800XX............................................. 767 280132.....................................767, 771 280142.....................771, 773, 776-777 280144............................................. 771 280150......................767-768, 773-774 280152......................................771-774 280154.............................767, 771-772 2801XX.....................................767, 771 280232.....................................768, 774 280250.....................................767, 773 280251............................................. 773 2802XX.....................................768, 774 280346.....................................769, 776 280348............................................. 776 280350.............................769, 776-777 280370",
+            "price": 58.05
+          },
+          "file": "mechanical-steering-power-and-sail--helms-bezels-and-steering-parts.json"
+        },
+        {
+          "name": "Mechanical Steering Cables",
+          "count": 50,
+          "minPrice": 209.1,
+          "sample": {
+            "productNumber": "280132",
+            "description": "SEASTAR QUICK CONNECT HELM 3.0 TURN SINGLE CABLE",
+            "categoryImage": "../images/catalogue/pages/page0061.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "........... 758 271280............................................. 759 271282............................................. 759 271285............................................. 759 271400............................................. 758 271401............................................. 757 271402............................................. 757 271403............................................. 757 271404............................................. 757 2800XX............................................. 767 280132.....................................767, 771 280142.....................771, 773, 776-777 280144............................................. 771 280150......................767-768, 773-774 280152......................................771-774 280154.............................767, 771-772 2801XX.....................................767, 771 280232.....................................768, 774 280250.....................................767, 773 280251............................................. 773 2802XX..........",
+            "price": 209.1
+          },
+          "file": "mechanical-steering-power-and-sail--mechanical-steering-cables.json"
+        },
+        {
+          "name": "Mechanical Steering Kits",
+          "count": 96,
+          "minPrice": 40.94,
+          "sample": {
+            "productNumber": "280009",
+            "description": "SEASTAR NFB SAFE-T II ROTARY 3.0 TURN STEERING KIT 9FT",
+            "categoryImage": "../images/catalogue/pages/page0481.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "Mechanical Steering - Power & Sail from the BLA Australia catalogue.",
+            "price": 686.8
+          },
+          "file": "mechanical-steering-power-and-sail--mechanical-steering-kits.json"
+        }
+      ]
+    },
+    {
+      "name": "Navigation",
+      "count": 69,
+      "minPrice": 30.28,
+      "sample": {
+        "productNumber": "231014",
+        "description": "MARINE TOWN BRASS PORTHOLE CLOCK 147M",
+        "categoryImage": "../images/catalogue/pages/page0481.jpg",
+        "imagePath": "",
+        "thumbnailPath": "",
+        "catalogueDescription": "Navigation from the BLA Australia catalogue.",
+        "price": 447.21
+      },
+      "subcategories": [
+        {
+          "name": "Compasses & Navigation Instruments",
+          "count": 46,
+          "minPrice": 30.28,
+          "sample": {
+            "productNumber": "231500",
+            "description": "BLA 100 SERIES COMPASS BRACKET MOUNT BLACK/BLACK",
+            "categoryImage": "../images/catalogue/pages/page0481.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "........... 715 231032............................................. 715 231034............................................. 715 231040............................................. 715 231042............................................. 715 231044............................................. 715 231064............................................. 715 231072............................................. 715 231080............................................. 716 231104............................................. 716 231500............................................. 713 231502............................................. 713 231510............................................. 714 231516............................................. 714 231530............................................. 714 231532............................................. 714 232002............................................. 707 232004............................................. 707 232006............................................. 707 232009................",
+            "price": 37.51
+          },
+          "file": "navigation--compasses-and-navigation-instruments.json"
+        },
+        {
+          "name": "General Navigation",
+          "count": 18,
+          "minPrice": 143.56,
+          "sample": {
+            "productNumber": "231014",
+            "description": "MARINE TOWN BRASS PORTHOLE CLOCK 147M",
+            "categoryImage": "../images/catalogue/pages/page0481.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "Navigation from the BLA Australia catalogue.",
+            "price": 447.21
+          },
+          "file": "navigation--general-navigation.json"
+        },
+        {
+          "name": "Navigation Accessories",
+          "count": 5,
+          "minPrice": 53.69,
+          "sample": {
+            "productNumber": "232180",
+            "description": "RITCHIE NAVIGATOR STEEL BOAT BINNACLE MOUNT",
+            "categoryImage": "../images/catalogue/pages/page0481.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "Navigation from the BLA Australia catalogue.",
+            "price": 3727.56
+          },
+          "file": "navigation--navigation-accessories.json"
+        }
+      ]
+    },
+    {
+      "name": "Oils, Sealants & Maintenance",
+      "count": 305,
+      "minPrice": 16.66,
+      "sample": {
+        "productNumber": "260060",
+        "description": "CHEMTECH DIESEL POWER FUEL ADDITIVE 300ML",
+        "categoryImage": "../images/catalogue/pages/page0061.jpg",
+        "imagePath": "",
+        "thumbnailPath": "",
+        "catalogueDescription": "Oils, Sealants & Maintenance from the BLA Australia catalogue.",
+        "price": 47.6
+      },
+      "subcategories": [
+        {
+          "name": "Cleaning, Polishing & Boat Care",
+          "count": 92,
+          "minPrice": 22.92,
+          "sample": {
+            "productNumber": "260141",
+            "description": "WD-40 FAST DRYING CONTACT CLEANER 418ML",
+            "categoryImage": "../images/catalogue/pages/page0717.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "........... 734 260123............................................. 734 260130............................................. 725 260131............................................. 725 260134............................................. 725 260135............................................. 725 260136............................................. 725 260138............................................. 726 260139............................................. 725 260140............................................. 726 260141............................................. 725 260142............................................. 726 260143............................................. 726 260144............................................. 726 260148............................................. 721 260149............................................. 722 260159............................................. 718 260160............................................. 718 260161............................................. 718 260162................",
+            "price": 59.07
+          },
+          "file": "oils-sealants-and-maintenance--cleaning-polishing-and-boat-care.json"
+        },
+        {
+          "name": "General Oils, Sealants & Maintenance",
+          "count": 120,
+          "minPrice": 16.66,
+          "sample": {
+            "productNumber": "260129",
+            "description": "WD-40 SPECIALIST DRY LUBE 150G",
+            "categoryImage": "../images/catalogue/pages/page0481.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "Oils, Sealants & Maintenance from the BLA Australia catalogue.",
+            "price": 54
+          },
+          "file": "oils-sealants-and-maintenance--general-oils-sealants-and-maintenance.json"
+        },
+        {
+          "name": "Oils, Greases & Fuel Treatments",
+          "count": 30,
+          "minPrice": 37.77,
+          "sample": {
+            "productNumber": "260060",
+            "description": "CHEMTECH DIESEL POWER FUEL ADDITIVE 300ML",
+            "categoryImage": "../images/catalogue/pages/page0061.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "Oils, Sealants & Maintenance from the BLA Australia catalogue.",
+            "price": 47.6
+          },
+          "file": "oils-sealants-and-maintenance--oils-greases-and-fuel-treatments.json"
+        },
+        {
+          "name": "Paint, Antifoul & Surface Prep",
+          "count": 20,
+          "minPrice": 87.29,
+          "sample": {
+            "productNumber": "260100",
+            "description": "MOELLER ENGINE PAINT YAMAHA DARK BLUE METALLIC 12OZ",
+            "categoryImage": "../images/catalogue/pages/page0717.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "........... 702 241906............................................. 702 241907............................................. 702 241908............................................. 702 241909............................................. 702 244210............................................. 704 244212............................................. 704 244214............................................. 704 252914............................................. 822 254100............................................. 806 260100............................................. 734 260101............................................. 734 260105............................................. 734 260107............................................. 734 260108............................................. 734 260112............................................. 734 260113............................................. 734 260121............................................. 734 260122............................................. 734 260123................",
+            "price": 94.09
+          },
+          "file": "oils-sealants-and-maintenance--paint-antifoul-and-surface-prep.json"
+        },
+        {
+          "name": "Sealants, Adhesives & Fillers",
+          "count": 43,
+          "minPrice": 40.77,
+          "sample": {
+            "productNumber": "261094",
+            "description": "SEPTONE CONTACT ADHESIVE AEROSOL 350G",
+            "categoryImage": "../images/catalogue/pages/page0481.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "........... 731 261033............................................. 732 261044............................................. 731 261045............................................. 731 261048............................................. 732 261059............................................. 731 261060............................................. 731 261066............................................. 732 261082............................................. 732 261086............................................. 732 261094............................................. 733 261158............................................. 732 261170............................................. 732 261172............................................. 732 261180............................................. 730 261192............................................. 730 261196............................................. 730 261202............................................. 730 261216............................................. 733 261234................",
+            "price": 58.82
+          },
+          "file": "oils-sealants-and-maintenance--sealants-adhesives-and-fillers.json"
+        }
+      ]
+    },
+    {
+      "name": "Power Generation & Engine Room",
+      "count": 24,
+      "minPrice": 20.62,
+      "sample": {
+        "productNumber": "333241",
+        "description": "OSCULATI EXHAUST WATERLOCK MUFFLER 55/60/65MM",
+        "categoryImage": "../images/catalogue/pages/page0481.jpg",
+        "imagePath": "",
+        "thumbnailPath": "",
+        "catalogueDescription": "Power Generation & Engine Room from the BLA Australia catalogue.",
+        "price": 570.15
+      },
+      "subcategories": [
+        {
+          "name": "Engine Room Accessories",
+          "count": 5,
+          "minPrice": 20.62,
+          "sample": {
+            "productNumber": "335010",
+            "description": "PYROTEK NON ADHESIVE SOUND INSULATION 25MMX30.0M ROLL",
+            "categoryImage": "../images/catalogue/pages/page0481.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "sheets above to bulkhead or ceiling. Spikes grip the foam to prevent slippage without damage. Sold individually. Foam Sound Insulation - Sorberbarrier AGC Sorberbarrier AGC is a composite sandwich material comprising of a flexible high mass noise barrier laminated between two layers of flexible acoustic foam. It increases sound transmission loss and provides sound absorption. Ideal for engine rooms or anywhere that requires noise control. The outer layer of flexi foam comprises foam sound insulation detailed with 335010 above. The base layer comprises of 6mm foam and acts as a decoupling layer which separates the noise barrier and spaces it from the structure. The middle layer is the decoupled noise barrier that adds significantly to the sound transmission loss of the system. The resultant performance exceeds the mass law. Commonly bonded to the structure with spray adhesives. Features: • Multi-function product: an absorber and barrier in one • Fire retardant to AS1530.3 • Excellent mid to high frequency performance • Resists hyd",
+            "price": 6321.87
+          },
+          "file": "power-generation-and-engine-room--engine-room-accessories.json"
+        },
+        {
+          "name": "Engine Room Ventilation & Exhaust",
+          "count": 9,
+          "minPrice": 287.33,
+          "sample": {
+            "productNumber": "333241",
+            "description": "OSCULATI EXHAUST WATERLOCK MUFFLER 55/60/65MM",
+            "categoryImage": "../images/catalogue/pages/page0481.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "Power Generation & Engine Room from the BLA Australia catalogue.",
+            "price": 570.15
+          },
+          "file": "power-generation-and-engine-room--engine-room-ventilation-and-exhaust.json"
+        },
+        {
+          "name": "General Power Generation & Engine Room",
+          "count": 8,
+          "minPrice": 149.71,
+          "sample": {
+            "productNumber": "337720",
+            "description": "ECLECTIC ENERGY REGULATOR 12V",
+            "categoryImage": "../images/catalogue/pages/page0481.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "........... 912 337450............................................. 911 337451............................................. 911 337452............................................. 911 337454............................................. 911 337456............................................. 911 337464............................................. 911 337466............................................. 911 337470............................................. 911 337710............................................. 914 337720............................................. 914 341002............................................. 916 341004............................................. 916 341006............................................. 916 341008............................................. 916 341010............................................. 916 341012............................................. 916 341013............................................. 916 341040............................................. 916 341042................",
+            "price": 2253.06
+          },
+          "file": "power-generation-and-engine-room--general-power-generation-and-engine-room.json"
+        },
+        {
+          "name": "Generators & Power Generation",
+          "count": 2,
+          "minPrice": 11295,
+          "sample": {
+            "productNumber": "337710",
+            "description": "ECLECTIC ENERGY D 400 WIND GENERATOR 12V",
+            "categoryImage": "../images/catalogue/pages/page0481.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "........... 910 337449............................................. 912 337450............................................. 911 337451............................................. 911 337452............................................. 911 337454............................................. 911 337456............................................. 911 337464............................................. 911 337466............................................. 911 337470............................................. 911 337710............................................. 914 337720............................................. 914 341002............................................. 916 341004............................................. 916 341006............................................. 916 341008............................................. 916 341010............................................. 916 341012............................................. 916 341013............................................. 916 341040................",
+            "price": 11295
+          },
+          "file": "power-generation-and-engine-room--generators-and-power-generation.json"
+        }
+      ]
+    },
+    {
+      "name": "Pumps, Plumbing & Galley",
+      "count": 1231,
+      "minPrice": 12.63,
+      "sample": {
+        "productNumber": "130100",
+        "description": "WHALE SYSTEM 12 TUBING BLUE 30M",
+        "categoryImage": "../images/catalogue/pages/page0481.jpg",
+        "imagePath": "",
+        "thumbnailPath": "",
+        "catalogueDescription": "de materials. Features: • Unique 'double gripper' provides secure lifelong tube retention even at excessive pressures • Collet has internal support ring ensuring O-ring seal is held in position and does not distort or leak under pressure • The innovative, tube supporting, 'cage collet' design eliminates leaks where fittings are close to tight bends • High integrity single piece moulding for reliability and strength • Outer sleeve incorporates collet cover preventing accidental tube release BLA Code Length m Colour 130100 30 Blue 130104 30 Red 130102 100 Blue BLA Code Suits Hose Int. Dia.. in mm 130112 3/8 10 130113 1/2 13 BLA Code Thread BSP 130116 1/2\" Whale® Stem Elbow - Quick Connect 12 Elbow fitting accepts Quick Connect 12 tubing one end, 12mm stem fitting the other. BLA Code 130122 To assemble Fig 1 Fig 2 Cut to length by making a straight clean cut (use Whale® tube cutters on a mark). Simply push the tube into the fitting up to the internal stop. Fig 3 Push back on the grey collet against the face of fitting. Fig 4 Hold the",
+        "price": 111.86
+      },
+      "subcategories": [
+        {
+          "name": "Bilge Pumps & Switches",
+          "count": 64,
+          "minPrice": 92.9,
+          "sample": {
+            "productNumber": "131060",
+            "description": "EASTERNER PORTABLE HAND BILGE PUMP",
+            "categoryImage": "../images/catalogue/pages/page0285.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "aphragm stud 405.03 131189 Chimp mk 1 & 2 diaphragm plate 405.04 131190 Chimp mk 1 & 2 diaphragm nut 405.05 131198 Chimp mk 1 & 2 hinge pin 406.46 131220 Chimp mk 2 neoprene service kit AK8015 131227 Chimp mk 2 neoprene diaphragm 406.37 131229 Chimp mk 2 outlet valve 733.09 131270 Gusher 25 nitrile service kit AK3528 180 Portable Hand Bilge Pump A versatile hand held bilge pump for dinghys, small boats or as a backup pump. Rigid plastic and PVC, corrosion free construction. BLA Code Barrel Length mm Outlet Hose mm 131060 600 32 x 600 BLA Code Description Whale®/ Henderson Number 131324 Gusher 8 mk 3 neoprene service kit SK8813 133450 Service kit t/s tiptoe mk4 AK1304 131193 Diaphragm neoprene t/s chimp 1 405.09 131195 Valve inlet t/s chimp 1 405.15 131196 Valve outlet t/s chimp 1 405.17 131202 Service kit neoprene t/s chimp 1 AK8010 131210 Plate clamping kit t/s chimp 1 AS0128 131124",
+            "price": 148.01
+          },
+          "file": "pumps-plumbing-and-galley--bilge-pumps-and-switches.json"
+        },
+        {
+          "name": "Fresh Water & Washdown Pumps",
+          "count": 44,
+          "minPrice": 34.2,
+          "sample": {
+            "productNumber": "131238",
+            "description": "WHALE DIAPHRAGM SUIT COMPAC 50",
+            "categoryImage": "../images/catalogue/pages/page0481.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "t and outlet mount bases are set at 45º relative to the pump body and have a square base that can be rotated, giving four possible hose directions on each side • Pump body can be rotated to accommodate different hose direction requirements • Supplied complete with deck plate BLA Code Capacity Max. Lift Max. Head Hose Size Mount Screws L/m g/m m m mm mm 131012 35 9.2 3 4 25 6 c/s Spare Parts: 131230 Service kit - nitrile 131231 Deck plate kit 131232 Spare removable handle 131236 Ring clamping kit 131237 Rubber grip 131238 Diaphragm 131239 Rocker arm 131258 Valve inlet 131259 Valve outlet N.B. Capacity measured at 70 strokes per minute. 131044 131045 121 210 103x120 166 275 248 125 395 220 170 133 131044 280 277 248 140 131046 395 220 248 152",
+            "price": 34.2
+          },
+          "file": "pumps-plumbing-and-galley--fresh-water-and-washdown-pumps.json"
+        },
+        {
+          "name": "Galley, Sinks & Showers",
+          "count": 34,
+          "minPrice": 21.93,
+          "sample": {
+            "productNumber": "130156",
+            "description": "WHALE SWIM N RINSE SHOWER MIXER WITH COVER AND LOCK",
+            "categoryImage": "../images/catalogue/pages/page0285.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "connect to system 15 (2 pack) BLA Code Description Mount Base mm Hose Size mm Height Above Bench mm Mount Screws mm 134108 Mixer 164 x 55 12 120 4 c/s Spare Parts: 134602 Tap service kit 134603 Tap knob, stem, red and blue rings 134609 Replacement handset – 1/2\" BSP 136637 Adaptor to connect to system 15 (2 pack) Superceded Parts 134606 Replacement handset – 3/8\" BSP BLA Code Description Cover Lock Tap Tall BSP Mount Screws mm 134112 Mixer swim/rinse No - ½\" ext. 6 c/s 134113 Mixer swim/rinse Yes No ½\" ext. 6 c/s 130156 Mixer swim/rinse Yes Yes ½\" ext. 6 c/s Spare Parts: 134602 Tap service kit 134603 Tap knob, stem, red and blue rings 134608 Replacement hose, 1/2\" and 3/8\" BSP metal ends, 2.1m 134609 Replacement handset – 1/2\" BSP Superceded Parts: 134606 Replacement handset – 3/8\" BSP 180 298 134104 134113 N.B. Space must be available beneath tap for shower hose storage. N.B. Space must be available beneath tap for shower hose storage. 110 88",
+            "price": 397.54
+          },
+          "file": "pumps-plumbing-and-galley--galley-sinks-and-showers.json"
+        },
+        {
+          "name": "General Pumps, Plumbing & Galley",
+          "count": 390,
+          "minPrice": 18.95,
+          "sample": {
+            "productNumber": "130146",
+            "description": "WHALE AQUASMART DISPOSABLE FILTER",
+            "categoryImage": "../images/catalogue/pages/page0481.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "Pumps, Plumbing & Galley from the BLA Australia catalogue.",
+            "price": 55.59
+          },
+          "file": "pumps-plumbing-and-galley--general-pumps-plumbing-and-galley.json"
+        },
+        {
+          "name": "Hoses, Fittings & Valves",
+          "count": 456,
+          "minPrice": 12.63,
+          "sample": {
+            "productNumber": "130215",
+            "description": "WHALE WATER MASTER MAINS ADAPTER TRUMA",
+            "categoryImage": "../images/catalogue/pages/page0481.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "Pumps, Plumbing & Galley from the BLA Australia catalogue.",
+            "price": 48.79
+          },
+          "file": "pumps-plumbing-and-galley--hoses-fittings-and-valves.json"
+        },
+        {
+          "name": "Manual Pumps & Service Kits",
+          "count": 141,
+          "minPrice": 20.34,
+          "sample": {
+            "productNumber": "130372",
+            "description": "WHALE SMARTFLO SERVICE KIT PUMP HEAD",
+            "categoryImage": "../images/catalogue/pages/page0285.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "uick Connection Filter Assembly Whale® On Board Microswitch Kit • On Board Pump Microswitch Kit • (for Smartflo or Watermaster On Board) Contains 1 Microswitch Whale® On Board Replacement Pump Head • On Board Pump Replacement Pump Head • (for Smartflo or Watermaster On Board) SPX PUMProtector Stainer Features a removable transparent cover for simple inspection and servicing. The 40 mesh is ideal for use with water pressure or wash down pumps. BLA Code 131738 BLA Code 130374 BLA Code 130370 BLA Code 133160 BLA Code 130372 Whale® Pressure Switch MK2 Recommended for use with the Whale® in-line submersible and non-automatic pumps installed in conjunction with Whale® Elegance faucets. The pressure switch detects pressure drop with the opening of any tap in the system and activates the pump instantly. Adjustable pressure setting to a maximum of 2.6 bar (30 psi). Requires 1 x pack, (pair) 136637 for use with Quick Connect 15 system, additionally 2 x 136657 for use with 1/2\" hose. BLA Power Length Width Height Code V amp mm mm mm 133471 1",
+            "price": 211.59
+          },
+          "file": "pumps-plumbing-and-galley--manual-pumps-and-service-kits.json"
+        },
+        {
+          "name": "Tanks & Plumbing Accessories",
+          "count": 13,
+          "minPrice": 22.72,
+          "sample": {
+            "productNumber": "131742",
+            "description": "JOHNSON PUMP LIVE BAIT TANK",
+            "categoryImage": "../images/catalogue/pages/page0285.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "ight. BLA Code Face size mm Volts 131728 60x40 12 hose not included Sant Marine Live Bait Tank Ready to install, moulded polyethylene live bait tank. Supplied complete with transom mount water pick-up and 12 volt submersible pump. Incorporates storage recess hinged lid. 20mm overflow outlet with filter and 20mm inlet that connects via hose (not included) to the pump. BLA Code Length mm Width mm Height mm 395202 585 340 335 N.B. Pump is not self priming, requiring gravity feed. BLA Code Length mm Width mm Height mm 131742 400 265 295 Spare Part: 173422 Lid Live Bait Tank Live bait tank 30l moulded polyethylene. Livewell Aerator Control This unit features a solid state timer with adjustable cyclic run times. Run time is approximately 1.5 minutes, off time is variable from 1–10 minutes. Three way toggle switch-off/manual/ auto. Suitable for all livewell pumps to 10 amps. Black moulded plastic face with white raised lettering. BLA Code Face Size mm Cut Out mm Intrusion mm Mount Screws mm 131726 85 x 85 60 x 52 55 4 c/s",
+            "price": 223.32
+          },
+          "file": "pumps-plumbing-and-galley--tanks-and-plumbing-accessories.json"
+        },
+        {
+          "name": "Toilets, Sanitation & Waste",
+          "count": 48,
+          "minPrice": 29.83,
+          "sample": {
+            "productNumber": "131019",
+            "description": "WHALE MK5 SANITATION MANUAL BLACK WASTE PUMP BULKHEAD MOUNT",
+            "categoryImage": "../images/catalogue/pages/page0285.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "tructed from stainless steel, phosphor bronze, acetal, glass reinforced polypropylene, glass reinforced nylon and nitrile rubber. BLA Code Capacity Max. Lift Max. Head Hose Size Mount Screws L/m g/m m m mm mm 131016 66 17.5 4.5 4.5 38 6r/h Accessories: 131150 Through deck conversion kit Spare Parts: 131240 Service kit – nitrile 131242 Spare removable handle 131249 Diaphragm only – nitrile N.B. Capacity measured at 70 strokes per minute. BLA Code Capacity Max. Lift Max. Head Hose Size Mount Screws L/m g/m m m mm mm 131019 66 17.5 4.5 4.5 38 6r/h Spare Parts: 131240 Service kit – nitrile 131242 Spare removable handle 131249 Diaphragm only – nitrile N.B. Capacity measured at 70 strokes per minute. BLA Code Capacity Max. Lift Max. Head Hose Size Mount Screws L/m g/m m m mm mm 131022 104 27.5 4.5 4.5 38 8r/h Accessories: 131150 Through deck conversion kit N.B. Capacity measured at 70 strokes per minute. 280 700 224 253 141 205 240 470 202 205 470 141 131150 260",
+            "price": 303.7
+          },
+          "file": "pumps-plumbing-and-galley--toilets-sanitation-and-waste.json"
+        },
+        {
+          "name": "Whale System 12 Plumbing",
+          "count": 41,
+          "minPrice": 22.15,
+          "sample": {
+            "productNumber": "130100",
+            "description": "WHALE SYSTEM 12 TUBING BLUE 30M",
+            "categoryImage": "../images/catalogue/pages/page0481.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "de materials. Features: • Unique 'double gripper' provides secure lifelong tube retention even at excessive pressures • Collet has internal support ring ensuring O-ring seal is held in position and does not distort or leak under pressure • The innovative, tube supporting, 'cage collet' design eliminates leaks where fittings are close to tight bends • High integrity single piece moulding for reliability and strength • Outer sleeve incorporates collet cover preventing accidental tube release BLA Code Length m Colour 130100 30 Blue 130104 30 Red 130102 100 Blue BLA Code Suits Hose Int. Dia.. in mm 130112 3/8 10 130113 1/2 13 BLA Code Thread BSP 130116 1/2\" Whale® Stem Elbow - Quick Connect 12 Elbow fitting accepts Quick Connect 12 tubing one end, 12mm stem fitting the other. BLA Code 130122 To assemble Fig 1 Fig 2 Cut to length by making a straight clean cut (use Whale® tube cutters on a mark). Simply push the tube into the fitting up to the internal stop. Fig 3 Push back on the grey collet against the face of fitting. Fig 4 Hold the",
+            "price": 111.86
+          },
+          "file": "pumps-plumbing-and-galley--whale-system-12-plumbing.json"
+        }
+      ]
+    },
+    {
+      "name": "Refrigeration",
+      "count": 118,
+      "minPrice": 88.45,
+      "sample": {
+        "productNumber": "381500",
+        "description": "ISOTHERM COMPACT CLASSIC SYSTEM 125/40L L EVAPORATOR",
+        "categoryImage": "../images/catalogue/pages/page0481.jpg",
+        "imagePath": "",
+        "thumbnailPath": "",
+        "catalogueDescription": "Refrigeration from the BLA Australia catalogue.",
+        "price": 2216.71
+      },
+      "subcategories": [
+        {
+          "name": "Marine Refrigeration Systems",
+          "count": 118,
+          "minPrice": 88.45,
+          "sample": {
+            "productNumber": "381500",
+            "description": "ISOTHERM COMPACT CLASSIC SYSTEM 125/40L L EVAPORATOR",
+            "categoryImage": "../images/catalogue/pages/page0481.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "Refrigeration from the BLA Australia catalogue.",
+            "price": 2216.71
+          },
+          "file": "refrigeration--marine-refrigeration-systems.json"
+        }
+      ]
+    },
+    {
+      "name": "Rigging & Architectural",
+      "count": 438,
+      "minPrice": 13.06,
+      "sample": {
+        "productNumber": "035777",
+        "description": "SEASTAR 30 SERIES STAINLESS STEEL SHIM",
+        "categoryImage": "../images/catalogue/pages/page0481.jpg",
+        "imagePath": "",
+        "thumbnailPath": "",
+        "catalogueDescription": "Rigging & Architectural from the BLA Australia catalogue.",
+        "price": 34.34
+      },
+      "subcategories": [
+        {
+          "name": "General Rigging & Architectural",
+          "count": 38,
+          "minPrice": 17.34,
+          "sample": {
+            "productNumber": "162145",
+            "description": "BLA COPPER STOP SWAGE 3MM",
+            "categoryImage": "../images/catalogue/pages/page0481.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": ".1 162158 1 5 3/16 10.9 162160 1 6.4 1/4 12.7 162164 1 8 5/16 17 'P' - Denotes packaged item 162154P 162148 BLA Socket Head Tensioner - Stainless Steel 316 grade stainless steel, internal threaded tensioner commonly used in balustrading applications in conjunction with external threaded swage terminals. BLA Code Thread A mm B mm C mm D mm 162334 M5 33 30 8 12 B A C D Stop Swage - Copper Extruded copper swage with single hole, used to produce an end stop on stainless steel wire cables. BLA Code Rope/Wire Dia. mm in 162145 3 1/8 BLA Code Rope/Wire Dia. Die Cavity mm in mm 162183 1.5-2 1/16-5/64 4.9 162185 3 1/8 7.3 162186 4 5/32 9.1 162187 5 3/16 10.9 162189 6.4 1/4 12.7 Clamp Swages - Alloy Suitable for hand or hydraulic swaging of galvanised wire. Not suitable for stainless steel wire. Suitable for use on metric and imperial wire. BLA Thimbles - Pressed Stainless Steel 304 grade pressed stainless steel thimbles, suitable for rope or wire.",
+            "price": 18.78
+          },
+          "file": "rigging-and-architectural--general-rigging-and-architectural.json"
+        },
+        {
+          "name": "Shackles, Hooks & Clips",
+          "count": 10,
+          "minPrice": 18.39,
+          "sample": {
+            "productNumber": "164046B5",
+            "description": "BLA S/STEEL ASYMMETRIC SNAP HOOK G316 80MMX8MM BULK 5",
+            "categoryImage": "../images/catalogue/pages/page0937.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "4106 1 100 21 11 250 164108 1 118 22 13 340 'P' - Denotes packaged item BLA Snap Hooks - Stainless Steel Cast 316 grade stainless steel snap hook. Smooth, snag free design. Simple but positive torsion spring gate. Only one moving part. Inward opening. BLA Asymmetric Snap Hooks - Stainless Steel 316 grade stainless steel snap hooks that feature a torsion spring gate. Only one moving part. Inward opening. BLA Code Pack Qty Length mm Rod Dia. mm Max. Opening mm Deforms At kg 164044 1 60 6 12 750 164046 1 80 8 17 1750 164046B5 5 80 8 17 1750 164048 1 100 10 22 2250 164050 1 120 12 28 3650 'B' - Denotes bulk packed item BLA Code Pack Qty A mm B mm Max. Opening mm Deforms At kg 164072 1 50 6 11 220 164072P 1 50 6 11 220 164072B5 5 50 6 11 220 164074 1 70 10 12 500 164074P 1 70 10 12 500 164074B5 5 70 10 12 500 164076 1 95 15 20 900 'B' - Denotes bulk packed item 'P' - Denotes packaged item 164044 B A 164072 B A 164108 164072P 164102P B A 164204 Swivel & Fixed Eye Snap Hooks - Brass Cast brass snap hook. Large swivel or fixed bale head opt",
+            "price": 47.65
+          },
+          "file": "rigging-and-architectural--shackles-hooks-and-clips.json"
+        },
+        {
+          "name": "Stainless Rigging Fittings",
+          "count": 390,
+          "minPrice": 13.06,
+          "sample": {
+            "productNumber": "035777",
+            "description": "SEASTAR 30 SERIES STAINLESS STEEL SHIM",
+            "categoryImage": "../images/catalogue/pages/page0481.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "Rigging & Architectural from the BLA Australia catalogue.",
+            "price": 34.34
+          },
+          "file": "rigging-and-architectural--stainless-rigging-fittings.json"
+        }
+      ]
+    },
+    {
+      "name": "Rope",
+      "count": 93,
+      "minPrice": 39.66,
+      "sample": {
+        "productNumber": "351206",
+        "description": "BLA ADMIRAL DOUBLE BRAID ROPE 6MM X 100M BLUE FLECK",
+        "categoryImage": "../images/catalogue/pages/page0369.jpg",
+        "imagePath": "",
+        "thumbnailPath": "",
+        "catalogueDescription": "........... 916 341106............................................. 916 341108............................................. 916 341154............................................. 918 341206............................................. 917 341308............................................. 917 341310............................................. 917 345002............................................. 918 345004............................................. 918 345020............................................. 918 351206............................................. 920 351208............................................. 920 351210............................................. 920 351212............................................. 920 351246............................................. 920 351248............................................. 920 351250............................................. 920 351252............................................. 920 351286............................................. 920 351288................",
+        "price": 147.56
+      },
+      "subcategories": [
+        {
+          "name": "Anchor, Utility & General Rope",
+          "count": 65,
+          "minPrice": 39.66,
+          "sample": {
+            "productNumber": "353104",
+            "description": "BLA VENETIAN BLIND CORD 2MM X 100M WHITE",
+            "categoryImage": "../images/catalogue/pages/page0369.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "....................... 920 351412............................................. 920 351446............................................. 920 351450............................................. 920 351452............................................. 920 351486............................................. 920 351492............................................. 920 352912.....................................383, 923 352914.....................................383, 923 352918.....................................383, 923 353104............................................. 923 353109............................................. 923 353124............................................. 923 353129............................................. 923 353144............................................. 923 353146............................................. 923 353149............................................. 923 353160P........................................... 921 353204............................................. 923 353206.................",
+            "price": 39.66
+          },
+          "file": "rope--anchor-utility-and-general-rope.json"
+        },
+        {
+          "name": "Double Braid & Dock Lines",
+          "count": 24,
+          "minPrice": 147.56,
+          "sample": {
+            "productNumber": "351206",
+            "description": "BLA ADMIRAL DOUBLE BRAID ROPE 6MM X 100M BLUE FLECK",
+            "categoryImage": "../images/catalogue/pages/page0369.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "........... 916 341106............................................. 916 341108............................................. 916 341154............................................. 918 341206............................................. 917 341308............................................. 917 341310............................................. 917 345002............................................. 918 345004............................................. 918 345020............................................. 918 351206............................................. 920 351208............................................. 920 351210............................................. 920 351212............................................. 920 351246............................................. 920 351248............................................. 920 351250............................................. 920 351252............................................. 920 351286............................................. 920 351288................",
+            "price": 147.56
+          },
+          "file": "rope--double-braid-and-dock-lines.json"
+        },
+        {
+          "name": "General Rope",
+          "count": 2,
+          "minPrice": 87.43,
+          "sample": {
+            "productNumber": "359020",
+            "description": "TREM LIFELINE NETTING 30M",
+            "categoryImage": "../images/catalogue/pages/page0481.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "........... 921 354922............................................. 921 354924............................................. 921 354926............................................. 921 354928............................................. 921 354930............................................. 921 354934............................................. 921 354938............................................. 921 354960............................................. 921 354964............................................. 921 359020............................................. 924 359028............................................. 924 359030............................................. 924 359050............................................. 924 359060............................................. 924 359520............................................. 924 359530............................................. 924 359532............................................. 924 381502............................................. 934 381504................",
+            "price": 360.79
+          },
+          "file": "rope--general-rope.json"
+        },
+        {
+          "name": "Shock Cord & Specialty Rope",
+          "count": 2,
+          "minPrice": 351.56,
+          "sample": {
+            "productNumber": "359050",
+            "description": "BLA POLYESTER WEBBING 25MMX100M BLACK",
+            "categoryImage": "../images/catalogue/pages/page0481.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "........... 921 354928............................................. 921 354930............................................. 921 354934............................................. 921 354938............................................. 921 354960............................................. 921 354964............................................. 921 359020............................................. 924 359028............................................. 924 359030............................................. 924 359050............................................. 924 359060............................................. 924 359520............................................. 924 359530............................................. 924 359532............................................. 924 381502............................................. 934 381504............................................. 934 381506............................................. 934 381507............................................. 934 381508................",
+            "price": 351.56
+          },
+          "file": "rope--shock-cord-and-specialty-rope.json"
+        }
+      ]
+    },
+    {
+      "name": "Safety Equipment",
+      "count": 123,
+      "minPrice": 18.1,
+      "sample": {
+        "productNumber": "221001",
+        "description": "BLA TIMBER & PLASTIC OAR PAIR 1.68M",
+        "categoryImage": "../images/catalogue/pages/page0481.jpg",
+        "imagePath": "",
+        "thumbnailPath": "",
+        "catalogueDescription": "........... 681 215226............................................. 681 215228............................................. 681 215232............................................. 681 215234............................................. 681 215240............................................. 680 215250............................................. 679 215252............................................. 679 215300............................................. 676 215302............................................. 676 221001............................................. 694 221002............................................. 694 221003............................................. 694 221004............................................. 694 221005............................................. 694 221042............................................. 695 221048............................................. 695 221049............................................. 695 221052............................................. 695 221054................",
+        "price": 179.66
+      },
+      "subcategories": [
+        {
+          "name": "Fire, First Aid & Emergency Gear",
+          "count": 19,
+          "minPrice": 18.1,
+          "sample": {
+            "productNumber": "223200",
+            "description": "BLA WHISTLE PEALESS",
+            "categoryImage": "../images/catalogue/pages/page0481.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "............ 693 221082............................................. 693 221083............................................. 693 221090............................................. 693 221092............................................. 693 221094............................................. 693 222112............................................. 685 222140............................................. 686 222140B........................................... 686 223180............................................. 686 223200............................................. 692 223210............................................. 686 223220............................................. 687 223222............................................. 687 223604............................................. 693 224002............................................. 689 224004............................................. 689 224006............................................. 689 225002............................................. 692",
+            "price": 18.1
+          },
+          "file": "safety-equipment--fire-first-aid-and-emergency-gear.json"
+        },
+        {
+          "name": "Flares, EPIRBs & Signalling",
+          "count": 3,
+          "minPrice": 25.38,
+          "sample": {
+            "productNumber": "222112",
+            "description": "BLA FLARE CONTAINER POLY SMALL",
+            "categoryImage": "../images/catalogue/pages/page0683.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "............... 695 221066............................................. 695 221070......................................693-694 221080............................................. 693 221081............................................. 693 221082............................................. 693 221083............................................. 693 221090............................................. 693 221092............................................. 693 221094............................................. 693 222112............................................. 685 222140............................................. 686 222140B........................................... 686 223180............................................. 686 223200............................................. 692 223210............................................. 686 223220............................................. 687 223222............................................. 687 223604............................................. 693 224002.................",
+            "price": 52.1
+          },
+          "file": "safety-equipment--flares-epirbs-and-signalling.json"
+        },
+        {
+          "name": "General Safety Equipment",
+          "count": 72,
+          "minPrice": 20.62,
+          "sample": {
+            "productNumber": "221001",
+            "description": "BLA TIMBER & PLASTIC OAR PAIR 1.68M",
+            "categoryImage": "../images/catalogue/pages/page0481.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "........... 681 215226............................................. 681 215228............................................. 681 215232............................................. 681 215234............................................. 681 215240............................................. 680 215250............................................. 679 215252............................................. 679 215300............................................. 676 215302............................................. 676 221001............................................. 694 221002............................................. 694 221003............................................. 694 221004............................................. 694 221005............................................. 694 221042............................................. 695 221048............................................. 695 221049............................................. 695 221052............................................. 695 221054................",
+            "price": 179.66
+          },
+          "file": "safety-equipment--general-safety-equipment.json"
+        },
+        {
+          "name": "Lifejackets & PFDs",
+          "count": 21,
+          "minPrice": 19.8,
+          "sample": {
+            "productNumber": "226061",
+            "description": "BLA LIGHT SOLAS PFD OVERBOARD FLASH LITHIUM",
+            "categoryImage": "../images/catalogue/pages/page0253.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "................... 692 225994............................................. 688 226000............................................. 688 226002............................................. 687 226004............................................. 688 226010......................................688-689 226012......................................688-689 226028............................................. 688 226030............................................. 688 226031............................................. 689 226061............................................. 686 226400............................................. 687 226450W.......................................... 684 226451............................................. 684 226452............................................. 684 226452W.......................................... 684 226454............................................. 684 226454W.......................................... 684 226455............................................. 685 226456......................",
+            "price": 50.03
+          },
+          "file": "safety-equipment--lifejackets-and-pfds.json"
+        },
+        {
+          "name": "Safety Lines, Harnesses & Rescue",
+          "count": 8,
+          "minPrice": 41.7,
+          "sample": {
+            "productNumber": "225994",
+            "description": "TREM LIFEBUOY ECONOMY FOAM FILLED 650MM",
+            "categoryImage": "../images/catalogue/pages/page0683.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "BLA CODE INDEX boatinglifestyleadventure BOATING LIFESTYLE ADVENTURE 225004............................................. 692 225008............................................. 692 225994............................................. 688 226000............................................. 688 226002............................................. 687 226004............................................. 688 226010......................................688-689 226012......................................688-689 226028............................................. 688 226030............................................. 688 226031............................................. 689 226061........................",
+            "price": 242.79
+          },
+          "file": "safety-equipment--safety-lines-harnesses-and-rescue.json"
+        }
+      ]
+    },
+    {
+      "name": "Sailboat Hardware & Sheet Winches",
+      "count": 547,
+      "minPrice": 16.86,
+      "sample": {
+        "productNumber": "420300",
+        "description": "LEWMAR SYNCHRO SINGLE BLOCK 50MM",
+        "categoryImage": "../images/catalogue/pages/page0481.jpg",
+        "imagePath": "",
+        "thumbnailPath": "",
+        "catalogueDescription": "........... 520 402054............................................. 520 402064............................................. 525 402065............................................. 525 402066............................................. 524 402068............................................. 524 402070............................................. 524 402072............................................. 524 402074............................................. 530 403434............................................. 948 420300............................................. 959 420330............................................. 959 420336............................................. 959 420354............................................. 959 420360............................................. 959 420366............................................. 959 420372............................................. 959 420378............................................. 959 420384............................................. 959 420390................",
+        "price": 70.72
+      },
+      "subcategories": [
+        {
+          "name": "Blocks, Cleats & Deck Organisers",
+          "count": 236,
+          "minPrice": 26.21,
+          "sample": {
+            "productNumber": "420300",
+            "description": "LEWMAR SYNCHRO SINGLE BLOCK 50MM",
+            "categoryImage": "../images/catalogue/pages/page0481.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "........... 520 402054............................................. 520 402064............................................. 525 402065............................................. 525 402066............................................. 524 402068............................................. 524 402070............................................. 524 402072............................................. 524 402074............................................. 530 403434............................................. 948 420300............................................. 959 420330............................................. 959 420336............................................. 959 420354............................................. 959 420360............................................. 959 420366............................................. 959 420372............................................. 959 420378............................................. 959 420384............................................. 959 420390................",
+            "price": 70.72
+          },
+          "file": "sailboat-hardware-and-sheet-winches--blocks-cleats-and-deck-organisers.json"
+        },
+        {
+          "name": "General Sailboat Hardware & Sheet Winches",
+          "count": 232,
+          "minPrice": 16.86,
+          "sample": {
+            "productNumber": "420899",
+            "description": "LEWMAR LABEL FUNCTION SHEET CLUTCH SET",
+            "categoryImage": "../images/catalogue/pages/page0481.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "BLA CODE INDEX boatinglifestyleadventure BOATING LIFESTYLE ADVENTURE 420792............................................. 962 420830............................................. 962 420899............................................. 965 420900............................................. 965 420904............................................. 965 420910............................................. 965 420912............................................. 965 420920............................................. 965 420922............................................. 965 420924............................................. 965 420926............................................. 965 420928................",
+            "price": 24.51
+          },
+          "file": "sailboat-hardware-and-sheet-winches--general-sailboat-hardware-and-sheet-winches.json"
+        },
+        {
+          "name": "Sheet Winches & Handles",
+          "count": 79,
+          "minPrice": 73.69,
+          "sample": {
+            "productNumber": "430201",
+            "description": "LEWMAR STANDARD SHEET WINCH 7A ALLOY GREY",
+            "categoryImage": "../images/catalogue/pages/page0481.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "Sailboat Hardware & Sheet Winches from the BLA Australia catalogue.",
+            "price": 838.18
+          },
+          "file": "sailboat-hardware-and-sheet-winches--sheet-winches-and-handles.json"
+        }
+      ]
+    },
+    {
+      "name": "Seats & Accessories",
+      "count": 267,
+      "minPrice": 52.13,
+      "sample": {
+        "productNumber": "181010",
+        "description": "BLA MARINE BEAN BAG CHARCOAL GREY",
+        "categoryImage": "../images/catalogue/pages/page0481.jpg",
+        "imagePath": "",
+        "thumbnailPath": "",
+        "catalogueDescription": "carbon 45 x 1.4 1582 Vinyl Rolls Designed specifically for marine, RV and outdoor applications the marine upholstery collection offers premium top of the line weather resistant marine grade vinyl fabrics. Optimal U.V. and mildew protection helps extend the lifetime of the upholstery. Available in a wide range of textures and colours allowing you to match the BLA range of seating for rear lounges and gunwale trims. Features: • Anti-bacterial • Abrasion resistant • U.V. resistant • Mildew resistant • Flame retardant 181010 181550 181012 181014 Carry securing handles Twin zippers BLA Code Colour 181010 Grey/charcoal 181012 Cream/tan 181014 Blue/grey Marine Bean Bags The BLA Marine bean bag is made from our top of the line weather resistant marine grade vinyl, as used in our premium seating products. The bean bag has been designed to conform to your body as well as providing support to your head. This is the ideal seating accompaniment for lounging around the foredeck, rigging baits whilst stationary or underway. This is also perfect",
+        "price": 360.23
+      },
+      "subcategories": [
+        {
+          "name": "Bean Bags & Soft Furnishings",
+          "count": 3,
+          "minPrice": 360.23,
+          "sample": {
+            "productNumber": "181010",
+            "description": "BLA MARINE BEAN BAG CHARCOAL GREY",
+            "categoryImage": "../images/catalogue/pages/page0481.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "carbon 45 x 1.4 1582 Vinyl Rolls Designed specifically for marine, RV and outdoor applications the marine upholstery collection offers premium top of the line weather resistant marine grade vinyl fabrics. Optimal U.V. and mildew protection helps extend the lifetime of the upholstery. Available in a wide range of textures and colours allowing you to match the BLA range of seating for rear lounges and gunwale trims. Features: • Anti-bacterial • Abrasion resistant • U.V. resistant • Mildew resistant • Flame retardant 181010 181550 181012 181014 Carry securing handles Twin zippers BLA Code Colour 181010 Grey/charcoal 181012 Cream/tan 181014 Blue/grey Marine Bean Bags The BLA Marine bean bag is made from our top of the line weather resistant marine grade vinyl, as used in our premium seating products. The bean bag has been designed to conform to your body as well as providing support to your head. This is the ideal seating accompaniment for lounging around the foredeck, rigging baits whilst stationary or underway. This is also perfect",
+            "price": 360.23
+          },
+          "file": "seats-and-accessories--bean-bags-and-soft-furnishings.json"
+        },
+        {
+          "name": "Boat Seats & Cushions",
+          "count": 141,
+          "minPrice": 52.13,
+          "sample": {
+            "productNumber": "181032",
+            "description": "BLA SEAT CUSHION 1300MM",
+            "categoryImage": "../images/catalogue/pages/page0457.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "tected waterways. Used in conjunction with Hi-Lo seating system (refer to page 477). Moulded poly base covered with thick foam padding and marine grade vinyl. ¼\" (6.3mm) UNC threaded inserts in base. Seat Cushions - Tinnie Fully upholstered seat padding that press stud mounts onto tinnie bench seats. U.V. stabilised marine quality vinyl. High density foam padding. Includes studs and alloy pop rivets for mounting. Available in blue or grey. Standard mount hole pattern BLA Code Colour Length mm Width mm Thickness mm 181032 Blue 1300 330 20 BLA Code Colour Length mm Width mm Thickness mm 181040 Blue 600 300 50 181040G Grey 600 300 50 181044 Blue 1200 300 50 181044G Grey 1200 300 50 181046 Blue 1500 400 50 181046G Grey 1500 300 50 BLA Code Colour Height mm Width mm Depth mm Mount Screws UNC 181047 Grey 140 390 290 ¼\" 181040 181044G Bay Seats - Shell The Bay seat range is based on a tough versatile blow moulded shell. A range of upholstery and mount options enables the Bay seat to accommodate numerous marine seating requirements from a",
+            "price": 115.6
+          },
+          "file": "seats-and-accessories--boat-seats-and-cushions.json"
+        },
+        {
+          "name": "General Seats & Accessories",
+          "count": 2,
+          "minPrice": 151.32,
+          "sample": {
+            "productNumber": "182108",
+            "description": "SPRINGFIELD LOCKING HANDLE LARGE SUIT 73MM",
+            "categoryImage": "../images/catalogue/pages/page0481.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "Seats & Accessories from the BLA Australia catalogue.",
+            "price": 285.14
+          },
+          "file": "seats-and-accessories--general-seats-and-accessories.json"
+        },
+        {
+          "name": "Leaning Posts & Helm Modules",
+          "count": 3,
+          "minPrice": 399.36,
+          "sample": {
+            "productNumber": "181225",
+            "description": "BLA SEAT CUSHION ONLY FOR LEANING POST",
+            "categoryImage": "../images/catalogue/pages/page0457.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "Seats & Accessories from the BLA Australia catalogue.",
+            "price": 399.36
+          },
+          "file": "seats-and-accessories--leaning-posts-and-helm-modules.json"
+        },
+        {
+          "name": "Marine Upholstery Vinyl",
+          "count": 13,
+          "minPrice": 60.38,
+          "sample": {
+            "productNumber": "181240",
+            "description": "BLA FLIP BACK SEAT SHELL ONLY NO UPHOLSTERY",
+            "categoryImage": "../images/catalogue/pages/page0457.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "TYLE ADVENTURE Slide mount hole pattern 181238 181236 181237 Flip Back Seat A fully upholstered seat with flip back rest for facing forward or backward seating positions. Ideal for multi-purpose boats where forward travelling seating is required as well as back facing seating for observing lures, skiers and similar. The styling also allows side by side installation for twin or multiple bench style seating. Aluminium flip mechanism and U.V. stabilised marine grade white vinyl. The shell can be purchased separately (181240) for those wanting to custom upholster. BLA Code Colour Height mm Width mm Depth mm 181236 White 520 485 635 181237 Grey/charcoal 520 485 635 181238 White carbon/black carbon 520 485 635 181240 Shell only no upholsterry 520 485 635 Slide mount hole pattern Flip Up Seat A truly versatile seat particularly suited to sports cruisers and sport fishing boats. Flip back rest for forward and backward facing seating positions. Flip up seat bolster for seated or supported standing positions. Supplied with luxurious U.V. st",
+            "price": 408.11
+          },
+          "file": "seats-and-accessories--marine-upholstery-vinyl.json"
+        },
+        {
+          "name": "Seat Pedestals, Slides & Mounts",
+          "count": 42,
+          "minPrice": 88.43,
+          "sample": {
+            "productNumber": "182114",
+            "description": "SPRINGFIELD HEAVY DUTY LOCKING SLIDE RAILS",
+            "categoryImage": "../images/catalogue/pages/page0481.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "Seats & Accessories from the BLA Australia catalogue.",
+            "price": 253.52
+          },
+          "file": "seats-and-accessories--seat-pedestals-slides-and-mounts.json"
+        },
+        {
+          "name": "Suspension Seating & Shock Mitigation",
+          "count": 62,
+          "minPrice": 69.07,
+          "sample": {
+            "productNumber": "182158",
+            "description": "BLA SEAT SUSPENSION SEAT ADAPTER",
+            "categoryImage": "../images/catalogue/pages/page0457.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "Seats & Accessories from the BLA Australia catalogue.",
+            "price": 170.22
+          },
+          "file": "seats-and-accessories--suspension-seating-and-shock-mitigation.json"
+        },
+        {
+          "name": "Tables, Storage & Boat Fitout",
+          "count": 1,
+          "minPrice": 353.77,
+          "sample": {
+            "productNumber": "183242",
+            "description": "ATTWOOD EEZE IN QUICK RELEASE TABLE SYSTEM 4PC",
+            "categoryImage": "../images/catalogue/pages/page0457.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "Seats & Accessories from the BLA Australia catalogue.",
+            "price": 353.77
+          },
+          "file": "seats-and-accessories--tables-storage-and-boat-fitout.json"
+        }
+      ]
+    },
+    {
+      "name": "Steering Wheels",
+      "count": 56,
+      "minPrice": 27.45,
+      "sample": {
+        "productNumber": "271002",
+        "description": "SEASTAR SOLUTIONS STEERING WHEEL MEDALLION SMALL",
+        "categoryImage": "../images/catalogue/pages/page0659.jpg",
+        "imagePath": "",
+        "thumbnailPath": "",
+        "catalogueDescription": "........... 748 268390............................................. 749 268392............................................. 749 268393............................................. 749 268395............................................. 750 268396............................................. 750 268397............................................. 751 268398............................................. 751 268399............................................. 751 268406............................................. 750 271002......................................760-763 271003.............................759, 762-763 271004............................................. 756 271024............................................. 763 271026............................................. 763 271030............................................. 762 271040............................................. 763 271050............................................. 762 271060............................................. 762 271086............................",
+        "price": 27.45
+      },
+      "subcategories": [
+        {
+          "name": "Steering Wheels",
+          "count": 51,
+          "minPrice": 27.45,
+          "sample": {
+            "productNumber": "271002",
+            "description": "SEASTAR SOLUTIONS STEERING WHEEL MEDALLION SMALL",
+            "categoryImage": "../images/catalogue/pages/page0659.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "........... 748 268390............................................. 749 268392............................................. 749 268393............................................. 749 268395............................................. 750 268396............................................. 750 268397............................................. 751 268398............................................. 751 268399............................................. 751 268406............................................. 750 271002......................................760-763 271003.............................759, 762-763 271004............................................. 756 271024............................................. 763 271026............................................. 763 271030............................................. 762 271040............................................. 763 271050............................................. 762 271060............................................. 762 271086............................",
+            "price": 27.45
+          },
+          "file": "steering-wheels--steering-wheels.json"
+        },
+        {
+          "name": "Wheel Hubs & Accessories",
+          "count": 5,
+          "minPrice": 31.96,
+          "sample": {
+            "productNumber": "271008",
+            "description": "GUSSI MARINE HUB KIT 3/4\" TAPER",
+            "categoryImage": "../images/catalogue/pages/page0481.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "Steering Wheels from the BLA Australia catalogue.",
+            "price": 76.98
+          },
+          "file": "steering-wheels--wheel-hubs-and-accessories.json"
+        }
+      ]
+    },
+    {
+      "name": "Trailer Accessories",
+      "count": 234,
+      "minPrice": 19.94,
+      "sample": {
+        "productNumber": "210102",
+        "description": "SAVWINCH HAULER WINCH 1500WH-SS",
+        "categoryImage": "../images/catalogue/pages/page0481.jpg",
+        "imagePath": "",
+        "thumbnailPath": "",
+        "catalogueDescription": "Trailer Accessories from the BLA Australia catalogue.",
+        "price": 4129.07
+      },
+      "subcategories": [
+        {
+          "name": "Bearings, Hubs & Wheels",
+          "count": 21,
+          "minPrice": 39.44,
+          "sample": {
+            "productNumber": "213115",
+            "description": "VIKING WHEEL CHOCK 300X115X70MM",
+            "categoryImage": "../images/catalogue/pages/page0659.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "........... 674 213102............................................. 674 213105............................................. 675 213107............................................. 675 213108............................................. 675 213109............................................. 676 213110............................................. 676 213111............................................. 676 213112............................................. 679 213113............................................. 679 213115............................................. 676 213116............................................. 676 213117............................................. 670 213118............................................. 676 213119............................................. 676 213120............................................. 676 213124............................................. 675 213125............................................. 675 213126............................................. 682 213127................",
+            "price": 46.52
+          },
+          "file": "trailer-accessories--bearings-hubs-and-wheels.json"
+        },
+        {
+          "name": "Couplings, Jockey Wheels & Towing",
+          "count": 9,
+          "minPrice": 40.88,
+          "sample": {
+            "productNumber": "213112",
+            "description": "VIKING LOCK HITCH PIN SUITS 65-80MM HITCHES",
+            "categoryImage": "../images/catalogue/pages/page0481.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "........... 675 213100............................................. 674 213101............................................. 674 213102............................................. 674 213105............................................. 675 213107............................................. 675 213108............................................. 675 213109............................................. 676 213110............................................. 676 213111............................................. 676 213112............................................. 679 213113............................................. 679 213115............................................. 676 213116............................................. 676 213117............................................. 670 213118............................................. 676 213119............................................. 676 213120............................................. 676 213124............................................. 675 213125................",
+            "price": 106.28
+          },
+          "file": "trailer-accessories--couplings-jockey-wheels-and-towing.json"
+        },
+        {
+          "name": "General Trailer Accessories",
+          "count": 65,
+          "minPrice": 19.94,
+          "sample": {
+            "productNumber": "211111",
+            "description": "BLA LOW LOAD VALVE CONTROL",
+            "categoryImage": "../images/catalogue/pages/page0285.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "Trailer Accessories from the BLA Australia catalogue.",
+            "price": 258.09
+          },
+          "file": "trailer-accessories--general-trailer-accessories.json"
+        },
+        {
+          "name": "Trailer Lighting & Electrical",
+          "count": 19,
+          "minPrice": 26.86,
+          "sample": {
+            "productNumber": "214021",
+            "description": "ATLANTIC TRAILER LIGHT LED COMBO W/PROOF PAIR",
+            "categoryImage": "../images/catalogue/pages/page0253.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "........... 676 213124............................................. 675 213125............................................. 675 213126............................................. 682 213127............................................. 682 213128............................................. 680 213129............................................. 680 213133............................................. 681 213134............................................. 681 213135............................................. 681 214021............................................. 672 214022............................................. 672 214023............................................. 672 214024............................................. 672 214025............................................. 672 214028............................................. 672 214055............................................. 673 214056............................................. 673 214057............................................. 673 214058................",
+            "price": 171.27
+          },
+          "file": "trailer-accessories--trailer-lighting-and-electrical.json"
+        },
+        {
+          "name": "Trailer Winches, Rollers & Supports",
+          "count": 120,
+          "minPrice": 25.55,
+          "sample": {
+            "productNumber": "210102",
+            "description": "SAVWINCH HAULER WINCH 1500WH-SS",
+            "categoryImage": "../images/catalogue/pages/page0481.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "Trailer Accessories from the BLA Australia catalogue.",
+            "price": 4129.07
+          },
+          "file": "trailer-accessories--trailer-winches-rollers-and-supports.json"
+        }
+      ]
+    },
+    {
+      "name": "Trim Tabs & Thrusters",
+      "count": 317,
+      "minPrice": 33.23,
+      "sample": {
+        "productNumber": "312420",
+        "description": "LENCO HIGH PERFORMANCE TRIM TAB KIT 14\"X12\"",
+        "categoryImage": "../images/catalogue/pages/page0481.jpg",
+        "imagePath": "",
+        "thumbnailPath": "",
+        "catalogueDescription": "................................ 868 309924............................................. 854 309931............................................. 854 309952............................................. 868 309955.....873-874, 876-877, 880, 882, 884, 886 309956.....873-874, 876-877, 882, 884, 886 309987............................................. 854 309989............................................. 854 309990............................................. 854 309993............................................. 854 312420............................................. 899 312424............................................. 899 312431............................................. 898 312432............................................. 900 312433............................................. 898 312440............................................. 900 312441............................................. 898 312461............................................. 898 312466............................................. 898 312490................",
+        "price": 5094.87
+      },
+      "subcategories": [
+        {
+          "name": "Bow & Stern Thrusters",
+          "count": 70,
+          "minPrice": 33.23,
+          "sample": {
+            "productNumber": "316108",
+            "description": "LEWMAR BOW THRUSTER 185TT PROPORTIONAL 3KW 24V",
+            "categoryImage": "../images/catalogue/pages/page0481.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "Trim Tabs & Thrusters from the BLA Australia catalogue.",
+            "price": 8492.91
+          },
+          "file": "trim-tabs-and-thrusters--bow-and-stern-thrusters.json"
+        },
+        {
+          "name": "General Trim Tabs & Thrusters",
+          "count": 38,
+          "minPrice": 56.83,
+          "sample": {
+            "productNumber": "313202",
+            "description": "SEASTAR OPTIMUS ADAPTIVE CONTROLLER, DIAL",
+            "categoryImage": "../images/catalogue/pages/page0481.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "........... 893 313140............................................. 895 313142............................................. 895 313146............................................. 895 313148............................................. 895 313158............................................. 895 313160............................................. 894 313162............................................. 894 313200............................................. 896 313201............................................. 896 313202............................................. 896 313203............................................. 896 313220............................................. 896 313221............................................. 896 313224............................................. 896 313225............................................. 896 313226............................................. 896 313227............................................. 896 313230............................................. 896 313231................",
+            "price": 1709.09
+          },
+          "file": "trim-tabs-and-thrusters--general-trim-tabs-and-thrusters.json"
+        },
+        {
+          "name": "Trim Tab Kits",
+          "count": 198,
+          "minPrice": 50.2,
+          "sample": {
+            "productNumber": "312420",
+            "description": "LENCO HIGH PERFORMANCE TRIM TAB KIT 14\"X12\"",
+            "categoryImage": "../images/catalogue/pages/page0481.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "................................ 868 309924............................................. 854 309931............................................. 854 309952............................................. 868 309955.....873-874, 876-877, 880, 882, 884, 886 309956.....873-874, 876-877, 882, 884, 886 309987............................................. 854 309989............................................. 854 309990............................................. 854 309993............................................. 854 312420............................................. 899 312424............................................. 899 312431............................................. 898 312432............................................. 900 312433............................................. 898 312440............................................. 900 312441............................................. 898 312461............................................. 898 312466............................................. 898 312490................",
+            "price": 5094.87
+          },
+          "file": "trim-tabs-and-thrusters--trim-tab-kits.json"
+        },
+        {
+          "name": "Trim Tab Switches & Actuators",
+          "count": 11,
+          "minPrice": 197.2,
+          "sample": {
+            "productNumber": "313002",
+            "description": "SEASTAR PRO TRIM SWITCH SINGLE",
+            "categoryImage": "../images/catalogue/pages/page0061.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "........... 903 312806............................................. 903 312808............................................. 903 312846............................................. 902 312868............................................. 906 312874............................................. 906 312876............................................. 906 312878............................................. 906 312882............................................. 906 312884............................................. 906 313002.....................................635, 764 313004.....................................635, 764 313100............................................. 893 313102............................................. 893 313104............................................. 893 313106............................................. 893 313112............................................. 893 313114............................................. 893 313118............................................. 893 313140........................",
+            "price": 360.17
+          },
+          "file": "trim-tabs-and-thrusters--trim-tab-switches-and-actuators.json"
+        }
+      ]
+    },
+    {
+      "name": "Watersports",
+      "count": 33,
+      "minPrice": 44.59,
+      "sample": {
+        "productNumber": "501030",
+        "description": "AIRHEAD WAKE SHAKER KNEEBOARD 1 PERSON",
+        "categoryImage": "../images/catalogue/pages/page0481.jpg",
+        "imagePath": "",
+        "thumbnailPath": "",
+        "catalogueDescription": "........... 969 430636............................................. 969 430637............................................. 969 430640............................................. 969 430700............................................. 970 430702............................................. 970 430708............................................. 970 430712............................................. 970 430716............................................. 970 430740............................................. 970 501030............................................. 973 501041............................................. 978 501045............................................. 978 501053............................................. 978 501054............................................. 980 501055............................................. 980 501056............................................. 978 501057............................................. 977 501058............................................. 980 501059................",
+        "price": 555.81
+      },
+      "subcategories": [
+        {
+          "name": "General Watersports",
+          "count": 13,
+          "minPrice": 44.59,
+          "sample": {
+            "productNumber": "501045",
+            "description": "AIRHEAD WAKEBOARD ROPE AND HANDLE BLUE 3 SECTION 19M",
+            "categoryImage": "../images/catalogue/pages/page0369.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "........... 969 430640............................................. 969 430700............................................. 970 430702............................................. 970 430708............................................. 970 430712............................................. 970 430716............................................. 970 430740............................................. 970 501030............................................. 973 501041............................................. 978 501045............................................. 978 501053............................................. 978 501054............................................. 980 501055............................................. 980 501056............................................. 978 501057............................................. 977 501058............................................. 980 501059............................................. 979 501060............................................. 979 501061................",
+            "price": 161.98
+          },
+          "file": "watersports--general-watersports.json"
+        },
+        {
+          "name": "Inflatables & Towables",
+          "count": 17,
+          "minPrice": 68,
+          "sample": {
+            "productNumber": "501054",
+            "description": "AIRHEAD KWIK-CONNECT TUBE CONNECTOR ROPE",
+            "categoryImage": "../images/catalogue/pages/page0369.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "........... 970 430702............................................. 970 430708............................................. 970 430712............................................. 970 430716............................................. 970 430740............................................. 970 501030............................................. 973 501041............................................. 978 501045............................................. 978 501053............................................. 978 501054............................................. 980 501055............................................. 980 501056............................................. 978 501057............................................. 977 501058............................................. 980 501059............................................. 979 501060............................................. 979 501061............................................. 979 501063............................................. 980 501065................",
+            "price": 68
+          },
+          "file": "watersports--inflatables-and-towables.json"
+        },
+        {
+          "name": "Wakeboards, Kneeboards & Skis",
+          "count": 3,
+          "minPrice": 112.62,
+          "sample": {
+            "productNumber": "501030",
+            "description": "AIRHEAD WAKE SHAKER KNEEBOARD 1 PERSON",
+            "categoryImage": "../images/catalogue/pages/page0481.jpg",
+            "imagePath": "",
+            "thumbnailPath": "",
+            "catalogueDescription": "........... 969 430636............................................. 969 430637............................................. 969 430640............................................. 969 430700............................................. 970 430702............................................. 970 430708............................................. 970 430712............................................. 970 430716............................................. 970 430740............................................. 970 501030............................................. 973 501041............................................. 978 501045............................................. 978 501053............................................. 978 501054............................................. 980 501055............................................. 980 501056............................................. 978 501057............................................. 977 501058............................................. 980 501059................",
+            "price": 555.81
+          },
+          "file": "watersports--wakeboards-kneeboards-and-skis.json"
+        }
+      ]
+    }
+  ]
+}
