@@ -135,6 +135,11 @@
       margin: 16px 20px 0;
       align-items: center;
     }
+    .search-status-row {
+      width: calc(100% - 40px);
+      min-height: 24px;
+      margin: 6px 20px 0;
+    }
     input, select, .search-row button {
       height: 40px;
       border: 1px solid var(--line);
@@ -216,6 +221,9 @@
       margin-top: 4px;
       color: var(--aq-ocean);
       font-weight: 650;
+    }
+    .search-status-row .ai-search-status {
+      margin-top: 0;
     }
     .intro p {
       color: #eef8ff;
@@ -934,6 +942,9 @@
         <option value="1000">1000 shown</option>
       </select>
     </div>
+    <div class="search-status-row">
+      <div id="aiSearchStatus" class="ai-search-status" aria-live="polite"></div>
+    </div>
   </div>
 
   <section class="intro">
@@ -962,7 +973,6 @@
         <div>
           <h2 id="viewTitle">BLA Categories</h2>
           <div id="resultCount" class="muted">Loading...</div>
-          <div id="aiSearchStatus" class="ai-search-status" aria-live="polite"></div>
         </div>
       </div>
       <section id="categoryGrid" class="category-grid"></section>
@@ -1048,6 +1058,7 @@
     let productChunkScope = '';
     let aiResultCodes = null;
     let aiSearchRunning = false;
+    let searchInputTimer = null;
     let searchRunId = 0;
     let provisionalSearchCodes = null;
     let searchOverrideRows = null;
@@ -1282,6 +1293,7 @@
     }
     function clearSearchState(options = {}) {
       searchRunId += 1;
+      clearTimeout(searchInputTimer);
       aiResultCodes = null;
       aiSearchRunning = false;
       provisionalSearchCodes = null;
@@ -1962,7 +1974,7 @@
       document.getElementById('viewTitle').textContent = searchMode ? 'Search Results' : (currentSubCategory || currentTopCategory || 'All BLA Products');
       document.getElementById('resultCount').textContent = productDataReady
         ? (awaitingSearch
-          ? 'Press Enter or the search button to find matching products.'
+          ? 'Searching for matching products...'
           : `${rows.length} products found | showing ${displayRows.length}`)
         : 'Loading products and prices...';
       document.getElementById('categoryGrid').style.display = 'none';
@@ -1971,7 +1983,7 @@
       document.getElementById('backToCategories').textContent = 'Back to Categories';
       const emptySearchText = searchMode && query && aiResultCodes
         ? `No matching catalogue products were found for "${esc(query)}".`
-        : 'Press Enter or the search button to see matching products.';
+        : 'Enter a search term to see matching products.';
       document.getElementById('productGrid').innerHTML = productDataReady && !awaitingSearch && displayRows.length ? displayRows.map(p => `
         <article class="product-card" data-code="${esc(p.productNumber)}" role="button" tabindex="0" aria-label="View ${esc(p.description)}" ${cardStyle(topCategory(p))}>
           <div class="image-container">${productThumbnailMarkup(p, searchMode)}</div>
@@ -2224,8 +2236,10 @@
       });
       document.getElementById(id).addEventListener('change', render);
     });
-    document.getElementById('search').addEventListener('input', () => {
-      const query = document.getElementById('search').value.trim();
+    function scheduleBlaSearchFromInput() {
+      const validation = validateSearchQuery(document.getElementById('search').value);
+      const status = document.getElementById('aiSearchStatus');
+      clearTimeout(searchInputTimer);
       if (aiResultCodes || aiSearchRunning) {
         const wasSearchMode = mode === 'search';
         clearSearchState({ clearInput: false });
@@ -2234,15 +2248,36 @@
           renderProducts();
         }
       }
-      document.getElementById('aiSearchStatus').textContent = query
-        ? 'Press Enter or the search button to search.'
-        : '';
-    });
-    document.getElementById('aiSearch').addEventListener('click', runAiSearch);
+      if (validation.error) {
+        status.classList.remove('is-loading');
+        status.textContent = validation.error;
+        return;
+      }
+      if (!validation.query) {
+        if (mode === 'search') {
+          currentTopCategory = '';
+          currentSubCategory = '';
+          mode = 'categories';
+          render();
+        }
+        status.classList.remove('is-loading');
+        status.textContent = '';
+        return;
+      }
+      status.classList.add('is-loading');
+      status.innerHTML = `<span class="spinner small" aria-hidden="true"></span><span>Searching for "${esc(validation.query)}"...</span>`;
+      searchInputTimer = setTimeout(runAiSearch, 450);
+    }
+    function runBlaSearchNow() {
+      clearTimeout(searchInputTimer);
+      runAiSearch();
+    }
+    document.getElementById('search').addEventListener('input', scheduleBlaSearchFromInput);
+    document.getElementById('aiSearch').addEventListener('click', runBlaSearchNow);
     document.getElementById('search').addEventListener('keydown', event => {
       if (event.key === 'Enter') {
         event.preventDefault();
-        runAiSearch();
+        runBlaSearchNow();
       }
     });
     const backToTop = document.getElementById('backToTop');
