@@ -568,19 +568,25 @@ function toDriveImg(urlOrId){
   }
 
   async function getProductsData(){
+    const staticUrl = `${STATIC_PRODUCTS_URL}?v=202607080933`;
     try {
-      const liveProducts = await getJsonWithTimeout(GAS_URL + '?action=getProductsFromSheet', 12000);
-      rememberProductsData(liveProducts);
-      return liveProducts;
-    } catch (liveError) {
-      console.warn('Live product feed unavailable; using fallback feed.', liveError);
+      const staticProducts = await getJsonWithTimeout(staticUrl, 15000);
+      rememberProductsData(staticProducts);
+      setTimeout(() => {
+        getJsonWithTimeout(GAS_URL + '?action=getProductsFromSheet', 20000)
+          .then(rememberProductsData)
+          .catch(error => console.warn('Live product feed refresh unavailable.', error));
+      }, 1000);
+      return staticProducts;
+    } catch (staticError) {
+      const cached = cachedProductsData();
+      if (cached) return cached;
       try {
-        const staticProducts = await getJsonWithTimeout(`${STATIC_PRODUCTS_URL}?v=202607080933`, 15000);
-        rememberProductsData(staticProducts);
-        return staticProducts;
-      } catch (staticError) {
-        const cached = cachedProductsData();
-        if (cached) return cached;
+        const liveProducts = await getJsonWithTimeout(GAS_URL + '?action=getProductsFromSheet', 20000);
+        rememberProductsData(liveProducts);
+        return liveProducts;
+      } catch (liveError) {
+        console.warn('Product feeds unavailable.', staticError, liveError);
         throw staticError;
       }
     }
