@@ -1028,6 +1028,8 @@
     const ACCESS_STORAGE_KEY = 'aqiml-bla-preview-token';
     const GAS_URL = 'https://script.google.com/macros/s/AKfycbxQxHW4iCUh7im8_Q6jXbx5aLAxglySAgXkE7tIDyI6Wx0iHP2OhIOdKhB29vHZoO8/exec';
     const SEARCH_PROXY_URL = 'https://aqiml-search.t-98d.workers.dev';
+    const STATIC_CATALOGUE_SUMMARY_URL = './data/bla_catalogue_summary.json';
+    const STATIC_CATALOGUE_FEED_URL = './data/bla_shop_feed_web.json';
     const vatRate = 0.15;
     const SEARCH_QUERY_MAX_CHARS = 80;
     const SEARCH_QUERY_MAX_TOKENS = 10;
@@ -2350,31 +2352,27 @@
       document.getElementById('productCount').innerHTML = '<span class="spinner small" aria-hidden="true"></span> Loading catalogue...';
       document.getElementById('resultCount').textContent = 'Loading catalogue...';
       render();
-      const summaryUrl = isLocalPreview
-        ? ''
-        : `${GAS_URL}?action=getBlaCatalogueSummary&token=${encodeURIComponent(accessToken)}`;
-      if (summaryUrl) {
-        fetch(summaryUrl)
-          .then(response => response.json())
-          .then(data => {
-            if (data && data.error) throw new Error(data.error);
-            categorySummary = data;
-            categorySummaryLoaded = true;
-            if (!catalogueLoaded && data.totalProducts) {
-              document.getElementById('productCount').textContent = `${Number(data.totalProducts).toLocaleString('en-US')} BLA products`;
-            }
-            render();
-          })
-          .catch(error => console.warn('BLA catalogue summary unavailable', error));
-      }
+      fetch(STATIC_CATALOGUE_SUMMARY_URL)
+        .then(response => {
+          if (!response.ok) throw new Error(response.statusText || 'Summary unavailable');
+          return response.json();
+        })
+        .then(data => {
+          if (data && data.error) throw new Error(data.error);
+          categorySummary = data;
+          categorySummaryLoaded = true;
+          if (!catalogueLoaded && data.totalProducts) {
+            document.getElementById('productCount').textContent = `${Number(data.totalProducts).toLocaleString('en-US')} BLA products`;
+          }
+          render();
+        })
+        .catch(error => console.warn('BLA catalogue summary unavailable', error));
       if (isLocalPreview) loadCatalogueFeed();
     }
     function loadCatalogueFeed() {
       if (catalogueLoaded) return Promise.resolve(products);
       if (catalogueLoadPromise) return catalogueLoadPromise;
-      const feedUrl = isLocalPreview
-        ? './data/bla_shop_feed_web.json'
-        : `${GAS_URL}?action=getBlaCatalogueFeed&token=${encodeURIComponent(accessToken)}`;
+      const feedUrl = STATIC_CATALOGUE_FEED_URL;
       catalogueLoadPromise = fetch(feedUrl)
         .then(response => response.json())
         .then(data => {

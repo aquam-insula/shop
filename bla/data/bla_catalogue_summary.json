@@ -1,0 +1,393 @@
+{
+  "totalProducts": 14118,
+  "categories": [
+    {
+      "name": "Anchoring & Mooring",
+      "count": 707,
+      "minPrice": 17.22,
+      "sample": {
+        "description": "DAN-FENDER MOORING BUOY PB30 RED 240MM",
+        "categoryImage": "../images/catalogue/pages/page0369.jpg",
+        "subCategoryImage": "../images/catalogue/pages/page0369.jpg",
+        "price": 140.39,
+        "productNumber": "141652",
+        "brand": ""
+      },
+      "subcategories": [
+        {
+          "name": "Anchors, Chains & Windlasses",
+          "count": 401,
+          "minPrice": 72.64,
+          "sample": {
+            "description": "BLA GALVANISED CHAIN SWIVEL 6MM 100 PACK",
+            "categoryImage": "../images/catalogue/pages/page0369.jpg",
+            "subCategoryImage": "../images/catalogue/pages/page0369.jpg",
+            "price": 695.38,
+            "productNumber": "143106B",
+            "brand": "Bla"
+          }
+        },
+        {
+          "name": "Rope, Dock Lines & Mooring",
+          "count": 306,
+          "minPrice": 17.22,
+          "sample": {
+            "description": "DAN-FENDER MOORING BUOY PB30 RED 240MM",
+            "categoryImage": "../images/catalogue/pages/page0369.jpg",
+            "subCategoryImage": "../images/catalogue/pages/page0369.jpg",
+            "price": 140.39,
+            "productNumber": "141652",
+            "brand": ""
+          }
+        }
+      ]
+    },
+    {
+      "name": "Covers, Seats & Boat Fitout",
+      "count": 364,
+      "minPrice": 18.3,
+      "sample": {
+        "description": "BEP BUS BAR COVER 6 WAY RED",
+        "categoryImage": "../images/catalogue/pages/page0457.jpg",
+        "subCategoryImage": "../images/catalogue/pages/page0457.jpg",
+        "price": 46.15,
+        "productNumber": "113442",
+        "brand": ""
+      },
+      "subcategories": [
+        {
+          "name": "Covers, Seating & Fitout",
+          "count": 364,
+          "minPrice": 18.3,
+          "sample": {
+            "description": "BEP BUS BAR COVER 6 WAY RED",
+            "categoryImage": "../images/catalogue/pages/page0457.jpg",
+            "subCategoryImage": "../images/catalogue/pages/page0457.jpg",
+            "price": 46.15,
+            "productNumber": "113442",
+            "brand": ""
+          }
+        }
+      ]
+    },
+    {
+      "name": "Deck Hardware",
+      "count": 867,
+      "minPrice": 10.88,
+      "sample": {
+        "description": "SEASTAR 30 SERIES STAINLESS STEEL SHIM",
+        "categoryImage": "../images/catalogue/pages/page0481.jpg",
+        "subCategoryImage": "../images/catalogue/pages/page0481.jpg",
+        "price": 34.34,
+        "productNumber": "035777",
+        "brand": "Seastar"
+      },
+      "subcategories": [
+        {
+          "name": "Stainless Fittings & Deck Hardware",
+          "count": 867,
+          "minPrice": 10.88,
+          "sample": {
+            "description": "SEASTAR 30 SERIES STAINLESS STEEL SHIM",
+            "categoryImage": "../images/catalogue/pages/page0481.jpg",
+            "subCategoryImage": "../images/catalogue/pages/page0481.jpg",
+            "price": 34.34,
+            "productNumber": "035777",
+            "brand": "Seastar"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Electrical & Electronics",
+      "count": 2435,
+      "minPrice": 14.16,
+      "sample": {
+        "description": "HUMMINBIRD GPS RECEIVER AS GPS WITH HEADING SENSOR",
+        "categoryImage": "../images/catalogue/pages/page0061.jpg",
+        "subCategoryImage": "../images/catalogue/pages/page0061.jpg",
+        "price": 1251.62,
+        "productNumber": "101088",
+        "brand": "Humminbird"
+      },
+      "subcategories": [
+        {
+          "name": "Batteries, Charging & Solar",
+          "count": 599,
+          "minPrice": 19.01,
+          "sample": {
+            "description": "SCANSTRUT ROKK CHARGER SOCKET DUAL USB 12 24V LOW PROFILE",
+            "categoryImage": "../images/catalogue/pages/page0061.jpg",
+            "subCategoryImage": "../images/catalogue/pages/page0061.jpg",
+            "price": 186.15,
+            "productNumber": "106295",
+            "brand": ""
+          }
+        },
+        {
+          "name": "Navigation, Sounders & Radios",
+          "count": 300,
+          "minPrice": 20.91,
+          "sample": {
+            "description": "HUMMINBIRD GPS RECEIVER AS GPS WITH HEADING SENSOR",
+            "categoryImage": "../images/catalogue/pages/page0061.jpg",
+            "subCategoryImage": "../images/catalogue/pages/page0061.jpg",
+            "price": 1251.62,
+            "productNumber": "101088",
+            "brand": "Humminbird"
+          }
+        },
+        {
+          "name": "Switches, Cable & Circuit Protection",
+          "count": 1536,
+          "minPrice": 14.16,
+          "sample": {
+            "description": "AIRMAR CONNECTOR 10 WIRE CONDUCTOR SPLICE",
+            "categoryImage": "../images/catalogue/pages/page0061.jpg",
+            "subCategoryImage": "../images/catalogue/pages/page0061.jpg",
+            "price": 104.01,
+            "productNumber": "103369",
+            "brand": "Y"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Fenders & Buoys",
+      "count": 102,
+      "minPrice": 28.7,
+      "sample": {
+        "description": "BLA ROUND STYRENE FLOAT 100MM",
+        "categoryImage": "../images/catalogue/pages/page0369.jpg",
+        "subCategoryImage": "../images/catalogue/pages/page0369.jpg",
+        "price": 28.7,
+        "productNumber": "141002",
+        "brand": "Bla"
+      },
+      "subcategories": [
+        {
+          "name": "Fenders, Floats & Buoys",
+          "count": 102,
+          "minPrice": 28.7,
+          "sample": {
+            "description": "BLA ROUND STYRENE FLOAT 100MM",
+            "categoryImage": "../images/catalogue/pages/page0369.jpg",
+            "subCategoryImage": "../images/catalogue/pages/page0369.jpg",
+            "price": 28.7,
+            "productNumber": "141002",
+            "brand": "Bla"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Fishing",
+      "count": 285,
+      "minPrice": 18.05,
+      "sample": {
+        "description": "RAM ROD HOLDER 152MM ARM T/S SPLINE BASE",
+        "categoryImage": "../images/catalogue/pages/page0937.jpg",
+        "subCategoryImage": "../images/catalogue/pages/page0937.jpg",
+        "price": 128.46,
+        "productNumber": "109176",
+        "brand": "Ram"
+      },
+      "subcategories": [
+        {
+          "name": "Fishing Equipment & Accessories",
+          "count": 285,
+          "minPrice": 18.05,
+          "sample": {
+            "description": "RAM ROD HOLDER 152MM ARM T/S SPLINE BASE",
+            "categoryImage": "../images/catalogue/pages/page0937.jpg",
+            "subCategoryImage": "../images/catalogue/pages/page0937.jpg",
+            "price": 128.46,
+            "productNumber": "109176",
+            "brand": "Ram"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Lighting",
+      "count": 394,
+      "minPrice": 17.17,
+      "sample": {
+        "description": "SCANSTRUT DUAL POWERTOWER CENTRAL LIGHT BAR 2 60CM 24\"SATCOM",
+        "categoryImage": "../images/catalogue/pages/page0253.jpg",
+        "subCategoryImage": "../images/catalogue/pages/page0253.jpg",
+        "price": 951.32,
+        "productNumber": "106350",
+        "brand": "Y"
+      },
+      "subcategories": [
+        {
+          "name": "Navigation & LED Lighting",
+          "count": 394,
+          "minPrice": 17.17,
+          "sample": {
+            "description": "SCANSTRUT DUAL POWERTOWER CENTRAL LIGHT BAR 2 60CM 24\"SATCOM",
+            "categoryImage": "../images/catalogue/pages/page0253.jpg",
+            "subCategoryImage": "../images/catalogue/pages/page0253.jpg",
+            "price": 951.32,
+            "productNumber": "106350",
+            "brand": "Y"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Maintenance",
+      "count": 275,
+      "minPrice": 22.92,
+      "sample": {
+        "description": "VEETHREE ARCTIC GAUGE OIL PRESSURE 0-80PSI",
+        "categoryImage": "../images/catalogue/pages/page0717.jpg",
+        "subCategoryImage": "../images/catalogue/pages/page0717.jpg",
+        "price": 132,
+        "productNumber": "112120",
+        "brand": "Y"
+      },
+      "subcategories": [
+        {
+          "name": "Lubricants, Fuel & Boat Care",
+          "count": 275,
+          "minPrice": 22.92,
+          "sample": {
+            "description": "VEETHREE ARCTIC GAUGE OIL PRESSURE 0-80PSI",
+            "categoryImage": "../images/catalogue/pages/page0717.jpg",
+            "subCategoryImage": "../images/catalogue/pages/page0717.jpg",
+            "price": 132,
+            "productNumber": "112120",
+            "brand": "Y"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Pumps, Plumbing & Galley",
+      "count": 1663,
+      "minPrice": 16.06,
+      "sample": {
+        "description": "VEETHREE PITOT HOSE",
+        "categoryImage": "../images/catalogue/pages/page0285.jpg",
+        "subCategoryImage": "../images/catalogue/pages/page0285.jpg",
+        "price": 21.59,
+        "productNumber": "112432",
+        "brand": "Veethree"
+      },
+      "subcategories": [
+        {
+          "name": "Pumps & Bilge Systems",
+          "count": 847,
+          "minPrice": 19.49,
+          "sample": {
+            "description": "BEP MICRO SERIES PANEL BILGE ALARM",
+            "categoryImage": "../images/catalogue/pages/page0285.jpg",
+            "subCategoryImage": "../images/catalogue/pages/page0285.jpg",
+            "price": 320.99,
+            "productNumber": "113292",
+            "brand": ""
+          }
+        },
+        {
+          "name": "Toilets, Plumbing & Galley",
+          "count": 816,
+          "minPrice": 16.06,
+          "sample": {
+            "description": "VEETHREE PITOT HOSE",
+            "categoryImage": "../images/catalogue/pages/page0285.jpg",
+            "subCategoryImage": "../images/catalogue/pages/page0285.jpg",
+            "price": 21.59,
+            "productNumber": "112432",
+            "brand": "Veethree"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Safety",
+      "count": 65,
+      "minPrice": 19.55,
+      "sample": {
+        "description": "MARINCO DUAL TRUMPET AIR HORN WHITE 12V",
+        "categoryImage": "../images/catalogue/pages/page0683.jpg",
+        "subCategoryImage": "../images/catalogue/pages/page0683.jpg",
+        "price": 1160.02,
+        "productNumber": "116018",
+        "brand": "Y"
+      },
+      "subcategories": [
+        {
+          "name": "Lifejackets, EPIRBs & Safety Gear",
+          "count": 65,
+          "minPrice": 19.55,
+          "sample": {
+            "description": "MARINCO DUAL TRUMPET AIR HORN WHITE 12V",
+            "categoryImage": "../images/catalogue/pages/page0683.jpg",
+            "subCategoryImage": "../images/catalogue/pages/page0683.jpg",
+            "price": 1160.02,
+            "productNumber": "116018",
+            "brand": "Y"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Tools & Chandlery",
+      "count": 6612,
+      "minPrice": 12.63,
+      "sample": {
+        "description": "AIRMAR ADAPTOR BOX CHIRP TO SUIT APEX",
+        "categoryImage": "../images/catalogue/pages/page0481.jpg",
+        "subCategoryImage": "../images/catalogue/pages/page0481.jpg",
+        "price": 1888.7,
+        "productNumber": "103494",
+        "brand": ""
+      },
+      "subcategories": [
+        {
+          "name": "General Marine Supplies",
+          "count": 6612,
+          "minPrice": 12.63,
+          "sample": {
+            "description": "AIRMAR ADAPTOR BOX CHIRP TO SUIT APEX",
+            "categoryImage": "../images/catalogue/pages/page0481.jpg",
+            "subCategoryImage": "../images/catalogue/pages/page0481.jpg",
+            "price": 1888.7,
+            "productNumber": "103494",
+            "brand": ""
+          }
+        }
+      ]
+    },
+    {
+      "name": "Trailering",
+      "count": 349,
+      "minPrice": 17.68,
+      "sample": {
+        "description": "TRU DESIGN LOAD BEARING COLLAR SMALL",
+        "categoryImage": "../images/catalogue/pages/page0659.jpg",
+        "subCategoryImage": "../images/catalogue/pages/page0659.jpg",
+        "price": 47.74,
+        "productNumber": "138637",
+        "brand": ""
+      },
+      "subcategories": [
+        {
+          "name": "Trailer Parts & Towing",
+          "count": 349,
+          "minPrice": 17.68,
+          "sample": {
+            "description": "TRU DESIGN LOAD BEARING COLLAR SMALL",
+            "categoryImage": "../images/catalogue/pages/page0659.jpg",
+            "subCategoryImage": "../images/catalogue/pages/page0659.jpg",
+            "price": 47.74,
+            "productNumber": "138637",
+            "brand": ""
+          }
+        }
+      ]
+    }
+  ]
+}
