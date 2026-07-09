@@ -1385,6 +1385,8 @@
         ((product.imageUrl || '').includes('/bla-website-products/') ? product.imageUrl : '') ||
         product.productWebSearchImageUrl ||
         ((product.imageUrl || '').includes('/web-product-images/') ? product.imageUrl : '') ||
+        product.productPhotoImageUrl ||
+        ((product.imageUrl || '').includes('/catalogue/product-photos/') ? product.imageUrl : '') ||
         product.productWebsiteImageSourceUrl ||
         product.productWebSearchImageSourceUrl ||
         product.productBlockImageUrl ||
