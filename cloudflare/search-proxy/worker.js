@@ -11,8 +11,10 @@ const ACTION_TARGETS = {
   searchBlaCatalogueAi: BLA_SCRIPT_URL,
 };
 
-const LIMIT = 10;
-const WINDOW_SECONDS = 60;
+const SECOND_LIMIT = 1;
+const SECOND_WINDOW_SECONDS = 1;
+const BURST_LIMIT = 10;
+const BURST_WINDOW_SECONDS = 10;
 const BLOCK_SECONDS = [5 * 60, 15 * 60, 30 * 60, 60 * 60];
 const UPSTREAM_TIMEOUT_MS = 25000;
 
@@ -39,10 +41,11 @@ export default {
     const ip = clientIp(request);
     const rate = await checkRateLimit(env, ip, action);
     if (!rate.allowed) {
-      await logBlockedRequest(env, ip, action, rate.retryAfter);
+      await logBlockedRequest(env, ip, action, rate.retryAfter, rate.reason);
       return jsonResponse({
         error: 'Too many requests. Please try again later.',
         retryAfterSeconds: rate.retryAfter,
+        reason: rate.reason || 'rate-limit',
       }, 429, {
         ...corsHeaders,
         'Retry-After': String(rate.retryAfter),
@@ -105,7 +108,7 @@ function clientIp(request) {
 
 async function checkRateLimit(env, ip, action) {
   const now = Math.floor(Date.now() / 1000);
-  const identity = `${ip}:${action}`;
+  const identity = ip || 'unknown';
   const stateKey = `rate:${identity}`;
   const blockKey = `block:${identity}`;
 
@@ -115,37 +118,49 @@ async function checkRateLimit(env, ip, action) {
   }
 
   const state = await env.RATE_LIMIT.get(stateKey, 'json') || {
-    windowStart: now,
-    count: 0,
+    secondStart: now,
+    secondCount: 0,
+    burstStart: now,
+    burstCount: 0,
     strikes: 0,
   };
 
-  if (now - Number(state.windowStart || 0) >= WINDOW_SECONDS) {
-    state.windowStart = now;
-    state.count = 0;
+  if (now - Number(state.secondStart || 0) >= SECOND_WINDOW_SECONDS) {
+    state.secondStart = now;
+    state.secondCount = 0;
   }
 
-  state.count = Number(state.count || 0) + 1;
+  if (now - Number(state.burstStart || 0) >= BURST_WINDOW_SECONDS) {
+    state.burstStart = now;
+    state.burstCount = 0;
+  }
 
-  if (state.count > LIMIT) {
+  state.secondCount = Number(state.secondCount || 0) + 1;
+  state.burstCount = Number(state.burstCount || 0) + 1;
+
+  const secondExceeded = state.secondCount > SECOND_LIMIT;
+  const burstExceeded = state.burstCount > BURST_LIMIT;
+
+  if (secondExceeded || burstExceeded) {
     state.strikes = Number(state.strikes || 0) + 1;
     const blockSeconds = BLOCK_SECONDS[Math.min(state.strikes - 1, BLOCK_SECONDS.length - 1)];
     const until = now + blockSeconds;
+    const reason = secondExceeded ? 'per-second' : 'ten-second-burst';
 
     await env.RATE_LIMIT.put(stateKey, JSON.stringify(state), { expirationTtl: 24 * 60 * 60 });
-    await env.RATE_LIMIT.put(blockKey, JSON.stringify({ until, strikes: state.strikes }), { expirationTtl: blockSeconds });
+    await env.RATE_LIMIT.put(blockKey, JSON.stringify({ until, strikes: state.strikes, reason, action }), { expirationTtl: blockSeconds });
 
-    return { allowed: false, retryAfter: blockSeconds };
+    return { allowed: false, retryAfter: blockSeconds, reason };
   }
 
   await env.RATE_LIMIT.put(stateKey, JSON.stringify(state), { expirationTtl: 24 * 60 * 60 });
   return { allowed: true, retryAfter: 0 };
 }
 
-async function logBlockedRequest(env, ip, action, retryAfter) {
+async function logBlockedRequest(env, ip, action, retryAfter, reason) {
   const now = new Date().toISOString();
   const key = `blocked:${now}:${ip}:${action}`;
-  await env.RATE_LIMIT.put(key, JSON.stringify({ ip, action, retryAfter, time: now }), { expirationTtl: 7 * 24 * 60 * 60 });
+  await env.RATE_LIMIT.put(key, JSON.stringify({ ip, action, retryAfter, reason, time: now }), { expirationTtl: 7 * 24 * 60 * 60 });
 }
 
 function jsonResponse(body, status, headers) {
