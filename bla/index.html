@@ -2391,11 +2391,30 @@
           scrollResultsToTop();
           return;
         }
+        const localDisplayProducts = localCandidates.slice(0, 120);
+        aiResultCodes = new Set(localDisplayProducts.map(product => String(product.productNumber || '')).filter(Boolean));
+        provisionalSearchCodes = null;
+        currentTopCategory = '';
+        currentSubCategory = '';
+        mode = 'search';
+        searchOverrideRows = localDisplayProducts;
         status.innerHTML = `<span class="spinner small" aria-hidden="true"></span><span>Refining ${localCandidates.length.toLocaleString('en-US')} catalogue matches...</span>`;
-        document.getElementById('resultCount').innerHTML = `<span class="spinner small" aria-hidden="true"></span> Refining catalogue matches...`;
-        const refined = await refineSearchProductsWithGpt(query, localCandidates);
+        document.getElementById('resultCount').innerHTML = `<span class="spinner small" aria-hidden="true"></span> Showing local matches while refining...`;
+        render();
+        scrollResultsToTop();
+        let refined;
+        try {
+          refined = await refineSearchProductsWithGpt(query, localCandidates);
+        } catch (refineError) {
+          if (runId !== searchRunId) return;
+          console.warn('BLA refinement unavailable; showing local matches.', refineError);
+          status.classList.remove('is-loading');
+          status.textContent = `${localDisplayProducts.length} local catalogue matches shown. AI refinement is temporarily unavailable.`;
+          document.getElementById('resultCount').textContent = `${localDisplayProducts.length} products found | showing ${localDisplayProducts.length}`;
+          return;
+        }
         if (runId !== searchRunId) return;
-        const responseProducts = refined.products;
+        const responseProducts = refined.products.length ? refined.products : localDisplayProducts;
         const codes = responseProducts.map(product => String(product.productNumber || '')).filter(Boolean);
         aiResultCodes = new Set(codes);
         provisionalSearchCodes = null;
