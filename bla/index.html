@@ -2287,7 +2287,7 @@
       }
       status.classList.add('is-loading');
       status.innerHTML = `<span class="spinner small" aria-hidden="true"></span><span>Searching for "${esc(validation.query)}"...</span>`;
-      searchInputTimer = setTimeout(runAiSearch, 1000);
+      searchInputTimer = setTimeout(runAiSearch, 2000);
     }
     function runBlaSearchNow() {
       clearTimeout(searchInputTimer);
