@@ -14,6 +14,7 @@ const ACTION_TARGETS = {
 const LIMIT = 10;
 const WINDOW_SECONDS = 60;
 const BLOCK_SECONDS = [5 * 60, 15 * 60, 30 * 60, 60 * 60];
+const UPSTREAM_TIMEOUT_MS = 25000;
 
 export default {
   async fetch(request, env) {
@@ -54,13 +55,26 @@ export default {
     }
 
     const targetUrl = `${targetBase}?action=${encodeURIComponent(action)}`;
-    const upstream = await fetch(targetUrl, {
-      method: 'POST',
-      headers: {
-        'Content-Type': request.headers.get('Content-Type') || 'application/x-www-form-urlencoded;charset=UTF-8',
-      },
-      body,
-    });
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), UPSTREAM_TIMEOUT_MS);
+    let upstream;
+    try {
+      upstream = await fetch(targetUrl, {
+        method: 'POST',
+        headers: {
+          'Content-Type': request.headers.get('Content-Type') || 'application/x-www-form-urlencoded;charset=UTF-8',
+        },
+        body,
+        signal: controller.signal,
+      });
+    } catch (error) {
+      if (error && error.name === 'AbortError') {
+        return jsonResponse({ error: 'Search upstream timed out. Please try again shortly.' }, 504, corsHeaders);
+      }
+      throw error;
+    } finally {
+      clearTimeout(timer);
+    }
 
     const responseHeaders = new Headers(upstream.headers);
     Object.entries(corsHeaders).forEach(([key, value]) => responseHeaders.set(key, value));

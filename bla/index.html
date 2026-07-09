@@ -1044,6 +1044,9 @@
     const vatRate = 0.15;
     const SEARCH_QUERY_MAX_CHARS = 80;
     const SEARCH_QUERY_MAX_TOKENS = 10;
+    const JSON_TIMEOUT_MS = 20000;
+    const LARGE_JSON_TIMEOUT_MS = 45000;
+    const SEARCH_TIMEOUT_MS = 25000;
     const SEARCH_REFINEMENT_MAX_CANDIDATES = 500;
     let products = [];
     let currentTopCategory = '';
@@ -1211,15 +1214,40 @@
       return true;
     }
 
-    async function postFormOrError(url, params) {
+    async function fetchJsonWithTimeout(url, timeoutMs) {
+      const controller = new AbortController();
+      const timer = setTimeout(() => controller.abort(), timeoutMs || JSON_TIMEOUT_MS);
+      try {
+        const response = await fetch(url, { signal: controller.signal });
+        const data = await response.json().catch(() => ({}));
+        if (!response.ok || data.error) throw new Error(data.error || response.statusText || 'GET failed');
+        return data;
+      } catch (error) {
+        if (error && error.name === 'AbortError') throw new Error('Request timed out. Please try again.');
+        throw error;
+      } finally {
+        clearTimeout(timer);
+      }
+    }
+
+    async function postFormOrError(url, params, timeoutMs) {
       const body = new URLSearchParams();
       Object.keys(params || {}).forEach(key => body.append(key, params[key]));
-      const response = await fetch(url, { method: 'POST', body });
-      const text = await response.text();
-      let data = {};
-      try { data = JSON.parse(text); } catch (error) {}
-      if (!response.ok || data.error) throw new Error(data.error || response.statusText || 'POST failed');
-      return data;
+      const controller = new AbortController();
+      const timer = setTimeout(() => controller.abort(), timeoutMs || SEARCH_TIMEOUT_MS);
+      try {
+        const response = await fetch(url, { method: 'POST', body, signal: controller.signal });
+        const text = await response.text();
+        let data = {};
+        try { data = JSON.parse(text); } catch (error) {}
+        if (!response.ok || data.error) throw new Error(data.error || response.statusText || 'POST failed');
+        return data;
+      } catch (error) {
+        if (error && error.name === 'AbortError') throw new Error('Search timed out. Please try again.');
+        throw error;
+      } finally {
+        clearTimeout(timer);
+      }
     }
 
     async function fetchAiDescription(product) {
@@ -1486,11 +1514,7 @@
     function loadSearchIndex() {
       if (searchIndex.length) return Promise.resolve(searchIndex);
       if (searchIndexPromise) return searchIndexPromise;
-      searchIndexPromise = fetch('./data/bla_search_index.json')
-        .then(response => {
-          if (!response.ok) throw new Error('Search index could not be loaded.');
-          return response.json();
-        })
+      searchIndexPromise = fetchJsonWithTimeout('./data/bla_search_index.json', LARGE_JSON_TIMEOUT_MS)
         .then(data => {
           searchIndex = Array.isArray(data) ? data : [];
           document.getElementById('productCount').textContent = `${searchIndex.length.toLocaleString('en-US')} BLA products`;
@@ -1564,7 +1588,7 @@
         token: accessToken,
         query,
         candidates: JSON.stringify(searchRefinementRows(candidates))
-      }).then(data => {
+      }, SEARCH_TIMEOUT_MS).then(data => {
         const byCode = new Map(candidates.map(product => [String(product.productNumber || ''), product]));
         const codes = Array.isArray(data.codes) ? data.codes.map(code => String(code || '').trim()).filter(Boolean) : [];
         const products = codes.map(code => byCode.get(code)).filter(Boolean);
@@ -1591,8 +1615,7 @@
       }
       const prefix = productLookupPrefix(query);
       if (!productLookupCache.has(prefix)) {
-        productLookupCache.set(prefix, fetch(`./data/product-lookup/${encodeURIComponent(prefix)}.json`)
-          .then(response => response.ok ? response.json() : [])
+        productLookupCache.set(prefix, fetchJsonWithTimeout(`./data/product-lookup/${encodeURIComponent(prefix)}.json`, JSON_TIMEOUT_MS)
           .catch(() => []));
       }
       const rows = await productLookupCache.get(prefix);
@@ -1704,8 +1727,7 @@
         return Promise.resolve();
       }
       const url = `${GAS_URL}?action=getBlaAssetData&token=${encodeURIComponent(accessToken)}&path=${encodeURIComponent(path)}${thumb ? `&thumb=${encodeURIComponent(thumb)}` : ''}`;
-      return fetch(url)
-        .then(response => response.json())
+      return fetchJsonWithTimeout(url, JSON_TIMEOUT_MS)
         .then(data => {
           if (!data || data.error || !data.base64) throw new Error(data && data.error ? data.error : 'Image unavailable');
           const dataUrl = `data:${data.mimeType || 'image/jpeg'};base64,${data.base64}`;
@@ -2126,8 +2148,7 @@
         return;
       }
       const url = `${GAS_URL}?action=getBlaAssetData&token=${encodeURIComponent(accessToken)}&path=${encodeURIComponent(path)}`;
-      fetch(url)
-        .then(response => response.json())
+      fetchJsonWithTimeout(url, JSON_TIMEOUT_MS)
         .then(data => {
           if (!data || data.error || !data.base64) throw new Error(data && data.error ? data.error : 'Image unavailable');
           const dataUrl = `data:${data.mimeType || 'image/jpeg'};base64,${data.base64}`;
@@ -2403,11 +2424,7 @@
       document.getElementById('productCount').innerHTML = '<span class="spinner small" aria-hidden="true"></span> Loading catalogue...';
       document.getElementById('resultCount').textContent = 'Loading catalogue...';
       render();
-      fetch(STATIC_CATALOGUE_SUMMARY_URL)
-        .then(response => {
-          if (!response.ok) throw new Error(response.statusText || 'Summary unavailable');
-          return response.json();
-        })
+      fetchJsonWithTimeout(STATIC_CATALOGUE_SUMMARY_URL, JSON_TIMEOUT_MS)
         .then(data => {
           if (data && data.error) throw new Error(data.error);
           categorySummary = data;
@@ -2417,18 +2434,20 @@
           }
           render();
         })
-        .catch(error => console.warn('BLA catalogue summary unavailable', error));
+        .catch(error => {
+          console.warn('BLA catalogue summary unavailable', error);
+          const message = error.message || 'Catalogue could not be loaded.';
+          document.getElementById('productCount').textContent = 'Catalogue is temporarily unavailable';
+          document.getElementById('resultCount').textContent = message;
+          document.getElementById('categoryGrid').innerHTML = `<div class="placeholder">${esc(message)}</div>`;
+        });
     }
     function loadCurrentProductChunk() {
       if (!currentTopCategory || !currentSubCategory || catalogueLoaded) return loadCatalogueFeed();
       const scope = currentCatalogueScopeKey();
       if (productChunkScope === scope) return Promise.resolve(products);
       if (productChunkPromise && productChunkPromise.scope === scope) return productChunkPromise;
-      productChunkPromise = fetch(catalogueChunkPath(currentTopCategory, currentSubCategory))
-        .then(response => {
-          if (!response.ok) throw new Error('Product folder could not be loaded.');
-          return response.json();
-        })
+      productChunkPromise = fetchJsonWithTimeout(catalogueChunkPath(currentTopCategory, currentSubCategory), JSON_TIMEOUT_MS)
         .then(data => {
           products = Array.isArray(data) ? data : [];
           productChunkScope = scope;
@@ -2438,7 +2457,9 @@
         })
         .catch(error => {
           productChunkPromise = null;
-          document.getElementById('resultCount').textContent = error.message || 'Product folder is temporarily unavailable.';
+          const message = error.message || 'Product folder is temporarily unavailable.';
+          document.getElementById('resultCount').textContent = message;
+          document.getElementById('productGrid').innerHTML = `<div class="placeholder">${esc(message)}</div>`;
           throw error;
         });
       productChunkPromise.scope = scope;
@@ -2448,8 +2469,7 @@
       if (catalogueLoaded) return Promise.resolve(products);
       if (catalogueLoadPromise) return catalogueLoadPromise;
       const feedUrl = STATIC_CATALOGUE_FEED_URL;
-      catalogueLoadPromise = fetch(feedUrl)
-        .then(response => response.json())
+      catalogueLoadPromise = fetchJsonWithTimeout(feedUrl, LARGE_JSON_TIMEOUT_MS)
         .then(data => {
           if (data && data.error) throw new Error(data.error);
           products = data;
@@ -2459,8 +2479,10 @@
           render();
         })
         .catch(error => {
+          const message = error.message || 'Catalogue is temporarily unavailable';
           document.getElementById('productCount').textContent = 'Catalogue is temporarily unavailable';
-          document.getElementById('resultCount').textContent = error.message;
+          document.getElementById('resultCount').textContent = message;
+          document.getElementById('productGrid').innerHTML = `<div class="placeholder">${esc(message)}</div>`;
           catalogueLoadPromise = null;
           throw error;
         });

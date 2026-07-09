@@ -446,21 +446,31 @@ function toDriveImg(urlOrId){
   }
 
   // Simple POST (form-encoded) JSON helper: params is an object of simple strings
-  async function postFormOrError(url, params){
+  async function postFormOrError(url, params, timeoutMs){
     const body = new URLSearchParams();
     Object.keys(params || {}).forEach(k => body.append(k, params[k]));
-    const res = await fetch(url, {
-      method: 'POST',
-      body
-      // no custom headers so this stays a "simple" CORS request
-    });
-    const text = await res.text();
-    let data = {};
-    try { data = JSON.parse(text); } catch(e) {}
-    if(!res.ok || data.error){
-      throw new Error(data.error || res.statusText || 'POST failed');
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), timeoutMs || 20000);
+    try {
+      const res = await fetch(url, {
+        method: 'POST',
+        body,
+        signal: controller.signal
+        // no custom headers so this stays a "simple" CORS request
+      });
+      const text = await res.text();
+      let data = {};
+      try { data = JSON.parse(text); } catch(e) {}
+      if(!res.ok || data.error){
+        throw new Error(data.error || res.statusText || 'POST failed');
+      }
+      return data;
+    } catch (error) {
+      if (error && error.name === 'AbortError') throw new Error('Search timed out. Showing local matches.');
+      throw error;
+    } finally {
+      clearTimeout(timer);
     }
-    return data;
   }
 
   // ======= GLOBAL STATE =======
@@ -911,7 +921,8 @@ function toDriveImg(urlOrId){
         subCategory: currentSubcategory,
         limit: '100',
         candidates: JSON.stringify(shopSearchCandidateRows(localCandidates))
-      }
+      },
+      20000
     );
 
     const rankedNumbers = Array.isArray(data.productNumbers)
