@@ -1380,6 +1380,7 @@
       return `<div class="category-letter">${esc(String(label || 'B').charAt(0))}</div>`;
     }
     function productImageSource(product) {
+      if (product.imageUnavailable) return '';
       return (
         product.productWebsiteImageUrl ||
         ((product.imageUrl || '').includes('/bla-website-products/') ? product.imageUrl : '') ||
