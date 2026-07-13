@@ -578,7 +578,8 @@ function toDriveImg(urlOrId){
   }
 
   async function getProductsData(){
-    const staticUrl = `${STATIC_PRODUCTS_URL}?v=202607080933`;
+    const staticVersion = Math.floor(Date.now() / (5 * 60 * 1000));
+    const staticUrl = `${STATIC_PRODUCTS_URL}?v=${staticVersion}`;
     try {
       const staticProducts = await getJsonWithTimeout(staticUrl, 15000);
       rememberProductsData(staticProducts);
