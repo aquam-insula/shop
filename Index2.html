@@ -170,15 +170,6 @@
       color: var(--muted);
       font-size: 16px;
     }
-    .scope-note {
-      flex: 0 0 auto;
-      padding: 10px 12px;
-      color: #184358;
-      background: #eaf7fb;
-      border-left: 4px solid var(--aquam);
-      font-size: 14px;
-      font-weight: 700;
-    }
     .source-filters {
       display: flex;
       flex-wrap: wrap;
@@ -549,7 +540,6 @@
       .section-nav { margin-top: 10px; }
       main { padding: 18px 12px 40px; }
       .context-row { flex-direction: column; gap: 10px; }
-      .scope-note { width: 100%; }
       .product-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 9px; }
       .product-card { min-height: 390px; }
       .product-body { padding: 11px; }
@@ -605,13 +595,6 @@
       border-radius: 4px;
     }
     .context-row { margin-bottom: 14px; }
-    .scope-note {
-      padding: 5px 0;
-      color: var(--muted);
-      background: transparent;
-      border: 0;
-      font-weight: 400;
-    }
     .source-filters { margin-bottom: 16px; }
     .source-filter { border-radius: 4px; }
     .result-heading { margin-top: 4px; }
@@ -876,9 +859,8 @@
     <div class="context-row">
       <div>
         <h1 id="contextTitle">Marine Chandlery</h1>
-        <p id="contextDescription">Local marine stock and the BLA Australia range in one search.</p>
+        <p id="contextDescription">Equipment, parts and chandlery for life on the water.</p>
       </div>
-      <div id="scopeNote" class="scope-note">Search scope: local marine stock + BLA range</div>
     </div>
 
     <div id="sourceFilters" class="source-filters">
@@ -1014,7 +996,6 @@
       searchStatus: document.getElementById('searchStatus'),
       contextTitle: document.getElementById('contextTitle'),
       contextDescription: document.getElementById('contextDescription'),
-      scopeNote: document.getElementById('scopeNote'),
       sourceFilters: document.getElementById('sourceFilters'),
       viewTools: document.getElementById('viewTools'),
       backToCategories: document.getElementById('backToCategories'),
@@ -1103,7 +1084,7 @@
       const controller = new AbortController();
       const timer = setTimeout(() => controller.abort(), SEARCH_TIMEOUT_MS);
       try {
-        const isLocalPreview = location.hostname === '127.0.0.1' || location.hostname === 'localhost';
+        const isLocalPreview = location.protocol === 'file:' || location.hostname === '127.0.0.1' || location.hostname === 'localhost';
         const endpoint = isLocalPreview
           ? (action === 'searchShopProductsAi' ? SHOP_GAS_URL : BLA_GAS_URL)
           : SEARCH_PROXY_URL;
@@ -1223,17 +1204,14 @@
 
       if (section === 'lifestyle') {
         elements.contextTitle.textContent = 'Maritime Lifestyle';
-        elements.contextDescription.textContent = 'Fashion, footwear and lifestyle products, kept separate from marine equipment.';
-        elements.scopeNote.textContent = 'Search scope: Maritime Lifestyle only';
+        elements.contextDescription.textContent = 'Fashion, footwear and everyday essentials for island life.';
       } else if (section === 'bla') {
         elements.contextTitle.textContent = 'BLA Range';
-        elements.contextDescription.textContent = 'Browse BLA products while searching both the BLA range and local marine stock.';
-        elements.scopeNote.textContent = 'Search scope: local marine stock + BLA range';
+        elements.contextDescription.textContent = 'Explore the BLA Australia marine range.';
         prefetchBla();
       } else {
         elements.contextTitle.textContent = 'Marine Chandlery';
-        elements.contextDescription.textContent = 'Local marine stock and the BLA Australia range in one search.';
-        elements.scopeNote.textContent = 'Search scope: local marine stock + BLA range';
+        elements.contextDescription.textContent = 'Equipment, parts and chandlery for life on the water.';
         prefetchBla();
       }
 
