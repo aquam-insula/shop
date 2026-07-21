@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=1000">
   <meta name="robots" content="index,follow">
-  <title>AQUAM INSULA - BLA Catalogue</title>
+  <title>AQUAM INSULA - BLA Range</title>
   <link rel="icon" type="image/x-icon" href="../favicon.ico">
   <link rel="shortcut icon" type="image/x-icon" href="../favicon.ico">
   <link rel="preload" as="image" href="./assets/wave-hero.jpg">
@@ -904,13 +904,13 @@
   </style>
 </head>
 <body>
-  <section id="authGate" class="auth-gate" aria-label="BLA catalogue access">
+  <section id="authGate" class="auth-gate" aria-label="BLA range access">
     <div class="auth-card">
-      <h1>BLA Catalogue Preview</h1>
-      <p>This catalogue preview is available for Aquam Insula internal testing.</p>
+      <h1>BLA Range Preview</h1>
+      <p>This BLA range preview is available for Aquam Insula internal testing.</p>
       <form id="authForm">
         <input id="accessToken" type="password" autocomplete="current-password" placeholder="Access token">
-        <button type="submit">Open Catalogue</button>
+        <button type="submit">Open BLA Range</button>
         <div id="authError" class="auth-error" aria-live="polite"></div>
       </form>
     </div>
@@ -949,8 +949,8 @@
 
   <section class="intro">
     <div class="intro-main">
-      <h1>AQUAM INSULA - BLA Catalogue</h1>
-      <p>Access BLA's marine catalogue from Fiji. We order on demand from Australia and arrange air freight delivery within a few days, with prices shown in FJD including freight costs and import duties.</p>
+      <h1>AQUAM INSULA - BLA Range</h1>
+      <p>Explore the BLA marine range from Fiji. We order on demand from Australia and arrange air freight delivery within a few days, with prices shown in FJD including freight costs and import duties.</p>
     </div>
   </section>
 
@@ -1641,7 +1641,7 @@
       if (!catalogueLoadPromise) return false;
       const loadingText = looksLikeProductCode(query)
         ? `Looking up product ${query}...`
-        : 'Loading catalogue data for search...';
+        : 'Loading BLA range data for search...';
       if (status) {
         status.classList.add('is-loading');
         status.innerHTML = `<span class="spinner small" aria-hidden="true"></span><span>${esc(loadingText)}</span>`;
@@ -1655,7 +1655,7 @@
       } catch (error) {
         if (status) {
           status.classList.remove('is-loading');
-          status.textContent = 'Catalogue data is temporarily unavailable.';
+          status.textContent = 'BLA range data is temporarily unavailable.';
         }
         return false;
       }
@@ -1919,7 +1919,7 @@
               <h3>${esc(cat)}</h3>
               <div class="muted">${countLine}</div>
               <div class="muted">${priceLine}</div>
-              <div class="muted">${esc(cat)} from the BLA Australia catalogue.</div>
+              <div class="muted">${esc(cat)} from the BLA Australia range.</div>
               ${exampleLine}
             </div>
           </article>`;
@@ -2007,7 +2007,7 @@
       document.getElementById('backRow').style.display = currentTopCategory ? 'block' : 'none';
       document.getElementById('backToCategories').textContent = 'Back to Categories';
       const emptySearchText = searchMode && query && aiResultCodes
-        ? `No matching catalogue products were found for "${esc(query)}".`
+        ? `No matching BLA range products were found for "${esc(query)}".`
         : 'Enter a search term to see matching products.';
       document.getElementById('productGrid').innerHTML = productDataReady && !awaitingSearch && displayRows.length ? displayRows.map(p => `
         <article class="product-card" data-code="${esc(p.productNumber)}" role="button" tabindex="0" aria-label="View ${esc(p.description)}" ${cardStyle(topCategory(p))}>
@@ -2401,7 +2401,7 @@
         currentSubCategory = '';
         mode = 'search';
         searchOverrideRows = localDisplayProducts;
-        status.innerHTML = `<span class="spinner small" aria-hidden="true"></span><span>Refining ${localCandidates.length.toLocaleString('en-US')} catalogue matches...</span>`;
+        status.innerHTML = `<span class="spinner small" aria-hidden="true"></span><span>Refining ${localCandidates.length.toLocaleString('en-US')} BLA range matches...</span>`;
         document.getElementById('resultCount').innerHTML = `<span class="spinner small" aria-hidden="true"></span> Showing local matches while refining...`;
         render();
         scrollResultsToTop();
@@ -2412,7 +2412,7 @@
           if (runId !== searchRunId) return;
           console.warn('BLA refinement unavailable; showing local matches.', refineError);
           status.classList.remove('is-loading');
-          status.textContent = `${localDisplayProducts.length} local catalogue matches shown. AI refinement is temporarily unavailable.`;
+          status.textContent = `${localDisplayProducts.length} local BLA range matches shown. AI refinement is temporarily unavailable.`;
           document.getElementById('resultCount').textContent = `${localDisplayProducts.length} products found | showing ${localDisplayProducts.length}`;
           return;
         }
@@ -2443,8 +2443,8 @@
       }
     }
     function loadCatalogue() {
-      document.getElementById('productCount').innerHTML = '<span class="spinner small" aria-hidden="true"></span> Loading catalogue...';
-      document.getElementById('resultCount').textContent = 'Loading catalogue...';
+      document.getElementById('productCount').innerHTML = '<span class="spinner small" aria-hidden="true"></span> Loading BLA range...';
+      document.getElementById('resultCount').textContent = 'Loading BLA range...';
       render();
       fetchJsonWithTimeout(STATIC_CATALOGUE_SUMMARY_URL, JSON_TIMEOUT_MS)
         .then(data => {
@@ -2457,9 +2457,9 @@
           render();
         })
         .catch(error => {
-          console.warn('BLA catalogue summary unavailable', error);
-          const message = error.message || 'Catalogue could not be loaded.';
-          document.getElementById('productCount').textContent = 'Catalogue is temporarily unavailable';
+          console.warn('BLA range summary unavailable', error);
+          const message = error.message || 'BLA range could not be loaded.';
+          document.getElementById('productCount').textContent = 'BLA range is temporarily unavailable';
           document.getElementById('resultCount').textContent = message;
           document.getElementById('categoryGrid').innerHTML = `<div class="placeholder">${esc(message)}</div>`;
         });
@@ -2501,8 +2501,8 @@
           render();
         })
         .catch(error => {
-          const message = error.message || 'Catalogue is temporarily unavailable';
-          document.getElementById('productCount').textContent = 'Catalogue is temporarily unavailable';
+          const message = error.message || 'BLA range is temporarily unavailable';
+          document.getElementById('productCount').textContent = 'BLA range is temporarily unavailable';
           document.getElementById('resultCount').textContent = message;
           document.getElementById('productGrid').innerHTML = `<div class="placeholder">${esc(message)}</div>`;
           catalogueLoadPromise = null;

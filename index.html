@@ -876,15 +876,15 @@
     <div class="context-row">
       <div>
         <h1 id="contextTitle">Marine Chandlery</h1>
-        <p id="contextDescription">Local marine stock and the BLA Australia catalogue in one search.</p>
+        <p id="contextDescription">Local marine stock and the BLA Australia range in one search.</p>
       </div>
-      <div id="scopeNote" class="scope-note">Search scope: local marine stock + BLA catalogue</div>
+      <div id="scopeNote" class="scope-note">Search scope: local marine stock + BLA range</div>
     </div>
 
     <div id="sourceFilters" class="source-filters">
       <button class="source-filter active" type="button" data-source="all">All marine results</button>
       <button class="source-filter" type="button" data-source="stock">In local stock</button>
-      <button class="source-filter" type="button" data-source="bla">BLA catalogue</button>
+      <button class="source-filter" type="button" data-source="bla">BLA range</button>
     </div>
 
     <div id="viewTools" class="view-tools hidden">
@@ -1226,14 +1226,14 @@
         elements.contextDescription.textContent = 'Fashion, footwear and lifestyle products, kept separate from marine equipment.';
         elements.scopeNote.textContent = 'Search scope: Maritime Lifestyle only';
       } else if (section === 'bla') {
-        elements.contextTitle.textContent = 'BLA Catalogue';
-        elements.contextDescription.textContent = 'Browse BLA products while searching both the BLA catalogue and local marine stock.';
-        elements.scopeNote.textContent = 'Search scope: local marine stock + BLA catalogue';
+        elements.contextTitle.textContent = 'BLA Range';
+        elements.contextDescription.textContent = 'Browse BLA products while searching both the BLA range and local marine stock.';
+        elements.scopeNote.textContent = 'Search scope: local marine stock + BLA range';
         prefetchBla();
       } else {
         elements.contextTitle.textContent = 'Marine Chandlery';
-        elements.contextDescription.textContent = 'Local marine stock and the BLA Australia catalogue in one search.';
-        elements.scopeNote.textContent = 'Search scope: local marine stock + BLA catalogue';
+        elements.contextDescription.textContent = 'Local marine stock and the BLA Australia range in one search.';
+        elements.scopeNote.textContent = 'Search scope: local marine stock + BLA range';
         prefetchBla();
       }
 
@@ -1364,7 +1364,7 @@
       showLoading('Searching products...');
       elements.searchStatus.textContent = state.section === 'lifestyle'
         ? 'Searching Maritime Lifestyle...'
-        : 'Searching local marine stock and the BLA catalogue...';
+        : 'Searching local marine stock and the BLA range...';
 
       try {
         let candidateRows;
@@ -1402,7 +1402,7 @@
         finishSearch(
           (ranked.length ? ranked : fallback).slice(0, MAX_RESULTS),
           validation.query,
-          aiUnavailable ? 'AI refinement is temporarily unavailable; showing verified catalogue matches.' : summary
+          aiUnavailable ? 'AI refinement is temporarily unavailable; showing verified product matches.' : summary
         );
       } catch (error) {
         if (sequence !== state.searchSequence) return;
@@ -1410,7 +1410,7 @@
         const fallbackRows = state.section === 'lifestyle'
           ? selectLifestyleCandidates(validation.query)
           : selectMarineCandidates(validation.query);
-        finishSearch(fallbackRows.map(row => row.product).slice(0, MAX_RESULTS), validation.query, 'AI refinement is temporarily unavailable; showing verified catalogue matches.');
+        finishSearch(fallbackRows.map(row => row.product).slice(0, MAX_RESULTS), validation.query, 'AI refinement is temporarily unavailable; showing verified product matches.');
       }
     }
 
@@ -1457,8 +1457,8 @@
         } catch (error) {
           elements.loadingPanel.classList.add('hidden');
           elements.emptyPanel.classList.remove('hidden');
-          elements.emptyPanel.textContent = 'The BLA catalogue is temporarily unavailable. Please refresh and try again.';
-          elements.resultCount.textContent = 'BLA catalogue unavailable';
+          elements.emptyPanel.textContent = 'The BLA range is temporarily unavailable. Please refresh and try again.';
+          elements.resultCount.textContent = 'BLA range unavailable';
           return;
         }
         if (state.section !== 'bla' || state.view !== 'categories') return;
@@ -1485,7 +1485,7 @@
       });
       if (state.section === 'marine') {
         categories.unshift({
-          name: 'BLA Catalogue',
+          name: 'BLA Range',
           rows: state.blaProducts,
           order: -1,
           fallbackOrder: -1,
@@ -1525,7 +1525,7 @@
         title.textContent = name;
         const count = document.createElement('p');
         count.textContent = isBlaCategory
-          ? 'BLA Australia marine catalogue'
+          ? 'BLA Australia marine range'
           : `${rows.length} product${rows.length === 1 ? '' : 's'}`;
         body.append(title, count);
         card.append(imageWrap, body);
@@ -1779,7 +1779,7 @@
         sourceRow.className = 'product-source-row';
         const badge = document.createElement('span');
         badge.className = `source-badge${selected.source === 'bla' ? ' bla' : ''}`;
-        badge.textContent = selected.source === 'bla' ? 'BLA catalogue' : 'In local stock';
+        badge.textContent = selected.source === 'bla' ? 'BLA range' : 'In local stock';
         const code = document.createElement('span');
         code.className = 'product-code';
         sourceRow.append(badge, code);
@@ -1908,7 +1908,7 @@
         name.textContent = item.description;
         const meta = document.createElement('div');
         meta.className = 'basket-item-meta';
-        meta.textContent = `${item.source === 'bla' ? 'BLA catalogue' : 'Local stock'} / ${item.productNumber} / ${item.fulfilment}`;
+        meta.textContent = `${item.source === 'bla' ? 'BLA range' : 'Local stock'} / ${item.productNumber} / ${item.fulfilment}`;
         const quantityRow = document.createElement('div');
         quantityRow.className = 'quantity-row';
         const controls = document.createElement('div');
@@ -1994,7 +1994,7 @@
       wrap.replaceChildren(makeImage(product, 'detail-image'));
       const source = document.getElementById('detailSource');
       source.className = `source-badge${product.source === 'bla' ? ' bla' : ''}`;
-      source.textContent = product.source === 'bla' ? 'BLA catalogue' : 'In local stock';
+      source.textContent = product.source === 'bla' ? 'BLA range' : 'In local stock';
       document.getElementById('detailName').textContent = product.description;
       document.getElementById('detailCode').textContent = product.productNumber;
       document.getElementById('detailMeta').textContent = [product.brand, product.variant, product.material, product.category, product.subCategory, product.fulfilment].filter(Boolean).join(' / ');
