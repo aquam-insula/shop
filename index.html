@@ -1205,14 +1205,20 @@ function toDriveImg(urlOrId){
   
     const totalPages = Math.ceil(groupKeys.length / resultsPerPage);
     if (totalPages <= 1) return;
+
+    const changeProductPage = page=>{
+      if(page === currentPage) return;
+      currentPage = page;
+      displayCurrentPage();
+      scrollToElement('product-grid');
+    };
   
     const left = document.createElement('span');
     left.textContent = '◀';
     left.classList.add('page-arrow');
     left.addEventListener('click', ()=>{
       if(currentPage > 1){
-        currentPage--;
-        displayCurrentPage();
+        changeProductPage(currentPage - 1);
       }
     });
     container.appendChild(left);
@@ -1223,8 +1229,7 @@ function toDriveImg(urlOrId){
       btn.classList.add('page-number');
       if (p === currentPage) btn.classList.add('active');
       btn.addEventListener('click', ()=>{
-        currentPage = p;
-        displayCurrentPage();
+        changeProductPage(p);
       });
       container.appendChild(btn);
     }
@@ -1234,8 +1239,7 @@ function toDriveImg(urlOrId){
     right.classList.add('page-arrow');
     right.addEventListener('click', ()=>{
       if(currentPage < totalPages){
-        currentPage++;
-        displayCurrentPage();
+        changeProductPage(currentPage + 1);
       }
     });
     container.appendChild(right);
