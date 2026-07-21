@@ -91,6 +91,7 @@
       font-size: 14px;
       font-weight: 700;
     }
+    .search-status:empty { display: none; }
     .basket-button {
       display: inline-flex;
       align-items: center;
@@ -169,24 +170,6 @@
       margin: 0;
       color: var(--muted);
       font-size: 16px;
-    }
-    .source-filters {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 8px;
-      margin-bottom: 20px;
-    }
-    .source-filter {
-      min-height: 36px;
-      padding: 0 13px;
-      border: 1px solid var(--line);
-      color: #32383b;
-      background: var(--white);
-    }
-    .source-filter.active {
-      color: var(--white);
-      border-color: #353c40;
-      background: #353c40;
     }
     .result-heading {
       display: flex;
@@ -595,8 +578,6 @@
       border-radius: 4px;
     }
     .context-row { margin-bottom: 14px; }
-    .source-filters { margin-bottom: 16px; }
-    .source-filter { border-radius: 4px; }
     .result-heading { margin-top: 4px; }
     .view-tools {
       display: flex;
@@ -863,12 +844,6 @@
       </div>
     </div>
 
-    <div id="sourceFilters" class="source-filters">
-      <button class="source-filter active" type="button" data-source="all">All marine results</button>
-      <button class="source-filter" type="button" data-source="stock">In local stock</button>
-      <button class="source-filter" type="button" data-source="bla">BLA range</button>
-    </div>
-
     <div id="viewTools" class="view-tools hidden">
       <button id="backToCategories" class="back-button" type="button">Back to Categories</button>
     </div>
@@ -974,7 +949,6 @@
     const state = {
       section: 'marine',
       view: 'categories',
-      sourceFilter: 'all',
       selectedCategory: '',
       selectedSubCategory: '',
       shopProducts: [],
@@ -996,7 +970,6 @@
       searchStatus: document.getElementById('searchStatus'),
       contextTitle: document.getElementById('contextTitle'),
       contextDescription: document.getElementById('contextDescription'),
-      sourceFilters: document.getElementById('sourceFilters'),
       viewTools: document.getElementById('viewTools'),
       backToCategories: document.getElementById('backToCategories'),
       resultTitle: document.getElementById('resultTitle'),
@@ -1195,12 +1168,10 @@
     function setSection(section, preserveQuery) {
       state.section = section;
       state.view = 'categories';
-      state.sourceFilter = 'all';
       state.selectedCategory = '';
       state.selectedSubCategory = '';
       const activeDepartment = section === 'bla' ? 'marine' : section;
       document.querySelectorAll('.department-card').forEach(button => button.classList.toggle('active', button.dataset.section === activeDepartment));
-      document.querySelectorAll('.source-filter').forEach(button => button.classList.toggle('active', button.dataset.source === 'all'));
 
       if (section === 'lifestyle') {
         elements.contextTitle.textContent = 'Maritime Lifestyle';
@@ -1340,9 +1311,7 @@
       }
 
       showLoading('Searching products...');
-      elements.searchStatus.textContent = state.section === 'lifestyle'
-        ? 'Searching Maritime Lifestyle...'
-        : 'Searching local marine stock and the BLA range...';
+      elements.searchStatus.textContent = 'Searching products...';
 
       try {
         let candidateRows;
@@ -1350,7 +1319,7 @@
         if (state.section === 'lifestyle') {
           candidateRows = selectLifestyleCandidates(validation.query);
           if (!candidateRows.length) {
-            finishSearch([], validation.query, 'No matching Lifestyle products found.');
+            finishSearch([], validation.query);
             return;
           }
           data = await postSearch('searchShopProductsAi', {
@@ -1363,7 +1332,7 @@
           if (sequence !== state.searchSequence) return;
           candidateRows = selectMarineCandidates(validation.query);
           if (!candidateRows.length) {
-            finishSearch([], validation.query, 'No matching marine products found.');
+            finishSearch([], validation.query);
             return;
           }
           data = await postSearch('searchShopProductsAi', {
@@ -1375,33 +1344,27 @@
         if (sequence !== state.searchSequence) return;
         const ranked = mapRankedCodes(data.productNumbers || data.codes, candidateRows);
         const fallback = candidateRows.map(row => row.product);
-        const summary = text(data.summary);
-        const aiUnavailable = /openai.*failed|insufficient_quota|refinement failed/i.test(summary);
-        finishSearch(
-          (ranked.length ? ranked : fallback).slice(0, MAX_RESULTS),
-          validation.query,
-          aiUnavailable ? 'AI refinement is temporarily unavailable; showing verified product matches.' : summary
-        );
+        finishSearch((ranked.length ? ranked : fallback).slice(0, MAX_RESULTS), validation.query);
       } catch (error) {
         if (sequence !== state.searchSequence) return;
         console.warn('Consolidated search fallback', error);
         const fallbackRows = state.section === 'lifestyle'
           ? selectLifestyleCandidates(validation.query)
           : selectMarineCandidates(validation.query);
-        finishSearch(fallbackRows.map(row => row.product).slice(0, MAX_RESULTS), validation.query, 'AI refinement is temporarily unavailable; showing verified product matches.');
+        finishSearch(fallbackRows.map(row => row.product).slice(0, MAX_RESULTS), validation.query);
       }
     }
 
-    function finishSearch(products, query, message) {
+    function finishSearch(products, query) {
       state.view = 'search';
       state.selectedCategory = '';
       state.selectedSubCategory = '';
       state.unfilteredResults = products;
       elements.resultTitle.textContent = `Search results for "${query}"`;
-      elements.searchStatus.textContent = message || `${products.length} products found.`;
+      elements.searchStatus.textContent = '';
       elements.viewTools.classList.remove('hidden');
-      elements.sourceFilters.classList.toggle('hidden', state.section === 'lifestyle');
-      applySourceFilter();
+      state.visibleResults = products.slice();
+      renderProducts(state.visibleResults);
     }
 
     function categoryRows() {
@@ -1421,7 +1384,6 @@
       state.unfilteredResults = [];
       state.visibleResults = [];
       elements.searchStatus.textContent = '';
-      elements.sourceFilters.classList.add('hidden');
       elements.viewTools.classList.add('hidden');
       elements.backToCategories.textContent = 'Back to Categories';
       elements.productGrid.classList.add('hidden');
@@ -1528,11 +1490,9 @@
       state.view = 'products';
       state.selectedCategory = name;
       state.selectedSubCategory = '';
-      state.sourceFilter = 'all';
       state.unfilteredResults = rows.slice();
       elements.searchInput.value = '';
       elements.searchStatus.textContent = '';
-      elements.sourceFilters.classList.add('hidden');
       elements.viewTools.classList.remove('hidden');
       elements.resultTitle.textContent = name;
       elements.categoryGrid.classList.add('hidden');
@@ -1543,12 +1503,10 @@
       state.view = 'subcategories';
       state.selectedCategory = topCategory;
       state.selectedSubCategory = '';
-      state.sourceFilter = 'all';
       state.unfilteredResults = rows.slice();
       state.visibleResults = [];
       elements.searchInput.value = '';
       elements.searchStatus.textContent = '';
-      elements.sourceFilters.classList.add('hidden');
       elements.viewTools.classList.remove('hidden');
       elements.backToCategories.textContent = 'Back to BLA Categories';
       elements.resultTitle.textContent = topCategory;
@@ -1605,26 +1563,14 @@
     function openBlaSubcategory(name, rows) {
       state.view = 'products';
       state.selectedSubCategory = name;
-      state.sourceFilter = 'all';
       state.unfilteredResults = rows.slice();
       elements.searchInput.value = '';
       elements.searchStatus.textContent = '';
-      elements.sourceFilters.classList.add('hidden');
       elements.viewTools.classList.remove('hidden');
       elements.backToCategories.textContent = `Back to ${state.selectedCategory}`;
       elements.resultTitle.textContent = name;
       elements.categoryGrid.classList.add('hidden');
       renderProducts(state.unfilteredResults);
-    }
-
-    function applySourceFilter() {
-      state.visibleResults = state.unfilteredResults.filter(product => {
-        if (state.section === 'lifestyle') return product.market === 'lifestyle';
-        if (state.sourceFilter === 'stock') return product.source === 'stock';
-        if (state.sourceFilter === 'bla') return product.source === 'bla';
-        return product.market === 'marine';
-      });
-      renderProducts(state.visibleResults);
     }
 
     function showLoading(message) {
@@ -2107,11 +2053,6 @@
 
     function bindEvents() {
       document.querySelectorAll('.department-card').forEach(button => button.addEventListener('click', () => setSection(button.dataset.section, false)));
-      document.querySelectorAll('.source-filter').forEach(button => button.addEventListener('click', () => {
-        state.sourceFilter = button.dataset.source;
-        document.querySelectorAll('.source-filter').forEach(item => item.classList.toggle('active', item === button));
-        applySourceFilter();
-      }));
       elements.searchInput.addEventListener('input', () => {
         clearTimeout(state.searchTimer);
         state.searchTimer = setTimeout(runSearch, 650);
