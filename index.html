@@ -371,6 +371,8 @@
       font-weight: 700;
     }
     .primary-button:hover { background: var(--aquam-dark); }
+    .primary-button.tools-add-button { background: #c62828; }
+    .primary-button.tools-add-button:hover { background: #9f1f1f; }
     .secondary-button {
       padding: 0 14px;
       color: #30373a;
@@ -1251,6 +1253,10 @@
     function vip(product) { return number(product.price) * (1 + state.vatRate); }
     function productStorageLocation(product) {
       return /^[SJ]/i.test(text(product.productNumber).trim()) ? text(product.storageLocation).trim() : '';
+    }
+    function isToolsProduct(product) {
+      return product && product.source === 'stock' &&
+        (text(product.category).trim() === 'Tools' || text(product.originalCategory).trim() === 'Tools');
     }
 
     const LOCAL_MARINE_TAXONOMY = {
@@ -2370,6 +2376,7 @@
           code.textContent = selected.productNumber;
           title.textContent = selected.description;
           priceValue.textContent = money(vip(selected));
+          add.classList.toggle('tools-add-button', isToolsProduct(selected));
         }
 
         body.append(sourceRow, title, variantCount);
@@ -2543,6 +2550,7 @@
       location.classList.toggle('hidden', !locationText);
       document.getElementById('detailMeta').textContent = [product.brand, product.variant, product.material, product.category, product.subCategory, product.fulfilment].filter(Boolean).join(' / ');
       document.getElementById('detailPrice').textContent = money(vip(product));
+      document.getElementById('detailAdd').classList.toggle('tools-add-button', isToolsProduct(product));
       document.getElementById('detailInformation').textContent = productInformationText(product) || product.description;
       const ai = document.getElementById('detailAi');
       ai.textContent = 'Loading product information...';
