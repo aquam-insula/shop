@@ -1725,8 +1725,6 @@
         const variantCount = document.createElement('div');
         variantCount.className = 'variant-count';
         variantCount.textContent = group.length > 1 ? `${group.length} variants` : '';
-        const meta = document.createElement('p');
-        meta.className = 'product-meta';
         let variantSelect = null;
         if (group.length > 1) {
           variantSelect = document.createElement('select');
@@ -1767,13 +1765,12 @@
           card.dataset.source = selected.source;
           code.textContent = selected.productNumber;
           title.textContent = selected.description;
-          meta.textContent = [selected.brand, selected.variant, selected.material, selected.subCategory].filter(Boolean).join(' / ');
           priceValue.textContent = money(vip(selected));
         }
 
         body.append(sourceRow, title, variantCount);
         if (variantSelect) body.appendChild(variantSelect);
-        body.append(meta, price, actions);
+        body.append(price, actions);
         card.appendChild(body);
         card.addEventListener('click', () => openProduct(selected, group));
         updateCard();
