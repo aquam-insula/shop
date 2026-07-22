@@ -2438,7 +2438,7 @@
         const row = document.createElement('li');
         row.className = 'basket-item';
         const image = document.createElement('img');
-        image.src = item.imageUrl || '';
+        image.src = imageFor(item) || '';
         image.alt = item.description;
         image.addEventListener('error', () => image.classList.add('hidden'), { once: true });
         const detail = document.createElement('div');
