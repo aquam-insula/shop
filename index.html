@@ -815,6 +815,110 @@
       .department-chooser { grid-template-columns: 1fr; }
       .department-card { height: 165px; }
     }
+
+    .catalogue-layout {
+      display: grid;
+      grid-template-columns: 270px minmax(0, 1fr);
+      width: min(1440px, 100%);
+      margin: 18px auto 0;
+      border-top: 1px solid var(--line);
+    }
+    .category-sidebar {
+      min-width: 0;
+      padding: 22px 16px 48px 22px;
+      border-right: 1px solid var(--line);
+    }
+    .sidebar-title {
+      margin: 0 0 10px;
+      color: #2c373c;
+      font-size: 18px;
+      font-weight: 700;
+    }
+    .sidebar-range-title {
+      margin: 18px 0 7px;
+      padding: 0 8px 7px;
+      border-bottom: 1px solid var(--line);
+      color: var(--bla);
+      font-size: 13px;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+    .category-tree button {
+      display: block;
+      width: 100%;
+      min-height: 42px;
+      padding: 9px 8px;
+      border: 0;
+      border-bottom: 1px solid #e6eaec;
+      color: #263238;
+      background: transparent;
+      line-height: 1.25;
+      text-align: left;
+    }
+    .category-tree button:hover { color: var(--aquam-dark); background: #f4f8f9; }
+    .category-tree button.active {
+      color: var(--aquam-dark);
+      background: #edf6fa;
+      font-weight: 700;
+    }
+    .category-tree button[data-section="lifestyle"].active {
+      color: var(--insular);
+      background: #edf8f1;
+    }
+    .category-tree .subcategory-node {
+      padding-left: 24px;
+      color: #596369;
+      font-size: 13px;
+    }
+    .category-tree .bla-category-node { border-left: 3px solid transparent; }
+    .category-tree .subcategory-node::before { content: "> "; }
+    .catalogue-layout main {
+      width: auto;
+      min-width: 0;
+      margin: 0;
+      padding: 22px 22px 60px;
+    }
+    .home-range-card { border-top: 5px solid var(--aquam); }
+    .home-range-card[data-section="lifestyle"] { border-top-color: var(--insular); }
+    .home-range-card .category-image-wrap { background: var(--white); }
+    .home-range-card .category-image-wrap img {
+      max-width: calc(100% - 10px);
+      max-height: calc(100% - 10px);
+    }
+    .bla-top-category { border-top: 5px solid var(--category-accent, var(--bla)); }
+    .bla-top-category .category-image-wrap { background: #f7fafb; }
+    .bla-top-category .category-image-wrap img {
+      max-width: calc(100% - 12px);
+      max-height: calc(100% - 12px);
+    }
+    .source-note {
+      margin-top: 5px;
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    @media (max-width: 900px) {
+      .catalogue-layout { grid-template-columns: 220px minmax(0, 1fr); }
+      .category-sidebar { padding-left: 12px; padding-right: 12px; }
+    }
+    @media (max-width: 700px) {
+      .catalogue-layout { display: block; margin-top: 10px; border-top: 0; }
+      .category-sidebar {
+        padding: 8px 12px 12px;
+        border-right: 0;
+        border-bottom: 1px solid var(--line);
+      }
+      .category-tree {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 4px;
+      }
+      .sidebar-range-title { grid-column: 1 / -1; margin-top: 8px; }
+      .sidebar-range-title, .category-tree .bla-category-node { display: none; }
+      .category-tree .bla-category-node.active { display: block; grid-column: 1 / -1; }
+      .category-tree .subcategory-node { display: none; }
+      .catalogue-layout main { padding: 16px 12px 44px; }
+    }
   </style>
 </head>
 <body>
@@ -838,22 +942,17 @@
     </div>
   </header>
 
-  <section class="department-chooser" aria-label="Shop departments">
-    <button class="department-card active" type="button" data-section="marine">
-      <img src="https://raw.githubusercontent.com/toralf-dittmann/aqiml/main/Marine%20Chandlery.jpg" alt="Marine Chandlery">
-      <h2>Marine Chandlery</h2>
-    </button>
-    <button class="department-card" type="button" data-section="lifestyle">
-      <img src="https://raw.githubusercontent.com/toralf-dittmann/aqiml/main/Fashion.jpg" alt="Maritime Lifestyle">
-      <h2>Maritime Lifestyle</h2>
-    </button>
-  </section>
+  <div class="catalogue-layout">
+  <aside class="category-sidebar" aria-label="Product categories">
+    <div class="sidebar-title">Categories</div>
+    <div id="categoryTree" class="category-tree"></div>
+  </aside>
 
   <main>
     <div class="context-row">
       <div>
-        <h1 id="contextTitle">Marine Chandlery</h1>
-        <p id="contextDescription">Equipment, parts and chandlery for life on the water.</p>
+        <h1 id="contextTitle">Aquam Insula Shop</h1>
+        <p id="contextDescription">Marine chandlery, the BLA range and maritime lifestyle products.</p>
       </div>
     </div>
 
@@ -862,7 +961,7 @@
     </div>
 
     <div class="result-heading">
-      <h2 id="resultTitle">Marine products</h2>
+      <h2 id="resultTitle">Categories</h2>
       <div id="resultCount" class="result-count">Loading local products...</div>
     </div>
     <div id="loadingPanel" class="loading-panel"><div><div class="spinner"></div><div>Loading product data...</div></div></div>
@@ -870,6 +969,7 @@
     <div id="categoryGrid" class="category-grid hidden"></div>
     <div id="productGrid" class="product-grid hidden"></div>
   </main>
+  </div>
 
   <footer class="contact-bar" aria-label="Contact Aquam Insula">
     <strong>Contact Aquam Insula</strong>
@@ -947,7 +1047,8 @@
     'use strict';
 
     const SHOP_DATA_URL = './data/shop_products.json';
-    const BLA_SEARCH_DATA_URL = './bla/data/bla_search_index.json';
+    const BLA_SEARCH_DATA_URL = './data/bla_products_compact.json';
+    const BLA_SUMMARY_URL = './bla/data/bla_catalogue_summary_appsscript.json';
     const SEARCH_PROXY_URL = 'https://aqiml-search.t-98d.workers.dev';
     const SHOP_GAS_URL = 'https://script.google.com/macros/s/AKfycbxpg0ptxrXsGXO6vmir-RxK5mHQ_I5XdFPxNeIp9uDgPumGxz9c9ATs_r51Mr4R4UpONA/exec';
     const BLA_GAS_URL = 'https://script.google.com/macros/s/AKfycbxQxHW4iCUh7im8_Q6jXbx5aLAxglySAgXkE7tIDyI6Wx0iHP2OhIOdKhB29vHZoO8/exec';
@@ -960,13 +1061,15 @@
     const aiDescriptionCache = new Map();
 
     const state = {
-      section: 'marine',
+      section: 'home',
       view: 'categories',
       selectedCategory: '',
       selectedSubCategory: '',
       shopProducts: [],
       blaProducts: [],
       blaPromise: null,
+      blaSummary: null,
+      blaChunks: new Map(),
       visibleResults: [],
       unfilteredResults: [],
       basket: [],
@@ -981,6 +1084,7 @@
       searchInput: document.getElementById('searchInput'),
       searchButton: document.getElementById('searchButton'),
       searchStatus: document.getElementById('searchStatus'),
+      categoryTree: document.getElementById('categoryTree'),
       contextTitle: document.getElementById('contextTitle'),
       contextDescription: document.getElementById('contextDescription'),
       viewTools: document.getElementById('viewTools'),
@@ -1148,6 +1252,12 @@
         .map(normalizeShopProduct);
     }
 
+    async function loadBlaSummary() {
+      const data = await fetchJson(BLA_SUMMARY_URL, 20000);
+      state.blaSummary = data && Array.isArray(data.categories) ? data : { totalProducts: 0, categories: [] };
+      return state.blaSummary;
+    }
+
     function loadBlaProducts() {
       if (state.blaProducts.length) return Promise.resolve(state.blaProducts);
       if (state.blaPromise) return state.blaPromise;
@@ -1163,6 +1273,19 @@
       return state.blaPromise;
     }
 
+    async function loadBlaSubcategoryChunk(categoryName, subcategoryName) {
+      const category = blaCategorySummary(categoryName);
+      const subcategory = category && Array.isArray(category.subcategories)
+        ? category.subcategories.find(item => item.name === subcategoryName)
+        : null;
+      if (!subcategory || !subcategory.file) return [];
+      if (state.blaChunks.has(subcategory.file)) return state.blaChunks.get(subcategory.file);
+      const rows = await fetchJson(`./bla/data/catalogue-chunks/${subcategory.file}`, 30000);
+      const products = (Array.isArray(rows) ? rows : []).map(normalizeBlaProduct);
+      state.blaChunks.set(subcategory.file, products);
+      return products;
+    }
+
     function prefetchBla() {
       const run = () => loadBlaProducts().catch(error => console.warn('BLA prefetch unavailable', error));
       if ('requestIdleCallback' in window) window.requestIdleCallback(run, { timeout: 2500 });
@@ -1173,9 +1296,10 @@
       const params = new URLSearchParams(window.location.search);
       const direct = text(params.get('section')).toLowerCase();
       const start = text(params.get('start')).toLowerCase();
-      if (direct === 'bla') return 'bla';
+      if (direct === 'bla') return 'home';
+      if (direct === 'marine') return 'marine';
       if (direct === 'lifestyle' || start === 'maritime lifestyle') return 'lifestyle';
-      return 'marine';
+      return 'home';
     }
 
     function setSection(section, preserveQuery) {
@@ -1183,8 +1307,6 @@
       state.view = 'categories';
       state.selectedCategory = '';
       state.selectedSubCategory = '';
-      const activeDepartment = section === 'bla' ? 'marine' : section;
-      document.querySelectorAll('.department-card').forEach(button => button.classList.toggle('active', button.dataset.section === activeDepartment));
 
       if (section === 'lifestyle') {
         elements.contextTitle.textContent = 'Maritime Lifestyle';
@@ -1193,12 +1315,17 @@
         elements.contextTitle.textContent = 'BLA Range';
         elements.contextDescription.textContent = 'Explore the BLA Australia marine range.';
         prefetchBla();
+      } else if (section === 'home') {
+        elements.contextTitle.textContent = 'Aquam Insula Shop';
+        elements.contextDescription.textContent = 'Marine chandlery, the BLA range and maritime lifestyle products.';
+        prefetchBla();
       } else {
         elements.contextTitle.textContent = 'Marine Chandlery';
         elements.contextDescription.textContent = 'Equipment, parts and chandlery for life on the water.';
         prefetchBla();
       }
 
+      renderSidebar();
       if (!preserveQuery) elements.searchInput.value = '';
       if (elements.searchInput.value.trim()) runSearch();
       else renderCategories();
@@ -1323,61 +1450,346 @@
         return;
       }
 
-      showLoading('Searching products...');
-      elements.searchStatus.textContent = 'Searching products...';
+      const lifestyleOnly = state.section === 'lifestyle';
+      elements.contextTitle.textContent = lifestyleOnly ? 'Maritime Lifestyle' : 'Marine Chandlery & BLA Range';
+      elements.contextDescription.textContent = lifestyleOnly
+        ? 'Fashion, footwear and everyday essentials for island life.'
+        : 'Local marine stock and the BLA Australia marine range.';
+      let candidateRows = [];
 
-      try {
-        let candidateRows;
-        let data;
-        if (state.section === 'lifestyle') {
-          candidateRows = selectLifestyleCandidates(validation.query);
-          if (!candidateRows.length) {
-            finishSearch([], validation.query);
-            return;
-          }
-          data = await postSearch('searchShopProductsAi', {
-            token: '',
-            query: validation.query,
-            candidates: JSON.stringify(candidateRows.map(makeAiCandidate))
-          });
+      if (lifestyleOnly) {
+        candidateRows = selectLifestyleCandidates(validation.query);
+        finishSearch(candidateRows.map(row => row.product).slice(0, MAX_RESULTS), validation.query, candidateRows.length ? 'Refining results...' : '');
+      } else {
+        const localRows = rankLocally(
+          validation.query,
+          state.shopProducts.filter(product => product.market === 'marine')
+        ).slice(0, MAX_AI_CANDIDATES);
+        if (localRows.length) {
+          finishSearch(localRows.map(row => row.product).slice(0, MAX_RESULTS), validation.query, 'Adding BLA Range matches...');
         } else {
+          showLoading('Searching local stock and BLA Range...');
+          elements.searchStatus.textContent = 'Searching local stock and BLA Range...';
+        }
+        try {
           await loadBlaProducts();
-          if (sequence !== state.searchSequence) return;
-          candidateRows = selectMarineCandidates(validation.query);
-          if (!candidateRows.length) {
-            finishSearch([], validation.query);
-            return;
-          }
-          data = await postSearch('searchShopProductsAi', {
-            token: '',
-            query: validation.query,
-            candidates: JSON.stringify(candidateRows.map(makeAiCandidate))
-          });
+        } catch (error) {
+          console.warn('BLA static search unavailable', error);
         }
         if (sequence !== state.searchSequence) return;
+        candidateRows = selectMarineCandidates(validation.query);
+        finishSearch(candidateRows.map(row => row.product).slice(0, MAX_RESULTS), validation.query, candidateRows.length ? 'Refining results...' : '');
+      }
+
+      if (!candidateRows.length || sequence !== state.searchSequence) return;
+
+      try {
+        const data = await postSearch('searchShopProductsAi', {
+          token: '',
+          query: validation.query,
+          candidates: JSON.stringify(candidateRows.map(makeAiCandidate))
+        });
+        if (sequence !== state.searchSequence) return;
         const ranked = mapRankedCodes(data.productNumbers || data.codes, candidateRows);
-        const fallback = candidateRows.map(row => row.product);
-        finishSearch((ranked.length ? ranked : fallback).slice(0, MAX_RESULTS), validation.query);
+        const rankedKeys = new Set(ranked.map(productKey));
+        const remaining = candidateRows.map(row => row.product).filter(product => !rankedKeys.has(productKey(product)));
+        finishSearch(ranked.concat(remaining).slice(0, MAX_RESULTS), validation.query);
       } catch (error) {
         if (sequence !== state.searchSequence) return;
-        console.warn('Consolidated search fallback', error);
-        const fallbackRows = state.section === 'lifestyle'
-          ? selectLifestyleCandidates(validation.query)
-          : selectMarineCandidates(validation.query);
-        finishSearch(fallbackRows.map(row => row.product).slice(0, MAX_RESULTS), validation.query);
+        console.warn('AI search refinement unavailable', error);
+        finishSearch(candidateRows.map(row => row.product).slice(0, MAX_RESULTS), validation.query);
       }
     }
 
-    function finishSearch(products, query) {
+    function finishSearch(products, query, statusMessage = '') {
       state.view = 'search';
       state.selectedCategory = '';
       state.selectedSubCategory = '';
       state.unfilteredResults = products;
       elements.resultTitle.textContent = `Search results for "${query}"`;
-      elements.searchStatus.textContent = '';
+      elements.searchStatus.textContent = statusMessage;
       elements.viewTools.classList.remove('hidden');
       state.visibleResults = products.slice();
+      renderSidebar();
       renderProducts(state.visibleResults);
+    }
+
+    const BLA_CATEGORY_COLORS = {
+      'Anchoring & Mooring': '#00a6b2',
+      'Anchor Winches & Accessories': '#e8dc27',
+      'Boat Building Materials': '#d1005d',
+      'Electric Motors': '#5f5f5f',
+      'Electrical': '#ed312f',
+      'Electronics & Accessories': '#ffc20e',
+      'Engine Controls': '#005aa9',
+      'Engine Parts & Accessories': '#8fbf20',
+      'Fishing Accessories': '#009641',
+      'Hatches & Ventilation': '#4b3f99',
+      'Hull, Deck & Cabin Hardware': '#008fc5',
+      'Hydraulic & Electric Power Steer Systems': '#b00068',
+      'Lighting': '#d7ad00',
+      'Mechanical Steering - Power & Sail': '#ed1c24',
+      'Navigation': '#483d8b',
+      'Oils, Sealants & Maintenance': '#0b8f42',
+      'Power Generation & Engine Room': '#b7a548',
+      'Pumps, Plumbing & Galley': '#00a0d7',
+      'Refrigeration': '#5db9d0',
+      'Rigging & Architectural': '#f15a24',
+      'Rope': '#283593',
+      'Safety Equipment': '#e33d3d',
+      'Sailboat Hardware & Sheet Winches': '#8e44ad',
+      'Seats & Accessories': '#00a6c8',
+      'Steering Wheels': '#d7bf00',
+      'Trailer Accessories': '#d98a13',
+      'Trim Tabs & Thrusters': '#2ca98f',
+      'Watersports': '#b48700'
+    };
+
+    function assetSlug(value) {
+      return text(value).toLowerCase().replace(/&/g, 'and').replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
+    }
+
+    function blaCategoryImageSource(name) {
+      return `./bla/assets/categories/bla-${assetSlug(name)}.jpg`;
+    }
+
+    function blaSubcategoryImageSource(category, subcategory) {
+      return `./bla/assets/subcategories/bla-${assetSlug(category)}--${assetSlug(subcategory)}.jpg`;
+    }
+
+    function blaCategorySummaries() {
+      return state.blaSummary && Array.isArray(state.blaSummary.categories) ? state.blaSummary.categories : [];
+    }
+
+    function blaCategorySummary(name) {
+      return blaCategorySummaries().find(category => category.name === name) || null;
+    }
+
+    function appendTreeButton(container, label, options = {}) {
+      const button = document.createElement('button');
+      button.type = 'button';
+      button.textContent = label;
+      if (options.section) button.dataset.section = options.section;
+      if (options.className) button.classList.add(options.className);
+      if (options.subcategory) button.classList.add('subcategory-node');
+      if (options.active) button.classList.add('active');
+      button.addEventListener('click', options.onClick);
+      container.appendChild(button);
+    }
+
+    function renderSidebar() {
+      elements.categoryTree.replaceChildren();
+      appendTreeButton(elements.categoryTree, 'All categories', {
+        active: state.section === 'home',
+        onClick: () => setSection('home', false)
+      });
+      appendTreeButton(elements.categoryTree, 'Marine Chandlery', {
+        section: 'marine',
+        active: state.section === 'marine',
+        onClick: () => setSection('marine', false)
+      });
+      appendTreeButton(elements.categoryTree, 'Maritime Lifestyle', {
+        section: 'lifestyle',
+        active: state.section === 'lifestyle',
+        onClick: () => setSection('lifestyle', false)
+      });
+
+      const rangeTitle = document.createElement('div');
+      rangeTitle.className = 'sidebar-range-title';
+      rangeTitle.textContent = 'BLA Range';
+      elements.categoryTree.appendChild(rangeTitle);
+
+      blaCategorySummaries().forEach(category => {
+        appendTreeButton(elements.categoryTree, `${category.name} (${number(category.count)})`, {
+          className: 'bla-category-node',
+          active: state.section === 'bla' && state.selectedCategory === category.name && !state.selectedSubCategory,
+          onClick: () => openBlaSummaryCategory(category.name)
+        });
+        if (state.section === 'bla' && state.selectedCategory === category.name) {
+          (category.subcategories || []).forEach(subcategory => {
+            appendTreeButton(elements.categoryTree, `${subcategory.name} (${number(subcategory.count)})`, {
+              subcategory: true,
+              active: state.selectedSubCategory === subcategory.name,
+              onClick: () => openBlaSummarySubcategory(category.name, subcategory.name)
+            });
+          });
+        }
+      });
+    }
+
+    function prepareCategoryView() {
+      state.view = 'categories';
+      state.selectedCategory = '';
+      state.selectedSubCategory = '';
+      state.unfilteredResults = [];
+      state.visibleResults = [];
+      elements.searchStatus.textContent = '';
+      elements.viewTools.classList.add('hidden');
+      elements.productGrid.classList.add('hidden');
+      elements.emptyPanel.classList.add('hidden');
+      elements.loadingPanel.classList.add('hidden');
+      elements.categoryGrid.replaceChildren();
+      elements.categoryGrid.classList.remove('hidden');
+    }
+
+    function makeHomeRangeCard(section, title, imageUrl, description) {
+      const card = document.createElement('article');
+      card.className = 'category-card home-range-card';
+      card.dataset.section = section;
+      card.tabIndex = 0;
+      card.setAttribute('role', 'button');
+      card.setAttribute('aria-label', `Open ${title}`);
+      const imageWrap = document.createElement('div');
+      imageWrap.className = 'category-image-wrap';
+      const image = document.createElement('img');
+      image.className = 'category-image';
+      image.src = imageUrl;
+      image.alt = title;
+      imageWrap.appendChild(image);
+      const body = document.createElement('div');
+      body.className = 'category-body';
+      const heading = document.createElement('h3');
+      heading.textContent = title;
+      const copy = document.createElement('p');
+      copy.textContent = description;
+      body.append(heading, copy);
+      card.append(imageWrap, body);
+      const open = () => setSection(section, false);
+      card.addEventListener('click', open);
+      card.addEventListener('keydown', event => {
+        if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); open(); }
+      });
+      return card;
+    }
+
+    function makeBlaSummaryCard(category) {
+      const card = document.createElement('article');
+      card.className = 'category-card bla-top-category';
+      card.style.setProperty('--category-accent', BLA_CATEGORY_COLORS[category.name] || 'var(--bla)');
+      card.tabIndex = 0;
+      card.setAttribute('role', 'button');
+      card.setAttribute('aria-label', `Open ${category.name}`);
+      const imageWrap = document.createElement('div');
+      imageWrap.className = 'category-image-wrap';
+      const image = document.createElement('img');
+      image.className = 'category-image';
+      image.src = blaCategoryImageSource(category.name);
+      image.alt = category.name;
+      image.loading = 'lazy';
+      imageWrap.appendChild(image);
+      const body = document.createElement('div');
+      body.className = 'category-body';
+      const heading = document.createElement('h3');
+      heading.textContent = category.name;
+      const count = document.createElement('p');
+      count.textContent = `${number(category.count)} BLA products`;
+      const source = document.createElement('div');
+      source.className = 'source-note';
+      source.textContent = 'BLA Range';
+      body.append(heading, count, source);
+      card.append(imageWrap, body);
+      const open = () => openBlaSummaryCategory(category.name);
+      card.addEventListener('click', open);
+      card.addEventListener('keydown', event => {
+        if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); open(); }
+      });
+      return card;
+    }
+
+    function renderHomeCategories() {
+      prepareCategoryView();
+      renderSidebar();
+      elements.contextTitle.textContent = 'Aquam Insula Shop';
+      elements.contextDescription.textContent = 'Marine chandlery, the BLA range and maritime lifestyle products.';
+      elements.resultTitle.textContent = 'Categories';
+      elements.resultCount.textContent = `${blaCategorySummaries().length + 2} categories`;
+      const fragment = document.createDocumentFragment();
+      fragment.append(
+        makeHomeRangeCard('marine', 'Marine Chandlery', 'https://raw.githubusercontent.com/toralf-dittmann/aqiml/main/Marine%20Chandlery.jpg', 'Local marine stock'),
+        makeHomeRangeCard('lifestyle', 'Maritime Lifestyle', 'https://raw.githubusercontent.com/toralf-dittmann/aqiml/main/Fashion.jpg', 'Fashion and lifestyle products')
+      );
+      blaCategorySummaries().forEach(category => fragment.appendChild(makeBlaSummaryCard(category)));
+      elements.categoryGrid.appendChild(fragment);
+    }
+
+    function renderBlaSummarySubcategories(category) {
+      state.view = 'subcategories';
+      elements.viewTools.classList.remove('hidden');
+      elements.backToCategories.textContent = 'Back to Categories';
+      elements.resultTitle.textContent = category.name;
+      elements.resultCount.textContent = `${(category.subcategories || []).length} subcategories`;
+      elements.loadingPanel.classList.add('hidden');
+      elements.emptyPanel.classList.add('hidden');
+      elements.productGrid.classList.add('hidden');
+      elements.categoryGrid.replaceChildren();
+      elements.categoryGrid.classList.remove('hidden');
+      const fragment = document.createDocumentFragment();
+      (category.subcategories || []).forEach(subcategory => {
+        const card = document.createElement('article');
+        card.className = 'category-card bla-top-category';
+        card.style.setProperty('--category-accent', BLA_CATEGORY_COLORS[category.name] || 'var(--bla)');
+        card.tabIndex = 0;
+        card.setAttribute('role', 'button');
+        card.setAttribute('aria-label', `Open ${subcategory.name}`);
+        const imageWrap = document.createElement('div');
+        imageWrap.className = 'category-image-wrap';
+        const image = document.createElement('img');
+        image.className = 'category-image';
+        image.src = blaSubcategoryImageSource(category.name, subcategory.name);
+        image.alt = subcategory.name;
+        image.loading = 'lazy';
+        imageWrap.appendChild(image);
+        const body = document.createElement('div');
+        body.className = 'category-body';
+        const heading = document.createElement('h3');
+        heading.textContent = subcategory.name;
+        const count = document.createElement('p');
+        count.textContent = `${number(subcategory.count)} BLA products`;
+        body.append(heading, count);
+        card.append(imageWrap, body);
+        const open = () => openBlaSummarySubcategory(category.name, subcategory.name);
+        card.addEventListener('click', open);
+        card.addEventListener('keydown', event => {
+          if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); open(); }
+        });
+        fragment.appendChild(card);
+      });
+      elements.categoryGrid.appendChild(fragment);
+    }
+
+    function openBlaSummaryCategory(name) {
+      const category = blaCategorySummary(name);
+      if (!category) return;
+      state.section = 'bla';
+      state.selectedCategory = name;
+      state.selectedSubCategory = '';
+      elements.searchInput.value = '';
+      elements.searchStatus.textContent = '';
+      elements.contextTitle.textContent = 'BLA Range';
+      elements.contextDescription.textContent = 'Explore the BLA Australia marine range.';
+      renderSidebar();
+      renderBlaSummarySubcategories(category);
+      prefetchBla();
+    }
+
+    async function openBlaSummarySubcategory(categoryName, subcategoryName) {
+      state.section = 'bla';
+      state.selectedCategory = categoryName;
+      state.selectedSubCategory = subcategoryName;
+      elements.searchInput.value = '';
+      elements.searchStatus.textContent = '';
+      renderSidebar();
+      showLoading('Loading BLA products...');
+      try {
+        const rows = await loadBlaSubcategoryChunk(categoryName, subcategoryName);
+        if (state.section !== 'bla' || state.selectedCategory !== categoryName || state.selectedSubCategory !== subcategoryName) return;
+        openBlaSubcategory(subcategoryName, rows);
+        renderSidebar();
+      } catch (error) {
+        elements.loadingPanel.classList.add('hidden');
+        elements.emptyPanel.classList.remove('hidden');
+        elements.emptyPanel.textContent = 'The BLA range is temporarily unavailable. Please try again.';
+      }
     }
 
     function categoryRows() {
@@ -1391,6 +1803,10 @@
     }
 
     async function renderCategories() {
+      if (state.section === 'home') {
+        renderHomeCategories();
+        return;
+      }
       state.view = 'categories';
       state.selectedCategory = '';
       state.selectedSubCategory = '';
@@ -1402,6 +1818,7 @@
       elements.productGrid.classList.add('hidden');
       elements.emptyPanel.classList.add('hidden');
       elements.categoryGrid.classList.add('hidden');
+      renderSidebar();
 
       if (state.section === 'bla' && !state.blaProducts.length) {
         showLoading('Loading BLA categories...');
@@ -1436,17 +1853,8 @@
         const bOrder = b.order === Number.MAX_SAFE_INTEGER ? 100000 + b.fallbackOrder : b.order;
         return aOrder - bOrder || a.name.localeCompare(b.name);
       });
-      if (state.section === 'marine') {
-        categories.unshift({
-          name: 'BLA Range',
-          rows: state.blaProducts,
-          order: -1,
-          fallbackOrder: -1,
-          isBlaCategory: true
-        });
-      }
       elements.resultTitle.textContent = state.section === 'bla'
-        ? 'BLA Categories'
+        ? 'BLA Range Categories'
         : (state.section === 'lifestyle' ? 'Maritime Lifestyle Categories' : 'Marine Chandlery Categories');
       elements.resultCount.textContent = `${categories.length} categories`;
       elements.loadingPanel.classList.add('hidden');
@@ -1504,6 +1912,7 @@
       state.selectedCategory = name;
       state.selectedSubCategory = '';
       state.unfilteredResults = rows.slice();
+      renderSidebar();
       elements.searchInput.value = '';
       elements.searchStatus.textContent = '';
       elements.viewTools.classList.remove('hidden');
@@ -1518,6 +1927,7 @@
       state.selectedSubCategory = '';
       state.unfilteredResults = rows.slice();
       state.visibleResults = [];
+      renderSidebar();
       elements.searchInput.value = '';
       elements.searchStatus.textContent = '';
       elements.viewTools.classList.remove('hidden');
@@ -1577,6 +1987,7 @@
       state.view = 'products';
       state.selectedSubCategory = name;
       state.unfilteredResults = rows.slice();
+      renderSidebar();
       elements.searchInput.value = '';
       elements.searchStatus.textContent = '';
       elements.viewTools.classList.remove('hidden');
@@ -2062,7 +2473,6 @@
     }
 
     function bindEvents() {
-      document.querySelectorAll('.department-card').forEach(button => button.addEventListener('click', () => setSection(button.dataset.section, false)));
       elements.searchInput.addEventListener('input', () => {
         clearTimeout(state.searchTimer);
         state.searchTimer = setTimeout(runSearch, 650);
@@ -2075,8 +2485,12 @@
         elements.searchInput.value = '';
         elements.searchStatus.textContent = '';
         if (state.section === 'bla' && state.view === 'products' && state.selectedCategory) {
-          const categoryRows = state.blaProducts.filter(product => product.category === state.selectedCategory);
-          renderBlaSubcategories(state.selectedCategory, categoryRows);
+          const summary = blaCategorySummary(state.selectedCategory);
+          if (summary) renderBlaSummarySubcategories(summary);
+          return;
+        }
+        if (state.section === 'bla' && state.view === 'subcategories') {
+          setSection('home', false);
           return;
         }
         renderCategories();
@@ -2105,13 +2519,23 @@
       loadSavedBasket();
       state.section = sectionFromUrl();
       try {
-        const [unused, vat] = await Promise.all([
+        await Promise.all([
           loadShopProducts(),
-          fetchJson(`${SHOP_GAS_URL}?action=getVatRate`, 8000).catch(() => ({ rate: 0.15 }))
+          loadBlaSummary().catch(error => {
+            console.warn('BLA category summary unavailable', error);
+            state.blaSummary = { totalProducts: 0, categories: [] };
+            return state.blaSummary;
+          })
         ]);
-        state.vatRate = number(vat.rate) || 0.15;
         renderBasket();
         setSection(state.section, true);
+        fetchJson(`${SHOP_GAS_URL}?action=getVatRate`, 8000)
+          .then(vat => {
+            state.vatRate = number(vat.rate) || 0.15;
+            renderBasket();
+            if (state.view === 'products' || state.view === 'search') renderProducts(state.visibleResults.length ? state.visibleResults : state.unfilteredResults);
+          })
+          .catch(() => {});
       } catch (error) {
         console.error('Prototype initialization failed', error);
         elements.loadingPanel.classList.add('hidden');
