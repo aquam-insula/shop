@@ -2220,7 +2220,11 @@
       if (!raw) return '';
       if (/^https?:\/\//i.test(raw)) return raw;
       const cleaned = raw.replace(/^(\.\.\/)+/, '').replace(/^\.\//, '').replace(/\.(webp|png|gif|jpeg)$/i, '.jpg');
-      return `./bla/assets/product-thumbs/${cleaned}`;
+      const assetRoot = 'bla/assets/product-thumbs/';
+      const existingRoot = cleaned.toLowerCase().lastIndexOf(assetRoot);
+      return existingRoot >= 0
+        ? `./${cleaned.slice(existingRoot)}`
+        : `./${assetRoot}${cleaned}`;
     }
 
     function imageFor(product) {
@@ -2397,7 +2401,7 @@
           subCategory: product.subCategory,
           price: product.price,
           priceBasis: 'FJD excluding VAT',
-          imageUrl: imageFor(product),
+          imageUrl: product.imageUrl,
           fulfilment: product.fulfilment,
           quantity: 1
         });
