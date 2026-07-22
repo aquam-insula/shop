@@ -6,6 +6,9 @@
   <title>AQUAM INSULA Maritime Lifestyle</title>
   <link rel="icon" href="./favicon.ico">
   <link rel="preload" as="image" href="./bla/assets/wave-hero.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
   <style>
     :root {
       --aquam: #079fd0;
@@ -67,15 +70,18 @@
     }
     .site-hero h1 {
       margin: 0 0 8px;
+      font-family: "Julius Sans One", Arial, sans-serif;
       font-size: 38px;
+      font-style: normal;
+      font-weight: 400;
       line-height: 1.05;
     }
     .site-hero h1 span {
       display: block;
       margin-top: 5px;
       font-size: 25px;
-      font-style: italic;
-      font-weight: 600;
+      font-style: normal;
+      font-weight: 400;
     }
     .site-hero p { margin: 0; font-size: 17px; font-weight: 700; }
     .top-row {
@@ -1067,7 +1073,6 @@
 
   <div class="catalogue-layout">
   <aside class="category-sidebar" aria-label="Product categories">
-    <div class="sidebar-title">Categories</div>
     <div id="categoryTree" class="category-tree"></div>
   </aside>
 
@@ -1726,27 +1731,10 @@
         active: state.section === 'lifestyle',
         onClick: () => setSection('lifestyle', false)
       });
-
-      const rangeTitle = document.createElement('div');
-      rangeTitle.className = 'sidebar-range-title';
-      rangeTitle.textContent = 'BLA Range';
-      elements.categoryTree.appendChild(rangeTitle);
-
-      blaCategorySummaries().forEach(category => {
-        appendTreeButton(elements.categoryTree, `${category.name} (${number(category.count)})`, {
-          className: 'bla-category-node',
-          active: state.section === 'bla' && state.selectedCategory === category.name && !state.selectedSubCategory,
-          onClick: () => openBlaSummaryCategory(category.name)
-        });
-        if (state.section === 'bla' && state.selectedCategory === category.name) {
-          (category.subcategories || []).forEach(subcategory => {
-            appendTreeButton(elements.categoryTree, `${subcategory.name} (${number(subcategory.count)})`, {
-              subcategory: true,
-              active: state.selectedSubCategory === subcategory.name,
-              onClick: () => openBlaSummarySubcategory(category.name, subcategory.name)
-            });
-          });
-        }
+      appendTreeButton(elements.categoryTree, 'BLA Range', {
+        section: 'bla',
+        active: state.section === 'bla',
+        onClick: () => setSection('bla', false)
       });
     }
 
