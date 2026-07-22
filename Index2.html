@@ -878,14 +878,11 @@
       margin: 0;
       padding: 22px 22px 60px;
     }
-    .home-range-card { border-top: 5px solid var(--aquam); }
-    .home-range-card[data-section="lifestyle"] { border-top-color: var(--insular); }
     .home-range-card .category-image-wrap { background: var(--white); }
     .home-range-card .category-image-wrap img {
       max-width: calc(100% - 10px);
       max-height: calc(100% - 10px);
     }
-    .bla-top-category { border-top: 5px solid var(--category-accent, var(--bla)); }
     .bla-top-category .category-image-wrap { background: #f7fafb; }
     .bla-top-category .category-image-wrap img {
       max-width: calc(100% - 12px);
@@ -1302,7 +1299,12 @@
       return 'home';
     }
 
+    function movePageToTop() {
+      window.scrollTo({ top: 0, left: 0, behavior: 'auto' });
+    }
+
     function setSection(section, preserveQuery) {
+      movePageToTop();
       state.section = section;
       state.view = 'categories';
       state.selectedCategory = '';
@@ -1760,6 +1762,7 @@
     function openBlaSummaryCategory(name) {
       const category = blaCategorySummary(name);
       if (!category) return;
+      movePageToTop();
       state.section = 'bla';
       state.selectedCategory = name;
       state.selectedSubCategory = '';
@@ -1773,6 +1776,7 @@
     }
 
     async function openBlaSummarySubcategory(categoryName, subcategoryName) {
+      movePageToTop();
       state.section = 'bla';
       state.selectedCategory = categoryName;
       state.selectedSubCategory = subcategoryName;
@@ -1904,6 +1908,7 @@
     }
 
     function openCategory(name, rows) {
+      movePageToTop();
       if (state.section === 'bla') {
         renderBlaSubcategories(name, rows);
         return;
@@ -1922,6 +1927,7 @@
     }
 
     function renderBlaSubcategories(topCategory, rows) {
+      movePageToTop();
       state.view = 'subcategories';
       state.selectedCategory = topCategory;
       state.selectedSubCategory = '';
@@ -1984,6 +1990,7 @@
     }
 
     function openBlaSubcategory(name, rows) {
+      movePageToTop();
       state.view = 'products';
       state.selectedSubCategory = name;
       state.unfilteredResults = rows.slice();
@@ -2482,6 +2489,7 @@
       });
       elements.searchButton.addEventListener('click', runSearch);
       elements.backToCategories.addEventListener('click', () => {
+        movePageToTop();
         elements.searchInput.value = '';
         elements.searchStatus.textContent = '';
         if (state.section === 'bla' && state.view === 'products' && state.selectedCategory) {
