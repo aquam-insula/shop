@@ -2648,7 +2648,7 @@
           : 'Your quotation request has been sent. Thank you.';
         state.basket = [];
         saveBasket();
-        updateBasket();
+        renderBasket();
         document.getElementById('quoteName').value = '';
         document.getElementById('quoteEmail').value = '';
       } catch (error) {
