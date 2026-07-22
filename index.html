@@ -865,6 +865,8 @@
       margin: 18px auto 0;
       border-top: 1px solid var(--line);
     }
+    body.lifestyle-start .catalogue-layout { grid-template-columns: minmax(0, 1fr); }
+    body.lifestyle-start .category-sidebar { display: none; }
     .category-sidebar {
       min-width: 0;
       padding: 22px 16px 48px 22px;
@@ -1066,8 +1068,8 @@
 
   <section class="site-hero" aria-labelledby="siteTitle">
     <div class="site-hero-copy">
-      <h1 id="siteTitle">AQUAM INSULA <span>Maritime Lifestyle</span></h1>
-      <p>Everything for life on the water and island living in Fiji.</p>
+      <h1 id="siteTitle">AQUAM INSULA <span id="heroCollectionName">Marine Chandlery</span></h1>
+      <p id="heroDescription">Marine equipment, parts and supplies for life on the water in Fiji.</p>
     </div>
   </section>
 
@@ -1190,6 +1192,7 @@
     const aiDescriptionCache = new Map();
 
     const state = {
+      startMode: 'marine',
       section: 'home',
       view: 'categories',
       selectedCategory: '',
@@ -1213,6 +1216,8 @@
       searchInput: document.getElementById('searchInput'),
       searchButton: document.getElementById('searchButton'),
       searchStatus: document.getElementById('searchStatus'),
+      heroCollectionName: document.getElementById('heroCollectionName'),
+      heroDescription: document.getElementById('heroDescription'),
       categoryTree: document.getElementById('categoryTree'),
       contextTitle: document.getElementById('contextTitle'),
       contextDescription: document.getElementById('contextDescription'),
@@ -1475,14 +1480,20 @@
       else setTimeout(run, 900);
     }
 
-    function sectionFromUrl() {
+    function startModeFromUrl() {
       const params = new URLSearchParams(window.location.search);
       const direct = text(params.get('section')).toLowerCase();
       const start = text(params.get('start')).toLowerCase();
-      if (direct === 'bla') return 'home';
-      if (direct === 'marine') return 'home';
-      if (direct === 'lifestyle' || start === 'maritime lifestyle') return 'lifestyle';
-      return 'home';
+      return direct === 'lifestyle' || start === 'maritime lifestyle' ? 'lifestyle' : 'marine';
+    }
+
+    function applyStartMode() {
+      const lifestyle = state.startMode === 'lifestyle';
+      document.body.classList.toggle('lifestyle-start', lifestyle);
+      elements.heroCollectionName.textContent = lifestyle ? 'Maritime Lifestyle' : 'Marine Chandlery';
+      elements.heroDescription.textContent = lifestyle
+        ? 'Fashion, jewellery and island style selected for life in Fiji.'
+        : 'Marine equipment, parts and supplies for life on the water in Fiji.';
     }
 
     function movePageToTop() {
@@ -1497,11 +1508,11 @@
       state.selectedSubCategory = '';
 
       if (section === 'lifestyle') {
-        elements.contextTitle.textContent = 'Maritime Lifestyle';
+        elements.contextTitle.textContent = 'Maritime Lifestyle Collection';
         elements.contextDescription.textContent = 'Fashion, footwear and everyday essentials for island life.';
       } else {
-        elements.contextTitle.textContent = 'Our Collection';
-        elements.contextDescription.textContent = 'Explore our complete marine and maritime lifestyle collection.';
+        elements.contextTitle.textContent = 'Marine Chandlery';
+        elements.contextDescription.textContent = 'Explore our complete range of marine equipment, parts and supplies.';
         prefetchBla();
       }
 
@@ -1631,7 +1642,7 @@
       }
 
       const lifestyleOnly = state.section === 'lifestyle';
-      elements.contextTitle.textContent = lifestyleOnly ? 'Maritime Lifestyle' : 'Product Search';
+      elements.contextTitle.textContent = lifestyleOnly ? 'Maritime Lifestyle Collection' : 'Marine Chandlery';
       elements.contextDescription.textContent = lifestyleOnly
         ? 'Fashion, footwear and everyday essentials for island life.'
         : '';
@@ -1793,11 +1804,7 @@
 
     function renderSidebar() {
       elements.categoryTree.replaceChildren();
-      appendTreeButton(elements.categoryTree, 'Maritime Lifestyle', {
-        section: 'lifestyle',
-        active: state.section === 'lifestyle',
-        onClick: () => setSection('lifestyle', false)
-      });
+      if (state.startMode === 'lifestyle') return;
       appendTreeButton(elements.categoryTree, `Tools (${localToolsProducts().length})`, {
         active: state.selectedCategory === 'Tools',
         onClick: openToolsCategory
@@ -1899,15 +1906,12 @@
     function renderHomeCategories() {
       prepareCategoryView();
       renderSidebar();
-      elements.contextTitle.textContent = 'Our Collection';
-      elements.contextDescription.textContent = 'Explore our complete marine and maritime lifestyle collection.';
+      elements.contextTitle.textContent = 'Marine Chandlery';
+      elements.contextDescription.textContent = 'Explore our complete range of marine equipment, parts and supplies.';
       elements.resultTitle.textContent = 'Categories';
-      elements.resultCount.textContent = `${unifiedCategorySummaries().length + 2} categories`;
+      elements.resultCount.textContent = `${unifiedCategorySummaries().length + 1} categories`;
       const fragment = document.createDocumentFragment();
-      fragment.append(
-        makeHomeRangeCard('lifestyle', 'Maritime Lifestyle', 'https://raw.githubusercontent.com/toralf-dittmann/aqiml/main/Fashion.jpg', 'Fashion and lifestyle products'),
-        makeHomeRangeCard('tools', 'Tools', 'https://raw.githubusercontent.com/toralf-dittmann/aqiml/main/Marine%20Chandlery.jpg', `${localToolsProducts().length} products`)
-      );
+      fragment.append(makeHomeRangeCard('tools', 'Tools', 'https://raw.githubusercontent.com/toralf-dittmann/aqiml/main/Marine%20Chandlery.jpg', `${localToolsProducts().length} products`));
       unifiedCategorySummaries().forEach(category => fragment.appendChild(makeBlaSummaryCard(category)));
       elements.categoryGrid.appendChild(fragment);
     }
@@ -2709,7 +2713,9 @@
     async function initialize() {
       bindEvents();
       loadSavedBasket();
-      state.section = sectionFromUrl();
+      state.startMode = startModeFromUrl();
+      state.section = state.startMode === 'lifestyle' ? 'lifestyle' : 'home';
+      applyStartMode();
       try {
         await Promise.all([
           loadShopProducts(),
