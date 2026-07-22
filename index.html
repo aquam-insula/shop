@@ -298,7 +298,7 @@
     .product-source-row {
       display: flex;
       align-items: center;
-      justify-content: space-between;
+      justify-content: flex-end;
       gap: 8px;
       margin-bottom: 9px;
     }
@@ -1067,7 +1067,7 @@
   <section class="site-hero" aria-labelledby="siteTitle">
     <div class="site-hero-copy">
       <h1 id="siteTitle">AQUAM INSULA <span>Maritime Lifestyle</span></h1>
-      <p>Marine chandlery, the BLA range and island living in Fiji.</p>
+      <p>Everything for life on the water and island living in Fiji.</p>
     </div>
   </section>
 
@@ -1079,8 +1079,8 @@
   <main>
     <div class="context-row">
       <div>
-        <h2 id="contextTitle">Our Ranges</h2>
-        <p id="contextDescription">Marine chandlery, the BLA range and maritime lifestyle products.</p>
+        <h2 id="contextTitle">Our Collection</h2>
+        <p id="contextDescription">Explore our complete marine and maritime lifestyle collection.</p>
       </div>
     </div>
 
@@ -1248,19 +1248,69 @@
       return /^[SJ]/i.test(text(product.productNumber).trim()) ? text(product.storageLocation).trim() : '';
     }
 
+    const LOCAL_MARINE_TAXONOMY = {
+      'Stainless Steel Fittings': ['Rigging & Architectural', 'Stainless Rigging Fittings'],
+      'Fasteners': ['Hull, Deck & Cabin Hardware', 'Fasteners & General Hardware'],
+      'Ropes': ['Rope', 'General Rope'],
+      'Electrical': ['Electrical', 'General Electrical'],
+      'Gadgets & Decoration': ['Hull, Deck & Cabin Hardware', 'Cabin Hardware & Accessories'],
+      'Safety Equipment': ['Safety Equipment', 'General Safety Equipment'],
+      'Wire Ropes & Equipment': ['Rigging & Architectural', 'Stainless Rigging Fittings'],
+      'Lights': ['Lighting', 'General Lighting'],
+      'Plumbing': ['Pumps, Plumbing & Galley', 'Hoses, Fittings & Valves'],
+      'Auto': ['Trailer Accessories', 'General Trailer Accessories'],
+      'Flags': ['Safety Equipment', 'Flares, EPIRBs & Signalling'],
+      'Fender & Floats': ['Anchoring & Mooring', 'Fenders, Buoys & Floats'],
+      'Fishing Equipment': ['Fishing Accessories', 'General Fishing Accessories'],
+      'Lubricants': ['Oils, Sealants & Maintenance', 'Oils, Greases & Fuel Treatments']
+    };
+
+    function keywordMarineTaxonomy(product) {
+      const value = `${product.description || ''} ${product.brand || ''} ${product.variant || ''}`.toLowerCase();
+      if (/fender|buoy|float/.test(value)) return ['Anchoring & Mooring', 'Fenders, Buoys & Floats'];
+      if (/anchor|shackle|swivel|chain/.test(value)) return ['Anchoring & Mooring', /shackle|swivel|chain/.test(value) ? 'Chain, Shackles & Swivels' : 'Anchors'];
+      if (/\brope\b|cordage|dock line|shock cord/.test(value)) return ['Rope', 'Anchor, Utility & General Rope'];
+      if (/bilge pump/.test(value)) return ['Pumps, Plumbing & Galley', 'Bilge Pumps & Switches'];
+      if (/pump|hose|valve|plumb|tank/.test(value)) return ['Pumps, Plumbing & Galley', 'General Pumps, Plumbing & Galley'];
+      if (/light|lamp|lantern|\bled\b/.test(value)) return ['Lighting', 'General Lighting'];
+      if (/battery|electrical|switch|fuse|cable|connector/.test(value)) return ['Electrical', 'General Electrical'];
+      if (/seat|cushion|table|storage/.test(value)) return ['Seats & Accessories', 'General Seats & Accessories'];
+      if (/lifejacket|life jacket|safety|fire extinguisher|first aid/.test(value)) return ['Safety Equipment', 'General Safety Equipment'];
+      if (/fishing|rod holder|tackle|lure/.test(value)) return ['Fishing Accessories', 'General Fishing Accessories'];
+      if (/steering wheel/.test(value)) return ['Steering Wheels', 'Steering Wheels'];
+      if (/trailer/.test(value)) return ['Trailer Accessories', 'General Trailer Accessories'];
+      if (/oil|grease|cleaner|polish|sealant|adhesive|paint/.test(value)) return ['Oils, Sealants & Maintenance', 'General Oils, Sealants & Maintenance'];
+      return ['Hull, Deck & Cabin Hardware', 'General Hull, Deck & Cabin Hardware'];
+    }
+
+    function localMarineTaxonomy(product) {
+      const localCategory = text(product.subCategory).trim();
+      if (localCategory === 'Tools') return ['Tools', 'Tools'];
+      if (localCategory === 'Anchors & Chains') return keywordMarineTaxonomy(product);
+      if (localCategory === 'Pumps') {
+        const value = text(product.description).toLowerCase();
+        return ['Pumps, Plumbing & Galley', /bilge/.test(value) ? 'Bilge Pumps & Switches' : 'General Pumps, Plumbing & Galley'];
+      }
+      if (localCategory === 'Marine Supplies' || localCategory === 'Equipment') return keywordMarineTaxonomy(product);
+      return LOCAL_MARINE_TAXONOMY[localCategory] || ['Hull, Deck & Cabin Hardware', 'General Hull, Deck & Cabin Hardware'];
+    }
+
     function normalizeShopProduct(product) {
+      const market = product.superCategory === 'Maritime Lifestyle' ? 'lifestyle' : 'marine';
+      const taxonomy = market === 'marine' ? localMarineTaxonomy(product) : [text(product.superCategory), text(product.subCategory)];
       return {
         ...product,
         source: 'stock',
-        market: product.superCategory === 'Maritime Lifestyle' ? 'lifestyle' : 'marine',
+        market,
         productNumber: text(product.productNumber),
         description: text(product.description),
         brand: text(product.brand),
         variant: text(product.variant),
         material: text(product.material),
         storageLocation: text(product.storageLocation),
-        category: text(product.superCategory),
-        subCategory: text(product.subCategory),
+        originalCategory: text(product.subCategory),
+        category: taxonomy[0],
+        subCategory: taxonomy[1],
         price: number(product.price),
         categoryDisplayOrder: number(product.categoryDisplayOrder),
         productDisplayOrder: number(product.productDisplayOrder),
@@ -1430,7 +1480,7 @@
       const direct = text(params.get('section')).toLowerCase();
       const start = text(params.get('start')).toLowerCase();
       if (direct === 'bla') return 'home';
-      if (direct === 'marine') return 'marine';
+      if (direct === 'marine') return 'home';
       if (direct === 'lifestyle' || start === 'maritime lifestyle') return 'lifestyle';
       return 'home';
     }
@@ -1449,17 +1499,9 @@
       if (section === 'lifestyle') {
         elements.contextTitle.textContent = 'Maritime Lifestyle';
         elements.contextDescription.textContent = 'Fashion, footwear and everyday essentials for island life.';
-      } else if (section === 'bla') {
-        elements.contextTitle.textContent = 'BLA Range';
-        elements.contextDescription.textContent = 'Explore the BLA Australia marine range.';
-        prefetchBla();
-      } else if (section === 'home') {
-        elements.contextTitle.textContent = 'Our Ranges';
-        elements.contextDescription.textContent = 'Marine chandlery, the BLA range and maritime lifestyle products.';
-        prefetchBla();
       } else {
-        elements.contextTitle.textContent = 'Marine Chandlery';
-        elements.contextDescription.textContent = 'Equipment, parts and chandlery for life on the water.';
+        elements.contextTitle.textContent = 'Our Collection';
+        elements.contextDescription.textContent = 'Explore our complete marine and maritime lifestyle collection.';
         prefetchBla();
       }
 
@@ -1589,10 +1631,10 @@
       }
 
       const lifestyleOnly = state.section === 'lifestyle';
-      elements.contextTitle.textContent = lifestyleOnly ? 'Maritime Lifestyle' : 'Marine Chandlery & BLA Range';
+      elements.contextTitle.textContent = lifestyleOnly ? 'Maritime Lifestyle' : 'Product Search';
       elements.contextDescription.textContent = lifestyleOnly
         ? 'Fashion, footwear and everyday essentials for island life.'
-        : 'Local marine stock and the BLA Australia marine range.';
+        : '';
       let candidateRows = [];
 
       if (lifestyleOnly) {
@@ -1604,10 +1646,10 @@
           state.shopProducts.filter(product => product.market === 'marine')
         ).slice(0, MAX_AI_CANDIDATES);
         if (localRows.length) {
-          finishSearch(localRows.map(row => row.product).slice(0, MAX_RESULTS), validation.query, 'Adding BLA Range matches...');
+          finishSearch(localRows.map(row => row.product).slice(0, MAX_RESULTS), validation.query, 'Searching catalogue...');
         } else {
-          showLoading('Searching local stock and BLA Range...');
-          elements.searchStatus.textContent = 'Searching local stock and BLA Range...';
+          showLoading('Searching catalogue...');
+          elements.searchStatus.textContent = 'Searching catalogue...';
         }
         try {
           await loadBlaProducts();
@@ -1703,6 +1745,40 @@
       return blaCategorySummaries().find(category => category.name === name) || null;
     }
 
+    function localMarineProducts() {
+      return state.shopProducts.filter(product => product.market === 'marine');
+    }
+
+    function localToolsProducts() {
+      return localMarineProducts().filter(product => product.category === 'Tools');
+    }
+
+    function localCategoryProducts(categoryName) {
+      return localMarineProducts().filter(product => product.category === categoryName);
+    }
+
+    function localSubcategoryProducts(categoryName, subcategoryName) {
+      return localMarineProducts().filter(product => product.category === categoryName && product.subCategory === subcategoryName);
+    }
+
+    function unifiedCategorySummaries() {
+      return blaCategorySummaries().map(category => {
+        const localRows = localCategoryProducts(category.name);
+        return {
+          ...category,
+          count: number(category.count) + localRows.length,
+          subcategories: (category.subcategories || []).map(subcategory => ({
+            ...subcategory,
+            count: number(subcategory.count) + localRows.filter(product => product.subCategory === subcategory.name).length
+          }))
+        };
+      });
+    }
+
+    function unifiedCategorySummary(name) {
+      return unifiedCategorySummaries().find(category => category.name === name) || null;
+    }
+
     function appendTreeButton(container, label, options = {}) {
       const button = document.createElement('button');
       button.type = 'button';
@@ -1717,26 +1793,16 @@
 
     function renderSidebar() {
       elements.categoryTree.replaceChildren();
-      appendTreeButton(elements.categoryTree, 'All categories', {
-        active: state.section === 'home',
-        onClick: () => setSection('home', false)
-      });
-      appendTreeButton(elements.categoryTree, 'Marine Chandlery', {
-        section: 'marine',
-        active: state.section === 'marine',
-        onClick: () => setSection('marine', false)
-      });
       appendTreeButton(elements.categoryTree, 'Maritime Lifestyle', {
         section: 'lifestyle',
         active: state.section === 'lifestyle',
         onClick: () => setSection('lifestyle', false)
       });
-      appendTreeButton(elements.categoryTree, 'BLA Range', {
-        section: 'bla',
-        active: state.section === 'bla',
-        onClick: () => setSection('bla', false)
+      appendTreeButton(elements.categoryTree, `Tools (${localToolsProducts().length})`, {
+        active: state.selectedCategory === 'Tools',
+        onClick: openToolsCategory
       });
-      blaCategorySummaries().forEach(category => {
+      unifiedCategorySummaries().forEach(category => {
         appendTreeButton(elements.categoryTree, `${category.name} (${number(category.count)})`, {
           className: 'bla-category-node',
           active: state.selectedCategory === category.name && !state.selectedSubCategory,
@@ -1791,7 +1857,7 @@
       copy.textContent = description;
       body.append(heading, copy);
       card.append(imageWrap, body);
-      const open = () => setSection(section, false);
+      const open = () => section === 'tools' ? openToolsCategory() : setSection(section, false);
       card.addEventListener('click', open);
       card.addEventListener('keydown', event => {
         if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); open(); }
@@ -1819,11 +1885,8 @@
       const heading = document.createElement('h3');
       heading.textContent = category.name;
       const count = document.createElement('p');
-      count.textContent = `${number(category.count)} BLA products`;
-      const source = document.createElement('div');
-      source.className = 'source-note';
-      source.textContent = 'BLA Range';
-      body.append(heading, count, source);
+      count.textContent = `${number(category.count)} products`;
+      body.append(heading, count);
       card.append(imageWrap, body);
       const open = () => openBlaSummaryCategory(category.name);
       card.addEventListener('click', open);
@@ -1836,16 +1899,16 @@
     function renderHomeCategories() {
       prepareCategoryView();
       renderSidebar();
-      elements.contextTitle.textContent = 'Our Ranges';
-      elements.contextDescription.textContent = 'Marine chandlery, the BLA range and maritime lifestyle products.';
+      elements.contextTitle.textContent = 'Our Collection';
+      elements.contextDescription.textContent = 'Explore our complete marine and maritime lifestyle collection.';
       elements.resultTitle.textContent = 'Categories';
-      elements.resultCount.textContent = `${blaCategorySummaries().length + 2} categories`;
+      elements.resultCount.textContent = `${unifiedCategorySummaries().length + 2} categories`;
       const fragment = document.createDocumentFragment();
       fragment.append(
-        makeHomeRangeCard('marine', 'Marine Chandlery', 'https://raw.githubusercontent.com/toralf-dittmann/aqiml/main/Marine%20Chandlery.jpg', 'Local marine stock'),
-        makeHomeRangeCard('lifestyle', 'Maritime Lifestyle', 'https://raw.githubusercontent.com/toralf-dittmann/aqiml/main/Fashion.jpg', 'Fashion and lifestyle products')
+        makeHomeRangeCard('lifestyle', 'Maritime Lifestyle', 'https://raw.githubusercontent.com/toralf-dittmann/aqiml/main/Fashion.jpg', 'Fashion and lifestyle products'),
+        makeHomeRangeCard('tools', 'Tools', 'https://raw.githubusercontent.com/toralf-dittmann/aqiml/main/Marine%20Chandlery.jpg', `${localToolsProducts().length} products`)
       );
-      blaCategorySummaries().forEach(category => fragment.appendChild(makeBlaSummaryCard(category)));
+      unifiedCategorySummaries().forEach(category => fragment.appendChild(makeBlaSummaryCard(category)));
       elements.categoryGrid.appendChild(fragment);
     }
 
@@ -1881,7 +1944,7 @@
         const heading = document.createElement('h3');
         heading.textContent = subcategory.name;
         const count = document.createElement('p');
-        count.textContent = `${number(subcategory.count)} BLA products`;
+        count.textContent = `${number(subcategory.count)} products`;
         body.append(heading, count);
         card.append(imageWrap, body);
         const open = () => openBlaSummarySubcategory(category.name, subcategory.name);
@@ -1895,16 +1958,16 @@
     }
 
     function openBlaSummaryCategory(name) {
-      const category = blaCategorySummary(name);
+      const category = unifiedCategorySummary(name);
       if (!category) return;
       movePageToTop();
-      state.section = 'bla';
+      state.section = 'marine';
       state.selectedCategory = name;
       state.selectedSubCategory = '';
       elements.searchInput.value = '';
       elements.searchStatus.textContent = '';
-      elements.contextTitle.textContent = 'BLA Range';
-      elements.contextDescription.textContent = 'Explore the BLA Australia marine range.';
+      elements.contextTitle.textContent = 'Marine Collection';
+      elements.contextDescription.textContent = '';
       renderSidebar();
       renderBlaSummarySubcategories(category);
       prefetchBla();
@@ -1912,23 +1975,37 @@
 
     async function openBlaSummarySubcategory(categoryName, subcategoryName) {
       movePageToTop();
-      state.section = 'bla';
+      state.section = 'marine';
       state.selectedCategory = categoryName;
       state.selectedSubCategory = subcategoryName;
       elements.searchInput.value = '';
       elements.searchStatus.textContent = '';
       renderSidebar();
-      showLoading('Loading BLA products...');
+      showLoading('Loading products...');
       try {
-        const rows = await loadBlaSubcategoryChunk(categoryName, subcategoryName);
-        if (state.section !== 'bla' || state.selectedCategory !== categoryName || state.selectedSubCategory !== subcategoryName) return;
-        openBlaSubcategory(subcategoryName, rows);
+        const localRows = localSubcategoryProducts(categoryName, subcategoryName);
+        const blaRows = await loadBlaSubcategoryChunk(categoryName, subcategoryName).catch(error => {
+          console.warn('Additional catalogue products unavailable', error);
+          return [];
+        });
+        if (state.section !== 'marine' || state.selectedCategory !== categoryName || state.selectedSubCategory !== subcategoryName) return;
+        openBlaSubcategory(subcategoryName, localRows.concat(blaRows));
         renderSidebar();
       } catch (error) {
         elements.loadingPanel.classList.add('hidden');
         elements.emptyPanel.classList.remove('hidden');
-        elements.emptyPanel.textContent = 'The BLA range is temporarily unavailable. Please try again.';
+        elements.emptyPanel.textContent = 'These products are temporarily unavailable. Please try again.';
       }
+    }
+
+    function openToolsCategory() {
+      movePageToTop();
+      state.section = 'marine';
+      state.selectedCategory = 'Tools';
+      state.selectedSubCategory = '';
+      elements.contextTitle.textContent = 'Tools';
+      elements.contextDescription.textContent = '';
+      openCategory('Tools', localToolsProducts());
     }
 
     function categoryRows() {
@@ -1942,7 +2019,8 @@
     }
 
     async function renderCategories() {
-      if (state.section === 'home') {
+      if (state.section !== 'lifestyle') {
+        state.section = 'home';
         renderHomeCategories();
         return;
       }
@@ -1958,20 +2036,6 @@
       elements.emptyPanel.classList.add('hidden');
       elements.categoryGrid.classList.add('hidden');
       renderSidebar();
-
-      if (state.section === 'bla' && !state.blaProducts.length) {
-        showLoading('Loading BLA categories...');
-        try {
-          await loadBlaProducts();
-        } catch (error) {
-          elements.loadingPanel.classList.add('hidden');
-          elements.emptyPanel.classList.remove('hidden');
-          elements.emptyPanel.textContent = 'The BLA range is temporarily unavailable. Please refresh and try again.';
-          elements.resultCount.textContent = 'BLA range unavailable';
-          return;
-        }
-        if (state.section !== 'bla' || state.view !== 'categories') return;
-      }
 
       const groups = new Map();
       categoryRows().forEach(product => {
@@ -1992,44 +2056,32 @@
         const bOrder = b.order === Number.MAX_SAFE_INTEGER ? 100000 + b.fallbackOrder : b.order;
         return aOrder - bOrder || a.name.localeCompare(b.name);
       });
-      elements.resultTitle.textContent = state.section === 'bla'
-        ? 'BLA Range Categories'
-        : (state.section === 'lifestyle' ? 'Maritime Lifestyle Categories' : 'Marine Chandlery Categories');
+      elements.resultTitle.textContent = 'Maritime Lifestyle Categories';
       elements.resultCount.textContent = `${categories.length} categories`;
       elements.loadingPanel.classList.add('hidden');
       elements.categoryGrid.replaceChildren();
       elements.categoryGrid.classList.remove('hidden');
 
       const fragment = document.createDocumentFragment();
-      categories.forEach(({ name, rows, isBlaCategory }) => {
+      categories.forEach(({ name, rows }) => {
         const sample = rows.find(product => imageFor(product)) || rows[0];
         const card = document.createElement('article');
-        card.className = `category-card${isBlaCategory ? ' bla-category' : ''}`;
+        card.className = 'category-card';
         card.tabIndex = 0;
         card.setAttribute('role', 'button');
         card.setAttribute('aria-label', `Open ${name}`);
         const imageWrap = document.createElement('div');
         imageWrap.className = 'category-image-wrap';
-        if (isBlaCategory) {
-          const logo = document.createElement('img');
-          logo.className = 'category-image';
-          logo.src = './bla/assets/bla-logo.jpg';
-          logo.alt = 'BLA';
-          imageWrap.appendChild(logo);
-        } else {
-          imageWrap.appendChild(makeImage(sample, 'category-image'));
-        }
+        imageWrap.appendChild(makeImage(sample, 'category-image'));
         const body = document.createElement('div');
         body.className = 'category-body';
         const title = document.createElement('h3');
         title.textContent = name;
         const count = document.createElement('p');
-        count.textContent = isBlaCategory
-          ? 'BLA Australia marine range'
-          : `${rows.length} product${rows.length === 1 ? '' : 's'}`;
+        count.textContent = `${rows.length} product${rows.length === 1 ? '' : 's'}`;
         body.append(title, count);
         card.append(imageWrap, body);
-        const open = () => isBlaCategory ? setSection('bla', false) : openCategory(name, rows);
+        const open = () => openCategory(name, rows);
         card.addEventListener('click', open);
         card.addEventListener('keydown', event => {
           if (event.key === 'Enter' || event.key === ' ') {
@@ -2044,10 +2096,6 @@
 
     function openCategory(name, rows) {
       movePageToTop();
-      if (state.section === 'bla') {
-        renderBlaSubcategories(name, rows);
-        return;
-      }
       state.view = 'products';
       state.selectedCategory = name;
       state.selectedSubCategory = '';
@@ -2072,7 +2120,7 @@
       elements.searchInput.value = '';
       elements.searchStatus.textContent = '';
       elements.viewTools.classList.remove('hidden');
-      elements.backToCategories.textContent = 'Back to BLA Categories';
+      elements.backToCategories.textContent = 'Back to Categories';
       elements.resultTitle.textContent = topCategory;
       elements.loadingPanel.classList.add('hidden');
       elements.emptyPanel.classList.add('hidden');
@@ -2256,7 +2304,6 @@
         let selected = group[0];
         const card = document.createElement('article');
         card.className = 'product-card';
-        card.dataset.source = selected.source;
 
         const imageWrap = document.createElement('div');
         imageWrap.className = 'product-image-wrap';
@@ -2267,16 +2314,11 @@
         body.className = 'product-body';
         const sourceRow = document.createElement('div');
         sourceRow.className = 'product-source-row';
-        const badge = document.createElement('span');
-        badge.className = `source-badge${selected.source === 'bla' ? ' bla' : ''}`;
-        badge.textContent = selected.source === 'bla' ? 'BLA range' : 'In local stock';
         const code = document.createElement('span');
         code.className = 'product-code';
-        sourceRow.append(badge, code);
+        sourceRow.appendChild(code);
 
         const title = document.createElement('h3');
-        const location = document.createElement('div');
-        location.className = 'product-location hidden';
         const variantCount = document.createElement('div');
         variantCount.className = 'variant-count';
         variantCount.textContent = group.length > 1 ? `${group.length} variants` : '';
@@ -2317,16 +2359,12 @@
         actions.appendChild(add);
 
         function updateCard() {
-          card.dataset.source = selected.source;
           code.textContent = selected.productNumber;
           title.textContent = selected.description;
-          const locationText = productStorageLocation(selected);
-          location.textContent = locationText ? `Location: ${locationText}` : '';
-          location.classList.toggle('hidden', !locationText);
           priceValue.textContent = money(vip(selected));
         }
 
-        body.append(sourceRow, title, location, variantCount);
+        body.append(sourceRow, title, variantCount);
         if (variantSelect) body.appendChild(variantSelect);
         body.append(price, actions);
         card.appendChild(body);
@@ -2638,12 +2676,12 @@
         movePageToTop();
         elements.searchInput.value = '';
         elements.searchStatus.textContent = '';
-        if (state.section === 'bla' && state.view === 'products' && state.selectedCategory) {
-          const summary = blaCategorySummary(state.selectedCategory);
+        if (state.section === 'marine' && state.view === 'products' && state.selectedCategory !== 'Tools' && state.selectedCategory) {
+          const summary = unifiedCategorySummary(state.selectedCategory);
           if (summary) renderBlaSummarySubcategories(summary);
           return;
         }
-        if (state.section === 'bla' && state.view === 'subcategories') {
+        if (state.section === 'marine' && (state.view === 'subcategories' || state.selectedCategory === 'Tools')) {
           setSection('home', false);
           return;
         }
