@@ -1736,24 +1736,22 @@
         active: state.section === 'bla',
         onClick: () => setSection('bla', false)
       });
-      if (state.section === 'bla') {
-        blaCategorySummaries().forEach(category => {
-          appendTreeButton(elements.categoryTree, `${category.name} (${number(category.count)})`, {
-            className: 'bla-category-node',
-            active: state.selectedCategory === category.name && !state.selectedSubCategory,
-            onClick: () => openBlaSummaryCategory(category.name)
-          });
-          if (state.selectedCategory === category.name) {
-            (category.subcategories || []).forEach(subcategory => {
-              appendTreeButton(elements.categoryTree, `${subcategory.name} (${number(subcategory.count)})`, {
-                subcategory: true,
-                active: state.selectedSubCategory === subcategory.name,
-                onClick: () => openBlaSummarySubcategory(category.name, subcategory.name)
-              });
-            });
-          }
+      blaCategorySummaries().forEach(category => {
+        appendTreeButton(elements.categoryTree, `${category.name} (${number(category.count)})`, {
+          className: 'bla-category-node',
+          active: state.selectedCategory === category.name && !state.selectedSubCategory,
+          onClick: () => openBlaSummaryCategory(category.name)
         });
-      }
+        if (state.selectedCategory === category.name) {
+          (category.subcategories || []).forEach(subcategory => {
+            appendTreeButton(elements.categoryTree, `${subcategory.name} (${number(subcategory.count)})`, {
+              subcategory: true,
+              active: state.selectedSubCategory === subcategory.name,
+              onClick: () => openBlaSummarySubcategory(category.name, subcategory.name)
+            });
+          });
+        }
+      });
     }
 
     function prepareCategoryView() {
