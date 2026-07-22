@@ -1128,6 +1128,7 @@
           <div id="detailSource" class="source-badge"></div>
           <h3 id="detailName"></h3>
           <div id="detailCode" class="product-code"></div>
+          <div id="detailLocation" class="product-location hidden"></div>
           <p id="detailMeta"></p>
           <div id="detailVariantWrap" class="hidden">
             <label for="detailVariantSelect"><strong>Variant</strong></label>
@@ -1238,6 +1239,9 @@
     function money(value) { return number(value).toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 }); }
     function productKey(product) { return `${product.source}:${product.productNumber}`; }
     function vip(product) { return number(product.price) * (1 + state.vatRate); }
+    function productStorageLocation(product) {
+      return /^[SJ]/i.test(text(product.productNumber).trim()) ? text(product.storageLocation).trim() : '';
+    }
 
     function normalizeShopProduct(product) {
       return {
@@ -2312,7 +2316,7 @@
           card.dataset.source = selected.source;
           code.textContent = selected.productNumber;
           title.textContent = selected.description;
-          const locationText = /^[SJ]/i.test(selected.productNumber) ? text(selected.storageLocation).trim() : '';
+          const locationText = productStorageLocation(selected);
           location.textContent = locationText ? `Location: ${locationText}` : '';
           location.classList.toggle('hidden', !locationText);
           priceValue.textContent = money(vip(selected));
@@ -2342,6 +2346,7 @@
           description: product.description,
           brand: product.brand,
           variant: product.variant,
+          storageLocation: product.storageLocation,
           category: product.category,
           subCategory: product.subCategory,
           price: product.price,
@@ -2392,7 +2397,8 @@
         name.textContent = item.description;
         const meta = document.createElement('div');
         meta.className = 'basket-item-meta';
-        meta.textContent = `${item.source === 'bla' ? 'BLA range' : 'Local stock'} / ${item.productNumber} / ${item.fulfilment}`;
+        const locationText = productStorageLocation(item);
+        meta.textContent = [item.source === 'bla' ? 'BLA range' : 'Local stock', item.productNumber, locationText ? `Location: ${locationText}` : '', item.fulfilment].filter(Boolean).join(' / ');
         const quantityRow = document.createElement('div');
         quantityRow.className = 'quantity-row';
         const controls = document.createElement('div');
@@ -2481,6 +2487,10 @@
       source.textContent = product.source === 'bla' ? 'BLA range' : 'In local stock';
       document.getElementById('detailName').textContent = product.description;
       document.getElementById('detailCode').textContent = product.productNumber;
+      const location = document.getElementById('detailLocation');
+      const locationText = productStorageLocation(product);
+      location.textContent = locationText ? `Location: ${locationText}` : '';
+      location.classList.toggle('hidden', !locationText);
       document.getElementById('detailMeta').textContent = [product.brand, product.variant, product.material, product.category, product.subCategory, product.fulfilment].filter(Boolean).join(' / ');
       document.getElementById('detailPrice').textContent = money(vip(product));
       document.getElementById('detailInformation').textContent = productInformationText(product) || product.description;
