@@ -639,12 +639,13 @@
     .back-button {
       min-height: 38px;
       padding: 0 13px;
-      border: 1px solid var(--line);
+      border: 1px solid var(--aquam);
       border-radius: 4px;
-      color: #2e383c;
-      background: var(--white);
+      color: var(--white);
+      background: var(--aquam);
       font-weight: 700;
     }
+    .back-button:hover { background: var(--aquam-dark); }
     .category-grid {
       display: grid;
       grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -1140,8 +1141,7 @@
           <div id="detailSource" class="source-badge"></div>
           <h3 id="detailName"></h3>
           <div id="detailCode" class="product-code"></div>
-          <div id="detailLocation" class="product-location hidden"></div>
-          <p id="detailMeta"></p>
+          <p id="detailMeta" class="variant-count hidden"></p>
           <div id="detailVariantWrap" class="hidden">
             <label for="detailVariantSelect"><strong>Variant</strong></label>
             <select id="detailVariantSelect" class="variant-select detail-variant-select"></select>
@@ -1258,6 +1258,13 @@
     function vip(product) { return number(product.price) * (1 + state.vatRate); }
     function productStorageLocation(product) {
       return /^[SJ]/i.test(text(product.productNumber).trim()) ? text(product.storageLocation).trim() : '';
+    }
+    function singleVariantMeta(product) {
+      const location = productStorageLocation(product);
+      return [
+        text(product.material) ? `Material: ${text(product.material)}` : '',
+        location ? `Location: ${location}` : ''
+      ].filter(Boolean).join(' / ');
     }
     function isToolsProduct(product) {
       return product && product.source === 'stock' &&
@@ -2311,10 +2318,10 @@
     }
 
     function variantLabel(product, group) {
-      const variant = [product.variant, product.material].filter(Boolean).join(' / ');
-      if (variant) return `${variant} - ${product.productNumber}`;
-      const descriptionsDiffer = new Set(group.map(item => item.description)).size > 1;
-      return descriptionsDiffer ? `${product.description} - ${product.productNumber}` : product.productNumber;
+      const location = productStorageLocation(product);
+      return [text(product.variant), text(product.productNumber), location ? `Location: ${location}` : '']
+        .filter(Boolean)
+        .join(' - ');
     }
 
     function renderProducts(products) {
@@ -2358,6 +2365,8 @@
         const variantCount = document.createElement('div');
         variantCount.className = 'variant-count';
         variantCount.textContent = group.length > 1 ? `${group.length} variants` : '';
+        const singleMeta = document.createElement('div');
+        singleMeta.className = 'variant-count hidden';
         let variantSelect = null;
         if (group.length > 1) {
           variantSelect = document.createElement('select');
@@ -2397,11 +2406,14 @@
         function updateCard() {
           code.textContent = selected.productNumber;
           title.textContent = selected.description;
+          const meta = group.length === 1 ? singleVariantMeta(selected) : '';
+          singleMeta.textContent = meta;
+          singleMeta.classList.toggle('hidden', !meta);
           priceValue.textContent = money(vip(selected));
           add.classList.toggle('tools-add-button', isToolsProduct(selected));
         }
 
-        body.append(sourceRow, title, variantCount);
+        body.append(sourceRow, title, variantCount, singleMeta);
         if (variantSelect) body.appendChild(variantSelect);
         body.append(price, actions);
         card.appendChild(body);
@@ -2566,11 +2578,10 @@
       source.textContent = product.source === 'bla' ? 'BLA range' : 'In local stock';
       document.getElementById('detailName').textContent = product.description;
       document.getElementById('detailCode').textContent = product.productNumber;
-      const location = document.getElementById('detailLocation');
-      const locationText = productStorageLocation(product);
-      location.textContent = locationText ? `Location: ${locationText}` : '';
-      location.classList.toggle('hidden', !locationText);
-      document.getElementById('detailMeta').textContent = [product.brand, product.variant, product.material, product.category, product.subCategory, product.fulfilment].filter(Boolean).join(' / ');
+      const detailMeta = document.getElementById('detailMeta');
+      const meta = state.activeGroup.length === 1 ? singleVariantMeta(product) : '';
+      detailMeta.textContent = meta;
+      detailMeta.classList.toggle('hidden', !meta);
       document.getElementById('detailPrice').textContent = money(vip(product));
       document.getElementById('detailAdd').classList.toggle('tools-add-button', isToolsProduct(product));
       document.getElementById('detailInformation').textContent = productInformationText(product) || product.description;
