@@ -3,6 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
   <title>AQUAM INSULA Maritime Lifestyle</title>
   <link rel="icon" href="./favicon.ico">
   <link rel="preload" as="image" href="./bla/assets/wave-hero.jpg">
@@ -1179,9 +1182,11 @@
   <script>
     'use strict';
 
-    const SHOP_DATA_URL = './data/shop_products.json';
+    const SHOP_DATA_URL = 'https://raw.githubusercontent.com/aquam-insula/shop/main/data/shop_products.json';
+    const SHOP_DATA_FALLBACK_URL = './data/shop_products.json';
     const BLA_SEARCH_DATA_URL = './data/bla_products_compact.json';
     const BLA_SUMMARY_URL = './bla/data/bla_catalogue_summary_appsscript.json';
+    const VISIT_DATA_VERSION = Date.now().toString(36);
     const SEARCH_PROXY_URL = 'https://aqiml-search.t-98d.workers.dev';
     const SHOP_GAS_URL = 'https://script.google.com/macros/s/AKfycbxpg0ptxrXsGXO6vmir-RxK5mHQ_I5XdFPxNeIp9uDgPumGxz9c9ATs_r51Mr4R4UpONA/exec';
     const BLA_GAS_URL = 'https://script.google.com/macros/s/AKfycbxQxHW4iCUh7im8_Q6jXbx5aLAxglySAgXkE7tIDyI6Wx0iHP2OhIOdKhB29vHZoO8/exec';
@@ -1350,11 +1355,22 @@
       };
     }
 
+    function freshDataUrl(url) {
+      const resolved = new URL(url, window.location.href);
+      if (resolved.pathname.toLowerCase().endsWith('.json')) {
+        resolved.searchParams.set('visit', VISIT_DATA_VERSION);
+      }
+      return resolved.href;
+    }
+
     async function fetchJson(url, timeoutMs) {
       const controller = new AbortController();
       const timer = setTimeout(() => controller.abort(), timeoutMs || 30000);
       try {
-        const response = await fetch(url, { signal: controller.signal });
+        const response = await fetch(freshDataUrl(url), {
+          signal: controller.signal,
+          cache: 'no-store'
+        });
         if (!response.ok) throw new Error(`Request failed (${response.status})`);
         return await response.json();
       } finally {
@@ -1440,7 +1456,13 @@
     }
 
     async function loadShopProducts() {
-      const rows = await fetchJson(SHOP_DATA_URL, 30000);
+      let rows;
+      try {
+        rows = await fetchJson(SHOP_DATA_URL, 30000);
+      } catch (error) {
+        console.warn('Current repository catalogue unavailable; using the published fallback.', error);
+        rows = await fetchJson(SHOP_DATA_FALLBACK_URL, 30000);
+      }
       state.shopProducts = (Array.isArray(rows) ? rows : [])
         .filter(product => !text(product.productNumber).startsWith('X'))
         .map(normalizeShopProduct);
