@@ -1259,12 +1259,12 @@
     function productStorageLocation(product) {
       return /^[SJ]/i.test(text(product.productNumber).trim()) ? text(product.storageLocation).trim() : '';
     }
-    function singleVariantMeta(product) {
+    function productCardMeta(product) {
       const location = productStorageLocation(product);
       return [
-        text(product.material) ? `Material: ${text(product.material)}` : '',
-        location ? `Location: ${location}` : ''
-      ].filter(Boolean).join(' / ');
+        text(product.material).trim(),
+        location
+      ].filter(Boolean).join(' - ');
     }
     function isToolsProduct(product) {
       return product && product.source === 'stock' &&
@@ -2318,8 +2318,7 @@
     }
 
     function variantLabel(product, group) {
-      const location = productStorageLocation(product);
-      return [text(product.variant), text(product.productNumber), location ? `Location: ${location}` : '']
+      return [text(product.variant), text(product.productNumber)]
         .filter(Boolean)
         .join(' - ');
     }
@@ -2365,8 +2364,8 @@
         const variantCount = document.createElement('div');
         variantCount.className = 'variant-count';
         variantCount.textContent = group.length > 1 ? `${group.length} variants` : '';
-        const singleMeta = document.createElement('div');
-        singleMeta.className = 'variant-count hidden';
+        const productMeta = document.createElement('div');
+        productMeta.className = 'variant-count hidden';
         let variantSelect = null;
         if (group.length > 1) {
           variantSelect = document.createElement('select');
@@ -2406,14 +2405,14 @@
         function updateCard() {
           code.textContent = selected.productNumber;
           title.textContent = selected.description;
-          const meta = group.length === 1 ? singleVariantMeta(selected) : '';
-          singleMeta.textContent = meta;
-          singleMeta.classList.toggle('hidden', !meta);
+          const meta = productCardMeta(selected);
+          productMeta.textContent = meta;
+          productMeta.classList.toggle('hidden', !meta);
           priceValue.textContent = money(vip(selected));
           add.classList.toggle('tools-add-button', isToolsProduct(selected));
         }
 
-        body.append(sourceRow, title, variantCount, singleMeta);
+        body.append(sourceRow, title, variantCount, productMeta);
         if (variantSelect) body.appendChild(variantSelect);
         body.append(price, actions);
         card.appendChild(body);
@@ -2437,6 +2436,7 @@
           description: product.description,
           brand: product.brand,
           variant: product.variant,
+          material: product.material,
           storageLocation: product.storageLocation,
           category: product.category,
           subCategory: product.subCategory,
@@ -2489,7 +2489,8 @@
         const meta = document.createElement('div');
         meta.className = 'basket-item-meta';
         const locationText = productStorageLocation(item);
-        meta.textContent = [item.source === 'bla' ? 'BLA range' : 'Local stock', item.productNumber, locationText ? `Location: ${locationText}` : '', item.fulfilment].filter(Boolean).join(' / ');
+        const itemDetails = [text(item.material).trim(), locationText].filter(Boolean).join(' - ');
+        meta.textContent = [item.source === 'bla' ? 'BLA range' : 'Local stock', item.productNumber, itemDetails, item.fulfilment].filter(Boolean).join(' / ');
         const quantityRow = document.createElement('div');
         quantityRow.className = 'quantity-row';
         const controls = document.createElement('div');
@@ -2579,7 +2580,7 @@
       document.getElementById('detailName').textContent = product.description;
       document.getElementById('detailCode').textContent = product.productNumber;
       const detailMeta = document.getElementById('detailMeta');
-      const meta = state.activeGroup.length === 1 ? singleVariantMeta(product) : '';
+      const meta = productCardMeta(product);
       detailMeta.textContent = meta;
       detailMeta.classList.toggle('hidden', !meta);
       document.getElementById('detailPrice').textContent = money(vip(product));
