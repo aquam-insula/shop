@@ -2318,11 +2318,7 @@
     }
 
     function variantLabel(product, group) {
-      const location = productStorageLocation(product);
-      const variant = text(product.variant).trim() || text(product.description).trim();
-      return [variant, location]
-        .filter(Boolean)
-        .join(' - ');
+      return text(product.variant).trim() || text(product.description).trim();
     }
 
     function renderProducts(products) {
