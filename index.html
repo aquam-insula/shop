@@ -2359,9 +2359,6 @@
         sourceRow.appendChild(code);
 
         const title = document.createElement('h3');
-        const variantCount = document.createElement('div');
-        variantCount.className = 'variant-count';
-        variantCount.textContent = group.length > 1 ? `${group.length} variants` : '';
         const productMeta = document.createElement('div');
         productMeta.className = 'variant-count hidden';
         let variantSelect = null;
@@ -2410,7 +2407,7 @@
           add.classList.toggle('tools-add-button', isToolsProduct(selected));
         }
 
-        body.append(sourceRow, title, variantCount, productMeta);
+        body.append(sourceRow, title, productMeta);
         if (variantSelect) body.appendChild(variantSelect);
         body.append(price, actions);
         card.appendChild(body);
