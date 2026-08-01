@@ -16,7 +16,7 @@ jobs:
   refresh:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
           fetch-depth: 0
 
@@ -24,10 +24,30 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          url='https://script.google.com/macros/s/AKfycbxpg0ptxrXsGXO6vmir-RxK5mHQ_I5XdFPxNeIp9uDgPumGxz9c9ATs_r51Mr4R4UpONA/exec?action=getProductsFromSheet'
-          curl --fail --location --retry 3 --retry-delay 5 --max-time 120 "$url" --output data/shop_products.json.new
-          python -m json.tool data/shop_products.json.new > /dev/null
-          mv data/shop_products.json.new data/shop_products.json
+          base_url='https://script.google.com/macros/s/AKfycbxpg0ptxrXsGXO6vmir-RxK5mHQ_I5XdFPxNeIp9uDgPumGxz9c9ATs_r51Mr4R4UpONA/exec?action=getProductsFromSheet'
+          output='data/shop_products.json.new'
+          rm -f "$output"
+
+          for attempt in 1 2 3; do
+            echo "Catalogue download attempt ${attempt}/3"
+            url="${base_url}&refresh=${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}-${attempt}"
+
+            if curl --fail-with-body --location --connect-timeout 20 --max-time 120 "$url" --output "$output"; then
+              if python -m json.tool "$output" > /dev/null; then
+                mv "$output" data/shop_products.json
+                exit 0
+              fi
+              echo 'Downloaded response was not valid JSON.'
+            fi
+
+            rm -f "$output"
+            if [ "$attempt" -lt 3 ]; then
+              sleep $((attempt * 15))
+            fi
+          done
+
+          echo 'Catalogue download failed after 3 attempts.'
+          exit 1
 
       - name: Publish catalogue change
         shell: bash
