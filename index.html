@@ -1152,10 +1152,6 @@
             <h4>About this Product</h4>
             <p id="detailAi">Loading product information...</p>
           </div>
-          <div class="detail-section">
-            <h4>Product Information</h4>
-            <p id="detailInformation"></p>
-          </div>
         </div>
       </div>
     </div>
@@ -2406,7 +2402,10 @@
         function updateCard() {
           code.textContent = selected.productNumber;
           title.textContent = selected.description;
-          const meta = productCardMeta(selected);
+          const meta = [
+            group.length === 1 ? text(selected.variant).trim() : '',
+            productCardMeta(selected)
+          ].filter(Boolean).join(' - ');
           productMeta.textContent = meta;
           productMeta.classList.toggle('hidden', !meta);
           priceValue.textContent = money(vip(selected));
@@ -2531,24 +2530,6 @@
       elements.basketDrawer.setAttribute('aria-hidden', 'true');
     }
 
-    function productInformationText(product) {
-      const richText = product.catalogueDescription || product.websiteDescription || product.descriptionHtml || '';
-      if (richText) {
-        const container = document.createElement('div');
-        container.innerHTML = text(richText);
-        const plain = text(container.textContent).replace(/\s+/g, ' ').trim();
-        if (plain) return plain;
-      }
-      return [
-        product.variant ? `Variant: ${product.variant}.` : '',
-        product.material ? `Material: ${product.material}.` : '',
-        product.brand ? `Brand: ${product.brand}.` : '',
-        product.category ? `Category: ${product.category}.` : '',
-        product.subCategory ? `Subcategory: ${product.subCategory}.` : '',
-        product.fulfilment ? `${product.fulfilment}.` : ''
-      ].filter(Boolean).join(' ');
-    }
-
     function openProduct(product, group) {
       state.activeGroup = Array.isArray(group) && group.length ? group : [product];
       const variantWrap = document.getElementById('detailVariantWrap');
@@ -2581,12 +2562,14 @@
       document.getElementById('detailName').textContent = product.description;
       document.getElementById('detailCode').textContent = product.productNumber;
       const detailMeta = document.getElementById('detailMeta');
-      const meta = productCardMeta(product);
+      const meta = [
+        state.activeGroup.length === 1 ? text(product.variant).trim() : '',
+        productCardMeta(product)
+      ].filter(Boolean).join(' - ');
       detailMeta.textContent = meta;
       detailMeta.classList.toggle('hidden', !meta);
       document.getElementById('detailPrice').textContent = money(vip(product));
       document.getElementById('detailAdd').classList.toggle('tools-add-button', isToolsProduct(product));
-      document.getElementById('detailInformation').textContent = productInformationText(product) || product.description;
       const ai = document.getElementById('detailAi');
       ai.textContent = 'Loading product information...';
       fetchAiDescription(product)
