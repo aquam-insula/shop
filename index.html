@@ -1443,11 +1443,22 @@
         catalogueDescription: product.catalogueDescription || '',
         websiteDescription: product.websiteDescription || ''
       };
-      const base = product.source === 'bla' ? BLA_GAS_URL : SHOP_GAS_URL;
-      const data = await postForm(`${base}?action=getAiDescription`, { product: JSON.stringify(payload) }, 22000);
-      const result = data && typeof data.text === 'string' && data.text.trim() ? data.text.trim() : AI_FALLBACK;
-      aiDescriptionCache.set(key, result);
-      return result;
+      const primary = product.source === 'bla' ? BLA_GAS_URL : SHOP_GAS_URL;
+      const secondary = product.source === 'bla' ? SHOP_GAS_URL : BLA_GAS_URL;
+      let lastError = null;
+      for (const base of [primary, secondary]) {
+        try {
+          const data = await postForm(`${base}?action=getAiDescription`, { product: JSON.stringify(payload) }, 40000);
+          const result = data && typeof data.text === 'string' ? data.text.trim() : '';
+          if (!result) throw new Error('The AI service returned no product information.');
+          aiDescriptionCache.set(key, result);
+          return result;
+        } catch (error) {
+          lastError = error;
+          console.warn('AI product information endpoint unavailable; trying fallback', error);
+        }
+      }
+      throw lastError || new Error('AI product information is unavailable.');
     }
 
     function loadSavedBasket() {
