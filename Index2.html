@@ -1205,7 +1205,7 @@
       visibleResults: [],
       unfilteredResults: [],
       basket: [],
-      vatRate: 0.15,
+      vatRate: 0.125,
       searchTimer: null,
       searchSequence: 0,
       activeProduct: null,
@@ -2736,7 +2736,7 @@
         setSection(state.section, true);
         fetchJson(`${SHOP_GAS_URL}?action=getVatRate`, 8000)
           .then(vat => {
-            state.vatRate = number(vat.rate) || 0.15;
+            state.vatRate = number(vat.rate) || 0.125;
             renderBasket();
             if (state.view === 'products' || state.view === 'search') renderProducts(state.visibleResults.length ? state.visibleResults : state.unfilteredResults);
           })
