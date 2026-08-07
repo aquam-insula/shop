@@ -1,1 +1,40 @@
-[{"productNumber":"Q49088Q2","description":"QUICKSILVER FILTER MERCRUISER FUEL PUMP ROCHESTER & CARTER","brand":"Y","variant":"PC","price":108.15,"unitCostOfSale":61.85,"categoryName":"Pumps, Plumbing & Galley","topCategory":"Pumps, Plumbing & Galley","subCategoryName":"Pumps & Bilge Systems","subCategory":"M - Pumps","pricingCategoryUsed":"M - Marine Supplies","categoryImage":"../images/catalogue/pages/page0285.jpg","subCategoryImage":"../images/catalogue/pages/page0285.jpg","catalogueImageUrl":"../images/catalogue/bla-edition-15-cover.jpg","categoryDescription":"Pumps, Plumbing & Galley from the BLA Australia Edition 15 catalogue.","subCategoryDescription":"Pumps & Bilge Systems products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.","sourceUrl":"","printCatalogueUrl":"https://online.flippingbook.com/view/328167/","estimatedWeightKg":5,"freightAud":24,"exportAudExGst":13.11,"barcode":"745061040229","blaWebsiteUrl":"https://bla.com.au/product/quicksilver-fuel-pump-filter-2/","websiteDescription":"Used on all MerCruiser engines with Rochester 2 barrel carburetor and Carter fuel pump. Priced individually, sold in multiples of 2. Quicksilver branded, clamshell package point of sale packaged.","blaWebsiteCategories":["Fuel Filters & Oil Filters","Outboard, Fuel Fittings & Propellers"],"blaWebsiteBrands":["Quicksilver"],"blaWebsiteProductId":50980,"productWebsiteImageUrl":"../images/bla-website-products/Q49088Q2.jpg","productWebsiteImageSourceUrl":"https://bla.com.au/wp-content/uploads/2020/07/Q49088Q2.jpg","imageUrl":"../images/bla-website-products/Q49088Q2.jpg","productWebsiteImageDownloaded":true}]
+[
+  {
+    "productNumber": "Q49088Q2",
+    "description": "QUICKSILVER FILTER MERCRUISER FUEL PUMP ROCHESTER & CARTER",
+    "brand": "Y",
+    "variant": "PC",
+    "price": 108.15,
+    "unitCostOfSale": 22.57,
+    "categoryName": "Pumps, Plumbing & Galley",
+    "topCategory": "Pumps, Plumbing & Galley",
+    "subCategoryName": "Pumps & Bilge Systems",
+    "subCategory": "M - Pumps",
+    "pricingCategoryUsed": "M - Marine Supplies",
+    "categoryImage": "../images/catalogue/pages/page0285.jpg",
+    "subCategoryImage": "../images/catalogue/pages/page0285.jpg",
+    "catalogueImageUrl": "../images/catalogue/bla-edition-15-cover.jpg",
+    "categoryDescription": "Pumps, Plumbing & Galley from the BLA Australia Edition 15 catalogue.",
+    "subCategoryDescription": "Pumps & Bilge Systems products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
+    "sourceUrl": "",
+    "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
+    "estimatedWeightKg": 0.05,
+    "freightAud": 0.24,
+    "exportAudExGst": 13.11,
+    "barcode": "745061040229",
+    "blaWebsiteUrl": "https://bla.com.au/product/quicksilver-fuel-pump-filter-2/",
+    "websiteDescription": "Used on all MerCruiser engines with Rochester 2 barrel carburetor and Carter fuel pump. Priced individually, sold in multiples of 2. Quicksilver branded, clamshell package point of sale packaged.",
+    "blaWebsiteCategories": [
+      "Fuel Filters & Oil Filters",
+      "Outboard, Fuel Fittings & Propellers"
+    ],
+    "blaWebsiteBrands": [
+      "Quicksilver"
+    ],
+    "blaWebsiteProductId": 50980,
+    "productWebsiteImageUrl": "../images/bla-website-products/Q49088Q2.jpg",
+    "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/07/Q49088Q2.jpg",
+    "imageUrl": "../images/bla-website-products/Q49088Q2.jpg",
+    "productWebsiteImageDownloaded": true
+  }
+]
