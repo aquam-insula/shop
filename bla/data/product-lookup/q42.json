@@ -23,7 +23,7 @@
     "exportAudExGst": 26.3,
     "barcode": "745061073234",
     "cataloguePage": 29,
-    "imageUrl": "../images/catalogue/product-blocks/Q42038Q02.jpg",
+    "imageUrl": "../images/bla-website-products/Q42038Q02.jpg",
     "catalogueDescription": "....................................... 614 Q16595Q.......................................... 615 Q16755Q1........................................ 618 Q18458Q3........................................ 615 Q18458Q4........................................ 615 Q191833.......................................... 618 Q19453Q2........................................ 613 Q19453T.......................................... 613 Q31640Q4................................486, 616 Q41582Q7........................................ 572 Q42038Q02...................................... 614 Q42038Q3........................................ 612 Q43026Q02...................................... 613 Q43026T2........................................ 613 Q44357Q2........................................ 616 Q59362T1........................................ 617 Q67886696...................................... 724 Q75692............................................ 614 Q802893Q01.................................... 615 Q802893Q4...................................... 615 Q80",
     "productBlockImageUrl": "../images/catalogue/product-blocks/Q42038Q02.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/quicksilver-water-pump-impeller-8/",
@@ -38,7 +38,8 @@
     "blaWebsiteProductId": 51621,
     "productWebsiteImageUrl": "../images/bla-website-products/Q42038Q02.jpg",
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/07/Q42038Q02.jpg",
-    "productWebsiteImageDownloaded": true
+    "productWebsiteImageDownloaded": true,
+    "productWebSearchImageUrl": "../images/bla-website-products/Q42038Q02.jpg"
   },
   "Q42038Q3": {
     "productNumber": "Q42038Q3",
@@ -64,7 +65,7 @@
     "exportAudExGst": 48.42,
     "barcode": "745061040625",
     "cataloguePage": 29,
-    "imageUrl": "../images/catalogue/product-blocks/Q42038Q3.jpg",
+    "imageUrl": "../images/bla-website-products/Q42038Q3.jpg",
     "catalogueDescription": "......................................... 615 Q16755Q1........................................ 618 Q18458Q3........................................ 615 Q18458Q4........................................ 615 Q191833.......................................... 618 Q19453Q2........................................ 613 Q19453T.......................................... 613 Q31640Q4................................486, 616 Q41582Q7........................................ 572 Q42038Q02...................................... 614 Q42038Q3........................................ 612 Q43026Q02...................................... 613 Q43026T2........................................ 613 Q44357Q2........................................ 616 Q59362T1........................................ 617 Q67886696...................................... 724 Q75692............................................ 614 Q802893Q01.................................... 615 Q802893Q4...................................... 615 Q803061T1...................................... 614 Q8",
     "productBlockImageUrl": "../images/catalogue/product-blocks/Q42038Q3.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/quicksilver-water-impeller-repair-kit-8/",
@@ -79,7 +80,8 @@
     "blaWebsiteProductId": 51655,
     "productWebsiteImageUrl": "../images/bla-website-products/Q42038Q3.jpg",
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/07/Q42038Q3.jpg",
-    "productWebsiteImageDownloaded": true
+    "productWebsiteImageDownloaded": true,
+    "productWebSearchImageUrl": "../images/bla-website-products/Q42038Q3.jpg"
   },
   "Q42089A5": {
     "productNumber": "Q42089A5",

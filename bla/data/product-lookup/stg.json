@@ -23,7 +23,7 @@
     "exportAudExGst": 27.99,
     "barcode": "808282371371",
     "cataloguePage": 227,
-    "imageUrl": "../images/catalogue/product-blocks/STG21600.jpg",
+    "imageUrl": "../images/bla-website-products/STG21600.jpg",
     "catalogueDescription": "mounting hole \u2022 16mm panel thickness (max) Sierra\u00ae Mercury Ignition Switch - with Choke Marine grade glass-filled polyester switch with an inner seal between cylinder lock and contact plate providing ultimate protection against corrosion. Non-conductive housing eliminates potential shorts. Specifications: \u2022 3 position magnet to off-run-start \u2022 15 amps at 12VDC ignition \u2022 30 amps at 12VDC solenoid \u2022 7 amps at 12VDC choke \u2022 23mm mounting hole \u2022 16mm panel thickness (max) \u2022 Push to choke BLA Code SMP41070-2 BLA Code STG21600 BLA Code UN12140 BLA Code SMP39100 BLA Code SMP41000 Sierra\u00ae Suzuki 2 & 4 Stroke Outboards Ignition Switch Marine grade glass-filled polyester switch with an inner seal between cylinder lock and contact play providing ultimate protection against corrosion. Non-conductive housing eliminated potential shorts Specifications \u2022 4 Positions magnet to off-accessory-run-start \u2022 15amps at 12VDC Ignition \u2022 30amps at 12VDC Solenoid \u2022 15amps at 12VDC Accessory \u2022 23mm mounting hole \u2022 29mm panel thickness (max) BLA Code SMP3970",
     "productBlockImageUrl": "../images/catalogue/product-blocks/STG21600.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/sierra-heavy-duty-power-trim-tilt-switch/",
@@ -38,6 +38,7 @@
     "blaWebsiteProductId": 40679,
     "productWebsiteImageUrl": "../images/bla-website-products/STG21600.jpg",
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2021/02/STG21600.jpg",
-    "productWebsiteImageDownloaded": true
+    "productWebsiteImageDownloaded": true,
+    "productWebSearchImageUrl": "../images/bla-website-products/STG21600.jpg"
   }
 }

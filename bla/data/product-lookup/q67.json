@@ -23,7 +23,7 @@
     "exportAudExGst": 3.66,
     "barcode": "9329768001144",
     "cataloguePage": 29,
-    "imageUrl": "../images/catalogue/product-blocks/Q67886696.jpg",
+    "imageUrl": "../images/bla-website-products/Q67886696.jpg",
     "catalogueDescription": "3Q2........................................ 613 Q19453T.......................................... 613 Q31640Q4................................486, 616 Q41582Q7........................................ 572 Q42038Q02...................................... 614 Q42038Q3........................................ 612 Q43026Q02...................................... 613 Q43026T2........................................ 613 Q44357Q2........................................ 616 Q59362T1........................................ 617 Q67886696...................................... 724 Q75692............................................ 614 Q802893Q01.................................... 615 Q802893Q4...................................... 615 Q803061T1...................................... 614 Q803099T1...................................... 618 Q803748.......................................... 614 Q8037481........................................ 613 Q804787Q........................................ 572 Q806608Q01.................................... 617 Q807",
     "productBlockImageUrl": "../images/catalogue/product-blocks/Q67886696.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/quicksilver-measuring-cup-with-cap/",
@@ -38,6 +38,7 @@
     "blaWebsiteProductId": 35957,
     "productWebsiteImageUrl": "../images/bla-website-products/Q67886696.jpg",
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/06/Q67886696.jpg",
-    "productWebsiteImageDownloaded": true
+    "productWebsiteImageDownloaded": true,
+    "productWebSearchImageUrl": "../images/bla-website-products/Q67886696.jpg"
   }
 }

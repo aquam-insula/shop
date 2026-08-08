@@ -23,7 +23,7 @@
     "exportAudExGst": 81.92,
     "barcode": "745061226500",
     "cataloguePage": 29,
-    "imageUrl": "../images/catalogue/product-blocks/Q99157T2.jpg",
+    "imageUrl": "../images/bla-website-products/Q99157T2.jpg",
     "catalogueDescription": "......... 723 Q8M0078617................................... 723 Q8M0078619................................... 723 Q8M0078620................................... 723 Q8M0100526................................... 612 Q8M0122423................................... 579 Q8M0162830................................... 615 Q8M0162832................................... 615 Q8M6001106................................... 617 Q94996Q2........................................ 618 Q96148A8........................................ 612 Q99157T2........................................ 612 S16-129-0127.................................. 223 S16-129-0147.................................. 223 S16-129-1006.................................. 223 S16-129-2006.................................. 223 S16-272-4000.................................. 913 S16-337-0386.................................. 567 S16-337-0566.................................. 567 S18-0179......................................... 581 S18-0182......................................... 598 S18-1222..",
     "productBlockImageUrl": "../images/catalogue/product-blocks/Q99157T2.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/quicksilver-water-pump-upper-repair-kit-3/",
@@ -38,7 +38,8 @@
     "blaWebsiteProductId": 51637,
     "productWebsiteImageUrl": "../images/bla-website-products/Q99157T2.jpg",
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/07/Q99157T2.jpg",
-    "productWebsiteImageDownloaded": true
+    "productWebsiteImageDownloaded": true,
+    "productWebSearchImageUrl": "../images/bla-website-products/Q99157T2.jpg"
   },
   "Q991734": {
     "productNumber": "Q991734",

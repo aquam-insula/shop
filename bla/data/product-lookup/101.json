@@ -23,7 +23,7 @@
     "exportAudExGst": 438.29,
     "barcode": "082324035791",
     "cataloguePage": 41,
-    "imageUrl": "../images/catalogue/product-blocks/101088.jpg",
+    "imageUrl": "../images/bla-website-products/101088.jpg",
     "catalogueDescription": "cers or network the unit with a Mega SI+ unit. * ** Optional transducers available for extreme deepwater use. To obtain 1000 watts, optional deepwater transducer required. 1920H x 1080V 18.5\" UPGRADABLE SOFTWARE Accessories: 103040 Transducer transom high wide SOLIX APEX 103044 Transducer in hull high wide SOLIX APEX 103066 Mount kit in dash APEX 19 103069 Cable trans splitter SI & DB SOLIX APEX 750mm 103070 Cable trans splitter SI L&R SOLIX APEX 750mm 103068 Power cable APEX & Mega Live 101086 GPS receiver AS GRP 101088 GPS receiver AS GRP with heading sensor 103072 Adaptor cable for external GPS to suit APEX 103980 Coastmaster Chart Standard Australia 103981 Coastmaster Chart Premium East 103982 Coastmaster Chart Premium West ADD ONS Humminbird CoastMaster | Humminbird CoastMaster Premium | Humminbird AutoChart Zero Line | Navionics | Navionics+ | Navionics Platinum+",
     "productBlockImageUrl": "../images/catalogue/product-blocks/101088.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/advanced-fishing-system-as-gps-hs/",
@@ -38,6 +38,7 @@
     "blaWebsiteProductId": 53631,
     "productWebsiteImageUrl": "../images/bla-website-products/101088.jpg",
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/08/101088.jpg",
-    "productWebsiteImageDownloaded": true
+    "productWebsiteImageDownloaded": true,
+    "productWebSearchImageUrl": "../images/bla-website-products/101088.jpg"
   }
 }

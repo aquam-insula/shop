@@ -168,7 +168,7 @@
     "exportAudExGst": 17.73,
     "barcode": "745061659841",
     "cataloguePage": 29,
-    "imageUrl": "../images/catalogue/product-blocks/Q822626Q15.jpg",
+    "imageUrl": "../images/bla-website-products/Q822626Q15.jpg",
     "catalogueDescription": "... 572 Q806608Q01.................................... 617 Q807151A14.................................... 617 Q807252Q5...................................... 617 Q808887Q........................................ 580 Q816296Q03.................................... 580 Q816296Q2...................................... 580 Q816856Q3...................................... 572 Q817275A08.................................... 612 Q817275Q05.................................... 612 Q818298Q1..............................487, 616 Q822626Q15.................................... 615 Q850730Q1...................................... 724 Q853333T........................................ 612 Q858004Q........................................ 618 Q858021Q01.................................... 723 Q858022Q01.................................... 723 Q858023Q01.................................... 723 Q858026Q01.............................723-724 Q858027Q01.............................723-724 Q858028Q01.................................... 723 Q858037Q01.............",
     "productBlockImageUrl": "../images/catalogue/product-blocks/Q822626Q15.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/quicksilver-4-stroke-outboard-oil-filter-3/",
@@ -183,7 +183,8 @@
     "blaWebsiteProductId": 51575,
     "productWebsiteImageUrl": "../images/bla-website-products/Q822626Q15.jpg",
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/07/Q822626Q15.jpg",
-    "productWebsiteImageDownloaded": true
+    "productWebsiteImageDownloaded": true,
+    "productWebSearchImageUrl": "../images/bla-website-products/Q822626Q15.jpg"
   },
   "Q823426A1": {
     "productNumber": "Q823426A1",

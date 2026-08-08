@@ -23,7 +23,7 @@
     "exportAudExGst": 38.12,
     "barcode": "9319786031025",
     "cataloguePage": 23,
-    "imageUrl": "../images/catalogue/product-blocks/224002.jpg",
+    "imageUrl": "../images/bla-website-products/224002.jpg",
     "catalogueDescription": "............ 693 222112............................................. 685 222140............................................. 686 222140B........................................... 686 223180............................................. 686 223200............................................. 692 223210............................................. 686 223220............................................. 687 223222............................................. 687 223604............................................. 693 224002............................................. 689 224004............................................. 689 224006............................................. 689 225002............................................. 692",
     "productBlockImageUrl": "../images/catalogue/product-blocks/224002.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/first-aid-kit-dinghy/",
@@ -38,7 +38,8 @@
     "blaWebsiteProductId": 33009,
     "productWebsiteImageUrl": "../images/bla-website-products/224002.jpg",
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/06/224002.jpg",
-    "productWebsiteImageDownloaded": true
+    "productWebsiteImageDownloaded": true,
+    "productWebSearchImageUrl": "../images/bla-website-products/224002.jpg"
   },
   "224004": {
     "productNumber": "224004",
@@ -64,7 +65,7 @@
     "exportAudExGst": 46.09,
     "barcode": "9319786031032",
     "cataloguePage": 23,
-    "imageUrl": "../images/catalogue/product-blocks/224004.jpg",
+    "imageUrl": "../images/bla-website-products/224004.jpg",
     "catalogueDescription": "............ 685 222140............................................. 686 222140B........................................... 686 223180............................................. 686 223200............................................. 692 223210............................................. 686 223220............................................. 687 223222............................................. 687 223604............................................. 693 224002............................................. 689 224004............................................. 689 224006............................................. 689 225002............................................. 692",
     "productBlockImageUrl": "../images/catalogue/product-blocks/224004.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/first-aid-kit-runabout/",
@@ -79,7 +80,8 @@
     "blaWebsiteProductId": 33010,
     "productWebsiteImageUrl": "../images/bla-website-products/224004.jpg",
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/06/224004.jpg",
-    "productWebsiteImageDownloaded": true
+    "productWebsiteImageDownloaded": true,
+    "productWebSearchImageUrl": "../images/bla-website-products/224004.jpg"
   },
   "224006": {
     "productNumber": "224006",
@@ -105,7 +107,7 @@
     "exportAudExGst": 106.84,
     "barcode": "9319786031049",
     "cataloguePage": 23,
-    "imageUrl": "../images/catalogue/product-blocks/224006.jpg",
+    "imageUrl": "../images/bla-website-products/224006.jpg",
     "catalogueDescription": "............ 686 222140B........................................... 686 223180............................................. 686 223200............................................. 692 223210............................................. 686 223220............................................. 687 223222............................................. 687 223604............................................. 693 224002............................................. 689 224004............................................. 689 224006............................................. 689 225002............................................. 692",
     "productBlockImageUrl": "../images/catalogue/product-blocks/224006.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/first-aid-kit-cruiser/",
@@ -120,6 +122,7 @@
     "blaWebsiteProductId": 33011,
     "productWebsiteImageUrl": "../images/bla-website-products/224006.jpg",
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/06/224006.jpg",
-    "productWebsiteImageDownloaded": true
+    "productWebsiteImageDownloaded": true,
+    "productWebSearchImageUrl": "../images/bla-website-products/224006.jpg"
   }
 }

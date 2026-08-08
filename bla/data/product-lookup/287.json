@@ -652,9 +652,10 @@
     "exportAudExGst": 3553.38,
     "barcode": "743683506901",
     "cataloguePage": 25,
-    "imageUrl": "../images/catalogue/product-blocks/287250.jpg",
+    "imageUrl": "../images/catalogue/product-photos/287250.jpg",
     "catalogueDescription": "............... 768 2818XX.....................................768, 775 281908............................................. 778 281909............................................. 778 281911............................................. 778 281912............................................. 778 281913............................................. 778 281914............................................. 778 282520............................................. 779 282559............................................. 779 287250............................................. 782 287304............................................. 782 287310............................................. 782 287330............................................. 525 287514............................................. 782 287518............................................. 782 291003.....................795, 799, 802, 839 291004.....................................795, 802 291005............................................. 795 291008..............................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/287250.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/287250.jpg",
+    "productWebSearchImageUrl": "../images/catalogue/product-photos/287250.jpg"
   },
   "287252": {
     "productNumber": "287252",
@@ -883,9 +884,10 @@
     "exportAudExGst": 352.66,
     "barcode": "743683507304",
     "cataloguePage": 812,
-    "imageUrl": "../images/catalogue/product-blocks/287302.jpg",
+    "imageUrl": "../images/catalogue/product-photos/287302.jpg",
     "catalogueDescription": "Lewmar\u00ae Autopilot Drive Units Lewmar\u00ae offer an Autopilot Drive Unit provision for all of their steering systems as well as for retro-fitting to any boat. Models for Constellation\u2122, Cobra\u2122 and Mamba\u2122 steering systems come in 12v or 24v models and are all compatible with the major brands of autopilot electronics on the market. BLA Code Description 287250 Integra Base Drive 12 volt Bavaria 782 28 BOATING LIFESTYLE ADVENTURE MECHANICAL STEERING - POWER & SAIL 287302 Lewmar\u00ae Steering Pedestal Accessories A range of accessories are available to compliment Lewmar\u00ae pedestals to aid in controlling the boat and enjoying the cockpit area while anchored, moored or at the marina. A variety of guardrails can be used as a secure hand hold while underway and a range of kickback guardrails allow instrument pods to be attached. Having an engine control mechanism positioned on the guardrail and a binnacle and compass to suit the pedestal goes further to control the boat from the steering po",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/287302.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/287302.jpg",
+    "productWebSearchImageUrl": "../images/catalogue/product-photos/287302.jpg"
   },
   "287304": {
     "productNumber": "287304",
@@ -911,9 +913,10 @@
     "exportAudExGst": 286.06,
     "barcode": "743683507458",
     "cataloguePage": 25,
-    "imageUrl": "../images/catalogue/product-blocks/287304.jpg",
+    "imageUrl": "../images/catalogue/product-photos/287304.jpg",
     "catalogueDescription": ".......768, 775 281908............................................. 778 281909............................................. 778 281911............................................. 778 281912............................................. 778 281913............................................. 778 281914............................................. 778 282520............................................. 779 282559............................................. 779 287250............................................. 782 287304............................................. 782 287310............................................. 782 287330............................................. 525 287514............................................. 782 287518............................................. 782 291003.....................795, 799, 802, 839 291004.....................................795, 802 291005............................................. 795 291008.....................................799, 839 291010..................................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/287304.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/287304.jpg",
+    "productWebSearchImageUrl": "../images/catalogue/product-photos/287304.jpg"
   },
   "287310": {
     "productNumber": "287310",
@@ -939,9 +942,10 @@
     "exportAudExGst": 43.13,
     "barcode": "743683507465",
     "cataloguePage": 25,
-    "imageUrl": "../images/catalogue/product-blocks/287310.jpg",
+    "imageUrl": "../images/catalogue/product-photos/287310.jpg",
     "catalogueDescription": "........... 778 281909............................................. 778 281911............................................. 778 281912............................................. 778 281913............................................. 778 281914............................................. 778 282520............................................. 779 282559............................................. 779 287250............................................. 782 287304............................................. 782 287310............................................. 782 287330............................................. 525 287514............................................. 782 287518............................................. 782 291003.....................795, 799, 802, 839 291004.....................................795, 802 291005............................................. 795 291008.....................................799, 839 291010............................................. 839 291012.....................795, 799, 802",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/287310.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/287310.jpg",
+    "productWebSearchImageUrl": "../images/catalogue/product-photos/287310.jpg"
   },
   "287330": {
     "productNumber": "287330",
@@ -967,7 +971,7 @@
     "exportAudExGst": 143.64,
     "barcode": "743683500008",
     "cataloguePage": 25,
-    "imageUrl": "../images/catalogue/product-blocks/287330.jpg",
+    "imageUrl": "../images/bla-website-products/287330.jpg",
     "catalogueDescription": "........... 778 281911............................................. 778 281912............................................. 778 281913............................................. 778 281914............................................. 778 282520............................................. 779 282559............................................. 779 287250............................................. 782 287304............................................. 782 287310............................................. 782 287330............................................. 525 287514............................................. 782 287518............................................. 782 291003.....................795, 799, 802, 839 291004.....................................795, 802 291005............................................. 795 291008.....................................799, 839 291010............................................. 839 291012.....................795, 799, 802, 839 291014.............................795, 799, 839 2",
     "productBlockImageUrl": "../images/catalogue/product-blocks/287330.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/lewmar-cockpit-locker-hatch-cast-stainless-steel/",
@@ -982,7 +986,8 @@
     "blaWebsiteProductId": 46680,
     "productWebsiteImageUrl": "../images/bla-website-products/287330.jpg",
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/07/287330.jpg",
-    "productWebsiteImageDownloaded": true
+    "productWebsiteImageDownloaded": true,
+    "productWebSearchImageUrl": "../images/bla-website-products/287330.jpg"
   },
   "287504": {
     "productNumber": "287504",
@@ -1211,9 +1216,10 @@
     "exportAudExGst": 674.16,
     "barcode": "5060114794290",
     "cataloguePage": 25,
-    "imageUrl": "../images/catalogue/product-blocks/287514.jpg",
+    "imageUrl": "../images/catalogue/product-photos/287514.jpg",
     "catalogueDescription": "........... 778 281912............................................. 778 281913............................................. 778 281914............................................. 778 282520............................................. 779 282559............................................. 779 287250............................................. 782 287304............................................. 782 287310............................................. 782 287330............................................. 525 287514............................................. 782 287518............................................. 782 291003.....................795, 799, 802, 839 291004.....................................795, 802 291005............................................. 795 291008.....................................799, 839 291010............................................. 839 291012.....................795, 799, 802, 839 291014.............................795, 799, 839 291016.............................795, 802, 839 291017..",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/287514.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/287514.jpg",
+    "productWebSearchImageUrl": "../images/catalogue/product-photos/287514.jpg"
   },
   "287515": {
     "productNumber": "287515",
@@ -1306,7 +1312,7 @@
     "exportAudExGst": 201.62,
     "barcode": "5060114794382",
     "cataloguePage": 25,
-    "imageUrl": "../images/catalogue/product-blocks/287518.jpg",
+    "imageUrl": "../images/bla-website-products/287518.jpg",
     "catalogueDescription": "........... 778 281913............................................. 778 281914............................................. 778 282520............................................. 779 282559............................................. 779 287250............................................. 782 287304............................................. 782 287310............................................. 782 287330............................................. 525 287514............................................. 782 287518............................................. 782 291003.....................795, 799, 802, 839 291004.....................................795, 802 291005............................................. 795 291008.....................................799, 839 291010............................................. 839 291012.....................795, 799, 802, 839 291014.............................795, 799, 839 291016.............................795, 802, 839 291017.............................795, 799, 839 291018.........",
     "productBlockImageUrl": "../images/catalogue/product-blocks/287518.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/scanstrut-pod-rail-mounted/",
@@ -1321,7 +1327,8 @@
     "blaWebsiteProductId": 47463,
     "productWebsiteImageUrl": "../images/bla-website-products/287518.jpg",
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/07/287518.jpg",
-    "productWebsiteImageDownloaded": true
+    "productWebsiteImageDownloaded": true,
+    "productWebSearchImageUrl": "../images/bla-website-products/287518.jpg"
   },
   "287520": {
     "productNumber": "287520",

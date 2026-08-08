@@ -81,7 +81,7 @@
     "exportAudExGst": 33.81,
     "barcode": "745061038219",
     "cataloguePage": 29,
-    "imageUrl": "../images/catalogue/product-blocks/Q18458Q3.jpg",
+    "imageUrl": "../images/bla-website-products/Q18458Q3.jpg",
     "catalogueDescription": ".................................... 632 CDI551-334K................................... 632 Q12612Q2........................................ 616 Q13563Q3........................................ 572 Q13563Q7........................................ 572 Q14213Q.......................................... 572 Q14586............................................ 614 Q14586A3........................................ 614 Q16595Q.......................................... 615 Q16755Q1........................................ 618 Q18458Q3........................................ 615 Q18458Q4........................................ 615 Q191833.......................................... 618 Q19453Q2........................................ 613 Q19453T.......................................... 613 Q31640Q4................................486, 616 Q41582Q7........................................ 572 Q42038Q02...................................... 614 Q42038Q3........................................ 612 Q43026Q02...................................... 613 Q4",
     "productBlockImageUrl": "../images/catalogue/product-blocks/Q18458Q3.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/quicksilver-water-separating-fuel-filter-3/",
@@ -96,7 +96,8 @@
     "blaWebsiteProductId": 51581,
     "productWebsiteImageUrl": "../images/bla-website-products/Q18458Q3.jpg",
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/07/Q18458Q3.jpg",
-    "productWebsiteImageDownloaded": true
+    "productWebsiteImageDownloaded": true,
+    "productWebSearchImageUrl": "../images/bla-website-products/Q18458Q3.jpg"
   },
   "Q18458Q4": {
     "productNumber": "Q18458Q4",
@@ -122,7 +123,7 @@
     "exportAudExGst": 28.83,
     "barcode": "745061038233",
     "cataloguePage": 29,
-    "imageUrl": "../images/catalogue/product-blocks/Q18458Q4.jpg",
+    "imageUrl": "../images/bla-website-products/Q18458Q4.jpg",
     "catalogueDescription": ".................................. 632 Q12612Q2........................................ 616 Q13563Q3........................................ 572 Q13563Q7........................................ 572 Q14213Q.......................................... 572 Q14586............................................ 614 Q14586A3........................................ 614 Q16595Q.......................................... 615 Q16755Q1........................................ 618 Q18458Q3........................................ 615 Q18458Q4........................................ 615 Q191833.......................................... 618 Q19453Q2........................................ 613 Q19453T.......................................... 613 Q31640Q4................................486, 616 Q41582Q7........................................ 572 Q42038Q02...................................... 614 Q42038Q3........................................ 612 Q43026Q02...................................... 613 Q43026T2........................................ 613 Q4",
     "productBlockImageUrl": "../images/catalogue/product-blocks/Q18458Q4.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/quicksilver-water-separating-fuel-filter/",
@@ -137,7 +138,8 @@
     "blaWebsiteProductId": 51571,
     "productWebsiteImageUrl": "../images/bla-website-products/Q18458Q4.jpg",
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/07/Q18458Q4.jpg",
-    "productWebsiteImageDownloaded": true
+    "productWebsiteImageDownloaded": true,
+    "productWebSearchImageUrl": "../images/bla-website-products/Q18458Q4.jpg"
   },
   "Q18643A5": {
     "productNumber": "Q18643A5",

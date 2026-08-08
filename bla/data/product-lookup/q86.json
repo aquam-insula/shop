@@ -728,7 +728,7 @@
     "exportAudExGst": 9.52,
     "barcode": "745061696488",
     "cataloguePage": 29,
-    "imageUrl": "../images/catalogue/product-blocks/Q866340Q03.jpg",
+    "imageUrl": "../images/bla-website-products/Q866340Q03.jpg",
     "catalogueDescription": "............. 723 Q858023Q01.................................... 723 Q858026Q01.............................723-724 Q858027Q01.............................723-724 Q858028Q01.................................... 723 Q858037Q01.................................... 724 Q858038Q01.................................... 724 Q858058Q01.................................... 724 Q858059Q01.................................... 724 Q858064Q01.................................... 724 Q858065Q01.................................... 724 Q866340Q03.................................... 618 Q877565T1...................................... 580 Q877761Q01.................................... 615 Q879194A01.................................... 617 Q879194A02.................................... 617 Q87946Q04...................................... 580 Q879884T........................................ 579 Q879885Q........................................ 580 Q882751A1...................................... 612 Q883702Q........................................ 618 Q883704Q03.",
     "productBlockImageUrl": "../images/catalogue/product-blocks/Q866340Q03.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/quicksilver-oil-filter/",
@@ -743,7 +743,8 @@
     "blaWebsiteProductId": 51473,
     "productWebsiteImageUrl": "../images/bla-website-products/Q866340Q03.jpg",
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/07/Q866340Q03.jpg",
-    "productWebsiteImageDownloaded": true
+    "productWebsiteImageDownloaded": true,
+    "productWebSearchImageUrl": "../images/bla-website-products/Q866340Q03.jpg"
   },
   "Q866594Q01": {
     "productNumber": "Q866594Q01",

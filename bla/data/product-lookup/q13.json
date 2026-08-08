@@ -81,7 +81,7 @@
     "exportAudExGst": 14.42,
     "barcode": "745061035515",
     "cataloguePage": 29,
-    "imageUrl": "../images/catalogue/product-blocks/Q13563Q3.jpg",
+    "imageUrl": "../images/bla-website-products/Q13563Q3.jpg",
     "catalogueDescription": ". 630 CDI174-5454K1............................... 631 CDI174-9710K1............................... 631 CDI183-2508.................................... 631 CDI183-3740.................................... 631 CDI184-0001.................................... 631 CDI187-0011.................................... 632 CDI511-9766.................................... 632 CDI551-33-1.................................... 632 CDI551-334K................................... 632 Q12612Q2........................................ 616 Q13563Q3........................................ 572 Q13563Q7........................................ 572 Q14213Q.......................................... 572 Q14586............................................ 614 Q14586A3........................................ 614 Q16595Q.......................................... 615 Q16755Q1........................................ 618 Q18458Q3........................................ 615 Q18458Q4........................................ 615 Q191833........................................",
     "productBlockImageUrl": "../images/catalogue/product-blocks/Q13563Q3.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/quicksilver-quick-disconnect-engine-end-2/",
@@ -96,7 +96,8 @@
     "blaWebsiteProductId": 50890,
     "productWebsiteImageUrl": "../images/bla-website-products/Q13563Q3.jpg",
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/07/Q13563Q3.jpg",
-    "productWebsiteImageDownloaded": true
+    "productWebsiteImageDownloaded": true,
+    "productWebSearchImageUrl": "../images/bla-website-products/Q13563Q3.jpg"
   },
   "Q13563Q7": {
     "productNumber": "Q13563Q7",
@@ -122,7 +123,7 @@
     "exportAudExGst": 13.87,
     "barcode": "745061035591",
     "cataloguePage": 29,
-    "imageUrl": "../images/catalogue/product-blocks/Q13563Q7.jpg",
+    "imageUrl": "../images/bla-website-products/Q13563Q7.jpg",
     "catalogueDescription": "1 CDI174-9710K1............................... 631 CDI183-2508.................................... 631 CDI183-3740.................................... 631 CDI184-0001.................................... 631 CDI187-0011.................................... 632 CDI511-9766.................................... 632 CDI551-33-1.................................... 632 CDI551-334K................................... 632 Q12612Q2........................................ 616 Q13563Q3........................................ 572 Q13563Q7........................................ 572 Q14213Q.......................................... 572 Q14586............................................ 614 Q14586A3........................................ 614 Q16595Q.......................................... 615 Q16755Q1........................................ 618 Q18458Q3........................................ 615 Q18458Q4........................................ 615 Q191833.......................................... 618 Q19453Q2......................................",
     "productBlockImageUrl": "../images/catalogue/product-blocks/Q13563Q7.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/quicksilver-quick-disconnect-tank-end/",
@@ -137,6 +138,7 @@
     "blaWebsiteProductId": 50894,
     "productWebsiteImageUrl": "../images/bla-website-products/Q13563Q7.jpg",
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/07/Q13563Q7.jpg",
-    "productWebsiteImageDownloaded": true
+    "productWebsiteImageDownloaded": true,
+    "productWebSearchImageUrl": "../images/bla-website-products/Q13563Q7.jpg"
   }
 }

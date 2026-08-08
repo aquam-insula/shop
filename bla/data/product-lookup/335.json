@@ -23,9 +23,10 @@
     "exportAudExGst": 2191.79,
     "barcode": "9319786118573",
     "cataloguePage": 944,
-    "imageUrl": "../images/catalogue/product-blocks/335010.jpg",
+    "imageUrl": "../images/catalogue/product-photos/335010.jpg",
     "catalogueDescription": "sheets above to bulkhead or ceiling. Spikes grip the foam to prevent slippage without damage. Sold individually. Foam Sound Insulation - Sorberbarrier AGC Sorberbarrier AGC is a composite sandwich material comprising of a flexible high mass noise barrier laminated between two layers of flexible acoustic foam. It increases sound transmission loss and provides sound absorption. Ideal for engine rooms or anywhere that requires noise control. The outer layer of flexi foam comprises foam sound insulation detailed with 335010 above. The base layer comprises of 6mm foam and acts as a decoupling layer which separates the noise barrier and spaces it from the structure. The middle layer is the decoupled noise barrier that adds significantly to the sound transmission loss of the system. The resultant performance exceeds the mass law. Commonly bonded to the structure with spray adhesives. Features: \u2022 Multi-function product: an absorber and barrier in one \u2022 Fire retardant to AS1530.3 \u2022 Excellent mid to high frequency performance \u2022 Resists hyd",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/335010.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/335010.jpg",
+    "productWebSearchImageUrl": "../images/catalogue/product-photos/335010.jpg"
   },
   "335020": {
     "productNumber": "335020",
@@ -80,7 +81,7 @@
     "exportAudExGst": 387.84,
     "barcode": "9319786118610",
     "cataloguePage": 27,
-    "imageUrl": "../images/catalogue/product-blocks/335030.jpg",
+    "imageUrl": "../images/bla-website-products/335030.jpg",
     "catalogueDescription": "........... 891 316482............................................. 891 316484............................................. 891 316486............................................. 891 316488............................................. 891 333249............................................. 912 333290............................................. 912 333299............................................. 913 333300............................................. 913 333301............................................. 913 335030............................................. 914 335052............................................. 914 335060............................................. 914 337001............................................. 911 337003............................................. 911 337022............................................. 910 337042............................................. 910 337044............................................. 910 337056............................................. 910 337449................",
     "productBlockImageUrl": "../images/catalogue/product-blocks/335030.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/foam-sound-insulation-sorberbarrier-agc/",
@@ -96,7 +97,8 @@
     "blaWebsiteProductId": 41720,
     "productWebsiteImageUrl": "../images/bla-website-products/335030.jpg",
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/07/335030.jpg",
-    "productWebsiteImageDownloaded": true
+    "productWebsiteImageDownloaded": true,
+    "productWebSearchImageUrl": "../images/bla-website-products/335030.jpg"
   },
   "335052": {
     "productNumber": "335052",
@@ -122,7 +124,7 @@
     "exportAudExGst": 83.49,
     "barcode": "9319786375006",
     "cataloguePage": 27,
-    "imageUrl": "../images/catalogue/product-blocks/335052.jpg",
+    "imageUrl": "../images/bla-website-products/335052.jpg",
     "catalogueDescription": "........... 891 316484............................................. 891 316486............................................. 891 316488............................................. 891 333249............................................. 912 333290............................................. 912 333299............................................. 913 333300............................................. 913 333301............................................. 913 335030............................................. 914 335052............................................. 914 335060............................................. 914 337001............................................. 911 337003............................................. 911 337022............................................. 910 337042............................................. 910 337044............................................. 910 337056............................................. 910 337449............................................. 912 337450................",
     "productBlockImageUrl": "../images/catalogue/product-blocks/335052.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/metalised-tape-agc/",
@@ -138,7 +140,8 @@
     "blaWebsiteProductId": 41722,
     "productWebsiteImageUrl": "../images/bla-website-products/335052.jpg",
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/07/335052.jpg",
-    "productWebsiteImageDownloaded": true
+    "productWebsiteImageDownloaded": true,
+    "productWebSearchImageUrl": "../images/bla-website-products/335052.jpg"
   },
   "335060": {
     "productNumber": "335060",
@@ -164,7 +167,7 @@
     "exportAudExGst": 1.42,
     "barcode": "9319786233825",
     "cataloguePage": 27,
-    "imageUrl": "../images/catalogue/product-blocks/335060.jpg",
+    "imageUrl": "../images/bla-website-products/335060.jpg",
     "catalogueDescription": "........... 891 316486............................................. 891 316488............................................. 891 333249............................................. 912 333290............................................. 912 333299............................................. 913 333300............................................. 913 333301............................................. 913 335030............................................. 914 335052............................................. 914 335060............................................. 914 337001............................................. 911 337003............................................. 911 337022............................................. 910 337042............................................. 910 337044............................................. 910 337056............................................. 910 337449............................................. 912 337450............................................. 911 337451................",
     "productBlockImageUrl": "../images/catalogue/product-blocks/335060.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/insulation-fixing-buttons/",
@@ -180,6 +183,7 @@
     "blaWebsiteProductId": 41724,
     "productWebsiteImageUrl": "../images/bla-website-products/335060.jpg",
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/07/335060.jpg",
-    "productWebsiteImageDownloaded": true
+    "productWebsiteImageDownloaded": true,
+    "productWebSearchImageUrl": "../images/bla-website-products/335060.jpg"
   }
 }

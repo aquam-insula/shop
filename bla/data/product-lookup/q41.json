@@ -52,7 +52,7 @@
     "exportAudExGst": 3.89,
     "barcode": "745061035744",
     "cataloguePage": 29,
-    "imageUrl": "../images/catalogue/product-blocks/Q41582Q7.jpg",
+    "imageUrl": "../images/bla-website-products/Q41582Q7.jpg",
     "catalogueDescription": "....................................... 614 Q14586A3........................................ 614 Q16595Q.......................................... 615 Q16755Q1........................................ 618 Q18458Q3........................................ 615 Q18458Q4........................................ 615 Q191833.......................................... 618 Q19453Q2........................................ 613 Q19453T.......................................... 613 Q31640Q4................................486, 616 Q41582Q7........................................ 572 Q42038Q02...................................... 614 Q42038Q3........................................ 612 Q43026Q02...................................... 613 Q43026T2........................................ 613 Q44357Q2........................................ 616 Q59362T1........................................ 617 Q67886696...................................... 724 Q75692............................................ 614 Q802893Q01.................................... 615 Q",
     "productBlockImageUrl": "../images/catalogue/product-blocks/Q41582Q7.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/quicksilver-fuel-line-snapper-clamp/",
@@ -67,7 +67,8 @@
     "blaWebsiteProductId": 50898,
     "productWebsiteImageUrl": "../images/bla-website-products/Q41582Q7.jpg",
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/07/Q41582Q7.jpg",
-    "productWebsiteImageDownloaded": true
+    "productWebsiteImageDownloaded": true,
+    "productWebSearchImageUrl": "../images/bla-website-products/Q41582Q7.jpg"
   },
   "Q416223": {
     "productNumber": "Q416223",
