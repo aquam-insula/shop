@@ -14,11 +14,11 @@
     "categoryImage": "../images/catalogue/pages/page0659.jpg",
     "subCategoryImage": "../images/catalogue/pages/page0659.jpg",
     "catalogueImageUrl": "../images/catalogue/pages/page0025.jpg",
-    "categoryDescription": "Steering Wheels from the BLA Australia catalogue.",
-    "subCategoryDescription": "Steering Wheels products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
+    "categoryDescription": "Trailering from the BLA Australia Edition 15 catalogue.",
+    "subCategoryDescription": "Trailer Parts & Towing products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/25/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 3.83,
     "barcode": "9319786033289",
@@ -39,11 +39,7 @@
     "productWebsiteImageUrl": "../images/bla-website-products/271002.jpg",
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/06/271002.jpg",
     "productWebsiteImageDownloaded": true,
-    "categoryPath": [
-      "BLA Catalogue",
-      "Steering Wheels",
-      "Steering Wheels"
-    ]
+    "productWebSearchImageUrl": "../images/bla-website-products/271002.jpg"
   },
   {
     "productNumber": "271003",
@@ -60,11 +56,11 @@
     "categoryImage": "../images/catalogue/pages/page0659.jpg",
     "subCategoryImage": "../images/catalogue/pages/page0659.jpg",
     "catalogueImageUrl": "../images/catalogue/pages/page0025.jpg",
-    "categoryDescription": "Steering Wheels from the BLA Australia catalogue.",
-    "subCategoryDescription": "Steering Wheels products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
+    "categoryDescription": "Trailering from the BLA Australia Edition 15 catalogue.",
+    "subCategoryDescription": "Trailer Parts & Towing products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/25/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 4.94,
     "barcode": "9319786093542",
@@ -85,11 +81,7 @@
     "productWebsiteImageUrl": "../images/bla-website-products/271003.jpg",
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/06/271003.jpg",
     "productWebsiteImageDownloaded": true,
-    "categoryPath": [
-      "BLA Catalogue",
-      "Steering Wheels",
-      "Steering Wheels"
-    ]
+    "productWebSearchImageUrl": "../images/bla-website-products/271003.jpg"
   },
   {
     "productNumber": "271004",
@@ -105,24 +97,20 @@
     "pricingCategoryUsed": "M - Marine Supplies",
     "categoryImage": "../images/catalogue/pages/page0659.jpg",
     "subCategoryImage": "../images/catalogue/pages/page0659.jpg",
-    "catalogueImageUrl": "../images/catalogue/pages/page0786.jpg",
-    "categoryDescription": "Steering Wheels from the BLA Australia catalogue.",
-    "subCategoryDescription": "Steering Wheels products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
-    "sourceUrl": "https://online.flippingbook.com/view/328167/786/",
+    "catalogueImageUrl": "../images/catalogue/pages/page0025.jpg",
+    "categoryDescription": "Trailering from the BLA Australia Edition 15 catalogue.",
+    "subCategoryDescription": "Trailer Parts & Towing products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
+    "sourceUrl": "https://online.flippingbook.com/view/328167/25/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 14.74,
     "barcode": "9319786451960",
     "cataloguePage": 25,
     "imageUrl": "../images/catalogue/product-photos/271004.jpg",
     "catalogueDescription": "....................... 749 268393............................................. 749 268395............................................. 750 268396............................................. 750 268397............................................. 751 268398............................................. 751 268399............................................. 751 268406............................................. 750 271002......................................760-763 271003.............................759, 762-763 271004............................................. 756 271024............................................. 763 271026............................................. 763 271030............................................. 762 271040............................................. 763 271050............................................. 762 271060............................................. 762 271086............................................. 763 271090............................................. 760 271108................",
-    "productBlockImageUrl": "../images/catalogue/product-photos/271004.jpg",
-    "categoryPath": [
-      "BLA Catalogue",
-      "Steering Wheels",
-      "Steering Wheels"
-    ]
+    "productBlockImageUrl": "../images/catalogue/product-blocks/271004.jpg",
+    "productWebSearchImageUrl": "../images/catalogue/product-photos/271004.jpg"
   },
   {
     "productNumber": "271006",
@@ -139,11 +127,11 @@
     "categoryImage": "../images/catalogue/pages/page0659.jpg",
     "subCategoryImage": "../images/catalogue/pages/page0659.jpg",
     "catalogueImageUrl": "../images/catalogue/bla-edition-15-cover.jpg",
-    "categoryDescription": "Steering Wheels from the BLA Australia catalogue.",
-    "subCategoryDescription": "Steering Wheels products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
+    "categoryDescription": "Trailering from the BLA Australia Edition 15 catalogue.",
+    "subCategoryDescription": "Trailer Parts & Towing products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 7.86,
     "barcode": "808282225766",
@@ -151,12 +139,7 @@
     "productWebSearchImageSourceUrl": "https://i.ytimg.com/vi/5kFJFcAjZGs/maxresdefault.jpg",
     "productWebSearchImageSourcePage": "",
     "productWebSearchQuery": "\"271006\" \"Y SEASTAR STEERING WHEEL CAP T/S ACE\"",
-    "imageUrl": "../images/web-product-images/271006.jpg",
-    "categoryPath": [
-      "BLA Catalogue",
-      "Steering Wheels",
-      "Steering Wheels"
-    ]
+    "imageUrl": "../images/web-product-images/271006.jpg"
   },
   {
     "productNumber": "271026",
@@ -173,11 +156,11 @@
     "categoryImage": "../images/catalogue/pages/page0659.jpg",
     "subCategoryImage": "../images/catalogue/pages/page0659.jpg",
     "catalogueImageUrl": "../images/catalogue/pages/page0025.jpg",
-    "categoryDescription": "Steering Wheels from the BLA Australia catalogue.",
-    "subCategoryDescription": "Steering Wheels products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
+    "categoryDescription": "Trailering from the BLA Australia Edition 15 catalogue.",
+    "subCategoryDescription": "Trailer Parts & Towing products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/25/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 41.61,
     "barcode": "9319786250167",
@@ -198,11 +181,7 @@
     "productWebsiteImageUrl": "../images/bla-website-products/271026.jpg",
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/06/271026.jpg",
     "productWebsiteImageDownloaded": true,
-    "categoryPath": [
-      "BLA Catalogue",
-      "Steering Wheels",
-      "Steering Wheels"
-    ]
+    "productWebSearchImageUrl": "../images/bla-website-products/271026.jpg"
   },
   {
     "productNumber": "271030",
@@ -219,11 +198,11 @@
     "categoryImage": "../images/catalogue/pages/page0659.jpg",
     "subCategoryImage": "../images/catalogue/pages/page0659.jpg",
     "catalogueImageUrl": "../images/catalogue/pages/page0025.jpg",
-    "categoryDescription": "Steering Wheels from the BLA Australia catalogue.",
-    "subCategoryDescription": "Steering Wheels products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
+    "categoryDescription": "Trailering from the BLA Australia Edition 15 catalogue.",
+    "subCategoryDescription": "Trailer Parts & Towing products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/25/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 42.07,
     "barcode": "9319786033333",
@@ -244,11 +223,7 @@
     "productWebsiteImageUrl": "../images/bla-website-products/271030.jpg",
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/06/271030.jpg",
     "productWebsiteImageDownloaded": true,
-    "categoryPath": [
-      "BLA Catalogue",
-      "Steering Wheels",
-      "Steering Wheels"
-    ]
+    "productWebSearchImageUrl": "../images/bla-website-products/271030.jpg"
   },
   {
     "productNumber": "271031",
@@ -265,11 +240,11 @@
     "categoryImage": "../images/catalogue/pages/page0659.jpg",
     "subCategoryImage": "../images/catalogue/pages/page0659.jpg",
     "catalogueImageUrl": "../images/catalogue/bla-edition-15-cover.jpg",
-    "categoryDescription": "Steering Wheels from the BLA Australia catalogue.",
-    "subCategoryDescription": "Steering Wheels products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
+    "categoryDescription": "Trailering from the BLA Australia Edition 15 catalogue.",
+    "subCategoryDescription": "Trailer Parts & Towing products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 39.45,
     "barcode": "9319786033340",
@@ -277,12 +252,7 @@
     "productWebSearchImageSourceUrl": "https://bla.co.nz/wp-content/uploads/2020/06/271030.jpg",
     "productWebSearchImageSourcePage": "",
     "productWebSearchQuery": "\"271031\" \"LUISI CHAMPION STD STEERING WHEEL PVC 3 SPOKE 340MM BLACK\"",
-    "imageUrl": "../images/web-product-images/271031.jpg",
-    "categoryPath": [
-      "BLA Catalogue",
-      "Steering Wheels",
-      "Steering Wheels"
-    ]
+    "imageUrl": "../images/web-product-images/271031.jpg"
   },
   {
     "productNumber": "271040",
@@ -299,11 +269,11 @@
     "categoryImage": "../images/catalogue/pages/page0659.jpg",
     "subCategoryImage": "../images/catalogue/pages/page0659.jpg",
     "catalogueImageUrl": "../images/catalogue/pages/page0025.jpg",
-    "categoryDescription": "Steering Wheels from the BLA Australia catalogue.",
-    "subCategoryDescription": "Steering Wheels products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
+    "categoryDescription": "Trailering from the BLA Australia Edition 15 catalogue.",
+    "subCategoryDescription": "Trailer Parts & Towing products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/25/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 43.14,
     "barcode": "9319786033357",
@@ -324,11 +294,7 @@
     "productWebsiteImageUrl": "../images/bla-website-products/271040.jpg",
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/06/271040.jpg",
     "productWebsiteImageDownloaded": true,
-    "categoryPath": [
-      "BLA Catalogue",
-      "Steering Wheels",
-      "Steering Wheels"
-    ]
+    "productWebSearchImageUrl": "../images/bla-website-products/271040.jpg"
   },
   {
     "productNumber": "271041",
@@ -345,11 +311,11 @@
     "categoryImage": "../images/catalogue/pages/page0659.jpg",
     "subCategoryImage": "../images/catalogue/pages/page0659.jpg",
     "catalogueImageUrl": "../images/catalogue/bla-edition-15-cover.jpg",
-    "categoryDescription": "Steering Wheels from the BLA Australia catalogue.",
-    "subCategoryDescription": "Steering Wheels products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
+    "categoryDescription": "Trailering from the BLA Australia Edition 15 catalogue.",
+    "subCategoryDescription": "Trailer Parts & Towing products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 40.52,
     "barcode": "9319786033364",
@@ -357,12 +323,7 @@
     "productWebSearchImageSourceUrl": "https://autobellaparts.com/cdn/shop/products/57_c408b426-1793-4700-965c-15918ec407b7.jpg?v=1662054708&width=1946",
     "productWebSearchImageSourcePage": "",
     "productWebSearchQuery": "\"271041\" \"LUISI CHAMPION DELUXE STEERING WHEEL PVC 3 SPOKE 340MM BLK\"",
-    "imageUrl": "../images/web-product-images/271041.jpg",
-    "categoryPath": [
-      "BLA Catalogue",
-      "Steering Wheels",
-      "Steering Wheels"
-    ]
+    "imageUrl": "../images/web-product-images/271041.jpg"
   },
   {
     "productNumber": "271050",
@@ -379,11 +340,11 @@
     "categoryImage": "../images/catalogue/pages/page0659.jpg",
     "subCategoryImage": "../images/catalogue/pages/page0659.jpg",
     "catalogueImageUrl": "../images/catalogue/pages/page0025.jpg",
-    "categoryDescription": "Steering Wheels from the BLA Australia catalogue.",
-    "subCategoryDescription": "Steering Wheels products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
+    "categoryDescription": "Trailering from the BLA Australia Edition 15 catalogue.",
+    "subCategoryDescription": "Trailer Parts & Towing products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/25/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 42.96,
     "barcode": "9319786033371",
@@ -404,11 +365,7 @@
     "productWebsiteImageUrl": "../images/bla-website-products/271050.jpg",
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/06/271050.jpg",
     "productWebsiteImageDownloaded": true,
-    "categoryPath": [
-      "BLA Catalogue",
-      "Steering Wheels",
-      "Steering Wheels"
-    ]
+    "productWebSearchImageUrl": "../images/bla-website-products/271050.jpg"
   },
   {
     "productNumber": "271051",
@@ -425,11 +382,11 @@
     "categoryImage": "../images/catalogue/pages/page0659.jpg",
     "subCategoryImage": "../images/catalogue/pages/page0659.jpg",
     "catalogueImageUrl": "../images/catalogue/bla-edition-15-cover.jpg",
-    "categoryDescription": "Steering Wheels from the BLA Australia catalogue.",
-    "subCategoryDescription": "Steering Wheels products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
+    "categoryDescription": "Trailering from the BLA Australia Edition 15 catalogue.",
+    "subCategoryDescription": "Trailer Parts & Towing products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 40.34,
     "barcode": "9319786033388",
@@ -437,12 +394,7 @@
     "productWebSearchImageSourceUrl": "https://bla.co.nz/wp-content/uploads/2020/06/271050-1024x1024.jpg",
     "productWebSearchImageSourcePage": "",
     "productWebSearchQuery": "\"271051\" \"LUISI STEALTH STEERING WHEEL PVC 3 SPOKE 350MM BLACK\"",
-    "imageUrl": "../images/web-product-images/271051.jpg",
-    "categoryPath": [
-      "BLA Catalogue",
-      "Steering Wheels",
-      "Steering Wheels"
-    ]
+    "imageUrl": "../images/web-product-images/271051.jpg"
   },
   {
     "productNumber": "271060",
@@ -459,11 +411,11 @@
     "categoryImage": "../images/catalogue/pages/page0659.jpg",
     "subCategoryImage": "../images/catalogue/pages/page0659.jpg",
     "catalogueImageUrl": "../images/catalogue/pages/page0025.jpg",
-    "categoryDescription": "Steering Wheels from the BLA Australia catalogue.",
-    "subCategoryDescription": "Steering Wheels products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
+    "categoryDescription": "Trailering from the BLA Australia Edition 15 catalogue.",
+    "subCategoryDescription": "Trailer Parts & Towing products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/25/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 47.11,
     "barcode": "9319786089545",
@@ -484,11 +436,7 @@
     "productWebsiteImageUrl": "../images/bla-website-products/271060.jpg",
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/06/271060.jpg",
     "productWebsiteImageDownloaded": true,
-    "categoryPath": [
-      "BLA Catalogue",
-      "Steering Wheels",
-      "Steering Wheels"
-    ]
+    "productWebSearchImageUrl": "../images/bla-website-products/271060.jpg"
   },
   {
     "productNumber": "271061",
@@ -505,11 +453,11 @@
     "categoryImage": "../images/catalogue/pages/page0659.jpg",
     "subCategoryImage": "../images/catalogue/pages/page0659.jpg",
     "catalogueImageUrl": "../images/catalogue/bla-edition-15-cover.jpg",
-    "categoryDescription": "Steering Wheels from the BLA Australia catalogue.",
-    "subCategoryDescription": "Steering Wheels products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
+    "categoryDescription": "Trailering from the BLA Australia Edition 15 catalogue.",
+    "subCategoryDescription": "Trailer Parts & Towing products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 43.71,
     "barcode": "9319786093559",
@@ -517,12 +465,7 @@
     "productWebSearchImageSourceUrl": "https://www.boathut.com.au/boathutbasel/wp-content/uploads/2019/11/6_271060.jpg",
     "productWebSearchImageSourcePage": "",
     "productWebSearchQuery": "\"271061\" \"DETMAR LEGEND STEERING WHEEL PVC 4 SPOKE 340MM BLACK\"",
-    "imageUrl": "../images/web-product-images/271061.jpg",
-    "categoryPath": [
-      "BLA Catalogue",
-      "Steering Wheels",
-      "Steering Wheels"
-    ]
+    "imageUrl": "../images/web-product-images/271061.jpg"
   },
   {
     "productNumber": "271086",
@@ -539,11 +482,11 @@
     "categoryImage": "../images/catalogue/pages/page0659.jpg",
     "subCategoryImage": "../images/catalogue/pages/page0659.jpg",
     "catalogueImageUrl": "../images/catalogue/pages/page0025.jpg",
-    "categoryDescription": "Steering Wheels from the BLA Australia catalogue.",
-    "subCategoryDescription": "Steering Wheels products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
+    "categoryDescription": "Trailering from the BLA Australia Edition 15 catalogue.",
+    "subCategoryDescription": "Trailer Parts & Towing products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/25/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 52.58,
     "barcode": "9319786261057",
@@ -564,11 +507,7 @@
     "productWebsiteImageUrl": "../images/bla-website-products/271086.jpg",
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/06/271086.jpg",
     "productWebsiteImageDownloaded": true,
-    "categoryPath": [
-      "BLA Catalogue",
-      "Steering Wheels",
-      "Steering Wheels"
-    ]
+    "productWebSearchImageUrl": "../images/bla-website-products/271086.jpg"
   },
   {
     "productNumber": "271087",
@@ -585,11 +524,11 @@
     "categoryImage": "../images/catalogue/pages/page0659.jpg",
     "subCategoryImage": "../images/catalogue/pages/page0659.jpg",
     "catalogueImageUrl": "../images/catalogue/bla-edition-15-cover.jpg",
-    "categoryDescription": "Steering Wheels from the BLA Australia catalogue.",
-    "subCategoryDescription": "Steering Wheels products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
+    "categoryDescription": "Trailering from the BLA Australia Edition 15 catalogue.",
+    "subCategoryDescription": "Trailer Parts & Towing products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 49.19,
     "barcode": "9319786261033",
@@ -597,12 +536,7 @@
     "productWebSearchImageSourceUrl": "https://www.boatsandmore.com.au/wp-content/uploads/2018/01/271086_1_1.jpg",
     "productWebSearchImageSourcePage": "",
     "productWebSearchQuery": "\"271087\" \"DETMAR VIPER STEERING WHEEL PVC 3 SPOKE 340MM BLACK\"",
-    "imageUrl": "../images/web-product-images/271087.jpg",
-    "categoryPath": [
-      "BLA Catalogue",
-      "Steering Wheels",
-      "Steering Wheels"
-    ]
+    "imageUrl": "../images/web-product-images/271087.jpg"
   },
   {
     "productNumber": "271090",
@@ -619,11 +553,11 @@
     "categoryImage": "../images/catalogue/pages/page0659.jpg",
     "subCategoryImage": "../images/catalogue/pages/page0659.jpg",
     "catalogueImageUrl": "../images/catalogue/pages/page0025.jpg",
-    "categoryDescription": "Steering Wheels from the BLA Australia catalogue.",
-    "subCategoryDescription": "Steering Wheels products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
+    "categoryDescription": "Trailering from the BLA Australia Edition 15 catalogue.",
+    "subCategoryDescription": "Trailer Parts & Towing products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/25/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 105.35,
     "barcode": "9319786127599",
@@ -644,11 +578,7 @@
     "productWebsiteImageUrl": "../images/bla-website-products/271090.jpg",
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/06/271090.jpg",
     "productWebsiteImageDownloaded": true,
-    "categoryPath": [
-      "BLA Catalogue",
-      "Steering Wheels",
-      "Steering Wheels"
-    ]
+    "productWebSearchImageUrl": "../images/bla-website-products/271090.jpg"
   },
   {
     "productNumber": "271091",
@@ -665,11 +595,11 @@
     "categoryImage": "../images/catalogue/pages/page0659.jpg",
     "subCategoryImage": "../images/catalogue/pages/page0659.jpg",
     "catalogueImageUrl": "../images/catalogue/bla-edition-15-cover.jpg",
-    "categoryDescription": "Steering Wheels from the BLA Australia catalogue.",
-    "subCategoryDescription": "Steering Wheels products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
+    "categoryDescription": "Trailering from the BLA Australia Edition 15 catalogue.",
+    "subCategoryDescription": "Trailer Parts & Towing products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 103.09,
     "barcode": "9319786127520",
@@ -677,12 +607,7 @@
     "productWebSearchImageSourceUrl": "https://bla.co.nz/wp-content/uploads/2020/06/271090.jpg",
     "productWebSearchImageSourcePage": "",
     "productWebSearchQuery": "\"271091\" \"LUISI MANTA STEERING WHEEL ALLOY 3 SPOKE 357MM BLACK\"",
-    "imageUrl": "../images/web-product-images/271091.jpg",
-    "categoryPath": [
-      "BLA Catalogue",
-      "Steering Wheels",
-      "Steering Wheels"
-    ]
+    "imageUrl": "../images/web-product-images/271091.jpg"
   },
   {
     "productNumber": "271108",
@@ -699,11 +624,11 @@
     "categoryImage": "../images/catalogue/pages/page0659.jpg",
     "subCategoryImage": "../images/catalogue/pages/page0659.jpg",
     "catalogueImageUrl": "../images/catalogue/pages/page0025.jpg",
-    "categoryDescription": "Steering Wheels from the BLA Australia catalogue.",
-    "subCategoryDescription": "Steering Wheels products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
+    "categoryDescription": "Trailering from the BLA Australia Edition 15 catalogue.",
+    "subCategoryDescription": "Trailer Parts & Towing products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/25/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 102.1,
     "barcode": "9319786350546",
@@ -724,11 +649,7 @@
     "productWebsiteImageUrl": "../images/bla-website-products/271108.jpg",
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/06/271108.jpg",
     "productWebsiteImageDownloaded": true,
-    "categoryPath": [
-      "BLA Catalogue",
-      "Steering Wheels",
-      "Steering Wheels"
-    ]
+    "productWebSearchImageUrl": "../images/bla-website-products/271108.jpg"
   },
   {
     "productNumber": "271109",
@@ -745,11 +666,11 @@
     "categoryImage": "../images/catalogue/pages/page0659.jpg",
     "subCategoryImage": "../images/catalogue/pages/page0659.jpg",
     "catalogueImageUrl": "../images/catalogue/bla-edition-15-cover.jpg",
-    "categoryDescription": "Steering Wheels from the BLA Australia catalogue.",
-    "subCategoryDescription": "Steering Wheels products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
+    "categoryDescription": "Trailering from the BLA Australia Edition 15 catalogue.",
+    "subCategoryDescription": "Trailer Parts & Towing products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 99.84,
     "barcode": "9319786350553",
@@ -757,12 +678,7 @@
     "productWebSearchImageSourceUrl": "http://evilspeed.eu/cdn/shop/products/luisi-falcon-310-steering-wheel-black-polyurethane-black-spokes-310mm_30161b61-9018-47a8-9535-7e625a258c9c.jpg?v=1677762544&width=1024",
     "productWebSearchImageSourcePage": "",
     "productWebSearchQuery": "\"271109\" \"LUISI FALCON STEERING WHEEL ALLOY 3 SPOKE 310MM BLACK\"",
-    "imageUrl": "../images/web-product-images/271109.jpg",
-    "categoryPath": [
-      "BLA Catalogue",
-      "Steering Wheels",
-      "Steering Wheels"
-    ]
+    "imageUrl": "../images/web-product-images/271109.jpg"
   },
   {
     "productNumber": "271110",
@@ -779,11 +695,11 @@
     "categoryImage": "../images/catalogue/pages/page0659.jpg",
     "subCategoryImage": "../images/catalogue/pages/page0659.jpg",
     "catalogueImageUrl": "../images/catalogue/pages/page0025.jpg",
-    "categoryDescription": "Steering Wheels from the BLA Australia catalogue.",
-    "subCategoryDescription": "Steering Wheels products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
+    "categoryDescription": "Trailering from the BLA Australia Edition 15 catalogue.",
+    "subCategoryDescription": "Trailer Parts & Towing products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/25/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 102.1,
     "barcode": "9319786033432",
@@ -804,11 +720,7 @@
     "productWebsiteImageUrl": "../images/bla-website-products/271110.jpg",
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/06/271110.jpg",
     "productWebsiteImageDownloaded": true,
-    "categoryPath": [
-      "BLA Catalogue",
-      "Steering Wheels",
-      "Steering Wheels"
-    ]
+    "productWebSearchImageUrl": "../images/bla-website-products/271110.jpg"
   },
   {
     "productNumber": "271111",
@@ -824,24 +736,20 @@
     "pricingCategoryUsed": "M - Marine Supplies",
     "categoryImage": "../images/catalogue/pages/page0659.jpg",
     "subCategoryImage": "../images/catalogue/pages/page0659.jpg",
-    "catalogueImageUrl": "../images/catalogue/pages/page0790.jpg",
-    "categoryDescription": "Steering Wheels from the BLA Australia catalogue.",
-    "subCategoryDescription": "Steering Wheels products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
-    "sourceUrl": "https://online.flippingbook.com/view/328167/790/",
+    "catalogueImageUrl": "../images/catalogue/pages/page0025.jpg",
+    "categoryDescription": "Trailering from the BLA Australia Edition 15 catalogue.",
+    "subCategoryDescription": "Trailer Parts & Towing products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
+    "sourceUrl": "https://online.flippingbook.com/view/328167/25/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 99.84,
     "barcode": "9319786097526",
     "cataloguePage": 25,
     "imageUrl": "../images/catalogue/product-photos/271111.jpg",
     "catalogueDescription": "........... 763 271026............................................. 763 271030............................................. 762 271040............................................. 763 271050............................................. 762 271060............................................. 762 271086............................................. 763 271090............................................. 760 271108............................................. 760 271110............................................. 761 271111............................................. 760 271114............................................. 761 271116............................................. 761 271172............................................. 761 271174............................................. 761 271194............................................. 760 271210............................................. 759 271212............................................. 759 271220............................................. 756 271224................",
-    "productBlockImageUrl": "../images/catalogue/product-photos/271111.jpg",
-    "categoryPath": [
-      "BLA Catalogue",
-      "Steering Wheels",
-      "Steering Wheels"
-    ]
+    "productBlockImageUrl": "../images/catalogue/product-blocks/271111.jpg",
+    "productWebSearchImageUrl": "../images/catalogue/product-photos/271111.jpg"
   },
   {
     "productNumber": "271114",
@@ -857,24 +765,20 @@
     "pricingCategoryUsed": "M - Marine Supplies",
     "categoryImage": "../images/catalogue/pages/page0659.jpg",
     "subCategoryImage": "../images/catalogue/pages/page0659.jpg",
-    "catalogueImageUrl": "../images/catalogue/pages/page0791.jpg",
-    "categoryDescription": "Steering Wheels from the BLA Australia catalogue.",
-    "subCategoryDescription": "Steering Wheels products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
-    "sourceUrl": "https://online.flippingbook.com/view/328167/791/",
+    "catalogueImageUrl": "../images/catalogue/pages/page0025.jpg",
+    "categoryDescription": "Trailering from the BLA Australia Edition 15 catalogue.",
+    "subCategoryDescription": "Trailer Parts & Towing products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
+    "sourceUrl": "https://online.flippingbook.com/view/328167/25/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 166.44,
     "barcode": "9319786339435",
     "cataloguePage": 25,
     "imageUrl": "../images/catalogue/product-photos/271114.jpg",
     "catalogueDescription": "........... 763 271030............................................. 762 271040............................................. 763 271050............................................. 762 271060............................................. 762 271086............................................. 763 271090............................................. 760 271108............................................. 760 271110............................................. 761 271111............................................. 760 271114............................................. 761 271116............................................. 761 271172............................................. 761 271174............................................. 761 271194............................................. 760 271210............................................. 759 271212............................................. 759 271220............................................. 756 271224............................................. 757 271228................",
-    "productBlockImageUrl": "../images/catalogue/product-photos/271114.jpg",
-    "categoryPath": [
-      "BLA Catalogue",
-      "Steering Wheels",
-      "Steering Wheels"
-    ]
+    "productBlockImageUrl": "../images/catalogue/product-blocks/271114.jpg",
+    "productWebSearchImageUrl": "../images/catalogue/product-photos/271114.jpg"
   },
   {
     "productNumber": "271116",
@@ -890,24 +794,20 @@
     "pricingCategoryUsed": "M - Marine Supplies",
     "categoryImage": "../images/catalogue/pages/page0659.jpg",
     "subCategoryImage": "../images/catalogue/pages/page0659.jpg",
-    "catalogueImageUrl": "../images/catalogue/pages/page0791.jpg",
-    "categoryDescription": "Steering Wheels from the BLA Australia catalogue.",
-    "subCategoryDescription": "Steering Wheels products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
-    "sourceUrl": "https://online.flippingbook.com/view/328167/791/",
+    "catalogueImageUrl": "../images/catalogue/pages/page0025.jpg",
+    "categoryDescription": "Trailering from the BLA Australia Edition 15 catalogue.",
+    "subCategoryDescription": "Trailer Parts & Towing products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
+    "sourceUrl": "https://online.flippingbook.com/view/328167/25/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 166.44,
     "barcode": "9319786339442",
     "cataloguePage": 25,
     "imageUrl": "../images/catalogue/product-photos/271116.jpg",
     "catalogueDescription": "........... 762 271040............................................. 763 271050............................................. 762 271060............................................. 762 271086............................................. 763 271090............................................. 760 271108............................................. 760 271110............................................. 761 271111............................................. 760 271114............................................. 761 271116............................................. 761 271172............................................. 761 271174............................................. 761 271194............................................. 760 271210............................................. 759 271212............................................. 759 271220............................................. 756 271224............................................. 757 271228............................................. 756 271230................",
-    "productBlockImageUrl": "../images/catalogue/product-photos/271116.jpg",
-    "categoryPath": [
-      "BLA Catalogue",
-      "Steering Wheels",
-      "Steering Wheels"
-    ]
+    "productBlockImageUrl": "../images/catalogue/product-blocks/271116.jpg",
+    "productWebSearchImageUrl": "../images/catalogue/product-photos/271116.jpg"
   },
   {
     "productNumber": "271172",
@@ -923,24 +823,20 @@
     "pricingCategoryUsed": "M - Marine Supplies",
     "categoryImage": "../images/catalogue/pages/page0659.jpg",
     "subCategoryImage": "../images/catalogue/pages/page0659.jpg",
-    "catalogueImageUrl": "../images/catalogue/pages/page0791.jpg",
-    "categoryDescription": "Steering Wheels from the BLA Australia catalogue.",
-    "subCategoryDescription": "Steering Wheels products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
-    "sourceUrl": "https://online.flippingbook.com/view/328167/791/",
+    "catalogueImageUrl": "../images/catalogue/pages/page0025.jpg",
+    "categoryDescription": "Trailering from the BLA Australia Edition 15 catalogue.",
+    "subCategoryDescription": "Trailer Parts & Towing products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
+    "sourceUrl": "https://online.flippingbook.com/view/328167/25/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 182.74,
     "barcode": "9319786419212",
     "cataloguePage": 25,
     "imageUrl": "../images/catalogue/product-photos/271172.jpg",
     "catalogueDescription": "........... 763 271050............................................. 762 271060............................................. 762 271086............................................. 763 271090............................................. 760 271108............................................. 760 271110............................................. 761 271111............................................. 760 271114............................................. 761 271116............................................. 761 271172............................................. 761 271174............................................. 761 271194............................................. 760 271210............................................. 759 271212............................................. 759 271220............................................. 756 271224............................................. 757 271228............................................. 756 271230............................................. 758 271232................",
-    "productBlockImageUrl": "../images/catalogue/product-photos/271172.jpg",
-    "categoryPath": [
-      "BLA Catalogue",
-      "Steering Wheels",
-      "Steering Wheels"
-    ]
+    "productBlockImageUrl": "../images/catalogue/product-blocks/271172.jpg",
+    "productWebSearchImageUrl": "../images/catalogue/product-photos/271172.jpg"
   },
   {
     "productNumber": "271174",
@@ -957,11 +853,11 @@
     "categoryImage": "../images/catalogue/pages/page0659.jpg",
     "subCategoryImage": "../images/catalogue/pages/page0659.jpg",
     "catalogueImageUrl": "../images/catalogue/pages/page0025.jpg",
-    "categoryDescription": "Steering Wheels from the BLA Australia catalogue.",
-    "subCategoryDescription": "Steering Wheels products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
+    "categoryDescription": "Trailering from the BLA Australia Edition 15 catalogue.",
+    "subCategoryDescription": "Trailer Parts & Towing products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/25/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 175.65,
     "barcode": "9319786419229",
@@ -982,11 +878,7 @@
     "productWebsiteImageUrl": "../images/bla-website-products/271174.jpg",
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/06/271174.jpg",
     "productWebsiteImageDownloaded": true,
-    "categoryPath": [
-      "BLA Catalogue",
-      "Steering Wheels",
-      "Steering Wheels"
-    ]
+    "productWebSearchImageUrl": "../images/bla-website-products/271174.jpg"
   },
   {
     "productNumber": "271210",
@@ -1003,11 +895,11 @@
     "categoryImage": "../images/catalogue/pages/page0659.jpg",
     "subCategoryImage": "../images/catalogue/pages/page0659.jpg",
     "catalogueImageUrl": "../images/catalogue/pages/page0025.jpg",
-    "categoryDescription": "Steering Wheels from the BLA Australia catalogue.",
-    "subCategoryDescription": "Steering Wheels products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
+    "categoryDescription": "Trailering from the BLA Australia Edition 15 catalogue.",
+    "subCategoryDescription": "Trailer Parts & Towing products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/25/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 81.24,
     "barcode": "9319786302484",
@@ -1028,11 +920,7 @@
     "productWebsiteImageUrl": "../images/bla-website-products/271210.jpg",
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/06/271210.jpg",
     "productWebsiteImageDownloaded": true,
-    "categoryPath": [
-      "BLA Catalogue",
-      "Steering Wheels",
-      "Steering Wheels"
-    ]
+    "productWebSearchImageUrl": "../images/bla-website-products/271210.jpg"
   },
   {
     "productNumber": "271211",
@@ -1049,11 +937,11 @@
     "categoryImage": "../images/catalogue/pages/page0659.jpg",
     "subCategoryImage": "../images/catalogue/pages/page0659.jpg",
     "catalogueImageUrl": "../images/catalogue/bla-edition-15-cover.jpg",
-    "categoryDescription": "Steering Wheels from the BLA Australia catalogue.",
-    "subCategoryDescription": "Steering Wheels products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
+    "categoryDescription": "Trailering from the BLA Australia Edition 15 catalogue.",
+    "subCategoryDescription": "Trailer Parts & Towing products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 78.32,
     "barcode": "9319786302477",
@@ -1061,12 +949,7 @@
     "productWebSearchImageSourceUrl": "https://www.boathut.com.au/boathutbasel/wp-content/uploads/2019/11/11_271210.jpg",
     "productWebSearchImageSourcePage": "",
     "productWebSearchQuery": "\"271211\" \"OSCULATI BOSUN STEERING WHEEL S/STEEL 5 SPOKE 320MM BLACK\"",
-    "imageUrl": "../images/web-product-images/271211.jpg",
-    "categoryPath": [
-      "BLA Catalogue",
-      "Steering Wheels",
-      "Steering Wheels"
-    ]
+    "imageUrl": "../images/web-product-images/271211.jpg"
   },
   {
     "productNumber": "271212",
@@ -1082,24 +965,20 @@
     "pricingCategoryUsed": "M - Marine Supplies",
     "categoryImage": "../images/catalogue/pages/page0659.jpg",
     "subCategoryImage": "../images/catalogue/pages/page0659.jpg",
-    "catalogueImageUrl": "../images/catalogue/pages/page0789.jpg",
-    "categoryDescription": "Steering Wheels from the BLA Australia catalogue.",
-    "subCategoryDescription": "Steering Wheels products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
-    "sourceUrl": "https://online.flippingbook.com/view/328167/789/",
+    "catalogueImageUrl": "../images/catalogue/pages/page0025.jpg",
+    "categoryDescription": "Trailering from the BLA Australia Edition 15 catalogue.",
+    "subCategoryDescription": "Trailer Parts & Towing products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
+    "sourceUrl": "https://online.flippingbook.com/view/328167/25/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 105.83,
     "barcode": "9319786127490",
     "cataloguePage": 25,
     "imageUrl": "../images/catalogue/product-photos/271212.jpg",
     "catalogueDescription": "........... 760 271108............................................. 760 271110............................................. 761 271111............................................. 760 271114............................................. 761 271116............................................. 761 271172............................................. 761 271174............................................. 761 271194............................................. 760 271210............................................. 759 271212............................................. 759 271220............................................. 756 271224............................................. 757 271228............................................. 756 271230............................................. 758 271232............................................. 758 271234............................................. 757 271236............................................. 757 271238............................................. 757 271240................",
-    "productBlockImageUrl": "../images/catalogue/product-photos/271212.jpg",
-    "categoryPath": [
-      "BLA Catalogue",
-      "Steering Wheels",
-      "Steering Wheels"
-    ]
+    "productBlockImageUrl": "../images/catalogue/product-blocks/271212.jpg",
+    "productWebSearchImageUrl": "../images/catalogue/product-photos/271212.jpg"
   },
   {
     "productNumber": "271222",
@@ -1116,13 +995,13 @@
     "categoryImage": "../images/catalogue/pages/page0659.jpg",
     "subCategoryImage": "../images/catalogue/pages/page0659.jpg",
     "catalogueImageUrl": "../images/catalogue/bla-edition-15-cover.jpg",
-    "categoryDescription": "Steering Wheels from the BLA Australia catalogue.",
-    "subCategoryDescription": "Steering Wheels products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
+    "categoryDescription": "Trailering from the BLA Australia Edition 15 catalogue.",
+    "subCategoryDescription": "Trailer Parts & Towing products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
-    "exportAudExGst": 242,
+    "exportAudExGst": 242.0,
     "barcode": "9319786431719",
     "blaWebsiteUrl": "https://bla.com.au/product/gussi-italia-steering-wheel-durello-three-spoke-aluminium/",
     "websiteDescription": "Double aluminium spoke with black polyurethane rim (35cm diameter). Suits a standard 3/4\u2033 tapered shaft. \nBLA Code Rim Colour Dia. mm Dia. in X mm Y mm \n271222 Black 350 14 110 70",
@@ -1137,12 +1016,7 @@
     "productWebsiteImageUrl": "../images/bla-website-products/271222.jpg",
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/06/271222.jpg",
     "imageUrl": "../images/bla-website-products/271222.jpg",
-    "productWebsiteImageDownloaded": true,
-    "categoryPath": [
-      "BLA Catalogue",
-      "Steering Wheels",
-      "Steering Wheels"
-    ]
+    "productWebsiteImageDownloaded": true
   },
   {
     "productNumber": "271224",
@@ -1159,11 +1033,11 @@
     "categoryImage": "../images/catalogue/pages/page0659.jpg",
     "subCategoryImage": "../images/catalogue/pages/page0659.jpg",
     "catalogueImageUrl": "../images/catalogue/pages/page0025.jpg",
-    "categoryDescription": "Steering Wheels from the BLA Australia catalogue.",
-    "subCategoryDescription": "Steering Wheels products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
+    "categoryDescription": "Trailering from the BLA Australia Edition 15 catalogue.",
+    "subCategoryDescription": "Trailer Parts & Towing products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/25/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 127.22,
     "barcode": "9319786431726",
@@ -1184,11 +1058,7 @@
     "productWebsiteImageUrl": "../images/bla-website-products/271224.jpg",
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/06/271224.jpg",
     "productWebsiteImageDownloaded": true,
-    "categoryPath": [
-      "BLA Catalogue",
-      "Steering Wheels",
-      "Steering Wheels"
-    ]
+    "productWebSearchImageUrl": "../images/bla-website-products/271224.jpg"
   },
   {
     "productNumber": "271228",
@@ -1205,11 +1075,11 @@
     "categoryImage": "../images/catalogue/pages/page0659.jpg",
     "subCategoryImage": "../images/catalogue/pages/page0659.jpg",
     "catalogueImageUrl": "../images/catalogue/pages/page0025.jpg",
-    "categoryDescription": "Steering Wheels from the BLA Australia catalogue.",
-    "subCategoryDescription": "Steering Wheels products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
+    "categoryDescription": "Trailering from the BLA Australia Edition 15 catalogue.",
+    "subCategoryDescription": "Trailer Parts & Towing products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/25/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 110.63,
     "barcode": "9319786431740",
@@ -1230,11 +1100,7 @@
     "productWebsiteImageUrl": "../images/bla-website-products/271228.jpg",
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/06/271228.jpg",
     "productWebsiteImageDownloaded": true,
-    "categoryPath": [
-      "BLA Catalogue",
-      "Steering Wheels",
-      "Steering Wheels"
-    ]
+    "productWebSearchImageUrl": "../images/bla-website-products/271228.jpg"
   },
   {
     "productNumber": "271230",
@@ -1250,24 +1116,20 @@
     "pricingCategoryUsed": "M - Marine Supplies",
     "categoryImage": "../images/catalogue/pages/page0659.jpg",
     "subCategoryImage": "../images/catalogue/pages/page0659.jpg",
-    "catalogueImageUrl": "../images/catalogue/pages/page0788.jpg",
-    "categoryDescription": "Steering Wheels from the BLA Australia catalogue.",
-    "subCategoryDescription": "Steering Wheels products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
-    "sourceUrl": "https://online.flippingbook.com/view/328167/788/",
+    "catalogueImageUrl": "../images/catalogue/pages/page0025.jpg",
+    "categoryDescription": "Trailering from the BLA Australia Edition 15 catalogue.",
+    "subCategoryDescription": "Trailer Parts & Towing products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
+    "sourceUrl": "https://online.flippingbook.com/view/328167/25/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 60.84,
     "barcode": "9319786431757",
     "cataloguePage": 25,
     "imageUrl": "../images/catalogue/product-photos/271230.jpg",
     "catalogueDescription": "........... 761 271116............................................. 761 271172............................................. 761 271174............................................. 761 271194............................................. 760 271210............................................. 759 271212............................................. 759 271220............................................. 756 271224............................................. 757 271228............................................. 756 271230............................................. 758 271232............................................. 758 271234............................................. 757 271236............................................. 757 271238............................................. 757 271240............................................. 756 271242............................................. 756 271244............................................. 757 271246............................................. 756 271247................",
-    "productBlockImageUrl": "../images/catalogue/product-photos/271230.jpg",
-    "categoryPath": [
-      "BLA Catalogue",
-      "Steering Wheels",
-      "Steering Wheels"
-    ]
+    "productBlockImageUrl": "../images/catalogue/product-blocks/271230.jpg",
+    "productWebSearchImageUrl": "../images/catalogue/product-photos/271230.jpg"
   },
   {
     "productNumber": "271232",
@@ -1283,24 +1145,20 @@
     "pricingCategoryUsed": "M - Marine Supplies",
     "categoryImage": "../images/catalogue/pages/page0659.jpg",
     "subCategoryImage": "../images/catalogue/pages/page0659.jpg",
-    "catalogueImageUrl": "../images/catalogue/pages/page0788.jpg",
-    "categoryDescription": "Steering Wheels from the BLA Australia catalogue.",
-    "subCategoryDescription": "Steering Wheels products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
-    "sourceUrl": "https://online.flippingbook.com/view/328167/788/",
+    "catalogueImageUrl": "../images/catalogue/pages/page0025.jpg",
+    "categoryDescription": "Trailering from the BLA Australia Edition 15 catalogue.",
+    "subCategoryDescription": "Trailer Parts & Towing products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
+    "sourceUrl": "https://online.flippingbook.com/view/328167/25/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 71.9,
     "barcode": "9319786431764",
     "cataloguePage": 25,
     "imageUrl": "../images/catalogue/product-photos/271232.jpg",
     "catalogueDescription": "........... 761 271172............................................. 761 271174............................................. 761 271194............................................. 760 271210............................................. 759 271212............................................. 759 271220............................................. 756 271224............................................. 757 271228............................................. 756 271230............................................. 758 271232............................................. 758 271234............................................. 757 271236............................................. 757 271238............................................. 757 271240............................................. 756 271242............................................. 756 271244............................................. 757 271246............................................. 756 271247............................................. 758 271248................",
-    "productBlockImageUrl": "../images/catalogue/product-photos/271232.jpg",
-    "categoryPath": [
-      "BLA Catalogue",
-      "Steering Wheels",
-      "Steering Wheels"
-    ]
+    "productBlockImageUrl": "../images/catalogue/product-blocks/271232.jpg",
+    "productWebSearchImageUrl": "../images/catalogue/product-photos/271232.jpg"
   },
   {
     "productNumber": "271234",
@@ -1317,11 +1175,11 @@
     "categoryImage": "../images/catalogue/pages/page0659.jpg",
     "subCategoryImage": "../images/catalogue/pages/page0659.jpg",
     "catalogueImageUrl": "../images/catalogue/pages/page0025.jpg",
-    "categoryDescription": "Steering Wheels from the BLA Australia catalogue.",
-    "subCategoryDescription": "Steering Wheels products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
+    "categoryDescription": "Trailering from the BLA Australia Edition 15 catalogue.",
+    "subCategoryDescription": "Trailer Parts & Towing products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/25/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 88.5,
     "barcode": "9319786431771",
@@ -1342,11 +1200,7 @@
     "productWebsiteImageUrl": "../images/bla-website-products/271234.jpg",
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/06/271234.jpg",
     "productWebsiteImageDownloaded": true,
-    "categoryPath": [
-      "BLA Catalogue",
-      "Steering Wheels",
-      "Steering Wheels"
-    ]
+    "productWebSearchImageUrl": "../images/bla-website-products/271234.jpg"
   },
   {
     "productNumber": "271235",
@@ -1363,11 +1217,11 @@
     "categoryImage": "../images/catalogue/pages/page0659.jpg",
     "subCategoryImage": "../images/catalogue/pages/page0659.jpg",
     "catalogueImageUrl": "../images/catalogue/bla-edition-15-cover.jpg",
-    "categoryDescription": "Steering Wheels from the BLA Australia catalogue.",
-    "subCategoryDescription": "Steering Wheels products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
+    "categoryDescription": "Trailering from the BLA Australia Edition 15 catalogue.",
+    "subCategoryDescription": "Trailer Parts & Towing products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 74.34,
     "barcode": "9319786467558",
@@ -1375,12 +1229,7 @@
     "productWebSearchImageSourceUrl": "https://www.outbackequipment.com.au/assets/full/271220.webp?20250609184207",
     "productWebSearchImageSourcePage": "",
     "productWebSearchQuery": "\"271235\" \"GUSSI MOLINO STEERING WHEEL BRUSH BLACK 3 SPOKE 350MM BLACK\"",
-    "imageUrl": "../images/web-product-images/271235.webp",
-    "categoryPath": [
-      "BLA Catalogue",
-      "Steering Wheels",
-      "Steering Wheels"
-    ]
+    "imageUrl": "../images/web-product-images/271235.webp"
   },
   {
     "productNumber": "271236",
@@ -1396,24 +1245,20 @@
     "pricingCategoryUsed": "M - Marine Supplies",
     "categoryImage": "../images/catalogue/pages/page0659.jpg",
     "subCategoryImage": "../images/catalogue/pages/page0659.jpg",
-    "catalogueImageUrl": "../images/catalogue/pages/page0787.jpg",
-    "categoryDescription": "Steering Wheels from the BLA Australia catalogue.",
-    "subCategoryDescription": "Steering Wheels products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
-    "sourceUrl": "https://online.flippingbook.com/view/328167/787/",
+    "catalogueImageUrl": "../images/catalogue/pages/page0025.jpg",
+    "categoryDescription": "Trailering from the BLA Australia Edition 15 catalogue.",
+    "subCategoryDescription": "Trailer Parts & Towing products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
+    "sourceUrl": "https://online.flippingbook.com/view/328167/25/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 143.82,
     "barcode": "9319786443361",
     "cataloguePage": 25,
     "imageUrl": "../images/catalogue/product-photos/271236.jpg",
     "catalogueDescription": "........... 761 271194............................................. 760 271210............................................. 759 271212............................................. 759 271220............................................. 756 271224............................................. 757 271228............................................. 756 271230............................................. 758 271232............................................. 758 271234............................................. 757 271236............................................. 757 271238............................................. 757 271240............................................. 756 271242............................................. 756 271244............................................. 757 271246............................................. 756 271247............................................. 758 271248............................................. 758 271260............................................. 759 271262................",
-    "productBlockImageUrl": "../images/catalogue/product-photos/271236.jpg",
-    "categoryPath": [
-      "BLA Catalogue",
-      "Steering Wheels",
-      "Steering Wheels"
-    ]
+    "productBlockImageUrl": "../images/catalogue/product-blocks/271236.jpg",
+    "productWebSearchImageUrl": "../images/catalogue/product-photos/271236.jpg"
   },
   {
     "productNumber": "271238",
@@ -1429,24 +1274,20 @@
     "pricingCategoryUsed": "M - Marine Supplies",
     "categoryImage": "../images/catalogue/pages/page0659.jpg",
     "subCategoryImage": "../images/catalogue/pages/page0659.jpg",
-    "catalogueImageUrl": "../images/catalogue/pages/page0787.jpg",
-    "categoryDescription": "Steering Wheels from the BLA Australia catalogue.",
-    "subCategoryDescription": "Steering Wheels products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
-    "sourceUrl": "https://online.flippingbook.com/view/328167/787/",
+    "catalogueImageUrl": "../images/catalogue/pages/page0025.jpg",
+    "categoryDescription": "Trailering from the BLA Australia Edition 15 catalogue.",
+    "subCategoryDescription": "Trailer Parts & Towing products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
+    "sourceUrl": "https://online.flippingbook.com/view/328167/25/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 143.82,
     "barcode": "9319786443378",
     "cataloguePage": 25,
     "imageUrl": "../images/catalogue/product-photos/271238.jpg",
     "catalogueDescription": "........... 760 271210............................................. 759 271212............................................. 759 271220............................................. 756 271224............................................. 757 271228............................................. 756 271230............................................. 758 271232............................................. 758 271234............................................. 757 271236............................................. 757 271238............................................. 757 271240............................................. 756 271242............................................. 756 271244............................................. 757 271246............................................. 756 271247............................................. 758 271248............................................. 758 271260............................................. 759 271262............................................. 759 271264................",
-    "productBlockImageUrl": "../images/catalogue/product-photos/271238.jpg",
-    "categoryPath": [
-      "BLA Catalogue",
-      "Steering Wheels",
-      "Steering Wheels"
-    ]
+    "productBlockImageUrl": "../images/catalogue/product-blocks/271238.jpg",
+    "productWebSearchImageUrl": "../images/catalogue/product-photos/271238.jpg"
   },
   {
     "productNumber": "271240",
@@ -1462,24 +1303,20 @@
     "pricingCategoryUsed": "M - Marine Supplies",
     "categoryImage": "../images/catalogue/pages/page0659.jpg",
     "subCategoryImage": "../images/catalogue/pages/page0659.jpg",
-    "catalogueImageUrl": "../images/catalogue/pages/page0786.jpg",
-    "categoryDescription": "Steering Wheels from the BLA Australia catalogue.",
-    "subCategoryDescription": "Steering Wheels products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
-    "sourceUrl": "https://online.flippingbook.com/view/328167/786/",
+    "catalogueImageUrl": "../images/catalogue/pages/page0025.jpg",
+    "categoryDescription": "Trailering from the BLA Australia Edition 15 catalogue.",
+    "subCategoryDescription": "Trailer Parts & Towing products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
+    "sourceUrl": "https://online.flippingbook.com/view/328167/25/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 132.76,
     "barcode": "9319786443385",
     "cataloguePage": 25,
     "imageUrl": "../images/catalogue/product-photos/271240.jpg",
     "catalogueDescription": "........... 759 271212............................................. 759 271220............................................. 756 271224............................................. 757 271228............................................. 756 271230............................................. 758 271232............................................. 758 271234............................................. 757 271236............................................. 757 271238............................................. 757 271240............................................. 756 271242............................................. 756 271244............................................. 757 271246............................................. 756 271247............................................. 758 271248............................................. 758 271260............................................. 759 271262............................................. 759 271264............................................. 758 271266................",
-    "productBlockImageUrl": "../images/catalogue/product-photos/271240.jpg",
-    "categoryPath": [
-      "BLA Catalogue",
-      "Steering Wheels",
-      "Steering Wheels"
-    ]
+    "productBlockImageUrl": "../images/catalogue/product-blocks/271240.jpg",
+    "productWebSearchImageUrl": "../images/catalogue/product-photos/271240.jpg"
   },
   {
     "productNumber": "271242",
@@ -1495,24 +1332,20 @@
     "pricingCategoryUsed": "M - Marine Supplies",
     "categoryImage": "../images/catalogue/pages/page0659.jpg",
     "subCategoryImage": "../images/catalogue/pages/page0659.jpg",
-    "catalogueImageUrl": "../images/catalogue/pages/page0786.jpg",
-    "categoryDescription": "Steering Wheels from the BLA Australia catalogue.",
-    "subCategoryDescription": "Steering Wheels products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
-    "sourceUrl": "https://online.flippingbook.com/view/328167/786/",
+    "catalogueImageUrl": "../images/catalogue/pages/page0025.jpg",
+    "categoryDescription": "Trailering from the BLA Australia Edition 15 catalogue.",
+    "subCategoryDescription": "Trailer Parts & Towing products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
+    "sourceUrl": "https://online.flippingbook.com/view/328167/25/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 149.35,
     "barcode": "9319786443392",
     "cataloguePage": 25,
     "imageUrl": "../images/catalogue/product-photos/271242.jpg",
     "catalogueDescription": "........... 759 271220............................................. 756 271224............................................. 757 271228............................................. 756 271230............................................. 758 271232............................................. 758 271234............................................. 757 271236............................................. 757 271238............................................. 757 271240............................................. 756 271242............................................. 756 271244............................................. 757 271246............................................. 756 271247............................................. 758 271248............................................. 758 271260............................................. 759 271262............................................. 759 271264............................................. 758 271266............................................. 758 271268................",
-    "productBlockImageUrl": "../images/catalogue/product-photos/271242.jpg",
-    "categoryPath": [
-      "BLA Catalogue",
-      "Steering Wheels",
-      "Steering Wheels"
-    ]
+    "productBlockImageUrl": "../images/catalogue/product-blocks/271242.jpg",
+    "productWebSearchImageUrl": "../images/catalogue/product-photos/271242.jpg"
   },
   {
     "productNumber": "271244",
@@ -1529,11 +1362,11 @@
     "categoryImage": "../images/catalogue/pages/page0659.jpg",
     "subCategoryImage": "../images/catalogue/pages/page0659.jpg",
     "catalogueImageUrl": "../images/catalogue/pages/page0025.jpg",
-    "categoryDescription": "Steering Wheels from the BLA Australia catalogue.",
-    "subCategoryDescription": "Steering Wheels products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
+    "categoryDescription": "Trailering from the BLA Australia Edition 15 catalogue.",
+    "subCategoryDescription": "Trailer Parts & Towing products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/25/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 47.41,
     "barcode": "9319786443408",
@@ -1554,11 +1387,7 @@
     "productWebsiteImageUrl": "../images/bla-website-products/271244.jpg",
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/09/271244.jpg",
     "productWebsiteImageDownloaded": true,
-    "categoryPath": [
-      "BLA Catalogue",
-      "Steering Wheels",
-      "Steering Wheels"
-    ]
+    "productWebSearchImageUrl": "../images/bla-website-products/271244.jpg"
   },
   {
     "productNumber": "271246",
@@ -1575,11 +1404,11 @@
     "categoryImage": "../images/catalogue/pages/page0659.jpg",
     "subCategoryImage": "../images/catalogue/pages/page0659.jpg",
     "catalogueImageUrl": "../images/catalogue/pages/page0025.jpg",
-    "categoryDescription": "Steering Wheels from the BLA Australia catalogue.",
-    "subCategoryDescription": "Steering Wheels products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
+    "categoryDescription": "Trailering from the BLA Australia Edition 15 catalogue.",
+    "subCategoryDescription": "Trailer Parts & Towing products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/25/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 149.35,
     "barcode": "9319786443415",
@@ -1600,11 +1429,7 @@
     "productWebsiteImageUrl": "../images/bla-website-products/271246.jpg",
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/09/271246.jpg",
     "productWebsiteImageDownloaded": true,
-    "categoryPath": [
-      "BLA Catalogue",
-      "Steering Wheels",
-      "Steering Wheels"
-    ]
+    "productWebSearchImageUrl": "../images/bla-website-products/271246.jpg"
   },
   {
     "productNumber": "271247",
@@ -1612,7 +1437,7 @@
     "brand": "",
     "variant": "PC",
     "price": 1046.8,
-    "unitCostOfSale": 614,
+    "unitCostOfSale": 614.0,
     "categoryName": "Steering Wheels",
     "topCategory": "Steering Wheels",
     "subCategoryName": "Steering Wheels",
@@ -1620,24 +1445,20 @@
     "pricingCategoryUsed": "M - Marine Supplies",
     "categoryImage": "../images/catalogue/pages/page0659.jpg",
     "subCategoryImage": "../images/catalogue/pages/page0659.jpg",
-    "catalogueImageUrl": "../images/catalogue/pages/page0788.jpg",
-    "categoryDescription": "Steering Wheels from the BLA Australia catalogue.",
-    "subCategoryDescription": "Steering Wheels products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
-    "sourceUrl": "https://online.flippingbook.com/view/328167/788/",
+    "catalogueImageUrl": "../images/catalogue/pages/page0025.jpg",
+    "categoryDescription": "Trailering from the BLA Australia Edition 15 catalogue.",
+    "subCategoryDescription": "Trailer Parts & Towing products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
+    "sourceUrl": "https://online.flippingbook.com/view/328167/25/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
-    "exportAudExGst": 354,
+    "exportAudExGst": 354.0,
     "barcode": "9319786457597",
     "cataloguePage": 25,
     "imageUrl": "../images/catalogue/product-photos/271247.jpg",
     "catalogueDescription": "........... 756 271230............................................. 758 271232............................................. 758 271234............................................. 757 271236............................................. 757 271238............................................. 757 271240............................................. 756 271242............................................. 756 271244............................................. 757 271246............................................. 756 271247............................................. 758 271248............................................. 758 271260............................................. 759 271262............................................. 759 271264............................................. 758 271266............................................. 758 271268............................................. 758 271280............................................. 759 271282............................................. 759 271285................",
-    "productBlockImageUrl": "../images/catalogue/product-photos/271247.jpg",
-    "categoryPath": [
-      "BLA Catalogue",
-      "Steering Wheels",
-      "Steering Wheels"
-    ]
+    "productBlockImageUrl": "../images/catalogue/product-blocks/271247.jpg",
+    "productWebSearchImageUrl": "../images/catalogue/product-photos/271247.jpg"
   },
   {
     "productNumber": "271248",
@@ -1645,7 +1466,7 @@
     "brand": "",
     "variant": "PC",
     "price": 1046.8,
-    "unitCostOfSale": 614,
+    "unitCostOfSale": 614.0,
     "categoryName": "Steering Wheels",
     "topCategory": "Steering Wheels",
     "subCategoryName": "Steering Wheels",
@@ -1653,24 +1474,20 @@
     "pricingCategoryUsed": "M - Marine Supplies",
     "categoryImage": "../images/catalogue/pages/page0659.jpg",
     "subCategoryImage": "../images/catalogue/pages/page0659.jpg",
-    "catalogueImageUrl": "../images/catalogue/pages/page0788.jpg",
-    "categoryDescription": "Steering Wheels from the BLA Australia catalogue.",
-    "subCategoryDescription": "Steering Wheels products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
-    "sourceUrl": "https://online.flippingbook.com/view/328167/788/",
+    "catalogueImageUrl": "../images/catalogue/pages/page0025.jpg",
+    "categoryDescription": "Trailering from the BLA Australia Edition 15 catalogue.",
+    "subCategoryDescription": "Trailer Parts & Towing products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
+    "sourceUrl": "https://online.flippingbook.com/view/328167/25/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
-    "exportAudExGst": 354,
+    "exportAudExGst": 354.0,
     "barcode": "9319786449486",
     "cataloguePage": 25,
     "imageUrl": "../images/catalogue/product-photos/271248.jpg",
     "catalogueDescription": "........... 758 271232............................................. 758 271234............................................. 757 271236............................................. 757 271238............................................. 757 271240............................................. 756 271242............................................. 756 271244............................................. 757 271246............................................. 756 271247............................................. 758 271248............................................. 758 271260............................................. 759 271262............................................. 759 271264............................................. 758 271266............................................. 758 271268............................................. 758 271280............................................. 759 271282............................................. 759 271285............................................. 759 271400................",
-    "productBlockImageUrl": "../images/catalogue/product-photos/271248.jpg",
-    "categoryPath": [
-      "BLA Catalogue",
-      "Steering Wheels",
-      "Steering Wheels"
-    ]
+    "productBlockImageUrl": "../images/catalogue/product-blocks/271248.jpg",
+    "productWebSearchImageUrl": "../images/catalogue/product-photos/271248.jpg"
   },
   {
     "productNumber": "271260",
@@ -1686,24 +1503,20 @@
     "pricingCategoryUsed": "M - Marine Supplies",
     "categoryImage": "../images/catalogue/pages/page0481.jpg",
     "subCategoryImage": "../images/catalogue/pages/page0481.jpg",
-    "catalogueImageUrl": "../images/catalogue/pages/page0789.jpg",
-    "categoryDescription": "Steering Wheels from the BLA Australia catalogue.",
-    "subCategoryDescription": "Steering Wheels products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
-    "sourceUrl": "https://online.flippingbook.com/view/328167/789/",
+    "catalogueImageUrl": "../images/catalogue/pages/page0025.jpg",
+    "categoryDescription": "Deck Hardware from the BLA Australia Edition 15 catalogue.",
+    "subCategoryDescription": "Stainless Fittings & Deck Hardware products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
+    "sourceUrl": "https://online.flippingbook.com/view/328167/25/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 82.94,
     "barcode": "9319786229514",
     "cataloguePage": 25,
     "imageUrl": "../images/catalogue/product-photos/271260.jpg",
     "catalogueDescription": "........... 758 271234............................................. 757 271236............................................. 757 271238............................................. 757 271240............................................. 756 271242............................................. 756 271244............................................. 757 271246............................................. 756 271247............................................. 758 271248............................................. 758 271260............................................. 759 271262............................................. 759 271264............................................. 758 271266............................................. 758 271268............................................. 758 271280............................................. 759 271282............................................. 759 271285............................................. 759 271400............................................. 758 271401................",
-    "productBlockImageUrl": "../images/catalogue/product-photos/271260.jpg",
-    "categoryPath": [
-      "BLA Catalogue",
-      "Steering Wheels",
-      "Steering Wheels"
-    ]
+    "productBlockImageUrl": "../images/catalogue/product-blocks/271260.jpg",
+    "productWebSearchImageUrl": "../images/catalogue/product-photos/271260.jpg"
   },
   {
     "productNumber": "271262",
@@ -1719,24 +1532,20 @@
     "pricingCategoryUsed": "M - Marine Supplies",
     "categoryImage": "../images/catalogue/pages/page0481.jpg",
     "subCategoryImage": "../images/catalogue/pages/page0481.jpg",
-    "catalogueImageUrl": "../images/catalogue/pages/page0789.jpg",
-    "categoryDescription": "Steering Wheels from the BLA Australia catalogue.",
-    "subCategoryDescription": "Steering Wheels products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
-    "sourceUrl": "https://online.flippingbook.com/view/328167/789/",
+    "catalogueImageUrl": "../images/catalogue/pages/page0025.jpg",
+    "categoryDescription": "Deck Hardware from the BLA Australia Edition 15 catalogue.",
+    "subCategoryDescription": "Stainless Fittings & Deck Hardware products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
+    "sourceUrl": "https://online.flippingbook.com/view/328167/25/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 90.86,
     "barcode": "9319786229507",
     "cataloguePage": 25,
     "imageUrl": "../images/catalogue/product-photos/271262.jpg",
     "catalogueDescription": "........... 757 271236............................................. 757 271238............................................. 757 271240............................................. 756 271242............................................. 756 271244............................................. 757 271246............................................. 756 271247............................................. 758 271248............................................. 758 271260............................................. 759 271262............................................. 759 271264............................................. 758 271266............................................. 758 271268............................................. 758 271280............................................. 759 271282............................................. 759 271285............................................. 759 271400............................................. 758 271401............................................. 757 271402................",
-    "productBlockImageUrl": "../images/catalogue/product-photos/271262.jpg",
-    "categoryPath": [
-      "BLA Catalogue",
-      "Steering Wheels",
-      "Steering Wheels"
-    ]
+    "productBlockImageUrl": "../images/catalogue/product-blocks/271262.jpg",
+    "productWebSearchImageUrl": "../images/catalogue/product-photos/271262.jpg"
   },
   {
     "productNumber": "271264",
@@ -1753,8 +1562,8 @@
     "categoryImage": "../images/catalogue/pages/page0659.jpg",
     "subCategoryImage": "../images/catalogue/pages/page0659.jpg",
     "catalogueImageUrl": "../images/catalogue/pages/page0025.jpg",
-    "categoryDescription": "Steering Wheels from the BLA Australia catalogue.",
-    "subCategoryDescription": "Steering Wheels products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
+    "categoryDescription": "Trailering from the BLA Australia Edition 15 catalogue.",
+    "subCategoryDescription": "Trailer Parts & Towing products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/25/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
     "estimatedWeightKg": 0.05,
@@ -1778,11 +1587,7 @@
     "productWebsiteImageUrl": "../images/bla-website-products/271264.jpg",
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/06/271264.jpg",
     "productWebsiteImageDownloaded": true,
-    "categoryPath": [
-      "BLA Catalogue",
-      "Steering Wheels",
-      "Steering Wheels"
-    ]
+    "productWebSearchImageUrl": "../images/bla-website-products/271264.jpg"
   },
   {
     "productNumber": "271266",
@@ -1798,24 +1603,20 @@
     "pricingCategoryUsed": "M - Marine Supplies",
     "categoryImage": "../images/catalogue/pages/page0481.jpg",
     "subCategoryImage": "../images/catalogue/pages/page0481.jpg",
-    "catalogueImageUrl": "../images/catalogue/pages/page0788.jpg",
-    "categoryDescription": "Steering Wheels from the BLA Australia catalogue.",
-    "subCategoryDescription": "Steering Wheels products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
-    "sourceUrl": "https://online.flippingbook.com/view/328167/788/",
+    "catalogueImageUrl": "../images/catalogue/pages/page0025.jpg",
+    "categoryDescription": "Deck Hardware from the BLA Australia Edition 15 catalogue.",
+    "subCategoryDescription": "Stainless Fittings & Deck Hardware products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
+    "sourceUrl": "https://online.flippingbook.com/view/328167/25/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 103.49,
     "barcode": "9319786229538",
     "cataloguePage": 25,
     "imageUrl": "../images/catalogue/product-photos/271266.jpg",
     "catalogueDescription": "........... 757 271240............................................. 756 271242............................................. 756 271244............................................. 757 271246............................................. 756 271247............................................. 758 271248............................................. 758 271260............................................. 759 271262............................................. 759 271264............................................. 758 271266............................................. 758 271268............................................. 758 271280............................................. 759 271282............................................. 759 271285............................................. 759 271400............................................. 758 271401............................................. 757 271402............................................. 757 271403............................................. 757 271404................",
-    "productBlockImageUrl": "../images/catalogue/product-photos/271266.jpg",
-    "categoryPath": [
-      "BLA Catalogue",
-      "Steering Wheels",
-      "Steering Wheels"
-    ]
+    "productBlockImageUrl": "../images/catalogue/product-blocks/271266.jpg",
+    "productWebSearchImageUrl": "../images/catalogue/product-photos/271266.jpg"
   },
   {
     "productNumber": "271268",
@@ -1831,24 +1632,20 @@
     "pricingCategoryUsed": "M - Marine Supplies",
     "categoryImage": "../images/catalogue/pages/page0481.jpg",
     "subCategoryImage": "../images/catalogue/pages/page0481.jpg",
-    "catalogueImageUrl": "../images/catalogue/pages/page0788.jpg",
-    "categoryDescription": "Steering Wheels from the BLA Australia catalogue.",
-    "subCategoryDescription": "Steering Wheels products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
-    "sourceUrl": "https://online.flippingbook.com/view/328167/788/",
+    "catalogueImageUrl": "../images/catalogue/pages/page0025.jpg",
+    "categoryDescription": "Deck Hardware from the BLA Australia Edition 15 catalogue.",
+    "subCategoryDescription": "Stainless Fittings & Deck Hardware products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
+    "sourceUrl": "https://online.flippingbook.com/view/328167/25/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 117.4,
     "barcode": "9319786229521",
     "cataloguePage": 25,
     "imageUrl": "../images/catalogue/product-photos/271268.jpg",
     "catalogueDescription": "........... 756 271242............................................. 756 271244............................................. 757 271246............................................. 756 271247............................................. 758 271248............................................. 758 271260............................................. 759 271262............................................. 759 271264............................................. 758 271266............................................. 758 271268............................................. 758 271280............................................. 759 271282............................................. 759 271285............................................. 759 271400............................................. 758 271401............................................. 757 271402............................................. 757 271403............................................. 757 271404............................................. 757 2800XX................",
-    "productBlockImageUrl": "../images/catalogue/product-photos/271268.jpg",
-    "categoryPath": [
-      "BLA Catalogue",
-      "Steering Wheels",
-      "Steering Wheels"
-    ]
+    "productBlockImageUrl": "../images/catalogue/product-blocks/271268.jpg",
+    "productWebSearchImageUrl": "../images/catalogue/product-photos/271268.jpg"
   },
   {
     "productNumber": "271280",
@@ -1864,24 +1661,20 @@
     "pricingCategoryUsed": "M - Marine Supplies",
     "categoryImage": "../images/catalogue/pages/page0481.jpg",
     "subCategoryImage": "../images/catalogue/pages/page0481.jpg",
-    "catalogueImageUrl": "../images/catalogue/pages/page0789.jpg",
-    "categoryDescription": "Steering Wheels from the BLA Australia catalogue.",
-    "subCategoryDescription": "Steering Wheels products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
-    "sourceUrl": "https://online.flippingbook.com/view/328167/789/",
+    "catalogueImageUrl": "../images/catalogue/pages/page0025.jpg",
+    "categoryDescription": "Deck Hardware from the BLA Australia Edition 15 catalogue.",
+    "subCategoryDescription": "Stainless Fittings & Deck Hardware products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
+    "sourceUrl": "https://online.flippingbook.com/view/328167/25/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 73.07,
     "barcode": "9319786033593",
     "cataloguePage": 25,
     "imageUrl": "../images/catalogue/product-photos/271280.jpg",
     "catalogueDescription": "........... 756 271244............................................. 757 271246............................................. 756 271247............................................. 758 271248............................................. 758 271260............................................. 759 271262............................................. 759 271264............................................. 758 271266............................................. 758 271268............................................. 758 271280............................................. 759 271282............................................. 759 271285............................................. 759 271400............................................. 758 271401............................................. 757 271402............................................. 757 271403............................................. 757 271404............................................. 757 2800XX............................................. 767 280132................",
-    "productBlockImageUrl": "../images/catalogue/product-photos/271280.jpg",
-    "categoryPath": [
-      "BLA Catalogue",
-      "Steering Wheels",
-      "Steering Wheels"
-    ]
+    "productBlockImageUrl": "../images/catalogue/product-blocks/271280.jpg",
+    "productWebSearchImageUrl": "../images/catalogue/product-photos/271280.jpg"
   },
   {
     "productNumber": "271282",
@@ -1897,24 +1690,20 @@
     "pricingCategoryUsed": "M - Marine Supplies",
     "categoryImage": "../images/catalogue/pages/page0481.jpg",
     "subCategoryImage": "../images/catalogue/pages/page0481.jpg",
-    "catalogueImageUrl": "../images/catalogue/pages/page0789.jpg",
-    "categoryDescription": "Steering Wheels from the BLA Australia catalogue.",
-    "subCategoryDescription": "Steering Wheels products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
-    "sourceUrl": "https://online.flippingbook.com/view/328167/789/",
+    "catalogueImageUrl": "../images/catalogue/pages/page0025.jpg",
+    "categoryDescription": "Deck Hardware from the BLA Australia Edition 15 catalogue.",
+    "subCategoryDescription": "Stainless Fittings & Deck Hardware products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
+    "sourceUrl": "https://online.flippingbook.com/view/328167/25/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 92.83,
     "barcode": "9319786033609",
     "cataloguePage": 25,
     "imageUrl": "../images/catalogue/product-photos/271282.jpg",
     "catalogueDescription": "........... 757 271246............................................. 756 271247............................................. 758 271248............................................. 758 271260............................................. 759 271262............................................. 759 271264............................................. 758 271266............................................. 758 271268............................................. 758 271280............................................. 759 271282............................................. 759 271285............................................. 759 271400............................................. 758 271401............................................. 757 271402............................................. 757 271403............................................. 757 271404............................................. 757 2800XX............................................. 767 280132.....................................767, 771 280142....................",
-    "productBlockImageUrl": "../images/catalogue/product-photos/271282.jpg",
-    "categoryPath": [
-      "BLA Catalogue",
-      "Steering Wheels",
-      "Steering Wheels"
-    ]
+    "productBlockImageUrl": "../images/catalogue/product-blocks/271282.jpg",
+    "productWebSearchImageUrl": "../images/catalogue/product-photos/271282.jpg"
   },
   {
     "productNumber": "271285",
@@ -1930,23 +1719,19 @@
     "pricingCategoryUsed": "M - Marine Supplies",
     "categoryImage": "../images/catalogue/pages/page0481.jpg",
     "subCategoryImage": "../images/catalogue/pages/page0481.jpg",
-    "catalogueImageUrl": "../images/catalogue/pages/page0789.jpg",
-    "categoryDescription": "Steering Wheels from the BLA Australia catalogue.",
-    "subCategoryDescription": "Steering Wheels products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
-    "sourceUrl": "https://online.flippingbook.com/view/328167/789/",
+    "catalogueImageUrl": "../images/catalogue/pages/page0025.jpg",
+    "categoryDescription": "Deck Hardware from the BLA Australia Edition 15 catalogue.",
+    "subCategoryDescription": "Stainless Fittings & Deck Hardware products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
+    "sourceUrl": "https://online.flippingbook.com/view/328167/25/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 103.26,
     "barcode": "9319786230756",
     "cataloguePage": 25,
     "imageUrl": "../images/catalogue/product-photos/271285.jpg",
     "catalogueDescription": "........... 756 271247............................................. 758 271248............................................. 758 271260............................................. 759 271262............................................. 759 271264............................................. 758 271266............................................. 758 271268............................................. 758 271280............................................. 759 271282............................................. 759 271285............................................. 759 271400............................................. 758 271401............................................. 757 271402............................................. 757 271403............................................. 757 271404............................................. 757 2800XX............................................. 767 280132.....................................767, 771 280142.....................771, 773, 776-777 280144...............................",
-    "productBlockImageUrl": "../images/catalogue/product-photos/271285.jpg",
-    "categoryPath": [
-      "BLA Catalogue",
-      "Steering Wheels",
-      "Steering Wheels"
-    ]
+    "productBlockImageUrl": "../images/catalogue/product-blocks/271285.jpg",
+    "productWebSearchImageUrl": "../images/catalogue/product-photos/271285.jpg"
   }
 ]
