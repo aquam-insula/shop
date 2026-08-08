@@ -1821,17 +1821,71 @@
     }
 
     function unifiedCategorySummaries() {
-      return blaCategorySummaries().map(category => {
-        const localRows = localCategoryProducts(category.name);
-        return {
-          ...category,
-          count: number(category.count) + localRows.length,
-          subcategories: (category.subcategories || []).map(subcategory => ({
-            ...subcategory,
-            count: number(subcategory.count) + localRows.filter(product => product.subCategory === subcategory.name).length
-          }))
-        };
+      const blaCategories = blaCategorySummaries();
+      const localMarine = localMarineProducts();
+
+      const localCategoryMap = new Map();
+      localMarine.forEach(product => {
+        const catName = product.category || 'Other Marine';
+        const subCatName = product.subCategory || catName;
+        if (!localCategoryMap.has(catName)) {
+          localCategoryMap.set(catName, { count: 0, subcategories: new Map() });
+        }
+        const catData = localCategoryMap.get(catName);
+        catData.count += 1;
+        catData.subcategories.set(subCatName, (catData.subcategories.get(subCatName) || 0) + 1);
       });
+
+      if (blaCategories.length > 0) {
+        const processedNames = new Set();
+        const summaries = blaCategories.map(category => {
+          processedNames.add(category.name);
+          const localData = localCategoryMap.get(category.name);
+          const localCount = localData ? localData.count : 0;
+          const localSubcats = localData ? localData.subcategories : new Map();
+
+          return {
+            ...category,
+            count: number(category.count) + localCount,
+            subcategories: (category.subcategories || []).map(subcategory => ({
+              ...subcategory,
+              count: number(subcategory.count) + (localSubcats.get(subcategory.name) || 0)
+            }))
+          };
+        });
+
+        localCategoryMap.forEach((localData, catName) => {
+          if (!processedNames.has(catName) && catName !== 'Tools') {
+            const subcats = Array.from(localData.subcategories.entries()).map(([subName, count]) => ({
+              name: subName,
+              count: count
+            }));
+            summaries.push({
+              name: catName,
+              count: localData.count,
+              subcategories: subcats
+            });
+          }
+        });
+
+        return summaries;
+      } else {
+        const summaries = [];
+        localCategoryMap.forEach((localData, catName) => {
+          if (catName !== 'Tools') {
+            const subcats = Array.from(localData.subcategories.entries()).map(([subName, count]) => ({
+              name: subName,
+              count: count
+            }));
+            summaries.push({
+              name: catName,
+              count: localData.count,
+              subcategories: subcats
+            });
+          }
+        });
+        return summaries;
+      }
     }
 
     function unifiedCategorySummary(name) {
@@ -2018,11 +2072,15 @@
       state.selectedSubCategory = '';
       elements.searchInput.value = '';
       elements.searchStatus.textContent = '';
-      elements.contextTitle.textContent = 'Marine Collection';
+      elements.contextTitle.textContent = name;
       elements.contextDescription.textContent = '';
       renderSidebar();
-      renderBlaSummarySubcategories(category);
-      prefetchBla();
+      if ((category.subcategories || []).length > 0) {
+        renderBlaSummarySubcategories(category);
+        prefetchBla();
+      } else {
+        openCategory(category.name, localCategoryProducts(category.name));
+      }
     }
 
     async function openBlaSummarySubcategory(categoryName, subcategoryName) {
