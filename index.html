@@ -679,7 +679,7 @@
       height: 100%;
       max-width: 100%;
       max-height: 100%;
-      object-fit: contain;
+      object-fit: cover;
     }
     .category-body { padding: 15px; }
     .category-body h3 {
@@ -818,15 +818,17 @@
       max-height: 180px;
       aspect-ratio: auto;
       overflow: hidden;
+      padding: 0;
     }
-    .category-image-wrap img {
+    .category-image-wrap img,
+    .category-card.bla-category .category-image-wrap img,
+    .home-range-card .category-image-wrap img,
+    .bla-top-category .category-image-wrap img {
+      width: 100%;
+      height: 100%;
       max-width: 100%;
-      max-height: 156px;
-    }
-    .category-card.bla-category .category-image-wrap { background: var(--white); }
-    .category-card.bla-category .category-image-wrap img {
-      width: min(78%, 230px);
-      max-height: 90px;
+      max-height: 100%;
+      object-fit: cover;
     }
     .contact-bar {
       display: flex;
@@ -936,7 +938,7 @@
       height: 100%;
       max-width: 100%;
       max-height: 100%;
-      object-fit: contain;
+      object-fit: cover;
     }
     .bla-top-category .category-image-wrap { background: #f7fafb; }
     .bla-top-category .category-image-wrap img {
@@ -944,7 +946,7 @@
       height: 100%;
       max-width: 100%;
       max-height: 100%;
-      object-fit: contain;
+      object-fit: cover;
     }
     .source-note {
       margin-top: 5px;
@@ -1031,7 +1033,7 @@
       .result-heading h2 { font-size: 17px; }
       .category-card { grid-template-rows: 96px auto; }
       .category-image-wrap { height: 96px; max-height: 96px; padding: 0; }
-      .category-image-wrap img { width: 100%; height: 100%; max-height: 100%; max-width: 100%; object-fit: contain; }
+      .category-image-wrap img { width: 100%; height: 100%; max-height: 100%; max-width: 100%; object-fit: cover; }
       .category-body { padding: 6px; }
       .category-body h3 { margin-bottom: 3px; font-size: 11px; line-height: 1.18; }
       .category-body p, .source-note { font-size: 9px; line-height: 1.25; }
