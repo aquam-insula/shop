@@ -1,1 +1,31 @@
-[{"productNumber":"609543","description":"MINN KOTA SERVICE PROP NUT TO SUIT 80 & 112LB","brand":"","variant":"PC","price":23.57,"unitCostOfSale":12.1,"categoryName":"Tools & Chandlery","topCategory":"Tools & Chandlery","subCategoryName":"General Marine Supplies","subCategory":"M - Marine Supplies","pricingCategoryUsed":"M - Marine Supplies","categoryImage":"../images/catalogue/pages/page0481.jpg","subCategoryImage":"../images/catalogue/pages/page0481.jpg","catalogueImageUrl":"../images/catalogue/bla-edition-15-cover.jpg","categoryDescription":"Tools & Chandlery from the BLA Australia Edition 15 catalogue.","subCategoryDescription":"General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.","sourceUrl":"","printCatalogueUrl":"https://online.flippingbook.com/view/328167/","estimatedWeightKg":1,"freightAud":4.8,"exportAudExGst":2.46,"barcode":"9319786442241","productWebSearchImageUrl":"../images/web-product-images/609543.jpg","productWebSearchImageSourceUrl":"https://media.roadtechmarine.com.au/product/images/805769_minn-kota-service-prop-nut-to-suit-80-and-112lb_134275.jpg","productWebSearchImageSourcePage":"","productWebSearchQuery":"\"609543\" \"MINN KOTA SERVICE PROP NUT TO SUIT 80 & 112LB\"","imageUrl":"../images/web-product-images/609543.jpg"}]
+{
+  "609543": {
+    "productNumber": "609543",
+    "description": "MINN KOTA SERVICE PROP NUT TO SUIT 80 & 112LB",
+    "brand": "",
+    "variant": "PC",
+    "price": 23.57,
+    "unitCostOfSale": 12.1,
+    "categoryName": "Tools & Chandlery",
+    "topCategory": "Tools & Chandlery",
+    "subCategoryName": "General Marine Supplies",
+    "subCategory": "M - Marine Supplies",
+    "pricingCategoryUsed": "M - Marine Supplies",
+    "categoryImage": "../images/catalogue/pages/page0481.jpg",
+    "subCategoryImage": "../images/catalogue/pages/page0481.jpg",
+    "catalogueImageUrl": "../images/catalogue/bla-edition-15-cover.jpg",
+    "categoryDescription": "Tools & Chandlery from the BLA Australia Edition 15 catalogue.",
+    "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
+    "sourceUrl": "",
+    "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
+    "estimatedWeightKg": 1.0,
+    "freightAud": 4.8,
+    "exportAudExGst": 2.46,
+    "barcode": "9319786442241",
+    "productWebSearchImageUrl": "../images/web-product-images/609543.jpg",
+    "productWebSearchImageSourceUrl": "https://media.roadtechmarine.com.au/product/images/805769_minn-kota-service-prop-nut-to-suit-80-and-112lb_134275.jpg",
+    "productWebSearchImageSourcePage": "",
+    "productWebSearchQuery": "\"609543\" \"MINN KOTA SERVICE PROP NUT TO SUIT 80 & 112LB\"",
+    "imageUrl": "../images/web-product-images/609543.jpg"
+  }
+}

@@ -1,5 +1,34 @@
-[
-  {
+{
+  "Q880084T01": {
+    "productNumber": "Q880084T01",
+    "description": "QUICKSILVER FILTER MERCURY AIR",
+    "brand": "Y",
+    "variant": "PC",
+    "price": 95.59,
+    "unitCostOfSale": 54.47,
+    "categoryName": "Tools & Chandlery",
+    "topCategory": "Tools & Chandlery",
+    "subCategoryName": "General Marine Supplies",
+    "subCategory": "M - Marine Supplies",
+    "pricingCategoryUsed": "M - Marine Supplies",
+    "categoryImage": "../images/catalogue/pages/page0481.jpg",
+    "subCategoryImage": "../images/catalogue/pages/page0481.jpg",
+    "catalogueImageUrl": "../images/catalogue/bla-edition-15-cover.jpg",
+    "categoryDescription": "Tools & Chandlery from the BLA Australia Edition 15 catalogue.",
+    "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
+    "sourceUrl": "",
+    "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
+    "estimatedWeightKg": 1.0,
+    "freightAud": 4.8,
+    "exportAudExGst": 27.88,
+    "barcode": "745061482814",
+    "productWebSearchImageUrl": "../images/web-product-images/Q880084T01.jpg",
+    "productWebSearchImageSourceUrl": "https://i.ebayimg.com/images/g/oToAAOSw8vxj2os9/s-l1600.jpg",
+    "productWebSearchImageSourcePage": "",
+    "productWebSearchQuery": "\"Q880084T01\" \"QUICKSILVER FILTER MERCURY AIR\"",
+    "imageUrl": "../images/web-product-images/Q880084T01.jpg"
+  },
+  "Q88107A5": {
     "productNumber": "Q88107A5",
     "description": "QUICKSILVER SWITCH MERCURY IGNITION 3 POS PUSH TO CHOKE",
     "brand": "Y",
@@ -37,94 +66,7 @@
     "imageUrl": "../images/bla-website-products/Q88107A5.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
-    "productNumber": "Q88397A1",
-    "description": "QUICKSILVER KIT MERCRUISER SEAL LOWER UNIT GEN 2",
-    "brand": "Y",
-    "variant": "PC",
-    "price": 134.44,
-    "unitCostOfSale": 77.32,
-    "categoryName": "Tools & Chandlery",
-    "topCategory": "Tools & Chandlery",
-    "subCategoryName": "General Marine Supplies",
-    "subCategory": "M - Marine Supplies",
-    "pricingCategoryUsed": "M - Marine Supplies",
-    "categoryImage": "../images/catalogue/pages/page0481.jpg",
-    "subCategoryImage": "../images/catalogue/pages/page0481.jpg",
-    "catalogueImageUrl": "../images/catalogue/bla-edition-15-cover.jpg",
-    "categoryDescription": "Tools & Chandlery from the BLA Australia Edition 15 catalogue.",
-    "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
-    "sourceUrl": "",
-    "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
-    "freightAud": 4.8,
-    "exportAudExGst": 41.59,
-    "barcode": "745061203761",
-    "productWebSearchImageUrl": "../images/web-product-images/Q88397A1.jpg",
-    "productWebSearchImageSourceUrl": "https://i.ebayimg.com/images/g/6FgAAOSwZJ1l4jxe/s-l1600.jpg",
-    "productWebSearchImageSourcePage": "",
-    "productWebSearchQuery": "\"Q88397A1\" \"Y QUICKSILVER KIT MERCRUISER SEAL LOWER UNIT GEN 2\"",
-    "imageUrl": "../images/web-product-images/Q88397A1.jpg"
-  },
-  {
-    "productNumber": "Q88794",
-    "description": "QUICKSILVER HOSE MERCRUISER",
-    "brand": "Y",
-    "variant": "PC",
-    "price": 180.99,
-    "unitCostOfSale": 104.7,
-    "categoryName": "Pumps, Plumbing & Galley",
-    "topCategory": "Pumps, Plumbing & Galley",
-    "subCategoryName": "Toilets, Plumbing & Galley",
-    "subCategory": "M - Pumps",
-    "pricingCategoryUsed": "M - Marine Supplies",
-    "categoryImage": "../images/catalogue/pages/page0285.jpg",
-    "subCategoryImage": "../images/catalogue/pages/page0285.jpg",
-    "catalogueImageUrl": "../images/catalogue/bla-edition-15-cover.jpg",
-    "categoryDescription": "Pumps, Plumbing & Galley from the BLA Australia Edition 15 catalogue.",
-    "subCategoryDescription": "Toilets, Plumbing & Galley products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
-    "sourceUrl": "",
-    "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
-    "freightAud": 4.8,
-    "exportAudExGst": 58.02,
-    "barcode": "745061204843",
-    "productWebSearchImageUrl": "../images/web-product-images/Q88794.jpg",
-    "productWebSearchImageSourceUrl": "https://www.piecesbateaux.com/4020-large_default/mercruiser-v6-and-v8-angled-hose.jpg",
-    "productWebSearchImageSourcePage": "",
-    "productWebSearchQuery": "\"Q88794\" \"Y QUICKSILVER HOSE MERCRUISER\"",
-    "imageUrl": "../images/web-product-images/Q88794.jpg"
-  },
-  {
-    "productNumber": "Q880084T01",
-    "description": "QUICKSILVER FILTER MERCURY AIR",
-    "brand": "Y",
-    "variant": "PC",
-    "price": 95.59,
-    "unitCostOfSale": 54.47,
-    "categoryName": "Tools & Chandlery",
-    "topCategory": "Tools & Chandlery",
-    "subCategoryName": "General Marine Supplies",
-    "subCategory": "M - Marine Supplies",
-    "pricingCategoryUsed": "M - Marine Supplies",
-    "categoryImage": "../images/catalogue/pages/page0481.jpg",
-    "subCategoryImage": "../images/catalogue/pages/page0481.jpg",
-    "catalogueImageUrl": "../images/catalogue/bla-edition-15-cover.jpg",
-    "categoryDescription": "Tools & Chandlery from the BLA Australia Edition 15 catalogue.",
-    "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
-    "sourceUrl": "",
-    "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
-    "freightAud": 4.8,
-    "exportAudExGst": 27.88,
-    "barcode": "745061482814",
-    "productWebSearchImageUrl": "../images/web-product-images/Q880084T01.jpg",
-    "productWebSearchImageSourceUrl": "https://i.ebayimg.com/images/g/oToAAOSw8vxj2os9/s-l1600.jpg",
-    "productWebSearchImageSourcePage": "",
-    "productWebSearchQuery": "\"Q880084T01\" \"QUICKSILVER FILTER MERCURY AIR\"",
-    "imageUrl": "../images/web-product-images/Q880084T01.jpg"
-  },
-  {
+  "Q881433": {
     "productNumber": "Q881433",
     "description": "QUICKSILVER GASKET MERCURY",
     "brand": "Y",
@@ -143,7 +85,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 18.79,
     "barcode": "745061049130",
@@ -153,7 +95,7 @@
     "productWebSearchQuery": "\"Q881433\" \"QUICKSILVER GASKET MERCURY\"",
     "imageUrl": "../images/web-product-images/Q881433.jpg"
   },
-  {
+  "Q881879T11": {
     "productNumber": "Q881879T11",
     "description": "QUICKSILVER SENSOR MERCRUISER PRESSURE",
     "brand": "Y",
@@ -182,7 +124,7 @@
     "productWebSearchQuery": "\"Q881879T11\" \"Y QUICKSILVER SENSOR MERCRUISER PRESSURE\"",
     "imageUrl": "../images/web-product-images/Q881879T11.jpg"
   },
-  {
+  "Q881908T": {
     "productNumber": "Q881908T",
     "description": "QUICKSILVER CABLE SET MERCURY",
     "brand": "Y",
@@ -201,7 +143,7 @@
     "subCategoryDescription": "Switches, Cable & Circuit Protection products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 85.77,
     "barcode": "745061522022",
@@ -220,7 +162,7 @@
     "imageUrl": "../images/bla-website-products/Q881908T.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "Q882751": {
     "productNumber": "Q882751",
     "description": "QUICKSILVER RELAY MERCURY TRIM",
     "brand": "Y",
@@ -239,7 +181,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 12.76,
     "barcode": "745061723177",
@@ -249,7 +191,7 @@
     "productWebSearchQuery": "\"Q882751\" \"QUICKSILVER RELAY MERCURY TRIM\"",
     "imageUrl": "../images/web-product-images/Q882751.jpg"
   },
-  {
+  "Q883037T": {
     "productNumber": "Q883037T",
     "description": "QUICKSILVER FILTER MERCURY",
     "brand": "Y",
@@ -268,7 +210,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 12.16,
     "barcode": "745061582842",
@@ -278,7 +220,7 @@
     "productWebSearchQuery": "\"Q883037T\" \"QUICKSILVER FILTER MERCURY\"",
     "imageUrl": "../images/web-product-images/Q883037T.jpg"
   },
-  {
+  "Q883071A1": {
     "productNumber": "Q883071A1",
     "description": "QUICKSILVER REGULATOR KIT MERCURY VOLTAGE",
     "brand": "Y",
@@ -297,7 +239,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 175.3,
     "barcode": "745061076365",
@@ -307,7 +249,7 @@
     "productWebSearchQuery": "\"Q883071A1\" \"QUICKSILVER REGULATOR KIT MERCURY VOLTAGE\"",
     "imageUrl": "../images/web-product-images/Q883071A1.jpg"
   },
-  {
+  "Q883202T02": {
     "productNumber": "Q883202T02",
     "description": "QUICKSILVER KIT MERCURY PUMP",
     "brand": "Y",
@@ -326,8 +268,8 @@
     "subCategoryDescription": "Pumps & Bilge Systems products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 5,
-    "freightAud": 24,
+    "estimatedWeightKg": 5.0,
+    "freightAud": 24.0,
     "exportAudExGst": 218.25,
     "barcode": "745061474994",
     "productWebSearchImageUrl": "../images/web-product-images/Q883202T02.jpg",
@@ -336,7 +278,7 @@
     "productWebSearchQuery": "\"Q883202T02\" \"QUICKSILVER KIT MERCURY PUMP\"",
     "imageUrl": "../images/web-product-images/Q883202T02.jpg"
   },
-  {
+  "Q883702Q": {
     "productNumber": "Q883702Q",
     "description": "QUICKSILVER FILTER MERCRUISER OIL GM V6",
     "brand": "",
@@ -355,12 +297,12 @@
     "subCategoryDescription": "Lubricants, Fuel & Boat Care products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/29/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 8.73,
     "barcode": "745061526570",
     "cataloguePage": 29,
-    "imageUrl": "../images/bla-website-products/Q883702Q.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/Q883702Q.jpg",
     "catalogueDescription": "24 Q858065Q01.................................... 724 Q866340Q03.................................... 618 Q877565T1...................................... 580 Q877761Q01.................................... 615 Q879194A01.................................... 617 Q879194A02.................................... 617 Q87946Q04...................................... 580 Q879884T........................................ 579 Q879885Q........................................ 580 Q882751A1...................................... 612 Q883702Q........................................ 618 Q883704Q03.................................... 724 Q888756Q03.................................... 487 Q888761Q03.................................... 487 Q888761Q04.................................... 487 Q898253T23.................................... 617 Q89981............................................ 614 Q89983Q1........................................ 613 Q89984Q5........................................ 613 Q89984T4........................................ 614 Q8M004",
     "productBlockImageUrl": "../images/catalogue/product-blocks/Q883702Q.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/quicksilver-oil-filter-2/",
@@ -377,7 +319,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/07/Q883702Q.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "Q883704Q03": {
     "productNumber": "Q883704Q03",
     "description": "QUICKSILVER ADAPTER MERCURY OIL PUMP",
     "brand": "Y",
@@ -401,12 +343,69 @@
     "exportAudExGst": 22.06,
     "barcode": "745061800472",
     "cataloguePage": 29,
-    "imageUrl": "../images/catalogue/product-photos/Q883704Q03.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/Q883704Q03.jpg",
     "catalogueDescription": "Q866340Q03.................................... 618 Q877565T1...................................... 580 Q877761Q01.................................... 615 Q879194A01.................................... 617 Q879194A02.................................... 617 Q87946Q04...................................... 580 Q879884T........................................ 579 Q879885Q........................................ 580 Q882751A1...................................... 612 Q883702Q........................................ 618 Q883704Q03.................................... 724 Q888756Q03.................................... 487 Q888761Q03.................................... 487 Q888761Q04.................................... 487 Q898253T23.................................... 617 Q89981............................................ 614 Q89983Q1........................................ 613 Q89984Q5........................................ 613 Q89984T4........................................ 614 Q8M0046752................................... 579 Q8M0058907.",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/Q883704Q03.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/Q883704Q03.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/Q883704Q03.jpg"
   },
-  {
+  "Q88397A1": {
+    "productNumber": "Q88397A1",
+    "description": "QUICKSILVER KIT MERCRUISER SEAL LOWER UNIT GEN 2",
+    "brand": "Y",
+    "variant": "PC",
+    "price": 134.44,
+    "unitCostOfSale": 77.32,
+    "categoryName": "Tools & Chandlery",
+    "topCategory": "Tools & Chandlery",
+    "subCategoryName": "General Marine Supplies",
+    "subCategory": "M - Marine Supplies",
+    "pricingCategoryUsed": "M - Marine Supplies",
+    "categoryImage": "../images/catalogue/pages/page0481.jpg",
+    "subCategoryImage": "../images/catalogue/pages/page0481.jpg",
+    "catalogueImageUrl": "../images/catalogue/bla-edition-15-cover.jpg",
+    "categoryDescription": "Tools & Chandlery from the BLA Australia Edition 15 catalogue.",
+    "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
+    "sourceUrl": "",
+    "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
+    "estimatedWeightKg": 1.0,
+    "freightAud": 4.8,
+    "exportAudExGst": 41.59,
+    "barcode": "745061203761",
+    "productWebSearchImageUrl": "../images/web-product-images/Q88397A1.jpg",
+    "productWebSearchImageSourceUrl": "https://i.ebayimg.com/images/g/6FgAAOSwZJ1l4jxe/s-l1600.jpg",
+    "productWebSearchImageSourcePage": "",
+    "productWebSearchQuery": "\"Q88397A1\" \"Y QUICKSILVER KIT MERCRUISER SEAL LOWER UNIT GEN 2\"",
+    "imageUrl": "../images/web-product-images/Q88397A1.jpg"
+  },
+  "Q88794": {
+    "productNumber": "Q88794",
+    "description": "QUICKSILVER HOSE MERCRUISER",
+    "brand": "Y",
+    "variant": "PC",
+    "price": 180.99,
+    "unitCostOfSale": 104.7,
+    "categoryName": "Pumps, Plumbing & Galley",
+    "topCategory": "Pumps, Plumbing & Galley",
+    "subCategoryName": "Toilets, Plumbing & Galley",
+    "subCategory": "M - Pumps",
+    "pricingCategoryUsed": "M - Marine Supplies",
+    "categoryImage": "../images/catalogue/pages/page0285.jpg",
+    "subCategoryImage": "../images/catalogue/pages/page0285.jpg",
+    "catalogueImageUrl": "../images/catalogue/bla-edition-15-cover.jpg",
+    "categoryDescription": "Pumps, Plumbing & Galley from the BLA Australia Edition 15 catalogue.",
+    "subCategoryDescription": "Toilets, Plumbing & Galley products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
+    "sourceUrl": "",
+    "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
+    "estimatedWeightKg": 1.0,
+    "freightAud": 4.8,
+    "exportAudExGst": 58.02,
+    "barcode": "745061204843",
+    "productWebSearchImageUrl": "../images/web-product-images/Q88794.jpg",
+    "productWebSearchImageSourceUrl": "https://www.piecesbateaux.com/4020-large_default/mercruiser-v6-and-v8-angled-hose.jpg",
+    "productWebSearchImageSourcePage": "",
+    "productWebSearchQuery": "\"Q88794\" \"Y QUICKSILVER HOSE MERCRUISER\"",
+    "imageUrl": "../images/web-product-images/Q88794.jpg"
+  },
+  "Q888756Q03": {
     "productNumber": "Q888756Q03",
     "description": "QUICKSILVER KIT MERCRUISER ANODE GEN 2 1991 & UP",
     "brand": "",
@@ -425,17 +424,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/29/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 76.87,
     "barcode": "745061588400",
     "cataloguePage": 29,
-    "imageUrl": "../images/catalogue/product-photos/Q888756Q03.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/Q888756Q03.jpg",
     "catalogueDescription": "Q877565T1...................................... 580 Q877761Q01.................................... 615 Q879194A01.................................... 617 Q879194A02.................................... 617 Q87946Q04...................................... 580 Q879884T........................................ 579 Q879885Q........................................ 580 Q882751A1...................................... 612 Q883702Q........................................ 618 Q883704Q03.................................... 724 Q888756Q03.................................... 487 Q888761Q03.................................... 487 Q888761Q04.................................... 487 Q898253T23.................................... 617 Q89981............................................ 614 Q89983Q1........................................ 613 Q89984Q5........................................ 613 Q89984T4........................................ 614 Q8M0046752................................... 579 Q8M0058907................................... 723 Q8M0058908..",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/Q888756Q03.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/Q888756Q03.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/Q888756Q03.jpg"
   },
-  {
+  "Q888761Q03": {
     "productNumber": "Q888761Q03",
     "description": "QUICKSILVER KIT MCRUISER ANODE BRAVO 2 1989 UP BRAVO 3 89-03",
     "brand": "",
@@ -454,17 +452,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/29/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 53.23,
     "barcode": "745061588448",
     "cataloguePage": 29,
-    "imageUrl": "../images/catalogue/product-photos/Q888761Q03.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/Q888761Q03.jpg",
     "catalogueDescription": "0 Q877761Q01.................................... 615 Q879194A01.................................... 617 Q879194A02.................................... 617 Q87946Q04...................................... 580 Q879884T........................................ 579 Q879885Q........................................ 580 Q882751A1...................................... 612 Q883702Q........................................ 618 Q883704Q03.................................... 724 Q888756Q03.................................... 487 Q888761Q03.................................... 487 Q888761Q04.................................... 487 Q898253T23.................................... 617 Q89981............................................ 614 Q89983Q1........................................ 613 Q89984Q5........................................ 613 Q89984T4........................................ 614 Q8M0046752................................... 579 Q8M0058907................................... 723 Q8M0058908................................... 723 Q8M0061335...",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/Q888761Q03.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/Q888761Q03.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/Q888761Q03.jpg"
   },
-  {
+  "Q888761Q04": {
     "productNumber": "Q888761Q04",
     "description": "QUICKSILVER KIT MERCURY ANODE BRAVO III 2003 & UP",
     "brand": "",
@@ -483,17 +480,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/29/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 67.21,
     "barcode": "745061588455",
     "cataloguePage": 29,
-    "imageUrl": "../images/catalogue/product-photos/Q888761Q04.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/Q888761Q04.jpg",
     "catalogueDescription": "5 Q879194A01.................................... 617 Q879194A02.................................... 617 Q87946Q04...................................... 580 Q879884T........................................ 579 Q879885Q........................................ 580 Q882751A1...................................... 612 Q883702Q........................................ 618 Q883704Q03.................................... 724 Q888756Q03.................................... 487 Q888761Q03.................................... 487 Q888761Q04.................................... 487 Q898253T23.................................... 617 Q89981............................................ 614 Q89983Q1........................................ 613 Q89984Q5........................................ 613 Q89984T4........................................ 614 Q8M0046752................................... 579 Q8M0058907................................... 723 Q8M0058908................................... 723 Q8M0061335................................... 617 Q8M0062406....",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/Q888761Q04.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/Q888761Q04.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/Q888761Q04.jpg"
   },
-  {
+  "Q889246A16": {
     "productNumber": "Q889246A16",
     "description": "QUICKSILVER IMPELLER REPAIR KIT",
     "brand": "",
@@ -512,7 +508,7 @@
     "subCategoryDescription": "Pumps & Bilge Systems products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 28.83,
     "barcode": "745061732292",
@@ -522,4 +518,4 @@
     "productWebSearchQuery": "\"Q889246A16\" \"QUICKSILVER IMPELLER REPAIR KIT\"",
     "imageUrl": "../images/web-product-images/Q889246A16.png"
   }
-]
+}

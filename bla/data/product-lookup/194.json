@@ -1,5 +1,5 @@
-[
-  {
+{
+  "194000BLK": {
     "productNumber": "194000BLK",
     "description": "MARINE TOWN GRAB HANDRAIL 219MM STUD TYPE  MATTE BLACK",
     "brand": "",
@@ -18,7 +18,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 34.03,
     "barcode": "9319786472316",
@@ -28,7 +28,7 @@
     "productWebSearchQuery": "\"194000BLK\" \"MARINE TOWN GRAB HANDRAIL 219MM STUD TYPE MATTE BLACK\"",
     "imageUrl": "../images/web-product-images/194000BLK.webp"
   },
-  {
+  "194002BLK": {
     "productNumber": "194002BLK",
     "description": "MARINE TOWN GRAB HANDRAIL 305MM STUD TYPE  MATTE BLACK",
     "brand": "",
@@ -47,7 +47,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 38.23,
     "barcode": "9319786472323",
@@ -57,7 +57,7 @@
     "productWebSearchQuery": "\"194002BLK\" \"MARINE TOWN GRAB HANDRAIL 305MM STUD TYPE MATTE BLACK\"",
     "imageUrl": "../images/web-product-images/194002BLK.jpg"
   },
-  {
+  "194003BLK": {
     "productNumber": "194003BLK",
     "description": "MARINE TOWNGRAB HANDRAIL 338 MMSTUD TYPE  MATTE BLACK",
     "brand": "",
@@ -76,7 +76,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 43.14,
     "barcode": "9319786472330",
@@ -86,7 +86,7 @@
     "productWebSearchQuery": "\"194003BLK\" \"MARINE TOWNGRAB HANDRAIL 338 MMSTUD TYPE MATTE BLACK\"",
     "imageUrl": "../images/web-product-images/194003BLK.jpg"
   },
-  {
+  "194004": {
     "productNumber": "194004",
     "description": "BLA CONCEALED SCREW HAND RAIL S/STEEL 260X60X22MM",
     "brand": "Bla",
@@ -105,17 +105,16 @@
     "subCategoryDescription": "Stainless Fittings & Deck Hardware products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/21/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 16.63,
     "barcode": "9319786026403",
     "cataloguePage": 21,
-    "imageUrl": "../images/catalogue/product-photos/194004.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/194004.jpg",
     "catalogueDescription": "........................... 551 193824.....................................346, 551 193826............................................. 551 193901BLK...................................... 534 193903BLK...................................... 534 193905BLK...................................... 534 193978............................................. 538 193994............................................. 538 193996............................................. 538 193998............................................. 538 194004............................................. 538 194006............................................. 538 194007............................................. 538 194008............................................. 538 194010............................................. 538 194012............................................. 538 194020............................................. 538 194022............................................. 538 194024............................................. 538 194030................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/194004.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/194004.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/194004.jpg"
   },
-  {
+  "194005BLK": {
     "productNumber": "194005BLK",
     "description": "MARINE TOWN GRAB HANDRAIL 610MM STUD TYPE  MATTE BLACK",
     "brand": "",
@@ -134,7 +133,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 53.59,
     "barcode": "9319786472347",
@@ -144,7 +143,7 @@
     "productWebSearchQuery": "\"194005BLK\" \"MARINE TOWN GRAB HANDRAIL 610MM STUD TYPE MATTE BLACK\"",
     "imageUrl": "../images/web-product-images/194005BLK.jpg"
   },
-  {
+  "194006": {
     "productNumber": "194006",
     "description": "BLA CONCEALED SCREW HAND RAIL S/STEEL 335X60X22MM",
     "brand": "Bla",
@@ -163,17 +162,16 @@
     "subCategoryDescription": "Stainless Fittings & Deck Hardware products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/21/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 18.69,
     "barcode": "9319786026410",
     "cataloguePage": 21,
-    "imageUrl": "../images/catalogue/product-photos/194006.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/194006.jpg",
     "catalogueDescription": "...................346, 551 193826............................................. 551 193901BLK...................................... 534 193903BLK...................................... 534 193905BLK...................................... 534 193978............................................. 538 193994............................................. 538 193996............................................. 538 193998............................................. 538 194004............................................. 538 194006............................................. 538 194007............................................. 538 194008............................................. 538 194010............................................. 538 194012............................................. 538 194020............................................. 538 194022............................................. 538 194024............................................. 538 194030............................................. 538 194034................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/194006.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/194006.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/194006.jpg"
   },
-  {
+  "194007": {
     "productNumber": "194007",
     "description": "BLA CONCEALED SCREW HAND RAIL S/STEEL 485X60X22MM",
     "brand": "Bla",
@@ -192,17 +190,16 @@
     "subCategoryDescription": "Stainless Fittings & Deck Hardware products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/21/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 22.37,
     "barcode": "9319786272398",
     "cataloguePage": 21,
-    "imageUrl": "../images/catalogue/product-photos/194007.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/194007.jpg",
     "catalogueDescription": "....................... 551 193901BLK...................................... 534 193903BLK...................................... 534 193905BLK...................................... 534 193978............................................. 538 193994............................................. 538 193996............................................. 538 193998............................................. 538 194004............................................. 538 194006............................................. 538 194007............................................. 538 194008............................................. 538 194010............................................. 538 194012............................................. 538 194020............................................. 538 194022............................................. 538 194024............................................. 538 194030............................................. 538 194034............................................. 538 194040................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/194007.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/194007.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/194007.jpg"
   },
-  {
+  "194008": {
     "productNumber": "194008",
     "description": "BLA CONCEALED STUD HAND RAIL S/STEEL 235X60X22MM",
     "brand": "Bla",
@@ -221,17 +218,16 @@
     "subCategoryDescription": "Stainless Fittings & Deck Hardware products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/21/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 15.25,
     "barcode": "9319786106167",
     "cataloguePage": 21,
-    "imageUrl": "../images/catalogue/product-photos/194008.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/194008.jpg",
     "catalogueDescription": "................... 534 193903BLK...................................... 534 193905BLK...................................... 534 193978............................................. 538 193994............................................. 538 193996............................................. 538 193998............................................. 538 194004............................................. 538 194006............................................. 538 194007............................................. 538 194008............................................. 538 194010............................................. 538 194012............................................. 538 194020............................................. 538 194022............................................. 538 194024............................................. 538 194030............................................. 538 194034............................................. 538 194040............................................. 538 194044................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/194008.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/194008.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/194008.jpg"
   },
-  {
+  "194010": {
     "productNumber": "194010",
     "description": "BLA CONCEALED STUD HAND RAIL S/STEEL 310X60X22MM",
     "brand": "Bla",
@@ -250,17 +246,16 @@
     "subCategoryDescription": "Stainless Fittings & Deck Hardware products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/21/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
-    "exportAudExGst": 20,
+    "exportAudExGst": 20.0,
     "barcode": "9319786106174",
     "cataloguePage": 21,
-    "imageUrl": "../images/catalogue/product-photos/194010.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/194010.jpg",
     "catalogueDescription": "............... 534 193905BLK...................................... 534 193978............................................. 538 193994............................................. 538 193996............................................. 538 193998............................................. 538 194004............................................. 538 194006............................................. 538 194007............................................. 538 194008............................................. 538 194010............................................. 538 194012............................................. 538 194020............................................. 538 194022............................................. 538 194024............................................. 538 194030............................................. 538 194034............................................. 538 194040............................................. 538 194044............................................. 538 194046................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/194010.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/194010.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/194010.jpg"
   },
-  {
+  "194012": {
     "productNumber": "194012",
     "description": "BLA CONCEALED STUD HAND RAIL S/STEEL 465X60X22MM",
     "brand": "Bla",
@@ -279,17 +274,16 @@
     "subCategoryDescription": "Stainless Fittings & Deck Hardware products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/21/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 22.35,
     "barcode": "9319786106181",
     "cataloguePage": 21,
-    "imageUrl": "../images/catalogue/product-photos/194012.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/194012.jpg",
     "catalogueDescription": "........... 534 193978............................................. 538 193994............................................. 538 193996............................................. 538 193998............................................. 538 194004............................................. 538 194006............................................. 538 194007............................................. 538 194008............................................. 538 194010............................................. 538 194012............................................. 538 194020............................................. 538 194022............................................. 538 194024............................................. 538 194030............................................. 538 194034............................................. 538 194040............................................. 538 194044............................................. 538 194046............................................. 539 194048................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/194012.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/194012.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/194012.jpg"
   },
-  {
+  "194020": {
     "productNumber": "194020",
     "description": "MARINE TOWN SURFACE MOUNT HAND RAIL S/STEEL 302X70MM",
     "brand": "",
@@ -308,17 +302,16 @@
     "subCategoryDescription": "Stainless Fittings & Deck Hardware products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/21/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 33.57,
     "barcode": "9319786231135",
     "cataloguePage": 21,
-    "imageUrl": "../images/catalogue/product-photos/194020.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/194020.jpg",
     "catalogueDescription": "........... 538 193994............................................. 538 193996............................................. 538 193998............................................. 538 194004............................................. 538 194006............................................. 538 194007............................................. 538 194008............................................. 538 194010............................................. 538 194012............................................. 538 194020............................................. 538 194022............................................. 538 194024............................................. 538 194030............................................. 538 194034............................................. 538 194040............................................. 538 194044............................................. 538 194046............................................. 539 194048............................................. 539 194060................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/194020.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/194020.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/194020.jpg"
   },
-  {
+  "194022": {
     "productNumber": "194022",
     "description": "MARINE TOWN SURFACE MOUNT HAND RAIL S/STEEL 378X70MM",
     "brand": "",
@@ -337,17 +330,16 @@
     "subCategoryDescription": "Stainless Fittings & Deck Hardware products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/21/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 35.76,
     "barcode": "9319786231128",
     "cataloguePage": 21,
-    "imageUrl": "../images/catalogue/product-photos/194022.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/194022.jpg",
     "catalogueDescription": "........... 538 193996............................................. 538 193998............................................. 538 194004............................................. 538 194006............................................. 538 194007............................................. 538 194008............................................. 538 194010............................................. 538 194012............................................. 538 194020............................................. 538 194022............................................. 538 194024............................................. 538 194030............................................. 538 194034............................................. 538 194040............................................. 538 194044............................................. 538 194046............................................. 539 194048............................................. 539 194060............................................. 539 194062................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/194022.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/194022.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/194022.jpg"
   },
-  {
+  "194024": {
     "productNumber": "194024",
     "description": "MARINE TOWN SURFACE MOUNT HAND RAIL S/STEEL 530X70MM",
     "brand": "",
@@ -366,17 +358,16 @@
     "subCategoryDescription": "Stainless Fittings & Deck Hardware products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/21/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 45.39,
     "barcode": "9319786231111",
     "cataloguePage": 21,
-    "imageUrl": "../images/catalogue/product-photos/194024.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/194024.jpg",
     "catalogueDescription": "........... 538 193998............................................. 538 194004............................................. 538 194006............................................. 538 194007............................................. 538 194008............................................. 538 194010............................................. 538 194012............................................. 538 194020............................................. 538 194022............................................. 538 194024............................................. 538 194030............................................. 538 194034............................................. 538 194040............................................. 538 194044............................................. 538 194046............................................. 539 194048............................................. 539 194060............................................. 539 194062............................................. 539 194068................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/194024.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/194024.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/194024.jpg"
   },
-  {
+  "194030": {
     "productNumber": "194030",
     "description": "MARINE TOWN GRAB HANDLE CHROME BRASS 122X27MM",
     "brand": "",
@@ -395,12 +386,12 @@
     "subCategoryDescription": "Stainless Fittings & Deck Hardware products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/21/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 7.49,
     "barcode": "9319786026458",
     "cataloguePage": 21,
-    "imageUrl": "../images/bla-website-products/194030.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/194030.jpg",
     "catalogueDescription": "........... 538 194004............................................. 538 194006............................................. 538 194007............................................. 538 194008............................................. 538 194010............................................. 538 194012............................................. 538 194020............................................. 538 194022............................................. 538 194024............................................. 538 194030............................................. 538 194034............................................. 538 194040............................................. 538 194044............................................. 538 194046............................................. 539 194048............................................. 539 194060............................................. 539 194062............................................. 539 194068............................................. 541 194070................",
     "productBlockImageUrl": "../images/catalogue/product-blocks/194030.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/grab-handle-chrome-plated-brass/",
@@ -417,7 +408,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/07/194030.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "194034": {
     "productNumber": "194034",
     "description": "ATTWOOD GRAB HANDLE OFF WHITE PLASTIC 235X60MM",
     "brand": "Attwood",
@@ -436,12 +427,12 @@
     "subCategoryDescription": "Stainless Fittings & Deck Hardware products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/21/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 11.82,
     "barcode": "9319786218600",
     "cataloguePage": 21,
-    "imageUrl": "../images/bla-website-products/194034.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/194034.jpg",
     "catalogueDescription": "........... 538 194006............................................. 538 194007............................................. 538 194008............................................. 538 194010............................................. 538 194012............................................. 538 194020............................................. 538 194022............................................. 538 194024............................................. 538 194030............................................. 538 194034............................................. 538 194040............................................. 538 194044............................................. 538 194046............................................. 539 194048............................................. 539 194060............................................. 539 194062............................................. 539 194068............................................. 541 194070............................................. 541 194072................",
     "productBlockImageUrl": "../images/catalogue/product-blocks/194034.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/grab-handle-covered-screws/",
@@ -458,7 +449,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/07/194034.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "194040": {
     "productNumber": "194040",
     "description": "BLA SOFT GRIP GRAB HANDLE BLACK",
     "brand": "Bla",
@@ -477,17 +468,16 @@
     "subCategoryDescription": "Stainless Fittings & Deck Hardware products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/21/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 11.53,
     "barcode": "9319786026472",
     "cataloguePage": 21,
-    "imageUrl": "../images/catalogue/product-photos/194040.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/194040.jpg",
     "catalogueDescription": "........... 538 194007............................................. 538 194008............................................. 538 194010............................................. 538 194012............................................. 538 194020............................................. 538 194022............................................. 538 194024............................................. 538 194030............................................. 538 194034............................................. 538 194040............................................. 538 194044............................................. 538 194046............................................. 539 194048............................................. 539 194060............................................. 539 194062............................................. 539 194068............................................. 541 194070............................................. 541 194072............................................. 541 194073................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/194040.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/194040.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/194040.jpg"
   },
-  {
+  "194044": {
     "productNumber": "194044",
     "description": "BLA SOFT GRIP GRAB HANDLE WHITE",
     "brand": "Bla",
@@ -506,17 +496,16 @@
     "subCategoryDescription": "Stainless Fittings & Deck Hardware products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/21/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 11.53,
     "barcode": "9319786026496",
     "cataloguePage": 21,
-    "imageUrl": "../images/catalogue/product-photos/194044.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/194044.jpg",
     "catalogueDescription": "........... 538 194008............................................. 538 194010............................................. 538 194012............................................. 538 194020............................................. 538 194022............................................. 538 194024............................................. 538 194030............................................. 538 194034............................................. 538 194040............................................. 538 194044............................................. 538 194046............................................. 539 194048............................................. 539 194060............................................. 539 194062............................................. 539 194068............................................. 541 194070............................................. 541 194072............................................. 541 194073............................................. 541 194077................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/194044.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/194044.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/194044.jpg"
   },
-  {
+  "194046": {
     "productNumber": "194046",
     "description": "BLA SNAP COVER GRAB HANDLE BLACK",
     "brand": "Bla",
@@ -540,12 +529,11 @@
     "exportAudExGst": 5.03,
     "barcode": "9319786231999",
     "cataloguePage": 21,
-    "imageUrl": "../images/catalogue/product-photos/194046.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/194046.jpg",
     "catalogueDescription": "........... 538 194010............................................. 538 194012............................................. 538 194020............................................. 538 194022............................................. 538 194024............................................. 538 194030............................................. 538 194034............................................. 538 194040............................................. 538 194044............................................. 538 194046............................................. 539 194048............................................. 539 194060............................................. 539 194062............................................. 539 194068............................................. 541 194070............................................. 541 194072............................................. 541 194073............................................. 541 194077............................................. 541 194080................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/194046.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/194046.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/194046.jpg"
   },
-  {
+  "194048": {
     "productNumber": "194048",
     "description": "BLA SNAP COVER GRAB HANDLE WHITE",
     "brand": "Bla",
@@ -569,12 +557,11 @@
     "exportAudExGst": 5.03,
     "barcode": "9319786232002",
     "cataloguePage": 21,
-    "imageUrl": "../images/catalogue/product-photos/194048.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/194048.jpg",
     "catalogueDescription": "........... 538 194012............................................. 538 194020............................................. 538 194022............................................. 538 194024............................................. 538 194030............................................. 538 194034............................................. 538 194040............................................. 538 194044............................................. 538 194046............................................. 539 194048............................................. 539 194060............................................. 539 194062............................................. 539 194068............................................. 541 194070............................................. 541 194072............................................. 541 194073............................................. 541 194077............................................. 541 194080............................................. 246 194102................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/194048.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/194048.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/194048.jpg"
   },
-  {
+  "194060": {
     "productNumber": "194060",
     "description": "BLA STUD MOUNT GRAB HANDLE BLACK",
     "brand": "Bla",
@@ -593,17 +580,16 @@
     "subCategoryDescription": "Stainless Fittings & Deck Hardware products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/21/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 13.33,
     "barcode": "9319786119785",
     "cataloguePage": 21,
-    "imageUrl": "../images/catalogue/product-photos/194060.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/194060.jpg",
     "catalogueDescription": "........... 538 194020............................................. 538 194022............................................. 538 194024............................................. 538 194030............................................. 538 194034............................................. 538 194040............................................. 538 194044............................................. 538 194046............................................. 539 194048............................................. 539 194060............................................. 539 194062............................................. 539 194068............................................. 541 194070............................................. 541 194072............................................. 541 194073............................................. 541 194077............................................. 541 194080............................................. 246 194102............................................. 540 194103................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/194060.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/194060.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/194060.jpg"
   },
-  {
+  "194062": {
     "productNumber": "194062",
     "description": "BLA STUD MOUNT GRAB HANDLE WHITE",
     "brand": "Bla",
@@ -622,17 +608,16 @@
     "subCategoryDescription": "Stainless Fittings & Deck Hardware products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/21/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 13.33,
     "barcode": "9319786161937",
     "cataloguePage": 21,
-    "imageUrl": "../images/catalogue/product-photos/194062.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/194062.jpg",
     "catalogueDescription": "........... 538 194022............................................. 538 194024............................................. 538 194030............................................. 538 194034............................................. 538 194040............................................. 538 194044............................................. 538 194046............................................. 539 194048............................................. 539 194060............................................. 539 194062............................................. 539 194068............................................. 541 194070............................................. 541 194072............................................. 541 194073............................................. 541 194077............................................. 541 194080............................................. 246 194102............................................. 540 194103............................................. 540 194106................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/194062.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/194062.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/194062.jpg"
   },
-  {
+  "194068": {
     "productNumber": "194068",
     "description": "BLA POCKET STORAGE BOX WHITE ABS240X140X100MM",
     "brand": "Bla",
@@ -651,12 +636,12 @@
     "subCategoryDescription": "Covers, Seating & Fitout products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/21/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 26.01,
     "barcode": "9319786233108",
     "cataloguePage": 21,
-    "imageUrl": "../images/bla-website-products/194068.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/194068.jpg",
     "catalogueDescription": "........... 538 194024............................................. 538 194030............................................. 538 194034............................................. 538 194040............................................. 538 194044............................................. 538 194046............................................. 539 194048............................................. 539 194060............................................. 539 194062............................................. 539 194068............................................. 541 194070............................................. 541 194072............................................. 541 194073............................................. 541 194077............................................. 541 194080............................................. 246 194102............................................. 540 194103............................................. 540 194106............................................. 540 194107................",
     "productBlockImageUrl": "../images/catalogue/product-blocks/194068.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/pocket-storage-box/",
@@ -673,7 +658,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/07/194068.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "194070": {
     "productNumber": "194070",
     "description": "ATTWOOD LOCKABLE GLOVE BOX BLACK",
     "brand": "Attwood",
@@ -692,12 +677,12 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/21/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 43.95,
     "barcode": "022697263810",
     "cataloguePage": 21,
-    "imageUrl": "../images/bla-website-products/194070.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/194070.jpg",
     "catalogueDescription": "........... 538 194030............................................. 538 194034............................................. 538 194040............................................. 538 194044............................................. 538 194046............................................. 539 194048............................................. 539 194060............................................. 539 194062............................................. 539 194068............................................. 541 194070............................................. 541 194072............................................. 541 194073............................................. 541 194077............................................. 541 194080............................................. 246 194102............................................. 540 194103............................................. 540 194106............................................. 540 194107............................................. 540 194108................",
     "productBlockImageUrl": "../images/catalogue/product-blocks/194070.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/glove-box-plastic/",
@@ -714,7 +699,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/07/194070.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "194072": {
     "productNumber": "194072",
     "description": "BLA GLOVE BOX WITH DRINK HOLDERS BLACK",
     "brand": "Bla",
@@ -733,12 +718,12 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/21/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 30.94,
     "barcode": "9319786145517",
     "cataloguePage": 21,
-    "imageUrl": "../images/bla-website-products/194072.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/194072.jpg",
     "catalogueDescription": "........... 538 194034............................................. 538 194040............................................. 538 194044............................................. 538 194046............................................. 539 194048............................................. 539 194060............................................. 539 194062............................................. 539 194068............................................. 541 194070............................................. 541 194072............................................. 541 194073............................................. 541 194077............................................. 541 194080............................................. 246 194102............................................. 540 194103............................................. 540 194106............................................. 540 194107............................................. 540 194108............................................. 540 194109................",
     "productBlockImageUrl": "../images/catalogue/product-blocks/194072.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/glove-box-with-drink-holders/",
@@ -755,12 +740,12 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/07/194072_F.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "194073": {
     "productNumber": "194073",
     "description": "BLA GLOVE BOX LOCK AND KEY SET",
     "brand": "Bla",
     "variant": "PC",
-    "price": 57,
+    "price": 57.0,
     "unitCostOfSale": 31.77,
     "categoryName": "Tools & Chandlery",
     "topCategory": "Tools & Chandlery",
@@ -774,17 +759,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/21/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 14.26,
     "barcode": "9319786274019",
     "cataloguePage": 21,
-    "imageUrl": "../images/catalogue/product-photos/194073.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/194073.jpg",
     "catalogueDescription": "........... 538 194040............................................. 538 194044............................................. 538 194046............................................. 539 194048............................................. 539 194060............................................. 539 194062............................................. 539 194068............................................. 541 194070............................................. 541 194072............................................. 541 194073............................................. 541 194077............................................. 541 194080............................................. 246 194102............................................. 540 194103............................................. 540 194106............................................. 540 194107............................................. 540 194108............................................. 540 194109............................................. 540 194110................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/194073.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/194073.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/194073.jpg"
   },
-  {
+  "194077": {
     "productNumber": "194077",
     "description": "BLA GLOVE BOX BLACK PLASTIC 340X132X155MM",
     "brand": "Bla",
@@ -803,12 +787,12 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/21/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 25.02,
     "barcode": "9319786269084",
     "cataloguePage": 21,
-    "imageUrl": "../images/bla-website-products/194077.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/194077.jpg",
     "catalogueDescription": "........... 538 194044............................................. 538 194046............................................. 539 194048............................................. 539 194060............................................. 539 194062............................................. 539 194068............................................. 541 194070............................................. 541 194072............................................. 541 194073............................................. 541 194077............................................. 541 194080............................................. 246 194102............................................. 540 194103............................................. 540 194106............................................. 540 194107............................................. 540 194108............................................. 540 194109............................................. 540 194110............................................. 540 194111................",
     "productBlockImageUrl": "../images/catalogue/product-blocks/194077.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/glove-box/",
@@ -825,7 +809,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/07/194077.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "194080": {
     "productNumber": "194080",
     "description": "BLA MULTI ADJUSTABLE AERIAL MOUNT LEVER",
     "brand": "Bla",
@@ -844,12 +828,12 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/276/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 7.5,
     "barcode": "9319786026540",
     "cataloguePage": 276,
-    "imageUrl": "../images/bla-website-products/194080.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/194080.jpg",
     "catalogueDescription": "246 ELECTRICAL BOATING LIFESTYLE ADVENTURE 11 Aerial Mounts - Multi Adjustable Two axis multi adjustable, moulded white nylon bases to allow mounting on both horizontal and vertical surfaces. Quick one quarter turn release to fold aerial down. Standard male 1\" -14 thread. Aerial Mounts - Fixed Fixed horizontal mounting posts with a choice of short nylon or two heights in stainless steel. Standard male 1\" -14 thread. 70 70 40 40 70 105 BLA Code Description 194080 Plastic lever adjustable folding base BLA Code Description 119110 Stainless steel long post mount 119112 Stainless steel short post mount 119114 Nylon short post mount 119110 119112 119114 93 130 65 BLA Code 119366 Shakespeare Mounting Kit - Heavy Duty Swivel Combines the versatile Style 407 Heavy-duty Swivel Mount with the Shakespeare Style 408-R Insulated Stand-off Bracket. The bracket features an insert to accept 1\" or 1\u00bd\" diameter antennas or extension masts. Includes an 11/8\" insert. Features: \u2022 Swivel mount",
     "productBlockImageUrl": "../images/catalogue/product-blocks/194080.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/aerial-mounts-multi-adjustable/",
@@ -866,7 +850,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2021/02/194080.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "194102": {
     "productNumber": "194102",
     "description": "T-H MARINE RECESSED DRINK HOLDER 110MM BLACK",
     "brand": "",
@@ -885,17 +869,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/21/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 2.77,
     "barcode": "9319786099506",
     "cataloguePage": 21,
-    "imageUrl": "../images/catalogue/product-photos/194102.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/194102.jpg",
     "catalogueDescription": "........... 539 194048............................................. 539 194060............................................. 539 194062............................................. 539 194068............................................. 541 194070............................................. 541 194072............................................. 541 194073............................................. 541 194077............................................. 541 194080............................................. 246 194102............................................. 540 194103............................................. 540 194106............................................. 540 194107............................................. 540 194108............................................. 540 194109............................................. 540 194110............................................. 540 194111............................................. 540 194112............................................. 540 194114................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/194102.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/194102.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/194102.jpg"
   },
-  {
+  "194103": {
     "productNumber": "194103",
     "description": "T-H MARINE RECESSED DRINK HOLDER 110MM WHITE",
     "brand": "",
@@ -914,17 +897,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/21/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 2.77,
     "barcode": "9319786099513",
     "cataloguePage": 21,
-    "imageUrl": "../images/catalogue/product-photos/194103.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/194103.jpg",
     "catalogueDescription": "........... 539 194060............................................. 539 194062............................................. 539 194068............................................. 541 194070............................................. 541 194072............................................. 541 194073............................................. 541 194077............................................. 541 194080............................................. 246 194102............................................. 540 194103............................................. 540 194106............................................. 540 194107............................................. 540 194108............................................. 540 194109............................................. 540 194110............................................. 540 194111............................................. 540 194112............................................. 540 194114............................................. 540 194116................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/194103.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/194103.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/194103.jpg"
   },
-  {
+  "194106": {
     "productNumber": "194106",
     "description": "BLA RECESSED DRINK HOLDER S/STEEL 88MM",
     "brand": "Bla",
@@ -943,17 +925,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/21/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 21.12,
     "barcode": "9319786143162",
     "cataloguePage": 21,
-    "imageUrl": "../images/catalogue/product-photos/194106.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/194106.jpg",
     "catalogueDescription": "........... 539 194062............................................. 539 194068............................................. 541 194070............................................. 541 194072............................................. 541 194073............................................. 541 194077............................................. 541 194080............................................. 246 194102............................................. 540 194103............................................. 540 194106............................................. 540 194107............................................. 540 194108............................................. 540 194109............................................. 540 194110............................................. 540 194111............................................. 540 194112............................................. 540 194114............................................. 540 194116............................................. 540 194117................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/194106.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/194106.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/194106.jpg"
   },
-  {
+  "194107": {
     "productNumber": "194107",
     "description": "MARINE TOWN RECESSED DRINK HOLDER S/STEEL 110MM",
     "brand": "",
@@ -972,17 +953,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/21/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 20.69,
     "barcode": "9319786253120",
     "cataloguePage": 21,
-    "imageUrl": "../images/catalogue/product-photos/194107.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/194107.jpg",
     "catalogueDescription": "........... 539 194068............................................. 541 194070............................................. 541 194072............................................. 541 194073............................................. 541 194077............................................. 541 194080............................................. 246 194102............................................. 540 194103............................................. 540 194106............................................. 540 194107............................................. 540 194108............................................. 540 194109............................................. 540 194110............................................. 540 194111............................................. 540 194112............................................. 540 194114............................................. 540 194116............................................. 540 194117............................................. 540 194118................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/194107.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/194107.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/194107.jpg"
   },
-  {
+  "194108": {
     "productNumber": "194108",
     "description": "BLA RECESSED STAINLESS STEEL DRINK HOLDER",
     "brand": "Bla",
@@ -1001,17 +981,16 @@
     "subCategoryDescription": "Stainless Fittings & Deck Hardware products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/21/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 9.71,
     "barcode": "4710587826912",
     "cataloguePage": 21,
-    "imageUrl": "../images/catalogue/product-photos/194108.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/194108.jpg",
     "catalogueDescription": "........... 541 194070............................................. 541 194072............................................. 541 194073............................................. 541 194077............................................. 541 194080............................................. 246 194102............................................. 540 194103............................................. 540 194106............................................. 540 194107............................................. 540 194108............................................. 540 194109............................................. 540 194110............................................. 540 194111............................................. 540 194112............................................. 540 194114............................................. 540 194116............................................. 540 194117............................................. 540 194118............................................. 540 194119................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/194108.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/194108.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/194108.jpg"
   },
-  {
+  "194110": {
     "productNumber": "194110",
     "description": "BLA FOLDING PLASTIC DRINK HOLDER BLACK",
     "brand": "Bla",
@@ -1030,17 +1009,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/21/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 5.07,
     "barcode": "9319786026571",
     "cataloguePage": 21,
-    "imageUrl": "../images/catalogue/product-photos/194110.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/194110.jpg",
     "catalogueDescription": "........... 541 194073............................................. 541 194077............................................. 541 194080............................................. 246 194102............................................. 540 194103............................................. 540 194106............................................. 540 194107............................................. 540 194108............................................. 540 194109............................................. 540 194110............................................. 540 194111............................................. 540 194112............................................. 540 194114............................................. 540 194116............................................. 540 194117............................................. 540 194118............................................. 540 194119............................................. 540 194120............................................. 540 194130................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/194110.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/194110.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/194110.jpg"
   },
-  {
+  "194111": {
     "productNumber": "194111",
     "description": "BLA FOLDING PLASTIC DRINK HOLDER GREY",
     "brand": "Bla",
@@ -1059,17 +1037,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/21/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 5.17,
     "barcode": "4710587822716",
     "cataloguePage": 21,
-    "imageUrl": "../images/catalogue/product-photos/194111.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/194111.jpg",
     "catalogueDescription": "........... 541 194077............................................. 541 194080............................................. 246 194102............................................. 540 194103............................................. 540 194106............................................. 540 194107............................................. 540 194108............................................. 540 194109............................................. 540 194110............................................. 540 194111............................................. 540 194112............................................. 540 194114............................................. 540 194116............................................. 540 194117............................................. 540 194118............................................. 540 194119............................................. 540 194120............................................. 540 194130............................................. 540 194132................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/194111.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/194111.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/194111.jpg"
   },
-  {
+  "194112": {
     "productNumber": "194112",
     "description": "BLA FOLDING PLASTIC DRINK HOLDER WHITE",
     "brand": "Bla",
@@ -1088,17 +1065,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/21/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 5.02,
     "barcode": "9319786026588",
     "cataloguePage": 21,
-    "imageUrl": "../images/catalogue/product-photos/194112.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/194112.jpg",
     "catalogueDescription": "........... 541 194080............................................. 246 194102............................................. 540 194103............................................. 540 194106............................................. 540 194107............................................. 540 194108............................................. 540 194109............................................. 540 194110............................................. 540 194111............................................. 540 194112............................................. 540 194114............................................. 540 194116............................................. 540 194117............................................. 540 194118............................................. 540 194119............................................. 540 194120............................................. 540 194130............................................. 540 194132............................................. 540 194190................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/194112.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/194112.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/194112.jpg"
   },
-  {
+  "194114": {
     "productNumber": "194114",
     "description": "BLA ADJUSTABLE PLASTIC DRINK HOLDER BLACK",
     "brand": "Bla",
@@ -1117,17 +1093,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/21/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 3.16,
     "barcode": "9319786250129",
     "cataloguePage": 21,
-    "imageUrl": "../images/catalogue/product-photos/194114.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/194114.jpg",
     "catalogueDescription": "........... 246 194102............................................. 540 194103............................................. 540 194106............................................. 540 194107............................................. 540 194108............................................. 540 194109............................................. 540 194110............................................. 540 194111............................................. 540 194112............................................. 540 194114............................................. 540 194116............................................. 540 194117............................................. 540 194118............................................. 540 194119............................................. 540 194120............................................. 540 194130............................................. 540 194132............................................. 540 194190............................................. 541 194192................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/194114.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/194114.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/194114.jpg"
   },
-  {
+  "194116": {
     "productNumber": "194116",
     "description": "BLA ADJUSTABLE PLASTIC DRINK HOLDER WHITE",
     "brand": "Bla",
@@ -1146,17 +1121,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/21/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 3.16,
     "barcode": "9319786250112",
     "cataloguePage": 21,
-    "imageUrl": "../images/catalogue/product-photos/194116.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/194116.jpg",
     "catalogueDescription": "........... 540 194103............................................. 540 194106............................................. 540 194107............................................. 540 194108............................................. 540 194109............................................. 540 194110............................................. 540 194111............................................. 540 194112............................................. 540 194114............................................. 540 194116............................................. 540 194117............................................. 540 194118............................................. 540 194119............................................. 540 194120............................................. 540 194130............................................. 540 194132............................................. 540 194190............................................. 541 194192............................................. 541 194196................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/194116.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/194116.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/194116.jpg"
   },
-  {
+  "194117": {
     "productNumber": "194117",
     "description": "T-H MARINE RECESSED LED STAINLESS STEEL DRINK HOLDER GREEN",
     "brand": "",
@@ -1175,17 +1149,16 @@
     "subCategoryDescription": "Navigation & LED Lighting products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/21/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 44.58,
     "barcode": "733572084757",
     "cataloguePage": 21,
-    "imageUrl": "../images/catalogue/product-photos/194117.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/194117.jpg",
     "catalogueDescription": "........... 540 194106............................................. 540 194107............................................. 540 194108............................................. 540 194109............................................. 540 194110............................................. 540 194111............................................. 540 194112............................................. 540 194114............................................. 540 194116............................................. 540 194117............................................. 540 194118............................................. 540 194119............................................. 540 194120............................................. 540 194130............................................. 540 194132............................................. 540 194190............................................. 541 194192............................................. 541 194196............................................. 553 194200................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/194117.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/194117.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/194117.jpg"
   },
-  {
+  "194118": {
     "productNumber": "194118",
     "description": "T-H MARINE RECESSED LED STAINLESS STEEL DRINK HOLDER BLUE",
     "brand": "",
@@ -1204,17 +1177,16 @@
     "subCategoryDescription": "Navigation & LED Lighting products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/21/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 44.58,
     "barcode": "733572084603",
     "cataloguePage": 21,
-    "imageUrl": "../images/catalogue/product-photos/194118.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/194118.jpg",
     "catalogueDescription": "........... 540 194107............................................. 540 194108............................................. 540 194109............................................. 540 194110............................................. 540 194111............................................. 540 194112............................................. 540 194114............................................. 540 194116............................................. 540 194117............................................. 540 194118............................................. 540 194119............................................. 540 194120............................................. 540 194130............................................. 540 194132............................................. 540 194190............................................. 541 194192............................................. 541 194196............................................. 553 194200............................................. 553 194202................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/194118.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/194118.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/194118.jpg"
   },
-  {
+  "194119": {
     "productNumber": "194119",
     "description": "T-H MARINE RECESSED LED STAINLESS STEEL DRINK HOLDER RED",
     "brand": "",
@@ -1233,17 +1205,16 @@
     "subCategoryDescription": "Navigation & LED Lighting products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/21/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 44.58,
     "barcode": "733572084702",
     "cataloguePage": 21,
-    "imageUrl": "../images/catalogue/product-photos/194119.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/194119.jpg",
     "catalogueDescription": "........... 540 194108............................................. 540 194109............................................. 540 194110............................................. 540 194111............................................. 540 194112............................................. 540 194114............................................. 540 194116............................................. 540 194117............................................. 540 194118............................................. 540 194119............................................. 540 194120............................................. 540 194130............................................. 540 194132............................................. 540 194190............................................. 541 194192............................................. 541 194196............................................. 553 194200............................................. 553 194202............................................. 553 194218................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/194119.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/194119.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/194119.jpg"
   },
-  {
+  "194120": {
     "productNumber": "194120",
     "description": "T-H MARINE RECESSED LED STAINLESS STEEL DRINK HOLDER WHITE",
     "brand": "",
@@ -1262,17 +1233,16 @@
     "subCategoryDescription": "Navigation & LED Lighting products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/21/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 44.58,
     "barcode": "733572084658",
     "cataloguePage": 21,
-    "imageUrl": "../images/catalogue/product-photos/194120.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/194120.jpg",
     "catalogueDescription": "........... 540 194109............................................. 540 194110............................................. 540 194111............................................. 540 194112............................................. 540 194114............................................. 540 194116............................................. 540 194117............................................. 540 194118............................................. 540 194119............................................. 540 194120............................................. 540 194130............................................. 540 194132............................................. 540 194190............................................. 541 194192............................................. 541 194196............................................. 553 194200............................................. 553 194202............................................. 553 194218............................................. 553 194220................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/194120.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/194120.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/194120.jpg"
   },
-  {
+  "194130": {
     "productNumber": "194130",
     "description": "MARINE TOWN SURFACE MOUNT DRINK HOLDER S/STEEL SINGLE",
     "brand": "",
@@ -1291,17 +1261,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/21/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 20.45,
     "barcode": "9319786337981",
     "cataloguePage": 21,
-    "imageUrl": "../images/catalogue/product-photos/194130.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/194130.jpg",
     "catalogueDescription": "........... 540 194110............................................. 540 194111............................................. 540 194112............................................. 540 194114............................................. 540 194116............................................. 540 194117............................................. 540 194118............................................. 540 194119............................................. 540 194120............................................. 540 194130............................................. 540 194132............................................. 540 194190............................................. 541 194192............................................. 541 194196............................................. 553 194200............................................. 553 194202............................................. 553 194218............................................. 553 194220............................................. 553 194232................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/194130.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/194130.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/194130.jpg"
   },
-  {
+  "194132": {
     "productNumber": "194132",
     "description": "MARINE TOWN SURFACE MOUNT DRINK HOLDER S/STEEL DOUBLE",
     "brand": "",
@@ -1320,17 +1289,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/21/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 30.48,
     "barcode": "9319786337998",
     "cataloguePage": 21,
-    "imageUrl": "../images/catalogue/product-photos/194132.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/194132.jpg",
     "catalogueDescription": "........... 540 194111............................................. 540 194112............................................. 540 194114............................................. 540 194116............................................. 540 194117............................................. 540 194118............................................. 540 194119............................................. 540 194120............................................. 540 194130............................................. 540 194132............................................. 540 194190............................................. 541 194192............................................. 541 194196............................................. 553 194200............................................. 553 194202............................................. 553 194218............................................. 553 194220............................................. 553 194232............................................. 553 194260................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/194132.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/194132.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/194132.jpg"
   },
-  {
+  "194190": {
     "productNumber": "194190",
     "description": "BLA CONVEX SKI MIRROR CHROME 183X83MM",
     "brand": "Bla",
@@ -1349,12 +1317,12 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/21/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 27.38,
     "barcode": "9319786093726",
     "cataloguePage": 21,
-    "imageUrl": "../images/bla-website-products/194190.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/194190.jpg",
     "catalogueDescription": "........... 540 194112............................................. 540 194114............................................. 540 194116............................................. 540 194117............................................. 540 194118............................................. 540 194119............................................. 540 194120............................................. 540 194130............................................. 540 194132............................................. 540 194190............................................. 541 194192............................................. 541 194196............................................. 553 194200............................................. 553 194202............................................. 553 194218............................................. 553 194220............................................. 553 194232............................................. 553 194260............................................. 553 194281................",
     "productBlockImageUrl": "../images/catalogue/product-blocks/194190.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/ski-mirror-chrome-plated/",
@@ -1371,7 +1339,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/07/194190.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "194192": {
     "productNumber": "194192",
     "description": "BLA CONVEX SKI MIRROR CHROME 303X103MM",
     "brand": "Bla",
@@ -1390,12 +1358,12 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/21/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 24.36,
     "barcode": "9319786127841",
     "cataloguePage": 21,
-    "imageUrl": "../images/bla-website-products/194192.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/194192.jpg",
     "catalogueDescription": "........... 540 194114............................................. 540 194116............................................. 540 194117............................................. 540 194118............................................. 540 194119............................................. 540 194120............................................. 540 194130............................................. 540 194132............................................. 540 194190............................................. 541 194192............................................. 541 194196............................................. 553 194200............................................. 553 194202............................................. 553 194218............................................. 553 194220............................................. 553 194232............................................. 553 194260............................................. 553 194281............................................. 555 194282................",
     "productBlockImageUrl": "../images/catalogue/product-blocks/194192.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/ski-mirror/",
@@ -1412,7 +1380,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/07/194192.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "194196": {
     "productNumber": "194196",
     "description": "BLA TRANSOM STEP BLACK NYLON 165X62X43MM",
     "brand": "Bla",
@@ -1431,12 +1399,12 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/21/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 4.92,
     "barcode": "9319786106792",
     "cataloguePage": 21,
-    "imageUrl": "../images/bla-website-products/194196.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/194196.jpg",
     "catalogueDescription": "........... 540 194116............................................. 540 194117............................................. 540 194118............................................. 540 194119............................................. 540 194120............................................. 540 194130............................................. 540 194132............................................. 540 194190............................................. 541 194192............................................. 541 194196............................................. 553 194200............................................. 553 194202............................................. 553 194218............................................. 553 194220............................................. 553 194232............................................. 553 194260............................................. 553 194281............................................. 555 194282............................................. 553 194284................",
     "productBlockImageUrl": "../images/catalogue/product-blocks/194196.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/transom-step-nylon/",
@@ -1453,7 +1421,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/07/194196.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "194200": {
     "productNumber": "194200",
     "description": "BLA BOARDING LADDER ALLUMINIUM PLASTIC 3 STEP 890X375MM",
     "brand": "Bla",
@@ -1472,17 +1440,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/21/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 39.14,
     "barcode": "9319786093719",
     "cataloguePage": 21,
-    "imageUrl": "../images/catalogue/product-photos/194200.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/194200.jpg",
     "catalogueDescription": "........... 540 194117............................................. 540 194118............................................. 540 194119............................................. 540 194120............................................. 540 194130............................................. 540 194132............................................. 540 194190............................................. 541 194192............................................. 541 194196............................................. 553 194200............................................. 553 194202............................................. 553 194218............................................. 553 194220............................................. 553 194232............................................. 553 194260............................................. 553 194281............................................. 555 194282............................................. 553 194284............................................. 554 194286................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/194200.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/194200.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/194200.jpg"
   },
-  {
+  "194201": {
     "productNumber": "194201",
     "description": "OSCULATI TELESCOPIC FOLDAWAY STD LADDER 3 STEP S/STEEL 316",
     "brand": "Y",
@@ -1501,7 +1468,7 @@
     "subCategoryDescription": "Stainless Fittings & Deck Hardware products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 163.95,
     "barcode": "8033137151859",
@@ -1511,7 +1478,7 @@
     "productWebSearchQuery": "\"194201\" \"OSCULATI TELESCOPIC FOLDAWAY STD LADDER 3 STEP S/STEEL 316\"",
     "imageUrl": "../images/web-product-images/194201.jpg"
   },
-  {
+  "194202": {
     "productNumber": "194202",
     "description": "BLA BOARDING LADDER ALLUMINIUM PLASTIC 4 STEP 1130X375MM",
     "brand": "Bla",
@@ -1530,17 +1497,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/21/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 47.78,
     "barcode": "9319786128848",
     "cataloguePage": 21,
-    "imageUrl": "../images/catalogue/product-photos/194202.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/194202.jpg",
     "catalogueDescription": "........... 540 194118............................................. 540 194119............................................. 540 194120............................................. 540 194130............................................. 540 194132............................................. 540 194190............................................. 541 194192............................................. 541 194196............................................. 553 194200............................................. 553 194202............................................. 553 194218............................................. 553 194220............................................. 553 194232............................................. 553 194260............................................. 553 194281............................................. 555 194282............................................. 553 194284............................................. 554 194286............................................. 554 194290................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/194202.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/194202.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/194202.jpg"
   },
-  {
+  "194205": {
     "productNumber": "194205",
     "description": "OSCULATI 4 STEP TELESCOPIC LADDER TOPLINE WITH SLIDE",
     "brand": "Y",
@@ -1559,7 +1525,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 765.39,
     "barcode": "8033137151910",
@@ -1569,7 +1535,7 @@
     "productWebSearchQuery": "\"194205\" \"Y OSCULATI 4 STEP TELESCOPIC LADDER TOPLINE WITH SLIDE\"",
     "imageUrl": "../images/web-product-images/194205.jpg"
   },
-  {
+  "194208": {
     "productNumber": "194208",
     "description": "OSCULATI 11 STEP EMERGENCY LADDER BLACK",
     "brand": "Y",
@@ -1588,7 +1554,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 194.62,
     "barcode": "8033137216039",
@@ -1598,7 +1564,7 @@
     "productWebSearchQuery": "\"194208\" \"OSCULATI 11 STEP EMERGENCY LADDER BLACK\"",
     "imageUrl": "../images/web-product-images/194208.jpg"
   },
-  {
+  "194210": {
     "productNumber": "194210",
     "description": "OSCULATI  3 STEP EMERGENCY LADDER W/NUT",
     "brand": "Y",
@@ -1617,7 +1583,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 66.64,
     "barcode": "9319786464847",
@@ -1627,7 +1593,7 @@
     "productWebSearchQuery": "\"194210\" \"OSCULATI 3 STEP EMERGENCY LADDER W/NUT\"",
     "imageUrl": "../images/web-product-images/194210.jpg"
   },
-  {
+  "194214": {
     "productNumber": "194214",
     "description": "BLA DELUXE TELESCOPIC LADDER 2 STEP 316SS",
     "brand": "Bla",
@@ -1646,7 +1612,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 59.41,
     "barcode": "9319786471784",
@@ -1656,7 +1622,7 @@
     "productWebSearchQuery": "\"194214\" \"Bla BLA DELUXE TELESCOPIC LADDER 2 STEP 316SS\"",
     "imageUrl": "../images/web-product-images/194214.jpg"
   },
-  {
+  "194216": {
     "productNumber": "194216",
     "description": "BLA DELUXE TELESCOPIC LADDER 3 STEP 316SS",
     "brand": "Bla",
@@ -1675,7 +1641,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 78.11,
     "barcode": "9319786471791",
@@ -1685,7 +1651,7 @@
     "productWebSearchQuery": "\"194216\" \"Bla BLA DELUXE TELESCOPIC LADDER 3 STEP 316SS\"",
     "imageUrl": "../images/web-product-images/194216.jpg"
   },
-  {
+  "194218": {
     "productNumber": "194218",
     "description": "BLA TELESCOPIC BOARDING LADDER S/STEEL 2 STEP",
     "brand": "Bla",
@@ -1704,17 +1670,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/21/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 98.76,
     "barcode": "9319786141144",
     "cataloguePage": 21,
-    "imageUrl": "../images/catalogue/product-photos/194218.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/194218.jpg",
     "catalogueDescription": "........... 540 194119............................................. 540 194120............................................. 540 194130............................................. 540 194132............................................. 540 194190............................................. 541 194192............................................. 541 194196............................................. 553 194200............................................. 553 194202............................................. 553 194218............................................. 553 194220............................................. 553 194232............................................. 553 194260............................................. 553 194281............................................. 555 194282............................................. 553 194284............................................. 554 194286............................................. 554 194290............................................. 554 194292................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/194218.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/194218.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/194218.jpg"
   },
-  {
+  "194220": {
     "productNumber": "194220",
     "description": "MARINE TOWN TELESCOPIC BOARDING LADDER S/STEEL 3 STEP",
     "brand": "",
@@ -1733,17 +1698,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/21/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 141.2,
     "barcode": "9319786106150",
     "cataloguePage": 21,
-    "imageUrl": "../images/catalogue/product-photos/194220.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/194220.jpg",
     "catalogueDescription": "........... 540 194120............................................. 540 194130............................................. 540 194132............................................. 540 194190............................................. 541 194192............................................. 541 194196............................................. 553 194200............................................. 553 194202............................................. 553 194218............................................. 553 194220............................................. 553 194232............................................. 553 194260............................................. 553 194281............................................. 555 194282............................................. 553 194284............................................. 554 194286............................................. 554 194290............................................. 554 194292............................................. 554 194508................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/194220.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/194220.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/194220.jpg"
   },
-  {
+  "194232": {
     "productNumber": "194232",
     "description": "MARINE TOWN RETRACTABLE BOARDING LADDER S/STEEL 3 STEP",
     "brand": "",
@@ -1762,12 +1726,12 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/21/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 155.08,
     "barcode": "9319786141151",
     "cataloguePage": 21,
-    "imageUrl": "../images/bla-website-products/194232.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/194232.jpg",
     "catalogueDescription": "........... 540 194130............................................. 540 194132............................................. 540 194190............................................. 541 194192............................................. 541 194196............................................. 553 194200............................................. 553 194202............................................. 553 194218............................................. 553 194220............................................. 553 194232............................................. 553 194260............................................. 553 194281............................................. 555 194282............................................. 553 194284............................................. 554 194286............................................. 554 194290............................................. 554 194292............................................. 554 194508............................................. 545 194512................",
     "productBlockImageUrl": "../images/catalogue/product-blocks/194232.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/marine-town-telescopic-boarding-ladder-stainless-steel/",
@@ -1784,7 +1748,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/07/194232.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "194236": {
     "productNumber": "194236",
     "description": "BLA SPORT LADDER REMOVABLE 3 STEP",
     "brand": "Bla",
@@ -1803,7 +1767,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 132.17,
     "barcode": "9319786471807",
@@ -1813,7 +1777,7 @@
     "productWebSearchQuery": "\"194236\" \"Bla BLA SPORT LADDER REMOVABLE 3 STEP\"",
     "imageUrl": "../images/web-product-images/194236.jpg"
   },
-  {
+  "194237": {
     "productNumber": "194237",
     "description": "BLA SPORT LADDER REMOVABLE 4 STEP",
     "brand": "Bla",
@@ -1832,7 +1796,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 141.74,
     "barcode": "9319786471814",
@@ -1842,7 +1806,7 @@
     "productWebSearchQuery": "\"194237\" \"Bla BLA SPORT LADDER REMOVABLE 4 STEP\"",
     "imageUrl": "../images/web-product-images/194237.jpg"
   },
-  {
+  "194238": {
     "productNumber": "194238",
     "description": "BLA TELESCOPIC LADDER REMOVABLE 3 STEP",
     "brand": "Bla",
@@ -1861,7 +1825,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 145.61,
     "barcode": "9319786471821",
@@ -1871,7 +1835,7 @@
     "productWebSearchQuery": "\"194238\" \"Bla BLA TELESCOPIC LADDER REMOVABLE 3 STEP\"",
     "imageUrl": "../images/web-product-images/194238.webp"
   },
-  {
+  "194239": {
     "productNumber": "194239",
     "description": "BLA TELESCOPIC LADDER REMOVABLE 4 STEP",
     "brand": "Bla",
@@ -1890,7 +1854,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 158.93,
     "barcode": "9319786471838",
@@ -1900,7 +1864,7 @@
     "productWebSearchQuery": "\"194239\" \"Bla BLA TELESCOPIC LADDER REMOVABLE 4 STEP\"",
     "imageUrl": "../images/web-product-images/194239.jpg"
   },
-  {
+  "194244": {
     "productNumber": "194244",
     "description": "BLA STAINLESS BOX LADDER 4 STEP",
     "brand": "Bla",
@@ -1919,7 +1883,7 @@
     "subCategoryDescription": "Stainless Fittings & Deck Hardware products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 318.68,
     "barcode": "9319786471845",
@@ -1929,7 +1893,7 @@
     "productWebSearchQuery": "\"194244\" \"Bla BLA STAINLESS BOX LADDER 4 STEP\"",
     "imageUrl": "../images/web-product-images/194244.jpg"
   },
-  {
+  "194260": {
     "productNumber": "194260",
     "description": "MARINE TOWN FOLDING BOARDING LADDER S/STEEL 3 STEP",
     "brand": "",
@@ -1948,12 +1912,12 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/21/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 161.06,
     "barcode": "9319786270516",
     "cataloguePage": 21,
-    "imageUrl": "../images/bla-website-products/194260.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/194260.jpg",
     "catalogueDescription": "........... 540 194132............................................. 540 194190............................................. 541 194192............................................. 541 194196............................................. 553 194200............................................. 553 194202............................................. 553 194218............................................. 553 194220............................................. 553 194232............................................. 553 194260............................................. 553 194281............................................. 555 194282............................................. 553 194284............................................. 554 194286............................................. 554 194290............................................. 554 194292............................................. 554 194508............................................. 545 194512............................................. 545 194514................",
     "productBlockImageUrl": "../images/catalogue/product-blocks/194260.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/marine-town-folding-telescopic-ladder-stainless-steel/",
@@ -1970,7 +1934,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/07/194260.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "194281": {
     "productNumber": "194281",
     "description": "GARELICK FOLDING PONTOON LADDER ALLUM PLASTIC 4 STEP",
     "brand": "",
@@ -1989,12 +1953,12 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/21/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 375.52,
     "barcode": "038203123806",
     "cataloguePage": 21,
-    "imageUrl": "../images/bla-website-products/194281.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/194281.jpg",
     "catalogueDescription": "........... 540 194190............................................. 541 194192............................................. 541 194196............................................. 553 194200............................................. 553 194202............................................. 553 194218............................................. 553 194220............................................. 553 194232............................................. 553 194260............................................. 553 194281............................................. 555 194282............................................. 553 194284............................................. 554 194286............................................. 554 194290............................................. 554 194292............................................. 554 194508............................................. 545 194512............................................. 545 194514............................................. 545 194572................",
     "productBlockImageUrl": "../images/catalogue/product-blocks/194281.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/garelick-eez-in-premium-folding-pontoon-transom-boarding-ladder/",
@@ -2011,7 +1975,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/07/194281.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "194282": {
     "productNumber": "194282",
     "description": "GARELICK 3 STEP UNDER PLATFORM LADDER",
     "brand": "",
@@ -2030,17 +1994,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/21/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 312.21,
     "barcode": "038203196435",
     "cataloguePage": 21,
-    "imageUrl": "../images/catalogue/product-photos/194282.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/194282.jpg",
     "catalogueDescription": "........... 541 194192............................................. 541 194196............................................. 553 194200............................................. 553 194202............................................. 553 194218............................................. 553 194220............................................. 553 194232............................................. 553 194260............................................. 553 194281............................................. 555 194282............................................. 553 194284............................................. 554 194286............................................. 554 194290............................................. 554 194292............................................. 554 194508............................................. 545 194512............................................. 545 194514............................................. 545 194572............................................. 543 194574................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/194282.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/194282.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/194282.jpg"
   },
-  {
+  "194284": {
     "productNumber": "194284",
     "description": "GARELICK OVER PLATFORM DIVER LADDER S/STEEL 3 STEP",
     "brand": "",
@@ -2059,12 +2022,12 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/21/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 410.08,
     "barcode": "038203196268",
     "cataloguePage": 21,
-    "imageUrl": "../images/bla-website-products/194284.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/194284.jpg",
     "catalogueDescription": "........... 541 194196............................................. 553 194200............................................. 553 194202............................................. 553 194218............................................. 553 194220............................................. 553 194232............................................. 553 194260............................................. 553 194281............................................. 555 194282............................................. 553 194284............................................. 554 194286............................................. 554 194290............................................. 554 194292............................................. 554 194508............................................. 545 194512............................................. 545 194514............................................. 545 194572............................................. 543 194574............................................. 543 194576................",
     "productBlockImageUrl": "../images/catalogue/product-blocks/194284.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/garelick-eez-in-telescoping-stainless-steel-sport-diver-ladder/",
@@ -2081,7 +2044,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/07/194284.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "194286": {
     "productNumber": "194286",
     "description": "GARELICK UNDER PLATFORM DIVER LADDER S/STEEL 3 STEP",
     "brand": "",
@@ -2100,12 +2063,12 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/21/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 827.36,
     "barcode": "038203196367",
     "cataloguePage": 21,
-    "imageUrl": "../images/bla-website-products/194286.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/194286.jpg",
     "catalogueDescription": "........... 553 194200............................................. 553 194202............................................. 553 194218............................................. 553 194220............................................. 553 194232............................................. 553 194260............................................. 553 194281............................................. 555 194282............................................. 553 194284............................................. 554 194286............................................. 554 194290............................................. 554 194292............................................. 554 194508............................................. 545 194512............................................. 545 194514............................................. 545 194572............................................. 543 194574............................................. 543 194576............................................. 543 194578................",
     "productBlockImageUrl": "../images/catalogue/product-blocks/194286.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/garelick-eez-in-under-platform-double-tube-telescoping-dive-ladder/",
@@ -2122,7 +2085,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/07/194286.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "194290": {
     "productNumber": "194290",
     "description": "GARELICK DIVER/SPORT LADDER 3 STEP",
     "brand": "",
@@ -2141,17 +2104,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/21/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 353.41,
     "barcode": "038203198033",
     "cataloguePage": 21,
-    "imageUrl": "../images/catalogue/product-photos/194290.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/194290.jpg",
     "catalogueDescription": "........... 553 194202............................................. 553 194218............................................. 553 194220............................................. 553 194232............................................. 553 194260............................................. 553 194281............................................. 555 194282............................................. 553 194284............................................. 554 194286............................................. 554 194290............................................. 554 194292............................................. 554 194508............................................. 545 194512............................................. 545 194514............................................. 545 194572............................................. 543 194574............................................. 543 194576............................................. 543 194578............................................. 543 194580................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/194290.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/194290.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/194290.jpg"
   },
-  {
+  "194291": {
     "productNumber": "194291",
     "description": "GARELICK PERISCOPE 3 STEP BLACK ALUMINIUM LADDER",
     "brand": "Y",
@@ -2170,7 +2132,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 834.97,
     "barcode": "038203000008",
@@ -2180,7 +2142,7 @@
     "productWebSearchQuery": "\"194291\" \"Y GARELICK PERISCOPE 3 STEP BLACK ALUMINIUM LADDER\"",
     "imageUrl": "../images/web-product-images/194291.jpg"
   },
-  {
+  "194292": {
     "productNumber": "194292",
     "description": "GARELICK DIVER/SPORT LADDER 4 STEP",
     "brand": "",
@@ -2199,17 +2161,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/21/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 452.39,
     "barcode": "038203198040",
     "cataloguePage": 21,
-    "imageUrl": "../images/catalogue/product-photos/194292.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/194292.jpg",
     "catalogueDescription": "........... 553 194218............................................. 553 194220............................................. 553 194232............................................. 553 194260............................................. 553 194281............................................. 555 194282............................................. 553 194284............................................. 554 194286............................................. 554 194290............................................. 554 194292............................................. 554 194508............................................. 545 194512............................................. 545 194514............................................. 545 194572............................................. 543 194574............................................. 543 194576............................................. 543 194578............................................. 543 194580............................................. 543 194582................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/194292.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/194292.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/194292.jpg"
   },
-  {
+  "194293": {
     "productNumber": "194293",
     "description": "GARELICK DIVER/SPORT LADDER VERTICAL MOUNT BRACKET",
     "brand": "Y",
@@ -2228,7 +2189,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 27.5,
     "barcode": "038203991801",
@@ -2238,7 +2199,7 @@
     "productWebSearchQuery": "\"194293\" \"Y GARELICK DIVER/SPORT LADDER VERTICAL MOUNT BRACKET\"",
     "imageUrl": "../images/web-product-images/194293.jpg"
   },
-  {
+  "194294": {
     "productNumber": "194294",
     "description": "GARELICK 4 STEP TELESCOPIC STAINLESS STEEL DIVE LADDER",
     "brand": "Y",
@@ -2257,7 +2218,7 @@
     "subCategoryDescription": "Stainless Fittings & Deck Hardware products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 509.72,
     "barcode": "038203198446",
@@ -2267,7 +2228,7 @@
     "productWebSearchQuery": "\"194294\" \"Y GARELICK 4 STEP TELESCOPIC STAINLESS STEEL DIVE LADDER\"",
     "imageUrl": "../images/web-product-images/194294.jpg"
   },
-  {
+  "194295": {
     "productNumber": "194295",
     "description": "GARELICK COMPACT 3 STEP TRANSOM LADDER",
     "brand": "Y",
@@ -2286,7 +2247,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 374.09,
     "barcode": "038203197005",
@@ -2296,7 +2257,7 @@
     "productWebSearchQuery": "\"194295\" \"Y GARELICK COMPACT 3 STEP TRANSOM LADDER\"",
     "imageUrl": "../images/web-product-images/194295.jpg"
   },
-  {
+  "194572": {
     "productNumber": "194572",
     "description": "BLA 3 BOW BIMINI GREY 1.5M-1.7M",
     "brand": "Bla",
@@ -2315,17 +2276,16 @@
     "subCategoryDescription": "Covers, Seating & Fitout products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/21/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 136.91,
     "barcode": "9319786415481",
     "cataloguePage": 21,
-    "imageUrl": "../images/catalogue/product-photos/194572.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/194572.jpg",
     "catalogueDescription": "........... 553 194281............................................. 555 194282............................................. 553 194284............................................. 554 194286............................................. 554 194290............................................. 554 194292............................................. 554 194508............................................. 545 194512............................................. 545 194514............................................. 545 194572............................................. 543 194574............................................. 543 194576............................................. 543 194578............................................. 543 194580............................................. 543 194582............................................. 543 194584............................................. 543 194586............................................. 543 194588............................................. 543 194590................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/194572.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/194572.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/194572.jpg"
   },
-  {
+  "194574": {
     "productNumber": "194574",
     "description": "BLA 3 BOW BIMINI BLACK 1.5M-1.7M",
     "brand": "Bla",
@@ -2344,17 +2304,16 @@
     "subCategoryDescription": "Covers, Seating & Fitout products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/21/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 136.91,
     "barcode": "9319786415498",
     "cataloguePage": 21,
-    "imageUrl": "../images/catalogue/product-photos/194574.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/194574.jpg",
     "catalogueDescription": "........... 555 194282............................................. 553 194284............................................. 554 194286............................................. 554 194290............................................. 554 194292............................................. 554 194508............................................. 545 194512............................................. 545 194514............................................. 545 194572............................................. 543 194574............................................. 543 194576............................................. 543 194578............................................. 543 194580............................................. 543 194582............................................. 543 194584............................................. 543 194586............................................. 543 194588............................................. 543 194590............................................. 543 194592................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/194574.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/194574.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/194574.jpg"
   },
-  {
+  "194576": {
     "productNumber": "194576",
     "description": "BLA 3 BOW BIMINI NAVY 1.5M-1.7M",
     "brand": "Bla",
@@ -2373,17 +2332,16 @@
     "subCategoryDescription": "Covers, Seating & Fitout products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/21/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 136.91,
     "barcode": "9319786415504",
     "cataloguePage": 21,
-    "imageUrl": "../images/catalogue/product-photos/194576.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/194576.jpg",
     "catalogueDescription": "........... 553 194284............................................. 554 194286............................................. 554 194290............................................. 554 194292............................................. 554 194508............................................. 545 194512............................................. 545 194514............................................. 545 194572............................................. 543 194574............................................. 543 194576............................................. 543 194578............................................. 543 194580............................................. 543 194582............................................. 543 194584............................................. 543 194586............................................. 543 194588............................................. 543 194590............................................. 543 194592............................................. 543 194594................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/194576.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/194576.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/194576.jpg"
   },
-  {
+  "194578": {
     "productNumber": "194578",
     "description": "BLA 3 BOW BIMINI GREY 1.8M-2.0M",
     "brand": "Bla",
@@ -2402,17 +2360,16 @@
     "subCategoryDescription": "Covers, Seating & Fitout products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/21/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 152.76,
     "barcode": "9319786415511",
     "cataloguePage": 21,
-    "imageUrl": "../images/catalogue/product-photos/194578.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/194578.jpg",
     "catalogueDescription": "........... 554 194286............................................. 554 194290............................................. 554 194292............................................. 554 194508............................................. 545 194512............................................. 545 194514............................................. 545 194572............................................. 543 194574............................................. 543 194576............................................. 543 194578............................................. 543 194580............................................. 543 194582............................................. 543 194584............................................. 543 194586............................................. 543 194588............................................. 543 194590............................................. 543 194592............................................. 543 194594............................................. 543 194600................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/194578.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/194578.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/194578.jpg"
   },
-  {
+  "194580": {
     "productNumber": "194580",
     "description": "BLA 3 BOW BIMINI BLACK 1.8M-2.0M",
     "brand": "Bla",
@@ -2431,17 +2388,16 @@
     "subCategoryDescription": "Covers, Seating & Fitout products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/21/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 152.76,
     "barcode": "9319786415627",
     "cataloguePage": 21,
-    "imageUrl": "../images/catalogue/product-photos/194580.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/194580.jpg",
     "catalogueDescription": "........... 554 194290............................................. 554 194292............................................. 554 194508............................................. 545 194512............................................. 545 194514............................................. 545 194572............................................. 543 194574............................................. 543 194576............................................. 543 194578............................................. 543 194580............................................. 543 194582............................................. 543 194584............................................. 543 194586............................................. 543 194588............................................. 543 194590............................................. 543 194592............................................. 543 194594............................................. 543 194600............................................. 544 194602................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/194580.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/194580.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/194580.jpg"
   },
-  {
+  "194582": {
     "productNumber": "194582",
     "description": "BLA 3 BOW BIMINI NAVY 1.8M-2.0M",
     "brand": "Bla",
@@ -2460,17 +2416,16 @@
     "subCategoryDescription": "Covers, Seating & Fitout products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/21/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 152.76,
     "barcode": "9319786415528",
     "cataloguePage": 21,
-    "imageUrl": "../images/catalogue/product-photos/194582.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/194582.jpg",
     "catalogueDescription": "........... 554 194292............................................. 554 194508............................................. 545 194512............................................. 545 194514............................................. 545 194572............................................. 543 194574............................................. 543 194576............................................. 543 194578............................................. 543 194580............................................. 543 194582............................................. 543 194584............................................. 543 194586............................................. 543 194588............................................. 543 194590............................................. 543 194592............................................. 543 194594............................................. 543 194600............................................. 544 194602............................................. 544 194604................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/194582.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/194582.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/194582.jpg"
   },
-  {
+  "194584": {
     "productNumber": "194584",
     "description": "BLA 4 BOW BIMINI GREY 1.5M-1.7M",
     "brand": "Bla",
@@ -2489,17 +2444,16 @@
     "subCategoryDescription": "Covers, Seating & Fitout products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/21/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 160.83,
     "barcode": "9319786415535",
     "cataloguePage": 21,
-    "imageUrl": "../images/catalogue/product-photos/194584.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/194584.jpg",
     "catalogueDescription": "........... 554 194508............................................. 545 194512............................................. 545 194514............................................. 545 194572............................................. 543 194574............................................. 543 194576............................................. 543 194578............................................. 543 194580............................................. 543 194582............................................. 543 194584............................................. 543 194586............................................. 543 194588............................................. 543 194590............................................. 543 194592............................................. 543 194594............................................. 543 194600............................................. 544 194602............................................. 544 194604............................................. 544 194606................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/194584.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/194584.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/194584.jpg"
   },
-  {
+  "194586": {
     "productNumber": "194586",
     "description": "BLA 4 BOW BIMINI BLACK 1.5M-1.7M",
     "brand": "Bla",
@@ -2518,17 +2472,16 @@
     "subCategoryDescription": "Covers, Seating & Fitout products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/21/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 160.83,
     "barcode": "9319786415634",
     "cataloguePage": 21,
-    "imageUrl": "../images/catalogue/product-photos/194586.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/194586.jpg",
     "catalogueDescription": "........... 545 194512............................................. 545 194514............................................. 545 194572............................................. 543 194574............................................. 543 194576............................................. 543 194578............................................. 543 194580............................................. 543 194582............................................. 543 194584............................................. 543 194586............................................. 543 194588............................................. 543 194590............................................. 543 194592............................................. 543 194594............................................. 543 194600............................................. 544 194602............................................. 544 194604............................................. 544 194606............................................. 544 194608................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/194586.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/194586.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/194586.jpg"
   },
-  {
+  "194588": {
     "productNumber": "194588",
     "description": "BLA 4 BOW BIMINI NAVY 1.5M-1.7M",
     "brand": "Bla",
@@ -2547,17 +2500,16 @@
     "subCategoryDescription": "Covers, Seating & Fitout products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/21/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 160.83,
     "barcode": "9319786415542",
     "cataloguePage": 21,
-    "imageUrl": "../images/catalogue/product-photos/194588.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/194588.jpg",
     "catalogueDescription": "........... 545 194514............................................. 545 194572............................................. 543 194574............................................. 543 194576............................................. 543 194578............................................. 543 194580............................................. 543 194582............................................. 543 194584............................................. 543 194586............................................. 543 194588............................................. 543 194590............................................. 543 194592............................................. 543 194594............................................. 543 194600............................................. 544 194602............................................. 544 194604............................................. 544 194606............................................. 544 194608............................................. 544 194700................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/194588.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/194588.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/194588.jpg"
   },
-  {
+  "194590": {
     "productNumber": "194590",
     "description": "BLA 4 BOW BIMINI GREY 1.8M-2.0M",
     "brand": "Bla",
@@ -2576,17 +2528,16 @@
     "subCategoryDescription": "Covers, Seating & Fitout products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/21/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 173.21,
     "barcode": "9319786415559",
     "cataloguePage": 21,
-    "imageUrl": "../images/catalogue/product-photos/194590.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/194590.jpg",
     "catalogueDescription": "........... 545 194572............................................. 543 194574............................................. 543 194576............................................. 543 194578............................................. 543 194580............................................. 543 194582............................................. 543 194584............................................. 543 194586............................................. 543 194588............................................. 543 194590............................................. 543 194592............................................. 543 194594............................................. 543 194600............................................. 544 194602............................................. 544 194604............................................. 544 194606............................................. 544 194608............................................. 544 194700............................................. 542 194702................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/194590.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/194590.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/194590.jpg"
   },
-  {
+  "194592": {
     "productNumber": "194592",
     "description": "BLA 4 BOW BIMINI BLACK 1.8M-2.0M",
     "brand": "Bla",
@@ -2605,23 +2556,22 @@
     "subCategoryDescription": "Covers, Seating & Fitout products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/21/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 173.21,
     "barcode": "9319786415566",
     "cataloguePage": 21,
-    "imageUrl": "../images/catalogue/product-photos/194592.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/194592.jpg",
     "catalogueDescription": "........... 543 194574............................................. 543 194576............................................. 543 194578............................................. 543 194580............................................. 543 194582............................................. 543 194584............................................. 543 194586............................................. 543 194588............................................. 543 194590............................................. 543 194592............................................. 543 194594............................................. 543 194600............................................. 544 194602............................................. 544 194604............................................. 544 194606............................................. 544 194608............................................. 544 194700............................................. 542 194702............................................. 542 194703................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/194592.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/194592.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/194592.jpg"
   },
-  {
+  "194594": {
     "productNumber": "194594",
     "description": "BLA 4 BOW BIMINI NAVY 1.8M-2.0M",
     "brand": "Bla",
     "variant": "PC",
     "price": 536.8,
-    "unitCostOfSale": 314,
+    "unitCostOfSale": 314.0,
     "categoryName": "Covers, Seats & Boat Fitout",
     "topCategory": "Covers, Seats & Boat Fitout",
     "subCategoryName": "Covers, Seating & Fitout",
@@ -2634,17 +2584,16 @@
     "subCategoryDescription": "Covers, Seating & Fitout products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/21/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 183.6,
     "barcode": "9319786415573",
     "cataloguePage": 21,
-    "imageUrl": "../images/catalogue/product-photos/194594.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/194594.jpg",
     "catalogueDescription": "........... 543 194576............................................. 543 194578............................................. 543 194580............................................. 543 194582............................................. 543 194584............................................. 543 194586............................................. 543 194588............................................. 543 194590............................................. 543 194592............................................. 543 194594............................................. 543 194600............................................. 544 194602............................................. 544 194604............................................. 544 194606............................................. 544 194608............................................. 544 194700............................................. 542 194702............................................. 542 194703............................................. 542 194710................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/194594.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/194594.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/194594.jpg"
   },
-  {
+  "194660": {
     "productNumber": "194660",
     "description": "BLA UNIVERSAL ENGINE COWLING COVER XXS",
     "brand": "Bla",
@@ -2673,7 +2622,7 @@
     "productWebSearchQuery": "\"194660\" \"Bla BLA UNIVERSAL ENGINE COWLING COVER XXS\"",
     "imageUrl": "../images/web-product-images/194660.jpg"
   },
-  {
+  "194662": {
     "productNumber": "194662",
     "description": "BLA UNIVERSAL ENGINE COWLING COVER XS",
     "brand": "Bla",
@@ -2702,7 +2651,7 @@
     "productWebSearchQuery": "\"194662\" \"Bla BLA UNIVERSAL ENGINE COWLING COVER XS\"",
     "imageUrl": "../images/web-product-images/194662.webp"
   },
-  {
+  "194664": {
     "productNumber": "194664",
     "description": "BLA UNIVERSAL ENGINE COWLING COVER S",
     "brand": "Bla",
@@ -2731,7 +2680,7 @@
     "productWebSearchQuery": "\"194664\" \"Bla BLA UNIVERSAL ENGINE COWLING COVER S\"",
     "imageUrl": "../images/web-product-images/194664.jpg"
   },
-  {
+  "194666": {
     "productNumber": "194666",
     "description": "BLA UNIVERSAL ENGINE COWLING COVER M",
     "brand": "Bla",
@@ -2760,7 +2709,7 @@
     "productWebSearchQuery": "\"194666\" \"Bla BLA UNIVERSAL ENGINE COWLING COVER M\"",
     "imageUrl": "../images/web-product-images/194666.jpg"
   },
-  {
+  "194668": {
     "productNumber": "194668",
     "description": "BLA UNIVERSAL ENGINE COWLING COVER L",
     "brand": "Bla",
@@ -2789,7 +2738,7 @@
     "productWebSearchQuery": "\"194668\" \"Bla BLA UNIVERSAL ENGINE COWLING COVER L\"",
     "imageUrl": "../images/web-product-images/194668.jpg"
   },
-  {
+  "194670": {
     "productNumber": "194670",
     "description": "BLA UNIVERSAL ENGINE COWLING COVER XL",
     "brand": "Bla",
@@ -2818,7 +2767,7 @@
     "productWebSearchQuery": "\"194670\" \"Bla BLA UNIVERSAL ENGINE COWLING COVER XL\"",
     "imageUrl": "../images/web-product-images/194670.webp"
   },
-  {
+  "194672": {
     "productNumber": "194672",
     "description": "BLA UNIVERSAL ENGINE COWLING COVER XXL",
     "brand": "Bla",
@@ -2847,7 +2796,7 @@
     "productWebSearchQuery": "\"194672\" \"Bla BLA UNIVERSAL ENGINE COWLING COVER XXL\"",
     "imageUrl": "../images/web-product-images/194672.webp"
   },
-  {
+  "194700": {
     "productNumber": "194700",
     "description": "MARINE TOWN SUNSHADE SOCKET WITH CAP 316 STAINLESS STEEL",
     "brand": "",
@@ -2866,12 +2815,12 @@
     "subCategoryDescription": "Stainless Fittings & Deck Hardware products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/21/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 48.29,
     "barcode": "9319786430897",
     "cataloguePage": 21,
-    "imageUrl": "../images/bla-website-products/194700.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/194700.jpg",
     "catalogueDescription": "........... 543 194588............................................. 543 194590............................................. 543 194592............................................. 543 194594............................................. 543 194600............................................. 544 194602............................................. 544 194604............................................. 544 194606............................................. 544 194608............................................. 544 194700............................................. 542 194702............................................. 542 194703............................................. 542 194710............................................. 542 194712............................................. 542 194714............................................. 542 195002............................................. 545 195002P........................................... 545 195003............................................. 545 195003P................",
     "productBlockImageUrl": "../images/catalogue/product-blocks/194700.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/marine-town-sunshade-socket-w-cap/",
@@ -2888,7 +2837,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/07/194700.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "194700BLK": {
     "productNumber": "194700BLK",
     "description": "MARINE TOWN SUNSHADE POLE SOCKET W/CAP MATTE BLACK",
     "brand": "",
@@ -2907,7 +2856,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 37.39,
     "barcode": "9319786472354",
@@ -2917,7 +2866,7 @@
     "productWebSearchQuery": "\"194700BLK\" \"MARINE TOWN SUNSHADE POLE SOCKET W/CAP MATTE BLACK\"",
     "imageUrl": "../images/web-product-images/194700BLK.jpg"
   },
-  {
+  "194702": {
     "productNumber": "194702",
     "description": "MARINE TOWN SUNSHADE SOCKET STUD TYPE 316 STAINLESS STEEL",
     "brand": "",
@@ -2936,12 +2885,12 @@
     "subCategoryDescription": "Stainless Fittings & Deck Hardware products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/21/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 46.28,
     "barcode": "9319786430903",
     "cataloguePage": 21,
-    "imageUrl": "../images/bla-website-products/194702.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/194702.jpg",
     "catalogueDescription": "........... 543 194590............................................. 543 194592............................................. 543 194594............................................. 543 194600............................................. 544 194602............................................. 544 194604............................................. 544 194606............................................. 544 194608............................................. 544 194700............................................. 542 194702............................................. 542 194703............................................. 542 194710............................................. 542 194712............................................. 542 194714............................................. 542 195002............................................. 545 195002P........................................... 545 195003............................................. 545 195003P........................................... 545 195004..................",
     "productBlockImageUrl": "../images/catalogue/product-blocks/194702.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/marine-town-sunshade-socket-stud-type-2/",
@@ -2958,7 +2907,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/07/194702.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "194703": {
     "productNumber": "194703",
     "description": "MARINE TOWN SUNSHADE SOCKET STUD TYPE BIG FACE",
     "brand": "",
@@ -2977,17 +2926,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/21/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 45.38,
     "barcode": "807935068682",
     "cataloguePage": 21,
-    "imageUrl": "../images/catalogue/product-photos/194703.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/194703.jpg",
     "catalogueDescription": "........... 543 194592............................................. 543 194594............................................. 543 194600............................................. 544 194602............................................. 544 194604............................................. 544 194606............................................. 544 194608............................................. 544 194700............................................. 542 194702............................................. 542 194703............................................. 542 194710............................................. 542 194712............................................. 542 194714............................................. 542 195002............................................. 545 195002P........................................... 545 195003............................................. 545 195003P........................................... 545 195004............................................. 545 195004P.................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/194703.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/194703.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/194703.jpg"
   },
-  {
+  "194704": {
     "productNumber": "194704",
     "description": "MARINE TOWN SUNSHADE SOCKET STUD TYPE BIG FACE SHALLOW CUP",
     "brand": "",
@@ -3006,7 +2954,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 36.48,
     "barcode": "807935003201",
@@ -3016,7 +2964,7 @@
     "productWebSearchQuery": "\"194704\" \"MARINE TOWN SUNSHADE SOCKET STUD TYPE BIG FACE SHALLOW CUP\"",
     "imageUrl": "../images/web-product-images/194704.webp"
   },
-  {
+  "194710": {
     "productNumber": "194710",
     "description": "MARINE TOWN CARBON FIBRE SUNSHADE POLE 1215mm",
     "brand": "",
@@ -3035,17 +2983,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/21/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 119.76,
     "barcode": "9319786437360",
     "cataloguePage": 21,
-    "imageUrl": "../images/catalogue/product-photos/194710.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/194710.jpg",
     "catalogueDescription": "........... 543 194594............................................. 543 194600............................................. 544 194602............................................. 544 194604............................................. 544 194606............................................. 544 194608............................................. 544 194700............................................. 542 194702............................................. 542 194703............................................. 542 194710............................................. 542 194712............................................. 542 194714............................................. 542 195002............................................. 545 195002P........................................... 545 195003............................................. 545 195003P........................................... 545 195004............................................. 545 195004P........................................... 545 195005...................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/194710.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/194710.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/194710.jpg"
   },
-  {
+  "194712": {
     "productNumber": "194712",
     "description": "MARINE TOWN CARBON FIBRE SUNSHADE POLE 1535mm",
     "brand": "",
@@ -3064,17 +3011,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/21/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 138.82,
     "barcode": "9319786430910",
     "cataloguePage": 21,
-    "imageUrl": "../images/catalogue/product-photos/194712.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/194712.jpg",
     "catalogueDescription": "........... 543 194600............................................. 544 194602............................................. 544 194604............................................. 544 194606............................................. 544 194608............................................. 544 194700............................................. 542 194702............................................. 542 194703............................................. 542 194710............................................. 542 194712............................................. 542 194714............................................. 542 195002............................................. 545 195002P........................................... 545 195003............................................. 545 195003P........................................... 545 195004............................................. 545 195004P........................................... 545 195005............................................. 545 195005P..................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/194712.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/194712.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/194712.jpg"
   },
-  {
+  "194714": {
     "productNumber": "194714",
     "description": "MARINE TOWN CARBON FIBRE SUNSHADE POLE 1845mm",
     "brand": "",
@@ -3093,17 +3039,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/21/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
-    "exportAudExGst": 157,
+    "exportAudExGst": 157.0,
     "barcode": "9319786430927",
     "cataloguePage": 21,
-    "imageUrl": "../images/catalogue/product-photos/194714.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/194714.jpg",
     "catalogueDescription": "........... 544 194602............................................. 544 194604............................................. 544 194606............................................. 544 194608............................................. 544 194700............................................. 542 194702............................................. 542 194703............................................. 542 194710............................................. 542 194712............................................. 542 194714............................................. 542 195002............................................. 545 195002P........................................... 545 195003............................................. 545 195003P........................................... 545 195004............................................. 545 195004P........................................... 545 195005............................................. 545 195005P........................................... 545 195006....................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/194714.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/194714.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/194714.jpg"
   },
-  {
+  "194716": {
     "productNumber": "194716",
     "description": "MARINE TOWN SUNSHADE POLE 1702MM",
     "brand": "",
@@ -3122,7 +3067,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 100.02,
     "barcode": "807935068545",
@@ -3132,7 +3077,7 @@
     "productWebSearchQuery": "\"194716\" \"MARINE TOWN SUNSHADE POLE 1702MM\"",
     "imageUrl": "../images/web-product-images/194716.jpg"
   },
-  {
+  "194721": {
     "productNumber": "194721",
     "description": "MARINE TOWN SUNSHADE SOCKET RAIL MOUNT LEFT",
     "brand": "Y",
@@ -3151,7 +3096,7 @@
     "subCategoryDescription": "Stainless Fittings & Deck Hardware products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 91.45,
     "barcode": "9319786464809",
@@ -3161,7 +3106,7 @@
     "productWebSearchQuery": "\"194721\" \"Y MARINE TOWN SUNSHADE SOCKET RAIL MOUNT LEFT\"",
     "imageUrl": "../images/web-product-images/194721.webp"
   },
-  {
+  "194722": {
     "productNumber": "194722",
     "description": "MARINE TOWN SUNSHADE SOCKET RAIL MOUNT RIGHT",
     "brand": "Y",
@@ -3180,7 +3125,7 @@
     "subCategoryDescription": "Stainless Fittings & Deck Hardware products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 91.45,
     "barcode": "9319786464816",
@@ -3190,7 +3135,7 @@
     "productWebSearchQuery": "\"194722\" \"Y MARINE TOWN SUNSHADE SOCKET RAIL MOUNT RIGHT\"",
     "imageUrl": "../images/web-product-images/194722.jpg"
   },
-  {
+  "194723": {
     "productNumber": "194723",
     "description": "MARINE TOWN SUNSHADE RAIL MOUNT LEFT 30MM RAIL",
     "brand": "Y",
@@ -3209,7 +3154,7 @@
     "subCategoryDescription": "Stainless Fittings & Deck Hardware products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 125.86,
     "barcode": "9319786471579",
@@ -3219,7 +3164,7 @@
     "productWebSearchQuery": "\"194723\" \"Y MARINE TOWN SUNSHADE RAIL MOUNT LEFT 30MM RAIL\"",
     "imageUrl": "../images/web-product-images/194723.jpg"
   },
-  {
+  "194724": {
     "productNumber": "194724",
     "description": "MARINE TOWN SUNSHADE RAIL MOUNT RIGHT 30MM RAIL",
     "brand": "Y",
@@ -3238,7 +3183,7 @@
     "subCategoryDescription": "Stainless Fittings & Deck Hardware products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 125.86,
     "barcode": "9319786471586",
@@ -3248,7 +3193,7 @@
     "productWebSearchQuery": "\"194724\" \"Y MARINE TOWN SUNSHADE RAIL MOUNT RIGHT 30MM RAIL\"",
     "imageUrl": "../images/web-product-images/194724.webp"
   },
-  {
+  "194730": {
     "productNumber": "194730",
     "description": "MARINE TOWN SUNSHADE POLE ROD HOLDER ADAPTER 40MM",
     "brand": "",
@@ -3267,7 +3212,7 @@
     "subCategoryDescription": "Fishing Equipment & Accessories products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 30.58,
     "barcode": "807935068699",
@@ -3277,4 +3222,4 @@
     "productWebSearchQuery": "\"194730\" \"MARINE TOWN SUNSHADE POLE ROD HOLDER ADAPTER 40MM\"",
     "imageUrl": "../images/web-product-images/194730.webp"
   }
-]
+}

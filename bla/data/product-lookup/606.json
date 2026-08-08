@@ -1,10 +1,10 @@
-[
-  {
+{
+  "606124": {
     "productNumber": "606124",
     "description": "MINN KOTA TALON 12' ANCHOR SPIKE BLACK",
     "brand": "",
     "variant": "PC",
-    "price": 9612,
+    "price": 9612.0,
     "unitCostOfSale": 5652.35,
     "categoryName": "Anchoring & Mooring",
     "topCategory": "Anchoring & Mooring",
@@ -18,17 +18,16 @@
     "subCategoryDescription": "Anchors, Chains & Windlasses products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/28/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 5,
-    "freightAud": 24,
+    "estimatedWeightKg": 5.0,
+    "freightAud": 24.0,
     "exportAudExGst": 3367.41,
     "barcode": "029402046164",
     "cataloguePage": 28,
-    "imageUrl": "../images/catalogue/product-photos/606124.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/606124.jpg",
     "catalogueDescription": "995, 1002 604210...................................993, 1002 604212........................................... 1002 604214...................................987, 1002 604216...................................989, 1002 604218..987, 989, 991, 993, 995, 1001 604220..987, 989, 991, 993, 995, 1001 604222..987, 989, 991, 993, 995, 1001 604224.........................991, 1005-1006 604226.........987, 989, 991, 1005-1006 604228...................................991, 1004 605800...................................699, 1012 606124........................................... 1010 606128........................................... 1010 606131........................................... 1012 606140........................................... 1012 606142........................................... 1012 606144........................................... 1012 606162........................................... 1012 606193........................................... 1011 606195........................................... 1011 606196.........................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/606124.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/606124.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/606124.jpg"
   },
-  {
+  "606128": {
     "productNumber": "606128",
     "description": "MINN KOTA TALON 15' ANCHOR SPIKE BLACK",
     "brand": "",
@@ -47,17 +46,16 @@
     "subCategoryDescription": "Anchors, Chains & Windlasses products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/28/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 5,
-    "freightAud": 24,
+    "estimatedWeightKg": 5.0,
+    "freightAud": 24.0,
     "exportAudExGst": 4008.83,
     "barcode": "029402046201",
     "cataloguePage": 28,
-    "imageUrl": "../images/catalogue/product-photos/606128.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/606128.jpg",
     "catalogueDescription": "1002 604212........................................... 1002 604214...................................987, 1002 604216...................................989, 1002 604218..987, 989, 991, 993, 995, 1001 604220..987, 989, 991, 993, 995, 1001 604222..987, 989, 991, 993, 995, 1001 604224.........................991, 1005-1006 604226.........987, 989, 991, 1005-1006 604228...................................991, 1004 605800...................................699, 1012 606124........................................... 1010 606128........................................... 1010 606131........................................... 1012 606140........................................... 1012 606142........................................... 1012 606144........................................... 1012 606162........................................... 1012 606193........................................... 1011 606195........................................... 1011 606196........................................... 1011 606199.........................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/606128.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/606128.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/606128.jpg"
   },
-  {
+  "606129": {
     "productNumber": "606129",
     "description": "MINN KOTA TALON 15' ANCHOR SPIKE SILVER BLACK",
     "brand": "Y",
@@ -76,8 +74,8 @@
     "subCategoryDescription": "Anchors, Chains & Windlasses products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 5,
-    "freightAud": 24,
+    "estimatedWeightKg": 5.0,
+    "freightAud": 24.0,
     "exportAudExGst": 4036.1,
     "barcode": "029402046218",
     "productWebSearchImageUrl": "../images/web-product-images/606129.jpg",
@@ -86,7 +84,7 @@
     "productWebSearchQuery": "\"606129\" \"Y MINN KOTA TALON 15' ANCHOR SPIKE SILVER BLACK\"",
     "imageUrl": "../images/web-product-images/606129.jpg"
   },
-  {
+  "606131": {
     "productNumber": "606131",
     "description": "MINN KOTA TALON COVER TRAVEL COVER BT 8'",
     "brand": "Y",
@@ -110,12 +108,11 @@
     "exportAudExGst": 181.01,
     "barcode": "029402046478",
     "cataloguePage": 28,
-    "imageUrl": "../images/catalogue/product-photos/606131.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/606131.jpg",
     "catalogueDescription": "1002 604214...................................987, 1002 604216...................................989, 1002 604218..987, 989, 991, 993, 995, 1001 604220..987, 989, 991, 993, 995, 1001 604222..987, 989, 991, 993, 995, 1001 604224.........................991, 1005-1006 604226.........987, 989, 991, 1005-1006 604228...................................991, 1004 605800...................................699, 1012 606124........................................... 1010 606128........................................... 1010 606131........................................... 1012 606140........................................... 1012 606142........................................... 1012 606144........................................... 1012 606162........................................... 1012 606193........................................... 1011 606195........................................... 1011 606196........................................... 1011 606199........................................... 1011 606210.........................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/606131.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/606131.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/606131.jpg"
   },
-  {
+  "606162": {
     "productNumber": "606162",
     "description": "MINN KOTA TALON BRACKET TILT HINGE",
     "brand": "",
@@ -139,7 +136,7 @@
     "exportAudExGst": 442.57,
     "barcode": "029402040360",
     "cataloguePage": 28,
-    "imageUrl": "../images/bla-website-products/606162.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/606162.jpg",
     "catalogueDescription": "1 604224.........................991, 1005-1006 604226.........987, 989, 991, 1005-1006 604228...................................991, 1004 605800...................................699, 1012 606124........................................... 1010 606128........................................... 1010 606131........................................... 1012 606140........................................... 1012 606142........................................... 1012 606144........................................... 1012 606162........................................... 1012 606193........................................... 1011 606195........................................... 1011 606196........................................... 1011 606199........................................... 1011 606210........................................... 1011 606211........................................... 1011 606212........................................... 1011 606214........................................... 1011 606216.........................",
     "productBlockImageUrl": "../images/catalogue/product-blocks/606162.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/talon-travel-cover-10-12%e2%80%b2/",
@@ -152,7 +149,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2021/01/606162.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "606193": {
     "productNumber": "606193",
     "description": "MINN KOTA RAPTOR SHALLOW WATER ANCHOR 8' BLACK",
     "brand": "Y",
@@ -171,17 +168,16 @@
     "subCategoryDescription": "Anchors, Chains & Windlasses products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/28/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 5,
-    "freightAud": 24,
+    "estimatedWeightKg": 5.0,
+    "freightAud": 24.0,
     "exportAudExGst": 2801.66,
     "barcode": "029402048526",
     "cataloguePage": 28,
-    "imageUrl": "../images/catalogue/product-photos/606193.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/606193.jpg",
     "catalogueDescription": "........987, 989, 991, 1005-1006 604228...................................991, 1004 605800...................................699, 1012 606124........................................... 1010 606128........................................... 1010 606131........................................... 1012 606140........................................... 1012 606142........................................... 1012 606144........................................... 1012 606162........................................... 1012 606193........................................... 1011 606195........................................... 1011 606196........................................... 1011 606199........................................... 1011 606210........................................... 1011 606211........................................... 1011 606212........................................... 1011 606214........................................... 1011 606216........................................... 1011 606218.........................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/606193.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/606193.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/606193.jpg"
   },
-  {
+  "606194": {
     "productNumber": "606194",
     "description": "MINN KOTA RAPTOR SHALLOW WATER ANCHOR 8' SILVER",
     "brand": "Y",
@@ -200,8 +196,8 @@
     "subCategoryDescription": "Anchors, Chains & Windlasses products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 5,
-    "freightAud": 24,
+    "estimatedWeightKg": 5.0,
+    "freightAud": 24.0,
     "exportAudExGst": 2801.66,
     "barcode": "029402048533",
     "productWebSearchImageUrl": "../images/web-product-images/606194.jpg",
@@ -210,7 +206,7 @@
     "productWebSearchQuery": "\"606194\" \"Y MINN KOTA RAPTOR SHALLOW WATER ANCHOR 8' SILVER\"",
     "imageUrl": "../images/web-product-images/606194.jpg"
   },
-  {
+  "606195": {
     "productNumber": "606195",
     "description": "MINN KOTA RAPTOR SHALLOW WATER ANCHOR 8' AA BLACK",
     "brand": "",
@@ -229,17 +225,16 @@
     "subCategoryDescription": "Anchors, Chains & Windlasses products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/28/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 5,
-    "freightAud": 24,
+    "estimatedWeightKg": 5.0,
+    "freightAud": 24.0,
     "exportAudExGst": 3146.01,
     "barcode": "029402048021",
     "cataloguePage": 28,
-    "imageUrl": "../images/catalogue/product-photos/606195.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/606195.jpg",
     "catalogueDescription": "...................991, 1004 605800...................................699, 1012 606124........................................... 1010 606128........................................... 1010 606131........................................... 1012 606140........................................... 1012 606142........................................... 1012 606144........................................... 1012 606162........................................... 1012 606193........................................... 1011 606195........................................... 1011 606196........................................... 1011 606199........................................... 1011 606210........................................... 1011 606211........................................... 1011 606212........................................... 1011 606214........................................... 1011 606216........................................... 1011 606218........................................... 1011 606220.........................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/606195.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/606195.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/606195.jpg"
   },
-  {
+  "606196": {
     "productNumber": "606196",
     "description": "MINN KOTA RAPTOR SHALLOW WATER ANCHOR 8' AA WHITE",
     "brand": "",
@@ -258,17 +253,16 @@
     "subCategoryDescription": "Anchors, Chains & Windlasses products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/28/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 5,
-    "freightAud": 24,
+    "estimatedWeightKg": 5.0,
+    "freightAud": 24.0,
     "exportAudExGst": 3146.01,
     "barcode": "029402048540",
     "cataloguePage": 28,
-    "imageUrl": "../images/catalogue/product-photos/606196.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/606196.jpg",
     "catalogueDescription": "...............699, 1012 606124........................................... 1010 606128........................................... 1010 606131........................................... 1012 606140........................................... 1012 606142........................................... 1012 606144........................................... 1012 606162........................................... 1012 606193........................................... 1011 606195........................................... 1011 606196........................................... 1011 606199........................................... 1011 606210........................................... 1011 606211........................................... 1011 606212........................................... 1011 606214........................................... 1011 606216........................................... 1011 606218........................................... 1011 606220........................................... 1011 606222.........................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/606196.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/606196.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/606196.jpg"
   },
-  {
+  "606197": {
     "productNumber": "606197",
     "description": "MINN KOTA RAPTOR SHALLOW WATER ANCHOR 8' AA RED",
     "brand": "Y",
@@ -287,8 +281,8 @@
     "subCategoryDescription": "Anchors, Chains & Windlasses products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 5,
-    "freightAud": 24,
+    "estimatedWeightKg": 5.0,
+    "freightAud": 24.0,
     "exportAudExGst": 3146.01,
     "barcode": "029402048557",
     "productWebSearchImageUrl": "../images/web-product-images/606197.jpg",
@@ -297,7 +291,7 @@
     "productWebSearchQuery": "\"606197\" \"Y MINN KOTA RAPTOR SHALLOW WATER ANCHOR 8' AA RED\"",
     "imageUrl": "../images/web-product-images/606197.jpg"
   },
-  {
+  "606198": {
     "productNumber": "606198",
     "description": "MINN KOTA RAPTOR SHALLOW WATER ANCHOR 8' AA SILVER",
     "brand": "Y",
@@ -316,8 +310,8 @@
     "subCategoryDescription": "Anchors, Chains & Windlasses products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 5,
-    "freightAud": 24,
+    "estimatedWeightKg": 5.0,
+    "freightAud": 24.0,
     "exportAudExGst": 3146.01,
     "barcode": "029402048564",
     "productWebSearchImageUrl": "../images/web-product-images/606198.jpg",
@@ -326,7 +320,7 @@
     "productWebSearchQuery": "\"606198\" \"Y MINN KOTA RAPTOR SHALLOW WATER ANCHOR 8' AA SILVER\"",
     "imageUrl": "../images/web-product-images/606198.jpg"
   },
-  {
+  "606199": {
     "productNumber": "606199",
     "description": "MINN KOTA RAPTOR SHALLOW WATER ANCHOR 10' AA BLACK",
     "brand": "",
@@ -345,17 +339,16 @@
     "subCategoryDescription": "Anchors, Chains & Windlasses products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/28/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 5,
-    "freightAud": 24,
+    "estimatedWeightKg": 5.0,
+    "freightAud": 24.0,
     "exportAudExGst": 3341.36,
     "barcode": "029402048038",
     "cataloguePage": 28,
-    "imageUrl": "../images/catalogue/product-photos/606199.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/606199.jpg",
     "catalogueDescription": "................... 1010 606128........................................... 1010 606131........................................... 1012 606140........................................... 1012 606142........................................... 1012 606144........................................... 1012 606162........................................... 1012 606193........................................... 1011 606195........................................... 1011 606196........................................... 1011 606199........................................... 1011 606210........................................... 1011 606211........................................... 1011 606212........................................... 1011 606214........................................... 1011 606216........................................... 1011 606218........................................... 1011 606220........................................... 1011 606222........................................... 1011 606224.........................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/606199.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/606199.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/606199.jpg"
   },
-  {
+  "606200": {
     "productNumber": "606200",
     "description": "MINN KOTA RAPTOR SHALLOW WATER ANCHOR 10' AA WHITE",
     "brand": "Y",
@@ -374,8 +367,8 @@
     "subCategoryDescription": "Anchors, Chains & Windlasses products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 5,
-    "freightAud": 24,
+    "estimatedWeightKg": 5.0,
+    "freightAud": 24.0,
     "exportAudExGst": 3341.36,
     "barcode": "029402048571",
     "productWebSearchImageUrl": "../images/web-product-images/606200.jpg",
@@ -384,7 +377,7 @@
     "productWebSearchQuery": "\"606200\" \"Y MINN KOTA RAPTOR SHALLOW WATER ANCHOR 10' AA WHITE\"",
     "imageUrl": "../images/web-product-images/606200.jpg"
   },
-  {
+  "606201": {
     "productNumber": "606201",
     "description": "MINN KOTA RAPTOR SHALLOW WATER ANCHOR 10' AA RED",
     "brand": "Y",
@@ -403,8 +396,8 @@
     "subCategoryDescription": "Anchors, Chains & Windlasses products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 5,
-    "freightAud": 24,
+    "estimatedWeightKg": 5.0,
+    "freightAud": 24.0,
     "exportAudExGst": 3341.36,
     "barcode": "029402048588",
     "productWebSearchImageUrl": "../images/web-product-images/606201.jpg",
@@ -413,7 +406,7 @@
     "productWebSearchQuery": "\"606201\" \"Y MINN KOTA RAPTOR SHALLOW WATER ANCHOR 10' AA RED\"",
     "imageUrl": "../images/web-product-images/606201.jpg"
   },
-  {
+  "606202": {
     "productNumber": "606202",
     "description": "MINN KOTA RAPTOR SHALLOW WATER ANCHOR 10' AA SILVER",
     "brand": "Y",
@@ -432,8 +425,8 @@
     "subCategoryDescription": "Anchors, Chains & Windlasses products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 5,
-    "freightAud": 24,
+    "estimatedWeightKg": 5.0,
+    "freightAud": 24.0,
     "exportAudExGst": 3341.36,
     "barcode": "029402048595",
     "productWebSearchImageUrl": "../images/web-product-images/606202.jpg",
@@ -442,7 +435,7 @@
     "productWebSearchQuery": "\"606202\" \"Y MINN KOTA RAPTOR SHALLOW WATER ANCHOR 10' AA SILVER\"",
     "imageUrl": "../images/web-product-images/606202.jpg"
   },
-  {
+  "606210": {
     "productNumber": "606210",
     "description": "MINN KOTA RAPTOR/TALON BT STOMP SWITCH",
     "brand": "",
@@ -466,12 +459,11 @@
     "exportAudExGst": 196.3,
     "barcode": "029402048816",
     "cataloguePage": 28,
-    "imageUrl": "../images/catalogue/product-photos/606210.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/606210.jpg",
     "catalogueDescription": "................... 1010 606131........................................... 1012 606140........................................... 1012 606142........................................... 1012 606144........................................... 1012 606162........................................... 1012 606193........................................... 1011 606195........................................... 1011 606196........................................... 1011 606199........................................... 1011 606210........................................... 1011 606211........................................... 1011 606212........................................... 1011 606214........................................... 1011 606216........................................... 1011 606218........................................... 1011 606220........................................... 1011 606222........................................... 1011 606224........................................... 1011 607392.........................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/606210.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/606210.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/606210.jpg"
   },
-  {
+  "606211": {
     "productNumber": "606211",
     "description": "MINN KOTA RAPTOR BT WIRELESS FOOT SWITCH",
     "brand": "Y",
@@ -495,12 +487,11 @@
     "exportAudExGst": 331.34,
     "barcode": "029402048823",
     "cataloguePage": 28,
-    "imageUrl": "../images/catalogue/product-photos/606211.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/606211.jpg",
     "catalogueDescription": "................... 1012 606140........................................... 1012 606142........................................... 1012 606144........................................... 1012 606162........................................... 1012 606193........................................... 1011 606195........................................... 1011 606196........................................... 1011 606199........................................... 1011 606210........................................... 1011 606211........................................... 1011 606212........................................... 1011 606214........................................... 1011 606216........................................... 1011 606218........................................... 1011 606220........................................... 1011 606222........................................... 1011 606224........................................... 1011 607392...........................998-999, 1006 608201.................................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/606211.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/606211.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/606211.jpg"
   },
-  {
+  "606212": {
     "productNumber": "606212",
     "description": "MINN KOTA RAPTOR STBD 4\" JACK PLATE BRKT",
     "brand": "",
@@ -519,17 +510,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/28/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 541.58,
     "barcode": "029402048649",
     "cataloguePage": 28,
-    "imageUrl": "../images/catalogue/product-photos/606212.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/606212.jpg",
     "catalogueDescription": "................... 1012 606142........................................... 1012 606144........................................... 1012 606162........................................... 1012 606193........................................... 1011 606195........................................... 1011 606196........................................... 1011 606199........................................... 1011 606210........................................... 1011 606211........................................... 1011 606212........................................... 1011 606214........................................... 1011 606216........................................... 1011 606218........................................... 1011 606220........................................... 1011 606222........................................... 1011 606224........................................... 1011 607392...........................998-999, 1006 608201........................................... 1006 609490.................................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/606212.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/606212.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/606212.jpg"
   },
-  {
+  "606214": {
     "productNumber": "606214",
     "description": "MINN KOTA RAPTOR PORT 4\" JACK PLATE BRKT",
     "brand": "Y",
@@ -548,17 +538,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/28/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 541.58,
     "barcode": "029402048656",
     "cataloguePage": 28,
-    "imageUrl": "../images/catalogue/product-photos/606214.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/606214.jpg",
     "catalogueDescription": "................... 1012 606144........................................... 1012 606162........................................... 1012 606193........................................... 1011 606195........................................... 1011 606196........................................... 1011 606199........................................... 1011 606210........................................... 1011 606211........................................... 1011 606212........................................... 1011 606214........................................... 1011 606216........................................... 1011 606218........................................... 1011 606220........................................... 1011 606222........................................... 1011 606224........................................... 1011 607392...........................998-999, 1006 608201........................................... 1006 609490........................................... 1001 609525.................................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/606214.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/606214.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/606214.jpg"
   },
-  {
+  "606216": {
     "productNumber": "606216",
     "description": "MINN KOTA RAPTOR STBD 6\" JACK PLATE BRKT",
     "brand": "",
@@ -577,17 +566,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/28/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 541.58,
     "barcode": "029402048663",
     "cataloguePage": 28,
-    "imageUrl": "../images/catalogue/product-photos/606216.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/606216.jpg",
     "catalogueDescription": "................... 1012 606162........................................... 1012 606193........................................... 1011 606195........................................... 1011 606196........................................... 1011 606199........................................... 1011 606210........................................... 1011 606211........................................... 1011 606212........................................... 1011 606214........................................... 1011 606216........................................... 1011 606218........................................... 1011 606220........................................... 1011 606222........................................... 1011 606224........................................... 1011 607392...........................998-999, 1006 608201........................................... 1006 609490........................................... 1001 609525........................................... 1001 609526.................................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/606216.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/606216.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/606216.jpg"
   },
-  {
+  "606217": {
     "productNumber": "606217",
     "description": "MINN KOTA RAPTOR STBD 6\" JACK PLATE BRKT WHITE",
     "brand": "Y",
@@ -606,7 +594,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 541.58,
     "barcode": "029402050031",
@@ -616,7 +604,7 @@
     "productWebSearchQuery": "\"606217\" \"Y MINN KOTA RAPTOR STBD 6\" JACK PLATE BRKT WHITE\"",
     "imageUrl": "../images/web-product-images/606217.jpg"
   },
-  {
+  "606218": {
     "productNumber": "606218",
     "description": "MINN KOTA RAPTOR PORT 6\" JACK PLATE BRKT",
     "brand": "",
@@ -635,17 +623,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/28/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 536.37,
     "barcode": "029402048670",
     "cataloguePage": 28,
-    "imageUrl": "../images/catalogue/product-photos/606218.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/606218.jpg",
     "catalogueDescription": "................... 1012 606193........................................... 1011 606195........................................... 1011 606196........................................... 1011 606199........................................... 1011 606210........................................... 1011 606211........................................... 1011 606212........................................... 1011 606214........................................... 1011 606216........................................... 1011 606218........................................... 1011 606220........................................... 1011 606222........................................... 1011 606224........................................... 1011 607392...........................998-999, 1006 608201........................................... 1006 609490........................................... 1001 609525........................................... 1001 609526........................................... 1001 823520.................................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/606218.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/606218.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/606218.jpg"
   },
-  {
+  "606219": {
     "productNumber": "606219",
     "description": "MINN KOTA RAPTOR PORT 6\" JACK PLATE BRKT WHITE",
     "brand": "Y",
@@ -664,7 +651,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 541.58,
     "barcode": "029402050048",
@@ -674,7 +661,7 @@
     "productWebSearchQuery": "\"606219\" \"Y MINN KOTA RAPTOR PORT 6\" JACK PLATE BRKT WHITE\"",
     "imageUrl": "../images/web-product-images/606219.jpg"
   },
-  {
+  "606220": {
     "productNumber": "606220",
     "description": "MINN KOTA RAPTOR 3\" SETBACK BRACKET",
     "brand": "Y",
@@ -693,17 +680,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/28/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 153.05,
     "barcode": "029402048687",
     "cataloguePage": 28,
-    "imageUrl": "../images/catalogue/product-photos/606220.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/606220.jpg",
     "catalogueDescription": "................... 1011 606195........................................... 1011 606196........................................... 1011 606199........................................... 1011 606210........................................... 1011 606211........................................... 1011 606212........................................... 1011 606214........................................... 1011 606216........................................... 1011 606218........................................... 1011 606220........................................... 1011 606222........................................... 1011 606224........................................... 1011 607392...........................998-999, 1006 608201........................................... 1006 609490........................................... 1001 609525........................................... 1001 609526........................................... 1001 823520............................................. 658 841300................................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/606220.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/606220.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/606220.jpg"
   },
-  {
+  "606221": {
     "productNumber": "606221",
     "description": "MINN KOTA RAPTOR 3\" SETBACK BRACKET WHITE",
     "brand": "Y",
@@ -722,7 +708,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 153.05,
     "barcode": "029402050055",
@@ -732,7 +718,7 @@
     "productWebSearchQuery": "\"606221\" \"Y MINN KOTA RAPTOR 3\" SETBACK BRACKET WHITE\"",
     "imageUrl": "../images/web-product-images/606221.jpg"
   },
-  {
+  "606222": {
     "productNumber": "606222",
     "description": "MINN KOTA RAPTOR DIRECT MOUNT ANGLE BRKT",
     "brand": "Y",
@@ -751,17 +737,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/28/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 189.5,
     "barcode": "029402048694",
     "cataloguePage": 28,
-    "imageUrl": "../images/catalogue/product-photos/606222.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/606222.jpg",
     "catalogueDescription": "................... 1011 606196........................................... 1011 606199........................................... 1011 606210........................................... 1011 606211........................................... 1011 606212........................................... 1011 606214........................................... 1011 606216........................................... 1011 606218........................................... 1011 606220........................................... 1011 606222........................................... 1011 606224........................................... 1011 607392...........................998-999, 1006 608201........................................... 1006 609490........................................... 1001 609525........................................... 1001 609526........................................... 1001 823520............................................. 658 841300............................................. 345 846100...............................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/606222.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/606222.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/606222.jpg"
   },
-  {
+  "606223": {
     "productNumber": "606223",
     "description": "MINN KOTA RAPTOR DIRECT MOUNT ANGLE BRKT WHITE",
     "brand": "Y",
@@ -780,7 +765,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 189.5,
     "barcode": "029402050062",
@@ -790,7 +775,7 @@
     "productWebSearchQuery": "\"606223\" \"Y MINN KOTA RAPTOR DIRECT MOUNT ANGLE BRKT WHITE\"",
     "imageUrl": "../images/web-product-images/606223.webp"
   },
-  {
+  "606225": {
     "productNumber": "606225",
     "description": "MINN KOTA RAPTOR UNIVERSAL SANDWICH ADPT WHITE",
     "brand": "Y",
@@ -809,7 +794,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 182.37,
     "barcode": "029402050079",
@@ -819,4 +804,4 @@
     "productWebSearchQuery": "\"606225\" \"Y MINN KOTA RAPTOR UNIVERSAL SANDWICH ADPT WHITE\"",
     "imageUrl": "../images/web-product-images/606225.webp"
   }
-]
+}

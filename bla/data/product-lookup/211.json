@@ -1,5 +1,5 @@
-[
-  {
+{
+  "211111": {
     "productNumber": "211111",
     "description": "BLA LOW LOAD VALVE CONTROL",
     "brand": "Y",
@@ -18,7 +18,7 @@
     "subCategoryDescription": "Toilets, Plumbing & Galley products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 85.23,
     "barcode": "9319786402559",
@@ -28,7 +28,7 @@
     "productWebSearchQuery": "\"211111\" \"Y BLA LOW LOAD VALVE CONTROL\"",
     "imageUrl": "../images/web-product-images/211111.jpg"
   },
-  {
+  "211200": {
     "productNumber": "211200",
     "description": "BLA TRAILER WINCH ELECTRIC 2000LB",
     "brand": "Bla",
@@ -47,12 +47,12 @@
     "subCategoryDescription": "Trailer Parts & Towing products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/23/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 5,
-    "freightAud": 24,
+    "estimatedWeightKg": 5.0,
+    "freightAud": 24.0,
     "exportAudExGst": 97.52,
     "barcode": "9319786231937",
     "cataloguePage": 23,
-    "imageUrl": "../images/bla-website-products/211200.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/211200.jpg",
     "catalogueDescription": ".......644, 646 203508............................................. 646 203509............................................. 644 203510............................................. 646 203511............................................. 646 203701............................................. 646 203705............................................. 646 203707............................................. 646 203708............................................. 646 203715............................................. 646 211200............................................. 663 211210............................................. 662 211212............................................. 662 211222............................................. 662 211224............................................. 662 211226............................................. 663 211228............................................. 663 211602............................................. 664 211606............................................. 664 211610................",
     "productBlockImageUrl": "../images/catalogue/product-blocks/211200.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/bla-electric-winch-trailer-2000/",
@@ -69,7 +69,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/06/211200.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "211210": {
     "productNumber": "211210",
     "description": "BLA TRAILER WINCH ELECTRIC 2000LB POWER IN/OUT",
     "brand": "Bla",
@@ -88,12 +88,12 @@
     "subCategoryDescription": "Batteries, Charging & Solar products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/23/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 5,
-    "freightAud": 24,
+    "estimatedWeightKg": 5.0,
+    "freightAud": 24.0,
     "exportAudExGst": 171.25,
     "barcode": "9319786277249",
     "cataloguePage": 23,
-    "imageUrl": "../images/bla-website-products/211210.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/211210.jpg",
     "catalogueDescription": "........... 646 203509............................................. 644 203510............................................. 646 203511............................................. 646 203701............................................. 646 203705............................................. 646 203707............................................. 646 203708............................................. 646 203715............................................. 646 211200............................................. 663 211210............................................. 662 211212............................................. 662 211222............................................. 662 211224............................................. 662 211226............................................. 663 211228............................................. 663 211602............................................. 664 211606............................................. 664 211610............................................. 664 211618................",
     "productBlockImageUrl": "../images/catalogue/product-blocks/211210.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/bla-electric-winch-2000/",
@@ -110,7 +110,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/06/211210.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "211212": {
     "productNumber": "211212",
     "description": "BLA TRAILER WINCH ELECTRIC 2500LB POWER IN/OUT",
     "brand": "Bla",
@@ -129,17 +129,16 @@
     "subCategoryDescription": "Batteries, Charging & Solar products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/23/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 5,
-    "freightAud": 24,
+    "estimatedWeightKg": 5.0,
+    "freightAud": 24.0,
     "exportAudExGst": 244.93,
     "barcode": "9319786277256",
     "cataloguePage": 23,
-    "imageUrl": "../images/catalogue/product-photos/211212.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/211212.jpg",
     "catalogueDescription": "........... 644 203510............................................. 646 203511............................................. 646 203701............................................. 646 203705............................................. 646 203707............................................. 646 203708............................................. 646 203715............................................. 646 211200............................................. 663 211210............................................. 662 211212............................................. 662 211222............................................. 662 211224............................................. 662 211226............................................. 663 211228............................................. 663 211602............................................. 664 211606............................................. 664 211610............................................. 664 211618............................................. 664 211634................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/211212.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/211212.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/211212.jpg"
   },
-  {
+  "211222": {
     "productNumber": "211222",
     "description": "BLA TRAILER WINCH ELECTRIC 3000LB POWER IN/OUT",
     "brand": "Bla",
@@ -158,17 +157,16 @@
     "subCategoryDescription": "Batteries, Charging & Solar products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/23/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 5,
-    "freightAud": 24,
+    "estimatedWeightKg": 5.0,
+    "freightAud": 24.0,
     "exportAudExGst": 292.1,
     "barcode": "9319786277263",
     "cataloguePage": 23,
-    "imageUrl": "../images/catalogue/product-photos/211222.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/211222.jpg",
     "catalogueDescription": "........... 646 203511............................................. 646 203701............................................. 646 203705............................................. 646 203707............................................. 646 203708............................................. 646 203715............................................. 646 211200............................................. 663 211210............................................. 662 211212............................................. 662 211222............................................. 662 211224............................................. 662 211226............................................. 663 211228............................................. 663 211602............................................. 664 211606............................................. 664 211610............................................. 664 211618............................................. 664 211634............................................. 664 211638................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/211222.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/211222.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/211222.jpg"
   },
-  {
+  "211224": {
     "productNumber": "211224",
     "description": "BLA TRAILER WINCH ELECTRIC 3500LB POWER IN/OUT",
     "brand": "Bla",
@@ -187,17 +185,16 @@
     "subCategoryDescription": "Batteries, Charging & Solar products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/23/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 5,
-    "freightAud": 24,
+    "estimatedWeightKg": 5.0,
+    "freightAud": 24.0,
     "exportAudExGst": 339.37,
     "barcode": "9319786277270",
     "cataloguePage": 23,
-    "imageUrl": "../images/catalogue/product-photos/211224.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/211224.jpg",
     "catalogueDescription": "........... 646 203701............................................. 646 203705............................................. 646 203707............................................. 646 203708............................................. 646 203715............................................. 646 211200............................................. 663 211210............................................. 662 211212............................................. 662 211222............................................. 662 211224............................................. 662 211226............................................. 663 211228............................................. 663 211602............................................. 664 211606............................................. 664 211610............................................. 664 211618............................................. 664 211634............................................. 664 211638............................................. 664 211644................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/211224.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/211224.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/211224.jpg"
   },
-  {
+  "211226": {
     "productNumber": "211226",
     "description": "ATLANTIC ELECTRIC TRAILER WINCH 2000LB",
     "brand": "",
@@ -216,23 +213,22 @@
     "subCategoryDescription": "Trailer Parts & Towing products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/23/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 5,
-    "freightAud": 24,
+    "estimatedWeightKg": 5.0,
+    "freightAud": 24.0,
     "exportAudExGst": 136.82,
     "barcode": "9337451001692",
     "cataloguePage": 23,
-    "imageUrl": "../images/catalogue/product-photos/211226.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/211226.jpg",
     "catalogueDescription": "........... 646 203705............................................. 646 203707............................................. 646 203708............................................. 646 203715............................................. 646 211200............................................. 663 211210............................................. 662 211212............................................. 662 211222............................................. 662 211224............................................. 662 211226............................................. 663 211228............................................. 663 211602............................................. 664 211606............................................. 664 211610............................................. 664 211618............................................. 664 211634............................................. 664 211638............................................. 664 211644............................................. 664 211648................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/211226.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/211226.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/211226.jpg"
   },
-  {
+  "211228": {
     "productNumber": "211228",
     "description": "ATLANTIC ELECTRIC TRAILER WINCH 3000LB",
     "brand": "",
     "variant": "PC",
     "price": 509.6,
-    "unitCostOfSale": 298,
+    "unitCostOfSale": 298.0,
     "categoryName": "Trailering",
     "topCategory": "Trailering",
     "subCategoryName": "Trailer Parts & Towing",
@@ -245,17 +241,16 @@
     "subCategoryDescription": "Trailer Parts & Towing products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/23/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 5,
-    "freightAud": 24,
+    "estimatedWeightKg": 5.0,
+    "freightAud": 24.0,
     "exportAudExGst": 154.8,
     "barcode": "9337451001708",
     "cataloguePage": 23,
-    "imageUrl": "../images/catalogue/product-photos/211228.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/211228.jpg",
     "catalogueDescription": "........... 646 203707............................................. 646 203708............................................. 646 203715............................................. 646 211200............................................. 663 211210............................................. 662 211212............................................. 662 211222............................................. 662 211224............................................. 662 211226............................................. 663 211228............................................. 663 211602............................................. 664 211606............................................. 664 211610............................................. 664 211618............................................. 664 211634............................................. 664 211638............................................. 664 211644............................................. 664 211648............................................. 664 211656................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/211228.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/211228.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/211228.jpg"
   },
-  {
+  "211229": {
     "productNumber": "211229",
     "description": "ATLANTIC TRAILER WINCH REMOTE & LEAD ASSY 2000LB CADET",
     "brand": "Y",
@@ -274,8 +269,8 @@
     "subCategoryDescription": "Trailer Parts & Towing products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 5,
-    "freightAud": 24,
+    "estimatedWeightKg": 5.0,
+    "freightAud": 24.0,
     "exportAudExGst": 36.23,
     "barcode": "9319786442456",
     "productWebSearchImageUrl": "../images/web-product-images/211229.jpg",
@@ -284,7 +279,7 @@
     "productWebSearchQuery": "\"211229\" \"ATLANTIC TRAILER WINCH REMOTE & LEAD ASSY 2000LB CADET\"",
     "imageUrl": "../images/web-product-images/211229.jpg"
   },
-  {
+  "211230": {
     "productNumber": "211230",
     "description": "ATLANTIC TRAILER WINCH REMOTE & LEAD ASSY 3000LB CADET",
     "brand": "Y",
@@ -303,8 +298,8 @@
     "subCategoryDescription": "Trailer Parts & Towing products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 5,
-    "freightAud": 24,
+    "estimatedWeightKg": 5.0,
+    "freightAud": 24.0,
     "exportAudExGst": 36.23,
     "barcode": "9319786442463",
     "productWebSearchImageUrl": "../images/web-product-images/211230.jpg",
@@ -313,7 +308,7 @@
     "productWebSearchQuery": "\"211230\" \"ATLANTIC TRAILER WINCH REMOTE & LEAD ASSY 3000LB CADET\"",
     "imageUrl": "../images/web-product-images/211230.jpg"
   },
-  {
+  "211231": {
     "productNumber": "211231",
     "description": "ATLANTIC TRAILER WINCH 12V POWER LEAD T/S POWER WINCH",
     "brand": "Y",
@@ -332,8 +327,8 @@
     "subCategoryDescription": "Batteries, Charging & Solar products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 5,
-    "freightAud": 24,
+    "estimatedWeightKg": 5.0,
+    "freightAud": 24.0,
     "exportAudExGst": 36.23,
     "barcode": "9319786442470",
     "productWebSearchImageUrl": "../images/web-product-images/211231.jpg",
@@ -342,7 +337,7 @@
     "productWebSearchQuery": "\"211231\" \"Y ATLANTIC TRAILER WINCH 12V POWER LEAD T/S POWER WINCH\"",
     "imageUrl": "../images/web-product-images/211231.jpg"
   },
-  {
+  "211602": {
     "productNumber": "211602",
     "description": "BLA SINGLE PAWL TRAILER WINCH 3:1 NO CABLE 270KG",
     "brand": "Bla",
@@ -361,17 +356,16 @@
     "subCategoryDescription": "Switches, Cable & Circuit Protection products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/23/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 5,
-    "freightAud": 24,
+    "estimatedWeightKg": 5.0,
+    "freightAud": 24.0,
     "exportAudExGst": 27.87,
     "barcode": "9319786239360",
     "cataloguePage": 23,
-    "imageUrl": "../images/catalogue/product-photos/211602.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/211602.jpg",
     "catalogueDescription": "........... 646 203708............................................. 646 203715............................................. 646 211200............................................. 663 211210............................................. 662 211212............................................. 662 211222............................................. 662 211224............................................. 662 211226............................................. 663 211228............................................. 663 211602............................................. 664 211606............................................. 664 211610............................................. 664 211618............................................. 664 211634............................................. 664 211638............................................. 664 211644............................................. 664 211648............................................. 664 211656............................................. 664 211670................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/211602.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/211602.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/211602.jpg"
   },
-  {
+  "211606": {
     "productNumber": "211606",
     "description": "BLA SINGLE PAWL TRAILER WINCH 3:1 NO CABLE 350KG",
     "brand": "Bla",
@@ -390,17 +384,16 @@
     "subCategoryDescription": "Switches, Cable & Circuit Protection products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/23/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 5,
-    "freightAud": 24,
+    "estimatedWeightKg": 5.0,
+    "freightAud": 24.0,
     "exportAudExGst": 31.9,
     "barcode": "9319786239377",
     "cataloguePage": 23,
-    "imageUrl": "../images/catalogue/product-photos/211606.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/211606.jpg",
     "catalogueDescription": "........... 646 203715............................................. 646 211200............................................. 663 211210............................................. 662 211212............................................. 662 211222............................................. 662 211224............................................. 662 211226............................................. 663 211228............................................. 663 211602............................................. 664 211606............................................. 664 211610............................................. 664 211618............................................. 664 211634............................................. 664 211638............................................. 664 211644............................................. 664 211648............................................. 664 211656............................................. 664 211670............................................. 664 211882................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/211606.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/211606.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/211606.jpg"
   },
-  {
+  "211610": {
     "productNumber": "211610",
     "description": "BLA SINGLE PAWL TRAILER WINCH 4:1 NO CABLE 450KG",
     "brand": "Bla",
@@ -419,17 +412,16 @@
     "subCategoryDescription": "Switches, Cable & Circuit Protection products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/23/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 5,
-    "freightAud": 24,
+    "estimatedWeightKg": 5.0,
+    "freightAud": 24.0,
     "exportAudExGst": 36.52,
     "barcode": "9319786239384",
     "cataloguePage": 23,
-    "imageUrl": "../images/catalogue/product-photos/211610.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/211610.jpg",
     "catalogueDescription": "........... 646 211200............................................. 663 211210............................................. 662 211212............................................. 662 211222............................................. 662 211224............................................. 662 211226............................................. 663 211228............................................. 663 211602............................................. 664 211606............................................. 664 211610............................................. 664 211618............................................. 664 211634............................................. 664 211638............................................. 664 211644............................................. 664 211648............................................. 664 211656............................................. 664 211670............................................. 664 211882............................................. 666 211888................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/211610.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/211610.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/211610.jpg"
   },
-  {
+  "211618": {
     "productNumber": "211618",
     "description": "BLA TRIPLE PAWL TRAILER WINCH 4:1 NO CABLE 650KG",
     "brand": "Bla",
@@ -448,17 +440,16 @@
     "subCategoryDescription": "Switches, Cable & Circuit Protection products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/23/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 5,
-    "freightAud": 24,
+    "estimatedWeightKg": 5.0,
+    "freightAud": 24.0,
     "exportAudExGst": 42.07,
     "barcode": "9319786239407",
     "cataloguePage": 23,
-    "imageUrl": "../images/catalogue/product-photos/211618.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/211618.jpg",
     "catalogueDescription": "........... 663 211210............................................. 662 211212............................................. 662 211222............................................. 662 211224............................................. 662 211226............................................. 663 211228............................................. 663 211602............................................. 664 211606............................................. 664 211610............................................. 664 211618............................................. 664 211634............................................. 664 211638............................................. 664 211644............................................. 664 211648............................................. 664 211656............................................. 664 211670............................................. 664 211882............................................. 666 211888............................................. 666 211900................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/211618.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/211618.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/211618.jpg"
   },
-  {
+  "211634": {
     "productNumber": "211634",
     "description": "BLA DUAL GEAR DRIVE TRAILER WINCH 4/1:1 NO CABLE 727KG",
     "brand": "Bla",
@@ -477,17 +468,16 @@
     "subCategoryDescription": "Switches, Cable & Circuit Protection products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/23/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 5,
-    "freightAud": 24,
+    "estimatedWeightKg": 5.0,
+    "freightAud": 24.0,
     "exportAudExGst": 46.99,
     "barcode": "9319786239469",
     "cataloguePage": 23,
-    "imageUrl": "../images/catalogue/product-photos/211634.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/211634.jpg",
     "catalogueDescription": "........... 662 211212............................................. 662 211222............................................. 662 211224............................................. 662 211226............................................. 663 211228............................................. 663 211602............................................. 664 211606............................................. 664 211610............................................. 664 211618............................................. 664 211634............................................. 664 211638............................................. 664 211644............................................. 664 211648............................................. 664 211656............................................. 664 211670............................................. 664 211882............................................. 666 211888............................................. 666 211900............................................. 665 211902................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/211634.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/211634.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/211634.jpg"
   },
-  {
+  "211638": {
     "productNumber": "211638",
     "description": "BLA DUAL GEAR DRIVE TRAILER WINCH 4/1:1 NO CABLE 900KG",
     "brand": "Bla",
@@ -506,17 +496,16 @@
     "subCategoryDescription": "Switches, Cable & Circuit Protection products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/23/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 5,
-    "freightAud": 24,
+    "estimatedWeightKg": 5.0,
+    "freightAud": 24.0,
     "exportAudExGst": 56.82,
     "barcode": "9319786239513",
     "cataloguePage": 23,
-    "imageUrl": "../images/catalogue/product-photos/211638.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/211638.jpg",
     "catalogueDescription": "........... 662 211222............................................. 662 211224............................................. 662 211226............................................. 663 211228............................................. 663 211602............................................. 664 211606............................................. 664 211610............................................. 664 211618............................................. 664 211634............................................. 664 211638............................................. 664 211644............................................. 664 211648............................................. 664 211656............................................. 664 211670............................................. 664 211882............................................. 666 211888............................................. 666 211900............................................. 665 211902............................................. 665 211904................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/211638.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/211638.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/211638.jpg"
   },
-  {
+  "211644": {
     "productNumber": "211644",
     "description": "BLA TWO SPEED TRAILER WINCH 9.8/4:1 NO CABLE 900KG",
     "brand": "Bla",
@@ -535,17 +524,16 @@
     "subCategoryDescription": "Switches, Cable & Circuit Protection products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/23/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 5,
-    "freightAud": 24,
+    "estimatedWeightKg": 5.0,
+    "freightAud": 24.0,
     "exportAudExGst": 95.82,
     "barcode": "9319786239476",
     "cataloguePage": 23,
-    "imageUrl": "../images/catalogue/product-photos/211644.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/211644.jpg",
     "catalogueDescription": "........... 662 211224............................................. 662 211226............................................. 663 211228............................................. 663 211602............................................. 664 211606............................................. 664 211610............................................. 664 211618............................................. 664 211634............................................. 664 211638............................................. 664 211644............................................. 664 211648............................................. 664 211656............................................. 664 211670............................................. 664 211882............................................. 666 211888............................................. 666 211900............................................. 665 211902............................................. 665 211904............................................. 665 211908................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/211644.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/211644.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/211644.jpg"
   },
-  {
+  "211648": {
     "productNumber": "211648",
     "description": "BLA TWO SPEED TRAILER WINCH 12/5:1 NO CABLE 1150KG",
     "brand": "Bla",
@@ -564,17 +552,16 @@
     "subCategoryDescription": "Switches, Cable & Circuit Protection products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/23/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 5,
-    "freightAud": 24,
+    "estimatedWeightKg": 5.0,
+    "freightAud": 24.0,
     "exportAudExGst": 90.98,
     "barcode": "9319786239520",
     "cataloguePage": 23,
-    "imageUrl": "../images/catalogue/product-photos/211648.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/211648.jpg",
     "catalogueDescription": "........... 662 211226............................................. 663 211228............................................. 663 211602............................................. 664 211606............................................. 664 211610............................................. 664 211618............................................. 664 211634............................................. 664 211638............................................. 664 211644............................................. 664 211648............................................. 664 211656............................................. 664 211670............................................. 664 211882............................................. 666 211888............................................. 666 211900............................................. 665 211902............................................. 665 211904............................................. 665 211908............................................. 665 211909................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/211648.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/211648.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/211648.jpg"
   },
-  {
+  "211656": {
     "productNumber": "211656",
     "description": "BLA BRAKING TRAILER WINCH 4:1 NO CABLE 550KG",
     "brand": "Bla",
@@ -593,12 +580,12 @@
     "subCategoryDescription": "Switches, Cable & Circuit Protection products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/23/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 5,
-    "freightAud": 24,
+    "estimatedWeightKg": 5.0,
+    "freightAud": 24.0,
     "exportAudExGst": 61.14,
     "barcode": "9319786239438",
     "cataloguePage": 23,
-    "imageUrl": "../images/bla-website-products/211656.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/211656.jpg",
     "catalogueDescription": "........... 663 211228............................................. 663 211602............................................. 664 211606............................................. 664 211610............................................. 664 211618............................................. 664 211634............................................. 664 211638............................................. 664 211644............................................. 664 211648............................................. 664 211656............................................. 664 211670............................................. 664 211882............................................. 666 211888............................................. 666 211900............................................. 665 211902............................................. 665 211904............................................. 665 211908............................................. 665 211909............................................. 665 211910................",
     "productBlockImageUrl": "../images/catalogue/product-blocks/211656.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/manual-trailer-winch-with-brake/",
@@ -615,7 +602,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/06/211656.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "211670": {
     "productNumber": "211670",
     "description": "BLA WORM DRIVE TRAILER WINCH 31:1 NO CABLE 700KG",
     "brand": "Bla",
@@ -634,12 +621,12 @@
     "subCategoryDescription": "Switches, Cable & Circuit Protection products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/23/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 5,
-    "freightAud": 24,
+    "estimatedWeightKg": 5.0,
+    "freightAud": 24.0,
     "exportAudExGst": 80.14,
     "barcode": "9319786239483",
     "cataloguePage": 23,
-    "imageUrl": "../images/bla-website-products/211670.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/211670.jpg",
     "catalogueDescription": "........... 663 211602............................................. 664 211606............................................. 664 211610............................................. 664 211618............................................. 664 211634............................................. 664 211638............................................. 664 211644............................................. 664 211648............................................. 664 211656............................................. 664 211670............................................. 664 211882............................................. 666 211888............................................. 666 211900............................................. 665 211902............................................. 665 211904............................................. 665 211908............................................. 665 211909............................................. 665 211910............................................. 665 211912................",
     "productBlockImageUrl": "../images/catalogue/product-blocks/211670.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/manual-trailer-winch-worm-drive/",
@@ -656,7 +643,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/06/211670.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "211882": {
     "productNumber": "211882",
     "description": "ATLANTIC TRAILER WINCH CADET 3:1 STRAP",
     "brand": "",
@@ -680,12 +667,11 @@
     "exportAudExGst": 41.18,
     "barcode": "9319786327678",
     "cataloguePage": 23,
-    "imageUrl": "../images/catalogue/product-photos/211882.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/211882.jpg",
     "catalogueDescription": "........... 664 211606............................................. 664 211610............................................. 664 211618............................................. 664 211634............................................. 664 211638............................................. 664 211644............................................. 664 211648............................................. 664 211656............................................. 664 211670............................................. 664 211882............................................. 666 211888............................................. 666 211900............................................. 665 211902............................................. 665 211904............................................. 665 211908............................................. 665 211909............................................. 665 211910............................................. 665 211912............................................. 665 211914................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/211882.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/211882.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/211882.jpg"
   },
-  {
+  "211888": {
     "productNumber": "211888",
     "description": "ATLANTIC TRAILER WINCH CADET 4:1 STRAP",
     "brand": "",
@@ -709,12 +695,11 @@
     "exportAudExGst": 47.38,
     "barcode": "9319786327685",
     "cataloguePage": 23,
-    "imageUrl": "../images/catalogue/product-photos/211888.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/211888.jpg",
     "catalogueDescription": "........... 664 211610............................................. 664 211618............................................. 664 211634............................................. 664 211638............................................. 664 211644............................................. 664 211648............................................. 664 211656............................................. 664 211670............................................. 664 211882............................................. 666 211888............................................. 666 211900............................................. 665 211902............................................. 665 211904............................................. 665 211908............................................. 665 211909............................................. 665 211910............................................. 665 211912............................................. 665 211914............................................. 665 211915................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/211888.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/211888.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/211888.jpg"
   },
-  {
+  "211903": {
     "productNumber": "211903",
     "description": "ATLANTIC CADET 3:1 TRAILER WINCH 4MM CABLE",
     "brand": "",
@@ -733,8 +718,8 @@
     "subCategoryDescription": "Switches, Cable & Circuit Protection products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 5,
-    "freightAud": 24,
+    "estimatedWeightKg": 5.0,
+    "freightAud": 24.0,
     "exportAudExGst": 41.11,
     "barcode": "9319786472415",
     "productWebSearchImageUrl": "../images/web-product-images/211903.jpg",
@@ -743,7 +728,7 @@
     "productWebSearchQuery": "\"211903\" \"ATLANTIC CADET 3:1 TRAILER WINCH 4MM CABLE\"",
     "imageUrl": "../images/web-product-images/211903.jpg"
   },
-  {
+  "211904": {
     "productNumber": "211904",
     "description": "ATLANTIC COMPACT 3:1 TRAILER WINCH STRAP",
     "brand": "",
@@ -767,12 +752,11 @@
     "exportAudExGst": 51.43,
     "barcode": "9337451000008",
     "cataloguePage": 23,
-    "imageUrl": "../images/catalogue/product-photos/211904.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/211904.jpg",
     "catalogueDescription": "........... 664 211638............................................. 664 211644............................................. 664 211648............................................. 664 211656............................................. 664 211670............................................. 664 211882............................................. 666 211888............................................. 666 211900............................................. 665 211902............................................. 665 211904............................................. 665 211908............................................. 665 211909............................................. 665 211910............................................. 665 211912............................................. 665 211914............................................. 665 211915............................................. 665 211916............................................. 665 211918............................................. 665 211920................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/211904.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/211904.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/211904.jpg"
   },
-  {
+  "211908": {
     "productNumber": "211908",
     "description": "ATLANTIC 3:1 TRAILER WINCH 4MM CABLE",
     "brand": "",
@@ -791,17 +775,16 @@
     "subCategoryDescription": "Switches, Cable & Circuit Protection products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/23/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 5,
-    "freightAud": 24,
+    "estimatedWeightKg": 5.0,
+    "freightAud": 24.0,
     "exportAudExGst": 56.39,
     "barcode": "9337451000091",
     "cataloguePage": 23,
-    "imageUrl": "../images/catalogue/product-photos/211908.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/211908.jpg",
     "catalogueDescription": "........... 664 211644............................................. 664 211648............................................. 664 211656............................................. 664 211670............................................. 664 211882............................................. 666 211888............................................. 666 211900............................................. 665 211902............................................. 665 211904............................................. 665 211908............................................. 665 211909............................................. 665 211910............................................. 665 211912............................................. 665 211914............................................. 665 211915............................................. 665 211916............................................. 665 211918............................................. 665 211920............................................. 665 211921................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/211908.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/211908.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/211908.jpg"
   },
-  {
+  "211909": {
     "productNumber": "211909",
     "description": "ATLANTIC 3:1 TRAILER WINCH 4MM ROPE",
     "brand": "",
@@ -820,17 +803,16 @@
     "subCategoryDescription": "Rope, Dock Lines & Mooring products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/23/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 5,
-    "freightAud": 24,
+    "estimatedWeightKg": 5.0,
+    "freightAud": 24.0,
     "exportAudExGst": 67.34,
     "barcode": "9337451000725",
     "cataloguePage": 23,
-    "imageUrl": "../images/catalogue/product-photos/211909.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/211909.jpg",
     "catalogueDescription": "........... 664 211648............................................. 664 211656............................................. 664 211670............................................. 664 211882............................................. 666 211888............................................. 666 211900............................................. 665 211902............................................. 665 211904............................................. 665 211908............................................. 665 211909............................................. 665 211910............................................. 665 211912............................................. 665 211914............................................. 665 211915............................................. 665 211916............................................. 665 211918............................................. 665 211920............................................. 665 211921............................................. 665 211922................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/211909.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/211909.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/211909.jpg"
   },
-  {
+  "211910": {
     "productNumber": "211910",
     "description": "ATLANTIC 3:1 TRAILER WINCH STRAP",
     "brand": "",
@@ -854,12 +836,11 @@
     "exportAudExGst": 56.39,
     "barcode": "9337451000046",
     "cataloguePage": 23,
-    "imageUrl": "../images/catalogue/product-photos/211910.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/211910.jpg",
     "catalogueDescription": "........... 664 211656............................................. 664 211670............................................. 664 211882............................................. 666 211888............................................. 666 211900............................................. 665 211902............................................. 665 211904............................................. 665 211908............................................. 665 211909............................................. 665 211910............................................. 665 211912............................................. 665 211914............................................. 665 211915............................................. 665 211916............................................. 665 211918............................................. 665 211920............................................. 665 211921............................................. 665 211922............................................. 665 211924................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/211910.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/211910.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/211910.jpg"
   },
-  {
+  "211912": {
     "productNumber": "211912",
     "description": "ATLANTIC 5:1 TRAILER WINCH NO CABLE",
     "brand": "",
@@ -878,17 +859,16 @@
     "subCategoryDescription": "Switches, Cable & Circuit Protection products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/23/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 5,
-    "freightAud": 24,
+    "estimatedWeightKg": 5.0,
+    "freightAud": 24.0,
     "exportAudExGst": 54.76,
     "barcode": "9337451000152",
     "cataloguePage": 23,
-    "imageUrl": "../images/catalogue/product-photos/211912.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/211912.jpg",
     "catalogueDescription": "........... 664 211670............................................. 664 211882............................................. 666 211888............................................. 666 211900............................................. 665 211902............................................. 665 211904............................................. 665 211908............................................. 665 211909............................................. 665 211910............................................. 665 211912............................................. 665 211914............................................. 665 211915............................................. 665 211916............................................. 665 211918............................................. 665 211920............................................. 665 211921............................................. 665 211922............................................. 665 211924............................................. 665 211926................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/211912.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/211912.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/211912.jpg"
   },
-  {
+  "211914": {
     "productNumber": "211914",
     "description": "ATLANTIC 5:1 TRAILER WINCH 4MM CABLE",
     "brand": "",
@@ -907,17 +887,16 @@
     "subCategoryDescription": "Switches, Cable & Circuit Protection products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/23/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 5,
-    "freightAud": 24,
+    "estimatedWeightKg": 5.0,
+    "freightAud": 24.0,
     "exportAudExGst": 62.02,
     "barcode": "9337451000107",
     "cataloguePage": 23,
-    "imageUrl": "../images/catalogue/product-photos/211914.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/211914.jpg",
     "catalogueDescription": "........... 664 211882............................................. 666 211888............................................. 666 211900............................................. 665 211902............................................. 665 211904............................................. 665 211908............................................. 665 211909............................................. 665 211910............................................. 665 211912............................................. 665 211914............................................. 665 211915............................................. 665 211916............................................. 665 211918............................................. 665 211920............................................. 665 211921............................................. 665 211922............................................. 665 211924............................................. 665 211926............................................. 665 211927................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/211914.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/211914.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/211914.jpg"
   },
-  {
+  "211915": {
     "productNumber": "211915",
     "description": "ATLANTIC 5:1 TRAILER WINCH 5MM ROPE",
     "brand": "",
@@ -936,17 +915,16 @@
     "subCategoryDescription": "Rope, Dock Lines & Mooring products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/23/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 5,
-    "freightAud": 24,
+    "estimatedWeightKg": 5.0,
+    "freightAud": 24.0,
     "exportAudExGst": 75.34,
     "barcode": "9337451000732",
     "cataloguePage": 23,
-    "imageUrl": "../images/catalogue/product-photos/211915.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/211915.jpg",
     "catalogueDescription": "........... 666 211888............................................. 666 211900............................................. 665 211902............................................. 665 211904............................................. 665 211908............................................. 665 211909............................................. 665 211910............................................. 665 211912............................................. 665 211914............................................. 665 211915............................................. 665 211916............................................. 665 211918............................................. 665 211920............................................. 665 211921............................................. 665 211922............................................. 665 211924............................................. 665 211926............................................. 665 211927............................................. 665 211928................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/211915.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/211915.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/211915.jpg"
   },
-  {
+  "211916": {
     "productNumber": "211916",
     "description": "ATLANTIC 5:1 TRAILER WINCH STRAP",
     "brand": "",
@@ -970,12 +948,11 @@
     "exportAudExGst": 62.02,
     "barcode": "9337451000053",
     "cataloguePage": 23,
-    "imageUrl": "../images/catalogue/product-photos/211916.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/211916.jpg",
     "catalogueDescription": "........... 666 211900............................................. 665 211902............................................. 665 211904............................................. 665 211908............................................. 665 211909............................................. 665 211910............................................. 665 211912............................................. 665 211914............................................. 665 211915............................................. 665 211916............................................. 665 211918............................................. 665 211920............................................. 665 211921............................................. 665 211922............................................. 665 211924............................................. 665 211926............................................. 665 211927............................................. 665 211928............................................. 665 211930................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/211916.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/211916.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/211916.jpg"
   },
-  {
+  "211918": {
     "productNumber": "211918",
     "description": "ATLANTIC 5/1:1 TRAILER WINCH NO CABLE",
     "brand": "",
@@ -994,17 +971,16 @@
     "subCategoryDescription": "Switches, Cable & Circuit Protection products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/23/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 5,
-    "freightAud": 24,
+    "estimatedWeightKg": 5.0,
+    "freightAud": 24.0,
     "exportAudExGst": 62.9,
     "barcode": "9337451000169",
     "cataloguePage": 23,
-    "imageUrl": "../images/catalogue/product-photos/211918.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/211918.jpg",
     "catalogueDescription": "........... 665 211902............................................. 665 211904............................................. 665 211908............................................. 665 211909............................................. 665 211910............................................. 665 211912............................................. 665 211914............................................. 665 211915............................................. 665 211916............................................. 665 211918............................................. 665 211920............................................. 665 211921............................................. 665 211922............................................. 665 211924............................................. 665 211926............................................. 665 211927............................................. 665 211928............................................. 665 211930............................................. 665 211932................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/211918.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/211918.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/211918.jpg"
   },
-  {
+  "211920": {
     "productNumber": "211920",
     "description": "ATLANTIC 5/1:1 TRAILER WINCH 5MM CABLE",
     "brand": "",
@@ -1023,17 +999,16 @@
     "subCategoryDescription": "Switches, Cable & Circuit Protection products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/23/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 5,
-    "freightAud": 24,
+    "estimatedWeightKg": 5.0,
+    "freightAud": 24.0,
     "exportAudExGst": 69.19,
     "barcode": "9337451000114",
     "cataloguePage": 23,
-    "imageUrl": "../images/catalogue/product-photos/211920.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/211920.jpg",
     "catalogueDescription": "........... 665 211904............................................. 665 211908............................................. 665 211909............................................. 665 211910............................................. 665 211912............................................. 665 211914............................................. 665 211915............................................. 665 211916............................................. 665 211918............................................. 665 211920............................................. 665 211921............................................. 665 211922............................................. 665 211924............................................. 665 211926............................................. 665 211927............................................. 665 211928............................................. 665 211930............................................. 665 211932............................................. 665 211933................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/211920.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/211920.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/211920.jpg"
   },
-  {
+  "211921": {
     "productNumber": "211921",
     "description": "ATLANTIC 5/1:1 TRAILER WINCH 5MM ROPE",
     "brand": "",
@@ -1052,17 +1027,16 @@
     "subCategoryDescription": "Rope, Dock Lines & Mooring products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/23/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 5,
-    "freightAud": 24,
+    "estimatedWeightKg": 5.0,
+    "freightAud": 24.0,
     "exportAudExGst": 86.14,
     "barcode": "9337451000749",
     "cataloguePage": 23,
-    "imageUrl": "../images/catalogue/product-photos/211921.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/211921.jpg",
     "catalogueDescription": "........... 665 211908............................................. 665 211909............................................. 665 211910............................................. 665 211912............................................. 665 211914............................................. 665 211915............................................. 665 211916............................................. 665 211918............................................. 665 211920............................................. 665 211921............................................. 665 211922............................................. 665 211924............................................. 665 211926............................................. 665 211927............................................. 665 211928............................................. 665 211930............................................. 665 211932............................................. 665 211933............................................. 665 211934................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/211921.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/211921.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/211921.jpg"
   },
-  {
+  "211922": {
     "productNumber": "211922",
     "description": "ATLANTIC 5/1:1 TRAILER WINCH STRAP",
     "brand": "",
@@ -1086,12 +1060,11 @@
     "exportAudExGst": 69.19,
     "barcode": "9337451000060",
     "cataloguePage": 23,
-    "imageUrl": "../images/catalogue/product-photos/211922.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/211922.jpg",
     "catalogueDescription": "........... 665 211909............................................. 665 211910............................................. 665 211912............................................. 665 211914............................................. 665 211915............................................. 665 211916............................................. 665 211918............................................. 665 211920............................................. 665 211921............................................. 665 211922............................................. 665 211924............................................. 665 211926............................................. 665 211927............................................. 665 211928............................................. 665 211930............................................. 665 211932............................................. 665 211933............................................. 665 211934............................................. 665 211944................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/211922.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/211922.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/211922.jpg"
   },
-  {
+  "211924": {
     "productNumber": "211924",
     "description": "ATLANTIC 10/5/1:1 TRAILER WINCH NO CABLE",
     "brand": "",
@@ -1110,17 +1083,16 @@
     "subCategoryDescription": "Switches, Cable & Circuit Protection products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/23/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 5,
-    "freightAud": 24,
+    "estimatedWeightKg": 5.0,
+    "freightAud": 24.0,
     "exportAudExGst": 76.96,
     "barcode": "9337451000176",
     "cataloguePage": 23,
-    "imageUrl": "../images/catalogue/product-photos/211924.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/211924.jpg",
     "catalogueDescription": "........... 665 211910............................................. 665 211912............................................. 665 211914............................................. 665 211915............................................. 665 211916............................................. 665 211918............................................. 665 211920............................................. 665 211921............................................. 665 211922............................................. 665 211924............................................. 665 211926............................................. 665 211927............................................. 665 211928............................................. 665 211930............................................. 665 211932............................................. 665 211933............................................. 665 211934............................................. 665 211944............................................. 666 211948................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/211924.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/211924.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/211924.jpg"
   },
-  {
+  "211926": {
     "productNumber": "211926",
     "description": "ATLANTIC 10/5/1:1 TRAILER WINCH 6MM CABLE",
     "brand": "",
@@ -1139,17 +1111,16 @@
     "subCategoryDescription": "Switches, Cable & Circuit Protection products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/23/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 5,
-    "freightAud": 24,
+    "estimatedWeightKg": 5.0,
+    "freightAud": 24.0,
     "exportAudExGst": 81.4,
     "barcode": "9337451000121",
     "cataloguePage": 23,
-    "imageUrl": "../images/catalogue/product-photos/211926.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/211926.jpg",
     "catalogueDescription": "........... 665 211912............................................. 665 211914............................................. 665 211915............................................. 665 211916............................................. 665 211918............................................. 665 211920............................................. 665 211921............................................. 665 211922............................................. 665 211924............................................. 665 211926............................................. 665 211927............................................. 665 211928............................................. 665 211930............................................. 665 211932............................................. 665 211933............................................. 665 211934............................................. 665 211944............................................. 666 211948............................................. 666 211950................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/211926.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/211926.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/211926.jpg"
   },
-  {
+  "211927": {
     "productNumber": "211927",
     "description": "ATLANTIC 10/5/1:1 TRAILER WINCH 6MM ROPE",
     "brand": "",
@@ -1168,17 +1139,16 @@
     "subCategoryDescription": "Rope, Dock Lines & Mooring products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/23/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 5,
-    "freightAud": 24,
+    "estimatedWeightKg": 5.0,
+    "freightAud": 24.0,
     "exportAudExGst": 106.49,
     "barcode": "9337451000756",
     "cataloguePage": 23,
-    "imageUrl": "../images/catalogue/product-photos/211927.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/211927.jpg",
     "catalogueDescription": "........... 665 211914............................................. 665 211915............................................. 665 211916............................................. 665 211918............................................. 665 211920............................................. 665 211921............................................. 665 211922............................................. 665 211924............................................. 665 211926............................................. 665 211927............................................. 665 211928............................................. 665 211930............................................. 665 211932............................................. 665 211933............................................. 665 211934............................................. 665 211944............................................. 666 211948............................................. 666 211950............................................. 666 211962................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/211927.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/211927.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/211927.jpg"
   },
-  {
+  "211928": {
     "productNumber": "211928",
     "description": "ATLANTIC 10/5/1:1 TRAILER WINCH STRAP",
     "brand": "",
@@ -1202,12 +1172,11 @@
     "exportAudExGst": 81.4,
     "barcode": "9337451000077",
     "cataloguePage": 23,
-    "imageUrl": "../images/catalogue/product-photos/211928.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/211928.jpg",
     "catalogueDescription": "........... 665 211915............................................. 665 211916............................................. 665 211918............................................. 665 211920............................................. 665 211921............................................. 665 211922............................................. 665 211924............................................. 665 211926............................................. 665 211927............................................. 665 211928............................................. 665 211930............................................. 665 211932............................................. 665 211933............................................. 665 211934............................................. 665 211944............................................. 666 211948............................................. 666 211950............................................. 666 211962............................................. 666 212256................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/211928.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/211928.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/211928.jpg"
   },
-  {
+  "211930": {
     "productNumber": "211930",
     "description": "ATLANTIC 15/5/1:1 TRAILER WINCH NO CABLE",
     "brand": "",
@@ -1226,22 +1195,21 @@
     "subCategoryDescription": "Switches, Cable & Circuit Protection products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/23/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 5,
-    "freightAud": 24,
+    "estimatedWeightKg": 5.0,
+    "freightAud": 24.0,
     "exportAudExGst": 125.8,
     "barcode": "9337451000381",
     "cataloguePage": 23,
-    "imageUrl": "../images/catalogue/product-photos/211930.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/211930.jpg",
     "catalogueDescription": "........... 665 211916............................................. 665 211918............................................. 665 211920............................................. 665 211921............................................. 665 211922............................................. 665 211924............................................. 665 211926............................................. 665 211927............................................. 665 211928............................................. 665 211930............................................. 665 211932............................................. 665 211933............................................. 665 211934............................................. 665 211944............................................. 666 211948............................................. 666 211950............................................. 666 211962............................................. 666 212256............................................. 666 212262................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/211930.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/211930.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/211930.jpg"
   },
-  {
+  "211932": {
     "productNumber": "211932",
     "description": "ATLANTIC 15/5/1:1 TRAILER WINCH 6MM CABLE",
     "brand": "",
     "variant": "PC",
-    "price": 448,
+    "price": 448.0,
     "unitCostOfSale": 261.77,
     "categoryName": "Electrical & Electronics",
     "topCategory": "Electrical & Electronics",
@@ -1255,17 +1223,16 @@
     "subCategoryDescription": "Switches, Cable & Circuit Protection products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/23/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 5,
-    "freightAud": 24,
+    "estimatedWeightKg": 5.0,
+    "freightAud": 24.0,
     "exportAudExGst": 133.06,
     "barcode": "9337451000336",
     "cataloguePage": 23,
-    "imageUrl": "../images/catalogue/product-photos/211932.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/211932.jpg",
     "catalogueDescription": "........... 665 211918............................................. 665 211920............................................. 665 211921............................................. 665 211922............................................. 665 211924............................................. 665 211926............................................. 665 211927............................................. 665 211928............................................. 665 211930............................................. 665 211932............................................. 665 211933............................................. 665 211934............................................. 665 211944............................................. 666 211948............................................. 666 211950............................................. 666 211962............................................. 666 212256............................................. 666 212262............................................. 666 212346................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/211932.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/211932.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/211932.jpg"
   },
-  {
+  "211933": {
     "productNumber": "211933",
     "description": "ATLANTIC 15/5/1:1 TRAILER WINCH 7MM ROPE",
     "brand": "",
@@ -1284,17 +1251,16 @@
     "subCategoryDescription": "Rope, Dock Lines & Mooring products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/23/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 5,
-    "freightAud": 24,
+    "estimatedWeightKg": 5.0,
+    "freightAud": 24.0,
     "exportAudExGst": 147.86,
     "barcode": "9337451000763",
     "cataloguePage": 23,
-    "imageUrl": "../images/catalogue/product-photos/211933.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/211933.jpg",
     "catalogueDescription": "........... 665 211920............................................. 665 211921............................................. 665 211922............................................. 665 211924............................................. 665 211926............................................. 665 211927............................................. 665 211928............................................. 665 211930............................................. 665 211932............................................. 665 211933............................................. 665 211934............................................. 665 211944............................................. 666 211948............................................. 666 211950............................................. 666 211962............................................. 666 212256............................................. 666 212262............................................. 666 212346............................................. 666 212348................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/211933.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/211933.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/211933.jpg"
   },
-  {
+  "211934": {
     "productNumber": "211934",
     "description": "ATLANTIC 15/5/1:1 TRAILER WINCH STRAP",
     "brand": "",
@@ -1318,12 +1284,11 @@
     "exportAudExGst": 133.06,
     "barcode": "9337451000282",
     "cataloguePage": 23,
-    "imageUrl": "../images/catalogue/product-photos/211934.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/211934.jpg",
     "catalogueDescription": "........... 665 211921............................................. 665 211922............................................. 665 211924............................................. 665 211926............................................. 665 211927............................................. 665 211928............................................. 665 211930............................................. 665 211932............................................. 665 211933............................................. 665 211934............................................. 665 211944............................................. 666 211948............................................. 666 211950............................................. 666 211962............................................. 666 212256............................................. 666 212262............................................. 666 212346............................................. 666 212348............................................. 666 212892................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/211934.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/211934.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/211934.jpg"
   },
-  {
+  "211944": {
     "productNumber": "211944",
     "description": "ATLANTIC 5:1 SELF BRAKING WINCH NO CABLE",
     "brand": "",
@@ -1342,17 +1307,16 @@
     "subCategoryDescription": "Switches, Cable & Circuit Protection products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/23/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 5,
-    "freightAud": 24,
+    "estimatedWeightKg": 5.0,
+    "freightAud": 24.0,
     "exportAudExGst": 141.94,
     "barcode": "9337451000343",
     "cataloguePage": 23,
-    "imageUrl": "../images/catalogue/product-photos/211944.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/211944.jpg",
     "catalogueDescription": "........... 665 211922............................................. 665 211924............................................. 665 211926............................................. 665 211927............................................. 665 211928............................................. 665 211930............................................. 665 211932............................................. 665 211933............................................. 665 211934............................................. 665 211944............................................. 666 211948............................................. 666 211950............................................. 666 211962............................................. 666 212256............................................. 666 212262............................................. 666 212346............................................. 666 212348............................................. 666 212892............................................. 666 212894................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/211944.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/211944.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/211944.jpg"
   },
-  {
+  "211946": {
     "productNumber": "211946",
     "description": "ATLANTIC 5:1 SELF BRAKING WINCH 5MM CABLE",
     "brand": "",
@@ -1371,17 +1335,16 @@
     "subCategoryDescription": "Switches, Cable & Circuit Protection products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/691/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 5,
-    "freightAud": 24,
+    "estimatedWeightKg": 5.0,
+    "freightAud": 24.0,
     "exportAudExGst": 145.78,
     "barcode": "9337451000299",
     "cataloguePage": 691,
-    "imageUrl": "../images/catalogue/product-photos/211946.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/211946.jpg",
     "catalogueDescription": "Winch Selection Guide Manual Winch BLA Code Suggested Winching Capacity (kg) UP TO 270 300 350 450 500 550 650 700 727 750 900 1000 1150 1500 211602 211900 211902 211904 211882 211944 211946 211606 211610 211906 211908 211909 211910 211912 211914 211915 211916 211948 211950 211656 211888 211618 211670 211918 211920 211921 211922 211634 211960 211638 211644 211924 211926 211927 211928 211648 211930 211932 211933 211934 211962 Electric Winch BLA Code Suggested Winching Capacity (kg) UP TO 2000 2800 3400 3900 211200 211210 211212 211222 211224 N.B. For boat trailer rating only. This is not a lift rating. TRAILER ACCESSORIES 661 21 BOATING LIFESTYLE ADVENTURE",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/211946.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/211946.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/211946.jpg"
   },
-  {
+  "211948": {
     "productNumber": "211948",
     "description": "ATLANTIC 10:1 SELF BRAKING WINCH NO CABLE",
     "brand": "",
@@ -1400,17 +1363,16 @@
     "subCategoryDescription": "Switches, Cable & Circuit Protection products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/23/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 5,
-    "freightAud": 24,
+    "estimatedWeightKg": 5.0,
+    "freightAud": 24.0,
     "exportAudExGst": 158.06,
     "barcode": "9337451000350",
     "cataloguePage": 23,
-    "imageUrl": "../images/catalogue/product-photos/211948.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/211948.jpg",
     "catalogueDescription": "........... 665 211924............................................. 665 211926............................................. 665 211927............................................. 665 211928............................................. 665 211930............................................. 665 211932............................................. 665 211933............................................. 665 211934............................................. 665 211944............................................. 666 211948............................................. 666 211950............................................. 666 211962............................................. 666 212256............................................. 666 212262............................................. 666 212346............................................. 666 212348............................................. 666 212892............................................. 666 212894............................................. 666 212896................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/211948.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/211948.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/211948.jpg"
   },
-  {
+  "211950": {
     "productNumber": "211950",
     "description": "ATLANTIC 10:1 SELF BRAKING WINCH 6MM CABLE",
     "brand": "",
@@ -1429,17 +1391,16 @@
     "subCategoryDescription": "Switches, Cable & Circuit Protection products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/23/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 5,
-    "freightAud": 24,
+    "estimatedWeightKg": 5.0,
+    "freightAud": 24.0,
     "exportAudExGst": 165.02,
     "barcode": "9337451000305",
     "cataloguePage": 23,
-    "imageUrl": "../images/catalogue/product-photos/211950.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/211950.jpg",
     "catalogueDescription": "........... 665 211926............................................. 665 211927............................................. 665 211928............................................. 665 211930............................................. 665 211932............................................. 665 211933............................................. 665 211934............................................. 665 211944............................................. 666 211948............................................. 666 211950............................................. 666 211962............................................. 666 212256............................................. 666 212262............................................. 666 212346............................................. 666 212348............................................. 666 212892............................................. 666 212894............................................. 666 212896............................................. 666 212906................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/211950.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/211950.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/211950.jpg"
   },
-  {
+  "211960": {
     "productNumber": "211960",
     "description": "ATLANTIC 8:1 LARGE SELF BRAKING WINCH NO CABLE",
     "brand": "Y",
@@ -1458,17 +1419,16 @@
     "subCategoryDescription": "Switches, Cable & Circuit Protection products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/691/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 5,
-    "freightAud": 24,
-    "exportAudExGst": 814,
+    "estimatedWeightKg": 5.0,
+    "freightAud": 24.0,
+    "exportAudExGst": 814.0,
     "barcode": "9337451000312",
     "cataloguePage": 691,
-    "imageUrl": "../images/catalogue/product-photos/211960.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/211960.jpg",
     "catalogueDescription": "Winch Selection Guide Manual Winch BLA Code Suggested Winching Capacity (kg) UP TO 270 300 350 450 500 550 650 700 727 750 900 1000 1150 1500 211602 211900 211902 211904 211882 211944 211946 211606 211610 211906 211908 211909 211910 211912 211914 211915 211916 211948 211950 211656 211888 211618 211670 211918 211920 211921 211922 211634 211960 211638 211644 211924 211926 211927 211928 211648 211930 211932 211933 211934 211962 Electric Winch BLA Code Suggested Winching Capacity (kg) UP TO 2000 2800 3400 3900 211200 211210 211212 211222 211224 N.B. For boat trailer rating only. This is not a lift rating. TRAILER ACCESSORIES 661 21 BOATING LIFESTYLE ADVENTURE",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/211960.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/211960.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/211960.jpg"
   },
-  {
+  "211962": {
     "productNumber": "211962",
     "description": "ATLANTIC 15:1 LARGE SELF BRAKING WINCH NO CABLE",
     "brand": "",
@@ -1487,14 +1447,13 @@
     "subCategoryDescription": "Switches, Cable & Circuit Protection products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/23/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 5,
-    "freightAud": 24,
+    "estimatedWeightKg": 5.0,
+    "freightAud": 24.0,
     "exportAudExGst": 880.6,
     "barcode": "9337451000329",
     "cataloguePage": 23,
-    "imageUrl": "../images/catalogue/product-photos/211962.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/211962.jpg",
     "catalogueDescription": "........... 665 211927............................................. 665 211928............................................. 665 211930............................................. 665 211932............................................. 665 211933............................................. 665 211934............................................. 665 211944............................................. 666 211948............................................. 666 211950............................................. 666 211962............................................. 666 212256............................................. 666 212262............................................. 666 212346............................................. 666 212348............................................. 666 212892............................................. 666 212894............................................. 666 212896............................................. 666 212906............................................. 667 212908................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/211962.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/211962.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/211962.jpg"
   }
-]
+}

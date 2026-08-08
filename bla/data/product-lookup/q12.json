@@ -1,5 +1,5 @@
-[
-  {
+{
+  "Q12066Q10": {
     "productNumber": "Q12066Q10",
     "description": "QUICKSILVER ROPE STARTER MERCURY",
     "brand": "Y",
@@ -37,7 +37,7 @@
     "imageUrl": "../images/bla-website-products/Q12066Q10.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "Q12612Q2": {
     "productNumber": "Q12612Q2",
     "description": "QUICKSILVER FLUSHING KIT MERCURY",
     "brand": "",
@@ -56,12 +56,12 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/29/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 40.09,
     "barcode": "745061040298",
     "cataloguePage": 29,
-    "imageUrl": "../images/bla-website-products/Q12612Q2.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/Q12612Q2.jpg",
     "catalogueDescription": ".. 632 CDI173-4560.................................... 630 CDI174-5454K1............................... 631 CDI174-9710K1............................... 631 CDI183-2508.................................... 631 CDI183-3740.................................... 631 CDI184-0001.................................... 631 CDI187-0011.................................... 632 CDI511-9766.................................... 632 CDI551-33-1.................................... 632 CDI551-334K................................... 632 Q12612Q2........................................ 616 Q13563Q3........................................ 572 Q13563Q7........................................ 572 Q14213Q.......................................... 572 Q14586............................................ 614 Q14586A3........................................ 614 Q16595Q.......................................... 615 Q16755Q1........................................ 618 Q18458Q3........................................ 615 Q18458Q4.......................................",
     "productBlockImageUrl": "../images/catalogue/product-blocks/Q12612Q2.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/quicksilver-flushing-attachment-2/",
@@ -78,7 +78,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/07/Q12612Q2.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "Q12708": {
     "productNumber": "Q12708",
     "description": "QUICKSILVER SEAL MERCURY",
     "brand": "Y",
@@ -97,7 +97,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 12.87,
     "barcode": "745061108356",
@@ -107,7 +107,7 @@
     "productWebSearchQuery": "\"Q12708\" \"QUICKSILVER SEAL MERCURY\"",
     "imageUrl": "../images/web-product-images/Q12708.jpg"
   },
-  {
+  "Q12886A6": {
     "productNumber": "Q12886A6",
     "description": "QUICKSILVER SWITCH ASSY MERCURY",
     "brand": "Y",
@@ -136,4 +136,4 @@
     "productWebSearchQuery": "\"Q12886A6\" \"QUICKSILVER SWITCH ASSY MERCURY\"",
     "imageUrl": "../images/web-product-images/Q12886A6.png"
   }
-]
+}

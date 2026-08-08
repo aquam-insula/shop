@@ -1,1 +1,30 @@
-[{"productNumber":"262006","description":"MARINE TOWN ECONOMY PAINT BRUSH 50MM","brand":"","variant":"PC","price":22.92,"unitCostOfSale":11.72,"categoryName":"Maintenance","topCategory":"Maintenance","subCategoryName":"Lubricants, Fuel & Boat Care","subCategory":"M - Marine Supplies","pricingCategoryUsed":"M - Marine Supplies","categoryImage":"../images/catalogue/pages/page0717.jpg","subCategoryImage":"../images/catalogue/pages/page0717.jpg","catalogueImageUrl":"../images/catalogue/pages/page0024.jpg","categoryDescription":"Maintenance from the BLA Australia Edition 15 catalogue.","subCategoryDescription":"Lubricants, Fuel & Boat Care products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.","sourceUrl":"https://online.flippingbook.com/view/328167/24/","printCatalogueUrl":"https://online.flippingbook.com/view/328167/","estimatedWeightKg":1,"freightAud":4.8,"exportAudExGst":2.23,"barcode":"9319786121184","cataloguePage":24,"imageUrl":"../images/catalogue/product-photos/262006.jpg","catalogueDescription":"........... 737 261450............................................. 736 261452............................................. 736 261458............................................. 736 261480............................................. 737 261481............................................. 736 261482............................................. 736 261484............................................. 737 261504............................................. 736 262002............................................. 737 262006............................................. 737 265100............................................. 727 265101............................................. 728 265112............................................. 727 265120.....................................727, 954 265124............................................. 727 265130............................................. 727 265134............................................. 727 265140............................................. 727 265142....................","productBlockImageUrl":"../images/catalogue/product-blocks/262006.jpg","productPhotoImageUrl":"../images/catalogue/product-photos/262006.jpg"}]
+{
+  "262006": {
+    "productNumber": "262006",
+    "description": "MARINE TOWN ECONOMY PAINT BRUSH 50MM",
+    "brand": "",
+    "variant": "PC",
+    "price": 22.92,
+    "unitCostOfSale": 11.72,
+    "categoryName": "Maintenance",
+    "topCategory": "Maintenance",
+    "subCategoryName": "Lubricants, Fuel & Boat Care",
+    "subCategory": "M - Marine Supplies",
+    "pricingCategoryUsed": "M - Marine Supplies",
+    "categoryImage": "../images/catalogue/pages/page0717.jpg",
+    "subCategoryImage": "../images/catalogue/pages/page0717.jpg",
+    "catalogueImageUrl": "../images/catalogue/pages/page0024.jpg",
+    "categoryDescription": "Maintenance from the BLA Australia Edition 15 catalogue.",
+    "subCategoryDescription": "Lubricants, Fuel & Boat Care products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
+    "sourceUrl": "https://online.flippingbook.com/view/328167/24/",
+    "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
+    "estimatedWeightKg": 1.0,
+    "freightAud": 4.8,
+    "exportAudExGst": 2.23,
+    "barcode": "9319786121184",
+    "cataloguePage": 24,
+    "imageUrl": "../images/catalogue/product-blocks/262006.jpg",
+    "catalogueDescription": "........... 737 261450............................................. 736 261452............................................. 736 261458............................................. 736 261480............................................. 737 261481............................................. 736 261482............................................. 736 261484............................................. 737 261504............................................. 736 262002............................................. 737 262006............................................. 737 265100............................................. 727 265101............................................. 728 265112............................................. 727 265120.....................................727, 954 265124............................................. 727 265130............................................. 727 265134............................................. 727 265140............................................. 727 265142....................",
+    "productBlockImageUrl": "../images/catalogue/product-blocks/262006.jpg"
+  }
+}

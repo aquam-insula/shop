@@ -1,5 +1,5 @@
-[
-  {
+{
+  "603009": {
     "productNumber": "603009",
     "description": "MINN KOTA QUICK RELEASE BRACKET WHITE 54-60\" MOTORS",
     "brand": "",
@@ -18,12 +18,12 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/28/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 158.54,
     "barcode": "029402022328",
     "cataloguePage": 28,
-    "imageUrl": "../images/bla-website-products/603009.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/603009.jpg",
     "catalogueDescription": ".................. 998 601444............................................. 998 601446............................................. 998 602804........................................... 1001 602806........................................... 1001 602812........................................... 1002 602906........................................... 1012 602948........................................... 1001 602996........................................... 1003 602997........................................... 1003 603009...........................993, 995, 1004 603020........................................... 1006 603022........................................... 1006 603024........................................... 1006 603026........................................... 1006 603027........................................... 1003 603028...........................998-999, 1006 603032..................................1005-1006 603036..................................1005-1006 603041..................998-999, 1005-1006 603042.......",
     "productBlockImageUrl": "../images/catalogue/product-blocks/603009.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/minn-kota-quick-release-bracket-mount-riptide-bow-mount/",
@@ -40,7 +40,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/06/603009.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "603017": {
     "productNumber": "603017",
     "description": "MINN KOTA QUICK RELEASE BRACKET ALLOY WITH COVER",
     "brand": "Y",
@@ -78,7 +78,7 @@
     "imageUrl": "../images/bla-website-products/603017.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "603020": {
     "productNumber": "603020",
     "description": "MINN KOTA MOUNT TRANSDUCER MOUNT UNIVERSIAL",
     "brand": "",
@@ -97,12 +97,12 @@
     "subCategoryDescription": "Navigation, Sounders & Radios products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/28/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 46.78,
     "barcode": "029402007691",
     "cataloguePage": 28,
-    "imageUrl": "../images/bla-website-products/603020.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/603020.jpg",
     "catalogueDescription": ".......................... 998 601446............................................. 998 602804........................................... 1001 602806........................................... 1001 602812........................................... 1002 602906........................................... 1012 602948........................................... 1001 602996........................................... 1003 602997........................................... 1003 603009...........................993, 995, 1004 603020........................................... 1006 603022........................................... 1006 603024........................................... 1006 603026........................................... 1006 603027........................................... 1003 603028...........................998-999, 1006 603032..................................1005-1006 603036..................................1005-1006 603041..................998-999, 1005-1006 603042..................................1005-1006 603050.....",
     "productBlockImageUrl": "../images/catalogue/product-blocks/603020.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/minn-kota-transducer-mount-kit-mkr-15/",
@@ -119,7 +119,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/06/603020.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "603021": {
     "productNumber": "603021",
     "description": "MINN KOTA QUICK RELEASE BRACKET ULTREX",
     "brand": "",
@@ -138,7 +138,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 162.42,
     "barcode": "9319786451953",
@@ -148,7 +148,7 @@
     "productWebSearchQuery": "\"603021\" \"MINN KOTA QUICK RELEASE BRACKET ULTREX\"",
     "imageUrl": "../images/web-product-images/603021.jpg"
   },
-  {
+  "603022": {
     "productNumber": "603022",
     "description": "BLA EXTENSION HANDLE TILLER OUTBOARD 460MM",
     "brand": "Bla",
@@ -167,17 +167,16 @@
     "subCategoryDescription": "Stainless Fittings & Deck Hardware products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/28/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 12.46,
     "barcode": "9319786131060",
     "cataloguePage": 28,
-    "imageUrl": "../images/catalogue/product-photos/603022.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/603022.jpg",
     "catalogueDescription": "........................... 998 602804........................................... 1001 602806........................................... 1001 602812........................................... 1002 602906........................................... 1012 602948........................................... 1001 602996........................................... 1003 602997........................................... 1003 603009...........................993, 995, 1004 603020........................................... 1006 603022........................................... 1006 603024........................................... 1006 603026........................................... 1006 603027........................................... 1003 603028...........................998-999, 1006 603032..................................1005-1006 603036..................................1005-1006 603041..................998-999, 1005-1006 603042..................................1005-1006 603050..................................1005-1006 604104..........",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/603022.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/603022.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/603022.jpg"
   },
-  {
+  "603024": {
     "productNumber": "603024",
     "description": "BLA EXTENSION HANDLE TILLER OUTBOARD 760MM",
     "brand": "Bla",
@@ -196,17 +195,16 @@
     "subCategoryDescription": "Stainless Fittings & Deck Hardware products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/28/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 15.06,
     "barcode": "9319786131053",
     "cataloguePage": 28,
-    "imageUrl": "../images/catalogue/product-photos/603024.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/603024.jpg",
     "catalogueDescription": ".......................... 1001 602806........................................... 1001 602812........................................... 1002 602906........................................... 1012 602948........................................... 1001 602996........................................... 1003 602997........................................... 1003 603009...........................993, 995, 1004 603020........................................... 1006 603022........................................... 1006 603024........................................... 1006 603026........................................... 1006 603027........................................... 1003 603028...........................998-999, 1006 603032..................................1005-1006 603036..................................1005-1006 603041..................998-999, 1005-1006 603042..................................1005-1006 603050..................................1005-1006 604104.....................................995, 997 604106.............",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/603024.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/603024.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/603024.jpg"
   },
-  {
+  "603026": {
     "productNumber": "603026",
     "description": "BLA EXTENSION HANDLE TILLER OUTBOARD TELESCOPIC 620MM-1010MM",
     "brand": "Bla",
@@ -225,17 +223,16 @@
     "subCategoryDescription": "Stainless Fittings & Deck Hardware products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/28/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 18.27,
     "barcode": "9319786269138",
     "cataloguePage": 28,
-    "imageUrl": "../images/catalogue/product-photos/603026.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/603026.jpg",
     "catalogueDescription": ".......................... 1001 602812........................................... 1002 602906........................................... 1012 602948........................................... 1001 602996........................................... 1003 602997........................................... 1003 603009...........................993, 995, 1004 603020........................................... 1006 603022........................................... 1006 603024........................................... 1006 603026........................................... 1006 603027........................................... 1003 603028...........................998-999, 1006 603032..................................1005-1006 603036..................................1005-1006 603041..................998-999, 1005-1006 603042..................................1005-1006 603050..................................1005-1006 604104.....................................995, 997 604106.....................................995, 997 604110................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/603026.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/603026.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/603026.jpg"
   },
-  {
+  "603027": {
     "productNumber": "603027",
     "description": "MINN KOTA POWER PLUG MK WATER PROOF PLUG 60AMP BLACK",
     "brand": "",
@@ -254,17 +251,16 @@
     "subCategoryDescription": "Batteries, Charging & Solar products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/28/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 227.08,
     "barcode": "029402051526",
     "cataloguePage": 28,
-    "imageUrl": "../images/catalogue/product-photos/603027.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/603027.jpg",
     "catalogueDescription": ".......................... 1002 602906........................................... 1012 602948........................................... 1001 602996........................................... 1003 602997........................................... 1003 603009...........................993, 995, 1004 603020........................................... 1006 603022........................................... 1006 603024........................................... 1006 603026........................................... 1006 603027........................................... 1003 603028...........................998-999, 1006 603032..................................1005-1006 603036..................................1005-1006 603041..................998-999, 1005-1006 603042..................................1005-1006 603050..................................1005-1006 604104.....................................995, 997 604106.....................................995, 997 604110.....................................993, 997 604111...................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/603027.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/603027.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/603027.jpg"
   },
-  {
+  "603028": {
     "productNumber": "603028",
     "description": "MINN KOTA PROPELLER POWER MKP-2",
     "brand": "",
@@ -283,17 +279,16 @@
     "subCategoryDescription": "Batteries, Charging & Solar products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/28/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 34.62,
     "barcode": "029402781157",
     "cataloguePage": 28,
-    "imageUrl": "../images/catalogue/product-photos/603028.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/603028.jpg",
     "catalogueDescription": ".......................... 1012 602948........................................... 1001 602996........................................... 1003 602997........................................... 1003 603009...........................993, 995, 1004 603020........................................... 1006 603022........................................... 1006 603024........................................... 1006 603026........................................... 1006 603027........................................... 1003 603028...........................998-999, 1006 603032..................................1005-1006 603036..................................1005-1006 603041..................998-999, 1005-1006 603042..................................1005-1006 603050..................................1005-1006 604104.....................................995, 997 604106.....................................995, 997 604110.....................................993, 997 604111.....................................993, 997 604112......................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/603028.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/603028.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/603028.jpg"
   },
-  {
+  "603031": {
     "productNumber": "603031",
     "description": "MINN KOTA DUST COVER ASSEMBLY POWER PLUG",
     "brand": "",
@@ -322,7 +317,7 @@
     "productWebSearchQuery": "\"603031\" \"MINN KOTA DUST COVER ASSEMBLY POWER PLUG\"",
     "imageUrl": "../images/web-product-images/603031.jpg"
   },
-  {
+  "603032": {
     "productNumber": "603032",
     "description": "MINN KOTA PROPELLER WEEDLESS MKP-6",
     "brand": "",
@@ -341,17 +336,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/28/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 43.09,
     "barcode": "029402781256",
     "cataloguePage": 28,
-    "imageUrl": "../images/catalogue/product-photos/603032.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/603032.jpg",
     "catalogueDescription": ".................................. 1001 602996........................................... 1003 602997........................................... 1003 603009...........................993, 995, 1004 603020........................................... 1006 603022........................................... 1006 603024........................................... 1006 603026........................................... 1006 603027........................................... 1003 603028...........................998-999, 1006 603032..................................1005-1006 603036..................................1005-1006 603041..................998-999, 1005-1006 603042..................................1005-1006 603050..................................1005-1006 604104.....................................995, 997 604106.....................................995, 997 604110.....................................993, 997 604111.....................................993, 997 604112.....................................993, 997 604113.................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/603032.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/603032.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/603032.jpg"
   },
-  {
+  "603036": {
     "productNumber": "603036",
     "description": "MINN KOTA PROPELLER WEEDLESS MKP-7",
     "brand": "",
@@ -370,17 +364,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/28/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 62.84,
     "barcode": "029402781188",
     "cataloguePage": 28,
-    "imageUrl": "../images/catalogue/product-photos/603036.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/603036.jpg",
     "catalogueDescription": "....................................... 1003 602997........................................... 1003 603009...........................993, 995, 1004 603020........................................... 1006 603022........................................... 1006 603024........................................... 1006 603026........................................... 1006 603027........................................... 1003 603028...........................998-999, 1006 603032..................................1005-1006 603036..................................1005-1006 603041..................998-999, 1005-1006 603042..................................1005-1006 603050..................................1005-1006 604104.....................................995, 997 604106.....................................995, 997 604110.....................................993, 997 604111.....................................993, 997 604112.....................................993, 997 604113.....................................993, 997 604114...............",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/603036.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/603036.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/603036.jpg"
   },
-  {
+  "603041": {
     "productNumber": "603041",
     "description": "MINN KOTA PROPELLER WEEDLESS WEDGE 2 MKP-32",
     "brand": "",
@@ -399,17 +392,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/28/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 67.38,
     "barcode": "029402022298",
     "cataloguePage": 28,
-    "imageUrl": "../images/catalogue/product-photos/603041.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/603041.jpg",
     "catalogueDescription": "7........................................... 1003 603009...........................993, 995, 1004 603020........................................... 1006 603022........................................... 1006 603024........................................... 1006 603026........................................... 1006 603027........................................... 1003 603028...........................998-999, 1006 603032..................................1005-1006 603036..................................1005-1006 603041..................998-999, 1005-1006 603042..................................1005-1006 603050..................................1005-1006 604104.....................................995, 997 604106.....................................995, 997 604110.....................................993, 997 604111.....................................993, 997 604112.....................................993, 997 604113.....................................993, 997 604114.....................................993, 997 604115.............",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/603041.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/603041.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/603041.jpg"
   },
-  {
+  "603042": {
     "productNumber": "603042",
     "description": "MINN KOTA PROPELLER WEEDLESS WEDGE 2 MKP-33",
     "brand": "",
@@ -428,17 +420,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/28/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 93.16,
     "barcode": "029402022304",
     "cataloguePage": 28,
-    "imageUrl": "../images/catalogue/product-photos/603042.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/603042.jpg",
     "catalogueDescription": ". 1003 603009...........................993, 995, 1004 603020........................................... 1006 603022........................................... 1006 603024........................................... 1006 603026........................................... 1006 603027........................................... 1003 603028...........................998-999, 1006 603032..................................1005-1006 603036..................................1005-1006 603041..................998-999, 1005-1006 603042..................................1005-1006 603050..................................1005-1006 604104.....................................995, 997 604106.....................................995, 997 604110.....................................993, 997 604111.....................................993, 997 604112.....................................993, 997 604113.....................................993, 997 604114.....................................993, 997 604115.....................................993, 997 604116....",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/603042.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/603042.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/603042.jpg"
   },
-  {
+  "603050": {
     "productNumber": "603050",
     "description": "MINN KOTA PROPELLER WEEDLESS WEDGE 2 MKP-38",
     "brand": "",
@@ -457,17 +448,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/28/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 100.34,
     "barcode": "029402041138",
     "cataloguePage": 28,
-    "imageUrl": "../images/catalogue/product-photos/603050.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/603050.jpg",
     "catalogueDescription": "1004 603020........................................... 1006 603022........................................... 1006 603024........................................... 1006 603026........................................... 1006 603027........................................... 1003 603028...........................998-999, 1006 603032..................................1005-1006 603036..................................1005-1006 603041..................998-999, 1005-1006 603042..................................1005-1006 603050..................................1005-1006 604104.....................................995, 997 604106.....................................995, 997 604110.....................................993, 997 604111.....................................993, 997 604112.....................................993, 997 604113.....................................993, 997 604114.....................................993, 997 604115.....................................993, 997 604116.....................................993, 997 604118..",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/603050.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/603050.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/603050.jpg"
   },
-  {
+  "603052": {
     "productNumber": "603052",
     "description": "MINN KOTA PROPELLER NUT KIT A 3/8\ufffd MKP-9",
     "brand": "",
@@ -486,7 +476,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 18.5,
     "barcode": "029402650101",
@@ -496,7 +486,7 @@
     "productWebSearchQuery": "\"603052\" \"MINN KOTA PROPELLER NUT KIT A 3/8\ufffd MKP-9\"",
     "imageUrl": "../images/web-product-images/603052.webp"
   },
-  {
+  "603119": {
     "productNumber": "603119",
     "description": "MINN KOTA SERVICE QUICK RELEASE BRACKET INTERNAL PUCK",
     "brand": "",
@@ -515,7 +505,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 26.98,
     "barcode": "9319786442180",
@@ -525,4 +515,4 @@
     "productWebSearchQuery": "\"603119\" \"MINN KOTA SERVICE QUICK RELEASE BRACKET INTERNAL PUCK\"",
     "imageUrl": "../images/web-product-images/603119.webp"
   }
-]
+}

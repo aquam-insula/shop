@@ -1,1 +1,31 @@
-[{"productNumber":"605802","description":"MINN KOTA L170N INFLATABLE PFD MANUAL BLACK","brand":"","variant":"PC","price":187.34,"unitCostOfSale":108.43,"categoryName":"Safety","topCategory":"Safety","subCategoryName":"Lifejackets, EPIRBs & Safety Gear","subCategory":"M - Safety Equipment","pricingCategoryUsed":"M - Marine Supplies","categoryImage":"../images/catalogue/pages/page0683.jpg","subCategoryImage":"../images/catalogue/pages/page0683.jpg","catalogueImageUrl":"../images/catalogue/bla-edition-15-cover.jpg","categoryDescription":"Safety from the BLA Australia Edition 15 catalogue.","subCategoryDescription":"Lifejackets, EPIRBs & Safety Gear products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.","sourceUrl":"","printCatalogueUrl":"https://online.flippingbook.com/view/328167/","estimatedWeightKg":1,"freightAud":4.8,"exportAudExGst":60.26,"barcode":"9319786470725","productWebSearchImageUrl":"../images/web-product-images/605802.jpg","productWebSearchImageSourceUrl":"https://www.wilkos.com.au/assets/full/B-605800.jpg?20240101104525","productWebSearchImageSourcePage":"","productWebSearchQuery":"\"605802\" \"MINN KOTA L170N INFLATABLE PFD MANUAL BLACK\"","imageUrl":"../images/web-product-images/605802.jpg"}]
+{
+  "605802": {
+    "productNumber": "605802",
+    "description": "MINN KOTA L170N INFLATABLE PFD MANUAL BLACK",
+    "brand": "",
+    "variant": "PC",
+    "price": 187.34,
+    "unitCostOfSale": 108.43,
+    "categoryName": "Safety",
+    "topCategory": "Safety",
+    "subCategoryName": "Lifejackets, EPIRBs & Safety Gear",
+    "subCategory": "M - Safety Equipment",
+    "pricingCategoryUsed": "M - Marine Supplies",
+    "categoryImage": "../images/catalogue/pages/page0683.jpg",
+    "subCategoryImage": "../images/catalogue/pages/page0683.jpg",
+    "catalogueImageUrl": "../images/catalogue/bla-edition-15-cover.jpg",
+    "categoryDescription": "Safety from the BLA Australia Edition 15 catalogue.",
+    "subCategoryDescription": "Lifejackets, EPIRBs & Safety Gear products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
+    "sourceUrl": "",
+    "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
+    "estimatedWeightKg": 1.0,
+    "freightAud": 4.8,
+    "exportAudExGst": 60.26,
+    "barcode": "9319786470725",
+    "productWebSearchImageUrl": "../images/web-product-images/605802.jpg",
+    "productWebSearchImageSourceUrl": "https://www.wilkos.com.au/assets/full/B-605800.jpg?20240101104525",
+    "productWebSearchImageSourcePage": "",
+    "productWebSearchQuery": "\"605802\" \"MINN KOTA L170N INFLATABLE PFD MANUAL BLACK\"",
+    "imageUrl": "../images/web-product-images/605802.jpg"
+  }
+}

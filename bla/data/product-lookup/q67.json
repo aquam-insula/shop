@@ -1,1 +1,43 @@
-[{"productNumber":"Q67886696","description":"QUICKSILVER MEASURING CUP WITH CAP","brand":"","variant":"PC","price":26.97,"unitCostOfSale":14.1,"categoryName":"Tools & Chandlery","topCategory":"Tools & Chandlery","subCategoryName":"General Marine Supplies","subCategory":"M - Marine Supplies","pricingCategoryUsed":"M - Marine Supplies","categoryImage":"../images/catalogue/pages/page0481.jpg","subCategoryImage":"../images/catalogue/pages/page0481.jpg","catalogueImageUrl":"../images/catalogue/pages/page0029.jpg","categoryDescription":"Tools & Chandlery from the BLA Australia Edition 15 catalogue.","subCategoryDescription":"General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.","sourceUrl":"https://online.flippingbook.com/view/328167/29/","printCatalogueUrl":"https://online.flippingbook.com/view/328167/","estimatedWeightKg":1,"freightAud":4.8,"exportAudExGst":3.66,"barcode":"9329768001144","cataloguePage":29,"imageUrl":"../images/bla-website-products/Q67886696.jpg","catalogueDescription":"3Q2........................................ 613 Q19453T.......................................... 613 Q31640Q4................................486, 616 Q41582Q7........................................ 572 Q42038Q02...................................... 614 Q42038Q3........................................ 612 Q43026Q02...................................... 613 Q43026T2........................................ 613 Q44357Q2........................................ 616 Q59362T1........................................ 617 Q67886696...................................... 724 Q75692............................................ 614 Q802893Q01.................................... 615 Q802893Q4...................................... 615 Q803061T1...................................... 614 Q803099T1...................................... 618 Q803748.......................................... 614 Q8037481........................................ 613 Q804787Q........................................ 572 Q806608Q01.................................... 617 Q807","productBlockImageUrl":"../images/catalogue/product-blocks/Q67886696.jpg","blaWebsiteUrl":"https://bla.com.au/product/quicksilver-measuring-cup-with-cap/","websiteDescription":"Used to get the correct fuel oil ratio mixture for all pre-mix 2-stroke outboards, with metric and ratio measurements.","blaWebsiteCategories":["Engine & Gearbox Oils","Oils Paint & Maintenance"],"blaWebsiteBrands":["Quicksilver"],"blaWebsiteProductId":35957,"productWebsiteImageUrl":"../images/bla-website-products/Q67886696.jpg","productWebsiteImageSourceUrl":"https://bla.com.au/wp-content/uploads/2020/06/Q67886696.jpg","productWebsiteImageDownloaded":true}]
+{
+  "Q67886696": {
+    "productNumber": "Q67886696",
+    "description": "QUICKSILVER MEASURING CUP WITH CAP",
+    "brand": "",
+    "variant": "PC",
+    "price": 26.97,
+    "unitCostOfSale": 14.1,
+    "categoryName": "Tools & Chandlery",
+    "topCategory": "Tools & Chandlery",
+    "subCategoryName": "General Marine Supplies",
+    "subCategory": "M - Marine Supplies",
+    "pricingCategoryUsed": "M - Marine Supplies",
+    "categoryImage": "../images/catalogue/pages/page0481.jpg",
+    "subCategoryImage": "../images/catalogue/pages/page0481.jpg",
+    "catalogueImageUrl": "../images/catalogue/pages/page0029.jpg",
+    "categoryDescription": "Tools & Chandlery from the BLA Australia Edition 15 catalogue.",
+    "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
+    "sourceUrl": "https://online.flippingbook.com/view/328167/29/",
+    "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
+    "estimatedWeightKg": 1.0,
+    "freightAud": 4.8,
+    "exportAudExGst": 3.66,
+    "barcode": "9329768001144",
+    "cataloguePage": 29,
+    "imageUrl": "../images/catalogue/product-blocks/Q67886696.jpg",
+    "catalogueDescription": "3Q2........................................ 613 Q19453T.......................................... 613 Q31640Q4................................486, 616 Q41582Q7........................................ 572 Q42038Q02...................................... 614 Q42038Q3........................................ 612 Q43026Q02...................................... 613 Q43026T2........................................ 613 Q44357Q2........................................ 616 Q59362T1........................................ 617 Q67886696...................................... 724 Q75692............................................ 614 Q802893Q01.................................... 615 Q802893Q4...................................... 615 Q803061T1...................................... 614 Q803099T1...................................... 618 Q803748.......................................... 614 Q8037481........................................ 613 Q804787Q........................................ 572 Q806608Q01.................................... 617 Q807",
+    "productBlockImageUrl": "../images/catalogue/product-blocks/Q67886696.jpg",
+    "blaWebsiteUrl": "https://bla.com.au/product/quicksilver-measuring-cup-with-cap/",
+    "websiteDescription": "Used to get the correct fuel oil ratio mixture for all pre-mix 2-stroke outboards, with metric and ratio measurements.",
+    "blaWebsiteCategories": [
+      "Engine & Gearbox Oils",
+      "Oils Paint & Maintenance"
+    ],
+    "blaWebsiteBrands": [
+      "Quicksilver"
+    ],
+    "blaWebsiteProductId": 35957,
+    "productWebsiteImageUrl": "../images/bla-website-products/Q67886696.jpg",
+    "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/06/Q67886696.jpg",
+    "productWebsiteImageDownloaded": true
+  }
+}

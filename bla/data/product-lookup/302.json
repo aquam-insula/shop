@@ -1,1 +1,31 @@
-[{"productNumber":"302007","description":"SEASTAR MAXX CONTROL SWITCH","brand":"Y","variant":"PC","price":162.86,"unitCostOfSale":94.03,"categoryName":"Electrical & Electronics","topCategory":"Electrical & Electronics","subCategoryName":"Switches, Cable & Circuit Protection","subCategory":"E - Electrical","pricingCategoryUsed":"M - Marine Supplies","categoryImage":"../images/catalogue/pages/page0061.jpg","subCategoryImage":"../images/catalogue/pages/page0061.jpg","catalogueImageUrl":"../images/catalogue/bla-edition-15-cover.jpg","categoryDescription":"Electrical & Electronics from the BLA Australia Edition 15 catalogue.","subCategoryDescription":"Switches, Cable & Circuit Protection products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.","sourceUrl":"","printCatalogueUrl":"https://online.flippingbook.com/view/328167/","estimatedWeightKg":0.5,"freightAud":2.4,"exportAudExGst":54.02,"barcode":"9319786401583","productWebSearchImageUrl":"../images/web-product-images/302007.jpg","productWebSearchImageSourceUrl":"https://maxmarineoutlet.com/wp-content/uploads/2023/10/searay_69027_sc_10102023-3-.jpg","productWebSearchImageSourcePage":"","productWebSearchQuery":"\"302007\" \"Y SEASTAR MAXX CONTROL SWITCH\"","imageUrl":"../images/web-product-images/302007.jpg"}]
+{
+  "302007": {
+    "productNumber": "302007",
+    "description": "SEASTAR MAXX CONTROL SWITCH",
+    "brand": "Y",
+    "variant": "PC",
+    "price": 162.86,
+    "unitCostOfSale": 94.03,
+    "categoryName": "Electrical & Electronics",
+    "topCategory": "Electrical & Electronics",
+    "subCategoryName": "Switches, Cable & Circuit Protection",
+    "subCategory": "E - Electrical",
+    "pricingCategoryUsed": "M - Marine Supplies",
+    "categoryImage": "../images/catalogue/pages/page0061.jpg",
+    "subCategoryImage": "../images/catalogue/pages/page0061.jpg",
+    "catalogueImageUrl": "../images/catalogue/bla-edition-15-cover.jpg",
+    "categoryDescription": "Electrical & Electronics from the BLA Australia Edition 15 catalogue.",
+    "subCategoryDescription": "Switches, Cable & Circuit Protection products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
+    "sourceUrl": "",
+    "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
+    "estimatedWeightKg": 0.5,
+    "freightAud": 2.4,
+    "exportAudExGst": 54.02,
+    "barcode": "9319786401583",
+    "productWebSearchImageUrl": "../images/web-product-images/302007.jpg",
+    "productWebSearchImageSourceUrl": "https://maxmarineoutlet.com/wp-content/uploads/2023/10/searay_69027_sc_10102023-3-.jpg",
+    "productWebSearchImageSourcePage": "",
+    "productWebSearchQuery": "\"302007\" \"Y SEASTAR MAXX CONTROL SWITCH\"",
+    "imageUrl": "../images/web-product-images/302007.jpg"
+  }
+}

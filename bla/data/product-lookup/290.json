@@ -1,1 +1,31 @@
-[{"productNumber":"290568","description":"SEASTAR FRONT MOUNT BULKHEAD OUTBOARD HOSE STEERING KIT 18FT","brand":"Seastar","variant":"PC","price":3717.13,"unitCostOfSale":2184.78,"categoryName":"Pumps, Plumbing & Galley","topCategory":"Pumps, Plumbing & Galley","subCategoryName":"Toilets, Plumbing & Galley","subCategory":"M - Pumps","pricingCategoryUsed":"M - Marine Supplies","categoryImage":"../images/catalogue/pages/page0285.jpg","subCategoryImage":"../images/catalogue/pages/page0285.jpg","catalogueImageUrl":"../images/catalogue/bla-edition-15-cover.jpg","categoryDescription":"Pumps, Plumbing & Galley from the BLA Australia Edition 15 catalogue.","subCategoryDescription":"Toilets, Plumbing & Galley products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.","sourceUrl":"","printCatalogueUrl":"https://online.flippingbook.com/view/328167/","estimatedWeightKg":8,"freightAud":38.4,"exportAudExGst":1272.47,"barcode":"9319786282472","productWebSearchImageUrl":"../images/web-product-images/290568.jpg","productWebSearchImageSourceUrl":"https://100knots.au/wp-content/uploads/2024/09/290568.jpg","productWebSearchImageSourcePage":"","productWebSearchQuery":"\"290568\" \"Seastar SEASTAR FRONT MOUNT BULKHEAD OUTBOARD HOSE STEERING KIT 18FT\"","imageUrl":"../images/web-product-images/290568.jpg"}]
+{
+  "290568": {
+    "productNumber": "290568",
+    "description": "SEASTAR FRONT MOUNT BULKHEAD OUTBOARD HOSE STEERING KIT 18FT",
+    "brand": "Seastar",
+    "variant": "PC",
+    "price": 3717.13,
+    "unitCostOfSale": 2184.78,
+    "categoryName": "Pumps, Plumbing & Galley",
+    "topCategory": "Pumps, Plumbing & Galley",
+    "subCategoryName": "Toilets, Plumbing & Galley",
+    "subCategory": "M - Pumps",
+    "pricingCategoryUsed": "M - Marine Supplies",
+    "categoryImage": "../images/catalogue/pages/page0285.jpg",
+    "subCategoryImage": "../images/catalogue/pages/page0285.jpg",
+    "catalogueImageUrl": "../images/catalogue/bla-edition-15-cover.jpg",
+    "categoryDescription": "Pumps, Plumbing & Galley from the BLA Australia Edition 15 catalogue.",
+    "subCategoryDescription": "Toilets, Plumbing & Galley products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
+    "sourceUrl": "",
+    "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
+    "estimatedWeightKg": 8.0,
+    "freightAud": 38.4,
+    "exportAudExGst": 1272.47,
+    "barcode": "9319786282472",
+    "productWebSearchImageUrl": "../images/web-product-images/290568.jpg",
+    "productWebSearchImageSourceUrl": "https://100knots.au/wp-content/uploads/2024/09/290568.jpg",
+    "productWebSearchImageSourcePage": "",
+    "productWebSearchQuery": "\"290568\" \"Seastar SEASTAR FRONT MOUNT BULKHEAD OUTBOARD HOSE STEERING KIT 18FT\"",
+    "imageUrl": "../images/web-product-images/290568.jpg"
+  }
+}

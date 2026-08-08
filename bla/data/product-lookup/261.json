@@ -1,5 +1,5 @@
-[
-  {
+{
+  "261000": {
     "productNumber": "261000",
     "description": "EASTERNER PUMP MULTI FIT GEAR OIL",
     "brand": "",
@@ -23,12 +23,11 @@
     "exportAudExGst": 10.53,
     "barcode": "4710587828770",
     "cataloguePage": 24,
-    "imageUrl": "../images/catalogue/product-photos/261000.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/261000.jpg",
     "catalogueDescription": "........... 718 260172............................................. 718 260174............................................. 718 260175............................................. 718 260176............................................. 721 260177............................................. 718 260182............................................. 718 260184............................................. 718 260186............................................. 718 260188............................................. 718 261000............................................. 722 261002............................................. 731 261004............................................. 731 261006............................................. 731 261009............................................. 730 261010............................................. 730 261017............................................. 731 261018............................................. 731 261022............................................. 731 261027................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/261000.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/261000.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/261000.jpg"
   },
-  {
+  "261002": {
     "productNumber": "261002",
     "description": "SEPTONE BOATCARE HULL CLEANER & STAIN REMOVER 1L",
     "brand": "",
@@ -47,17 +46,16 @@
     "subCategoryDescription": "Lubricants, Fuel & Boat Care products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/24/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 13.96,
     "barcode": "9313008010652",
     "cataloguePage": 24,
-    "imageUrl": "../images/catalogue/product-photos/261002.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/261002.jpg",
     "catalogueDescription": "........... 718 260174............................................. 718 260175............................................. 718 260176............................................. 721 260177............................................. 718 260182............................................. 718 260184............................................. 718 260186............................................. 718 260188............................................. 718 261000............................................. 722 261002............................................. 731 261004............................................. 731 261006............................................. 731 261009............................................. 730 261010............................................. 730 261017............................................. 731 261018............................................. 731 261022............................................. 731 261027............................................. 731 261028................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/261002.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/261002.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/261002.jpg"
   },
-  {
+  "261004": {
     "productNumber": "261004",
     "description": "SEPTONE BOATCARE HULL CLEANER & STAIN REMOVER 5L",
     "brand": "",
@@ -76,17 +74,16 @@
     "subCategoryDescription": "Lubricants, Fuel & Boat Care products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/24/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 36.54,
     "barcode": "9313008010959",
     "cataloguePage": 24,
-    "imageUrl": "../images/catalogue/product-photos/261004.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/261004.jpg",
     "catalogueDescription": "........... 718 260175............................................. 718 260176............................................. 721 260177............................................. 718 260182............................................. 718 260184............................................. 718 260186............................................. 718 260188............................................. 718 261000............................................. 722 261002............................................. 731 261004............................................. 731 261006............................................. 731 261009............................................. 730 261010............................................. 730 261017............................................. 731 261018............................................. 731 261022............................................. 731 261027............................................. 731 261028............................................. 731 261033................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/261004.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/261004.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/261004.jpg"
   },
-  {
+  "261006": {
     "productNumber": "261006",
     "description": "SEPTONE BOATCARE HULL CLEANER & STAIN REMOVER 20L",
     "brand": "",
@@ -105,17 +102,16 @@
     "subCategoryDescription": "Lubricants, Fuel & Boat Care products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/24/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 140.02,
     "barcode": "9313008011116",
     "cataloguePage": 24,
-    "imageUrl": "../images/catalogue/product-photos/261006.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/261006.jpg",
     "catalogueDescription": "........... 718 260176............................................. 721 260177............................................. 718 260182............................................. 718 260184............................................. 718 260186............................................. 718 260188............................................. 718 261000............................................. 722 261002............................................. 731 261004............................................. 731 261006............................................. 731 261009............................................. 730 261010............................................. 730 261017............................................. 731 261018............................................. 731 261022............................................. 731 261027............................................. 731 261028............................................. 731 261033............................................. 732 261044................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/261006.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/261006.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/261006.jpg"
   },
-  {
+  "261009": {
     "productNumber": "261009",
     "description": "SEPTONE BOATCARE BOAT WASH & WAX 1L",
     "brand": "",
@@ -134,17 +130,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/24/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 10.57,
     "barcode": "9313008020439",
     "cataloguePage": 24,
-    "imageUrl": "../images/catalogue/product-photos/261009.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/261009.jpg",
     "catalogueDescription": "........... 721 260177............................................. 718 260182............................................. 718 260184............................................. 718 260186............................................. 718 260188............................................. 718 261000............................................. 722 261002............................................. 731 261004............................................. 731 261006............................................. 731 261009............................................. 730 261010............................................. 730 261017............................................. 731 261018............................................. 731 261022............................................. 731 261027............................................. 731 261028............................................. 731 261033............................................. 732 261044............................................. 731 261045................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/261009.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/261009.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/261009.jpg"
   },
-  {
+  "261017": {
     "productNumber": "261017",
     "description": "SEPTONE SUPERCLENE CLEANER & DEGREASER 5L",
     "brand": "",
@@ -163,17 +158,16 @@
     "subCategoryDescription": "Lubricants, Fuel & Boat Care products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/24/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 35.23,
     "barcode": "9313008012441",
     "cataloguePage": 24,
-    "imageUrl": "../images/catalogue/product-photos/261017.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/261017.jpg",
     "catalogueDescription": "........... 718 260184............................................. 718 260186............................................. 718 260188............................................. 718 261000............................................. 722 261002............................................. 731 261004............................................. 731 261006............................................. 731 261009............................................. 730 261010............................................. 730 261017............................................. 731 261018............................................. 731 261022............................................. 731 261027............................................. 731 261028............................................. 731 261033............................................. 732 261044............................................. 731 261045............................................. 731 261048............................................. 732 261059................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/261017.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/261017.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/261017.jpg"
   },
-  {
+  "261018": {
     "productNumber": "261018",
     "description": "SEPTONE SUPERCLENE CLEANER & DEGREASER 20L",
     "brand": "",
@@ -192,17 +186,16 @@
     "subCategoryDescription": "Lubricants, Fuel & Boat Care products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/24/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 128.73,
     "barcode": "9313008012458",
     "cataloguePage": 24,
-    "imageUrl": "../images/catalogue/product-photos/261018.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/261018.jpg",
     "catalogueDescription": "........... 718 260186............................................. 718 260188............................................. 718 261000............................................. 722 261002............................................. 731 261004............................................. 731 261006............................................. 731 261009............................................. 730 261010............................................. 730 261017............................................. 731 261018............................................. 731 261022............................................. 731 261027............................................. 731 261028............................................. 731 261033............................................. 732 261044............................................. 731 261045............................................. 731 261048............................................. 732 261059............................................. 731 261060................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/261018.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/261018.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/261018.jpg"
   },
-  {
+  "261022": {
     "productNumber": "261022",
     "description": "SEPTONE BOATCARE BOAT WASH 5L",
     "brand": "",
@@ -221,17 +214,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/24/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 24.15,
     "barcode": "9313008010737",
     "cataloguePage": 24,
-    "imageUrl": "../images/catalogue/product-photos/261022.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/261022.jpg",
     "catalogueDescription": "........... 718 260188............................................. 718 261000............................................. 722 261002............................................. 731 261004............................................. 731 261006............................................. 731 261009............................................. 730 261010............................................. 730 261017............................................. 731 261018............................................. 731 261022............................................. 731 261027............................................. 731 261028............................................. 731 261033............................................. 732 261044............................................. 731 261045............................................. 731 261048............................................. 732 261059............................................. 731 261060............................................. 731 261066................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/261022.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/261022.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/261022.jpg"
   },
-  {
+  "261027": {
     "productNumber": "261027",
     "description": "SEPTONE TW20 TRUCK WASH 5L",
     "brand": "",
@@ -250,17 +242,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/24/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 26.96,
     "barcode": "9313008010096",
     "cataloguePage": 24,
-    "imageUrl": "../images/catalogue/product-photos/261027.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/261027.jpg",
     "catalogueDescription": "........... 718 261000............................................. 722 261002............................................. 731 261004............................................. 731 261006............................................. 731 261009............................................. 730 261010............................................. 730 261017............................................. 731 261018............................................. 731 261022............................................. 731 261027............................................. 731 261028............................................. 731 261033............................................. 732 261044............................................. 731 261045............................................. 731 261048............................................. 732 261059............................................. 731 261060............................................. 731 261066............................................. 732 261082................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/261027.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/261027.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/261027.jpg"
   },
-  {
+  "261028": {
     "productNumber": "261028",
     "description": "SEPTONE TW20 TRUCK WASH 20L",
     "brand": "",
@@ -279,17 +270,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/24/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 87.44,
     "barcode": "9313008010126",
     "cataloguePage": 24,
-    "imageUrl": "../images/catalogue/product-photos/261028.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/261028.jpg",
     "catalogueDescription": "........... 722 261002............................................. 731 261004............................................. 731 261006............................................. 731 261009............................................. 730 261010............................................. 730 261017............................................. 731 261018............................................. 731 261022............................................. 731 261027............................................. 731 261028............................................. 731 261033............................................. 732 261044............................................. 731 261045............................................. 731 261048............................................. 732 261059............................................. 731 261060............................................. 731 261066............................................. 732 261082............................................. 732 261086................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/261028.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/261028.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/261028.jpg"
   },
-  {
+  "261033": {
     "productNumber": "261033",
     "description": "SEPTONE PORTASOL WASTE TANK ADDITIVE 1L",
     "brand": "",
@@ -308,17 +298,16 @@
     "subCategoryDescription": "Toilets, Plumbing & Galley products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/24/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 13.46,
     "barcode": "9310997019208",
     "cataloguePage": 24,
-    "imageUrl": "../images/catalogue/product-photos/261033.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/261033.jpg",
     "catalogueDescription": "........... 731 261004............................................. 731 261006............................................. 731 261009............................................. 730 261010............................................. 730 261017............................................. 731 261018............................................. 731 261022............................................. 731 261027............................................. 731 261028............................................. 731 261033............................................. 732 261044............................................. 731 261045............................................. 731 261048............................................. 732 261059............................................. 731 261060............................................. 731 261066............................................. 732 261082............................................. 732 261086............................................. 732 261094................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/261033.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/261033.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/261033.jpg"
   },
-  {
+  "261044": {
     "productNumber": "261044",
     "description": "CHEMTECH BILGE & ENGINE CLEANER 1L",
     "brand": "",
@@ -337,17 +326,16 @@
     "subCategoryDescription": "Pumps & Bilge Systems products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/24/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 14.71,
     "barcode": "9310997001906",
     "cataloguePage": 24,
-    "imageUrl": "../images/catalogue/product-photos/261044.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/261044.jpg",
     "catalogueDescription": "........... 731 261006............................................. 731 261009............................................. 730 261010............................................. 730 261017............................................. 731 261018............................................. 731 261022............................................. 731 261027............................................. 731 261028............................................. 731 261033............................................. 732 261044............................................. 731 261045............................................. 731 261048............................................. 732 261059............................................. 731 261060............................................. 731 261066............................................. 732 261082............................................. 732 261086............................................. 732 261094............................................. 733 261158................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/261044.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/261044.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/261044.jpg"
   },
-  {
+  "261045": {
     "productNumber": "261045",
     "description": "CHEMTECH BILGE & ENGINE CLEANER 5L",
     "brand": "",
@@ -366,17 +354,16 @@
     "subCategoryDescription": "Pumps & Bilge Systems products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/24/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 37.84,
     "barcode": "9310997000909",
     "cataloguePage": 24,
-    "imageUrl": "../images/catalogue/product-photos/261045.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/261045.jpg",
     "catalogueDescription": "........... 731 261009............................................. 730 261010............................................. 730 261017............................................. 731 261018............................................. 731 261022............................................. 731 261027............................................. 731 261028............................................. 731 261033............................................. 732 261044............................................. 731 261045............................................. 731 261048............................................. 732 261059............................................. 731 261060............................................. 731 261066............................................. 732 261082............................................. 732 261086............................................. 732 261094............................................. 733 261158............................................. 732 261170................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/261045.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/261045.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/261045.jpg"
   },
-  {
+  "261048": {
     "productNumber": "261048",
     "description": "SEPTONE HEAVY DUTY DEGREASER 1L",
     "brand": "",
@@ -395,17 +382,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/24/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 8.48,
     "barcode": "9313008060015",
     "cataloguePage": 24,
-    "imageUrl": "../images/catalogue/product-photos/261048.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/261048.jpg",
     "catalogueDescription": "........... 730 261010............................................. 730 261017............................................. 731 261018............................................. 731 261022............................................. 731 261027............................................. 731 261028............................................. 731 261033............................................. 732 261044............................................. 731 261045............................................. 731 261048............................................. 732 261059............................................. 731 261060............................................. 731 261066............................................. 732 261082............................................. 732 261086............................................. 732 261094............................................. 733 261158............................................. 732 261170............................................. 732 261172................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/261048.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/261048.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/261048.jpg"
   },
-  {
+  "261059": {
     "productNumber": "261059",
     "description": "SEPTONE ALI-BRITE ALUMINIUM CLEANER 1 LITRE",
     "brand": "",
@@ -424,17 +410,16 @@
     "subCategoryDescription": "Lubricants, Fuel & Boat Care products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/24/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 17.15,
     "barcode": "9313008130015",
     "cataloguePage": 24,
-    "imageUrl": "../images/catalogue/product-photos/261059.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/261059.jpg",
     "catalogueDescription": "........... 730 261017............................................. 731 261018............................................. 731 261022............................................. 731 261027............................................. 731 261028............................................. 731 261033............................................. 732 261044............................................. 731 261045............................................. 731 261048............................................. 732 261059............................................. 731 261060............................................. 731 261066............................................. 732 261082............................................. 732 261086............................................. 732 261094............................................. 733 261158............................................. 732 261170............................................. 732 261172............................................. 732 261180................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/261059.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/261059.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/261059.jpg"
   },
-  {
+  "261060": {
     "productNumber": "261060",
     "description": "SEPTONE ALI-BRITE ALUMINIUM CLEANER 5 LITRE",
     "brand": "",
@@ -453,17 +438,16 @@
     "subCategoryDescription": "Lubricants, Fuel & Boat Care products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/24/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 52.19,
     "barcode": "9313008010867",
     "cataloguePage": 24,
-    "imageUrl": "../images/catalogue/product-photos/261060.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/261060.jpg",
     "catalogueDescription": "........... 731 261018............................................. 731 261022............................................. 731 261027............................................. 731 261028............................................. 731 261033............................................. 732 261044............................................. 731 261045............................................. 731 261048............................................. 732 261059............................................. 731 261060............................................. 731 261066............................................. 732 261082............................................. 732 261086............................................. 732 261094............................................. 733 261158............................................. 732 261170............................................. 732 261172............................................. 732 261180............................................. 730 261192................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/261060.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/261060.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/261060.jpg"
   },
-  {
+  "261066": {
     "productNumber": "261066",
     "description": "SEPTONE BOATCARE RUST STAIN REMOVER 750ML",
     "brand": "",
@@ -482,17 +466,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/24/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 10.39,
     "barcode": "9313008020194",
     "cataloguePage": 24,
-    "imageUrl": "../images/catalogue/product-photos/261066.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/261066.jpg",
     "catalogueDescription": "........... 731 261022............................................. 731 261027............................................. 731 261028............................................. 731 261033............................................. 732 261044............................................. 731 261045............................................. 731 261048............................................. 732 261059............................................. 731 261060............................................. 731 261066............................................. 732 261082............................................. 732 261086............................................. 732 261094............................................. 733 261158............................................. 732 261170............................................. 732 261172............................................. 732 261180............................................. 730 261192............................................. 730 261196................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/261066.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/261066.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/261066.jpg"
   },
-  {
+  "261091": {
     "productNumber": "261091",
     "description": "SEPTONE SPICE COMMERICAL GRADE DISINFECTANT 25 LTR",
     "brand": "Y",
@@ -511,7 +494,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 143.53,
     "barcode": "9313008013813",
@@ -521,7 +504,7 @@
     "productWebSearchQuery": "\"261091\" \"Y SEPTONE SPICE COMMERICAL GRADE DISINFECTANT 25 LTR\"",
     "imageUrl": "../images/web-product-images/261091.jpg"
   },
-  {
+  "261094": {
     "productNumber": "261094",
     "description": "SEPTONE CONTACT ADHESIVE AEROSOL 350G",
     "brand": "",
@@ -540,17 +523,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/24/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 14.9,
     "barcode": "9313008494001",
     "cataloguePage": 24,
-    "imageUrl": "../images/catalogue/product-photos/261094.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/261094.jpg",
     "catalogueDescription": "........... 731 261033............................................. 732 261044............................................. 731 261045............................................. 731 261048............................................. 732 261059............................................. 731 261060............................................. 731 261066............................................. 732 261082............................................. 732 261086............................................. 732 261094............................................. 733 261158............................................. 732 261170............................................. 732 261172............................................. 732 261180............................................. 730 261192............................................. 730 261196............................................. 730 261202............................................. 730 261216............................................. 733 261234................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/261094.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/261094.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/261094.jpg"
   },
-  {
+  "261152": {
     "productNumber": "261152",
     "description": "SEPTONE PROTECTA PINK HAND CLEANER 20KG",
     "brand": "Y",
@@ -569,7 +551,7 @@
     "subCategoryDescription": "Lubricants, Fuel & Boat Care products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 163.76,
     "barcode": "9313008160203",
@@ -579,7 +561,7 @@
     "productWebSearchQuery": "\"261152\" \"Y SEPTONE PROTECTA PINK HAND CLEANER 20KG\"",
     "imageUrl": "../images/web-product-images/261152.jpg"
   },
-  {
+  "261158": {
     "productNumber": "261158",
     "description": "SEPTONE ORANGE SCRUB HAND CLEANER 5L",
     "brand": "",
@@ -598,17 +580,16 @@
     "subCategoryDescription": "Lubricants, Fuel & Boat Care products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/24/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 51.08,
     "barcode": "9313008830052",
     "cataloguePage": 24,
-    "imageUrl": "../images/catalogue/product-photos/261158.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/261158.jpg",
     "catalogueDescription": "........... 732 261044............................................. 731 261045............................................. 731 261048............................................. 732 261059............................................. 731 261060............................................. 731 261066............................................. 732 261082............................................. 732 261086............................................. 732 261094............................................. 733 261158............................................. 732 261170............................................. 732 261172............................................. 732 261180............................................. 730 261192............................................. 730 261196............................................. 730 261202............................................. 730 261216............................................. 733 261234............................................. 733 261256................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/261158.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/261158.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/261158.jpg"
   },
-  {
+  "261170": {
     "productNumber": "261170",
     "description": "SEPTONE PAINT ELIMINATOR HAND CLEANER 500ML",
     "brand": "",
@@ -627,17 +608,16 @@
     "subCategoryDescription": "Lubricants, Fuel & Boat Care products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/24/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 11.92,
     "barcode": "9313008185008",
     "cataloguePage": 24,
-    "imageUrl": "../images/catalogue/product-photos/261170.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/261170.jpg",
     "catalogueDescription": "........... 731 261045............................................. 731 261048............................................. 732 261059............................................. 731 261060............................................. 731 261066............................................. 732 261082............................................. 732 261086............................................. 732 261094............................................. 733 261158............................................. 732 261170............................................. 732 261172............................................. 732 261180............................................. 730 261192............................................. 730 261196............................................. 730 261202............................................. 730 261216............................................. 733 261234............................................. 733 261256............................................. 733 261258................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/261170.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/261170.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/261170.jpg"
   },
-  {
+  "261172": {
     "productNumber": "261172",
     "description": "SEPTONE PAINT ELIMINATOR HAND CLEANER 4L",
     "brand": "",
@@ -656,17 +636,16 @@
     "subCategoryDescription": "Lubricants, Fuel & Boat Care products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/24/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 67.5,
     "barcode": "9313008185015",
     "cataloguePage": 24,
-    "imageUrl": "../images/catalogue/product-photos/261172.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/261172.jpg",
     "catalogueDescription": "........... 731 261048............................................. 732 261059............................................. 731 261060............................................. 731 261066............................................. 732 261082............................................. 732 261086............................................. 732 261094............................................. 733 261158............................................. 732 261170............................................. 732 261172............................................. 732 261180............................................. 730 261192............................................. 730 261196............................................. 730 261202............................................. 730 261216............................................. 733 261234............................................. 733 261256............................................. 733 261258............................................. 733 261262................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/261172.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/261172.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/261172.jpg"
   },
-  {
+  "261180": {
     "productNumber": "261180",
     "description": "SEPTONE BOATCARE SUPER FINE FIBREGLASS POLISH 500G",
     "brand": "",
@@ -685,17 +664,16 @@
     "subCategoryDescription": "Lubricants, Fuel & Boat Care products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/24/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 16.21,
     "barcode": "9313008825003",
     "cataloguePage": 24,
-    "imageUrl": "../images/catalogue/product-photos/261180.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/261180.jpg",
     "catalogueDescription": "........... 732 261059............................................. 731 261060............................................. 731 261066............................................. 732 261082............................................. 732 261086............................................. 732 261094............................................. 733 261158............................................. 732 261170............................................. 732 261172............................................. 732 261180............................................. 730 261192............................................. 730 261196............................................. 730 261202............................................. 730 261216............................................. 733 261234............................................. 733 261256............................................. 733 261258............................................. 733 261262............................................. 732 261300................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/261180.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/261180.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/261180.jpg"
   },
-  {
+  "261192": {
     "productNumber": "261192",
     "description": "SEPTONE BOATCARE EXTRA CUT FIBREGLASS POLISH 500G",
     "brand": "",
@@ -714,17 +692,16 @@
     "subCategoryDescription": "Lubricants, Fuel & Boat Care products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/24/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 16.21,
     "barcode": "9313008815004",
     "cataloguePage": 24,
-    "imageUrl": "../images/catalogue/product-photos/261192.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/261192.jpg",
     "catalogueDescription": "........... 731 261060............................................. 731 261066............................................. 732 261082............................................. 732 261086............................................. 732 261094............................................. 733 261158............................................. 732 261170............................................. 732 261172............................................. 732 261180............................................. 730 261192............................................. 730 261196............................................. 730 261202............................................. 730 261216............................................. 733 261234............................................. 733 261256............................................. 733 261258............................................. 733 261262............................................. 732 261300............................................. 732 261320................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/261192.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/261192.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/261192.jpg"
   },
-  {
+  "261196": {
     "productNumber": "261196",
     "description": "SEPTONE BOATCARE FIBREGLASS RESTORER & WAX 500ML",
     "brand": "",
@@ -743,17 +720,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/24/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 16.19,
     "barcode": "9313008020231",
     "cataloguePage": 24,
-    "imageUrl": "../images/catalogue/product-photos/261196.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/261196.jpg",
     "catalogueDescription": "........... 731 261066............................................. 732 261082............................................. 732 261086............................................. 732 261094............................................. 733 261158............................................. 732 261170............................................. 732 261172............................................. 732 261180............................................. 730 261192............................................. 730 261196............................................. 730 261202............................................. 730 261216............................................. 733 261234............................................. 733 261256............................................. 733 261258............................................. 733 261262............................................. 732 261300............................................. 732 261320............................................. 733 261400................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/261196.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/261196.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/261196.jpg"
   },
-  {
+  "261202": {
     "productNumber": "261202",
     "description": "SEPTONE BOATCARE FIBREGLASS BUFFING COMPOUND 500ML",
     "brand": "",
@@ -772,17 +748,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/24/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 13.74,
     "barcode": "9313008020248",
     "cataloguePage": 24,
-    "imageUrl": "../images/catalogue/product-photos/261202.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/261202.jpg",
     "catalogueDescription": "........... 732 261082............................................. 732 261086............................................. 732 261094............................................. 733 261158............................................. 732 261170............................................. 732 261172............................................. 732 261180............................................. 730 261192............................................. 730 261196............................................. 730 261202............................................. 730 261216............................................. 733 261234............................................. 733 261256............................................. 733 261258............................................. 733 261262............................................. 732 261300............................................. 732 261320............................................. 733 261400............................................. 735 261402................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/261202.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/261202.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/261202.jpg"
   },
-  {
+  "261216": {
     "productNumber": "261216",
     "description": "SEPTONE BOATCARE GELCOAT REPAIR FILLER 400G",
     "brand": "",
@@ -801,17 +776,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/24/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 21.01,
     "barcode": "9313008010584",
     "cataloguePage": 24,
-    "imageUrl": "../images/catalogue/product-photos/261216.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/261216.jpg",
     "catalogueDescription": "........... 732 261086............................................. 732 261094............................................. 733 261158............................................. 732 261170............................................. 732 261172............................................. 732 261180............................................. 730 261192............................................. 730 261196............................................. 730 261202............................................. 730 261216............................................. 733 261234............................................. 733 261256............................................. 733 261258............................................. 733 261262............................................. 732 261300............................................. 732 261320............................................. 733 261400............................................. 735 261402............................................. 735 261406................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/261216.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/261216.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/261216.jpg"
   },
-  {
+  "261234": {
     "productNumber": "261234",
     "description": "SEPTONE FIBRE TOUGH GLASS FIBRE FILLER 500G",
     "brand": "",
@@ -830,17 +804,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/24/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 18.01,
     "barcode": "9313008655006",
     "cataloguePage": 24,
-    "imageUrl": "../images/catalogue/product-photos/261234.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/261234.jpg",
     "catalogueDescription": "........... 732 261094............................................. 733 261158............................................. 732 261170............................................. 732 261172............................................. 732 261180............................................. 730 261192............................................. 730 261196............................................. 730 261202............................................. 730 261216............................................. 733 261234............................................. 733 261256............................................. 733 261258............................................. 733 261262............................................. 732 261300............................................. 732 261320............................................. 733 261400............................................. 735 261402............................................. 735 261406............................................. 735 261408................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/261234.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/261234.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/261234.jpg"
   },
-  {
+  "261300": {
     "productNumber": "261300",
     "description": "SEPTONE FIBREGLASS REPAIR KIT",
     "brand": "",
@@ -859,17 +832,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/24/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 31.49,
     "barcode": "9313008023072",
     "cataloguePage": 24,
-    "imageUrl": "../images/catalogue/product-photos/261300.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/261300.jpg",
     "catalogueDescription": "........... 732 261180............................................. 730 261192............................................. 730 261196............................................. 730 261202............................................. 730 261216............................................. 733 261234............................................. 733 261256............................................. 733 261258............................................. 733 261262............................................. 732 261300............................................. 732 261320............................................. 733 261400............................................. 735 261402............................................. 735 261406............................................. 735 261408............................................. 735 261411............................................. 735 261413............................................. 735 261414............................................. 735 261416................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/261300.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/261300.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/261300.jpg"
   },
-  {
+  "261400": {
     "productNumber": "261400",
     "description": "J-B WELD ORIGINAL EPOXY ADHESIVE TWIN TUBE 56.8G",
     "brand": "",
@@ -888,17 +860,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/24/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 8.53,
     "barcode": "043425612656",
     "cataloguePage": 24,
-    "imageUrl": "../images/catalogue/product-photos/261400.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/261400.jpg",
     "catalogueDescription": "........... 730 261196............................................. 730 261202............................................. 730 261216............................................. 733 261234............................................. 733 261256............................................. 733 261258............................................. 733 261262............................................. 732 261300............................................. 732 261320............................................. 733 261400............................................. 735 261402............................................. 735 261406............................................. 735 261408............................................. 735 261411............................................. 735 261413............................................. 735 261414............................................. 735 261416............................................. 735 261417............................................. 735 261440................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/261400.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/261400.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/261400.jpg"
   },
-  {
+  "261402": {
     "productNumber": "261402",
     "description": "J-B WELD KWIKWELD EPOXY ADHESIVE TWIN TUBE 56.8G",
     "brand": "",
@@ -917,17 +888,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/24/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 8.53,
     "barcode": "043425612762",
     "cataloguePage": 24,
-    "imageUrl": "../images/catalogue/product-photos/261402.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/261402.jpg",
     "catalogueDescription": "........... 730 261202............................................. 730 261216............................................. 733 261234............................................. 733 261256............................................. 733 261258............................................. 733 261262............................................. 732 261300............................................. 732 261320............................................. 733 261400............................................. 735 261402............................................. 735 261406............................................. 735 261408............................................. 735 261411............................................. 735 261413............................................. 735 261414............................................. 735 261416............................................. 735 261417............................................. 735 261440............................................. 737 261442................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/261402.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/261402.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/261402.jpg"
   },
-  {
+  "261406": {
     "productNumber": "261406",
     "description": "J-B WELD MARINEWELD EPOXY ADHESIVE TWIN TUBE 56.8G",
     "brand": "",
@@ -946,17 +916,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/24/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 8.53,
     "barcode": "043425612724",
     "cataloguePage": 24,
-    "imageUrl": "../images/catalogue/product-photos/261406.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/261406.jpg",
     "catalogueDescription": "........... 730 261216............................................. 733 261234............................................. 733 261256............................................. 733 261258............................................. 733 261262............................................. 732 261300............................................. 732 261320............................................. 733 261400............................................. 735 261402............................................. 735 261406............................................. 735 261408............................................. 735 261411............................................. 735 261413............................................. 735 261414............................................. 735 261416............................................. 735 261417............................................. 735 261440............................................. 737 261442............................................. 737 261444................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/261406.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/261406.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/261406.jpg"
   },
-  {
+  "261408": {
     "productNumber": "261408",
     "description": "J-B WELD SUPERWELD GLUE BRUSH IN LID 6G",
     "brand": "",
@@ -975,17 +944,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/24/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 5.33,
     "barcode": "043425613066",
     "cataloguePage": 24,
-    "imageUrl": "../images/catalogue/product-photos/261408.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/261408.jpg",
     "catalogueDescription": "........... 733 261234............................................. 733 261256............................................. 733 261258............................................. 733 261262............................................. 732 261300............................................. 732 261320............................................. 733 261400............................................. 735 261402............................................. 735 261406............................................. 735 261408............................................. 735 261411............................................. 735 261413............................................. 735 261414............................................. 735 261416............................................. 735 261417............................................. 735 261440............................................. 737 261442............................................. 737 261444............................................. 737 261446................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/261408.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/261408.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/261408.jpg"
   },
-  {
+  "261411": {
     "productNumber": "261411",
     "description": "J-B WELD CLEARWELD EPOXY ADHESIVE SYRINGE 25ML",
     "brand": "",
@@ -1004,17 +972,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/24/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 8.53,
     "barcode": "043425611123",
     "cataloguePage": 24,
-    "imageUrl": "../images/catalogue/product-photos/261411.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/261411.jpg",
     "catalogueDescription": "........... 733 261256............................................. 733 261258............................................. 733 261262............................................. 732 261300............................................. 732 261320............................................. 733 261400............................................. 735 261402............................................. 735 261406............................................. 735 261408............................................. 735 261411............................................. 735 261413............................................. 735 261414............................................. 735 261416............................................. 735 261417............................................. 735 261440............................................. 737 261442............................................. 737 261444............................................. 737 261446............................................. 737 261450................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/261411.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/261411.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/261411.jpg"
   },
-  {
+  "261413": {
     "productNumber": "261413",
     "description": "J-B WELD PLASTICWELD EPOXY ADHESIVE SYRINGE 25ML",
     "brand": "",
@@ -1033,17 +1000,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/24/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 8.53,
     "barcode": "043425611321",
     "cataloguePage": 24,
-    "imageUrl": "../images/catalogue/product-photos/261413.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/261413.jpg",
     "catalogueDescription": "........... 733 261258............................................. 733 261262............................................. 732 261300............................................. 732 261320............................................. 733 261400............................................. 735 261402............................................. 735 261406............................................. 735 261408............................................. 735 261411............................................. 735 261413............................................. 735 261414............................................. 735 261416............................................. 735 261417............................................. 735 261440............................................. 737 261442............................................. 737 261444............................................. 737 261446............................................. 737 261450............................................. 736 261452................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/261413.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/261413.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/261413.jpg"
   },
-  {
+  "261414": {
     "productNumber": "261414",
     "description": "J-B WELD ORIGINAL EPOXY ADHESIVE SYRINGE 25ML",
     "brand": "",
@@ -1062,17 +1028,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/24/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 9.88,
     "barcode": "043425611659",
     "cataloguePage": 24,
-    "imageUrl": "../images/catalogue/product-photos/261414.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/261414.jpg",
     "catalogueDescription": "........... 733 261262............................................. 732 261300............................................. 732 261320............................................. 733 261400............................................. 735 261402............................................. 735 261406............................................. 735 261408............................................. 735 261411............................................. 735 261413............................................. 735 261414............................................. 735 261416............................................. 735 261417............................................. 735 261440............................................. 737 261442............................................. 737 261444............................................. 737 261446............................................. 737 261450............................................. 736 261452............................................. 736 261458................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/261414.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/261414.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/261414.jpg"
   },
-  {
+  "261416": {
     "productNumber": "261416",
     "description": "J-B WELD MARINEWELD EPOXY ADHESIVE SYRINGE 25ML",
     "brand": "",
@@ -1091,17 +1056,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/24/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 10.23,
     "barcode": "043425611727",
     "cataloguePage": 24,
-    "imageUrl": "../images/catalogue/product-photos/261416.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/261416.jpg",
     "catalogueDescription": "........... 732 261300............................................. 732 261320............................................. 733 261400............................................. 735 261402............................................. 735 261406............................................. 735 261408............................................. 735 261411............................................. 735 261413............................................. 735 261414............................................. 735 261416............................................. 735 261417............................................. 735 261440............................................. 737 261442............................................. 737 261444............................................. 737 261446............................................. 737 261450............................................. 736 261452............................................. 736 261458............................................. 736 261480................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/261416.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/261416.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/261416.jpg"
   },
-  {
+  "261417": {
     "productNumber": "261417",
     "description": "J-B WELD KWIKWELD EPOXY ADHESIVE SYRINGE 25ML",
     "brand": "",
@@ -1120,17 +1084,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/24/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 8.88,
     "barcode": "043425611765",
     "cataloguePage": 24,
-    "imageUrl": "../images/catalogue/product-photos/261417.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/261417.jpg",
     "catalogueDescription": "........... 732 261320............................................. 733 261400............................................. 735 261402............................................. 735 261406............................................. 735 261408............................................. 735 261411............................................. 735 261413............................................. 735 261414............................................. 735 261416............................................. 735 261417............................................. 735 261440............................................. 737 261442............................................. 737 261444............................................. 737 261446............................................. 737 261450............................................. 736 261452............................................. 736 261458............................................. 736 261480............................................. 737 261481................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/261417.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/261417.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/261417.jpg"
   },
-  {
+  "261440": {
     "productNumber": "261440",
     "description": "J-B WELD PERMA-LOCK MEDIUM STRENGTH THREADLOCKER 6ML",
     "brand": "",
@@ -1149,17 +1112,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/24/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 8.23,
     "barcode": "043425612069",
     "cataloguePage": 24,
-    "imageUrl": "../images/catalogue/product-photos/261440.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/261440.jpg",
     "catalogueDescription": "........... 733 261400............................................. 735 261402............................................. 735 261406............................................. 735 261408............................................. 735 261411............................................. 735 261413............................................. 735 261414............................................. 735 261416............................................. 735 261417............................................. 735 261440............................................. 737 261442............................................. 737 261444............................................. 737 261446............................................. 737 261450............................................. 736 261452............................................. 736 261458............................................. 736 261480............................................. 737 261481............................................. 736 261482................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/261440.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/261440.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/261440.jpg"
   },
-  {
+  "261442": {
     "productNumber": "261442",
     "description": "J-B WELD PERMA-LOCK MEDIUM STRENGTH THREADLOCKER 13ML",
     "brand": "",
@@ -1178,17 +1140,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/24/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 12.87,
     "barcode": "043425612137",
     "cataloguePage": 24,
-    "imageUrl": "../images/catalogue/product-photos/261442.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/261442.jpg",
     "catalogueDescription": "........... 735 261402............................................. 735 261406............................................. 735 261408............................................. 735 261411............................................. 735 261413............................................. 735 261414............................................. 735 261416............................................. 735 261417............................................. 735 261440............................................. 737 261442............................................. 737 261444............................................. 737 261446............................................. 737 261450............................................. 736 261452............................................. 736 261458............................................. 736 261480............................................. 737 261481............................................. 736 261482............................................. 736 261484................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/261442.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/261442.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/261442.jpg"
   },
-  {
+  "261444": {
     "productNumber": "261444",
     "description": "J-B WELD PERMA-LOCK HIGH STRENGTH THREADLOCKER 6ML",
     "brand": "",
@@ -1207,17 +1168,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/24/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 8.23,
     "barcode": "043425611062",
     "cataloguePage": 24,
-    "imageUrl": "../images/catalogue/product-photos/261444.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/261444.jpg",
     "catalogueDescription": "........... 735 261406............................................. 735 261408............................................. 735 261411............................................. 735 261413............................................. 735 261414............................................. 735 261416............................................. 735 261417............................................. 735 261440............................................. 737 261442............................................. 737 261444............................................. 737 261446............................................. 737 261450............................................. 736 261452............................................. 736 261458............................................. 736 261480............................................. 737 261481............................................. 736 261482............................................. 736 261484............................................. 737 261504................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/261444.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/261444.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/261444.jpg"
   },
-  {
+  "261446": {
     "productNumber": "261446",
     "description": "J-B WELD PERMA-LOCK HIGH STRENGTH THREADLOCKER 13ML",
     "brand": "",
@@ -1236,17 +1196,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/24/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 12.87,
     "barcode": "043425611130",
     "cataloguePage": 24,
-    "imageUrl": "../images/catalogue/product-photos/261446.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/261446.jpg",
     "catalogueDescription": "........... 735 261408............................................. 735 261411............................................. 735 261413............................................. 735 261414............................................. 735 261416............................................. 735 261417............................................. 735 261440............................................. 737 261442............................................. 737 261444............................................. 737 261446............................................. 737 261450............................................. 736 261452............................................. 736 261458............................................. 736 261480............................................. 737 261481............................................. 736 261482............................................. 736 261484............................................. 737 261504............................................. 736 262002................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/261446.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/261446.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/261446.jpg"
   },
-  {
+  "261450": {
     "productNumber": "261450",
     "description": "J-B WELD STEELSTIK EPOXY PUTTY 56.8G",
     "brand": "",
@@ -1265,17 +1224,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/24/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 8.53,
     "barcode": "043425612670",
     "cataloguePage": 24,
-    "imageUrl": "../images/catalogue/product-photos/261450.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/261450.jpg",
     "catalogueDescription": "........... 735 261411............................................. 735 261413............................................. 735 261414............................................. 735 261416............................................. 735 261417............................................. 735 261440............................................. 737 261442............................................. 737 261444............................................. 737 261446............................................. 737 261450............................................. 736 261452............................................. 736 261458............................................. 736 261480............................................. 737 261481............................................. 736 261482............................................. 736 261484............................................. 737 261504............................................. 736 262002............................................. 737 262006................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/261450.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/261450.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/261450.jpg"
   },
-  {
+  "261452": {
     "productNumber": "261452",
     "description": "J-B WELD WATERWELD EPOXY PUTTY 56.8G",
     "brand": "",
@@ -1294,17 +1252,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/24/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 10.98,
     "barcode": "043425612779",
     "cataloguePage": 24,
-    "imageUrl": "../images/catalogue/product-photos/261452.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/261452.jpg",
     "catalogueDescription": "........... 735 261413............................................. 735 261414............................................. 735 261416............................................. 735 261417............................................. 735 261440............................................. 737 261442............................................. 737 261444............................................. 737 261446............................................. 737 261450............................................. 736 261452............................................. 736 261458............................................. 736 261480............................................. 737 261481............................................. 736 261482............................................. 736 261484............................................. 737 261504............................................. 736 262002............................................. 737 262006............................................. 737 265100................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/261452.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/261452.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/261452.jpg"
   },
-  {
+  "261458": {
     "productNumber": "261458",
     "description": "J-B WELD HIGHHEAT EPOXY PUTTY 56.8G",
     "brand": "",
@@ -1323,17 +1280,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/24/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 11.77,
     "barcode": "043425612977",
     "cataloguePage": 24,
-    "imageUrl": "../images/catalogue/product-photos/261458.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/261458.jpg",
     "catalogueDescription": "........... 735 261414............................................. 735 261416............................................. 735 261417............................................. 735 261440............................................. 737 261442............................................. 737 261444............................................. 737 261446............................................. 737 261450............................................. 736 261452............................................. 736 261458............................................. 736 261480............................................. 737 261481............................................. 736 261482............................................. 736 261484............................................. 737 261504............................................. 736 262002............................................. 737 262006............................................. 737 265100............................................. 727 265101................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/261458.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/261458.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/261458.jpg"
   },
-  {
+  "261480": {
     "productNumber": "261480",
     "description": "J-B WELD RTV ALL PURPOSE CLEAR SILICONE TUBE 85G",
     "brand": "",
@@ -1352,17 +1308,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/24/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 8.56,
     "barcode": "043425613103",
     "cataloguePage": 24,
-    "imageUrl": "../images/catalogue/product-photos/261480.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/261480.jpg",
     "catalogueDescription": "........... 735 261416............................................. 735 261417............................................. 735 261440............................................. 737 261442............................................. 737 261444............................................. 737 261446............................................. 737 261450............................................. 736 261452............................................. 736 261458............................................. 736 261480............................................. 737 261481............................................. 736 261482............................................. 736 261484............................................. 737 261504............................................. 736 262002............................................. 737 262006............................................. 737 265100............................................. 727 265101............................................. 728 265112................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/261480.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/261480.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/261480.jpg"
   },
-  {
+  "261481": {
     "productNumber": "261481",
     "description": "J-B WELD RTY ULTIMATE COPPER SILICONE TUBE 85G",
     "brand": "",
@@ -1381,17 +1336,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/24/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 9.7,
     "barcode": "043425613257",
     "cataloguePage": 24,
-    "imageUrl": "../images/catalogue/product-photos/261481.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/261481.jpg",
     "catalogueDescription": "........... 735 261417............................................. 735 261440............................................. 737 261442............................................. 737 261444............................................. 737 261446............................................. 737 261450............................................. 736 261452............................................. 736 261458............................................. 736 261480............................................. 737 261481............................................. 736 261482............................................. 736 261484............................................. 737 261504............................................. 736 262002............................................. 737 262006............................................. 737 265100............................................. 727 265101............................................. 728 265112............................................. 727 265120................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/261481.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/261481.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/261481.jpg"
   },
-  {
+  "261482": {
     "productNumber": "261482",
     "description": "J-B WELD RTV BLACK SILICONE TUBE 85G",
     "brand": "",
@@ -1410,17 +1364,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/24/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 8.83,
     "barcode": "043425613196",
     "cataloguePage": 24,
-    "imageUrl": "../images/catalogue/product-photos/261482.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/261482.jpg",
     "catalogueDescription": "........... 735 261440............................................. 737 261442............................................. 737 261444............................................. 737 261446............................................. 737 261450............................................. 736 261452............................................. 736 261458............................................. 736 261480............................................. 737 261481............................................. 736 261482............................................. 736 261484............................................. 737 261504............................................. 736 262002............................................. 737 262006............................................. 737 265100............................................. 727 265101............................................. 728 265112............................................. 727 265120.....................................727, 954 265124....................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/261482.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/261482.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/261482.jpg"
   },
-  {
+  "261484": {
     "productNumber": "261484",
     "description": "J-B WELD RTV ALL PURPOSE WHITE SILICONE TUBE 85G",
     "brand": "",
@@ -1439,17 +1392,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/24/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 8.83,
     "barcode": "043425613127",
     "cataloguePage": 24,
-    "imageUrl": "../images/catalogue/product-photos/261484.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/261484.jpg",
     "catalogueDescription": "........... 737 261442............................................. 737 261444............................................. 737 261446............................................. 737 261450............................................. 736 261452............................................. 736 261458............................................. 736 261480............................................. 737 261481............................................. 736 261482............................................. 736 261484............................................. 737 261504............................................. 736 262002............................................. 737 262006............................................. 737 265100............................................. 727 265101............................................. 728 265112............................................. 727 265120.....................................727, 954 265124............................................. 727 265130....................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/261484.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/261484.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/261484.jpg"
   },
-  {
+  "261486": {
     "productNumber": "261486",
     "description": "J-B WELD RTV HI TEMP RED SILICONE TUBE 85G",
     "brand": "",
@@ -1468,7 +1420,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 8.83,
     "barcode": "043425613141",
@@ -1478,7 +1430,7 @@
     "productWebSearchQuery": "\"261486\" \"J-B WELD RTV HI TEMP RED SILICONE TUBE 85G\"",
     "imageUrl": "../images/web-product-images/261486.webp"
   },
-  {
+  "261494": {
     "productNumber": "261494",
     "description": "J-B WELD RTV ULTIMATE BLACK SILICONE CARTRIDGE 280ML",
     "brand": "Y",
@@ -1497,7 +1449,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 25.08,
     "barcode": "043425329295",
@@ -1507,7 +1459,7 @@
     "productWebSearchQuery": "\"261494\" \"Y J-B WELD RTV ULTIMATE BLACK SILICONE CARTRIDGE 280ML\"",
     "imageUrl": "../images/web-product-images/261494.webp"
   },
-  {
+  "261499": {
     "productNumber": "261499",
     "description": "J-B WELD PLASTIC BONDER ADHESIVE SYRINGE BLACK 25ML",
     "brand": "Y",
@@ -1526,7 +1478,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 10.23,
     "barcode": "043425611390",
@@ -1536,7 +1488,7 @@
     "productWebSearchQuery": "\"261499\" \"J-B WELD PLASTIC BONDER ADHESIVE SYRINGE BLACK 25ML\"",
     "imageUrl": "../images/web-product-images/261499.webp"
   },
-  {
+  "261504": {
     "productNumber": "261504",
     "description": "J-B WELD TANKWELD FUEL & METAL TANK REPAIR KIT",
     "brand": "",
@@ -1555,12 +1507,12 @@
     "subCategoryDescription": "Toilets, Plumbing & Galley products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/24/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 15.16,
     "barcode": "043425021106",
     "cataloguePage": 24,
-    "imageUrl": "../images/bla-website-products/261504.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/261504.jpg",
     "catalogueDescription": "........... 737 261444............................................. 737 261446............................................. 737 261450............................................. 736 261452............................................. 736 261458............................................. 736 261480............................................. 737 261481............................................. 736 261482............................................. 736 261484............................................. 737 261504............................................. 736 262002............................................. 737 262006............................................. 737 265100............................................. 727 265101............................................. 728 265112............................................. 727 265120.....................................727, 954 265124............................................. 727 265130............................................. 727 265134....................",
     "productBlockImageUrl": "../images/catalogue/product-blocks/261504.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/j-b-weld-tankweld/",
@@ -1577,7 +1529,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/06/261504.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "261507": {
     "productNumber": "261507",
     "description": "J-B WELD STEELSTIK & WATERWELD COUNTER DISPLAY 20 PK",
     "brand": "Y",
@@ -1596,7 +1548,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 142.98,
     "barcode": "9319786431467",
@@ -1615,4 +1567,4 @@
     "imageUrl": "../images/bla-website-products/261507.jpg",
     "productWebsiteImageDownloaded": true
   }
-]
+}

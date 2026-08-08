@@ -1,5 +1,5 @@
-[
-  {
+{
+  "123000": {
     "productNumber": "123000",
     "description": "BLA LED COURTESY LIGHT W/ STAINLESS COVER BLUE",
     "brand": "Bla",
@@ -23,15 +23,11 @@
     "exportAudExGst": 14.05,
     "barcode": "9319786264447",
     "cataloguePage": 313,
-    "imageUrl": "../images/web-product-images/123000.webp",
+    "imageUrl": "../images/catalogue/product-blocks/123000.jpg",
     "catalogueDescription": "of an 8 watt incandescent bulb. Polycarbonate housing with stainless steel dress plate. Prismed lens. No visible fastenings. Weatherproof but not submersible. Ideal for cockpits, stairs, storage compartments and similar. Available in three LED colours. 12 volt. BLA Code LED Colour Face mm Intrusion mm Protrusion mm Cut Out mm Mount Screws mm 122990 White 84 x 29 17 9 44 x 17 3 c/s BLA Code LED Colour Face mm Intrusion mm Protrusion mm Mount Screws mm 122996 White 82 x 39 37 7 3 c/s 122998 Yellow 82 x 39 37 7 3 c/s 123000 Blue 82 x 39 37 7 3 c/s 122996 123000 BLA Universal Lights - LED Water Resistant These fully encased energy efficient bright LED lights draw minimal current and are suitable for all outdoor applications. Easy mounting through one hole and are retained by a single large nut and weatherproofed with two rubber washers. Can be used to illuminate bait tanks, stairs, cockpits or stowage compartments. LED colours available in white or blue. Weatherproof. Low power consumption. BLA Code LED Colour Face mm Intrusion mm Pro",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/123000.jpg",
-    "productWebSearchImageUrl": "../images/web-product-images/123000.webp",
-    "productWebSearchImageSourceUrl": "https://www.outbackequipment.com.au/assets/full/123000.webp?20250608105239",
-    "productWebSearchImageSourcePage": "",
-    "productWebSearchQuery": "\"123000\" \"Bla BLA LED COURTESY LIGHT W/ STAINLESS COVER BLUE\""
+    "productBlockImageUrl": "../images/catalogue/product-blocks/123000.jpg"
   },
-  {
+  "123002": {
     "productNumber": "123002",
     "description": "BLA COCKPIT LIGHT COCKPIT ROUND STAINLESS STEEL 75MM",
     "brand": "Bla",
@@ -55,7 +51,7 @@
     "exportAudExGst": 7.67,
     "barcode": "9319786007587",
     "cataloguePage": 312,
-    "imageUrl": "../images/bla-website-products/123002.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/123002.jpg",
     "catalogueDescription": "o 10 amp at 12VDC. BLA Code Colour Switch Base mm Mount Screws mm 113310 Black Single 60 x 30 3 r/h 113319 Black Double 90 x 30 3 r/h N.B. Mount block dimensions same as switch plate. 113310 122254 BLA Cockpit Light - Round Ideal flush lighting for cockpits, walkways and similar. Polished pressed stainless steel dress cover, clear plastic lens and chrome plastic reflector. Supplied with weatherproofing gasket. 12 volt, 5 watt bulb. BLA Code Overall Dia. mm Cut Out Dia. mm Intrusion mm Protrusion mm Mount Screws mm 123002 75 51 36 9 4 c/s Spare Parts: 124086 Replacement bulb (12V/5W) boatinglifestyleadventure",
     "productBlockImageUrl": "../images/catalogue/product-blocks/123002.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/bla-cockpit-light-round/",
@@ -72,7 +68,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/05/123002.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "123004": {
     "productNumber": "123004",
     "description": "MARINE TOWN COCKPIT LIGHT RECT STAINLESS STEEL 130X78MM",
     "brand": "",
@@ -110,7 +106,7 @@
     "imageUrl": "../images/bla-website-products/123004.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "123014": {
     "productNumber": "123014",
     "description": "OSCULATI COURTESY LIGHT COURTESY RECESS WHT 12V 7W",
     "brand": "",
@@ -134,7 +130,7 @@
     "exportAudExGst": 32.44,
     "barcode": "8033137012877",
     "cataloguePage": 312,
-    "imageUrl": "../images/bla-website-products/123014.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/123014.jpg",
     "catalogueDescription": "n bulb. 90 65 29 22 BLA Code Trim Colour 122254 White Courtesy Light - Waterproof Suitable for both interior and exterior use. Low profile, flush mounting for original equipment look. White trim with opaque lens. High impact polycarbonate construction. Convex lens moulded into flange provides maximum strength and waterproofing. Wide caulking flange for assured water tightness. Brass bulb contacts. 12 volt, 7 watt incandescent bulb. BLA Code Outside Dia. mm Cut Out Dia. mm Intrusion mm Protrusion mm Mount Screws mm 123014 107 70 37 10 5 r/h Spare Parts: 124048 Replacement bulb Courtesy Light - Shielded Mini shielded courtesy light for companion ways, stepwells or for anywhere soft, unobtrusive light is required. Black polypropylene plastic dress face, black polypropylene housing and clear lens. 5 watt, 12 volt incandescent bulb. BLA Code Overall Height mm Width mm Depth mm 123024 20 44 15 BLA Code Base Size mm Cut Out Dia. mm Intrusion mm Protrusion mm Mount Screws mm 122252 58 x 58 44 28 8 4 c/s Spare Parts: 124036 Replacement bul",
     "productBlockImageUrl": "../images/catalogue/product-blocks/123014.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/courtesy-light-waterproof/",
@@ -151,7 +147,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/05/123014.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "123024": {
     "productNumber": "123024",
     "description": "BLA COURTESY LIGHT EXTERIOR COURTESY WHITE 2 LED",
     "brand": "Bla",
@@ -175,7 +171,7 @@
     "exportAudExGst": 5.63,
     "barcode": "9319786308684",
     "cataloguePage": 312,
-    "imageUrl": "../images/bla-website-products/123024.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/123024.jpg",
     "catalogueDescription": "ter tightness. Brass bulb contacts. 12 volt, 7 watt incandescent bulb. BLA Code Outside Dia. mm Cut Out Dia. mm Intrusion mm Protrusion mm Mount Screws mm 123014 107 70 37 10 5 r/h Spare Parts: 124048 Replacement bulb Courtesy Light - Shielded Mini shielded courtesy light for companion ways, stepwells or for anywhere soft, unobtrusive light is required. Black polypropylene plastic dress face, black polypropylene housing and clear lens. 5 watt, 12 volt incandescent bulb. BLA Code Overall Height mm Width mm Depth mm 123024 20 44 15 BLA Code Base Size mm Cut Out Dia. mm Intrusion mm Protrusion mm Mount Screws mm 122252 58 x 58 44 28 8 4 c/s Spare Parts: 124036 Replacement bulb Courtesy Light - LED Ultra small surface mount courtesy light featuring two 12 volt LEDs. Housed in a sturdy weather resistant nylon shell. Complete with attached wiring. BEP\u00ae Interior Switches - Contour Interior switches fashioned to complement the decor of modern boat interiors. The contour switch can be either surface or semi recessed, vertical or horizontal",
     "productBlockImageUrl": "../images/catalogue/product-blocks/123024.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/courtesy-light-led/",
@@ -192,7 +188,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/05/123024.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "123047": {
     "productNumber": "123047",
     "description": "BLA WATER RESISTANT LED UNIVERSAL LIGHT WHITE",
     "brand": "Bla",
@@ -216,15 +212,11 @@
     "exportAudExGst": 5.93,
     "barcode": "9319786460719",
     "cataloguePage": 313,
-    "imageUrl": "../images/web-product-images/123047.webp",
+    "imageUrl": "../images/catalogue/product-blocks/123047.jpg",
     "catalogueDescription": "versal Lights - LED Water Resistant These fully encased energy efficient bright LED lights draw minimal current and are suitable for all outdoor applications. Easy mounting through one hole and are retained by a single large nut and weatherproofed with two rubber washers. Can be used to illuminate bait tanks, stairs, cockpits or stowage compartments. LED colours available in white or blue. Weatherproof. Low power consumption. BLA Code LED Colour Face mm Intrusion mm Protrusion mm Thread 123049 Blue 38 32 5 M22x1.5 123047 White 38 32 5 M22x1.5 123050 Red 38 32 5 M22x1.5 boatinglifestyleadventure boatinglifestyleadventure",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/123047.jpg",
-    "productWebSearchImageUrl": "../images/web-product-images/123047.webp",
-    "productWebSearchImageSourceUrl": "https://www.outbackequipment.com.au/assets/full/123046.webp?20250609202135",
-    "productWebSearchImageSourcePage": "",
-    "productWebSearchQuery": "\"123047\" \"Bla BLA WATER RESISTANT LED UNIVERSAL LIGHT WHITE\""
+    "productBlockImageUrl": "../images/catalogue/product-blocks/123047.jpg"
   },
-  {
+  "123049": {
     "productNumber": "123049",
     "description": "BLA WATER RESISTANT LED UNIVERSAL LIGHT BLUE",
     "brand": "Bla",
@@ -248,15 +240,11 @@
     "exportAudExGst": 5.93,
     "barcode": "9319786460726",
     "cataloguePage": 313,
-    "imageUrl": "../images/web-product-images/123049.webp",
+    "imageUrl": "../images/catalogue/product-blocks/123049.jpg",
     "catalogueDescription": "3 c/s 122996 123000 BLA Universal Lights - LED Water Resistant These fully encased energy efficient bright LED lights draw minimal current and are suitable for all outdoor applications. Easy mounting through one hole and are retained by a single large nut and weatherproofed with two rubber washers. Can be used to illuminate bait tanks, stairs, cockpits or stowage compartments. LED colours available in white or blue. Weatherproof. Low power consumption. BLA Code LED Colour Face mm Intrusion mm Protrusion mm Thread 123049 Blue 38 32 5 M22x1.5 123047 White 38 32 5 M22x1.5 123050 Red 38 32 5 M22x1.5 boatinglifestyleadventure boatinglifestyleadventure",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/123049.jpg",
-    "productWebSearchImageUrl": "../images/web-product-images/123049.webp",
-    "productWebSearchImageSourceUrl": "https://www.outbackequipment.com.au/assets/full/123048.webp?20250607213721",
-    "productWebSearchImageSourcePage": "",
-    "productWebSearchQuery": "\"123049\" \"Bla BLA WATER RESISTANT LED UNIVERSAL LIGHT BLUE\""
+    "productBlockImageUrl": "../images/catalogue/product-blocks/123049.jpg"
   },
-  {
+  "123050": {
     "productNumber": "123050",
     "description": "BLA WATER RESISTANT LED UNIVERSAL LIGHT RED",
     "brand": "Bla",
@@ -280,15 +268,11 @@
     "exportAudExGst": 5.93,
     "barcode": "9319786460733",
     "cataloguePage": 313,
-    "imageUrl": "../images/web-product-images/123050.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/123050.jpg",
     "catalogueDescription": "istant These fully encased energy efficient bright LED lights draw minimal current and are suitable for all outdoor applications. Easy mounting through one hole and are retained by a single large nut and weatherproofed with two rubber washers. Can be used to illuminate bait tanks, stairs, cockpits or stowage compartments. LED colours available in white or blue. Weatherproof. Low power consumption. BLA Code LED Colour Face mm Intrusion mm Protrusion mm Thread 123049 Blue 38 32 5 M22x1.5 123047 White 38 32 5 M22x1.5 123050 Red 38 32 5 M22x1.5 boatinglifestyleadventure boatinglifestyleadventure",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/123050.jpg",
-    "productWebSearchImageUrl": "../images/web-product-images/123050.jpg",
-    "productWebSearchImageSourceUrl": "https://www.northsidemarine.com.au/online-store/wp-content/uploads/sites/9/2023/09/123046.jpg",
-    "productWebSearchImageSourcePage": "",
-    "productWebSearchQuery": "\"123050\" \"Bla BLA WATER RESISTANT LED UNIVERSAL LIGHT RED\""
+    "productBlockImageUrl": "../images/catalogue/product-blocks/123050.jpg"
   },
-  {
+  "123056": {
     "productNumber": "123056",
     "description": "T-H MARINE WATER PROOF LIGHT LED WATERPROOF COURTESY",
     "brand": "",
@@ -312,7 +296,7 @@
     "exportAudExGst": 18.89,
     "barcode": "9319786125717",
     "cataloguePage": 313,
-    "imageUrl": "../images/bla-website-products/123056.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/123056.jpg",
     "catalogueDescription": "LIGHTING 283 12 boatinglifestyleadventure BOATING LIFESTYLE ADVENTURE Courtesy Light - Submersible Manufactured from clear acrylic. Suitable for mounting in livewells, open cockpits or anywhere a waterproof light is required. Bulb and socket mount from behind. 5 watt, 12 volt bulb. BLA Code Lens Dia. mm Protrusion mm Intrusion mm Mount Hole mm 123056 47 12 65 25 Spare Parts: 124143 Replacement bulb BLA Courtesy Lights - LED Interior/Exterior Three LEDs per light provide just the right amount of illumination for those areas where primary lighting is not available or is overkill. These 12 volt power miserly LEDs can be left on without worrying about battery drainage and are ideal for cockpits, stairs and stowage areas. Weatherproof, supplied with gasket for added weather protection. Available in white or blue lighting. Low power consumption. Courtesy Lights - LE",
     "productBlockImageUrl": "../images/catalogue/product-blocks/123056.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/courtesy-light-submersible/",
@@ -329,7 +313,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/05/123056.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "123070": {
     "productNumber": "123070",
     "description": "BLA DECK LIGHT WATERPROOF 12V 10 LED",
     "brand": "Bla",
@@ -353,7 +337,7 @@
     "exportAudExGst": 95.36,
     "barcode": "9319786310854",
     "cataloguePage": 303,
-    "imageUrl": "../images/bla-website-products/123070.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/123070.jpg",
     "catalogueDescription": "set within a fully waterproof aluminium housing. Includes stainless steel mount adjustable both horizontally and vertically. Floodlight - LED Waterproof Deck LED floodlight with 12 extra bright diodes operating at a range between 9 to 36 volts with a low 0.4 to 1.5 amperage draw. Specially designed lens helps spread light beam and is set within a fully waterproof aluminium housing. Includes stainless steel mount adjustable both horizontally and vertically. BLA Code Overall Height mm Width mm Depth mm Mount Bolt mm 123070 120 110 45 8 BLA Code Overall Height mm Width mm Depth mm Mount Bolt mm 123072 120 110 45 8 Floodlight - Deck Halogen floodlight, 12 volt, 55 watt. White ABS housing with glass lens. Stainless steel mount hardware adjusts both horizontally and vertically. BLA Code Lens mm Overall Height mm Depth mm Mount Bolt mm 123057 120 110 45 8",
     "productBlockImageUrl": "../images/catalogue/product-blocks/123070.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/spotlight-led-waterproof-deck/",
@@ -370,7 +354,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/05/123070.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "123072": {
     "productNumber": "123072",
     "description": "BLA DECK LIGHT FLOOD WATERPROOF 12V 12 LED",
     "brand": "Bla",
@@ -394,7 +378,7 @@
     "exportAudExGst": 101.89,
     "barcode": "9319786310861",
     "cataloguePage": 303,
-    "imageUrl": "../images/bla-website-products/123072.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/123072.jpg",
     "catalogueDescription": "adjustable both horizontally and vertically. Floodlight - LED Waterproof Deck LED floodlight with 12 extra bright diodes operating at a range between 9 to 36 volts with a low 0.4 to 1.5 amperage draw. Specially designed lens helps spread light beam and is set within a fully waterproof aluminium housing. Includes stainless steel mount adjustable both horizontally and vertically. BLA Code Overall Height mm Width mm Depth mm Mount Bolt mm 123070 120 110 45 8 BLA Code Overall Height mm Width mm Depth mm Mount Bolt mm 123072 120 110 45 8 Floodlight - Deck Halogen floodlight, 12 volt, 55 watt. White ABS housing with glass lens. Stainless steel mount hardware adjusts both horizontally and vertically. BLA Code Lens mm Overall Height mm Depth mm Mount Bolt mm 123057 120 110 45 8",
     "productBlockImageUrl": "../images/catalogue/product-blocks/123072.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/floodlight-led-waterproof-deck/",
@@ -411,7 +395,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/05/123072.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "123116": {
     "productNumber": "123116",
     "description": "BEP CONTROL PANEL GUEST S/LIGHT",
     "brand": "Y",
@@ -440,7 +424,7 @@
     "productWebSearchQuery": "\"123116\" \"Y BEP CONTROL PANEL GUEST S/LIGHT\"",
     "imageUrl": "../images/web-product-images/123116.jpg"
   },
-  {
+  "123122": {
     "productNumber": "123122",
     "description": "BLA SPOT LIGHT RUBBER 12V 100W",
     "brand": "Bla",
@@ -464,7 +448,7 @@
     "exportAudExGst": 65.26,
     "barcode": "9319786007723",
     "cataloguePage": 300,
-    "imageUrl": "../images/bla-website-products/123122.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/123122.jpg",
     "catalogueDescription": "n/ off toggle switch. Complete with 2.4 metre, coiled stretch cord with a two pin plug as well as deck socket with waterproof cap. Spotlight - Rubber Pistol Grip Tough black neoprene rubber encased waterproof spotlight. Pistol style hand grip with integral rocker switch. Three metre coiled stretch cord with cigarette lighter plug. 55 watt, 12 volt quartz halogen bulb. Deck Socket BLA Code Outside Dia. mm Depth mm Height mm Lens Dia. mm 123132 120 146 160 105 BLA Code Outside Dia. mm Depth mm Height mm Lens Dia. mm 123122 170 165 165 170",
     "productBlockImageUrl": "../images/catalogue/product-blocks/123122.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/spotlight-rubber-hand-held/",
@@ -481,7 +465,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/05/123122.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "123132": {
     "productNumber": "123132",
     "description": "BLA SPOT LIGHT RUBBER 12V 55W",
     "brand": "Bla",
@@ -505,7 +489,7 @@
     "exportAudExGst": 35.95,
     "barcode": "9319786007730",
     "cataloguePage": 300,
-    "imageUrl": "../images/bla-website-products/123132.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/123132.jpg",
     "catalogueDescription": "tlight with rear hand grip. 150mm beam, 12 volt, 100 watt quartz halogen bulb. On/ off toggle switch. Complete with 2.4 metre, coiled stretch cord with a two pin plug as well as deck socket with waterproof cap. Spotlight - Rubber Pistol Grip Tough black neoprene rubber encased waterproof spotlight. Pistol style hand grip with integral rocker switch. Three metre coiled stretch cord with cigarette lighter plug. 55 watt, 12 volt quartz halogen bulb. Deck Socket BLA Code Outside Dia. mm Depth mm Height mm Lens Dia. mm 123132 120 146 160 105 BLA Code Outside Dia. mm Depth mm Height mm Lens Dia. mm 123122 170 165 165 170",
     "productBlockImageUrl": "../images/catalogue/product-blocks/123132.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/spotlight-rubber-pistol-grip/",
@@ -522,7 +506,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/05/123132.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "123283": {
     "productNumber": "123283",
     "description": "BARNEGAT HOUSING TO SUIT QL-32 LIGHT",
     "brand": "Y",
@@ -551,7 +535,7 @@
     "productWebSearchQuery": "\"123283\" \"Y BARNEGAT HOUSING TO SUIT QL-32 LIGHT\"",
     "imageUrl": "../images/web-product-images/123283.jpg"
   },
-  {
+  "123290": {
     "productNumber": "123290",
     "description": "ATTWOOD DOCKING LIGHT LED STAINLESS STEEL",
     "brand": "Attwood",
@@ -575,15 +559,11 @@
     "exportAudExGst": 116.57,
     "barcode": "022697652218",
     "cataloguePage": 314,
-    "imageUrl": "../images/web-product-images/123290.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/123290.jpg",
     "catalogueDescription": "le for wiring. Attwood LED technology keeps the light cool to the touch. Backed by a 5-year warranty, Attwood\u2019s LED docking lights are designed with the most extreme conditions in mind. Attwood uses only the highest grade stainless and aluminum components to ensure the product will be resistant to corrosion. To ensure the light is watertight, all electrical components are fully sealed. Attwood\u2019s simple one-piece cover allows for the ultimate in customization. BLA Code Colour Bezel Volts Height mm Width mm Depth mm 123290 White Stainless Steel 12 35.5 114 71",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/123290.jpg",
-    "productWebSearchImageUrl": "../images/web-product-images/123290.jpg",
-    "productWebSearchImageSourceUrl": "https://www.westmarine.com/on/demandware.static/-/Sites-wm-master-catalog/default/dw37aeeac4/images/orig/15920846_1500.jpg",
-    "productWebSearchImageSourcePage": "",
-    "productWebSearchQuery": "\"123290\" \"Attwood ATTWOOD DOCKING LIGHT LED STAINLESS STEEL\""
+    "productBlockImageUrl": "../images/catalogue/product-blocks/123290.jpg"
   },
-  {
+  "123320": {
     "productNumber": "123320",
     "description": "MARINCO REMOTE CONTROL LIGHT FLOOD/STAINLESS STEEL",
     "brand": "",
@@ -607,7 +587,7 @@
     "exportAudExGst": 748.53,
     "barcode": "046904220403",
     "cataloguePage": 298,
-    "imageUrl": "../images/bla-website-products/123320.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/123320.jpg",
     "catalogueDescription": "ith one each 12 and 24 volt H3 halogen bulbs \u2022 Auto-programming remote controls, no dip switches \u2022 Reversible programmable remotes for upside down lights \u2022 Limited five year warranty BLA Code Description Outside Dimensions W x D x H mm Volts Peak Beam Intensity Cp Peak Beam Distance m 123394 White spotlight 190 x 190 x 235 12 or 24 (bulbs supplied) 210,000 280 Accessories: 123400 Wireless floating hand held remote 123404 Hard wired remote control 123404 Optional Accessories Wireless remote included 123400 BLA Code 123320 Accessories: 124234 Replacement Sealed Beam Bulb Marinco\u00ae Spot/Flood Light Stainless Steel The spot/flood kit includes a joystick control and 15' wiring cable with easy-to-install plug ends. The 22040 spot/floodlight uses a high-powered, dual focus sealed beam bulb. Its penetrating 72,000 candlepower beam can illuminate objects up to a 1/4 mile away, and its 30,000CP flood light is perfect for docking or picking up a mooring. Constructed of stainless steel or chromed brass, it will give years of service with no ma",
     "productBlockImageUrl": "../images/catalogue/product-blocks/123320.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/marinco-spot-flood-light-stainless-steel/",
@@ -624,7 +604,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2021/01/123320.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "123322": {
     "productNumber": "123322",
     "description": "MARINCO REMOTE CONTROL LIGHT FLOOD/STAINLESSSTEEL LIGHT ONLY",
     "brand": "Y",
@@ -653,7 +633,7 @@
     "productWebSearchQuery": "\"123322\" \"MARINCO REMOTE CONTROL LIGHT FLOOD/STAINLESSSTEEL LIGHT ONLY\"",
     "imageUrl": "../images/web-product-images/123322.jpg"
   },
-  {
+  "123330": {
     "productNumber": "123330",
     "description": "BEP CONTROL PANEL JOYSTICK T/S GUEST",
     "brand": "Y",
@@ -672,7 +652,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 124.38,
     "barcode": "046904033331",
@@ -682,7 +662,7 @@
     "productWebSearchQuery": "\"123330\" \"BEP CONTROL PANEL JOYSTICK T/S GUEST\"",
     "imageUrl": "../images/web-product-images/123330.jpg"
   },
-  {
+  "123351": {
     "productNumber": "123351",
     "description": "GO LIGHT REPLACEMENT DASH MOUNT CONTROL",
     "brand": "Y",
@@ -711,7 +691,7 @@
     "productWebSearchQuery": "\"123351\" \"Y GO LIGHT REPLACEMENT DASH MOUNT CONTROL\"",
     "imageUrl": "../images/web-product-images/123351.jpg"
   },
-  {
+  "123352": {
     "productNumber": "123352",
     "description": "GOLIGHT STRYKER ST SPOTLIGHT LED BLACK INC HARDWIRE CONTROL",
     "brand": "Y",
@@ -730,7 +710,7 @@
     "subCategoryDescription": "Navigation & LED Lighting products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 887.47,
     "barcode": "793523000854",
@@ -740,7 +720,7 @@
     "productWebSearchQuery": "\"123352\" \"GOLIGHT STRYKER ST SPOTLIGHT LED BLACK INC HARDWIRE CONTROL\"",
     "imageUrl": "../images/web-product-images/123352.jpg"
   },
-  {
+  "123353": {
     "productNumber": "123353",
     "description": "GOLIGHT STRYKER ST SPOTLIGHT LED WHITE INC HARDWIRE CONTROL",
     "brand": "Y",
@@ -759,7 +739,7 @@
     "subCategoryDescription": "Navigation & LED Lighting products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 887.47,
     "barcode": "793523000830",
@@ -769,7 +749,7 @@
     "productWebSearchQuery": "\"123353\" \"GOLIGHT STRYKER ST SPOTLIGHT LED WHITE INC HARDWIRE CONTROL\"",
     "imageUrl": "../images/web-product-images/123353.jpg"
   },
-  {
+  "123354": {
     "productNumber": "123354",
     "description": "GOLIGHT STRYKER ST SPOTLIGHT LED BLACK INC WIRELESS CONTROL",
     "brand": "Y",
@@ -788,7 +768,7 @@
     "subCategoryDescription": "Navigation & LED Lighting products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 885.62,
     "barcode": "793523000427",
@@ -798,7 +778,7 @@
     "productWebSearchQuery": "\"123354\" \"GOLIGHT STRYKER ST SPOTLIGHT LED BLACK INC WIRELESS CONTROL\"",
     "imageUrl": "../images/web-product-images/123354.jpg"
   },
-  {
+  "123355": {
     "productNumber": "123355",
     "description": "GOLIGHT STRYKER ST SPOTLIGHT LED WHITE INC WIRELESS CONTROL",
     "brand": "Y",
@@ -817,7 +797,7 @@
     "subCategoryDescription": "Navigation & LED Lighting products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 885.62,
     "barcode": "793523000335",
@@ -827,7 +807,7 @@
     "productWebSearchQuery": "\"123355\" \"GOLIGHT STRYKER ST SPOTLIGHT LED WHITE INC WIRELESS CONTROL\"",
     "imageUrl": "../images/web-product-images/123355.jpg"
   },
-  {
+  "123356": {
     "productNumber": "123356",
     "description": "GOLIGHT GT SPOTLIGHT LED BLACK INC HARDWIRE CONTROL",
     "brand": "",
@@ -846,20 +826,16 @@
     "subCategoryDescription": "Navigation & LED Lighting products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/299/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 694.83,
     "barcode": "793523000137",
     "cataloguePage": 299,
-    "imageUrl": "../images/web-product-images/123356.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/123356.jpg",
     "catalogueDescription": "ngle \u2022 544,000 Candela, Max Beam Distance 4,839 ft. \u2022 3.7 Amps at 13.8V Features: \u2022 Wireless Remote or Hardwired Control \u2022 Permanent or Portable Mounting Options \u2022 Permanent: Stainless Steel Mounting Bracket \u2022 Portable: Industrial Strength Magnetic Grip \u2022 370\u00b0 Rotation x 135\u00b0 Tilt \u2022 Wireless Remote Operates Light up to 80 ft away \u2022 Ingress Protection from Dust/Water (IP56) \u2022 High Torque Drive Train with Precise Pan/Tilt Control \u2022 UV Ray and Saltwater Resistant \u2022 3 Year Limited Warranty BLA Code Colour Control Type 123356 Black Hardwired 123357 White Hardwired 123358 Black Wireless 123359 White Wireless Accessories: 123361 Hardwired Remote 123362 Wireless Remote 123363 Wireless Remote Holster Light Kit - Docking Two quartz halogen 12 volt, 35 watt spotlights with white ABS plastic high impact housing and stainless steel mounting brackets with white rubber boots. Kit contains illuminated rocker switch, wiring harness, mount hardware and in-line fuse. BLA Code Width mm Depth mm Height mm Switch Cut Out mm Wire Length m 123058 144 72",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/123356.jpg",
-    "productWebSearchImageUrl": "../images/web-product-images/123356.jpg",
-    "productWebSearchImageSourceUrl": "https://media.maxmarineelectronics.com/maxmarine/wp-content/uploads/2023/10/01052834/GoLight20214ZV102523-10.jpg",
-    "productWebSearchImageSourcePage": "",
-    "productWebSearchQuery": "\"123356\" \"GOLIGHT GT SPOTLIGHT LED BLACK INC HARDWIRE CONTROL\""
+    "productBlockImageUrl": "../images/catalogue/product-blocks/123356.jpg"
   },
-  {
+  "123357": {
     "productNumber": "123357",
     "description": "GOLIGHT GT SPOTLIGHT LED WHITE INC HARDWIRE CONTROL",
     "brand": "",
@@ -878,20 +854,16 @@
     "subCategoryDescription": "Navigation & LED Lighting products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/299/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 694.83,
     "barcode": "793523000120",
     "cataloguePage": 299,
-    "imageUrl": "../images/web-product-images/123357.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/123357.jpg",
     "catalogueDescription": "Max Beam Distance 4,839 ft. \u2022 3.7 Amps at 13.8V Features: \u2022 Wireless Remote or Hardwired Control \u2022 Permanent or Portable Mounting Options \u2022 Permanent: Stainless Steel Mounting Bracket \u2022 Portable: Industrial Strength Magnetic Grip \u2022 370\u00b0 Rotation x 135\u00b0 Tilt \u2022 Wireless Remote Operates Light up to 80 ft away \u2022 Ingress Protection from Dust/Water (IP56) \u2022 High Torque Drive Train with Precise Pan/Tilt Control \u2022 UV Ray and Saltwater Resistant \u2022 3 Year Limited Warranty BLA Code Colour Control Type 123356 Black Hardwired 123357 White Hardwired 123358 Black Wireless 123359 White Wireless Accessories: 123361 Hardwired Remote 123362 Wireless Remote 123363 Wireless Remote Holster Light Kit - Docking Two quartz halogen 12 volt, 35 watt spotlights with white ABS plastic high impact housing and stainless steel mounting brackets with white rubber boots. Kit contains illuminated rocker switch, wiring harness, mount hardware and in-line fuse. BLA Code Width mm Depth mm Height mm Switch Cut Out mm Wire Length m 123058 144 72 105 12 x 30 9 RAM\u00ae Toug",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/123357.jpg",
-    "productWebSearchImageUrl": "../images/web-product-images/123357.jpg",
-    "productWebSearchImageSourceUrl": "https://shop.manex.co.za/wp-content/uploads/20204GT_1050px.jpg",
-    "productWebSearchImageSourcePage": "",
-    "productWebSearchQuery": "\"123357\" \"GOLIGHT GT SPOTLIGHT LED WHITE INC HARDWIRE CONTROL\""
+    "productBlockImageUrl": "../images/catalogue/product-blocks/123357.jpg"
   },
-  {
+  "123358": {
     "productNumber": "123358",
     "description": "GOLIGHT GT SPOTLIGHT LED BLACK INC WIRELESS CONTROL",
     "brand": "",
@@ -910,20 +882,16 @@
     "subCategoryDescription": "Navigation & LED Lighting products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/299/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 756.69,
     "barcode": "793523000144",
     "cataloguePage": 299,
-    "imageUrl": "../images/web-product-images/123358.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/123358.jpg",
     "catalogueDescription": "9 ft. \u2022 3.7 Amps at 13.8V Features: \u2022 Wireless Remote or Hardwired Control \u2022 Permanent or Portable Mounting Options \u2022 Permanent: Stainless Steel Mounting Bracket \u2022 Portable: Industrial Strength Magnetic Grip \u2022 370\u00b0 Rotation x 135\u00b0 Tilt \u2022 Wireless Remote Operates Light up to 80 ft away \u2022 Ingress Protection from Dust/Water (IP56) \u2022 High Torque Drive Train with Precise Pan/Tilt Control \u2022 UV Ray and Saltwater Resistant \u2022 3 Year Limited Warranty BLA Code Colour Control Type 123356 Black Hardwired 123357 White Hardwired 123358 Black Wireless 123359 White Wireless Accessories: 123361 Hardwired Remote 123362 Wireless Remote 123363 Wireless Remote Holster Light Kit - Docking Two quartz halogen 12 volt, 35 watt spotlights with white ABS plastic high impact housing and stainless steel mounting brackets with white rubber boots. Kit contains illuminated rocker switch, wiring harness, mount hardware and in-line fuse. BLA Code Width mm Depth mm Height mm Switch Cut Out mm Wire Length m 123058 144 72 105 12 x 30 9 RAM\u00ae Tough-Claw\u2122 Double Ball Mou",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/123358.jpg",
-    "productWebSearchImageUrl": "../images/web-product-images/123358.jpg",
-    "productWebSearchImageSourceUrl": "https://www.forestry-suppliers.com/Images/Large/6219_02099_p1.jpg",
-    "productWebSearchImageSourcePage": "",
-    "productWebSearchQuery": "\"123358\" \"GOLIGHT GT SPOTLIGHT LED BLACK INC WIRELESS CONTROL\""
+    "productBlockImageUrl": "../images/catalogue/product-blocks/123358.jpg"
   },
-  {
+  "123359": {
     "productNumber": "123359",
     "description": "GOLIGHT GT SPOTLIGHT LED WHITE INC WIRELESS CONTROL",
     "brand": "",
@@ -942,20 +910,16 @@
     "subCategoryDescription": "Navigation & LED Lighting products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/299/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 756.69,
     "barcode": "793523000106",
     "cataloguePage": 299,
-    "imageUrl": "../images/web-product-images/123359.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/123359.jpg",
     "catalogueDescription": ".8V Features: \u2022 Wireless Remote or Hardwired Control \u2022 Permanent or Portable Mounting Options \u2022 Permanent: Stainless Steel Mounting Bracket \u2022 Portable: Industrial Strength Magnetic Grip \u2022 370\u00b0 Rotation x 135\u00b0 Tilt \u2022 Wireless Remote Operates Light up to 80 ft away \u2022 Ingress Protection from Dust/Water (IP56) \u2022 High Torque Drive Train with Precise Pan/Tilt Control \u2022 UV Ray and Saltwater Resistant \u2022 3 Year Limited Warranty BLA Code Colour Control Type 123356 Black Hardwired 123357 White Hardwired 123358 Black Wireless 123359 White Wireless Accessories: 123361 Hardwired Remote 123362 Wireless Remote 123363 Wireless Remote Holster Light Kit - Docking Two quartz halogen 12 volt, 35 watt spotlights with white ABS plastic high impact housing and stainless steel mounting brackets with white rubber boots. Kit contains illuminated rocker switch, wiring harness, mount hardware and in-line fuse. BLA Code Width mm Depth mm Height mm Switch Cut Out mm Wire Length m 123058 144 72 105 12 x 30 9 RAM\u00ae Tough-Claw\u2122 Double Ball Mount with LED Spotlight",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/123359.jpg",
-    "productWebSearchImageUrl": "../images/web-product-images/123359.jpg",
-    "productWebSearchImageSourceUrl": "https://shop.manex.co.za/wp-content/uploads/20204GT_1050px.jpg",
-    "productWebSearchImageSourcePage": "",
-    "productWebSearchQuery": "\"123359\" \"GOLIGHT GT SPOTLIGHT LED WHITE INC WIRELESS CONTROL\""
+    "productBlockImageUrl": "../images/catalogue/product-blocks/123359.jpg"
   },
-  {
+  "123361": {
     "productNumber": "123361",
     "description": "GOLIGHT GT HARDWIRED REMOTE",
     "brand": "",
@@ -974,20 +938,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/299/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 82.46,
     "barcode": "9319786458631",
     "cataloguePage": 299,
-    "imageUrl": "../images/web-product-images/123361.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/123361.jpg",
     "catalogueDescription": "Hardwired Control \u2022 Permanent or Portable Mounting Options \u2022 Permanent: Stainless Steel Mounting Bracket \u2022 Portable: Industrial Strength Magnetic Grip \u2022 370\u00b0 Rotation x 135\u00b0 Tilt \u2022 Wireless Remote Operates Light up to 80 ft away \u2022 Ingress Protection from Dust/Water (IP56) \u2022 High Torque Drive Train with Precise Pan/Tilt Control \u2022 UV Ray and Saltwater Resistant \u2022 3 Year Limited Warranty BLA Code Colour Control Type 123356 Black Hardwired 123357 White Hardwired 123358 Black Wireless 123359 White Wireless Accessories: 123361 Hardwired Remote 123362 Wireless Remote 123363 Wireless Remote Holster Light Kit - Docking Two quartz halogen 12 volt, 35 watt spotlights with white ABS plastic high impact housing and stainless steel mounting brackets with white rubber boots. Kit contains illuminated rocker switch, wiring harness, mount hardware and in-line fuse. BLA Code Width mm Depth mm Height mm Switch Cut Out mm Wire Length m 123058 144 72 105 12 x 30 9 RAM\u00ae Tough-Claw\u2122 Double Ball Mount with LED Spotlight The new RAM Mounts LED Spotlight ha",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/123361.jpg",
-    "productWebSearchImageUrl": "../images/web-product-images/123361.jpg",
-    "productWebSearchImageSourceUrl": "https://media.maxmarineelectronics.com/maxmarine/wp-content/uploads/2022/12/22183326/Golight-GT-Ivan-1222022-2-scaled.jpg",
-    "productWebSearchImageSourcePage": "",
-    "productWebSearchQuery": "\"123361\" \"GOLIGHT GT HARDWIRED REMOTE\""
+    "productBlockImageUrl": "../images/catalogue/product-blocks/123361.jpg"
   },
-  {
+  "123362": {
     "productNumber": "123362",
     "description": "GOLIGHT GT WIRELESS REMOTE",
     "brand": "",
@@ -1006,20 +966,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/299/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 67.29,
     "barcode": "9319786458648",
     "cataloguePage": 299,
-    "imageUrl": "../images/web-product-images/123362.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/123362.jpg",
     "catalogueDescription": "anent or Portable Mounting Options \u2022 Permanent: Stainless Steel Mounting Bracket \u2022 Portable: Industrial Strength Magnetic Grip \u2022 370\u00b0 Rotation x 135\u00b0 Tilt \u2022 Wireless Remote Operates Light up to 80 ft away \u2022 Ingress Protection from Dust/Water (IP56) \u2022 High Torque Drive Train with Precise Pan/Tilt Control \u2022 UV Ray and Saltwater Resistant \u2022 3 Year Limited Warranty BLA Code Colour Control Type 123356 Black Hardwired 123357 White Hardwired 123358 Black Wireless 123359 White Wireless Accessories: 123361 Hardwired Remote 123362 Wireless Remote 123363 Wireless Remote Holster Light Kit - Docking Two quartz halogen 12 volt, 35 watt spotlights with white ABS plastic high impact housing and stainless steel mounting brackets with white rubber boots. Kit contains illuminated rocker switch, wiring harness, mount hardware and in-line fuse. BLA Code Width mm Depth mm Height mm Switch Cut Out mm Wire Length m 123058 144 72 105 12 x 30 9 RAM\u00ae Tough-Claw\u2122 Double Ball Mount with LED Spotlight The new RAM Mounts LED Spotlight has been completely redesi",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/123362.jpg",
-    "productWebSearchImageUrl": "../images/web-product-images/123362.jpg",
-    "productWebSearchImageSourceUrl": "https://allboatsupplies.com/wp-content/uploads/2024/12/GOL20514GT_2.jpg",
-    "productWebSearchImageSourcePage": "",
-    "productWebSearchQuery": "\"123362\" \"GOLIGHT GT WIRELESS REMOTE\""
+    "productBlockImageUrl": "../images/catalogue/product-blocks/123362.jpg"
   },
-  {
+  "123363": {
     "productNumber": "123363",
     "description": "GOLIGHT GT WIRELESS REMOTE HOLSTER",
     "brand": "",
@@ -1038,20 +994,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/287/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 7.01,
     "barcode": "9319786458655",
     "cataloguePage": 287,
-    "imageUrl": "../images/web-product-images/123363.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/123363.jpg",
     "catalogueDescription": "9-32V 1.65A 0.75A 8m (26ft) Up to 21m + (72ft) Internal 125334 125395 - X8 Colours 2900 2300 9-32V 1.65A 0.75A 8m (26ft) Up to 21m + (72ft) Internal 125335 125396 - X16 Ultra White 5800 4500 9-32V 3.2A 1.5A 12m (40ft) Up to 30m + (100ft) Internal 125336 125397 - X16 Midnight Blue 5800 4500 9-32V 3.2A 1.5A 12m (40ft) Up to 30m + (100ft) Internal 125337 125398 - X16 Colours 5800 4500 9-32V 3.2A 1.5A 12m (40ft) Up to 30m + (100ft) Internal Accessories: 125362 Bezel 316 S/Steel Suit X4 125364 Bezel 316 S/Steel Suit X8 123363 Bezel White Suit X4 *(Amperage draw for Colours models vary by the colour selected, this is the maximum) 125331 125392 125332 125393 125335 125397 250 22 109 137 22 74 219 22 78 Please Note: Fixture Lumens rating is a measurement of total light output from a finished lighting fixture. This measurement can only be obtained from either a Goniophotometer or an integrating sphere. Fixture Lumens is the most reliable, professional measurement of light output. OceanLED has heavily invested in these measurement apparatus",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/123363.jpg",
-    "productWebSearchImageUrl": "../images/web-product-images/123363.jpg",
-    "productWebSearchImageSourceUrl": "https://cdn11.bigcommerce.com/s-h424xqhs5x/images/stencil/2560w/products/267540/511163/golight-gt-series-led-hybrid-light-permanent-mount-whandheld-and-wireless-dash-mount-remotes-12v-black__92125.1769315360.jpg?c=1",
-    "productWebSearchImageSourcePage": "",
-    "productWebSearchQuery": "\"123363\" \"GOLIGHT GT WIRELESS REMOTE HOLSTER\""
+    "productBlockImageUrl": "../images/catalogue/product-blocks/123363.jpg"
   },
-  {
+  "123380": {
     "productNumber": "123380",
     "description": "GO LIGHT STRYKER REMOTE HAND HELD",
     "brand": "Y",
@@ -1080,7 +1032,7 @@
     "productWebSearchQuery": "\"123380\" \"GO LIGHT STRYKER REMOTE HAND HELD\"",
     "imageUrl": "../images/web-product-images/123380.jpg"
   },
-  {
+  "123382": {
     "productNumber": "123382",
     "description": "GO LIGHT STRYKER REMOTE DASH MOUNT",
     "brand": "Y",
@@ -1109,7 +1061,7 @@
     "productWebSearchQuery": "\"123382\" \"GO LIGHT STRYKER REMOTE DASH MOUNT\"",
     "imageUrl": "../images/web-product-images/123382.jpg"
   },
-  {
+  "123384": {
     "productNumber": "123384",
     "description": "GO LIGHT WIRED DASH MOUNT REMOTE FOR STRYKER",
     "brand": "Y",
@@ -1138,7 +1090,7 @@
     "productWebSearchQuery": "\"123384\" \"GO LIGHT WIRED DASH MOUNT REMOTE FOR STRYKER\"",
     "imageUrl": "../images/web-product-images/123384.webp"
   },
-  {
+  "123393": {
     "productNumber": "123393",
     "description": "MARINCO REMOTE CONTROL LIGHT WIRELESS DASH B 12/24V",
     "brand": "Y",
@@ -1167,7 +1119,7 @@
     "productWebSearchQuery": "\"123393\" \"Y MARINCO REMOTE CONTROL LIGHT WIRELESS DASH B 12/24V\"",
     "imageUrl": "../images/web-product-images/123393.webp"
   },
-  {
+  "123394": {
     "productNumber": "123394",
     "description": "MARINCO REMOTE CONTROL LIGHT WIRELESS DASH W 12/24V",
     "brand": "",
@@ -1191,7 +1143,7 @@
     "exportAudExGst": 483.22,
     "barcode": "093344050947",
     "cataloguePage": 298,
-    "imageUrl": "../images/bla-website-products/123394.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/123394.jpg",
     "catalogueDescription": "mit stops \u2022 Wireless remote control with one touch functions \u2022 Snap in mount system, light can be mounted upside down \u2022 370\u00b0 sweep rotation \u2022 120\u00b0 total tilt; +75\u00b0 and -45\u00b0 from horizontal \u2022 Universal 12 & 24 volt circuit \u2022 Supplied with one each 12 and 24 volt H3 halogen bulbs \u2022 Auto-programming remote controls, no dip switches \u2022 Reversible programmable remotes for upside down lights \u2022 Limited five year warranty BLA Code Description Outside Dimensions W x D x H mm Volts Peak Beam Intensity Cp Peak Beam Distance m 123394 White spotlight 190 x 190 x 235 12 or 24 (bulbs supplied) 210,000 280 Accessories: 123400 Wireless floating hand held remote 123404 Hard wired remote control 123404 Optional Accessories Wireless remote included 123400 BLA Code 123320 Accessories: 124234 Replacement Sealed Beam Bulb Marinco\u00ae Spot/Flood Light Stainless Steel The spot/flood kit includes a joystick control and 15' wiring cable with easy-to-install plug ends. The 22040 spot/floodlight uses a high-powered, dual focus sealed beam bulb. Its penetrating 72",
     "productBlockImageUrl": "../images/catalogue/product-blocks/123394.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/marinco-spotlight-precision/",
@@ -1208,7 +1160,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/05/123394.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "123395": {
     "productNumber": "123395",
     "description": "BEP LIGHT BULB H3 12V 110W SUIT MARINCO SPL-12B",
     "brand": "Y",
@@ -1237,7 +1189,7 @@
     "productWebSearchQuery": "\"123395\" \"Y BEP LIGHT BULB H3 12V 110W SUIT MARINCO SPL-12B\"",
     "imageUrl": "../images/web-product-images/123395.jpg"
   },
-  {
+  "123396": {
     "productNumber": "123396",
     "description": "BEP LIGHT BULB - H3 SUIT SPL-12W 24V",
     "brand": "Y",
@@ -1266,7 +1218,7 @@
     "productWebSearchQuery": "\"123396\" \"Y BEP LIGHT BULB - H3 SUIT SPL-12W 24V\"",
     "imageUrl": "../images/web-product-images/123396.jpg"
   },
-  {
+  "123400": {
     "productNumber": "123400",
     "description": "MARINCO REMOTE CONTROL PRECISION WIRELESS HAND HELD",
     "brand": "",
@@ -1285,20 +1237,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/298/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 82.49,
     "barcode": "093344051050",
     "cataloguePage": 298,
-    "imageUrl": "../images/web-product-images/123400.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/123400.jpg",
     "catalogueDescription": "can be mounted upside down \u2022 370\u00b0 sweep rotation \u2022 120\u00b0 total tilt; +75\u00b0 and -45\u00b0 from horizontal \u2022 Universal 12 & 24 volt circuit \u2022 Supplied with one each 12 and 24 volt H3 halogen bulbs \u2022 Auto-programming remote controls, no dip switches \u2022 Reversible programmable remotes for upside down lights \u2022 Limited five year warranty BLA Code Description Outside Dimensions W x D x H mm Volts Peak Beam Intensity Cp Peak Beam Distance m 123394 White spotlight 190 x 190 x 235 12 or 24 (bulbs supplied) 210,000 280 Accessories: 123400 Wireless floating hand held remote 123404 Hard wired remote control 123404 Optional Accessories Wireless remote included 123400 BLA Code 123320 Accessories: 124234 Replacement Sealed Beam Bulb Marinco\u00ae Spot/Flood Light Stainless Steel The spot/flood kit includes a joystick control and 15' wiring cable with easy-to-install plug ends. The 22040 spot/floodlight uses a high-powered, dual focus sealed beam bulb. Its penetrating 72,000 candlepower beam can illuminate objects up to a 1/4 mile away, and its 30,000CP flood",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/123400.jpg",
-    "productWebSearchImageUrl": "../images/web-product-images/123400.jpg",
-    "productWebSearchImageSourceUrl": "https://images.thdstatic.com/productImages/7e6d3123-7d64-4fa6-aac9-4b88c260aefe/svn/marinco-boat-accessories-splr-1-64_600.jpg",
-    "productWebSearchImageSourcePage": "",
-    "productWebSearchQuery": "\"123400\" \"MARINCO REMOTE CONTROL PRECISION WIRELESS HAND HELD\""
+    "productBlockImageUrl": "../images/catalogue/product-blocks/123400.jpg"
   },
-  {
+  "123401": {
     "productNumber": "123401",
     "description": "OCEANLED CAMERA EYES HD GEN2 PAL BRONZE",
     "brand": "Y",
@@ -1317,7 +1265,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 861.64,
     "barcode": "5051803006886",
@@ -1327,7 +1275,7 @@
     "productWebSearchQuery": "\"123401\" \"OCEANLED CAMERA EYES HD GEN2 PAL BRONZE\"",
     "imageUrl": "../images/web-product-images/123401.jpg"
   },
-  {
+  "123402": {
     "productNumber": "123402",
     "description": "OCEANLED CAMERA EYES HD GEN2 PAL STEEL",
     "brand": "Y",
@@ -1346,7 +1294,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 861.64,
     "barcode": "9319786464700",
@@ -1356,7 +1304,7 @@
     "productWebSearchQuery": "\"123402\" \"OCEANLED CAMERA EYES HD GEN2 PAL STEEL\"",
     "imageUrl": "../images/web-product-images/123402.jpg"
   },
-  {
+  "123404": {
     "productNumber": "123404",
     "description": "MARINCO REMOTE CONTROL PRECISION HARD WIRED 12/24V",
     "brand": "",
@@ -1375,20 +1323,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/298/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 71.92,
     "barcode": "093344051067",
     "cataloguePage": 298,
-    "imageUrl": "../images/web-product-images/123404.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/123404.jpg",
     "catalogueDescription": "otation \u2022 120\u00b0 total tilt; +75\u00b0 and -45\u00b0 from horizontal \u2022 Universal 12 & 24 volt circuit \u2022 Supplied with one each 12 and 24 volt H3 halogen bulbs \u2022 Auto-programming remote controls, no dip switches \u2022 Reversible programmable remotes for upside down lights \u2022 Limited five year warranty BLA Code Description Outside Dimensions W x D x H mm Volts Peak Beam Intensity Cp Peak Beam Distance m 123394 White spotlight 190 x 190 x 235 12 or 24 (bulbs supplied) 210,000 280 Accessories: 123400 Wireless floating hand held remote 123404 Hard wired remote control 123404 Optional Accessories Wireless remote included 123400 BLA Code 123320 Accessories: 124234 Replacement Sealed Beam Bulb Marinco\u00ae Spot/Flood Light Stainless Steel The spot/flood kit includes a joystick control and 15' wiring cable with easy-to-install plug ends. The 22040 spot/floodlight uses a high-powered, dual focus sealed beam bulb. Its penetrating 72,000 candlepower beam can illuminate objects up to a 1/4 mile away, and its 30,000CP flood light is perfect for docking or picking u",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/123404.jpg",
-    "productWebSearchImageUrl": "../images/web-product-images/123404.jpg",
-    "productWebSearchImageSourceUrl": "https://images.thdstatic.com/productImages/7e6d3123-7d64-4fa6-aac9-4b88c260aefe/svn/marinco-boat-accessories-splr-1-64_300.jpg",
-    "productWebSearchImageSourcePage": "",
-    "productWebSearchQuery": "\"123404\" \"MARINCO REMOTE CONTROL PRECISION HARD WIRED 12/24V\""
+    "productBlockImageUrl": "../images/catalogue/product-blocks/123404.jpg"
   },
-  {
+  "123406": {
     "productNumber": "123406",
     "description": "MARINCO REMOTE CONTROL PRECISION HARD WIRED BRIDGE MOUNT",
     "brand": "Y",
@@ -1407,7 +1351,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 46.5,
     "barcode": "093344053627",
@@ -1417,7 +1361,7 @@
     "productWebSearchQuery": "\"123406\" \"Y MARINCO REMOTE CONTROL PRECISION HARD WIRED BRIDGE MOUNT\"",
     "imageUrl": "../images/web-product-images/123406.jpg"
   },
-  {
+  "123421": {
     "productNumber": "123421",
     "description": "OCEANLED DMX JUNCTION BOX",
     "brand": "Y",
@@ -1436,7 +1380,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 287.21,
     "barcode": "9319786424315",
@@ -1446,7 +1390,7 @@
     "productWebSearchQuery": "\"123421\" \"Y OCEANLED DMX JUNCTION BOX\"",
     "imageUrl": "../images/web-product-images/123421.jpg"
   },
-  {
+  "123426": {
     "productNumber": "123426",
     "description": "OCEANLED DMX CONTROL CABLE 10M",
     "brand": "Y",
@@ -1465,7 +1409,7 @@
     "subCategoryDescription": "Switches, Cable & Circuit Protection products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 86.16,
     "barcode": "9319786424353",
@@ -1475,7 +1419,7 @@
     "productWebSearchQuery": "\"123426\" \"Y OCEANLED DMX CONTROL CABLE 10M\"",
     "imageUrl": "../images/web-product-images/123426.webp"
   },
-  {
+  "123427": {
     "productNumber": "123427",
     "description": "OCEANLED DMX CONTROL CABLE 15M",
     "brand": "Y",
@@ -1494,7 +1438,7 @@
     "subCategoryDescription": "Switches, Cable & Circuit Protection products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 129.25,
     "barcode": "9319786424360",
@@ -1504,7 +1448,7 @@
     "productWebSearchQuery": "\"123427\" \"Y OCEANLED DMX CONTROL CABLE 15M\"",
     "imageUrl": "../images/web-product-images/123427.jpg"
   },
-  {
+  "123428": {
     "productNumber": "123428",
     "description": "OCEANLED OCEANBRIDGE MULTIZONE LIGHTING CONTROLLER",
     "brand": "",
@@ -1523,20 +1467,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/284/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 774.81,
     "barcode": "5051803009061",
     "cataloguePage": 284,
-    "imageUrl": "../images/web-product-images/123428.png",
+    "imageUrl": "../images/catalogue/product-blocks/123428.jpg",
     "catalogueDescription": "ovative system allows you complete control of the entire OceanLED range of lights and accessories, as well as most third-party (DMX or on/off) DC-powered lights. The OceanBridge gives you complete control, of colour change, music sync, colour fade, colour transitions, brightness, zone creation, and our patented movement-to-colour functionality. Features: \u2022 Custom scene & zone control \u2022 Control lights & accessories easily \u2022 Intelligent lighting commands \u2022 Universal compatibility and control BLA Code 125390 BLA Code 123428",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/123428.jpg",
-    "productWebSearchImageUrl": "../images/web-product-images/123428.png",
-    "productWebSearchImageSourceUrl": "https://cdn11.bigcommerce.com/s-ba962/images/stencil/1280x1280/products/4221/14751/oceanbridge-controller__84592.1713800520.png?c=2",
-    "productWebSearchImageSourcePage": "",
-    "productWebSearchQuery": "\"123428\" \"OCEANLED OCEANBRIDGE MULTIZONE LIGHTING CONTROLLER\""
+    "productBlockImageUrl": "../images/catalogue/product-blocks/123428.jpg"
   },
-  {
+  "123429": {
     "productNumber": "123429",
     "description": "OCEANLED SPORT COLOURS DMX",
     "brand": "Y",
@@ -1555,7 +1495,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 855.89,
     "barcode": "9319786471067",
@@ -1565,7 +1505,7 @@
     "productWebSearchQuery": "\"123429\" \"Y OCEANLED SPORT COLOURS DMX\"",
     "imageUrl": "../images/web-product-images/123429.jpg"
   },
-  {
+  "123430": {
     "productNumber": "123430",
     "description": "OCENLED OCEANBRIDGE LED/SWITCH CABLE",
     "brand": "Y",
@@ -1594,7 +1534,7 @@
     "productWebSearchQuery": "\"123430\" \"Y OCENLED OCEANBRIDGE LED/SWITCH CABLE\"",
     "imageUrl": "../images/web-product-images/123430.jpg"
   },
-  {
+  "123431": {
     "productNumber": "123431",
     "description": "OCEANLED OCEANBRIDGE - NMEA 2K POWER CABLE EMF03638-1",
     "brand": "",
@@ -1613,7 +1553,7 @@
     "subCategoryDescription": "Batteries, Charging & Solar products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 70.44,
     "barcode": "5051803010234",
@@ -1623,13 +1563,13 @@
     "productWebSearchQuery": "\"123431\" \"OCEANLED OCEANBRIDGE - NMEA 2K POWER CABLE EMF03638-1\"",
     "imageUrl": "../images/web-product-images/123431.jpg"
   },
-  {
+  "123432": {
     "productNumber": "123432",
     "description": "OCEANLED OCEANBRIDGE TWO WAY DMX JUNCTION BOX",
     "brand": "Y",
     "variant": "PC",
-    "price": 1074,
-    "unitCostOfSale": 630,
+    "price": 1074.0,
+    "unitCostOfSale": 630.0,
     "categoryName": "Tools & Chandlery",
     "topCategory": "Tools & Chandlery",
     "subCategoryName": "General Marine Supplies",
@@ -1642,7 +1582,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 363.6,
     "barcode": "9319786467497",
@@ -1652,7 +1592,7 @@
     "productWebSearchQuery": "\"123432\" \"OCEANLED OCEANBRIDGE TWO WAY DMX JUNCTION BOX\"",
     "imageUrl": "../images/web-product-images/123432.jpg"
   },
-  {
+  "123433": {
     "productNumber": "123433",
     "description": "OCEANLED OCEANBRIDGE OCEAN CONNECT",
     "brand": "Y",
@@ -1671,7 +1611,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 491.93,
     "barcode": "9319786467503",
@@ -1681,7 +1621,7 @@
     "productWebSearchQuery": "\"123433\" \"Y OCEANLED OCEANBRIDGE OCEAN CONNECT\"",
     "imageUrl": "../images/web-product-images/123433.webp"
   },
-  {
+  "123434": {
     "productNumber": "123434",
     "description": "OCEANLED OCENBRIDGE CONTROL OUTPUT CABLE 3M",
     "brand": "",
@@ -1700,7 +1640,7 @@
     "subCategoryDescription": "Switches, Cable & Circuit Protection products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 47.3,
     "barcode": "5051803010258",
@@ -1710,7 +1650,7 @@
     "productWebSearchQuery": "\"123434\" \"OCEANLED OCENBRIDGE CONTROL OUTPUT CABLE 3M\"",
     "imageUrl": "../images/web-product-images/123434.jpg"
   },
-  {
+  "123435": {
     "productNumber": "123435",
     "description": "OCEANLED OCENBRIDGE CONTROL OUTPUT CABLE 5M",
     "brand": "Y",
@@ -1729,7 +1669,7 @@
     "subCategoryDescription": "Switches, Cable & Circuit Protection products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 66.06,
     "barcode": "5051803010265",
@@ -1739,7 +1679,7 @@
     "productWebSearchQuery": "\"123435\" \"Y OCEANLED OCENBRIDGE CONTROL OUTPUT CABLE 5M\"",
     "imageUrl": "../images/web-product-images/123435.jpg"
   },
-  {
+  "123436": {
     "productNumber": "123436",
     "description": "OCEANLED OCENBRIDGE CONTROL OUTPUT CABLE 10M",
     "brand": "Y",
@@ -1758,7 +1698,7 @@
     "subCategoryDescription": "Switches, Cable & Circuit Protection products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 100.52,
     "barcode": "5051803010272",
@@ -1768,7 +1708,7 @@
     "productWebSearchQuery": "\"123436\" \"Y OCEANLED OCENBRIDGE CONTROL OUTPUT CABLE 10M\"",
     "imageUrl": "../images/web-product-images/123436.webp"
   },
-  {
+  "123437": {
     "productNumber": "123437",
     "description": "OCEANLED OCENBRIDGE CONTROL OUTPUT CABLE 15M",
     "brand": "Y",
@@ -1787,7 +1727,7 @@
     "subCategoryDescription": "Switches, Cable & Circuit Protection products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 129.25,
     "barcode": "5051803010289",
@@ -1797,7 +1737,7 @@
     "productWebSearchQuery": "\"123437\" \"Y OCEANLED OCENBRIDGE CONTROL OUTPUT CABLE 15M\"",
     "imageUrl": "../images/web-product-images/123437.jpg"
   },
-  {
+  "123438": {
     "productNumber": "123438",
     "description": "OCEANLED OCENBRIDGE CONTROL OUTPUT CABLE 20M",
     "brand": "Y",
@@ -1816,7 +1756,7 @@
     "subCategoryDescription": "Switches, Cable & Circuit Protection products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 157.97,
     "barcode": "5051803010296",
@@ -1826,7 +1766,7 @@
     "productWebSearchQuery": "\"123438\" \"Y OCEANLED OCENBRIDGE CONTROL OUTPUT CABLE 20M\"",
     "imageUrl": "../images/web-product-images/123438.jpg"
   },
-  {
+  "123600": {
     "productNumber": "123600",
     "description": "LUMITEC CAPRI LT LIGHT FLOOD SPREADER WHITE FLUSH",
     "brand": "",
@@ -1864,7 +1804,7 @@
     "imageUrl": "../images/bla-website-products/123600.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "123604": {
     "productNumber": "123604",
     "description": "LUMITEC CAPRI 2 FLOOD/SPREADER LIGHT WHITE",
     "brand": "Y",
@@ -1893,7 +1833,7 @@
     "productWebSearchQuery": "\"123604\" \"Y LUMITEC CAPRI 2 FLOOD/SPREADER LIGHT WHITE\"",
     "imageUrl": "../images/web-product-images/123604.jpg"
   },
-  {
+  "123608": {
     "productNumber": "123608",
     "description": "LUMITEC CAPRI 2 FLOOD/SPREADER LIGHT BLACK",
     "brand": "Y",
@@ -1922,7 +1862,7 @@
     "productWebSearchQuery": "\"123608\" \"Y LUMITEC CAPRI 2 FLOOD/SPREADER LIGHT BLACK\"",
     "imageUrl": "../images/web-product-images/123608.jpg"
   },
-  {
+  "123613": {
     "productNumber": "123613",
     "description": "LUMITEC AURORA DOME LIGHT STAINLESS 5K WHITE RED",
     "brand": "Y",
@@ -1951,7 +1891,7 @@
     "productWebSearchQuery": "\"123613\" \"Y LUMITEC AURORA DOME LIGHT STAINLESS 5K WHITE RED\"",
     "imageUrl": "../images/web-product-images/123613.jpg"
   },
-  {
+  "123616": {
     "productNumber": "123616",
     "description": "LUMITEC CAPRERA 3 WHITE FLOOD SPREADER LIGHT WHITE BLUE DIM",
     "brand": "",
@@ -1975,15 +1915,11 @@
     "exportAudExGst": 236.83,
     "barcode": "089300017116",
     "cataloguePage": 302,
-    "imageUrl": "../images/web-product-images/123616.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/123616.jpg",
     "catalogueDescription": "h white or black housing. Time Toggled Protocol (TTP) gives the ability to dim lights and change colours (where applicable) BLA Code Finish Colour Output Cri Cct Volts Amp Draw Lumens+ 12V 24V 123602 White White 70+ 5000 10-30 1.3A 600mA 1000 BLA Code Finish Colour Output Cri Cct Volts Amp Draw Lumens+ 12V 24V 123610 White White Dimming, Blue Dimming 70+ 5000 10-30 1.3A 600mA 1000 123614 Black White Dimming, Blue Dimming 70+ 5000 10-30 1.3A 600mA 1000 114 23.4 25.4 43.6 72 42 114 23.4 25.4 96.2 64.7 54.3 27.9 34.9 123616 123626 BLA Code Finish Colour Output Cri Cct TTP Volts Amp Draw Lumens+ Yes 24V 123616 White White, Blue 70+ 5000 Yes 10-30 1A 0.5A 1200 123617 White White, Red 70+ 5000 Yes 10-30 1A 0.5A 1200 123618 White White 70+ 5000 No 10-30 1A 0.5A 1200 123626 Black White, Blue 70+ 5000 Yes 10-30 1A 0.5A 1200 123627 Black White, Red 70+ 5000 Yes 10-30 1A 0.5A 1200 123628 Black White 70+ 5000 No 10-30 1A 0.5A 1200 123614 43.6 72 42",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/123616.jpg",
-    "productWebSearchImageUrl": "../images/web-product-images/123616.jpg",
-    "productWebSearchImageSourceUrl": "https://marinezoom.com/wp-content/uploads/LUM101711-634x634.jpg",
-    "productWebSearchImageSourcePage": "",
-    "productWebSearchQuery": "\"123616\" \"LUMITEC CAPRERA 3 WHITE FLOOD SPREADER LIGHT WHITE BLUE DIM\""
+    "productBlockImageUrl": "../images/catalogue/product-blocks/123616.jpg"
   },
-  {
+  "123617": {
     "productNumber": "123617",
     "description": "LUMITEC CAPRERA 3 WHITE FLOOD SPREADER LIGHT WHITE RED DIM",
     "brand": "",
@@ -2007,15 +1943,11 @@
     "exportAudExGst": 236.81,
     "barcode": "089300017123",
     "cataloguePage": 302,
-    "imageUrl": "../images/web-product-images/123617.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/123617.jpg",
     "catalogueDescription": "ur Output Cri Cct Volts Amp Draw Lumens+ 12V 24V 123602 White White 70+ 5000 10-30 1.3A 600mA 1000 BLA Code Finish Colour Output Cri Cct Volts Amp Draw Lumens+ 12V 24V 123610 White White Dimming, Blue Dimming 70+ 5000 10-30 1.3A 600mA 1000 123614 Black White Dimming, Blue Dimming 70+ 5000 10-30 1.3A 600mA 1000 114 23.4 25.4 43.6 72 42 114 23.4 25.4 96.2 64.7 54.3 27.9 34.9 123616 123626 BLA Code Finish Colour Output Cri Cct TTP Volts Amp Draw Lumens+ Yes 24V 123616 White White, Blue 70+ 5000 Yes 10-30 1A 0.5A 1200 123617 White White, Red 70+ 5000 Yes 10-30 1A 0.5A 1200 123618 White White 70+ 5000 No 10-30 1A 0.5A 1200 123626 Black White, Blue 70+ 5000 Yes 10-30 1A 0.5A 1200 123627 Black White, Red 70+ 5000 Yes 10-30 1A 0.5A 1200 123628 Black White 70+ 5000 No 10-30 1A 0.5A 1200 123614 43.6 72 42",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/123617.jpg",
-    "productWebSearchImageUrl": "../images/web-product-images/123617.jpg",
-    "productWebSearchImageSourceUrl": "https://cdn.shopify.com/s/files/1/0651/8128/6614/files/lumitec-caprera3-spreader-light-white-dimming-white-housing-trapski-26560.jpg?v=1747718789",
-    "productWebSearchImageSourcePage": "",
-    "productWebSearchQuery": "\"123617\" \"LUMITEC CAPRERA 3 WHITE FLOOD SPREADER LIGHT WHITE RED DIM\""
+    "productBlockImageUrl": "../images/catalogue/product-blocks/123617.jpg"
   },
-  {
+  "123618": {
     "productNumber": "123618",
     "description": "LUMITEC CAPRERA 3 WHITE FLOOD SPREADER LIGHT WHITE NON DIM",
     "brand": "",
@@ -2039,15 +1971,11 @@
     "exportAudExGst": 140.15,
     "barcode": "089300017130",
     "cataloguePage": 302,
-    "imageUrl": "../images/web-product-images/123618.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/123618.jpg",
     "catalogueDescription": "White White 70+ 5000 10-30 1.3A 600mA 1000 BLA Code Finish Colour Output Cri Cct Volts Amp Draw Lumens+ 12V 24V 123610 White White Dimming, Blue Dimming 70+ 5000 10-30 1.3A 600mA 1000 123614 Black White Dimming, Blue Dimming 70+ 5000 10-30 1.3A 600mA 1000 114 23.4 25.4 43.6 72 42 114 23.4 25.4 96.2 64.7 54.3 27.9 34.9 123616 123626 BLA Code Finish Colour Output Cri Cct TTP Volts Amp Draw Lumens+ Yes 24V 123616 White White, Blue 70+ 5000 Yes 10-30 1A 0.5A 1200 123617 White White, Red 70+ 5000 Yes 10-30 1A 0.5A 1200 123618 White White 70+ 5000 No 10-30 1A 0.5A 1200 123626 Black White, Blue 70+ 5000 Yes 10-30 1A 0.5A 1200 123627 Black White, Red 70+ 5000 Yes 10-30 1A 0.5A 1200 123628 Black White 70+ 5000 No 10-30 1A 0.5A 1200 123614 43.6 72 42",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/123618.jpg",
-    "productWebSearchImageUrl": "../images/web-product-images/123618.jpg",
-    "productWebSearchImageSourceUrl": "https://www.westmarine.com/dw/image/v2/BGFG_PRD/on/demandware.static/-/Sites-wm-master-catalog/default/dwc46e4777/images/orig/P020614509_v3.jpg?sw=800&sh=800",
-    "productWebSearchImageSourcePage": "",
-    "productWebSearchQuery": "\"123618\" \"LUMITEC CAPRERA 3 WHITE FLOOD SPREADER LIGHT WHITE NON DIM\""
+    "productBlockImageUrl": "../images/catalogue/product-blocks/123618.jpg"
   },
-  {
+  "123619": {
     "productNumber": "123619",
     "description": "LUMITEC MAXILLUME TR150 FLOODLIGHT WHITE TRUNNION MOUNT",
     "brand": "Y",
@@ -2066,7 +1994,7 @@
     "subCategoryDescription": "Navigation & LED Lighting products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 1630.89,
     "barcode": "089300014139",
@@ -2076,7 +2004,7 @@
     "productWebSearchQuery": "\"123619\" \"Y LUMITEC MAXILLUME TR150 FLOODLIGHT WHITE TRUNNION MOUNT\"",
     "imageUrl": "../images/web-product-images/123619.jpg"
   },
-  {
+  "123620": {
     "productNumber": "123620",
     "description": "LUMITEC MAXILLIME H60 FLOOD LIGHT WHITE BRACKET MOUNT",
     "brand": "",
@@ -2100,20 +2028,16 @@
     "exportAudExGst": 764.68,
     "barcode": "089300013347",
     "cataloguePage": 301,
-    "imageUrl": "../images/web-product-images/123620.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/123620.jpg",
     "catalogueDescription": "umens, the Maxillume h60 boasts twice the output of previous models, new mounting options and our tried and tested internal dimmer control. This LED flood light has a versatile bracket mount, simple 2-wire hookup and is available with a white or black housing. Each light is designed, hand assembled, and tested at our USA manufacturing facility. Timed Toggled Protocol (TTP) gives the ability to dim lights and change colours (where applicable). BLA Code Finish Colour Output Cri Cct TTP Volts Amp Draw Lumens+ 12V 24V 123620 White White 70+ 5000 Yes 10-30 5 2.5 6000 123621 Black White 70+ 5000 Yes 10-30 5 2.5 6000 123622 White White 70+ 5000 Yes 10-30 5 2.5 6000 211 192 50 63.2 61.7 182 20.5 5 69.3 Lumitec\u2122 Razor Light Bar Sleek. Streamlined. Powerful. Introducing Razor \u2013 The World\u2019s FIRST flush-mount light bar. Razor was carefully designed to be easily integrated into most existing hardtop, arch, and pilothouse designs \u2013 typically with only minor modification to production tooling. When mounted facing forward, Razor\u2019s long-throw and",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/123620.jpg",
-    "productWebSearchImageUrl": "../images/web-product-images/123620.jpg",
-    "productWebSearchImageSourceUrl": "https://100knots.au/wp-content/uploads/2024/06/G123620.jpg",
-    "productWebSearchImageSourcePage": "",
-    "productWebSearchQuery": "\"123620\" \"LUMITEC MAXILLIME H60 FLOOD LIGHT WHITE BRACKET MOUNT\""
+    "productBlockImageUrl": "../images/catalogue/product-blocks/123620.jpg"
   },
-  {
+  "123621": {
     "productNumber": "123621",
     "description": "LUMITEC MAXILLIME H60 FLOOD LIGHT BLACK BRACKET MOUNT",
     "brand": "",
     "variant": "PC",
-    "price": 2176,
+    "price": 2176.0,
     "unitCostOfSale": 1278.23,
     "categoryName": "Lighting",
     "topCategory": "Lighting",
@@ -2132,15 +2056,11 @@
     "exportAudExGst": 764.54,
     "barcode": "089300013354",
     "cataloguePage": 301,
-    "imageUrl": "../images/web-product-images/123621.webp",
+    "imageUrl": "../images/catalogue/product-blocks/123621.jpg",
     "catalogueDescription": "of previous models, new mounting options and our tried and tested internal dimmer control. This LED flood light has a versatile bracket mount, simple 2-wire hookup and is available with a white or black housing. Each light is designed, hand assembled, and tested at our USA manufacturing facility. Timed Toggled Protocol (TTP) gives the ability to dim lights and change colours (where applicable). BLA Code Finish Colour Output Cri Cct TTP Volts Amp Draw Lumens+ 12V 24V 123620 White White 70+ 5000 Yes 10-30 5 2.5 6000 123621 Black White 70+ 5000 Yes 10-30 5 2.5 6000 123622 White White 70+ 5000 Yes 10-30 5 2.5 6000 211 192 50 63.2 61.7 182 20.5 5 69.3 Lumitec\u2122 Razor Light Bar Sleek. Streamlined. Powerful. Introducing Razor \u2013 The World\u2019s FIRST flush-mount light bar. Razor was carefully designed to be easily integrated into most existing hardtop, arch, and pilothouse designs \u2013 typically with only minor modification to production tooling. When mounted facing forward, Razor\u2019s long-throw and high position are invaluable for spotting markers",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/123621.jpg",
-    "productWebSearchImageUrl": "../images/web-product-images/123621.webp",
-    "productWebSearchImageSourceUrl": "https://www.outbackequipment.com.au/assets/full/123621.webp?20250609161520",
-    "productWebSearchImageSourcePage": "",
-    "productWebSearchQuery": "\"123621\" \"LUMITEC MAXILLIME H60 FLOOD LIGHT BLACK BRACKET MOUNT\""
+    "productBlockImageUrl": "../images/catalogue/product-blocks/123621.jpg"
   },
-  {
+  "123622": {
     "productNumber": "123622",
     "description": "LUMITEC MAXILLIME H60 FLOOD LIGHT WHITE FLUSH MOUNT",
     "brand": "",
@@ -2164,15 +2084,11 @@
     "exportAudExGst": 715.96,
     "barcode": "089300013361",
     "cataloguePage": 301,
-    "imageUrl": "../images/web-product-images/123622.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/123622.jpg",
     "catalogueDescription": "tried and tested internal dimmer control. This LED flood light has a versatile bracket mount, simple 2-wire hookup and is available with a white or black housing. Each light is designed, hand assembled, and tested at our USA manufacturing facility. Timed Toggled Protocol (TTP) gives the ability to dim lights and change colours (where applicable). BLA Code Finish Colour Output Cri Cct TTP Volts Amp Draw Lumens+ 12V 24V 123620 White White 70+ 5000 Yes 10-30 5 2.5 6000 123621 Black White 70+ 5000 Yes 10-30 5 2.5 6000 123622 White White 70+ 5000 Yes 10-30 5 2.5 6000 211 192 50 63.2 61.7 182 20.5 5 69.3 Lumitec\u2122 Razor Light Bar Sleek. Streamlined. Powerful. Introducing Razor \u2013 The World\u2019s FIRST flush-mount light bar. Razor was carefully designed to be easily integrated into most existing hardtop, arch, and pilothouse designs \u2013 typically with only minor modification to production tooling. When mounted facing forward, Razor\u2019s long-throw and high position are invaluable for spotting markers and obstructions. When positioned downward and a",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/123622.jpg",
-    "productWebSearchImageUrl": "../images/web-product-images/123622.jpg",
-    "productWebSearchImageSourceUrl": "https://citimarinestore.com/21261-product_slider_large_x2/lumitec-maxillume-h60.jpg",
-    "productWebSearchImageSourcePage": "",
-    "productWebSearchQuery": "\"123622\" \"LUMITEC MAXILLIME H60 FLOOD LIGHT WHITE FLUSH MOUNT\""
+    "productBlockImageUrl": "../images/catalogue/product-blocks/123622.jpg"
   },
-  {
+  "123623": {
     "productNumber": "123623",
     "description": "LUMITEC MAXILLIME LIGHT FLOOD H120 WHITE BRACKET MOUNT TTP",
     "brand": "Y",
@@ -2210,7 +2126,7 @@
     "imageUrl": "../images/bla-website-products/123623.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "123624": {
     "productNumber": "123624",
     "description": "LUMITEC LIGHT FLUSH MOUNT WHITE H120",
     "brand": "Y",
@@ -2239,7 +2155,7 @@
     "productWebSearchQuery": "\"123624\" \"Y LUMITEC LIGHT FLUSH MOUNT WHITE H120\"",
     "imageUrl": "../images/web-product-images/123624.webp"
   },
-  {
+  "123625": {
     "productNumber": "123625",
     "description": "LUMITEC NEVIS LT LIGHT ENGINE ROOM BRUSHED WHITE",
     "brand": "Y",
@@ -2268,7 +2184,7 @@
     "productWebSearchQuery": "\"123625\" \"Y LUMITEC NEVIS LT LIGHT ENGINE ROOM BRUSHED WHITE\"",
     "imageUrl": "../images/web-product-images/123625.jpg"
   },
-  {
+  "123626": {
     "productNumber": "123626",
     "description": "LUMITEC CAPRERA 3 BLACK FLOOD SPREADER LIGHT WHITE BLUE DIM",
     "brand": "",
@@ -2292,15 +2208,11 @@
     "exportAudExGst": 236.81,
     "barcode": "089300017161",
     "cataloguePage": 302,
-    "imageUrl": "../images/web-product-images/123626.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/123626.jpg",
     "catalogueDescription": "or black housing. Time Toggled Protocol (TTP) gives the ability to dim lights and change colours (where applicable) BLA Code Finish Colour Output Cri Cct Volts Amp Draw Lumens+ 12V 24V 123602 White White 70+ 5000 10-30 1.3A 600mA 1000 BLA Code Finish Colour Output Cri Cct Volts Amp Draw Lumens+ 12V 24V 123610 White White Dimming, Blue Dimming 70+ 5000 10-30 1.3A 600mA 1000 123614 Black White Dimming, Blue Dimming 70+ 5000 10-30 1.3A 600mA 1000 114 23.4 25.4 43.6 72 42 114 23.4 25.4 96.2 64.7 54.3 27.9 34.9 123616 123626 BLA Code Finish Colour Output Cri Cct TTP Volts Amp Draw Lumens+ Yes 24V 123616 White White, Blue 70+ 5000 Yes 10-30 1A 0.5A 1200 123617 White White, Red 70+ 5000 Yes 10-30 1A 0.5A 1200 123618 White White 70+ 5000 No 10-30 1A 0.5A 1200 123626 Black White, Blue 70+ 5000 Yes 10-30 1A 0.5A 1200 123627 Black White, Red 70+ 5000 Yes 10-30 1A 0.5A 1200 123628 Black White 70+ 5000 No 10-30 1A 0.5A 1200 123614 43.6 72 42",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/123626.jpg",
-    "productWebSearchImageUrl": "../images/web-product-images/123626.jpg",
-    "productWebSearchImageSourceUrl": "https://marinezoom.com/wp-content/uploads/LUM101711-634x634.jpg",
-    "productWebSearchImageSourcePage": "",
-    "productWebSearchQuery": "\"123626\" \"LUMITEC CAPRERA 3 BLACK FLOOD SPREADER LIGHT WHITE BLUE DIM\""
+    "productBlockImageUrl": "../images/catalogue/product-blocks/123626.jpg"
   },
-  {
+  "123627": {
     "productNumber": "123627",
     "description": "LUMITEC CAPRERA 3 BLACK FLOOD SPREADER LIGHT WHITE RED DIM",
     "brand": "",
@@ -2324,15 +2236,11 @@
     "exportAudExGst": 236.86,
     "barcode": "089300017178",
     "cataloguePage": 302,
-    "imageUrl": "../images/web-product-images/123627.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/123627.jpg",
     "catalogueDescription": "24V 123610 White White Dimming, Blue Dimming 70+ 5000 10-30 1.3A 600mA 1000 123614 Black White Dimming, Blue Dimming 70+ 5000 10-30 1.3A 600mA 1000 114 23.4 25.4 43.6 72 42 114 23.4 25.4 96.2 64.7 54.3 27.9 34.9 123616 123626 BLA Code Finish Colour Output Cri Cct TTP Volts Amp Draw Lumens+ Yes 24V 123616 White White, Blue 70+ 5000 Yes 10-30 1A 0.5A 1200 123617 White White, Red 70+ 5000 Yes 10-30 1A 0.5A 1200 123618 White White 70+ 5000 No 10-30 1A 0.5A 1200 123626 Black White, Blue 70+ 5000 Yes 10-30 1A 0.5A 1200 123627 Black White, Red 70+ 5000 Yes 10-30 1A 0.5A 1200 123628 Black White 70+ 5000 No 10-30 1A 0.5A 1200 123614 43.6 72 42",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/123627.jpg",
-    "productWebSearchImageUrl": "../images/web-product-images/123627.jpg",
-    "productWebSearchImageSourceUrl": "https://i5.walmartimages.com/seo/Lumitec-Caprera3-Flood-Light-White-Red-LED-s-Dimmable-Bracket-Mount-Black-12-24v_a30af683-d544-4b50-b4db-20f42fda38f4.a8e0b9d56d30a5d65ca0dbba50f5102c.jpeg",
-    "productWebSearchImageSourcePage": "",
-    "productWebSearchQuery": "\"123627\" \"LUMITEC CAPRERA 3 BLACK FLOOD SPREADER LIGHT WHITE RED DIM\""
+    "productBlockImageUrl": "../images/catalogue/product-blocks/123627.jpg"
   },
-  {
+  "123628": {
     "productNumber": "123628",
     "description": "LUMITEC CAPRERA 3 BLACK FLOOD SPREADER LIGHT WHITE NON DIM",
     "brand": "",
@@ -2356,15 +2264,11 @@
     "exportAudExGst": 140.12,
     "barcode": "089300017185",
     "cataloguePage": 302,
-    "imageUrl": "../images/web-product-images/123628.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/123628.jpg",
     "catalogueDescription": "0-30 1.3A 600mA 1000 123614 Black White Dimming, Blue Dimming 70+ 5000 10-30 1.3A 600mA 1000 114 23.4 25.4 43.6 72 42 114 23.4 25.4 96.2 64.7 54.3 27.9 34.9 123616 123626 BLA Code Finish Colour Output Cri Cct TTP Volts Amp Draw Lumens+ Yes 24V 123616 White White, Blue 70+ 5000 Yes 10-30 1A 0.5A 1200 123617 White White, Red 70+ 5000 Yes 10-30 1A 0.5A 1200 123618 White White 70+ 5000 No 10-30 1A 0.5A 1200 123626 Black White, Blue 70+ 5000 Yes 10-30 1A 0.5A 1200 123627 Black White, Red 70+ 5000 Yes 10-30 1A 0.5A 1200 123628 Black White 70+ 5000 No 10-30 1A 0.5A 1200 123614 43.6 72 42",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/123628.jpg",
-    "productWebSearchImageUrl": "../images/web-product-images/123628.jpg",
-    "productWebSearchImageSourceUrl": "https://i5.walmartimages.com/seo/Lumitec-Caprera3-Flood-Light-White-LED-s-Non-Dimming-Bracket-Mount-White-12-24v_ea2d10bd-484b-413f-ad91-e7f3959957c5.ad73065e2fe693ec7a0c771e6ef58d46.jpeg",
-    "productWebSearchImageSourcePage": "",
-    "productWebSearchQuery": "\"123628\" \"LUMITEC CAPRERA 3 BLACK FLOOD SPREADER LIGHT WHITE NON DIM\""
+    "productBlockImageUrl": "../images/catalogue/product-blocks/123628.jpg"
   },
-  {
+  "123631": {
     "productNumber": "123631",
     "description": "LUMITEC RAZOR LIGHT BAR FLOOD",
     "brand": "",
@@ -2388,15 +2292,11 @@
     "exportAudExGst": 957.14,
     "barcode": "089300015860",
     "cataloguePage": 301,
-    "imageUrl": "../images/web-product-images/123631.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/123631.jpg",
     "catalogueDescription": "bar. Razor was carefully designed to be easily integrated into most existing hardtop, arch, and pilothouse designs \u2013 typically with only minor modification to production tooling. When mounted facing forward, Razor\u2019s long-throw and high position are invaluable for spotting markers and obstructions. When positioned downward and aft, Razor floods cockpits, gunwales and surrounding areas with more than 10,000 night-piercing lumens. BLA Code White Finish BLA Code Black Finish Beam Cri Cct Volts Amp Draw Lumens+ 12V 24V 123631 123634 Flood 70+ 5000 10-30 9A 4.2A 10,000 123633 123635 Spot 70+ 5000 10-30 9A 4.2A 10,000 123620 123621 123622 123631 123634 92 468 42",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/123631.jpg",
-    "productWebSearchImageUrl": "../images/web-product-images/123631.jpg",
-    "productWebSearchImageSourceUrl": "https://bla.co.nz/wp-content/uploads/2020/04/123631-768x768.jpg",
-    "productWebSearchImageSourcePage": "",
-    "productWebSearchQuery": "\"123631\" \"LUMITEC RAZOR LIGHT BAR FLOOD\""
+    "productBlockImageUrl": "../images/catalogue/product-blocks/123631.jpg"
   },
-  {
+  "123633": {
     "productNumber": "123633",
     "description": "LUMITEC RAZOR LIGHT BAR SPOT",
     "brand": "",
@@ -2420,15 +2320,11 @@
     "exportAudExGst": 957.28,
     "barcode": "089300015877",
     "cataloguePage": 301,
-    "imageUrl": "../images/web-product-images/123633.webp",
+    "imageUrl": "../images/catalogue/product-blocks/123633.jpg",
     "catalogueDescription": "egrated into most existing hardtop, arch, and pilothouse designs \u2013 typically with only minor modification to production tooling. When mounted facing forward, Razor\u2019s long-throw and high position are invaluable for spotting markers and obstructions. When positioned downward and aft, Razor floods cockpits, gunwales and surrounding areas with more than 10,000 night-piercing lumens. BLA Code White Finish BLA Code Black Finish Beam Cri Cct Volts Amp Draw Lumens+ 12V 24V 123631 123634 Flood 70+ 5000 10-30 9A 4.2A 10,000 123633 123635 Spot 70+ 5000 10-30 9A 4.2A 10,000 123620 123621 123622 123631 123634 92 468 42",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/123633.jpg",
-    "productWebSearchImageUrl": "../images/web-product-images/123633.webp",
-    "productWebSearchImageSourceUrl": "https://www.outbackequipment.com.au/assets/full/123633.webp?20250609004642",
-    "productWebSearchImageSourcePage": "",
-    "productWebSearchQuery": "\"123633\" \"LUMITEC RAZOR LIGHT BAR SPOT\""
+    "productBlockImageUrl": "../images/catalogue/product-blocks/123633.jpg"
   },
-  {
+  "123634": {
     "productNumber": "123634",
     "description": "LUMITEC RAZOR LIGHT BAR BLACK FLOOD",
     "brand": "",
@@ -2452,15 +2348,11 @@
     "exportAudExGst": 951.2,
     "barcode": "089300015884",
     "cataloguePage": 301,
-    "imageUrl": "../images/web-product-images/123634.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/123634.jpg",
     "catalogueDescription": "zor was carefully designed to be easily integrated into most existing hardtop, arch, and pilothouse designs \u2013 typically with only minor modification to production tooling. When mounted facing forward, Razor\u2019s long-throw and high position are invaluable for spotting markers and obstructions. When positioned downward and aft, Razor floods cockpits, gunwales and surrounding areas with more than 10,000 night-piercing lumens. BLA Code White Finish BLA Code Black Finish Beam Cri Cct Volts Amp Draw Lumens+ 12V 24V 123631 123634 Flood 70+ 5000 10-30 9A 4.2A 10,000 123633 123635 Spot 70+ 5000 10-30 9A 4.2A 10,000 123620 123621 123622 123631 123634 92 468 42",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/123634.jpg",
-    "productWebSearchImageUrl": "../images/web-product-images/123634.jpg",
-    "productWebSearchImageSourceUrl": "https://acf.cwrdistribution.com/seo/product/xl/Lumitec_101588_92775XL_1.jpg",
-    "productWebSearchImageSourcePage": "",
-    "productWebSearchQuery": "\"123634\" \"LUMITEC RAZOR LIGHT BAR BLACK FLOOD\""
+    "productBlockImageUrl": "../images/catalogue/product-blocks/123634.jpg"
   },
-  {
+  "123635": {
     "productNumber": "123635",
     "description": "LUMITEC RAZOR LIGHT BAR BLACK SPOT",
     "brand": "",
@@ -2484,15 +2376,11 @@
     "exportAudExGst": 951.42,
     "barcode": "089300015891",
     "cataloguePage": 301,
-    "imageUrl": "../images/web-product-images/123635.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/123635.jpg",
     "catalogueDescription": "into most existing hardtop, arch, and pilothouse designs \u2013 typically with only minor modification to production tooling. When mounted facing forward, Razor\u2019s long-throw and high position are invaluable for spotting markers and obstructions. When positioned downward and aft, Razor floods cockpits, gunwales and surrounding areas with more than 10,000 night-piercing lumens. BLA Code White Finish BLA Code Black Finish Beam Cri Cct Volts Amp Draw Lumens+ 12V 24V 123631 123634 Flood 70+ 5000 10-30 9A 4.2A 10,000 123633 123635 Spot 70+ 5000 10-30 9A 4.2A 10,000 123620 123621 123622 123631 123634 92 468 42",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/123635.jpg",
-    "productWebSearchImageUrl": "../images/web-product-images/123635.jpg",
-    "productWebSearchImageSourceUrl": "https://www.westmarine.com/on/demandware.static/-/Sites-wm-master-catalog/default/dwc514c7e7/images/orig/21425095.jpg",
-    "productWebSearchImageSourcePage": "",
-    "productWebSearchQuery": "\"123635\" \"LUMITEC RAZOR LIGHT BAR BLACK SPOT\""
+    "productBlockImageUrl": "../images/catalogue/product-blocks/123635.jpg"
   },
-  {
+  "123646": {
     "productNumber": "123646",
     "description": "LUMITEC ZEPHYR SPREADER WHITE LIGHT BRUSHED FINISH/ BLK BASE",
     "brand": "Y",
@@ -2521,7 +2409,7 @@
     "productWebSearchQuery": "\"123646\" \"LUMITEC ZEPHYR SPREADER WHITE LIGHT BRUSHED FINISH/ BLK BASE\"",
     "imageUrl": "../images/web-product-images/123646.jpg"
   },
-  {
+  "123650": {
     "productNumber": "123650",
     "description": "LUMITEC ROUND MIRAGE DOWN LIGHT WHITE/RED/BLUE/PURPLE",
     "brand": "Y",
@@ -2550,7 +2438,7 @@
     "productWebSearchQuery": "\"123650\" \"Y LUMITEC ROUND MIRAGE DOWN LIGHT WHITE/RED/BLUE/PURPLE\"",
     "imageUrl": "../images/web-product-images/123650.webp"
   },
-  {
+  "123651": {
     "productNumber": "123651",
     "description": "LUMITEC ROUND MIRAGE DOWN LIGHT WHITE",
     "brand": "",
@@ -2574,15 +2462,11 @@
     "exportAudExGst": 72.79,
     "barcode": "089300103826",
     "cataloguePage": 305,
-    "imageUrl": "../images/web-product-images/123651.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/123651.jpg",
     "catalogueDescription": "iety of indoor or outdoor overhead lighting needs. The New Positionable Mirage offers up to 30 degrees of pivot for wall wash, art lighting, and other dramatic lighting effects. Timed Toggled Protocol (TTP) gives the ability to dim lights and change colours (where applicable). BLA Code Finish Colour Output Cri Cct TTP Volts Amp Draw Lumens+ 12V 24V 123671 White Warm white (Hi CRI) 90+ 3000 Yes 10-30 500mA 260mA 226 88\u00f8 33.5\u02da 4 24 69 Hole Dia. BLA Code Finish Colour Output Cri Cct TTP Volts Amp Draw Lumens+ 12V 24V 123651 White White 70+ 5000 No 10-30 360mA 180mA 172 123652 White Warm white (Hi CRI) 90+ 3000 Yes 10-30 500mA 260mA 226 123653 Glass White, red, blue, purple 70+ 5000 Yes 10-30 500mA 260mA 300 123656 Glass Spectrum 70+ 5000 Yes 10-30 480mA 260mA 305 Lumitec\u2122 Round Mirage Down Light Lumitec\u2019s Mirage LED down lights remain the best-performing down light in the category. Delivering incredible output and a profile that is among the slimmest in the industry, Mirage beat comparable 20W halogens by up to 300% in recent field s",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/123651.jpg",
-    "productWebSearchImageUrl": "../images/web-product-images/123651.jpg",
-    "productWebSearchImageSourceUrl": "https://bla.co.nz/wp-content/uploads/2020/04/123651.jpg",
-    "productWebSearchImageSourcePage": "",
-    "productWebSearchQuery": "\"123651\" \"LUMITEC ROUND MIRAGE DOWN LIGHT WHITE\""
+    "productBlockImageUrl": "../images/catalogue/product-blocks/123651.jpg"
   },
-  {
+  "123652": {
     "productNumber": "123652",
     "description": "LUMITEC ROUND MIRAGE DOWN LIGHT WARM WHITE",
     "brand": "",
@@ -2606,15 +2490,11 @@
     "exportAudExGst": 137.88,
     "barcode": "089300103857",
     "cataloguePage": 305,
-    "imageUrl": "../images/web-product-images/123652.webp",
+    "imageUrl": "../images/catalogue/product-blocks/123652.jpg",
     "catalogueDescription": "e New Positionable Mirage offers up to 30 degrees of pivot for wall wash, art lighting, and other dramatic lighting effects. Timed Toggled Protocol (TTP) gives the ability to dim lights and change colours (where applicable). BLA Code Finish Colour Output Cri Cct TTP Volts Amp Draw Lumens+ 12V 24V 123671 White Warm white (Hi CRI) 90+ 3000 Yes 10-30 500mA 260mA 226 88\u00f8 33.5\u02da 4 24 69 Hole Dia. BLA Code Finish Colour Output Cri Cct TTP Volts Amp Draw Lumens+ 12V 24V 123651 White White 70+ 5000 No 10-30 360mA 180mA 172 123652 White Warm white (Hi CRI) 90+ 3000 Yes 10-30 500mA 260mA 226 123653 Glass White, red, blue, purple 70+ 5000 Yes 10-30 500mA 260mA 300 123656 Glass Spectrum 70+ 5000 Yes 10-30 480mA 260mA 305 Lumitec\u2122 Round Mirage Down Light Lumitec\u2019s Mirage LED down lights remain the best-performing down light in the category. Delivering incredible output and a profile that is among the slimmest in the industry, Mirage beat comparable 20W halogens by up to 300% in recent field studies. Completely sealed and IP67 rated, Mirage LED",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/123652.jpg",
-    "productWebSearchImageUrl": "../images/web-product-images/123652.webp",
-    "productWebSearchImageSourceUrl": "https://www.outbackequipment.com.au/assets/full/123652.webp?20250609123251",
-    "productWebSearchImageSourcePage": "",
-    "productWebSearchQuery": "\"123652\" \"LUMITEC ROUND MIRAGE DOWN LIGHT WARM WHITE\""
+    "productBlockImageUrl": "../images/catalogue/product-blocks/123652.jpg"
   },
-  {
+  "123653": {
     "productNumber": "123653",
     "description": "LUMITEC ROUND MIRAGE DOWN LIGHT GLASS WHITE/RED/BLUE/PURPLE",
     "brand": "",
@@ -2638,15 +2518,11 @@
     "exportAudExGst": 137.67,
     "barcode": "089300103864",
     "cataloguePage": 305,
-    "imageUrl": "../images/web-product-images/123653.webp",
+    "imageUrl": "../images/catalogue/product-blocks/123653.jpg",
     "catalogueDescription": "wash, art lighting, and other dramatic lighting effects. Timed Toggled Protocol (TTP) gives the ability to dim lights and change colours (where applicable). BLA Code Finish Colour Output Cri Cct TTP Volts Amp Draw Lumens+ 12V 24V 123671 White Warm white (Hi CRI) 90+ 3000 Yes 10-30 500mA 260mA 226 88\u00f8 33.5\u02da 4 24 69 Hole Dia. BLA Code Finish Colour Output Cri Cct TTP Volts Amp Draw Lumens+ 12V 24V 123651 White White 70+ 5000 No 10-30 360mA 180mA 172 123652 White Warm white (Hi CRI) 90+ 3000 Yes 10-30 500mA 260mA 226 123653 Glass White, red, blue, purple 70+ 5000 Yes 10-30 500mA 260mA 300 123656 Glass Spectrum 70+ 5000 Yes 10-30 480mA 260mA 305 Lumitec\u2122 Round Mirage Down Light Lumitec\u2019s Mirage LED down lights remain the best-performing down light in the category. Delivering incredible output and a profile that is among the slimmest in the industry, Mirage beat comparable 20W halogens by up to 300% in recent field studies. Completely sealed and IP67 rated, Mirage LED down lights are perfectly suited for a variety of indoor or outdoor",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/123653.jpg",
-    "productWebSearchImageUrl": "../images/web-product-images/123653.webp",
-    "productWebSearchImageSourceUrl": "https://www.outbackequipment.com.au/assets/full/123653.webp?20250608111936",
-    "productWebSearchImageSourcePage": "",
-    "productWebSearchQuery": "\"123653\" \"LUMITEC ROUND MIRAGE DOWN LIGHT GLASS WHITE/RED/BLUE/PURPLE\""
+    "productBlockImageUrl": "../images/catalogue/product-blocks/123653.jpg"
   },
-  {
+  "123654": {
     "productNumber": "123654",
     "description": "LUMITEC ROUND MIRAGE DOWN LIGHT GLASS WHITE",
     "brand": "Y",
@@ -2675,7 +2551,7 @@
     "productWebSearchQuery": "\"123654\" \"Y LUMITEC ROUND MIRAGE DOWN LIGHT GLASS WHITE\"",
     "imageUrl": "../images/web-product-images/123654.jpg"
   },
-  {
+  "123656": {
     "productNumber": "123656",
     "description": "LUMITEC ROUND MIRAGE DOWN LIGHT GLASS SPECTRUM RGBW",
     "brand": "",
@@ -2699,15 +2575,11 @@
     "exportAudExGst": 162.81,
     "barcode": "089300131973",
     "cataloguePage": 305,
-    "imageUrl": "../images/web-product-images/123656.webp",
+    "imageUrl": "../images/catalogue/product-blocks/123656.jpg",
     "catalogueDescription": "otocol (TTP) gives the ability to dim lights and change colours (where applicable). BLA Code Finish Colour Output Cri Cct TTP Volts Amp Draw Lumens+ 12V 24V 123671 White Warm white (Hi CRI) 90+ 3000 Yes 10-30 500mA 260mA 226 88\u00f8 33.5\u02da 4 24 69 Hole Dia. BLA Code Finish Colour Output Cri Cct TTP Volts Amp Draw Lumens+ 12V 24V 123651 White White 70+ 5000 No 10-30 360mA 180mA 172 123652 White Warm white (Hi CRI) 90+ 3000 Yes 10-30 500mA 260mA 226 123653 Glass White, red, blue, purple 70+ 5000 Yes 10-30 500mA 260mA 300 123656 Glass Spectrum 70+ 5000 Yes 10-30 480mA 260mA 305 Lumitec\u2122 Round Mirage Down Light Lumitec\u2019s Mirage LED down lights remain the best-performing down light in the category. Delivering incredible output and a profile that is among the slimmest in the industry, Mirage beat comparable 20W halogens by up to 300% in recent field studies. Completely sealed and IP67 rated, Mirage LED down lights are perfectly suited for a variety of indoor or outdoor overhead lighting needs. Output options include architectural-grade High",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/123656.jpg",
-    "productWebSearchImageUrl": "../images/web-product-images/123656.webp",
-    "productWebSearchImageSourceUrl": "https://www.outbackequipment.com.au/assets/full/123656.webp?20250609124439",
-    "productWebSearchImageSourcePage": "",
-    "productWebSearchQuery": "\"123656\" \"LUMITEC ROUND MIRAGE DOWN LIGHT GLASS SPECTRUM RGBW\""
+    "productBlockImageUrl": "../images/catalogue/product-blocks/123656.jpg"
   },
-  {
+  "123658": {
     "productNumber": "123658",
     "description": "LUMITEC ROUND MIRAGE COURTESY LIGHT WHT/BLUE/RED DIMMING",
     "brand": "Y",
@@ -2736,7 +2608,7 @@
     "productWebSearchQuery": "\"123658\" \"LUMITEC ROUND MIRAGE COURTESY LIGHT WHT/BLUE/RED DIMMING\"",
     "imageUrl": "../images/web-product-images/123658.webp"
   },
-  {
+  "123660": {
     "productNumber": "123660",
     "description": "LUMITEC ROUND MIRAGE COURTESY LIGHT POLISHED SPECTRUM RGBW",
     "brand": "Y",
@@ -2765,7 +2637,7 @@
     "productWebSearchQuery": "\"123660\" \"LUMITEC ROUND MIRAGE COURTESY LIGHT POLISHED SPECTRUM RGBW\"",
     "imageUrl": "../images/web-product-images/123660.jpg"
   },
-  {
+  "123662": {
     "productNumber": "123662",
     "description": "LUMITEC SQUARE MIRAGE DOWN LIGHT WARM WHITE",
     "brand": "Y",
@@ -2794,7 +2666,7 @@
     "productWebSearchQuery": "\"123662\" \"Y LUMITEC SQUARE MIRAGE DOWN LIGHT WARM WHITE\"",
     "imageUrl": "../images/web-product-images/123662.jpg"
   },
-  {
+  "123664": {
     "productNumber": "123664",
     "description": "LUMITEC SQUARE MIRAGE DOWN LIGHT GLASS WHITE/RED/BLUE",
     "brand": "Y",
@@ -2823,7 +2695,7 @@
     "productWebSearchQuery": "\"123664\" \"Y LUMITEC SQUARE MIRAGE DOWN LIGHT GLASS WHITE/RED/BLUE\"",
     "imageUrl": "../images/web-product-images/123664.jpg"
   },
-  {
+  "123665": {
     "productNumber": "123665",
     "description": "LUMITEC SQUARE MIRAGE DOWN LIGHT GLASS WARM WHITE",
     "brand": "Y",
@@ -2852,7 +2724,7 @@
     "productWebSearchQuery": "\"123665\" \"Y LUMITEC SQUARE MIRAGE DOWN LIGHT GLASS WARM WHITE\"",
     "imageUrl": "../images/web-product-images/123665.jpg"
   },
-  {
+  "123667": {
     "productNumber": "123667",
     "description": "LUMITEC ORBIT LIGHT BRUSHED WHITE BLUE",
     "brand": "Y",
@@ -2881,7 +2753,7 @@
     "productWebSearchQuery": "\"123667\" \"Y LUMITEC ORBIT LIGHT BRUSHED WHITE BLUE\"",
     "imageUrl": "../images/web-product-images/123667.jpg"
   },
-  {
+  "123671": {
     "productNumber": "123671",
     "description": "LUMITEC POSITIONABLE MIRAGE DOWN LIGHT WARM WHITE",
     "brand": "",
@@ -2905,15 +2777,11 @@
     "exportAudExGst": 165.38,
     "barcode": "089300151292",
     "cataloguePage": 305,
-    "imageUrl": "../images/web-product-images/123671.webp",
+    "imageUrl": "../images/catalogue/product-blocks/123671.jpg",
     "catalogueDescription": "e slimmest in the industry, Mirage beat comparable 20W halogens by up to 300% in recent field studies. Completely sealed and IP67 rated, it is perfectly suited for a variety of indoor or outdoor overhead lighting needs. The New Positionable Mirage offers up to 30 degrees of pivot for wall wash, art lighting, and other dramatic lighting effects. Timed Toggled Protocol (TTP) gives the ability to dim lights and change colours (where applicable). BLA Code Finish Colour Output Cri Cct TTP Volts Amp Draw Lumens+ 12V 24V 123671 White Warm white (Hi CRI) 90+ 3000 Yes 10-30 500mA 260mA 226 88\u00f8 33.5\u02da 4 24 69 Hole Dia. BLA Code Finish Colour Output Cri Cct TTP Volts Amp Draw Lumens+ 12V 24V 123651 White White 70+ 5000 No 10-30 360mA 180mA 172 123652 White Warm white (Hi CRI) 90+ 3000 Yes 10-30 500mA 260mA 226 123653 Glass White, red, blue, purple 70+ 5000 Yes 10-30 500mA 260mA 300 123656 Glass Spectrum 70+ 5000 Yes 10-30 480mA 260mA 305 Lumitec\u2122 Round Mirage Down Light Lumitec\u2019s Mirage LED down lights remain the best-performing down light in",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/123671.jpg",
-    "productWebSearchImageUrl": "../images/web-product-images/123671.webp",
-    "productWebSearchImageSourceUrl": "https://www.outbackequipment.com.au/assets/full/123671.webp?20250608015641",
-    "productWebSearchImageSourcePage": "",
-    "productWebSearchQuery": "\"123671\" \"LUMITEC POSITIONABLE MIRAGE DOWN LIGHT WARM WHITE\""
+    "productBlockImageUrl": "../images/catalogue/product-blocks/123671.jpg"
   },
-  {
+  "123674": {
     "productNumber": "123674",
     "description": "LUMITEC POSITIONABLE MIRAGE DOWN LIGHT POLISHED WARM WHITE",
     "brand": "Y",
@@ -2942,7 +2810,7 @@
     "productWebSearchQuery": "\"123674\" \"Y LUMITEC POSITIONABLE MIRAGE DOWN LIGHT POLISHED WARM WHITE\"",
     "imageUrl": "../images/web-product-images/123674.jpg"
   },
-  {
+  "123720": {
     "productNumber": "123720",
     "description": "LUMITEC SEABLAZE MINI UNDERWATER LIGHT WHITE",
     "brand": "Y",
@@ -2971,7 +2839,7 @@
     "productWebSearchQuery": "\"123720\" \"Y LUMITEC SEABLAZE MINI UNDERWATER LIGHT WHITE\"",
     "imageUrl": "../images/web-product-images/123720.webp"
   },
-  {
+  "123721": {
     "productNumber": "123721",
     "description": "LUMITEC SEABLAZE MINI UNDERWATER LIGHT BLUE",
     "brand": "",
@@ -2995,15 +2863,11 @@
     "exportAudExGst": 418.98,
     "barcode": "089300012463",
     "cataloguePage": 288,
-    "imageUrl": "../images/web-product-images/123721.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/123721.jpg",
     "catalogueDescription": "e you need it and penetrating further through the water. Features: \u2022 Superior Protection \u2022 Compact Design \u2022 Advanced Signature Optics - Wide Surface Beam \u2022 Advanced Signature Optics - Narrow side Beam BLA Code Colour Volts Fixture Lumens Amps 12/24 Boat Size m 125368 Midnight Blue 10-30V 700 .7@12V Up to 10m 125369 Ultra White 10-30V 700 .3@24V Up to 10m Colours Available: 17 70 40 64 6 Up to 700 Fixture Lumens 20\u00b0 Side Beam 90\u00b0 Top Beam Elliptical Beam BLA Code Colour Output Cri Cct Volts Amp Draw 12V 24V Lumens+ 123721 Blue 70+ 6500 10-30990mA450mA 890 IP69k CERTIFIED YEAR WARRANTY 2 3 Year Warranty 3 Year Warranty",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/123721.jpg",
-    "productWebSearchImageUrl": "../images/web-product-images/123721.jpg",
-    "productWebSearchImageSourceUrl": "https://m.media-amazon.com/images/I/81PufC+xXSL._AC_SL1500_.jpg",
-    "productWebSearchImageSourcePage": "",
-    "productWebSearchQuery": "\"123721\" \"LUMITEC SEABLAZE MINI UNDERWATER LIGHT BLUE\""
+    "productBlockImageUrl": "../images/catalogue/product-blocks/123721.jpg"
   },
-  {
+  "123723": {
     "productNumber": "123723",
     "description": "LUMITEC SEABLAZE MINI UNDERWATER LIGHT SPECTRUM RGBW",
     "brand": "",
@@ -3032,7 +2896,7 @@
     "productWebSearchQuery": "\"123723\" \"LUMITEC SEABLAZE MINI UNDERWATER LIGHT SPECTRUM RGBW\"",
     "imageUrl": "../images/web-product-images/123723.jpg"
   },
-  {
+  "123740": {
     "productNumber": "123740",
     "description": "LUMITEC RAIL2 UTILITY LIGHT WHITE/RED/BLUE",
     "brand": "",
@@ -3056,15 +2920,11 @@
     "exportAudExGst": 139.45,
     "barcode": "089300012432",
     "cataloguePage": 304,
-    "imageUrl": "../images/web-product-images/123740.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/123740.jpg",
     "catalogueDescription": "LE ADVENTURE Lumitec\u2122 Mini Rail2 Utility Light Small, attractive, powerful and priced just right, what else could you ask for? Lumitec\u2019s Mini Rail2 delivers. As with all Lumitec products, the Mini Rail2 is completely water sealed (IP67 compliant), which means that, despite its great looks, it is equally effective for use in exterior as well as interior applications. BLA Code Finish Colour Output Cri Cct Volts Amp Draw Lumens+ 12V 24V 123743 Brushed White 70+ 5000 10-30 360mA 180mA 145 123743 15.3 119 25.4 149 28.2 123740 Lumitec\u2122 Rail2 Utility Light Greater output! Available in warm white or 3-Colour versions, with up to 100% more light output than its predecessor and a sleek new look, Rail2 raises the bar on marine LED utility lights. Choose the Rail2 12\u201d light in warm white with dimming for interior spaces, or neutral white 3-Colour for your exterior, under gunwale, T-top or even equipment space or mechanical space needs. These LED utility lights are completely water sealed and IP67 compliant, which means that, despite their gre",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/123740.jpg",
-    "productWebSearchImageUrl": "../images/web-product-images/123740.jpg",
-    "productWebSearchImageSourceUrl": "https://cdn11.bigcommerce.com/s-40fv8/images/stencil/1280x1280/products/824/3382/Lumitec_Rail2_WRB__67976.1437062873.jpg?c=2",
-    "productWebSearchImageSourcePage": "",
-    "productWebSearchQuery": "\"123740\" \"LUMITEC RAIL2 UTILITY LIGHT WHITE/RED/BLUE\""
+    "productBlockImageUrl": "../images/catalogue/product-blocks/123740.jpg"
   },
-  {
+  "123741": {
     "productNumber": "123741",
     "description": "LUMITEC RAIL2 UTILITY LIGHT WARM WHITE",
     "brand": "Y",
@@ -3093,7 +2953,7 @@
     "productWebSearchQuery": "\"123741\" \"LUMITEC RAIL2 UTILITY LIGHT WARM WHITE\"",
     "imageUrl": "../images/web-product-images/123741.jpg"
   },
-  {
+  "123743": {
     "productNumber": "123743",
     "description": "LUMITEC MINI RAIL2 UTILITY LIGHT WHITE",
     "brand": "",
@@ -3117,15 +2977,11 @@
     "exportAudExGst": 59.12,
     "barcode": "089300103413",
     "cataloguePage": 304,
-    "imageUrl": "../images/web-product-images/123743.webp",
+    "imageUrl": "../images/catalogue/product-blocks/123743.jpg",
     "catalogueDescription": "274 LIGHTING 12 boatinglifestyleadventure BOATING LIFESTYLE ADVENTURE Lumitec\u2122 Mini Rail2 Utility Light Small, attractive, powerful and priced just right, what else could you ask for? Lumitec\u2019s Mini Rail2 delivers. As with all Lumitec products, the Mini Rail2 is completely water sealed (IP67 compliant), which means that, despite its great looks, it is equally effective for use in exterior as well as interior applications. BLA Code Finish Colour Output Cri Cct Volts Amp Draw Lumens+ 12V 24V 123743 Brushed White 70+ 5000 10-30 360mA 180mA 145 123743 15.3 119 25.4 149 28.2 123740 Lumitec\u2122 Rail2 Utility Light Greater output! Available in warm white or 3-Colour versions, with up to 100% more light output than its predecessor and a sleek new look, Rail2 raises the bar on marine LED utility lights. Choose the Rail2 12\u201d light in warm white with dimming for interior spaces, or neutral white 3-Colour for your exterior, under gunwale, T-top or even equipment space or mechanical space needs. These LED utility lights a",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/123743.jpg",
-    "productWebSearchImageUrl": "../images/web-product-images/123743.webp",
-    "productWebSearchImageSourceUrl": "https://www.outbackequipment.com.au/assets/full/123743.webp?20250608214912",
-    "productWebSearchImageSourcePage": "",
-    "productWebSearchQuery": "\"123743\" \"LUMITEC MINI RAIL2 UTILITY LIGHT WHITE\""
+    "productBlockImageUrl": "../images/catalogue/product-blocks/123743.jpg"
   },
-  {
+  "123744": {
     "productNumber": "123744",
     "description": "LUMITEC MINI RAIL2 UTILITY LIGHT BLUE",
     "brand": "Y",
@@ -3154,7 +3010,7 @@
     "productWebSearchQuery": "\"123744\" \"LUMITEC MINI RAIL2 UTILITY LIGHT BLUE\"",
     "imageUrl": "../images/web-product-images/123744.webp"
   },
-  {
+  "123745": {
     "productNumber": "123745",
     "description": "LUMITEC MINI RAIL2 UTILITY LIGHT RED",
     "brand": "Y",
@@ -3183,7 +3039,7 @@
     "productWebSearchQuery": "\"123745\" \"LUMITEC MINI RAIL2 UTILITY LIGHT RED\"",
     "imageUrl": "../images/web-product-images/123745.jpg"
   },
-  {
+  "123750": {
     "productNumber": "123750",
     "description": "LUMITEC KRAKEN DOCK LIGHT SPECTRUM RBGW",
     "brand": "Y",
@@ -3212,7 +3068,7 @@
     "productWebSearchQuery": "\"123750\" \"Y LUMITEC KRAKEN DOCK LIGHT SPECTRUM RBGW\"",
     "imageUrl": "../images/web-product-images/123750.jpg"
   },
-  {
+  "123755": {
     "productNumber": "123755",
     "description": "LUMITEC EXUMA COURTESY LIGHT STAINLESS STEEL WHITE",
     "brand": "Y",
@@ -3241,7 +3097,7 @@
     "productWebSearchQuery": "\"123755\" \"LUMITEC EXUMA COURTESY LIGHT STAINLESS STEEL WHITE\"",
     "imageUrl": "../images/web-product-images/123755.webp"
   },
-  {
+  "123756": {
     "productNumber": "123756",
     "description": "LUMITEC EXUMA COURTESY LIGHT STAINLESS STEEL BLUE",
     "brand": "Y",
@@ -3270,7 +3126,7 @@
     "productWebSearchQuery": "\"123756\" \"LUMITEC EXUMA COURTESY LIGHT STAINLESS STEEL BLUE\"",
     "imageUrl": "../images/web-product-images/123756.jpg"
   },
-  {
+  "123758": {
     "productNumber": "123758",
     "description": "LUMITEC EXUMA COURTESY LIGHT WHITE",
     "brand": "Y",
@@ -3299,7 +3155,7 @@
     "productWebSearchQuery": "\"123758\" \"LUMITEC EXUMA COURTESY LIGHT WHITE\"",
     "imageUrl": "../images/web-product-images/123758.webp"
   },
-  {
+  "123759": {
     "productNumber": "123759",
     "description": "LUMITEC EXUMA COURTESY LIGHT BLUE",
     "brand": "",
@@ -3328,7 +3184,7 @@
     "productWebSearchQuery": "\"123759\" \"LUMITEC EXUMA COURTESY LIGHT BLUE\"",
     "imageUrl": "../images/web-product-images/123759.webp"
   },
-  {
+  "123760": {
     "productNumber": "123760",
     "description": "LUMITEC KRAKEN DOCK LIGHT COMMAND CENTRE",
     "brand": "Y",
@@ -3357,7 +3213,7 @@
     "productWebSearchQuery": "\"123760\" \"Y LUMITEC KRAKEN DOCK LIGHT COMMAND CENTRE\"",
     "imageUrl": "../images/web-product-images/123760.jpg"
   },
-  {
+  "123761": {
     "productNumber": "123761",
     "description": "LUMITEC IBIZA LIGHT LUMITEC IBIZA ENG RM WH WH/RED DIM",
     "brand": "Y",
@@ -3386,7 +3242,7 @@
     "productWebSearchQuery": "\"123761\" \"Y LUMITEC IBIZA LIGHT LUMITEC IBIZA ENG RM WH WH/RED DIM\"",
     "imageUrl": "../images/web-product-images/123761.jpg"
   },
-  {
+  "123762": {
     "productNumber": "123762",
     "description": "LUMITEC NEWT LIVEWELL LIGHT WHITE",
     "brand": "",
@@ -3410,15 +3266,11 @@
     "exportAudExGst": 25.25,
     "barcode": "089300103475",
     "cataloguePage": 311,
-    "imageUrl": "../images/web-product-images/123762.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/123762.jpg",
     "catalogueDescription": "y Flex Light is the only RGBW flex light in the world to have both an internal driver and an internal color/output controller. This means that Moray can be connected directly to a 2-wire DC electrical system, allowing colour and dimming control with any standard on/off switch and with no external driver. Moray is also compatible with our Poco Digital Lighting Control system and can easily be controlled from an on-board MFD, smartphone, or tablet. BLA Code Finish Colour Output Cri Cct Volts Amp Draw Lumens+ 12V 24V 123762 Clear White 70+ 5000 10-16 45mA 23mA 45 123763 Clear Blue 70+ 5000 10-16 45mA 23mA 45 BLA Code Length mm Colour Output Cri Cct Volts Lumens+ 122300 915 Spectrum RGBW 80+ 5000 10-16VDC 237 22.2 14 14 19.8 3 123762 OceanLED Underwater Mast Lights - M6 Gen 2 The new M6 Gen2 Mast Series light from OceanLED is 50% brighter than its previous model with an improved design. The narrow beam angle helps focus the powerful LEDs, enhancing the natural beauty of your vessel, making it perfect for illuminating your rigging. Sui",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/123762.jpg",
-    "productWebSearchImageUrl": "../images/web-product-images/123762.jpg",
-    "productWebSearchImageSourceUrl": "https://www.anacondastores.com/medias/productHero-SPOTWF-BP90195289-white.jpg?context=bWFzdGVyfGltYWdlc3w0ODU5MnxpbWFnZS9qcGVnfGltYWdlcy9oZTYvaDA5LzE2MjY2MTM4Mzg2NDYyL3Byb2R1Y3RIZXJvX1NQT1RXRl9CUDkwMTk1Mjg5LXdoaXRlLmpwZ3xiYjIzMTZhZTJiN2FiNzVlYzMwNGM4ZDRmYzg5ZGU5MTk3YTI0YzQyMDkyZTRhYWU3MTJjZDA4YzVhMWNkNmQ3",
-    "productWebSearchImageSourcePage": "",
-    "productWebSearchQuery": "\"123762\" \"LUMITEC NEWT LIVEWELL LIGHT WHITE\""
+    "productBlockImageUrl": "../images/catalogue/product-blocks/123762.jpg"
   },
-  {
+  "123763": {
     "productNumber": "123763",
     "description": "LUMITEC NEWT LIVEWELL LIGHT BLUE",
     "brand": "",
@@ -3442,15 +3294,11 @@
     "exportAudExGst": 25.66,
     "barcode": "089300103482",
     "cataloguePage": 311,
-    "imageUrl": "../images/web-product-images/123763.webp",
+    "imageUrl": "../images/catalogue/product-blocks/123763.jpg",
     "catalogueDescription": "world to have both an internal driver and an internal color/output controller. This means that Moray can be connected directly to a 2-wire DC electrical system, allowing colour and dimming control with any standard on/off switch and with no external driver. Moray is also compatible with our Poco Digital Lighting Control system and can easily be controlled from an on-board MFD, smartphone, or tablet. BLA Code Finish Colour Output Cri Cct Volts Amp Draw Lumens+ 12V 24V 123762 Clear White 70+ 5000 10-16 45mA 23mA 45 123763 Clear Blue 70+ 5000 10-16 45mA 23mA 45 BLA Code Length mm Colour Output Cri Cct Volts Lumens+ 122300 915 Spectrum RGBW 80+ 5000 10-16VDC 237 22.2 14 14 19.8 3 123762 OceanLED Underwater Mast Lights - M6 Gen 2 The new M6 Gen2 Mast Series light from OceanLED is 50% brighter than its previous model with an improved design. The narrow beam angle helps focus the powerful LEDs, enhancing the natural beauty of your vessel, making it perfect for illuminating your rigging. Suitable for aluminium, steel and composite rigs o",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/123763.jpg",
-    "productWebSearchImageUrl": "../images/web-product-images/123763.webp",
-    "productWebSearchImageSourceUrl": "https://www.outbackequipment.com.au/assets/full/123763.webp?20250608190836",
-    "productWebSearchImageSourcePage": "",
-    "productWebSearchQuery": "\"123763\" \"LUMITEC NEWT LIVEWELL LIGHT BLUE\""
+    "productBlockImageUrl": "../images/catalogue/product-blocks/123763.jpg"
   },
-  {
+  "123764": {
     "productNumber": "123764",
     "description": "LUMITEC NEWT LIVEWELL CLEAR RED",
     "brand": "Y",
@@ -3469,7 +3317,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 25.31,
     "barcode": "089300103499",
@@ -3479,7 +3327,7 @@
     "productWebSearchQuery": "\"123764\" \"Y LUMITEC NEWT LIVEWELL CLEAR RED\"",
     "imageUrl": "../images/web-product-images/123764.webp"
   },
-  {
+  "123765": {
     "productNumber": "123765",
     "description": "LUMITEC KRAKEN SECONDARY POWER SUPPLY INCL OPTO COUPLER",
     "brand": "Y",
@@ -3498,7 +3346,7 @@
     "subCategoryDescription": "Batteries, Charging & Solar products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 2882.51,
     "barcode": "089300016805",
@@ -3508,7 +3356,7 @@
     "productWebSearchQuery": "\"123765\" \"LUMITEC KRAKEN SECONDARY POWER SUPPLY INCL OPTO COUPLER\"",
     "imageUrl": "../images/web-product-images/123765.jpg"
   },
-  {
+  "123766": {
     "productNumber": "123766",
     "description": "LUMITEC IBIZA LIGHT ENGINE ROOM BLACK/WHITE/RED DIM",
     "brand": "Y",
@@ -3537,7 +3385,7 @@
     "productWebSearchQuery": "\"123766\" \"Y LUMITEC IBIZA LIGHT ENGINE ROOM BLACK/WHITE/RED DIM\"",
     "imageUrl": "../images/web-product-images/123766.webp"
   },
-  {
+  "123770": {
     "productNumber": "123770",
     "description": "LUMITEC ECHO COURTESY LIGHT WHITE",
     "brand": "Y",
@@ -3566,7 +3414,7 @@
     "productWebSearchQuery": "\"123770\" \"LUMITEC ECHO COURTESY LIGHT WHITE\"",
     "imageUrl": "../images/web-product-images/123770.webp"
   },
-  {
+  "123771": {
     "productNumber": "123771",
     "description": "LUMITEC ECHO COURTESY LIGHT BLUE",
     "brand": "Y",
@@ -3595,7 +3443,7 @@
     "productWebSearchQuery": "\"123771\" \"LUMITEC ECHO COURTESY LIGHT BLUE\"",
     "imageUrl": "../images/web-product-images/123771.webp"
   },
-  {
+  "123778": {
     "productNumber": "123778",
     "description": "LUMITEC ORBIT LIGHT BRUSHED WHITE/RED/BLUE FLUSH MOUNT",
     "brand": "Y",
@@ -3624,7 +3472,7 @@
     "productWebSearchQuery": "\"123778\" \"Y LUMITEC ORBIT LIGHT BRUSHED WHITE/RED/BLUE FLUSH MOUNT\"",
     "imageUrl": "../images/web-product-images/123778.jpg"
   },
-  {
+  "123781": {
     "productNumber": "123781",
     "description": "LUMITEC ORBIT DOWN LIGHT WHITE/BLUE",
     "brand": "Y",
@@ -3653,7 +3501,7 @@
     "productWebSearchQuery": "\"123781\" \"Y LUMITEC ORBIT DOWN LIGHT WHITE/BLUE\"",
     "imageUrl": "../images/web-product-images/123781.webp"
   },
-  {
+  "123783": {
     "productNumber": "123783",
     "description": "LUMITEC ORBIT DOWN LIGHT WHITE",
     "brand": "Y",
@@ -3682,7 +3530,7 @@
     "productWebSearchQuery": "\"123783\" \"Y LUMITEC ORBIT DOWN LIGHT WHITE\"",
     "imageUrl": "../images/web-product-images/123783.jpg"
   },
-  {
+  "123784": {
     "productNumber": "123784",
     "description": "LUMITEC ORBIT DOWN LIGHT SPECTRUM RGBW",
     "brand": "",
@@ -3706,15 +3554,11 @@
     "exportAudExGst": 174.4,
     "barcode": "089300125279",
     "cataloguePage": 305,
-    "imageUrl": "../images/web-product-images/123784.webp",
+    "imageUrl": "../images/catalogue/product-blocks/123784.jpg",
     "catalogueDescription": "nd a secure composite mounting system, this LED down light is ideal for a variety of cabin lighting, T-top lighting and mezzanine uses. Intelligent circuitry enables advanced features like dimming and multi-colour control without external control modules, specialised switches, or additional wire runs. Completely water sealed and IP67 compliant. Timed Toggled Protocol (TTP) gives the ability to dim lights and change colours (where applicable). BLA Code Finish Colour Output Cri Cct TTP Volts Amp Draw Lumens+ 12V 24V 123784 White Spectrum 70+ 5000 Yes 10-30 290mA 160mA 210 50.5 31.2 10.9 18.2",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/123784.jpg",
-    "productWebSearchImageUrl": "../images/web-product-images/123784.webp",
-    "productWebSearchImageSourceUrl": "https://www.outbackequipment.com.au/assets/full/123784.webp?20250609231558",
-    "productWebSearchImageSourcePage": "",
-    "productWebSearchQuery": "\"123784\" \"LUMITEC ORBIT DOWN LIGHT SPECTRUM RGBW\""
+    "productBlockImageUrl": "../images/catalogue/product-blocks/123784.jpg"
   },
-  {
+  "123785": {
     "productNumber": "123785",
     "description": "LUMITEC ORBIT FLUSH MOUNT WHITE LED DOWNLIGHT WHITE/RED/BLUE",
     "brand": "Y",
@@ -3733,7 +3577,7 @@
     "subCategoryDescription": "Navigation & LED Lighting products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 137.73,
     "barcode": "089300103611",
@@ -3743,7 +3587,7 @@
     "productWebSearchQuery": "\"123785\" \"Y LUMITEC ORBIT FLUSH MOUNT WHITE LED DOWNLIGHT WHITE/RED/BLUE\"",
     "imageUrl": "../images/web-product-images/123785.jpg"
   },
-  {
+  "123786": {
     "productNumber": "123786",
     "description": "LUMITEC ORBIT DOWN LIGHT WARM WHITE",
     "brand": "Y",
@@ -3772,7 +3616,7 @@
     "productWebSearchQuery": "\"123786\" \"Y LUMITEC ORBIT DOWN LIGHT WARM WHITE\"",
     "imageUrl": "../images/web-product-images/123786.jpg"
   },
-  {
+  "123798": {
     "productNumber": "123798",
     "description": "LUMITEC HALO DOWN LIGHT WHITE",
     "brand": "Y",
@@ -3801,7 +3645,7 @@
     "productWebSearchQuery": "\"123798\" \"Y LUMITEC HALO DOWN LIGHT WHITE\"",
     "imageUrl": "../images/web-product-images/123798.webp"
   },
-  {
+  "123799": {
     "productNumber": "123799",
     "description": "LUMITEC HALO DOWN LIGHT SPECTRUM RGBW",
     "brand": "Y",
@@ -3830,7 +3674,7 @@
     "productWebSearchQuery": "\"123799\" \"Y LUMITEC HALO DOWN LIGHT SPECTRUM RGBW\"",
     "imageUrl": "../images/web-product-images/123799.jpg"
   },
-  {
+  "123801": {
     "productNumber": "123801",
     "description": "LUMITEC HALO DOWN LIGHT WARM WHITE",
     "brand": "Y",
@@ -3859,7 +3703,7 @@
     "productWebSearchQuery": "\"123801\" \"Y LUMITEC HALO DOWN LIGHT WARM WHITE\"",
     "imageUrl": "../images/web-product-images/123801.jpg"
   },
-  {
+  "123811": {
     "productNumber": "123811",
     "description": "LUMITEC POCO 4 DIGITAL LIGHT CONTROL MODULE",
     "brand": "",
@@ -3898,7 +3742,7 @@
     "imageUrl": "../images/bla-website-products/123811.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "123820": {
     "productNumber": "123820",
     "description": "LUMITEC SEABLAZEX2 UNDERWATER LIGHT SPECTRUM RGBW",
     "brand": "",
@@ -3922,15 +3766,11 @@
     "exportAudExGst": 845.39,
     "barcode": "089300015150",
     "cataloguePage": 289,
-    "imageUrl": "../images/web-product-images/123820.webp",
+    "imageUrl": "../images/catalogue/product-blocks/123820.jpg",
     "catalogueDescription": "gnised the world over. The bar has once again been raised. Timed Toggled Protocol (TTP) gives the ability to dim lights and change colours (where applicable). BLA Code Finish Colour Output Cri Cct TTP Volts Amp Draw Lumens+ 12V 24V 123826 Bronze Dual colour white/blue 70+ 6500 Yes 10-30 2.1A 1.1A 2000 123824 Bronze Spectrum full-colour RGBW 70+ 6500 Yes 10-30 2.1A 1.1A 2000 BLA Code Finish Colour Output Cri Cct TTP Volts Amp Draw Lumens+ 12V 24V 123822 Bronze Dual colour white/blue 70+ 6500 Yes 10-30 5A 2.5A 6000+ 123820 Bronze Spectrum full-colour RGBW 70+ 6500 Yes 10-30 5A 2.5A 6000+ 123826 123820 96.52\u00f8 12.7 33.91 18.39 96.52\u00f8 12.7 33.91 18.39 3 Year Warranty 3 Year Warranty",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/123820.jpg",
-    "productWebSearchImageUrl": "../images/web-product-images/123820.webp",
-    "productWebSearchImageSourceUrl": "https://www.outbackequipment.com.au/assets/full/123820.webp?20250608064333",
-    "productWebSearchImageSourcePage": "",
-    "productWebSearchQuery": "\"123820\" \"LUMITEC SEABLAZEX2 UNDERWATER LIGHT SPECTRUM RGBW\""
+    "productBlockImageUrl": "../images/catalogue/product-blocks/123820.jpg"
   },
-  {
+  "123822": {
     "productNumber": "123822",
     "description": "LUMITEC SEABLAZEX2 UNDERWATER LIGHT WHITE/BLUE",
     "brand": "",
@@ -3954,15 +3794,11 @@
     "exportAudExGst": 564.08,
     "barcode": "089300015167",
     "cataloguePage": 289,
-    "imageUrl": "../images/web-product-images/123822.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/123822.jpg",
     "catalogueDescription": "surface mount, no external drivers, and a pedigree of reliability recognised the world over. The bar has once again been raised. Timed Toggled Protocol (TTP) gives the ability to dim lights and change colours (where applicable). BLA Code Finish Colour Output Cri Cct TTP Volts Amp Draw Lumens+ 12V 24V 123826 Bronze Dual colour white/blue 70+ 6500 Yes 10-30 2.1A 1.1A 2000 123824 Bronze Spectrum full-colour RGBW 70+ 6500 Yes 10-30 2.1A 1.1A 2000 BLA Code Finish Colour Output Cri Cct TTP Volts Amp Draw Lumens+ 12V 24V 123822 Bronze Dual colour white/blue 70+ 6500 Yes 10-30 5A 2.5A 6000+ 123820 Bronze Spectrum full-colour RGBW 70+ 6500 Yes 10-30 5A 2.5A 6000+ 123826 123820 96.52\u00f8 12.7 33.91 18.39 96.52\u00f8 12.7 33.91 18.39 3 Year Warranty 3 Year Warranty",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/123822.jpg",
-    "productWebSearchImageUrl": "../images/web-product-images/123822.jpg",
-    "productWebSearchImageSourceUrl": "https://www.oceanboats.ae/storage/lumitec-seablaze-x2-white-blue-led-light-800x800.jpg",
-    "productWebSearchImageSourcePage": "",
-    "productWebSearchQuery": "\"123822\" \"LUMITEC SEABLAZEX2 UNDERWATER LIGHT WHITE/BLUE\""
+    "productBlockImageUrl": "../images/catalogue/product-blocks/123822.jpg"
   },
-  {
+  "123824": {
     "productNumber": "123824",
     "description": "LUMITEC SEABLAZE QUATTRO UNDERWATER LIGHT SPECTRUM RGBW",
     "brand": "",
@@ -3986,15 +3822,11 @@
     "exportAudExGst": 498.5,
     "barcode": "089300015105",
     "cataloguePage": 289,
-    "imageUrl": "../images/web-product-images/123824.webp",
+    "imageUrl": "../images/catalogue/product-blocks/123824.jpg",
     "catalogueDescription": "of intense, vivid colours, complemented by a relaxing colour cycle mode. Both versions deliver more than 6,000 integrating-sphere-measured lumens, surface mount, no external drivers, and a pedigree of reliability recognised the world over. The bar has once again been raised. Timed Toggled Protocol (TTP) gives the ability to dim lights and change colours (where applicable). BLA Code Finish Colour Output Cri Cct TTP Volts Amp Draw Lumens+ 12V 24V 123826 Bronze Dual colour white/blue 70+ 6500 Yes 10-30 2.1A 1.1A 2000 123824 Bronze Spectrum full-colour RGBW 70+ 6500 Yes 10-30 2.1A 1.1A 2000 BLA Code Finish Colour Output Cri Cct TTP Volts Amp Draw Lumens+ 12V 24V 123822 Bronze Dual colour white/blue 70+ 6500 Yes 10-30 5A 2.5A 6000+ 123820 Bronze Spectrum full-colour RGBW 70+ 6500 Yes 10-30 5A 2.5A 6000+ 123826 123820 96.52\u00f8 12.7 33.91 18.39 96.52\u00f8 12.7 33.91 18.39 3 Year Warranty 3 Year Warranty",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/123824.jpg",
-    "productWebSearchImageUrl": "../images/web-product-images/123824.webp",
-    "productWebSearchImageSourceUrl": "https://www.outbackequipment.com.au/assets/full/123824.webp?20250606184111",
-    "productWebSearchImageSourcePage": "",
-    "productWebSearchQuery": "\"123824\" \"LUMITEC SEABLAZE QUATTRO UNDERWATER LIGHT SPECTRUM RGBW\""
+    "productBlockImageUrl": "../images/catalogue/product-blocks/123824.jpg"
   },
-  {
+  "123826": {
     "productNumber": "123826",
     "description": "LUMITEC SEABLAZE QUATTRO UNDERWATER LIGHT WHITE/BLUE",
     "brand": "",
@@ -4018,15 +3850,11 @@
     "exportAudExGst": 406.06,
     "barcode": "089300015112",
     "cataloguePage": 289,
-    "imageUrl": "../images/web-product-images/123826.webp",
+    "imageUrl": "../images/catalogue/product-blocks/123826.jpg",
     "catalogueDescription": "ode, while the SeaBlazeX2 spectrum delivers a nearly limitless palette of intense, vivid colours, complemented by a relaxing colour cycle mode. Both versions deliver more than 6,000 integrating-sphere-measured lumens, surface mount, no external drivers, and a pedigree of reliability recognised the world over. The bar has once again been raised. Timed Toggled Protocol (TTP) gives the ability to dim lights and change colours (where applicable). BLA Code Finish Colour Output Cri Cct TTP Volts Amp Draw Lumens+ 12V 24V 123826 Bronze Dual colour white/blue 70+ 6500 Yes 10-30 2.1A 1.1A 2000 123824 Bronze Spectrum full-colour RGBW 70+ 6500 Yes 10-30 2.1A 1.1A 2000 BLA Code Finish Colour Output Cri Cct TTP Volts Amp Draw Lumens+ 12V 24V 123822 Bronze Dual colour white/blue 70+ 6500 Yes 10-30 5A 2.5A 6000+ 123820 Bronze Spectrum full-colour RGBW 70+ 6500 Yes 10-30 5A 2.5A 6000+ 123826 123820 96.52\u00f8 12.7 33.91 18.39 96.52\u00f8 12.7 33.91 18.39 3 Year Warranty 3 Year Warranty",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/123826.jpg",
-    "productWebSearchImageUrl": "../images/web-product-images/123826.webp",
-    "productWebSearchImageSourceUrl": "https://www.outbackequipment.com.au/assets/full/123826.webp?20250609222219",
-    "productWebSearchImageSourcePage": "",
-    "productWebSearchQuery": "\"123826\" \"LUMITEC SEABLAZE QUATTRO UNDERWATER LIGHT WHITE/BLUE\""
+    "productBlockImageUrl": "../images/catalogue/product-blocks/123826.jpg"
   },
-  {
+  "123830": {
     "productNumber": "123830",
     "description": "LUMITEC ILLUSION ROUND FLUSH MOUNT DOWN LIGHT NON DIM WHITE",
     "brand": "",
@@ -4055,7 +3883,7 @@
     "productWebSearchQuery": "\"123830\" \"LUMITEC ILLUSION ROUND FLUSH MOUNT DOWN LIGHT NON DIM WHITE\"",
     "imageUrl": "../images/web-product-images/123830.jpg"
   },
-  {
+  "123832": {
     "productNumber": "123832",
     "description": "LUMITEC ILLUSION ROUND FLUSH MOUNT DOWN LIGHT SPECTRUM WHITE",
     "brand": "",
@@ -4084,7 +3912,7 @@
     "productWebSearchQuery": "\"123832\" \"LUMITEC ILLUSION ROUND FLUSH MOUNT DOWN LIGHT SPECTRUM WHITE\"",
     "imageUrl": "../images/web-product-images/123832.jpg"
   },
-  {
+  "123834": {
     "productNumber": "123834",
     "description": "LUMITEC ILLUSION ROUND FLUSH MOUNT DOWN LIGHT NON DIM BLACK",
     "brand": "Y",
@@ -4113,7 +3941,7 @@
     "productWebSearchQuery": "\"123834\" \"Y LUMITEC ILLUSION ROUND FLUSH MOUNT DOWN LIGHT NON DIM BLACK\"",
     "imageUrl": "../images/web-product-images/123834.jpg"
   },
-  {
+  "123836": {
     "productNumber": "123836",
     "description": "LUMITEC ILLUSION ROUND FLUSH MOUNT DOWN LIGHT SPECTRUM BLACK",
     "brand": "Y",
@@ -4142,7 +3970,7 @@
     "productWebSearchQuery": "\"123836\" \"Y LUMITEC ILLUSION ROUND FLUSH MOUNT DOWN LIGHT SPECTRUM BLACK\"",
     "imageUrl": "../images/web-product-images/123836.jpg"
   },
-  {
+  "123838": {
     "productNumber": "123838",
     "description": "LUMITEC ILLUSION ROUND FLUSH MOUNT DOWN LIGHT NON DIM MIRROR",
     "brand": "Y",
@@ -4171,7 +3999,7 @@
     "productWebSearchQuery": "\"123838\" \"Y LUMITEC ILLUSION ROUND FLUSH MOUNT DOWN LIGHT NON DIM MIRROR\"",
     "imageUrl": "../images/web-product-images/123838.jpg"
   },
-  {
+  "123840": {
     "productNumber": "123840",
     "description": "LUMITEC ILLUSION ROUND FLUSH MOUNT DOWN LIGHT SPECTRU MIRROR",
     "brand": "Y",
@@ -4200,4 +4028,4 @@
     "productWebSearchQuery": "\"123840\" \"Y LUMITEC ILLUSION ROUND FLUSH MOUNT DOWN LIGHT SPECTRU MIRROR\"",
     "imageUrl": "../images/web-product-images/123840.jpg"
   }
-]
+}

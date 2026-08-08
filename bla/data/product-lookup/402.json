@@ -1,5 +1,5 @@
-[
-  {
+{
+  "402022": {
     "productNumber": "402022",
     "description": "PERKO CHROME FLUSH LATCH SET BOX STRIKER",
     "brand": "Y",
@@ -18,17 +18,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/27/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 134.27,
     "barcode": "085226035708",
     "cataloguePage": 27,
-    "imageUrl": "../images/catalogue/product-photos/402022.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/402022.jpg",
     "catalogueDescription": "........... 500 401962............................................. 500 401966............................................. 500 401968............................................. 500 401969............................................. 500 401970............................................. 514 401972............................................. 514 401978............................................. 531 401984............................................. 531 401998............................................. 517 402022............................................. 520 402024............................................. 520 402030............................................. 520 402032............................................. 520 402040............................................. 520 402046............................................. 520 402052............................................. 520 402054............................................. 520 402064............................................. 525 402065................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/402022.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/402022.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/402022.jpg"
   },
-  {
+  "402024": {
     "productNumber": "402024",
     "description": "PERKO CHROME FLUSH LATCH SET FLUSH STRIKER",
     "brand": "",
@@ -47,17 +46,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/27/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 134.27,
     "barcode": "085226036248",
     "cataloguePage": 27,
-    "imageUrl": "../images/catalogue/product-photos/402024.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/402024.jpg",
     "catalogueDescription": "........... 500 401966............................................. 500 401968............................................. 500 401969............................................. 500 401970............................................. 514 401972............................................. 514 401978............................................. 531 401984............................................. 531 401998............................................. 517 402022............................................. 520 402024............................................. 520 402030............................................. 520 402032............................................. 520 402040............................................. 520 402046............................................. 520 402052............................................. 520 402054............................................. 520 402064............................................. 525 402065............................................. 525 402066................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/402024.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/402024.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/402024.jpg"
   },
-  {
+  "402030": {
     "productNumber": "402030",
     "description": "PERKO NON MORTISE LATCH SET CHROME BOX STRIKER",
     "brand": "",
@@ -76,17 +74,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/27/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 220.9,
     "barcode": "085226555909",
     "cataloguePage": 27,
-    "imageUrl": "../images/catalogue/product-photos/402030.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/402030.jpg",
     "catalogueDescription": "........... 500 401968............................................. 500 401969............................................. 500 401970............................................. 514 401972............................................. 514 401978............................................. 531 401984............................................. 531 401998............................................. 517 402022............................................. 520 402024............................................. 520 402030............................................. 520 402032............................................. 520 402040............................................. 520 402046............................................. 520 402052............................................. 520 402054............................................. 520 402064............................................. 525 402065............................................. 525 402066............................................. 524 402068................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/402030.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/402030.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/402030.jpg"
   },
-  {
+  "402032": {
     "productNumber": "402032",
     "description": "PERKO NON MORTISE LATCH SET CHROME FLUSH STRIKER",
     "brand": "",
@@ -105,17 +102,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/27/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 220.9,
     "barcode": "085226556739",
     "cataloguePage": 27,
-    "imageUrl": "../images/catalogue/product-photos/402032.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/402032.jpg",
     "catalogueDescription": "........... 500 401969............................................. 500 401970............................................. 514 401972............................................. 514 401978............................................. 531 401984............................................. 531 401998............................................. 517 402022............................................. 520 402024............................................. 520 402030............................................. 520 402032............................................. 520 402040............................................. 520 402046............................................. 520 402052............................................. 520 402054............................................. 520 402064............................................. 525 402065............................................. 525 402066............................................. 524 402068............................................. 524 402070................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/402032.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/402032.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/402032.jpg"
   },
-  {
+  "402040": {
     "productNumber": "402040",
     "description": "PERKO 0927 MORTISE LATCH SET CHROME KEY LOCK",
     "brand": "",
@@ -134,17 +130,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/27/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 201.12,
     "barcode": "085226035425",
     "cataloguePage": 27,
-    "imageUrl": "../images/catalogue/product-photos/402040.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/402040.jpg",
     "catalogueDescription": "........... 500 401970............................................. 514 401972............................................. 514 401978............................................. 531 401984............................................. 531 401998............................................. 517 402022............................................. 520 402024............................................. 520 402030............................................. 520 402032............................................. 520 402040............................................. 520 402046............................................. 520 402052............................................. 520 402054............................................. 520 402064............................................. 525 402065............................................. 525 402066............................................. 524 402068............................................. 524 402070............................................. 524 402072................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/402040.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/402040.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/402040.jpg"
   },
-  {
+  "402046": {
     "productNumber": "402046",
     "description": "PERKO 0960 MORTISE LATCH SET CHROME",
     "brand": "",
@@ -163,17 +158,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/27/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 131.36,
     "barcode": "085226035548",
     "cataloguePage": 27,
-    "imageUrl": "../images/catalogue/product-photos/402046.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/402046.jpg",
     "catalogueDescription": "........... 514 401972............................................. 514 401978............................................. 531 401984............................................. 531 401998............................................. 517 402022............................................. 520 402024............................................. 520 402030............................................. 520 402032............................................. 520 402040............................................. 520 402046............................................. 520 402052............................................. 520 402054............................................. 520 402064............................................. 525 402065............................................. 525 402066............................................. 524 402068............................................. 524 402070............................................. 524 402072............................................. 524 402074................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/402046.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/402046.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/402046.jpg"
   },
-  {
+  "402052": {
     "productNumber": "402052",
     "description": "PERKO CHROME FLUSH LATCH SET",
     "brand": "",
@@ -192,17 +186,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/27/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 49.09,
     "barcode": "9319786094983",
     "cataloguePage": 27,
-    "imageUrl": "../images/catalogue/product-photos/402052.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/402052.jpg",
     "catalogueDescription": "........... 514 401978............................................. 531 401984............................................. 531 401998............................................. 517 402022............................................. 520 402024............................................. 520 402030............................................. 520 402032............................................. 520 402040............................................. 520 402046............................................. 520 402052............................................. 520 402054............................................. 520 402064............................................. 525 402065............................................. 525 402066............................................. 524 402068............................................. 524 402070............................................. 524 402072............................................. 524 402074............................................. 530 403434................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/402052.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/402052.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/402052.jpg"
   },
-  {
+  "402054": {
     "productNumber": "402054",
     "description": "PERKO CHROME FLUSH LATCH SET KEY LOCKING",
     "brand": "",
@@ -221,17 +214,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/27/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 56.07,
     "barcode": "9319786094976",
     "cataloguePage": 27,
-    "imageUrl": "../images/catalogue/product-photos/402054.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/402054.jpg",
     "catalogueDescription": "........... 531 401984............................................. 531 401998............................................. 517 402022............................................. 520 402024............................................. 520 402030............................................. 520 402032............................................. 520 402040............................................. 520 402046............................................. 520 402052............................................. 520 402054............................................. 520 402064............................................. 525 402065............................................. 525 402066............................................. 524 402068............................................. 524 402070............................................. 524 402072............................................. 524 402074............................................. 530 403434............................................. 948 420300................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/402054.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/402054.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/402054.jpg"
   },
-  {
+  "402064": {
     "productNumber": "402064",
     "description": "PERKO KEY LOCKING T HANDLE FLUSH CATCH CHROME/BLACK",
     "brand": "",
@@ -250,17 +242,16 @@
     "subCategoryDescription": "Stainless Fittings & Deck Hardware products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/27/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 60.68,
     "barcode": "9319786118559",
     "cataloguePage": 27,
-    "imageUrl": "../images/catalogue/product-photos/402064.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/402064.jpg",
     "catalogueDescription": "........... 531 401998............................................. 517 402022............................................. 520 402024............................................. 520 402030............................................. 520 402032............................................. 520 402040............................................. 520 402046............................................. 520 402052............................................. 520 402054............................................. 520 402064............................................. 525 402065............................................. 525 402066............................................. 524 402068............................................. 524 402070............................................. 524 402072............................................. 524 402074............................................. 530 403434............................................. 948 420300............................................. 959 420330................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/402064.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/402064.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/402064.jpg"
   },
-  {
+  "402065": {
     "productNumber": "402065",
     "description": "PERKO KEY LOCKING T HANDLE FLUSH CATCH CHROME/WHITE",
     "brand": "",
@@ -279,17 +270,16 @@
     "subCategoryDescription": "Stainless Fittings & Deck Hardware products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/27/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 63.23,
     "barcode": "9319786122730",
     "cataloguePage": 27,
-    "imageUrl": "../images/catalogue/product-photos/402065.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/402065.jpg",
     "catalogueDescription": "........... 517 402022............................................. 520 402024............................................. 520 402030............................................. 520 402032............................................. 520 402040............................................. 520 402046............................................. 520 402052............................................. 520 402054............................................. 520 402064............................................. 525 402065............................................. 525 402066............................................. 524 402068............................................. 524 402070............................................. 524 402072............................................. 524 402074............................................. 530 403434............................................. 948 420300............................................. 959 420330............................................. 959 420336................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/402065.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/402065.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/402065.jpg"
   },
-  {
+  "402066": {
     "productNumber": "402066",
     "description": "PERKO FLUSH HATCH CATCH",
     "brand": "",
@@ -308,17 +298,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/27/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 48.12,
     "barcode": "9319786094259",
     "cataloguePage": 27,
-    "imageUrl": "../images/catalogue/product-photos/402066.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/402066.jpg",
     "catalogueDescription": "........... 520 402024............................................. 520 402030............................................. 520 402032............................................. 520 402040............................................. 520 402046............................................. 520 402052............................................. 520 402054............................................. 520 402064............................................. 525 402065............................................. 525 402066............................................. 524 402068............................................. 524 402070............................................. 524 402072............................................. 524 402074............................................. 530 403434............................................. 948 420300............................................. 959 420330............................................. 959 420336............................................. 959 420354................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/402066.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/402066.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/402066.jpg"
   },
-  {
+  "402068": {
     "productNumber": "402068",
     "description": "PERKO FLUSH HATCH CATCH LOCKING",
     "brand": "",
@@ -337,17 +326,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/27/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 59.82,
     "barcode": "9319786094242",
     "cataloguePage": 27,
-    "imageUrl": "../images/catalogue/product-photos/402068.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/402068.jpg",
     "catalogueDescription": "........... 520 402030............................................. 520 402032............................................. 520 402040............................................. 520 402046............................................. 520 402052............................................. 520 402054............................................. 520 402064............................................. 525 402065............................................. 525 402066............................................. 524 402068............................................. 524 402070............................................. 524 402072............................................. 524 402074............................................. 530 403434............................................. 948 420300............................................. 959 420330............................................. 959 420336............................................. 959 420354............................................. 959 420360................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/402068.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/402068.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/402068.jpg"
   },
-  {
+  "402070": {
     "productNumber": "402070",
     "description": "PERKO CATCH COVER BLACK HINGED 68X82",
     "brand": "",
@@ -371,7 +359,7 @@
     "exportAudExGst": 6.82,
     "barcode": "9319786118511",
     "cataloguePage": 27,
-    "imageUrl": "../images/bla-website-products/402070.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/402070.jpg",
     "catalogueDescription": "........... 520 402032............................................. 520 402040............................................. 520 402046............................................. 520 402052............................................. 520 402054............................................. 520 402064............................................. 525 402065............................................. 525 402066............................................. 524 402068............................................. 524 402070............................................. 524 402072............................................. 524 402074............................................. 530 403434............................................. 948 420300............................................. 959 420330............................................. 959 420336............................................. 959 420354............................................. 959 420360............................................. 959 420366................",
     "productBlockImageUrl": "../images/catalogue/product-blocks/402070.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/black-hinged-cover-68x82/",
@@ -388,7 +376,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/07/402070.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "402072": {
     "productNumber": "402072",
     "description": "PERKO CATCH COVER WHITE HINGED 68X82",
     "brand": "Y",
@@ -412,7 +400,7 @@
     "exportAudExGst": 5.69,
     "barcode": "9319786118528",
     "cataloguePage": 27,
-    "imageUrl": "../images/bla-website-products/402072.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/402072.jpg",
     "catalogueDescription": "........... 520 402040............................................. 520 402046............................................. 520 402052............................................. 520 402054............................................. 520 402064............................................. 525 402065............................................. 525 402066............................................. 524 402068............................................. 524 402070............................................. 524 402072............................................. 524 402074............................................. 530 403434............................................. 948 420300............................................. 959 420330............................................. 959 420336............................................. 959 420354............................................. 959 420360............................................. 959 420366............................................. 959 420372................",
     "productBlockImageUrl": "../images/catalogue/product-blocks/402072.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/white-hinged-cover/",
@@ -429,7 +417,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/07/No_image.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "402074": {
     "productNumber": "402074",
     "description": "PERKO FLUSH RING CATCH CHROME 57X35",
     "brand": "",
@@ -448,12 +436,12 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/27/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 33.39,
     "barcode": "9319786093870",
     "cataloguePage": 27,
-    "imageUrl": "../images/bla-website-products/402074.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/402074.jpg",
     "catalogueDescription": "........... 520 402046............................................. 520 402052............................................. 520 402054............................................. 520 402064............................................. 525 402065............................................. 525 402066............................................. 524 402068............................................. 524 402070............................................. 524 402072............................................. 524 402074............................................. 530 403434............................................. 948 420300............................................. 959 420330............................................. 959 420336............................................. 959 420354............................................. 959 420360............................................. 959 420366............................................. 959 420372............................................. 959 420378................",
     "productBlockImageUrl": "../images/catalogue/product-blocks/402074.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/perko-flush-ring-catch-chrome-plated/",
@@ -470,7 +458,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/07/402074.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "402080": {
     "productNumber": "402080",
     "description": "PERKO FLUSH LATCH NONLOCKING BLACK",
     "brand": "Y",
@@ -489,7 +477,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 51.63,
     "barcode": "085226037429",
@@ -499,4 +487,4 @@
     "productWebSearchQuery": "\"402080\" \"Y PERKO FLUSH LATCH NONLOCKING BLACK\"",
     "imageUrl": "../images/web-product-images/402080.jpg"
   }
-]
+}

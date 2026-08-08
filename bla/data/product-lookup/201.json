@@ -1,5 +1,5 @@
-[
-  {
+{
+  "201500": {
     "productNumber": "201500",
     "description": "CHAMPION SPARK PLUG J4C",
     "brand": "Y",
@@ -18,7 +18,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 3.46,
     "barcode": "037551000012",
@@ -28,7 +28,7 @@
     "productWebSearchQuery": "\"201500\" \"Y CHAMPION SPARK PLUG J4C\"",
     "imageUrl": "../images/web-product-images/201500.jpg"
   },
-  {
+  "201504": {
     "productNumber": "201504",
     "description": "CHAMPION SPARK PLUG J6C",
     "brand": "Y",
@@ -47,7 +47,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 3.83,
     "barcode": "037551000029",
@@ -57,7 +57,7 @@
     "productWebSearchQuery": "\"201504\" \"Y CHAMPION SPARK PLUG J6C\"",
     "imageUrl": "../images/web-product-images/201504.jpg"
   },
-  {
+  "201550": {
     "productNumber": "201550",
     "description": "CHAMPION SPARK PLUG L6VC",
     "brand": "Y",
@@ -86,7 +86,7 @@
     "productWebSearchQuery": "\"201550\" \"CHAMPION SPARK PLUG L6VC\"",
     "imageUrl": "../images/web-product-images/201550.jpg"
   },
-  {
+  "201554": {
     "productNumber": "201554",
     "description": "CHAMPION SPARK PLUG L76V",
     "brand": "",
@@ -113,13 +113,12 @@
     "imageUrl": "../images/web-product-images/201554.jpg",
     "catalogueDescription": "........... 655 200808............................................. 656 200810............................................. 656 200812............................................. 656 200814............................................. 656 200816............................................. 656 200820............................................. 656 200822............................................. 656 200824............................................. 656 200840............................................. 655 201554............................................. 589 201558............................................. 589 201566............................................. 589 201568............................................. 589 201634............................................. 589 201635............................................. 589 201644............................................. 589 201645............................................. 589 201650............................................. 589 201668................",
     "productBlockImageUrl": "../images/catalogue/product-blocks/201554.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/201554.jpg",
     "productWebSearchImageUrl": "../images/web-product-images/201554.jpg",
     "productWebSearchImageSourceUrl": "https://www.piecesbateaux.com/18402-large_default/champion-l76v-spark-plug-ngk-buhw.jpg",
     "productWebSearchImageSourcePage": "https://www.piecesbateaux.com/en/champion-candles/4923-champion-l76v-spark-plug-ngk-buhw.html",
     "productWebSearchQuery": "\"201554\" \"CHAMPION SPARK PLUG L76V\""
   },
-  {
+  "201562": {
     "productNumber": "201562",
     "description": "CHAMPION SPARK PLUG L78C",
     "brand": "Y",
@@ -138,7 +137,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 3.75,
     "barcode": "037551000715",
@@ -148,7 +147,7 @@
     "productWebSearchQuery": "\"201562\" \"Y CHAMPION SPARK PLUG L78C\"",
     "imageUrl": "../images/web-product-images/201562.jpg"
   },
-  {
+  "201566": {
     "productNumber": "201566",
     "description": "CHAMPION SPARK PLUG L78V",
     "brand": "",
@@ -175,13 +174,12 @@
     "imageUrl": "../images/web-product-images/201566.jpg",
     "catalogueDescription": "........... 656 200812............................................. 656 200814............................................. 656 200816............................................. 656 200820............................................. 656 200822............................................. 656 200824............................................. 656 200840............................................. 655 201554............................................. 589 201558............................................. 589 201566............................................. 589 201568............................................. 589 201634............................................. 589 201635............................................. 589 201644............................................. 589 201645............................................. 589 201650............................................. 589 201668............................................. 589 201672............................................. 589 201676................",
     "productBlockImageUrl": "../images/catalogue/product-blocks/201566.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/201566.jpg",
     "productWebSearchImageUrl": "../images/web-product-images/201566.jpg",
     "productWebSearchImageSourceUrl": "https://www.piecesbateaux.com/5603-large_default/champion-l78v-spark-plug-ngk-buhw-2.jpg",
     "productWebSearchImageSourcePage": "https://www.piecesbateaux.com/en/champion-candles/4925-champion-l78v-spark-plug-ngk-buhw-2.html",
     "productWebSearchQuery": "\"201566\" \"CHAMPION SPARK PLUG L78V\""
   },
-  {
+  "201568": {
     "productNumber": "201568",
     "description": "CHAMPION SPARK PLUG L78YC",
     "brand": "",
@@ -208,13 +206,12 @@
     "imageUrl": "../images/web-product-images/201568.jpg",
     "catalogueDescription": "........... 656 200814............................................. 656 200816............................................. 656 200820............................................. 656 200822............................................. 656 200824............................................. 656 200840............................................. 655 201554............................................. 589 201558............................................. 589 201566............................................. 589 201568............................................. 589 201634............................................. 589 201635............................................. 589 201644............................................. 589 201645............................................. 589 201650............................................. 589 201668............................................. 589 201672............................................. 589 201676............................................. 589 201680................",
     "productBlockImageUrl": "../images/catalogue/product-blocks/201568.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/201568.jpg",
     "productWebSearchImageUrl": "../images/web-product-images/201568.jpg",
     "productWebSearchImageSourceUrl": "https://www.piecesbateaux.com/5604-large_default/champion-l78yc-spark-plug.jpg",
     "productWebSearchImageSourcePage": "https://www.piecesbateaux.com/en/champion-candles/4926-champion-l78yc-spark-plug.html",
     "productWebSearchQuery": "\"201568\" \"CHAMPION SPARK PLUG L78YC\""
   },
-  {
+  "201570": {
     "productNumber": "201570",
     "description": "CHAMPION SPARK PLUG L82C",
     "brand": "",
@@ -233,7 +230,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 2.96,
     "barcode": "037551000746",
@@ -243,7 +240,7 @@
     "productWebSearchQuery": "\"201570\" \"CHAMPION SPARK PLUG L82C\"",
     "imageUrl": "../images/web-product-images/201570.jpg"
   },
-  {
+  "201574": {
     "productNumber": "201574",
     "description": "CHAMPION SPARK PLUG L82YC",
     "brand": "Y",
@@ -262,7 +259,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 3.26,
     "barcode": "037551000333",
@@ -272,7 +269,7 @@
     "productWebSearchQuery": "\"201574\" \"CHAMPION SPARK PLUG L82YC\"",
     "imageUrl": "../images/web-product-images/201574.jpg"
   },
-  {
+  "201578": {
     "productNumber": "201578",
     "description": "CHAMPION SPARK PLUG L86C",
     "brand": "Y",
@@ -291,7 +288,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 3.54,
     "barcode": "9300827074774",
@@ -301,7 +298,7 @@
     "productWebSearchQuery": "\"201578\" \"Y CHAMPION SPARK PLUG L86C\"",
     "imageUrl": "../images/web-product-images/201578.jpg"
   },
-  {
+  "201582": {
     "productNumber": "201582",
     "description": "CHAMPION SPARK PLUG L87YC",
     "brand": "Y",
@@ -320,7 +317,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 2.96,
     "barcode": "9300827074804",
@@ -330,7 +327,7 @@
     "productWebSearchQuery": "\"201582\" \"CHAMPION SPARK PLUG L87YC\"",
     "imageUrl": "../images/web-product-images/201582.jpg"
   },
-  {
+  "201634": {
     "productNumber": "201634",
     "description": "CHAMPION SPARK PLUG QC8WEP",
     "brand": "",
@@ -357,13 +354,12 @@
     "imageUrl": "../images/web-product-images/201634.jpg",
     "catalogueDescription": "........... 656 200816............................................. 656 200820............................................. 656 200822............................................. 656 200824............................................. 656 200840............................................. 655 201554............................................. 589 201558............................................. 589 201566............................................. 589 201568............................................. 589 201634............................................. 589 201635............................................. 589 201644............................................. 589 201645............................................. 589 201650............................................. 589 201668............................................. 589 201672............................................. 589 201676............................................. 589 201680............................................. 589 201684................",
     "productBlockImageUrl": "../images/catalogue/product-blocks/201634.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/201634.jpg",
     "productWebSearchImageUrl": "../images/web-product-images/201634.jpg",
     "productWebSearchImageSourceUrl": "https://www.piecesbateaux.com/5927-large_default/champion-qc8wep-spark-plug.jpg",
     "productWebSearchImageSourcePage": "https://www.piecesbateaux.com/en/champion-candles/5207-champion-qc8wep-spark-plug.html",
     "productWebSearchQuery": "\"201634\" \"CHAMPION SPARK PLUG QC8WEP\""
   },
-  {
+  "201635": {
     "productNumber": "201635",
     "description": "CHAMPION SPARK PLUG QC10WEP",
     "brand": "",
@@ -390,13 +386,12 @@
     "imageUrl": "../images/web-product-images/201635.jpg",
     "catalogueDescription": "........... 656 200820............................................. 656 200822............................................. 656 200824............................................. 656 200840............................................. 655 201554............................................. 589 201558............................................. 589 201566............................................. 589 201568............................................. 589 201634............................................. 589 201635............................................. 589 201644............................................. 589 201645............................................. 589 201650............................................. 589 201668............................................. 589 201672............................................. 589 201676............................................. 589 201680............................................. 589 201684............................................. 589",
     "productBlockImageUrl": "../images/catalogue/product-blocks/201635.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/201635.jpg",
     "productWebSearchImageUrl": "../images/web-product-images/201635.jpg",
     "productWebSearchImageSourceUrl": "https://www.piecesbateaux.com/5924-large_default/champion-qc10wep-spark-plug.jpg",
     "productWebSearchImageSourcePage": "https://www.piecesbateaux.com/en/champion-candles/5204-champion-qc10wep-spark-plug.html",
     "productWebSearchQuery": "\"201635\" \"CHAMPION SPARK PLUG QC10WEP\""
   },
-  {
+  "201644": {
     "productNumber": "201644",
     "description": "CHAMPION SPARK PLUG QC10PEPB",
     "brand": "",
@@ -423,13 +418,12 @@
     "imageUrl": "../images/web-product-images/201644.jpg",
     "catalogueDescription": "........... 656 200822............................................. 656 200824............................................. 656 200840............................................. 655 201554............................................. 589 201558............................................. 589 201566............................................. 589 201568............................................. 589 201634............................................. 589 201635............................................. 589 201644............................................. 589 201645............................................. 589 201650............................................. 589 201668............................................. 589 201672............................................. 589 201676............................................. 589 201680............................................. 589 201684............................................. 589",
     "productBlockImageUrl": "../images/catalogue/product-blocks/201644.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/201644.jpg",
     "productWebSearchImageUrl": "../images/web-product-images/201644.jpg",
     "productWebSearchImageSourceUrl": "https://www.piecesbateaux.com/5923-large_default/champion-qc10pepb-spark-plug.jpg",
     "productWebSearchImageSourcePage": "https://www.piecesbateaux.com/en/champion-candles/5203-champion-qc10pepb-spark-plug.html",
     "productWebSearchQuery": "\"201644\" \"CHAMPION SPARK PLUG QC10PEPB\""
   },
-  {
+  "201645": {
     "productNumber": "201645",
     "description": "CHAMPION SPARK PLUG QC12PEPB",
     "brand": "",
@@ -456,13 +450,12 @@
     "imageUrl": "../images/web-product-images/201645.jpg",
     "catalogueDescription": "........... 656 200824............................................. 656 200840............................................. 655 201554............................................. 589 201558............................................. 589 201566............................................. 589 201568............................................. 589 201634............................................. 589 201635............................................. 589 201644............................................. 589 201645............................................. 589 201650............................................. 589 201668............................................. 589 201672............................................. 589 201676............................................. 589 201680............................................. 589 201684............................................. 589",
     "productBlockImageUrl": "../images/catalogue/product-blocks/201645.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/201645.jpg",
     "productWebSearchImageUrl": "../images/web-product-images/201645.jpg",
     "productWebSearchImageSourceUrl": "https://www.piecesbateaux.com/5926-large_default/champion-qc12pepb-spark-plug.jpg",
     "productWebSearchImageSourcePage": "https://www.piecesbateaux.com/en/champion-candles/5206-champion-qc12pepb-spark-plug.html",
     "productWebSearchQuery": "\"201645\" \"CHAMPION SPARK PLUG QC12PEPB\""
   },
-  {
+  "201650": {
     "productNumber": "201650",
     "description": "CHAMPION SPARK PLUG QC12PEP",
     "brand": "",
@@ -489,13 +482,12 @@
     "imageUrl": "../images/web-product-images/201650.jpg",
     "catalogueDescription": "........... 656 200840............................................. 655 201554............................................. 589 201558............................................. 589 201566............................................. 589 201568............................................. 589 201634............................................. 589 201635............................................. 589 201644............................................. 589 201645............................................. 589 201650............................................. 589 201668............................................. 589 201672............................................. 589 201676............................................. 589 201680............................................. 589 201684............................................. 589",
     "productBlockImageUrl": "../images/catalogue/product-blocks/201650.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/201650.jpg",
     "productWebSearchImageUrl": "../images/web-product-images/201650.jpg",
     "productWebSearchImageSourceUrl": "https://www.piecesbateaux.com/5925-large_default/champion-qc12pep-spark-plug.jpg",
     "productWebSearchImageSourcePage": "https://www.piecesbateaux.com/en/champion-candles/5205-champion-qc12pep-spark-plug.html",
     "productWebSearchQuery": "\"201650\" \"CHAMPION SPARK PLUG QC12PEP\""
   },
-  {
+  "201660": {
     "productNumber": "201660",
     "description": "CHAMPION SPARK PLUG QL16V",
     "brand": "Y",
@@ -514,7 +506,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 8.63,
     "barcode": "037551005178",
@@ -524,7 +516,7 @@
     "productWebSearchQuery": "\"201660\" \"Y CHAMPION SPARK PLUG QL16V\"",
     "imageUrl": "../images/web-product-images/201660.jpg"
   },
-  {
+  "201668": {
     "productNumber": "201668",
     "description": "CHAMPION SPARK PLUG QL77CC",
     "brand": "",
@@ -551,13 +543,12 @@
     "imageUrl": "../images/web-product-images/201668.jpg",
     "catalogueDescription": "........... 655 201554............................................. 589 201558............................................. 589 201566............................................. 589 201568............................................. 589 201634............................................. 589 201635............................................. 589 201644............................................. 589 201645............................................. 589 201650............................................. 589 201668............................................. 589 201672............................................. 589 201676............................................. 589 201680............................................. 589 201684............................................. 589",
     "productBlockImageUrl": "../images/catalogue/product-blocks/201668.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/201668.jpg",
     "productWebSearchImageUrl": "../images/web-product-images/201668.jpg",
     "productWebSearchImageSourceUrl": "https://www.piecesbateaux.com/13518-large_default/champion-ql77cc-spark-plugs-sold-in-packs-of-6.jpg",
     "productWebSearchImageSourcePage": "https://www.piecesbateaux.com/en/champion-candles/12132-champion-ql77cc-spark-plugs-sold-in-packs-of-6.html",
     "productWebSearchQuery": "\"201668\" \"CHAMPION SPARK PLUG QL77CC\""
   },
-  {
+  "201672": {
     "productNumber": "201672",
     "description": "CHAMPION SPARK PLUG QL77JC4",
     "brand": "",
@@ -584,13 +575,12 @@
     "imageUrl": "../images/web-product-images/201672.jpg",
     "catalogueDescription": "........... 589 201558............................................. 589 201566............................................. 589 201568............................................. 589 201634............................................. 589 201635............................................. 589 201644............................................. 589 201645............................................. 589 201650............................................. 589 201668............................................. 589 201672............................................. 589 201676............................................. 589 201680............................................. 589 201684............................................. 589",
     "productBlockImageUrl": "../images/catalogue/product-blocks/201672.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/201672.jpg",
     "productWebSearchImageUrl": "../images/web-product-images/201672.jpg",
     "productWebSearchImageSourceUrl": "https://www.piecesbateaux.com/5933-large_default/champion-ql77jc4-spark-plug.jpg",
     "productWebSearchImageSourcePage": "https://www.piecesbateaux.com/en/champion-candles/5211-champion-ql77jc4-spark-plug.html",
     "productWebSearchQuery": "\"201672\" \"CHAMPION SPARK PLUG QL77JC4\""
   },
-  {
+  "201680": {
     "productNumber": "201680",
     "description": "CHAMPION SPARK PLUG QL78YC",
     "brand": "",
@@ -617,13 +607,12 @@
     "imageUrl": "../images/web-product-images/201680.jpg",
     "catalogueDescription": "........... 589 201568............................................. 589 201634............................................. 589 201635............................................. 589 201644............................................. 589 201645............................................. 589 201650............................................. 589 201668............................................. 589 201672............................................. 589 201676............................................. 589 201680............................................. 589 201684............................................. 589",
     "productBlockImageUrl": "../images/catalogue/product-blocks/201680.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/201680.jpg",
     "productWebSearchImageUrl": "../images/web-product-images/201680.jpg",
     "productWebSearchImageSourceUrl": "https://www.piecesbateaux.com/5934-large_default/champion-ql78yc-spark-plug.jpg",
     "productWebSearchImageSourcePage": "https://www.piecesbateaux.com/en/champion-candles/5212-champion-ql78yc-spark-plug.html",
     "productWebSearchQuery": "\"201680\" \"CHAMPION SPARK PLUG QL78YC\""
   },
-  {
+  "201684": {
     "productNumber": "201684",
     "description": "CHAMPION SPARK PLUG QL82C",
     "brand": "",
@@ -650,13 +639,12 @@
     "imageUrl": "../images/web-product-images/201684.jpg",
     "catalogueDescription": "........... 589 201634............................................. 589 201635............................................. 589 201644............................................. 589 201645............................................. 589 201650............................................. 589 201668............................................. 589 201672............................................. 589 201676............................................. 589 201680............................................. 589 201684............................................. 589",
     "productBlockImageUrl": "../images/catalogue/product-blocks/201684.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/201684.jpg",
     "productWebSearchImageUrl": "../images/web-product-images/201684.jpg",
     "productWebSearchImageSourceUrl": "https://www.piecesbateaux.com/13207-large_default/champion-ql82c-spark-plug.jpg",
     "productWebSearchImageSourcePage": "https://www.piecesbateaux.com/en/champion-candles/11882-champion-ql82c-spark-plug.html",
     "productWebSearchQuery": "\"201684\" \"CHAMPION SPARK PLUG QL82C\""
   },
-  {
+  "201688": {
     "productNumber": "201688",
     "description": "CHAMPION SPARK PLUG QL82YC",
     "brand": "",
@@ -683,13 +671,12 @@
     "imageUrl": "../images/web-product-images/201688.jpg",
     "catalogueDescription": "BLA CODE INDEX boatinglifestyleadventure BOATING LIFESTYLE ADVENTURE 201688............................................. 589 201692............................................. 589 201720............................................. 589 201770............................................. 589 201800............................................. 589 201801............................................. 635 201844............................................. 634 201845............................................. 634 201846............................................. 634 201847................",
     "productBlockImageUrl": "../images/catalogue/product-blocks/201688.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/201688.jpg",
     "productWebSearchImageUrl": "../images/web-product-images/201688.jpg",
     "productWebSearchImageSourceUrl": "https://www.piecesbateaux.com/5935-large_default/champion-ql82yc-spark-plug.jpg",
     "productWebSearchImageSourcePage": "https://www.piecesbateaux.com/en/champion-candles/5213-champion-ql82yc-spark-plug.html",
     "productWebSearchQuery": "\"201688\" \"CHAMPION SPARK PLUG QL82YC\""
   },
-  {
+  "201692": {
     "productNumber": "201692",
     "description": "CHAMPION SPARK PLUG QL86C",
     "brand": "",
@@ -716,13 +703,12 @@
     "imageUrl": "../images/web-product-images/201692.jpg",
     "catalogueDescription": "BLA CODE INDEX boatinglifestyleadventure BOATING LIFESTYLE ADVENTURE 201688............................................. 589 201692............................................. 589 201720............................................. 589 201770............................................. 589 201800............................................. 589 201801............................................. 635 201844............................................. 634 201845............................................. 634 201846............................................. 634 201847............................................. 634 201875................",
     "productBlockImageUrl": "../images/catalogue/product-blocks/201692.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/201692.jpg",
     "productWebSearchImageUrl": "../images/web-product-images/201692.jpg",
     "productWebSearchImageSourceUrl": "https://www.piecesbateaux.com/5936-large_default/champion-ql86c-spark-plug.jpg",
     "productWebSearchImageSourcePage": "https://www.piecesbateaux.com/en/champion-candles/5214-champion-ql86c-spark-plug.html",
     "productWebSearchQuery": "\"201692\" \"CHAMPION SPARK PLUG QL86C\""
   },
-  {
+  "201720": {
     "productNumber": "201720",
     "description": "CHAMPION SPARK PLUG RA8HC",
     "brand": "",
@@ -749,13 +735,12 @@
     "imageUrl": "../images/web-product-images/201720.jpg",
     "catalogueDescription": "BLA CODE INDEX boatinglifestyleadventure BOATING LIFESTYLE ADVENTURE 201688............................................. 589 201692............................................. 589 201720............................................. 589 201770............................................. 589 201800............................................. 589 201801............................................. 635 201844............................................. 634 201845............................................. 634 201846............................................. 634 201847............................................. 634 201875............................................. 635 201881................",
     "productBlockImageUrl": "../images/catalogue/product-blocks/201720.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/201720.jpg",
     "productWebSearchImageUrl": "../images/web-product-images/201720.jpg",
     "productWebSearchImageSourceUrl": "https://www.piecesbateaux.com/5938-large_default/champion-ra8hc-spark-plug.jpg",
     "productWebSearchImageSourcePage": "https://www.piecesbateaux.com/en/champion-candles/5216-champion-ra8hc-spark-plug.html",
     "productWebSearchQuery": "\"201720\" \"CHAMPION SPARK PLUG RA8HC\""
   },
-  {
+  "201722": {
     "productNumber": "201722",
     "description": "CHAMPION SPARK PLUG RC9YC",
     "brand": "Y",
@@ -774,7 +759,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 3.74,
     "barcode": "9300827074507",
@@ -784,7 +769,7 @@
     "productWebSearchQuery": "\"201722\" \"CHAMPION SPARK PLUG RC9YC\"",
     "imageUrl": "../images/web-product-images/201722.jpg"
   },
-  {
+  "201734": {
     "productNumber": "201734",
     "description": "CHAMPION SPARK PLUG RS12YC",
     "brand": "Y",
@@ -803,7 +788,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 3.74,
     "barcode": "037551000401",
@@ -813,7 +798,7 @@
     "productWebSearchQuery": "\"201734\" \"CHAMPION SPARK PLUG RS12YC\"",
     "imageUrl": "../images/web-product-images/201734.jpg"
   },
-  {
+  "201770": {
     "productNumber": "201770",
     "description": "CHAMPION SPARK PLUG UL77V",
     "brand": "",
@@ -840,13 +825,12 @@
     "imageUrl": "../images/web-product-images/201770.jpg",
     "catalogueDescription": "BLA CODE INDEX boatinglifestyleadventure BOATING LIFESTYLE ADVENTURE 201688............................................. 589 201692............................................. 589 201720............................................. 589 201770............................................. 589 201800............................................. 589 201801............................................. 635 201844............................................. 634 201845............................................. 634 201846............................................. 634 201847............................................. 634 201875............................................. 635 201881............................................. 635 201884................",
     "productBlockImageUrl": "../images/catalogue/product-blocks/201770.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/201770.jpg",
     "productWebSearchImageUrl": "../images/web-product-images/201770.jpg",
     "productWebSearchImageSourceUrl": "https://www.piecesbateaux.com/16832-large_default/champion-ul77v-spark-plug.jpg",
     "productWebSearchImageSourcePage": "https://www.piecesbateaux.com/en/champion-candles/5746-champion-ul77v-spark-plug.html",
     "productWebSearchQuery": "\"201770\" \"CHAMPION SPARK PLUG UL77V\""
   },
-  {
+  "201800": {
     "productNumber": "201800",
     "description": "CHAMPION SPARK PLUG XC12PEPB",
     "brand": "",
@@ -873,13 +857,12 @@
     "imageUrl": "../images/web-product-images/201800.jpg",
     "catalogueDescription": "BLA CODE INDEX boatinglifestyleadventure BOATING LIFESTYLE ADVENTURE 201688............................................. 589 201692............................................. 589 201720............................................. 589 201770............................................. 589 201800............................................. 589 201801............................................. 635 201844............................................. 634 201845............................................. 634 201846............................................. 634 201847............................................. 634 201875............................................. 635 201881............................................. 635 201884............................................. 635 201886................",
     "productBlockImageUrl": "../images/catalogue/product-blocks/201800.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/201800.jpg",
     "productWebSearchImageUrl": "../images/web-product-images/201800.jpg",
     "productWebSearchImageSourceUrl": "https://www.piecesbateaux.com/6728-large_default/champion-xc12pepb-spark-plug.jpg",
     "productWebSearchImageSourcePage": "https://www.piecesbateaux.com/en/champion-candles/5968-champion-xc12pepb-spark-plug.html",
     "productWebSearchQuery": "\"201800\" \"CHAMPION SPARK PLUG XC12PEPB\""
   },
-  {
+  "201801": {
     "productNumber": "201801",
     "description": "SEASTAR SMARTSTICK AND GAUGE KIT T/S ALL HYD JACK PLATES",
     "brand": "Seastar",
@@ -903,7 +886,7 @@
     "exportAudExGst": 566.82,
     "barcode": "808282316518",
     "cataloguePage": 23,
-    "imageUrl": "../images/bla-website-products/201801.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/201801.jpg",
     "catalogueDescription": "BLA CODE INDEX boatinglifestyleadventure BOATING LIFESTYLE ADVENTURE 201688............................................. 589 201692............................................. 589 201720............................................. 589 201770............................................. 589 201800............................................. 589 201801............................................. 635 201844............................................. 634 201845............................................. 634 201846............................................. 634 201847............................................. 634 201875............................................. 635 201881............................................. 635 201884............................................. 635 201886............................................. 635 201890................",
     "productBlockImageUrl": "../images/catalogue/product-blocks/201801.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/seastar-jackplate-smart-stick-gauge-kit/",
@@ -920,7 +903,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/07/201801.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "201802": {
     "productNumber": "201802",
     "description": "SEASTAR SMARTSTICK REPLACEMENT KIT JACK PLATES",
     "brand": "Y",
@@ -939,7 +922,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 435.34,
     "barcode": "731957934383",
@@ -949,7 +932,7 @@
     "productWebSearchQuery": "\"201802\" \"Y SEASTAR SMARTSTICK REPLACEMENT KIT JACK PLATES\"",
     "imageUrl": "../images/web-product-images/201802.webp"
   },
-  {
+  "201844": {
     "productNumber": "201844",
     "description": "SEASTAR MANUAL JACK PLATE SIDE-LOCK 4\" SETBACK",
     "brand": "Seastar",
@@ -968,17 +951,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/23/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 832.01,
     "barcode": "808282344238",
     "cataloguePage": 23,
-    "imageUrl": "../images/catalogue/product-photos/201844.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/201844.jpg",
     "catalogueDescription": "BLA CODE INDEX boatinglifestyleadventure BOATING LIFESTYLE ADVENTURE 201688............................................. 589 201692............................................. 589 201720............................................. 589 201770............................................. 589 201800............................................. 589 201801............................................. 635 201844............................................. 634 201845............................................. 634 201846............................................. 634 201847............................................. 634 201875............................................. 635 201881............................................. 635 201884............................................. 635 201886............................................. 635 201890............................................. 635 201907................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/201844.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/201844.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/201844.jpg"
   },
-  {
+  "201845": {
     "productNumber": "201845",
     "description": "SEASTAR MANUAL JACK PLATE SIDE-LOCK 6\" SETBACK",
     "brand": "Seastar",
@@ -997,17 +979,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/23/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 900.26,
     "barcode": "808282344245",
     "cataloguePage": 23,
-    "imageUrl": "../images/catalogue/product-photos/201845.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/201845.jpg",
     "catalogueDescription": "BLA CODE INDEX boatinglifestyleadventure BOATING LIFESTYLE ADVENTURE 201688............................................. 589 201692............................................. 589 201720............................................. 589 201770............................................. 589 201800............................................. 589 201801............................................. 635 201844............................................. 634 201845............................................. 634 201846............................................. 634 201847............................................. 634 201875............................................. 635 201881............................................. 635 201884............................................. 635 201886............................................. 635 201890............................................. 635 201907............................................. 635 201908................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/201845.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/201845.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/201845.jpg"
   },
-  {
+  "201846": {
     "productNumber": "201846",
     "description": "SEASTAR MANUAL JACK PLATE SIDE-LOCK 8\" SETBACK",
     "brand": "Seastar",
@@ -1026,17 +1007,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/23/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 954.14,
     "barcode": "808282344269",
     "cataloguePage": 23,
-    "imageUrl": "../images/catalogue/product-photos/201846.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/201846.jpg",
     "catalogueDescription": "BLA CODE INDEX boatinglifestyleadventure BOATING LIFESTYLE ADVENTURE 201688............................................. 589 201692............................................. 589 201720............................................. 589 201770............................................. 589 201800............................................. 589 201801............................................. 635 201844............................................. 634 201845............................................. 634 201846............................................. 634 201847............................................. 634 201875............................................. 635 201881............................................. 635 201884............................................. 635 201886............................................. 635 201890............................................. 635 201907............................................. 635 201908............................................. 635 201911................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/201846.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/201846.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/201846.jpg"
   },
-  {
+  "201847": {
     "productNumber": "201847",
     "description": "SEASTAR MANUAL JACK PLATE SIDE-LOCK 10\" SETBACK",
     "brand": "Seastar",
@@ -1055,17 +1035,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/23/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 982.35,
     "barcode": "808282344252",
     "cataloguePage": 23,
-    "imageUrl": "../images/catalogue/product-photos/201847.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/201847.jpg",
     "catalogueDescription": "STYLE ADVENTURE 201688............................................. 589 201692............................................. 589 201720............................................. 589 201770............................................. 589 201800............................................. 589 201801............................................. 635 201844............................................. 634 201845............................................. 634 201846............................................. 634 201847............................................. 634 201875............................................. 635 201881............................................. 635 201884............................................. 635 201886............................................. 635 201890............................................. 635 201907............................................. 635 201908............................................. 635 201911............................................. 634 201912................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/201847.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/201847.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/201847.jpg"
   },
-  {
+  "201875": {
     "productNumber": "201875",
     "description": "SEASTAR ROCKER SWITCH T/S ALL HYDRAULIC JACK PLATES",
     "brand": "Seastar",
@@ -1089,7 +1068,7 @@
     "exportAudExGst": 18.36,
     "barcode": "808282316495",
     "cataloguePage": 23,
-    "imageUrl": "../images/bla-website-products/201875.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/201875.jpg",
     "catalogueDescription": "........... 589 201692............................................. 589 201720............................................. 589 201770............................................. 589 201800............................................. 589 201801............................................. 635 201844............................................. 634 201845............................................. 634 201846............................................. 634 201847............................................. 634 201875............................................. 635 201881............................................. 635 201884............................................. 635 201886............................................. 635 201890............................................. 635 201907............................................. 635 201908............................................. 635 201911............................................. 634 201912............................................. 634 201913................",
     "productBlockImageUrl": "../images/catalogue/product-blocks/201875.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/seastar-basic-rocker-switch/",
@@ -1106,7 +1085,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/07/201875.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "201881": {
     "productNumber": "201881",
     "description": "SEASTAR GAUGE & HARNESS KIT T/S ALL SMARTSTICK JACK PLATES",
     "brand": "Seastar",
@@ -1130,7 +1109,7 @@
     "exportAudExGst": 86.8,
     "barcode": "808282316525",
     "cataloguePage": 23,
-    "imageUrl": "../images/bla-website-products/201881.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/201881.jpg",
     "catalogueDescription": "........... 589 201720............................................. 589 201770............................................. 589 201800............................................. 589 201801............................................. 635 201844............................................. 634 201845............................................. 634 201846............................................. 634 201847............................................. 634 201875............................................. 635 201881............................................. 635 201884............................................. 635 201886............................................. 635 201890............................................. 635 201907............................................. 635 201908............................................. 635 201911............................................. 634 201912............................................. 634 201913............................................. 634 201914................",
     "productBlockImageUrl": "../images/catalogue/product-blocks/201881.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/seastar-jackplate-gauge-harness-kit/",
@@ -1147,7 +1126,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/07/201881.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "201884": {
     "productNumber": "201884",
     "description": "SEASTAR MOUNTING KIT 1/2\"X2 1/2\" 13UNC",
     "brand": "Seastar",
@@ -1166,17 +1145,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/23/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 61.82,
     "barcode": "808282303563",
     "cataloguePage": 23,
-    "imageUrl": "../images/catalogue/product-photos/201884.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/201884.jpg",
     "catalogueDescription": "........... 589 201770............................................. 589 201800............................................. 589 201801............................................. 635 201844............................................. 634 201845............................................. 634 201846............................................. 634 201847............................................. 634 201875............................................. 635 201881............................................. 635 201884............................................. 635 201886............................................. 635 201890............................................. 635 201907............................................. 635 201908............................................. 635 201911............................................. 634 201912............................................. 634 201913............................................. 634 201914............................................. 634 201915................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/201884.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/201884.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/201884.jpg"
   },
-  {
+  "201886": {
     "productNumber": "201886",
     "description": "SEASTAR MOUNTING KIT 1/2\"X3 1/2\" 13UNC",
     "brand": "Seastar",
@@ -1195,17 +1173,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/23/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 67.08,
     "barcode": "808282303570",
     "cataloguePage": 23,
-    "imageUrl": "../images/catalogue/product-photos/201886.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/201886.jpg",
     "catalogueDescription": "........... 589 201800............................................. 589 201801............................................. 635 201844............................................. 634 201845............................................. 634 201846............................................. 634 201847............................................. 634 201875............................................. 635 201881............................................. 635 201884............................................. 635 201886............................................. 635 201890............................................. 635 201907............................................. 635 201908............................................. 635 201911............................................. 634 201912............................................. 634 201913............................................. 634 201914............................................. 634 201915............................................. 634 201916................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/201886.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/201886.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/201886.jpg"
   },
-  {
+  "201890": {
     "productNumber": "201890",
     "description": "SEASTAR MOUNTING KIT 1/2\"X4 1/2\" 13UNC",
     "brand": "Seastar",
@@ -1224,17 +1201,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/23/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 95.08,
     "barcode": "808282303587",
     "cataloguePage": 23,
-    "imageUrl": "../images/catalogue/product-photos/201890.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/201890.jpg",
     "catalogueDescription": "........... 589 201801............................................. 635 201844............................................. 634 201845............................................. 634 201846............................................. 634 201847............................................. 634 201875............................................. 635 201881............................................. 635 201884............................................. 635 201886............................................. 635 201890............................................. 635 201907............................................. 635 201908............................................. 635 201911............................................. 634 201912............................................. 634 201913............................................. 634 201914............................................. 634 201915............................................. 634 201916............................................. 634 201921................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/201890.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/201890.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/201890.jpg"
   },
-  {
+  "201892": {
     "productNumber": "201892",
     "description": "SEASTAR MOUNTING KIT 1/2\"X6 1/2\" 13UNC",
     "brand": "Y",
@@ -1253,7 +1229,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 130.89,
     "barcode": "808282303594",
@@ -1263,7 +1239,7 @@
     "productWebSearchQuery": "\"201892\" \"Y SEASTAR MOUNTING KIT 1/2\"X6 1/2\" 13UNC\"",
     "imageUrl": "../images/web-product-images/201892.webp"
   },
-  {
+  "201895": {
     "productNumber": "201895",
     "description": "SEASTAR QUICK CONNECT KIT TO SUIT POWER PURGE JNR",
     "brand": "Seastar",
@@ -1282,7 +1258,7 @@
     "subCategoryDescription": "Batteries, Charging & Solar products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 136.79,
     "barcode": "731957911698",
@@ -1292,7 +1268,7 @@
     "productWebSearchQuery": "\"201895\" \"Seastar SEASTAR QUICK CONNECT KIT TO SUIT POWER PURGE JNR\"",
     "imageUrl": "../images/web-product-images/201895.jpg"
   },
-  {
+  "201902": {
     "productNumber": "201902",
     "description": "SEASTAR ACCESS ADAPTOR T/S TALON & POWER POLE",
     "brand": "Y",
@@ -1311,12 +1287,12 @@
     "subCategoryDescription": "Batteries, Charging & Solar products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/663/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 183.61,
     "barcode": "731957922571",
     "cataloguePage": 663,
-    "imageUrl": "../images/bla-website-products/201902.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/201902.jpg",
     "catalogueDescription": "the side \u2022 Easier access to transom mounting bolts \u2022 Thicker anodising with anode attachment points \u2022 Improved smoother bushing design \u2022 Shallow water anchor mountable on all setbacks \u2022 Easier SmartStick installation for ProTap upgrades \u2022 Lower weight BLA Code Description Weight kg 201921 4\" Setback Xtreme 25.4 201923 6\" Setback Xtreme 25.8 201925 8\" Setback Xtreme 26.7 201922 4\" Setback-SmartStick Xtreme 25.4 201924 6\" Setback-SmartStick Xtreme 37 201926 8\" Setback-SmartStick Xtreme 37 N.B. Accessory adapter kit (201902) is required for installation of Power Pole\u00ae or Talon\u00ae Smart Stick Jack Plates include a fitted Smart Stick, will require Jack Plate Gauge and Harness Kit 281881 to show heights of travel ENGINE PARTS & ACCESSORIES 20 633 BOATING LIFESTYLE ADVENTURE",
     "productBlockImageUrl": "../images/catalogue/product-blocks/201902.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/seastar-accessory-adaptor/",
@@ -1333,7 +1309,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/07/201902.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "201907": {
     "productNumber": "201907",
     "description": "SEASTAR HYDRAULIC JACK PLATE RELAY",
     "brand": "Seastar",
@@ -1352,12 +1328,12 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/23/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 24.81,
     "barcode": "808282303464",
     "cataloguePage": 23,
-    "imageUrl": "../images/bla-website-products/201907.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/201907.jpg",
     "catalogueDescription": "........... 635 201844............................................. 634 201845............................................. 634 201846............................................. 634 201847............................................. 634 201875............................................. 635 201881............................................. 635 201884............................................. 635 201886............................................. 635 201890............................................. 635 201907............................................. 635 201908............................................. 635 201911............................................. 634 201912............................................. 634 201913............................................. 634 201914............................................. 634 201915............................................. 634 201916............................................. 634 201921............................................. 633 201922................",
     "productBlockImageUrl": "../images/catalogue/product-blocks/201907.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/seastar-jackplates-relay/",
@@ -1374,7 +1350,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/07/201907.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "201908": {
     "productNumber": "201908",
     "description": "SEASTAR HYDRAULIC JACK PLATE WIRE HARNESS",
     "brand": "Seastar",
@@ -1393,12 +1369,12 @@
     "subCategoryDescription": "Switches, Cable & Circuit Protection products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/23/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 250.43,
     "barcode": "731957924773",
     "cataloguePage": 23,
-    "imageUrl": "../images/bla-website-products/201908.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/201908.jpg",
     "catalogueDescription": "........... 634 201845............................................. 634 201846............................................. 634 201847............................................. 634 201875............................................. 635 201881............................................. 635 201884............................................. 635 201886............................................. 635 201890............................................. 635 201907............................................. 635 201908............................................. 635 201911............................................. 634 201912............................................. 634 201913............................................. 634 201914............................................. 634 201915............................................. 634 201916............................................. 634 201921............................................. 633 201922............................................. 633 201923................",
     "productBlockImageUrl": "../images/catalogue/product-blocks/201908.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/seastar-jackplates-wire-harness/",
@@ -1415,7 +1391,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/07/201908.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "201909": {
     "productNumber": "201909",
     "description": "SEASTAR HYDRAULIC JACK PLATE ACTUATOR 3/8\" BOLT",
     "brand": "Y",
@@ -1444,7 +1420,7 @@
     "productWebSearchQuery": "\"201909\" \"SEASTAR HYDRAULIC JACK PLATE ACTUATOR 3/8\" BOLT\"",
     "imageUrl": "../images/web-product-images/201909.jpg"
   },
-  {
+  "201910": {
     "productNumber": "201910",
     "description": "SEASTAR ANODE KIT JACK PLATES",
     "brand": "Y",
@@ -1463,7 +1439,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 91.23,
     "barcode": "731957931733",
@@ -1473,7 +1449,7 @@
     "productWebSearchQuery": "\"201910\" \"Y SEASTAR ANODE KIT JACK PLATES\"",
     "imageUrl": "../images/web-product-images/201910.jpg"
   },
-  {
+  "201911": {
     "productNumber": "201911",
     "description": "SEASTAR HYDRAULIC STD JACK PLATE 4\" SET BACK",
     "brand": "Seastar",
@@ -1492,17 +1468,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/23/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 2075.16,
     "barcode": "731957929600",
     "cataloguePage": 23,
-    "imageUrl": "../images/catalogue/product-photos/201911.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/201911.jpg",
     "catalogueDescription": "........... 634 201846............................................. 634 201847............................................. 634 201875............................................. 635 201881............................................. 635 201884............................................. 635 201886............................................. 635 201890............................................. 635 201907............................................. 635 201908............................................. 635 201911............................................. 634 201912............................................. 634 201913............................................. 634 201914............................................. 634 201915............................................. 634 201916............................................. 634 201921............................................. 633 201922............................................. 633 201923............................................. 633 201924................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/201911.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/201911.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/201911.jpg"
   },
-  {
+  "201912": {
     "productNumber": "201912",
     "description": "SEASTAR HYDRAULIC STD JACK PLATE 4\" SET BACK WITH SMARTSTICK",
     "brand": "Seastar",
@@ -1521,17 +1496,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/23/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
-    "exportAudExGst": 2491,
+    "exportAudExGst": 2491.0,
     "barcode": "731957930071",
     "cataloguePage": 23,
-    "imageUrl": "../images/catalogue/product-photos/201912.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/201912.jpg",
     "catalogueDescription": "........... 634 201847............................................. 634 201875............................................. 635 201881............................................. 635 201884............................................. 635 201886............................................. 635 201890............................................. 635 201907............................................. 635 201908............................................. 635 201911............................................. 634 201912............................................. 634 201913............................................. 634 201914............................................. 634 201915............................................. 634 201916............................................. 634 201921............................................. 633 201922............................................. 633 201923............................................. 633 201924............................................. 633 201925................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/201912.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/201912.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/201912.jpg"
   },
-  {
+  "201913": {
     "productNumber": "201913",
     "description": "SEASTAR HYDRAULIC STD JACK PLATE 6\" SET BACK",
     "brand": "Seastar",
@@ -1550,17 +1524,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/23/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 2104.84,
     "barcode": "731957929624",
     "cataloguePage": 23,
-    "imageUrl": "../images/catalogue/product-photos/201913.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/201913.jpg",
     "catalogueDescription": "........... 634 201875............................................. 635 201881............................................. 635 201884............................................. 635 201886............................................. 635 201890............................................. 635 201907............................................. 635 201908............................................. 635 201911............................................. 634 201912............................................. 634 201913............................................. 634 201914............................................. 634 201915............................................. 634 201916............................................. 634 201921............................................. 633 201922............................................. 633 201923............................................. 633 201924............................................. 633 201925............................................. 633 201926................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/201913.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/201913.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/201913.jpg"
   },
-  {
+  "201914": {
     "productNumber": "201914",
     "description": "SEASTAR HYDRAULIC STD JACK PLATE 6\" SET BACK WITH SMARTSTICK",
     "brand": "Seastar",
@@ -1579,17 +1552,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/23/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 2520.71,
     "barcode": "731957930149",
     "cataloguePage": 23,
-    "imageUrl": "../images/catalogue/product-photos/201914.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/201914.jpg",
     "catalogueDescription": "........... 635 201881............................................. 635 201884............................................. 635 201886............................................. 635 201890............................................. 635 201907............................................. 635 201908............................................. 635 201911............................................. 634 201912............................................. 634 201913............................................. 634 201914............................................. 634 201915............................................. 634 201916............................................. 634 201921............................................. 633 201922............................................. 633 201923............................................. 633 201924............................................. 633 201925............................................. 633 201926............................................. 633 201940................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/201914.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/201914.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/201914.jpg"
   },
-  {
+  "201915": {
     "productNumber": "201915",
     "description": "SEASTAR HYDRAULIC STD JACK PLATE 8\" SET BACK",
     "brand": "Seastar",
@@ -1608,17 +1580,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/23/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 2376.31,
     "barcode": "731957929648",
     "cataloguePage": 23,
-    "imageUrl": "../images/catalogue/product-photos/201915.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/201915.jpg",
     "catalogueDescription": "........... 635 201884............................................. 635 201886............................................. 635 201890............................................. 635 201907............................................. 635 201908............................................. 635 201911............................................. 634 201912............................................. 634 201913............................................. 634 201914............................................. 634 201915............................................. 634 201916............................................. 634 201921............................................. 633 201922............................................. 633 201923............................................. 633 201924............................................. 633 201925............................................. 633 201926............................................. 633 201940............................................. 633 201941................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/201915.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/201915.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/201915.jpg"
   },
-  {
+  "201916": {
     "productNumber": "201916",
     "description": "SEASTAR HYDRAULIC STD JACK PLATE 8\" SET BACK WITH SMARTSTICK",
     "brand": "Seastar",
@@ -1637,17 +1608,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/23/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 2792.18,
     "barcode": "731957930088",
     "cataloguePage": 23,
-    "imageUrl": "../images/catalogue/product-photos/201916.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/201916.jpg",
     "catalogueDescription": "........... 635 201886............................................. 635 201890............................................. 635 201907............................................. 635 201908............................................. 635 201911............................................. 634 201912............................................. 634 201913............................................. 634 201914............................................. 634 201915............................................. 634 201916............................................. 634 201921............................................. 633 201922............................................. 633 201923............................................. 633 201924............................................. 633 201925............................................. 633 201926............................................. 633 201940............................................. 633 201941............................................. 633 202112................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/201916.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/201916.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/201916.jpg"
   },
-  {
+  "201917": {
     "productNumber": "201917",
     "description": "SEASTAR HYDRAULIC STD JACK PLATE 10\" SET BACK",
     "brand": "Y",
@@ -1666,17 +1636,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/664/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 2420.84,
     "barcode": "731957929662",
     "cataloguePage": 664,
-    "imageUrl": "../images/catalogue/product-photos/201917.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/201917.jpg",
     "catalogueDescription": "201913 6\" Setback BLA Code Description Weight kg 201911 4\" Setback Standard 25.4 201913 6\" Setback Standard 25.8 201915 8\" Setback Standard 26.7 201912 4\" Setback-SmartStick Standard 28 201914 6\" Setback-SmartStick Standard 37 201916 8\" Setback-SmartStick Standard 37 201917 10\" Setback Dometic SeaStar Jackplates - Hydraulic Standard The Dometic SeaStar Jackplate is one of the sleekest and most durable engine Jackplates available. This essential performance accessory allows for higher speed, gains in fuel economy and the ability to run in shallow water. The all new Dometic SeaStar Jackplate features sleek, bold styling that is redefining the look for Jackplates. Available in 4, 6, 8, 10 and 12 inch setbacks, it also has a new, high-speed, hydraulic actuator that lifts engines in 8.5 s",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/201917.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/201917.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/201917.jpg"
   },
-  {
+  "201918": {
     "productNumber": "201918",
     "description": "SEASTAR HYDRAULIC STD JACK PLATE 10\" SET BACK W/SMARTSTICK",
     "brand": "Y",
@@ -1695,7 +1664,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 2836.71,
     "barcode": "731957930095",
@@ -1705,7 +1674,7 @@
     "productWebSearchQuery": "\"201918\" \"SEASTAR HYDRAULIC STD JACK PLATE 10\" SET BACK W/SMARTSTICK\"",
     "imageUrl": "../images/web-product-images/201918.jpg"
   },
-  {
+  "201919": {
     "productNumber": "201919",
     "description": "SEASTAR HYDRAULIC STD JACK PLATE 12\" SET BACK",
     "brand": "Y",
@@ -1724,17 +1693,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/664/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 2569.37,
     "barcode": "731957929686",
     "cataloguePage": 664,
-    "imageUrl": "../images/catalogue/product-photos/201919.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/201919.jpg",
     "catalogueDescription": "ormation \u2022 Compatible with Power-Pole and Talon anchor systems on all Setbacks. Easy mounting with Dometic SeaStar Accessory Adapter kit. \u2022 Complete rigid engine support at full thrust \u2022 Easily moves engine at full thrust \u2022 Designed to maximise engine tilt with Dometic SeaStar steering cylinders N.B. Accessory adapter kit (201902) is required for installation of Power Pole\u00ae or Talon\u00ae Smart Stick Jack Plates include a fitted Smart Stick, will require Jack Plate Gauge and Harness Kit 281881 to show heights of travel 201919 12\" Setback Dometic SeaStar Jackplates - Manual The manual series Jackplate comes in 4\", 6\", 8\", and 10\" setbacks to help you find the best match for your boat and optimise performance. Features: \u2022 The interlocking slide guides offer enhanced strength while providing smooth, bind-free travel \u2022 The lead screw assembly sets the plate height with 5\" of adjustment and the Side Locks are used to hold the position \u2022 The stainless steel lead screw is resistant to corrosion and pre-greased for smooth operation \u2022 The maxim",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/201919.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/201919.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/201919.jpg"
   },
-  {
+  "201920": {
     "productNumber": "201920",
     "description": "SEASTAR HYDRAULIC STD JACK PLATE 12\" SET BACK W/SMARTSTICK",
     "brand": "Y",
@@ -1753,7 +1721,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 2985.22,
     "barcode": "731957930057",
@@ -1763,7 +1731,7 @@
     "productWebSearchQuery": "\"201920\" \"SEASTAR HYDRAULIC STD JACK PLATE 12\" SET BACK W/SMARTSTICK\"",
     "imageUrl": "../images/web-product-images/201920.jpg"
   },
-  {
+  "201921": {
     "productNumber": "201921",
     "description": "SEASTAR HYD XTREME JACK PLATE 4\" SET BACK",
     "brand": "Seastar",
@@ -1782,17 +1750,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/23/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 2377.06,
     "barcode": "731957929617",
     "cataloguePage": 23,
-    "imageUrl": "../images/catalogue/product-photos/201921.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/201921.jpg",
     "catalogueDescription": "........... 635 201890............................................. 635 201907............................................. 635 201908............................................. 635 201911............................................. 634 201912............................................. 634 201913............................................. 634 201914............................................. 634 201915............................................. 634 201916............................................. 634 201921............................................. 633 201922............................................. 633 201923............................................. 633 201924............................................. 633 201925............................................. 633 201926............................................. 633 201940............................................. 633 201941............................................. 633 202112............................................. 641 202116................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/201921.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/201921.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/201921.jpg"
   },
-  {
+  "201922": {
     "productNumber": "201922",
     "description": "SEASTAR HYD XTREME JACK PLATE 4\" SET BACK WITH SMARTSTICK",
     "brand": "Seastar",
@@ -1811,17 +1778,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/23/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 2784.74,
     "barcode": "731957930132",
     "cataloguePage": 23,
-    "imageUrl": "../images/catalogue/product-photos/201922.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/201922.jpg",
     "catalogueDescription": "........... 635 201907............................................. 635 201908............................................. 635 201911............................................. 634 201912............................................. 634 201913............................................. 634 201914............................................. 634 201915............................................. 634 201916............................................. 634 201921............................................. 633 201922............................................. 633 201923............................................. 633 201924............................................. 633 201925............................................. 633 201926............................................. 633 201940............................................. 633 201941............................................. 633 202112............................................. 641 202116............................................. 641 202124................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/201922.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/201922.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/201922.jpg"
   },
-  {
+  "201923": {
     "productNumber": "201923",
     "description": "SEASTAR HYD XTREME JACK PLATE 6\" SET BACK",
     "brand": "Seastar",
@@ -1840,17 +1806,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/23/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 2406.16,
     "barcode": "731957929631",
     "cataloguePage": 23,
-    "imageUrl": "../images/catalogue/product-photos/201923.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/201923.jpg",
     "catalogueDescription": "........... 635 201908............................................. 635 201911............................................. 634 201912............................................. 634 201913............................................. 634 201914............................................. 634 201915............................................. 634 201916............................................. 634 201921............................................. 633 201922............................................. 633 201923............................................. 633 201924............................................. 633 201925............................................. 633 201926............................................. 633 201940............................................. 633 201941............................................. 633 202112............................................. 641 202116............................................. 641 202124............................................. 641 202126................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/201923.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/201923.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/201923.jpg"
   },
-  {
+  "201924": {
     "productNumber": "201924",
     "description": "SEASTAR HYD XTREME JACK PLATE 6\" SET BACK WITH SMARTSTICK",
     "brand": "Seastar",
@@ -1869,17 +1834,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/23/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 2813.87,
     "barcode": "731957930156",
     "cataloguePage": 23,
-    "imageUrl": "../images/catalogue/product-photos/201924.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/201924.jpg",
     "catalogueDescription": "........... 635 201911............................................. 634 201912............................................. 634 201913............................................. 634 201914............................................. 634 201915............................................. 634 201916............................................. 634 201921............................................. 633 201922............................................. 633 201923............................................. 633 201924............................................. 633 201925............................................. 633 201926............................................. 633 201940............................................. 633 201941............................................. 633 202112............................................. 641 202116............................................. 641 202124............................................. 641 202126............................................. 641 202136................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/201924.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/201924.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/201924.jpg"
   },
-  {
+  "201925": {
     "productNumber": "201925",
     "description": "SEASTAR HYD XTREME JACK PLATE 8\" SET BACK",
     "brand": "Seastar",
@@ -1898,17 +1862,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/23/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 2672.32,
     "barcode": "731957929655",
     "cataloguePage": 23,
-    "imageUrl": "../images/catalogue/product-photos/201925.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/201925.jpg",
     "catalogueDescription": "........... 634 201912............................................. 634 201913............................................. 634 201914............................................. 634 201915............................................. 634 201916............................................. 634 201921............................................. 633 201922............................................. 633 201923............................................. 633 201924............................................. 633 201925............................................. 633 201926............................................. 633 201940............................................. 633 201941............................................. 633 202112............................................. 641 202116............................................. 641 202124............................................. 641 202126............................................. 641 202136............................................. 641 202140................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/201925.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/201925.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/201925.jpg"
   },
-  {
+  "201926": {
     "productNumber": "201926",
     "description": "SEASTAR HYD XTREME JACK PLATE 8\" SET BACK WITH SMARTSTICK",
     "brand": "Seastar",
@@ -1927,17 +1890,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/23/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 3080.02,
     "barcode": "731957930163",
     "cataloguePage": 23,
-    "imageUrl": "../images/catalogue/product-photos/201926.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/201926.jpg",
     "catalogueDescription": "........... 634 201913............................................. 634 201914............................................. 634 201915............................................. 634 201916............................................. 634 201921............................................. 633 201922............................................. 633 201923............................................. 633 201924............................................. 633 201925............................................. 633 201926............................................. 633 201940............................................. 633 201941............................................. 633 202112............................................. 641 202116............................................. 641 202124............................................. 641 202126............................................. 641 202136............................................. 641 202140............................................. 641 202148................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/201926.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/201926.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/201926.jpg"
   },
-  {
+  "201927": {
     "productNumber": "201927",
     "description": "SEASTAR HYD XTREME JACK PLATE 10\" SET BACK",
     "brand": "Y",
@@ -1956,7 +1918,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 2810.42,
     "barcode": "731957929679",
@@ -1966,7 +1928,7 @@
     "productWebSearchQuery": "\"201927\" \"SEASTAR HYD XTREME JACK PLATE 10\" SET BACK\"",
     "imageUrl": "../images/web-product-images/201927.webp"
   },
-  {
+  "201928": {
     "productNumber": "201928",
     "description": "SEASTAR HYD XTREME JACK PLATE 10\" SET BACK W/SMARTSTICK",
     "brand": "Y",
@@ -1985,7 +1947,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 3232.28,
     "barcode": "731957930170",
@@ -1995,7 +1957,7 @@
     "productWebSearchQuery": "\"201928\" \"SEASTAR HYD XTREME JACK PLATE 10\" SET BACK W/SMARTSTICK\"",
     "imageUrl": "../images/web-product-images/201928.webp"
   },
-  {
+  "201929": {
     "productNumber": "201929",
     "description": "SEASTAR HYD XTREME JACK PLATE 12\" SET BACK",
     "brand": "Y",
@@ -2014,7 +1976,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 2961.08,
     "barcode": "731957929693",
@@ -2024,7 +1986,7 @@
     "productWebSearchQuery": "\"201929\" \"SEASTAR HYD XTREME JACK PLATE 12\" SET BACK\"",
     "imageUrl": "../images/web-product-images/201929.png"
   },
-  {
+  "201930": {
     "productNumber": "201930",
     "description": "SEASTAR HYD XTREME JACK PLATE 12\" SET BACK W/SMARTSTICK",
     "brand": "Y",
@@ -2043,7 +2005,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 3382.94,
     "barcode": "731957930187",
@@ -2053,7 +2015,36 @@
     "productWebSearchQuery": "\"201930\" \"SEASTAR HYD XTREME JACK PLATE 12\" SET BACK W/SMARTSTICK\"",
     "imageUrl": "../images/web-product-images/201930.png"
   },
-  {
+  "2019310": {
+    "productNumber": "2019310",
+    "description": "DOMETIC INTERACT DRIVE ENGINE POSITION CONTROLLER",
+    "brand": "",
+    "variant": "PC",
+    "price": 2586.41,
+    "unitCostOfSale": 1519.65,
+    "categoryName": "Tools & Chandlery",
+    "topCategory": "Tools & Chandlery",
+    "subCategoryName": "General Marine Supplies",
+    "subCategory": "M - Marine Supplies",
+    "pricingCategoryUsed": "M - Marine Supplies",
+    "categoryImage": "../images/catalogue/pages/page0481.jpg",
+    "subCategoryImage": "../images/catalogue/pages/page0481.jpg",
+    "catalogueImageUrl": "../images/catalogue/bla-edition-15-cover.jpg",
+    "categoryDescription": "Tools & Chandlery from the BLA Australia Edition 15 catalogue.",
+    "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
+    "sourceUrl": "",
+    "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
+    "estimatedWeightKg": 3.0,
+    "freightAud": 14.4,
+    "exportAudExGst": 897.39,
+    "barcode": "7315091537681",
+    "productWebSearchImageUrl": "../images/web-product-images/2019310.png",
+    "productWebSearchImageSourceUrl": "https://cdn11.bigcommerce.com/s-hz7o37/images/stencil/1280x1280/products/8910/10312/JC4500_TopView__51327.1721326964.png?c=2?imbypass=on",
+    "productWebSearchImageSourcePage": "",
+    "productWebSearchQuery": "\"2019310\" \"DOMETIC INTERACT DRIVE ENGINE POSITION CONTROLLER\"",
+    "imageUrl": "../images/web-product-images/2019310.png"
+  },
+  "201931": {
     "productNumber": "201931",
     "description": "SEASTAR PRO TAP CONTROLLER BAY/BASS MODE",
     "brand": "Y",
@@ -2072,7 +2063,7 @@
     "subCategoryDescription": "Toilets, Plumbing & Galley products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 810.98,
     "barcode": "731957926678",
@@ -2082,7 +2073,36 @@
     "productWebSearchQuery": "\"201931\" \"SEASTAR PRO TAP CONTROLLER BAY/BASS MODE\"",
     "imageUrl": "../images/web-product-images/201931.webp"
   },
-  {
+  "2019320": {
+    "productNumber": "2019320",
+    "description": "DOMETIC INTERACT DRIVE ENGINE POSITION CONTROLLER NO GUAGE",
+    "brand": "",
+    "variant": "PC",
+    "price": 4452.16,
+    "unitCostOfSale": 2617.15,
+    "categoryName": "Tools & Chandlery",
+    "topCategory": "Tools & Chandlery",
+    "subCategoryName": "General Marine Supplies",
+    "subCategory": "M - Marine Supplies",
+    "pricingCategoryUsed": "M - Marine Supplies",
+    "categoryImage": "../images/catalogue/pages/page0481.jpg",
+    "subCategoryImage": "../images/catalogue/pages/page0481.jpg",
+    "catalogueImageUrl": "../images/catalogue/bla-edition-15-cover.jpg",
+    "categoryDescription": "Tools & Chandlery from the BLA Australia Edition 15 catalogue.",
+    "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
+    "sourceUrl": "",
+    "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
+    "estimatedWeightKg": 8.0,
+    "freightAud": 38.4,
+    "exportAudExGst": 1531.89,
+    "barcode": "7315091537698",
+    "productWebSearchImageUrl": "../images/web-product-images/2019320.jpg",
+    "productWebSearchImageSourceUrl": "https://dometicparts.dometic.com/AssertWeb/en-GB/Dometic/Content/Image?id=25415",
+    "productWebSearchImageSourcePage": "",
+    "productWebSearchQuery": "\"2019320\" \"DOMETIC INTERACT DRIVE ENGINE POSITION CONTROLLER NO GUAGE\"",
+    "imageUrl": "../images/web-product-images/2019320.jpg"
+  },
+  "201932": {
     "productNumber": "201932",
     "description": "SEASTAR PRO TAP CONTROLLER FLATS MODE",
     "brand": "Y",
@@ -2101,7 +2121,7 @@
     "subCategoryDescription": "Toilets, Plumbing & Galley products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 610.15,
     "barcode": "731957926685",
@@ -2111,7 +2131,7 @@
     "productWebSearchQuery": "\"201932\" \"Y SEASTAR PRO TAP CONTROLLER FLATS MODE\"",
     "imageUrl": "../images/web-product-images/201932.jpg"
   },
-  {
+  "201933": {
     "productNumber": "201933",
     "description": "SEASTAR PRO TAP & S/STICK CONTROL BAY/BASS MODE (NO GAUGE)",
     "brand": "Y",
@@ -2140,7 +2160,7 @@
     "productWebSearchQuery": "\"201933\" \"SEASTAR PRO TAP & S/STICK CONTROL BAY/BASS MODE (NO GAUGE)\"",
     "imageUrl": "../images/web-product-images/201933.jpg"
   },
-  {
+  "201934": {
     "productNumber": "201934",
     "description": "SEASTAR PRO TAP & S/STICK CONTROL FLATS MODE (NO GAUGE)",
     "brand": "Y",
@@ -2169,7 +2189,7 @@
     "productWebSearchQuery": "\"201934\" \"Y SEASTAR PRO TAP & S/STICK CONTROL FLATS MODE (NO GAUGE)\"",
     "imageUrl": "../images/web-product-images/201934.webp"
   },
-  {
+  "201935": {
     "productNumber": "201935",
     "description": "SEASTAR PRO TAP HARNESS NMEA 2000",
     "brand": "Y",
@@ -2188,7 +2208,7 @@
     "subCategoryDescription": "Toilets, Plumbing & Galley products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 176.47,
     "barcode": "731957926999",
@@ -2198,7 +2218,7 @@
     "productWebSearchQuery": "\"201935\" \"Y SEASTAR PRO TAP HARNESS NMEA 2000\"",
     "imageUrl": "../images/web-product-images/201935.jpg"
   },
-  {
+  "201936": {
     "productNumber": "201936",
     "description": "SEASTAR PRO TAP HARNESS YAMAHA WITH 2 WIRE SENDER",
     "brand": "Y",
@@ -2217,7 +2237,7 @@
     "subCategoryDescription": "Switches, Cable & Circuit Protection products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 123.51,
     "barcode": "731957926876",
@@ -2227,7 +2247,7 @@
     "productWebSearchQuery": "\"201936\" \"SEASTAR PRO TAP HARNESS YAMAHA WITH 2 WIRE SENDER\"",
     "imageUrl": "../images/web-product-images/201936.jpg"
   },
-  {
+  "201937": {
     "productNumber": "201937",
     "description": "SEASTAR PRO TAP HARNESS YAMAHA WITH 3 WIRE SENDER",
     "brand": "Y",
@@ -2246,7 +2266,7 @@
     "subCategoryDescription": "Switches, Cable & Circuit Protection products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 158.81,
     "barcode": "731957926883",
@@ -2256,7 +2276,7 @@
     "productWebSearchQuery": "\"201937\" \"SEASTAR PRO TAP HARNESS YAMAHA WITH 3 WIRE SENDER\"",
     "imageUrl": "../images/web-product-images/201937.jpg"
   },
-  {
+  "201938": {
     "productNumber": "201938",
     "description": "SEASTAR PRO TAP HARNESS MERCURY SMARTCRAFT DIGITAL SENDER",
     "brand": "Y",
@@ -2275,7 +2295,7 @@
     "subCategoryDescription": "Toilets, Plumbing & Galley products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 88.21,
     "barcode": "731957926890",
@@ -2285,7 +2305,7 @@
     "productWebSearchQuery": "\"201938\" \"SEASTAR PRO TAP HARNESS MERCURY SMARTCRAFT DIGITAL SENDER\"",
     "imageUrl": "../images/web-product-images/201938.jpg"
   },
-  {
+  "201939": {
     "productNumber": "201939",
     "description": "SEASTAR PRO TAP HARNESS MERCURY VERADO 4/6 CYL",
     "brand": "Y",
@@ -2304,7 +2324,7 @@
     "subCategoryDescription": "Toilets, Plumbing & Galley products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 105.86,
     "barcode": "731957926906",
@@ -2314,7 +2334,7 @@
     "productWebSearchQuery": "\"201939\" \"SEASTAR PRO TAP HARNESS MERCURY VERADO 4/6 CYL\"",
     "imageUrl": "../images/web-product-images/201939.jpg"
   },
-  {
+  "201940": {
     "productNumber": "201940",
     "description": "SEASTAR JACK PLATE MEGA 6\" SET BACK STANDARD MOUNT",
     "brand": "Seastar",
@@ -2333,17 +2353,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/23/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 5384.32,
     "barcode": "731957936998",
     "cataloguePage": 23,
-    "imageUrl": "../images/catalogue/product-photos/201940.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/201940.jpg",
     "catalogueDescription": "........... 634 201914............................................. 634 201915............................................. 634 201916............................................. 634 201921............................................. 633 201922............................................. 633 201923............................................. 633 201924............................................. 633 201925............................................. 633 201926............................................. 633 201940............................................. 633 201941............................................. 633 202112............................................. 641 202116............................................. 641 202124............................................. 641 202126............................................. 641 202136............................................. 641 202140............................................. 641 202148............................................. 641 202152................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/201940.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/201940.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/201940.jpg"
   },
-  {
+  "201941": {
     "productNumber": "201941",
     "description": "SEASTAR JACK PLATE MEGA 6\" SET BACK WIDE MOUNT",
     "brand": "Y",
@@ -2362,17 +2381,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/23/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 5538.23,
     "barcode": "731957937025",
     "cataloguePage": 23,
-    "imageUrl": "../images/catalogue/product-photos/201941.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/201941.jpg",
     "catalogueDescription": "........... 634 201915............................................. 634 201916............................................. 634 201921............................................. 633 201922............................................. 633 201923............................................. 633 201924............................................. 633 201925............................................. 633 201926............................................. 633 201940............................................. 633 201941............................................. 633 202112............................................. 641 202116............................................. 641 202124............................................. 641 202126............................................. 641 202136............................................. 641 202140............................................. 641 202148............................................. 641 202152............................................. 641 202160................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/201941.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/201941.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/201941.jpg"
   },
-  {
+  "201942": {
     "productNumber": "201942",
     "description": "SEASTAR JACK PLATE MEGA 8\" SET BACK STANDARD MOUNT",
     "brand": "Y",
@@ -2391,7 +2409,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 5538.23,
     "barcode": "731957937001",
@@ -2401,7 +2419,7 @@
     "productWebSearchQuery": "\"201942\" \"Y SEASTAR JACK PLATE MEGA 8\" SET BACK STANDARD MOUNT\"",
     "imageUrl": "../images/web-product-images/201942.jpg"
   },
-  {
+  "201943": {
     "productNumber": "201943",
     "description": "SEASTAR JACK PLATE MEGA 8\" SET BACK WIDE MOUNT",
     "brand": "Y",
@@ -2420,7 +2438,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 5692.09,
     "barcode": "731957937032",
@@ -2430,7 +2448,7 @@
     "productWebSearchQuery": "\"201943\" \"Y SEASTAR JACK PLATE MEGA 8\" SET BACK WIDE MOUNT\"",
     "imageUrl": "../images/web-product-images/201943.jpg"
   },
-  {
+  "201944": {
     "productNumber": "201944",
     "description": "SEASTAR JACK PLATE MEGA 10\" SET BACK STANDARD MOUNT",
     "brand": "Y",
@@ -2449,7 +2467,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 5692.09,
     "barcode": "731957937018",
@@ -2459,7 +2477,7 @@
     "productWebSearchQuery": "\"201944\" \"Y SEASTAR JACK PLATE MEGA 10\" SET BACK STANDARD MOUNT\"",
     "imageUrl": "../images/web-product-images/201944.jpg"
   },
-  {
+  "201945": {
     "productNumber": "201945",
     "description": "SEASTAR JACK PLATE MEGA 10\" SET BACK WIDE MOUNT",
     "brand": "Y",
@@ -2478,7 +2496,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 5849.23,
     "barcode": "731957937049",
@@ -2488,7 +2506,7 @@
     "productWebSearchQuery": "\"201945\" \"Y SEASTAR JACK PLATE MEGA 10\" SET BACK WIDE MOUNT\"",
     "imageUrl": "../images/web-product-images/201945.jpg"
   },
-  {
+  "201948": {
     "productNumber": "201948",
     "description": "SEASTAR ACTUATOR KIT 7/16\" MOUNT BOLT 3/8\" SOCKET",
     "brand": "Y",
@@ -2517,7 +2535,7 @@
     "productWebSearchQuery": "\"201948\" \"Y SEASTAR ACTUATOR KIT 7/16\" MOUNT BOLT 3/8\" SOCKET\"",
     "imageUrl": "../images/web-product-images/201948.jpg"
   },
-  {
+  "201950": {
     "productNumber": "201950",
     "description": "SEASTAR HSP5060 HOLESHOT PLATE KIT 6IN",
     "brand": "Y",
@@ -2536,7 +2554,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 152.29,
     "barcode": "9319786468098",
@@ -2545,63 +2563,5 @@
     "productWebSearchImageSourcePage": "",
     "productWebSearchQuery": "\"201950\" \"Y SEASTAR HSP5060 HOLESHOT PLATE KIT 6IN\"",
     "imageUrl": "../images/web-product-images/201950.png"
-  },
-  {
-    "productNumber": "2019310",
-    "description": "DOMETIC INTERACT DRIVE ENGINE POSITION CONTROLLER",
-    "brand": "",
-    "variant": "PC",
-    "price": 2586.41,
-    "unitCostOfSale": 1519.65,
-    "categoryName": "Tools & Chandlery",
-    "topCategory": "Tools & Chandlery",
-    "subCategoryName": "General Marine Supplies",
-    "subCategory": "M - Marine Supplies",
-    "pricingCategoryUsed": "M - Marine Supplies",
-    "categoryImage": "../images/catalogue/pages/page0481.jpg",
-    "subCategoryImage": "../images/catalogue/pages/page0481.jpg",
-    "catalogueImageUrl": "../images/catalogue/bla-edition-15-cover.jpg",
-    "categoryDescription": "Tools & Chandlery from the BLA Australia Edition 15 catalogue.",
-    "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
-    "sourceUrl": "",
-    "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
-    "freightAud": 14.4,
-    "exportAudExGst": 897.39,
-    "barcode": "7315091537681",
-    "productWebSearchImageUrl": "../images/web-product-images/2019310.png",
-    "productWebSearchImageSourceUrl": "https://cdn11.bigcommerce.com/s-hz7o37/images/stencil/1280x1280/products/8910/10312/JC4500_TopView__51327.1721326964.png?c=2?imbypass=on",
-    "productWebSearchImageSourcePage": "",
-    "productWebSearchQuery": "\"2019310\" \"DOMETIC INTERACT DRIVE ENGINE POSITION CONTROLLER\"",
-    "imageUrl": "../images/web-product-images/2019310.png"
-  },
-  {
-    "productNumber": "2019320",
-    "description": "DOMETIC INTERACT DRIVE ENGINE POSITION CONTROLLER NO GUAGE",
-    "brand": "",
-    "variant": "PC",
-    "price": 4452.16,
-    "unitCostOfSale": 2617.15,
-    "categoryName": "Tools & Chandlery",
-    "topCategory": "Tools & Chandlery",
-    "subCategoryName": "General Marine Supplies",
-    "subCategory": "M - Marine Supplies",
-    "pricingCategoryUsed": "M - Marine Supplies",
-    "categoryImage": "../images/catalogue/pages/page0481.jpg",
-    "subCategoryImage": "../images/catalogue/pages/page0481.jpg",
-    "catalogueImageUrl": "../images/catalogue/bla-edition-15-cover.jpg",
-    "categoryDescription": "Tools & Chandlery from the BLA Australia Edition 15 catalogue.",
-    "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
-    "sourceUrl": "",
-    "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
-    "freightAud": 38.4,
-    "exportAudExGst": 1531.89,
-    "barcode": "7315091537698",
-    "productWebSearchImageUrl": "../images/web-product-images/2019320.jpg",
-    "productWebSearchImageSourceUrl": "https://dometicparts.dometic.com/AssertWeb/en-GB/Dometic/Content/Image?id=25415",
-    "productWebSearchImageSourcePage": "",
-    "productWebSearchQuery": "\"2019320\" \"DOMETIC INTERACT DRIVE ENGINE POSITION CONTROLLER NO GUAGE\"",
-    "imageUrl": "../images/web-product-images/2019320.jpg"
   }
-]
+}

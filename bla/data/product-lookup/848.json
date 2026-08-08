@@ -1,5 +1,5 @@
-[
-  {
+{
+  "848100": {
     "productNumber": "848100",
     "description": "KING STARBOARD MOTOR BACKING PAD 390X360X320X6.0MM W/HOLES",
     "brand": "",
@@ -18,8 +18,8 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 5,
-    "freightAud": 24,
+    "estimatedWeightKg": 5.0,
+    "freightAud": 24.0,
     "exportAudExGst": 32.6,
     "barcode": "9319786314463",
     "productWebSearchImageUrl": "../images/web-product-images/848100.jpg",
@@ -28,7 +28,7 @@
     "productWebSearchQuery": "\"848100\" \"KING STARBOARD MOTOR BACKING PAD 390X360X320X6.0MM W/HOLES\"",
     "imageUrl": "../images/web-product-images/848100.jpg"
   },
-  {
+  "848102": {
     "productNumber": "848102",
     "description": "KING STARBOARD MOTOR BACKING PAD 380X400X320X6.0MM",
     "brand": "",
@@ -47,8 +47,8 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 5,
-    "freightAud": 24,
+    "estimatedWeightKg": 5.0,
+    "freightAud": 24.0,
     "exportAudExGst": 31.79,
     "barcode": "9319786314470",
     "productWebSearchImageUrl": "../images/web-product-images/848102.webp",
@@ -57,7 +57,7 @@
     "productWebSearchQuery": "\"848102\" \"KING STARBOARD MOTOR BACKING PAD 380X400X320X6.0MM\"",
     "imageUrl": "../images/web-product-images/848102.webp"
   },
-  {
+  "848104": {
     "productNumber": "848104",
     "description": "KING STARBOARD MOTOR BACKING PAD 390X360X320X6.0MM",
     "brand": "",
@@ -76,8 +76,8 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 5,
-    "freightAud": 24,
+    "estimatedWeightKg": 5.0,
+    "freightAud": 24.0,
     "exportAudExGst": 31.79,
     "barcode": "9319786339572",
     "productWebSearchImageUrl": "../images/web-product-images/848104.jpg",
@@ -86,7 +86,7 @@
     "productWebSearchQuery": "\"848104\" \"KING STARBOARD MOTOR BACKING PAD 390X360X320X6.0MM\"",
     "imageUrl": "../images/web-product-images/848104.jpg"
   },
-  {
+  "848106": {
     "productNumber": "848106",
     "description": "KING STARBOARD MOTOR BACKING PAD 410X360X300X9.0MM",
     "brand": "",
@@ -105,8 +105,8 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 5,
-    "freightAud": 24,
+    "estimatedWeightKg": 5.0,
+    "freightAud": 24.0,
     "exportAudExGst": 36.44,
     "barcode": "9319786431269",
     "productWebSearchImageUrl": "../images/web-product-images/848106.webp",
@@ -115,7 +115,7 @@
     "productWebSearchQuery": "\"848106\" \"KING STARBOARD MOTOR BACKING PAD 410X360X300X9.0MM\"",
     "imageUrl": "../images/web-product-images/848106.webp"
   },
-  {
+  "848107": {
     "productNumber": "848107",
     "description": "KING STARBOARD MOTOR BACKING PAD 410X360X300X6.0MM",
     "brand": "Y",
@@ -144,4 +144,4 @@
     "productWebSearchQuery": "\"848107\" \"Y KING STARBOARD MOTOR BACKING PAD 410X360X300X6.0MM\"",
     "imageUrl": "../images/web-product-images/848107.jpg"
   }
-]
+}

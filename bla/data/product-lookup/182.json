@@ -1,5 +1,5 @@
-[
-  {
+{
+  "182054": {
     "productNumber": "182054",
     "description": "SPRINGFIELD STANDARD SEAT SWIVEL STAINLESS STEEL",
     "brand": "",
@@ -18,17 +18,16 @@
     "subCategoryDescription": "Stainless Fittings & Deck Hardware products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/509/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 2,
+    "estimatedWeightKg": 2.0,
     "freightAud": 9.6,
     "exportAudExGst": 32.82,
     "barcode": "9319786022092",
     "cataloguePage": 509,
-    "imageUrl": "../images/catalogue/product-photos/182054.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/182054.jpg",
     "catalogueDescription": "silent smooth operation. Boat Seat Swivel - Clamp on Ideal for tinnies, this seat swivel clamps via threaded rod and wingnut adjustment on most tinnie bench seats, enabling quick and easy fitment and removal for storage. Moulded plastic base to minimise marking of unpainted alloy bench seat. Clamp rods are zinc plated, black powder coated and have plastic coated ends to prevent marking of alloy bench seat. Clamp range adjusts to accommodate bench seats from 240mm to 540mm in width. B A Standard mount hole pattern 182054 182056 182112 182058 182060 182062 BLA Code Material Width mm Depth mm Height mm Mount Holes mm 182054 Stainless steel 175 175 32 8 r/h 182056 Zinc coated 175 175 32 8 r/h 182058 PPG coated 176 176 22 8 r/h BLA Code Material Width mm Depth mm Height mm Mount Holes mm 182060 PPG coated 190 227 27 8 r/h 182062 Stainless steel 190 227 27 8 r/h BLA Code Pack Qty 182112 1 182112B 6 BLA Code Track Length mm A mm B mm 182106 305 280 74 Standard mount hole pattern Standard mount hole pattern H-31 DRIVER ABYC CLASS H-31 FI",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/182054.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/182054.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/182054.jpg"
   },
-  {
+  "182056": {
     "productNumber": "182056",
     "description": "SPRINGFIELD STANDARD SEAT SWIVEL ZINC PLATED",
     "brand": "",
@@ -52,12 +51,11 @@
     "exportAudExGst": 13.9,
     "barcode": "9319786022108",
     "cataloguePage": 509,
-    "imageUrl": "../images/catalogue/product-photos/182056.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/182056.jpg",
     "catalogueDescription": "smooth operation. Boat Seat Swivel - Clamp on Ideal for tinnies, this seat swivel clamps via threaded rod and wingnut adjustment on most tinnie bench seats, enabling quick and easy fitment and removal for storage. Moulded plastic base to minimise marking of unpainted alloy bench seat. Clamp rods are zinc plated, black powder coated and have plastic coated ends to prevent marking of alloy bench seat. Clamp range adjusts to accommodate bench seats from 240mm to 540mm in width. B A Standard mount hole pattern 182054 182056 182112 182058 182060 182062 BLA Code Material Width mm Depth mm Height mm Mount Holes mm 182054 Stainless steel 175 175 32 8 r/h 182056 Zinc coated 175 175 32 8 r/h 182058 PPG coated 176 176 22 8 r/h BLA Code Material Width mm Depth mm Height mm Mount Holes mm 182060 PPG coated 190 227 27 8 r/h 182062 Stainless steel 190 227 27 8 r/h BLA Code Pack Qty 182112 1 182112B 6 BLA Code Track Length mm A mm B mm 182106 305 280 74 Standard mount hole pattern Standard mount hole pattern H-31 DRIVER ABYC CLASS H-31 FISHING O",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/182056.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/182056.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/182056.jpg"
   },
-  {
+  "182058": {
     "productNumber": "182058",
     "description": "BLA STANDARD SEAT SWIVEL PPG PLATED",
     "brand": "Bla",
@@ -81,12 +79,11 @@
     "exportAudExGst": 7.74,
     "barcode": "9319786108130",
     "cataloguePage": 509,
-    "imageUrl": "../images/catalogue/product-photos/182058.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/182058.jpg",
     "catalogueDescription": "ion. Boat Seat Swivel - Clamp on Ideal for tinnies, this seat swivel clamps via threaded rod and wingnut adjustment on most tinnie bench seats, enabling quick and easy fitment and removal for storage. Moulded plastic base to minimise marking of unpainted alloy bench seat. Clamp rods are zinc plated, black powder coated and have plastic coated ends to prevent marking of alloy bench seat. Clamp range adjusts to accommodate bench seats from 240mm to 540mm in width. B A Standard mount hole pattern 182054 182056 182112 182058 182060 182062 BLA Code Material Width mm Depth mm Height mm Mount Holes mm 182054 Stainless steel 175 175 32 8 r/h 182056 Zinc coated 175 175 32 8 r/h 182058 PPG coated 176 176 22 8 r/h BLA Code Material Width mm Depth mm Height mm Mount Holes mm 182060 PPG coated 190 227 27 8 r/h 182062 Stainless steel 190 227 27 8 r/h BLA Code Pack Qty 182112 1 182112B 6 BLA Code Track Length mm A mm B mm 182106 305 280 74 Standard mount hole pattern Standard mount hole pattern H-31 DRIVER ABYC CLASS H-31 FISHING ONLY ABYC CLASS",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/182058.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/182058.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/182058.jpg"
   },
-  {
+  "182060": {
     "productNumber": "182060",
     "description": "SPRINGFIELD LOCKING SEAT SWIVEL 12 POSITTION PPG PLATED",
     "brand": "",
@@ -105,23 +102,22 @@
     "subCategoryDescription": "Stainless Fittings & Deck Hardware products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/509/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 2,
+    "estimatedWeightKg": 2.0,
     "freightAud": 9.6,
     "exportAudExGst": 25.44,
     "barcode": "9319786022115",
     "cataloguePage": 509,
-    "imageUrl": "../images/catalogue/product-photos/182060.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/182060.jpg",
     "catalogueDescription": "at Seat Swivel - Clamp on Ideal for tinnies, this seat swivel clamps via threaded rod and wingnut adjustment on most tinnie bench seats, enabling quick and easy fitment and removal for storage. Moulded plastic base to minimise marking of unpainted alloy bench seat. Clamp rods are zinc plated, black powder coated and have plastic coated ends to prevent marking of alloy bench seat. Clamp range adjusts to accommodate bench seats from 240mm to 540mm in width. B A Standard mount hole pattern 182054 182056 182112 182058 182060 182062 BLA Code Material Width mm Depth mm Height mm Mount Holes mm 182054 Stainless steel 175 175 32 8 r/h 182056 Zinc coated 175 175 32 8 r/h 182058 PPG coated 176 176 22 8 r/h BLA Code Material Width mm Depth mm Height mm Mount Holes mm 182060 PPG coated 190 227 27 8 r/h 182062 Stainless steel 190 227 27 8 r/h BLA Code Pack Qty 182112 1 182112B 6 BLA Code Track Length mm A mm B mm 182106 305 280 74 Standard mount hole pattern Standard mount hole pattern H-31 DRIVER ABYC CLASS H-31 FISHING ONLY ABYC CLASS Gareli",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/182060.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/182060.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/182060.jpg"
   },
-  {
+  "182062": {
     "productNumber": "182062",
     "description": "SPRINGFIELD LOCKING SEAT SWIVEL 12 POSITTION STAINLESS STEEL",
     "brand": "",
     "variant": "PC",
     "price": 203.6,
-    "unitCostOfSale": 118,
+    "unitCostOfSale": 118.0,
     "categoryName": "Deck Hardware",
     "topCategory": "Deck Hardware",
     "subCategoryName": "Stainless Fittings & Deck Hardware",
@@ -134,17 +130,16 @@
     "subCategoryDescription": "Stainless Fittings & Deck Hardware products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/509/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 2,
+    "estimatedWeightKg": 2.0,
     "freightAud": 9.6,
     "exportAudExGst": 61.2,
     "barcode": "9319786240717",
     "cataloguePage": 509,
-    "imageUrl": "../images/catalogue/product-photos/182062.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/182062.jpg",
     "catalogueDescription": "Swivel - Clamp on Ideal for tinnies, this seat swivel clamps via threaded rod and wingnut adjustment on most tinnie bench seats, enabling quick and easy fitment and removal for storage. Moulded plastic base to minimise marking of unpainted alloy bench seat. Clamp rods are zinc plated, black powder coated and have plastic coated ends to prevent marking of alloy bench seat. Clamp range adjusts to accommodate bench seats from 240mm to 540mm in width. B A Standard mount hole pattern 182054 182056 182112 182058 182060 182062 BLA Code Material Width mm Depth mm Height mm Mount Holes mm 182054 Stainless steel 175 175 32 8 r/h 182056 Zinc coated 175 175 32 8 r/h 182058 PPG coated 176 176 22 8 r/h BLA Code Material Width mm Depth mm Height mm Mount Holes mm 182060 PPG coated 190 227 27 8 r/h 182062 Stainless steel 190 227 27 8 r/h BLA Code Pack Qty 182112 1 182112B 6 BLA Code Track Length mm A mm B mm 182106 305 280 74 Standard mount hole pattern Standard mount hole pattern H-31 DRIVER ABYC CLASS H-31 FISHING ONLY ABYC CLASS Garelick\u00ae Low",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/182062.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/182062.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/182062.jpg"
   },
-  {
+  "182070": {
     "productNumber": "182070",
     "description": "SPRINGFIELD SEAT HINGE FOLD DOWN STAINLESS STEEL PAIR",
     "brand": "",
@@ -163,12 +158,12 @@
     "subCategoryDescription": "Stainless Fittings & Deck Hardware products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/510/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 2,
+    "estimatedWeightKg": 2.0,
     "freightAud": 9.6,
     "exportAudExGst": 107.22,
     "barcode": "9319786436691",
     "cataloguePage": 510,
-    "imageUrl": "../images/bla-website-products/182070.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/182070.jpg",
     "catalogueDescription": "480 SEATS & ACCESSORIES 18 BOATING LIFESTYLE ADVENTURE Fold Down Seat Legs These fold down seat legs have an anodised, 22mm alloy tube with a black, U.V. stabilised, plastic hexagonal mounting base. Simple yet effective fold down mechanism firmly locks the seat leg in the down position. BLA Code A mm B mm C mm Mount Holes mm 183350 340 74 77 5 c/s 183352 670 74 77 5 c/s Standard Inclusions: 183348 Base only 183348 183350 C B A BLA Code 182072 BLA Code 181490 BLA Code 182070 Spring Loaded Mounting Hinges Space saving design offers more room on your boat without the sacrifice of comfort or support easily mounts to boat for quick installation made from 316 grade stainless steel. Features: \u2022 Folds down easily \u2022 Stows in up position \u2022 Sold in pairs left and right Fold Down Mounting Hinge Space saving design offers more room on your boat without the sacrifice of comfort or support easily mounts to boat for quick installation made from nylon and 316 grade stainless steel. Features: \u2022 Folds",
     "productBlockImageUrl": "../images/catalogue/product-blocks/182070.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/fold-down-mounting-hinge/",
@@ -185,7 +180,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/06/182070.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "182072": {
     "productNumber": "182072",
     "description": "SPRINGFIELD SEAT HINGE SRPING LOADED STAINLESS STEEL PAIR",
     "brand": "",
@@ -204,12 +199,12 @@
     "subCategoryDescription": "Stainless Fittings & Deck Hardware products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/510/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 2,
+    "estimatedWeightKg": 2.0,
     "freightAud": 9.6,
     "exportAudExGst": 228.03,
     "barcode": "9319786436707",
     "cataloguePage": 510,
-    "imageUrl": "../images/bla-website-products/182072.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/182072.jpg",
     "catalogueDescription": "480 SEATS & ACCESSORIES 18 BOATING LIFESTYLE ADVENTURE Fold Down Seat Legs These fold down seat legs have an anodised, 22mm alloy tube with a black, U.V. stabilised, plastic hexagonal mounting base. Simple yet effective fold down mechanism firmly locks the seat leg in the down position. BLA Code A mm B mm C mm Mount Holes mm 183350 340 74 77 5 c/s 183352 670 74 77 5 c/s Standard Inclusions: 183348 Base only 183348 183350 C B A BLA Code 182072 BLA Code 181490 BLA Code 182070 Spring Loaded Mounting Hinges Space saving design offers more room on your boat without the sacrifice of comfort or support easily mounts to boat for quick installation made from 316 grade stainless steel. Features: \u2022 Folds down easily \u2022 Stows in up position \u2022 Sold in pairs left and right Fold Down Mounting Hinge Space saving design offers more room on your boat without the sacrifice of comfort or support easily mounts to boat for quick installation made from nylon and 316 grade sta",
     "productBlockImageUrl": "../images/catalogue/product-blocks/182072.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/spring-loaded-mounting-hinges/",
@@ -226,7 +221,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/06/182072.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "182098": {
     "productNumber": "182098",
     "description": "SPRINGFIELD SEAT SLIDE UNIVERSAL WITH LOCKING SWIVEL",
     "brand": "",
@@ -245,12 +240,12 @@
     "subCategoryDescription": "Stainless Fittings & Deck Hardware products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/508/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 2,
+    "estimatedWeightKg": 2.0,
     "freightAud": 9.6,
     "exportAudExGst": 69.04,
     "barcode": "9319786292686",
     "cataloguePage": 508,
-    "imageUrl": "../images/bla-website-products/182098.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/182098.jpg",
     "catalogueDescription": "ck capability every 10mm. Slide is manufactured in aluminium and swivel is powder coated aluminium. BLA Code Post Dia. mm Width mm Depth mm Height mm Mount Holes mm 182104 60 192 340 95 8 r/h 182105 73 192 340 95 8 r/h BLA Code Post Dia. mm Width mm Depth mm Height mm Mount Holes mm 183022 73 170 170 85 8 r/h 183023 73 170 170 85 8 r/h 183178 60 170 170 85 8 r/h 183179 60 170 170 85 8 r/h BLA Code Width mm Depth mm Height mm Mount Holes mm 183080 180 335 80 8 r/h BLA Code Width mm Depth mm Height mm Mount Holes mm 182098 192 340 60 8 r/h BLA Code Width mm Depth mm Height mm Mount Holes mm 182102 192 340 51 8r/h Standard & slide seat mount hole pattern Standard & slide mount hole pattern Standard & slide mount hole pattern Standard Pedestal mount hole pattern Standard & slide mount hole pattern Standard mount hole pattern Standard & slide mount hole pattern Standard mount hole pattern 182103 Chair Slides - Pedestal Mount Locking High strength aluminium slide and swivel, rotates 360 degrees large 184mm X 330mm seat mounting platform",
     "productBlockImageUrl": "../images/catalogue/product-blocks/182098.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/lockable-swivel-seat-slide-universal/",
@@ -267,7 +262,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/06/182098.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "182102": {
     "productNumber": "182102",
     "description": "SPRINGFIELD SEAT SLIDE UNIVERSAL TRAC-LOCK 2 ALLOY",
     "brand": "",
@@ -286,12 +281,12 @@
     "subCategoryDescription": "Covers, Seating & Fitout products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/508/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 2,
+    "estimatedWeightKg": 2.0,
     "freightAud": 9.6,
     "exportAudExGst": 65.86,
     "barcode": "9319786022139",
     "cataloguePage": 508,
-    "imageUrl": "../images/bla-website-products/182102.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/182102.jpg",
     "catalogueDescription": "owder coated aluminium. BLA Code Post Dia. mm Width mm Depth mm Height mm Mount Holes mm 182104 60 192 340 95 8 r/h 182105 73 192 340 95 8 r/h BLA Code Post Dia. mm Width mm Depth mm Height mm Mount Holes mm 183022 73 170 170 85 8 r/h 183023 73 170 170 85 8 r/h 183178 60 170 170 85 8 r/h 183179 60 170 170 85 8 r/h BLA Code Width mm Depth mm Height mm Mount Holes mm 183080 180 335 80 8 r/h BLA Code Width mm Depth mm Height mm Mount Holes mm 182098 192 340 60 8 r/h BLA Code Width mm Depth mm Height mm Mount Holes mm 182102 192 340 51 8r/h Standard & slide seat mount hole pattern Standard & slide mount hole pattern Standard & slide mount hole pattern Standard Pedestal mount hole pattern Standard & slide mount hole pattern Standard mount hole pattern Standard & slide mount hole pattern Standard mount hole pattern 182103 Chair Slides - Pedestal Mount Locking High strength aluminium slide and swivel, rotates 360 degrees large 184mm X 330mm seat mounting platform fore and aft travel 135mm on self-lubricating pads with centrally located l",
     "productBlockImageUrl": "../images/catalogue/product-blocks/182102.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/chair-slide-universal-trac-lock-2/",
@@ -308,7 +303,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/06/182102.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "182103": {
     "productNumber": "182103",
     "description": "SPRINGFIELD SEAT SLIDE PEDESTAL MOUNT LOCKING SUIT 60MM",
     "brand": "",
@@ -327,17 +322,16 @@
     "subCategoryDescription": "Covers, Seating & Fitout products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/508/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 2,
+    "estimatedWeightKg": 2.0,
     "freightAud": 9.6,
     "exportAudExGst": 74.07,
     "barcode": "9319786436721",
     "cataloguePage": 508,
-    "imageUrl": "../images/catalogue/product-photos/182103.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/182103.jpg",
     "catalogueDescription": "0 170 85 8 r/h BLA Code Width mm Depth mm Height mm Mount Holes mm 183080 180 335 80 8 r/h BLA Code Width mm Depth mm Height mm Mount Holes mm 182098 192 340 60 8 r/h BLA Code Width mm Depth mm Height mm Mount Holes mm 182102 192 340 51 8r/h Standard & slide seat mount hole pattern Standard & slide mount hole pattern Standard & slide mount hole pattern Standard Pedestal mount hole pattern Standard & slide mount hole pattern Standard mount hole pattern Standard & slide mount hole pattern Standard mount hole pattern 182103 Chair Slides - Pedestal Mount Locking High strength aluminium slide and swivel, rotates 360 degrees large 184mm X 330mm seat mounting platform fore and aft travel 135mm on self-lubricating pads with centrally located locking handle. BLA Code Post Dia. mm Width mm Depth mm Height mm Mount Holes mm 182103 60 192 340 95 8 r/h 182107 73 192 340 95 8 r/h H-31 PASSENGER ABYC CLASS H-31 DRIVER ABYC CLASS H-31 DRIVER ABYC CLASS H-31 PASSENGER ABYC CLASS H-31 DRIVER ABYC CLASS",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/182103.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/182103.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/182103.jpg"
   },
-  {
+  "182104": {
     "productNumber": "182104",
     "description": "SPRINGFIELD SEAT SLIDE PEDESTAL MOUNT SUIT 60MM",
     "brand": "",
@@ -356,17 +350,16 @@
     "subCategoryDescription": "Covers, Seating & Fitout products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/507/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 2,
+    "estimatedWeightKg": 2.0,
     "freightAud": 9.6,
-    "exportAudExGst": 67,
+    "exportAudExGst": 67.0,
     "barcode": "9319786110447",
     "cataloguePage": 507,
-    "imageUrl": "../images/catalogue/product-photos/182104.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/182104.jpg",
     "catalogueDescription": "range of plug-in pedestals. Glass filled nylon insert provides a flush surface when pedestals are not installed. Available in round or 'D' configurations. Anodised finish is recommended for saltwater applications. BLA Code Description Overall Height mm 183160 Swivel and post 438 183162 Swivel and post 516 183164 Swivel and post 668 183166 Swivel and post 819 183150 Post only 415 183152 Post only 493 183154 Post only 645 183156 Post only 796 183179 Swivel top only \u2013 N.B. Pedestal posts sold separately for use with 182104 seat slide on page 478. BLA Code Overall Height mm 183170 420-580 BLA Code Overall Height mm 183172 370-560 183120 183183 183180 183184 183123 183110 183115 Standard seat mount hole pattern Standard mount hole pattern Standard mount hole pattern Standard mount hole pattern BLA Code Height mm Tube Dia. mm Pin Dia. mm 183115 330 38 19 183120 490-640 38 19 BLA Code Spring Pin Dia. mm 183108 No 19 183110 Yes 19 BLA Code Material Size mm Intrusion mm Mount Screws mm 183123 Stainless steel 177 x 177 62 6 c/s 183130 Anod",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/182104.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/182104.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/182104.jpg"
   },
-  {
+  "182105": {
     "productNumber": "182105",
     "description": "SPRINGFIELD SEAT SLIDE PEDESTAL MOUNT SUIT 73MM",
     "brand": "",
@@ -385,17 +378,16 @@
     "subCategoryDescription": "Covers, Seating & Fitout products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/508/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 2,
+    "estimatedWeightKg": 2.0,
     "freightAud": 9.6,
     "exportAudExGst": 70.94,
     "barcode": "9319786222270",
     "cataloguePage": 508,
-    "imageUrl": "../images/catalogue/product-photos/182105.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/182105.jpg",
     "catalogueDescription": "lled to suit most popular seat mount hole patterns, but can also be drilled to suit non standard seat mount hole patterns. Lockable Swivel & Seat Slide - Universal Mounts between seat and flat mount surface with front lever slide control, as well as swivel capable with every \u00bc turn lock facility. Slide has 160mm travel with lock capability every 10mm. Slide is manufactured in aluminium and swivel is powder coated aluminium. BLA Code Post Dia. mm Width mm Depth mm Height mm Mount Holes mm 182104 60 192 340 95 8 r/h 182105 73 192 340 95 8 r/h BLA Code Post Dia. mm Width mm Depth mm Height mm Mount Holes mm 183022 73 170 170 85 8 r/h 183023 73 170 170 85 8 r/h 183178 60 170 170 85 8 r/h 183179 60 170 170 85 8 r/h BLA Code Width mm Depth mm Height mm Mount Holes mm 183080 180 335 80 8 r/h BLA Code Width mm Depth mm Height mm Mount Holes mm 182098 192 340 60 8 r/h BLA Code Width mm Depth mm Height mm Mount Holes mm 182102 192 340 51 8r/h Standard & slide seat mount hole pattern Standard & slide mount hole pattern Standard & slide mount",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/182105.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/182105.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/182105.jpg"
   },
-  {
+  "182106": {
     "productNumber": "182106",
     "description": "SPRINGFIELD SEAT SLIDE LOW PROFILE STAINLESS STEAL",
     "brand": "",
@@ -414,12 +406,12 @@
     "subCategoryDescription": "Stainless Fittings & Deck Hardware products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/509/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 2,
+    "estimatedWeightKg": 2.0,
     "freightAud": 9.6,
     "exportAudExGst": 72.51,
     "barcode": "9319786128954",
     "cataloguePage": 509,
-    "imageUrl": "../images/bla-website-products/182106.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/182106.jpg",
     "catalogueDescription": "adjusts to accommodate bench seats from 240mm to 540mm in width. B A Standard mount hole pattern 182054 182056 182112 182058 182060 182062 BLA Code Material Width mm Depth mm Height mm Mount Holes mm 182054 Stainless steel 175 175 32 8 r/h 182056 Zinc coated 175 175 32 8 r/h 182058 PPG coated 176 176 22 8 r/h BLA Code Material Width mm Depth mm Height mm Mount Holes mm 182060 PPG coated 190 227 27 8 r/h 182062 Stainless steel 190 227 27 8 r/h BLA Code Pack Qty 182112 1 182112B 6 BLA Code Track Length mm A mm B mm 182106 305 280 74 Standard mount hole pattern Standard mount hole pattern H-31 DRIVER ABYC CLASS H-31 FISHING ONLY ABYC CLASS Garelick\u00ae Low Profile Seat Slide & Locking Swivel This low profile seat slide and locking swivel mounts between the seat and a flat surface or pedestal top, to provide 150mm fore and aft adjustment whilst allowing a 45\u00ba free swivel or lock. Features: \u2022 Allows helm or boat seats to adjust fore and aft \u2022 Slide mounts under seat in between seat and deck or box \u2022 Convenient handle provides solid locki",
     "productBlockImageUrl": "../images/catalogue/product-blocks/182106.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/seat-slide-low-profile/",
@@ -436,7 +428,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/06/182106.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "182107": {
     "productNumber": "182107",
     "description": "SPRINGFIELD SEAT SLIDE PEDESTAL MOUNT LOCKING SUIT 73MM",
     "brand": "",
@@ -455,17 +447,16 @@
     "subCategoryDescription": "Covers, Seating & Fitout products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/508/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 2,
+    "estimatedWeightKg": 2.0,
     "freightAud": 9.6,
     "exportAudExGst": 76.18,
     "barcode": "9319786436738",
     "cataloguePage": 508,
-    "imageUrl": "../images/catalogue/product-photos/182107.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/182107.jpg",
     "catalogueDescription": "ide mount hole pattern Standard Pedestal mount hole pattern Standard & slide mount hole pattern Standard mount hole pattern Standard & slide mount hole pattern Standard mount hole pattern 182103 Chair Slides - Pedestal Mount Locking High strength aluminium slide and swivel, rotates 360 degrees large 184mm X 330mm seat mounting platform fore and aft travel 135mm on self-lubricating pads with centrally located locking handle. BLA Code Post Dia. mm Width mm Depth mm Height mm Mount Holes mm 182103 60 192 340 95 8 r/h 182107 73 192 340 95 8 r/h H-31 PASSENGER ABYC CLASS H-31 DRIVER ABYC CLASS H-31 DRIVER ABYC CLASS H-31 PASSENGER ABYC CLASS H-31 DRIVER ABYC CLASS",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/182107.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/182107.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/182107.jpg"
   },
-  {
+  "182108": {
     "productNumber": "182108",
     "description": "SPRINGFIELD LOCKING HANDLE LARGE SUIT 73MM",
     "brand": "Y",
@@ -484,7 +475,7 @@
     "subCategoryDescription": "Stainless Fittings & Deck Hardware products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 94.78,
     "barcode": "9319786430040",
@@ -494,7 +485,7 @@
     "productWebSearchQuery": "\"182108\" \"Y SPRINGFIELD LOCKING HANDLE LARGE SUIT 73MM\"",
     "imageUrl": "../images/web-product-images/182108.webp"
   },
-  {
+  "182109": {
     "productNumber": "182109",
     "description": "SPRINGFIELD CHAIR MOUNT FOLD UP FOOTREST",
     "brand": "Y",
@@ -513,7 +504,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 299.13,
     "barcode": "9319786459362",
@@ -523,48 +514,7 @@
     "productWebSearchQuery": "\"182109\" \"Y SPRINGFIELD CHAIR MOUNT FOLD UP FOOTREST\"",
     "imageUrl": "../images/web-product-images/182109.jpg"
   },
-  {
-    "productNumber": "182112",
-    "description": "BLA STANDARD SEAT SWIVEL CLAMP ON",
-    "brand": "Bla",
-    "variant": "PC",
-    "price": 102.25,
-    "unitCostOfSale": 58.38,
-    "categoryName": "Deck Hardware",
-    "topCategory": "Deck Hardware",
-    "subCategoryName": "Stainless Fittings & Deck Hardware",
-    "subCategory": "M - Stainless Steel Fittings",
-    "pricingCategoryUsed": "M - Marine Supplies",
-    "categoryImage": "../images/catalogue/pages/page0481.jpg",
-    "subCategoryImage": "../images/catalogue/pages/page0481.jpg",
-    "catalogueImageUrl": "../images/catalogue/pages/page0509.jpg",
-    "categoryDescription": "Deck Hardware from the BLA Australia Edition 15 catalogue.",
-    "subCategoryDescription": "Stainless Fittings & Deck Hardware products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
-    "sourceUrl": "https://online.flippingbook.com/view/328167/509/",
-    "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 2,
-    "freightAud": 9.6,
-    "exportAudExGst": 25.43,
-    "barcode": "9319786022146",
-    "cataloguePage": 509,
-    "imageUrl": "../images/bla-website-products/182112.jpg",
-    "catalogueDescription": "operation. Boat Seat Swivel - Clamp on Ideal for tinnies, this seat swivel clamps via threaded rod and wingnut adjustment on most tinnie bench seats, enabling quick and easy fitment and removal for storage. Moulded plastic base to minimise marking of unpainted alloy bench seat. Clamp rods are zinc plated, black powder coated and have plastic coated ends to prevent marking of alloy bench seat. Clamp range adjusts to accommodate bench seats from 240mm to 540mm in width. B A Standard mount hole pattern 182054 182056 182112 182058 182060 182062 BLA Code Material Width mm Depth mm Height mm Mount Holes mm 182054 Stainless steel 175 175 32 8 r/h 182056 Zinc coated 175 175 32 8 r/h 182058 PPG coated 176 176 22 8 r/h BLA Code Material Width mm Depth mm Height mm Mount Holes mm 182060 PPG coated 190 227 27 8 r/h 182062 Stainless steel 190 227 27 8 r/h BLA Code Pack Qty 182112 1 182112B 6 BLA Code Track Length mm A mm B mm 182106 305 280 74 Standard mount hole pattern Standard mount hole pattern H-31 DRIVER ABYC CLASS H-31 FISHING ONLY ABY",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/182112.jpg",
-    "blaWebsiteUrl": "https://bla.com.au/product/boat-seat-swivel-clamp-on/",
-    "websiteDescription": "Ideal for tinnies, this seat swivel clamps via threaded rod and wingnut adjustment on most tinnie bench seats, enabling quick and easy fitment and removal for storage. Moulded plastic base to minimise marking of unpainted alloy bench seat. Clamp rods are zinc plated, BLAck powder coated and have plastic coated ends to prevent marking of alloy bench seat. Clamp range adjusts to accommodate bench seats from 240mm to 540mm in width. \nBLA Code Suits \n182112 Standard seat mount hole pattern",
-    "blaWebsiteCategories": [
-      "Seat Swivels & Clamps",
-      "Seating"
-    ],
-    "blaWebsiteBrands": [
-      "BLA"
-    ],
-    "blaWebsiteProductId": 25258,
-    "productWebsiteImageUrl": "../images/bla-website-products/182112.jpg",
-    "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/06/182112.jpg",
-    "productWebsiteImageDownloaded": true
-  },
-  {
+  "182112B": {
     "productNumber": "182112B",
     "description": "BLA STANDARD SEAT SWIVEL CLAMP ON PACK 6",
     "brand": "Bla",
@@ -583,17 +533,57 @@
     "subCategoryDescription": "Stainless Fittings & Deck Hardware products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/509/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 2,
+    "estimatedWeightKg": 2.0,
     "freightAud": 9.6,
     "exportAudExGst": 136.82,
     "barcode": "9319786115589",
     "cataloguePage": 509,
-    "imageUrl": "../images/catalogue/product-photos/182112B.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/182112B.jpg",
     "catalogueDescription": "vent marking of alloy bench seat. Clamp range adjusts to accommodate bench seats from 240mm to 540mm in width. B A Standard mount hole pattern 182054 182056 182112 182058 182060 182062 BLA Code Material Width mm Depth mm Height mm Mount Holes mm 182054 Stainless steel 175 175 32 8 r/h 182056 Zinc coated 175 175 32 8 r/h 182058 PPG coated 176 176 22 8 r/h BLA Code Material Width mm Depth mm Height mm Mount Holes mm 182060 PPG coated 190 227 27 8 r/h 182062 Stainless steel 190 227 27 8 r/h BLA Code Pack Qty 182112 1 182112B 6 BLA Code Track Length mm A mm B mm 182106 305 280 74 Standard mount hole pattern Standard mount hole pattern H-31 DRIVER ABYC CLASS H-31 FISHING ONLY ABYC CLASS Garelick\u00ae Low Profile Seat Slide & Locking Swivel This low profile seat slide and locking swivel mounts between the seat and a flat surface or pedestal top, to provide 150mm fore and aft adjustment whilst allowing a 45\u00ba free swivel or lock. Features: \u2022 Allows helm or boat seats to adjust fore and aft \u2022 Slide mounts under seat in between seat and deck or",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/182112B.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/182112B.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/182112B.jpg"
   },
-  {
+  "182112": {
+    "productNumber": "182112",
+    "description": "BLA STANDARD SEAT SWIVEL CLAMP ON",
+    "brand": "Bla",
+    "variant": "PC",
+    "price": 102.25,
+    "unitCostOfSale": 58.38,
+    "categoryName": "Deck Hardware",
+    "topCategory": "Deck Hardware",
+    "subCategoryName": "Stainless Fittings & Deck Hardware",
+    "subCategory": "M - Stainless Steel Fittings",
+    "pricingCategoryUsed": "M - Marine Supplies",
+    "categoryImage": "../images/catalogue/pages/page0481.jpg",
+    "subCategoryImage": "../images/catalogue/pages/page0481.jpg",
+    "catalogueImageUrl": "../images/catalogue/pages/page0509.jpg",
+    "categoryDescription": "Deck Hardware from the BLA Australia Edition 15 catalogue.",
+    "subCategoryDescription": "Stainless Fittings & Deck Hardware products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
+    "sourceUrl": "https://online.flippingbook.com/view/328167/509/",
+    "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
+    "estimatedWeightKg": 2.0,
+    "freightAud": 9.6,
+    "exportAudExGst": 25.43,
+    "barcode": "9319786022146",
+    "cataloguePage": 509,
+    "imageUrl": "../images/catalogue/product-blocks/182112.jpg",
+    "catalogueDescription": "operation. Boat Seat Swivel - Clamp on Ideal for tinnies, this seat swivel clamps via threaded rod and wingnut adjustment on most tinnie bench seats, enabling quick and easy fitment and removal for storage. Moulded plastic base to minimise marking of unpainted alloy bench seat. Clamp rods are zinc plated, black powder coated and have plastic coated ends to prevent marking of alloy bench seat. Clamp range adjusts to accommodate bench seats from 240mm to 540mm in width. B A Standard mount hole pattern 182054 182056 182112 182058 182060 182062 BLA Code Material Width mm Depth mm Height mm Mount Holes mm 182054 Stainless steel 175 175 32 8 r/h 182056 Zinc coated 175 175 32 8 r/h 182058 PPG coated 176 176 22 8 r/h BLA Code Material Width mm Depth mm Height mm Mount Holes mm 182060 PPG coated 190 227 27 8 r/h 182062 Stainless steel 190 227 27 8 r/h BLA Code Pack Qty 182112 1 182112B 6 BLA Code Track Length mm A mm B mm 182106 305 280 74 Standard mount hole pattern Standard mount hole pattern H-31 DRIVER ABYC CLASS H-31 FISHING ONLY ABY",
+    "productBlockImageUrl": "../images/catalogue/product-blocks/182112.jpg",
+    "blaWebsiteUrl": "https://bla.com.au/product/boat-seat-swivel-clamp-on/",
+    "websiteDescription": "Ideal for tinnies, this seat swivel clamps via threaded rod and wingnut adjustment on most tinnie bench seats, enabling quick and easy fitment and removal for storage. Moulded plastic base to minimise marking of unpainted alloy bench seat. Clamp rods are zinc plated, BLAck powder coated and have plastic coated ends to prevent marking of alloy bench seat. Clamp range adjusts to accommodate bench seats from 240mm to 540mm in width. \nBLA Code Suits \n182112 Standard seat mount hole pattern",
+    "blaWebsiteCategories": [
+      "Seat Swivels & Clamps",
+      "Seating"
+    ],
+    "blaWebsiteBrands": [
+      "BLA"
+    ],
+    "blaWebsiteProductId": 25258,
+    "productWebsiteImageUrl": "../images/bla-website-products/182112.jpg",
+    "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/06/182112.jpg",
+    "productWebsiteImageDownloaded": true
+  },
+  "182114": {
     "productNumber": "182114",
     "description": "SPRINGFIELD HEAVY DUTY LOCKING SLIDE RAILS",
     "brand": "Y",
@@ -612,7 +602,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 83.62,
     "barcode": "9319786465868",
@@ -622,7 +612,7 @@
     "productWebSearchQuery": "\"182114\" \"SPRINGFIELD HEAVY DUTY LOCKING SLIDE RAILS\"",
     "imageUrl": "../images/web-product-images/182114.jpg"
   },
-  {
+  "182138": {
     "productNumber": "182138",
     "description": "GARELICK EEZ-IN LOW PROFILE SEAT SLIDE T/S ROTOMOULDED SEAT",
     "brand": "Y",
@@ -641,7 +631,7 @@
     "subCategoryDescription": "Covers, Seating & Fitout products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 2,
+    "estimatedWeightKg": 2.0,
     "freightAud": 9.6,
     "exportAudExGst": 140.75,
     "barcode": "038203750811",
@@ -651,7 +641,7 @@
     "productWebSearchQuery": "\"182138\" \"Y GARELICK EEZ-IN LOW PROFILE SEAT SLIDE T/S ROTOMOULDED SEAT\"",
     "imageUrl": "../images/web-product-images/182138.jpg"
   },
-  {
+  "182140": {
     "productNumber": "182140",
     "description": "GARELICK EEZ-IN LOW PROFILE SEAT SLIDE WITH LOCKING SWIVEL",
     "brand": "",
@@ -670,12 +660,12 @@
     "subCategoryDescription": "Stainless Fittings & Deck Hardware products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/509/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 2,
+    "estimatedWeightKg": 2.0,
     "freightAud": 9.6,
     "exportAudExGst": 253.21,
     "barcode": "038203750903",
     "cataloguePage": 509,
-    "imageUrl": "../images/bla-website-products/182140.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/182140.jpg",
     "catalogueDescription": "s between the seat and a flat surface or pedestal top, to provide 150mm fore and aft adjustment whilst allowing a 45\u00ba free swivel or lock. Features: \u2022 Allows helm or boat seats to adjust fore and aft \u2022 Slide mounts under seat in between seat and deck or box \u2022 Convenient handle provides solid locking at any position \u2022 Free swivelling or locks every 45\u00b0 \u2022 Wobble-Free Design/Operation \u2022 150mm Travel, fore and aft \u2022 Anodised aluminium with stainless steel hardware. BLA Code Fore & Aft Travel mm Dimensions W x L x H mm 182140 150 220 x 330 x 100",
     "productBlockImageUrl": "../images/catalogue/product-blocks/182140.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/garelick-eez-in-low-profile-seat-slide-locking-swivel/",
@@ -692,7 +682,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/06/182140.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "182142": {
     "productNumber": "182142",
     "description": "GARELICK EEZ-IN SEAT SHOCK ABSORBER",
     "brand": "",
@@ -711,17 +701,16 @@
     "subCategoryDescription": "Covers, Seating & Fitout products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/510/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 2,
+    "estimatedWeightKg": 2.0,
     "freightAud": 9.6,
     "exportAudExGst": 275.75,
     "barcode": "038203770000",
     "cataloguePage": 510,
-    "imageUrl": "../images/catalogue/product-photos/182142.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/182142.jpg",
     "catalogueDescription": "the forces of roll, pitch, and yaw \u2022 Active Seat Suspensions Systems reduce the feelings of seasickness and nausea by absorbing excessive movement with 25mm of damped vertical travel \u2022 These systems are CAD designed, FEA proven, and precision engineered and tooled \u2022 Components are saltwater spray tested and U.V. stable; to help endure harsh marine environments \u2022 Made from rugged, high-tensile, anodised aluminium with stainless steel hardware BLA Code Additional Height mm Outline Dimensions mm Mounting Hole Pattern 182142 50 330 x 180 13 x 31 Slotted 182142 182142 Inset",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/182142.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/182142.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/182142.jpg"
   },
-  {
+  "182146": {
     "productNumber": "182146",
     "description": "ATTWOOD LATITUDE FIXED SLIDE WITH SWIVEL",
     "brand": "Attwood",
@@ -740,7 +729,7 @@
     "subCategoryDescription": "Stainless Fittings & Deck Hardware products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 601.67,
     "barcode": "038203002965",
@@ -750,7 +739,7 @@
     "productWebSearchQuery": "\"182146\" \"Attwood ATTWOOD LATITUDE FIXED SLIDE WITH SWIVEL\"",
     "imageUrl": "../images/web-product-images/182146.jpg"
   },
-  {
+  "182148": {
     "productNumber": "182148",
     "description": "SPRINGFIELD OFFSHORE 4\" SS SEAT PEDESTAL WITH FOOTREST",
     "brand": "",
@@ -769,7 +758,7 @@
     "subCategoryDescription": "Covers, Seating & Fitout products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 2,
+    "estimatedWeightKg": 2.0,
     "freightAud": 9.6,
     "exportAudExGst": 694.88,
     "barcode": "9319786470183",
@@ -779,7 +768,7 @@
     "productWebSearchQuery": "\"182148\" \"SPRINGFIELD OFFSHORE 4\" SS SEAT PEDESTAL WITH FOOTREST\"",
     "imageUrl": "../images/web-product-images/182148.jpg"
   },
-  {
+  "182150": {
     "productNumber": "182150",
     "description": "GARELICK EEZ-IN SEAT PEDESTAL RIBBED STANCHION 18\"-23\"",
     "brand": "",
@@ -798,17 +787,16 @@
     "subCategoryDescription": "Covers, Seating & Fitout products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/503/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 2,
+    "estimatedWeightKg": 2.0,
     "freightAud": 9.6,
     "exportAudExGst": 394.5,
     "barcode": "038203754284",
     "cataloguePage": 503,
-    "imageUrl": "../images/catalogue/product-photos/182150.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/182150.jpg",
     "catalogueDescription": "a. mm Pedestal Dia. mm Seat Mount mm Base Mount Holes mm 183030 315 228 73 330 x 185 8 c/s 183032 470 228 73 330 x 185 8 c/s 183034 650 228 73 330 x 185 8 c/s BLA Code Pedestal Top Height mm Base Dia. mm Base Mount Holes mm 183006 Swivel seat mount 370-505 228 8 c/s 183007 Swivel chair slide 383-517 228 8 c/s BLA Code Height mm Base Dia. mm Base Mount Holes mm 183035 253-305 228 8 183036 253-305 305 8 183037 305-362 228 8 183038 380-508 228 8 183040 520-648 228 8 BLA Code Height mm Base Dia. mm Base Mount Holes mm 182150 457-584 230 17 Garelick\u00ae Blue Water Ribbed Stanchion Seat Base - Adjustable Height Adjustable height anodised aluminium seat pedestal with 25mm pin locked height adjustments. Pedestal top can be rotated 360\u00ba and locked in place. Features: \u2022 Pin secures base at specific height in 25mm increments \u2022 Stainless steel lock pin locates securing hole easily \u2022 Positive lock pedestal top, rotates 360\u00ba. Fluted bearing cup fits onto ribbed stanchion profile \u2022 Anodised aluminium tubing \u2022 Wobble-Free Design \u2022 U.S. Patents D376,",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/182150.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/182150.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/182150.jpg"
   },
-  {
+  "182152": {
     "productNumber": "182152",
     "description": "GARELICK EEZ-IN SEAT PEDESTAL RIBBED STANCHION 12\"-17\"",
     "brand": "Y",
@@ -827,7 +815,7 @@
     "subCategoryDescription": "Covers, Seating & Fitout products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 2,
+    "estimatedWeightKg": 2.0,
     "freightAud": 9.6,
     "exportAudExGst": 365.02,
     "barcode": "038203754352",
@@ -837,7 +825,7 @@
     "productWebSearchQuery": "\"182152\" \"Y GARELICK EEZ-IN SEAT PEDESTAL RIBBED STANCHION 12\"-17\"\"",
     "imageUrl": "../images/web-product-images/182152.jpg"
   },
-  {
+  "182158": {
     "productNumber": "182158",
     "description": "BLA SEAT SUSPENSION SEAT ADAPTER",
     "brand": "Bla",
@@ -866,7 +854,7 @@
     "productWebSearchQuery": "\"182158\" \"Bla BLA SEAT SUSPENSION SEAT ADAPTER\"",
     "imageUrl": "../images/web-product-images/182158.jpg"
   },
-  {
+  "182160": {
     "productNumber": "182160",
     "description": "BLA SEAT SLIDE AND SWIVEL 8 LOCKING POS 45MM HIGH",
     "brand": "Bla",
@@ -885,12 +873,12 @@
     "subCategoryDescription": "Stainless Fittings & Deck Hardware products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/491/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 2,
+    "estimatedWeightKg": 2.0,
     "freightAud": 9.6,
     "exportAudExGst": 290.87,
     "barcode": "9319786462522",
     "cataloguePage": 491,
-    "imageUrl": "../images/bla-website-products/182160.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/182160.jpg",
     "catalogueDescription": "hanism \u2022 Easy and quick to install \u2022 Handles are reached while sitting in the seat \u2022 Handles can be positioned on either side of the unit, decided at assembly \u2022 Meets ABYC H-31 standards for type AO BLA Code Description Height mm Deck Mount mm Seat Mount mm 182162 Slide 75 330 x 230 330 x 315 182164 Slide & Swivel 95 330 x 230 330 x 315 BLA Code Height mm Deck Mount mm Seat Mount mm 182170 220 330 x 230 330 x 315 182180 345-380 330 x 230 330 x 315 182190 295-330 330 x 230 330 x 315 BLA Code Height mm Seat Mount mm 182160 45 330 x 315 182170 182180 182190 182164 Showing damping cushion profiles 182162",
     "productBlockImageUrl": "../images/catalogue/product-blocks/182160.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/bla-slide-swivel-base/",
@@ -906,7 +894,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2024/02/182160.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "182162": {
     "productNumber": "182162",
     "description": "BLA H/ D LOW PROFILE SEMI SUSPENSION BASE 75MM HIGH",
     "brand": "Bla",
@@ -925,17 +913,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/491/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 349.06,
     "barcode": "9319786462539",
     "cataloguePage": 491,
-    "imageUrl": "../images/catalogue/product-photos/182162.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/182162.jpg",
     "catalogueDescription": "\u2022 Intergrated slide and swivel \u2022 All settings are reached while sitting in the seat \u2022 Handles can be positioned on either side of the unit, decided at assembly \u2022 Meets ABYC H-31 standards for type AO BLA Slide & Swivel Base \u2022 Solid, low profile Swivel&Slide mechanism \u2022 Easy and quick to install \u2022 Handles are reached while sitting in the seat \u2022 Handles can be positioned on either side of the unit, decided at assembly \u2022 Meets ABYC H-31 standards for type AO BLA Code Description Height mm Deck Mount mm Seat Mount mm 182162 Slide 75 330 x 230 330 x 315 182164 Slide & Swivel 95 330 x 230 330 x 315 BLA Code Height mm Deck Mount mm Seat Mount mm 182170 220 330 x 230 330 x 315 182180 345-380 330 x 230 330 x 315 182190 295-330 330 x 230 330 x 315 BLA Code Height mm Seat Mount mm 182160 45 330 x 315 182170 182180 182190 182164 Showing damping cushion profiles 182162",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/182162.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/182162.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/182162.jpg"
   },
-  {
+  "182164": {
     "productNumber": "182164",
     "description": "BLA H/D SEMI SUSPENSION BASE INCL SLIDE/SWIVEL95MM",
     "brand": "Bla",
@@ -954,17 +941,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/491/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 488.66,
     "barcode": "9319786462546",
     "cataloguePage": 491,
-    "imageUrl": "../images/catalogue/product-photos/182164.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/182164.jpg",
     "catalogueDescription": "l settings are reached while sitting in the seat \u2022 Handles can be positioned on either side of the unit, decided at assembly \u2022 Meets ABYC H-31 standards for type AO BLA Slide & Swivel Base \u2022 Solid, low profile Swivel&Slide mechanism \u2022 Easy and quick to install \u2022 Handles are reached while sitting in the seat \u2022 Handles can be positioned on either side of the unit, decided at assembly \u2022 Meets ABYC H-31 standards for type AO BLA Code Description Height mm Deck Mount mm Seat Mount mm 182162 Slide 75 330 x 230 330 x 315 182164 Slide & Swivel 95 330 x 230 330 x 315 BLA Code Height mm Deck Mount mm Seat Mount mm 182170 220 330 x 230 330 x 315 182180 345-380 330 x 230 330 x 315 182190 295-330 330 x 230 330 x 315 BLA Code Height mm Seat Mount mm 182160 45 330 x 315 182170 182180 182190 182164 Showing damping cushion profiles 182162",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/182164.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/182164.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/182164.jpg"
   },
-  {
+  "182170": {
     "productNumber": "182170",
     "description": "BLA SEAT SUSPENSION BASE NCL SWIVEL AND SLIDE 220MM",
     "brand": "Bla",
@@ -983,17 +969,16 @@
     "subCategoryDescription": "Stainless Fittings & Deck Hardware products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/491/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 2,
+    "estimatedWeightKg": 2.0,
     "freightAud": 9.6,
     "exportAudExGst": 860.98,
     "barcode": "9319786462553",
     "cataloguePage": 491,
-    "imageUrl": "../images/catalogue/product-photos/182170.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/182170.jpg",
     "catalogueDescription": "ft adjustment BLA Semi Suspension Bases \u2022 Easy and quick to install. Either directly on console/deck, or between seat and standard size pedestal - and benefit from possibly existing swivel and height adjustment. \u2022 Weight adjustment by moving or adding damping cushion profiles. No tools needed. \u2022 Handle is reached while sitting in the seat. \u2022 Handle can be positioned on either side of the unit, decided at installation. \u2022 Meets ABYC H-31 standards for type AO. BLA Suspension Base \u2022 Quick-adjuster for correct weight (182170 only) \u2022 Easy and quick to install \u2022 Easy-reach adjustment wheel for setting weight resistance in a few seconds \u2022 Intergrated slide and swivel \u2022 All settings are reached while sitting in the seat \u2022 Handles can be positioned on either side of the unit, decided at assembly \u2022 Meets ABYC H-31 standards for type AO BLA Slide & Swivel Base \u2022 Solid, low profile Swivel&Slide mechanism \u2022 Easy and quick to install \u2022 Handles are reached while sitting in the seat \u2022 Handles can be positioned on either side of the unit, decided",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/182170.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/182170.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/182170.jpg"
   },
-  {
+  "182174": {
     "productNumber": "182174",
     "description": "BLA SEAT ADJUSTABLE SUSPENSION BASE INCL SLIDE 190MM",
     "brand": "Y",
@@ -1012,7 +997,7 @@
     "subCategoryDescription": "Covers, Seating & Fitout products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 2,
+    "estimatedWeightKg": 2.0,
     "freightAud": 9.6,
     "exportAudExGst": 744.62,
     "barcode": "9319786464960",
@@ -1022,7 +1007,7 @@
     "productWebSearchQuery": "\"182174\" \"Y BLA SEAT ADJUSTABLE SUSPENSION BASE INCL SLIDE 190MM\"",
     "imageUrl": "../images/web-product-images/182174.jpg"
   },
-  {
+  "182176": {
     "productNumber": "182176",
     "description": "BLA SUSPENSION SEAT HD BG SERIES  INCL SLIDE RATED 170KG",
     "brand": "Y",
@@ -1041,7 +1026,7 @@
     "subCategoryDescription": "Covers, Seating & Fitout products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 2,
+    "estimatedWeightKg": 2.0,
     "freightAud": 9.6,
     "exportAudExGst": 1032.87,
     "barcode": "9319786467602",
@@ -1051,7 +1036,7 @@
     "productWebSearchQuery": "\"182176\" \"Y BLA SUSPENSION SEAT HD BG SERIES INCL SLIDE RATED 170KG\"",
     "imageUrl": "../images/web-product-images/182176.jpg"
   },
-  {
+  "182180": {
     "productNumber": "182180",
     "description": "BLA SEAT SUSPENSION BASE INCL SWIVEL/SLIDE 345-380MM",
     "brand": "Bla",
@@ -1070,17 +1055,16 @@
     "subCategoryDescription": "Stainless Fittings & Deck Hardware products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/491/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 2,
+    "estimatedWeightKg": 2.0,
     "freightAud": 9.6,
     "exportAudExGst": 837.71,
     "barcode": "9319786462560",
     "cataloguePage": 491,
-    "imageUrl": "../images/catalogue/product-photos/182180.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/182180.jpg",
     "catalogueDescription": "y \u2022 Meets ABYC H-31 standards for type AO BLA Slide & Swivel Base \u2022 Solid, low profile Swivel&Slide mechanism \u2022 Easy and quick to install \u2022 Handles are reached while sitting in the seat \u2022 Handles can be positioned on either side of the unit, decided at assembly \u2022 Meets ABYC H-31 standards for type AO BLA Code Description Height mm Deck Mount mm Seat Mount mm 182162 Slide 75 330 x 230 330 x 315 182164 Slide & Swivel 95 330 x 230 330 x 315 BLA Code Height mm Deck Mount mm Seat Mount mm 182170 220 330 x 230 330 x 315 182180 345-380 330 x 230 330 x 315 182190 295-330 330 x 230 330 x 315 BLA Code Height mm Seat Mount mm 182160 45 330 x 315 182170 182180 182190 182164 Showing damping cushion profiles 182162",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/182180.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/182180.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/182180.jpg"
   },
-  {
+  "182190": {
     "productNumber": "182190",
     "description": "BLA SEAT SUSPENSION BASE INCL SWIVEL/SLIDE 295-330MM",
     "brand": "Bla",
@@ -1099,20 +1083,16 @@
     "subCategoryDescription": "Stainless Fittings & Deck Hardware products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/491/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 2,
+    "estimatedWeightKg": 2.0,
     "freightAud": 9.6,
     "exportAudExGst": 814.44,
     "barcode": "9319786462577",
     "cataloguePage": 491,
-    "imageUrl": "../images/web-product-images/182190.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/182190.jpg",
     "catalogueDescription": "ype AO BLA Slide & Swivel Base \u2022 Solid, low profile Swivel&Slide mechanism \u2022 Easy and quick to install \u2022 Handles are reached while sitting in the seat \u2022 Handles can be positioned on either side of the unit, decided at assembly \u2022 Meets ABYC H-31 standards for type AO BLA Code Description Height mm Deck Mount mm Seat Mount mm 182162 Slide 75 330 x 230 330 x 315 182164 Slide & Swivel 95 330 x 230 330 x 315 BLA Code Height mm Deck Mount mm Seat Mount mm 182170 220 330 x 230 330 x 315 182180 345-380 330 x 230 330 x 315 182190 295-330 330 x 230 330 x 315 BLA Code Height mm Seat Mount mm 182160 45 330 x 315 182170 182180 182190 182164 Showing damping cushion profiles 182162",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/182190.jpg",
-    "productWebSearchImageUrl": "../images/web-product-images/182190.jpg",
-    "productWebSearchImageSourceUrl": "https://cdn.shopify.com/s/files/1/0352/3762/5994/articles/1593321402033_35879_photo_2.jpg?v=1689918468",
-    "productWebSearchImageSourcePage": "",
-    "productWebSearchQuery": "\"182190\" \"Bla BLA SEAT SUSPENSION BASE INCL SWIVEL/SLIDE 295-330MM\""
+    "productBlockImageUrl": "../images/catalogue/product-blocks/182190.jpg"
   },
-  {
+  "182192": {
     "productNumber": "182192",
     "description": "BLA SEAT SUSPENSION BASE TM LINE  INCL SWIVEL SLIDE 305MM HI",
     "brand": "Y",
@@ -1131,7 +1111,7 @@
     "subCategoryDescription": "Rope, Dock Lines & Mooring products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 2,
+    "estimatedWeightKg": 2.0,
     "freightAud": 9.6,
     "exportAudExGst": 1000.6,
     "barcode": "9319786462584",
@@ -1141,7 +1121,7 @@
     "productWebSearchQuery": "\"182192\" \"Y BLA SEAT SUSPENSION BASE TM LINE INCL SWIVEL SLIDE 305MM HI\"",
     "imageUrl": "../images/web-product-images/182192.jpg"
   },
-  {
+  "182196": {
     "productNumber": "182196",
     "description": "BLA SEAT SUSPENSION SET RIB LINE 530MM HIGH INCL SEAT",
     "brand": "Bla",
@@ -1160,7 +1140,7 @@
     "subCategoryDescription": "Rope, Dock Lines & Mooring products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 2,
+    "estimatedWeightKg": 2.0,
     "freightAud": 9.6,
     "exportAudExGst": 1047.14,
     "barcode": "9319786462591",
@@ -1170,7 +1150,7 @@
     "productWebSearchQuery": "\"182196\" \"Bla BLA SEAT SUSPENSION SET RIB LINE 530MM HIGH INCL SEAT\"",
     "imageUrl": "../images/web-product-images/182196.jpg"
   },
-  {
+  "182300": {
     "productNumber": "182300",
     "description": "SHARK EVOLITE TEAL WITH FLEXPOD SUSPENSION NO PLINTH OR ARMS",
     "brand": "Y",
@@ -1189,7 +1169,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 1138.98,
     "barcode": "9319786470190",
@@ -1199,7 +1179,7 @@
     "productWebSearchQuery": "\"182300\" \"Y SHARK EVOLITE TEAL WITH FLEXPOD SUSPENSION NO PLINTH OR ARMS\"",
     "imageUrl": "../images/web-product-images/182300.png"
   },
-  {
+  "182302": {
     "productNumber": "182302",
     "description": "SHARK EVO TEAL WITH FLEX SUSPENSION NO PLINTH OR ARMS",
     "brand": "Y",
@@ -1218,7 +1198,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 1644.82,
     "barcode": "9319786470206",
@@ -1228,7 +1208,7 @@
     "productWebSearchQuery": "\"182302\" \"Y SHARK EVO TEAL WITH FLEX SUSPENSION NO PLINTH OR ARMS\"",
     "imageUrl": "../images/web-product-images/182302.webp"
   },
-  {
+  "182304": {
     "productNumber": "182304",
     "description": "SHARK ULTRA-LITE SEAT WITH FLEXPOD NO PLINTH OR HANDGRIPS",
     "brand": "Y",
@@ -1247,7 +1227,7 @@
     "subCategoryDescription": "Covers, Seating & Fitout products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 2,
+    "estimatedWeightKg": 2.0,
     "freightAud": 9.6,
     "exportAudExGst": 1231.33,
     "barcode": "9319786472804",
@@ -1257,7 +1237,7 @@
     "productWebSearchQuery": "\"182304\" \"Y SHARK ULTRA-LITE SEAT WITH FLEXPOD NO PLINTH OR HANDGRIPS\"",
     "imageUrl": "../images/web-product-images/182304.jpg"
   },
-  {
+  "182306": {
     "productNumber": "182306",
     "description": "SHARK ULTRA SEAT WITH FLEX SUSPENSION NO PLINTH OR HANDGRIPS",
     "brand": "Y",
@@ -1276,7 +1256,7 @@
     "subCategoryDescription": "Covers, Seating & Fitout products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 2,
+    "estimatedWeightKg": 2.0,
     "freightAud": 9.6,
     "exportAudExGst": 1778.18,
     "barcode": "9319786472811",
@@ -1286,7 +1266,7 @@
     "productWebSearchQuery": "\"182306\" \"Y SHARK ULTRA SEAT WITH FLEX SUSPENSION NO PLINTH OR HANDGRIPS\"",
     "imageUrl": "../images/web-product-images/182306.jpg"
   },
-  {
+  "182308": {
     "productNumber": "182308",
     "description": "SHARK EPIC BLACK WITH FLEX SUSPENSION NO PLINTH OR HANDGRIPS",
     "brand": "Y",
@@ -1305,7 +1285,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 1898.76,
     "barcode": "9319786470213",
@@ -1315,7 +1295,7 @@
     "productWebSearchQuery": "\"182308\" \"Y SHARK EPIC BLACK WITH FLEX SUSPENSION NO PLINTH OR HANDGRIPS\"",
     "imageUrl": "../images/web-product-images/182308.jpg"
   },
-  {
+  "182310": {
     "productNumber": "182310",
     "description": "SHARK EPIC GREY WITH FLEX SUSPENSION NO PLINTH OR HANDGRIP",
     "brand": "Y",
@@ -1334,7 +1314,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 2784.47,
     "barcode": "9319786470220",
@@ -1344,7 +1324,7 @@
     "productWebSearchQuery": "\"182310\" \"SHARK EPIC GREY WITH FLEX SUSPENSION NO PLINTH OR HANDGRIP\"",
     "imageUrl": "../images/web-product-images/182310.jpg"
   },
-  {
+  "182312": {
     "productNumber": "182312",
     "description": "SHARK LUXE SEAT BLACK WITH FLEX SUSP NO PLINTH OR HANDGRIPS",
     "brand": "Y",
@@ -1363,7 +1343,7 @@
     "subCategoryDescription": "Covers, Seating & Fitout products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 2,
+    "estimatedWeightKg": 2.0,
     "freightAud": 9.6,
     "exportAudExGst": 3010.24,
     "barcode": "9319786472828",
@@ -1373,7 +1353,7 @@
     "productWebSearchQuery": "\"182312\" \"Y SHARK LUXE SEAT BLACK WITH FLEX SUSP NO PLINTH OR HANDGRIPS\"",
     "imageUrl": "../images/web-product-images/182312.jpg"
   },
-  {
+  "182314": {
     "productNumber": "182314",
     "description": "SHARK LUXE SEAT GREY WITH FLEX SUSP NO PLINTH OR HANDGRIPS",
     "brand": "Y",
@@ -1392,7 +1372,7 @@
     "subCategoryDescription": "Covers, Seating & Fitout products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 2,
+    "estimatedWeightKg": 2.0,
     "freightAud": 9.6,
     "exportAudExGst": 3010.24,
     "barcode": "9319786472835",
@@ -1402,7 +1382,7 @@
     "productWebSearchQuery": "\"182314\" \"SHARK LUXE SEAT GREY WITH FLEX SUSP NO PLINTH OR HANDGRIPS\"",
     "imageUrl": "../images/web-product-images/182314.jpg"
   },
-  {
+  "182316": {
     "productNumber": "182316",
     "description": "SHARK EVO TEAL SEAT ONLY",
     "brand": "Y",
@@ -1421,7 +1401,7 @@
     "subCategoryDescription": "Covers, Seating & Fitout products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 2,
+    "estimatedWeightKg": 2.0,
     "freightAud": 9.6,
     "exportAudExGst": 443.21,
     "barcode": "9319786470237",
@@ -1431,7 +1411,7 @@
     "productWebSearchQuery": "\"182316\" \"SHARK EVO TEAL SEAT ONLY\"",
     "imageUrl": "../images/web-product-images/182316.jpg"
   },
-  {
+  "182318": {
     "productNumber": "182318",
     "description": "SHARK EVO BLACK SEAT ONLY",
     "brand": "",
@@ -1450,7 +1430,7 @@
     "subCategoryDescription": "Covers, Seating & Fitout products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 2,
+    "estimatedWeightKg": 2.0,
     "freightAud": 9.6,
     "exportAudExGst": 443.21,
     "barcode": "9319786470244",
@@ -1460,13 +1440,13 @@
     "productWebSearchQuery": "\"182318\" \"SHARK EVO BLACK SEAT ONLY\"",
     "imageUrl": "../images/web-product-images/182318.jpg"
   },
-  {
+  "182320": {
     "productNumber": "182320",
     "description": "SHARK ULTRA BLACK SEAT ONLY",
     "brand": "",
     "variant": "PC",
     "price": 1376.6,
-    "unitCostOfSale": 808,
+    "unitCostOfSale": 808.0,
     "categoryName": "Covers, Seats & Boat Fitout",
     "topCategory": "Covers, Seats & Boat Fitout",
     "subCategoryName": "Covers, Seating & Fitout",
@@ -1479,7 +1459,7 @@
     "subCategoryDescription": "Covers, Seating & Fitout products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 2,
+    "estimatedWeightKg": 2.0,
     "freightAud": 9.6,
     "exportAudExGst": 475.2,
     "barcode": "9319786470251",
@@ -1489,7 +1469,7 @@
     "productWebSearchQuery": "\"182320\" \"SHARK ULTRA BLACK SEAT ONLY\"",
     "imageUrl": "../images/web-product-images/182320.jpg"
   },
-  {
+  "182322": {
     "productNumber": "182322",
     "description": "SHARK EPIC BLACK SEAT ONLY",
     "brand": "",
@@ -1508,7 +1488,7 @@
     "subCategoryDescription": "Covers, Seating & Fitout products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 2,
+    "estimatedWeightKg": 2.0,
     "freightAud": 9.6,
     "exportAudExGst": 632.47,
     "barcode": "9319786470268",
@@ -1518,7 +1498,7 @@
     "productWebSearchQuery": "\"182322\" \"SHARK EPIC BLACK SEAT ONLY\"",
     "imageUrl": "../images/web-product-images/182322.jpg"
   },
-  {
+  "182324": {
     "productNumber": "182324",
     "description": "SHARK EPIC GREY SEAT ONLY",
     "brand": "",
@@ -1537,7 +1517,7 @@
     "subCategoryDescription": "Covers, Seating & Fitout products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 2,
+    "estimatedWeightKg": 2.0,
     "freightAud": 9.6,
     "exportAudExGst": 632.47,
     "barcode": "9319786470275",
@@ -1547,7 +1527,7 @@
     "productWebSearchQuery": "\"182324\" \"SHARK EPIC GREY SEAT ONLY\"",
     "imageUrl": "../images/web-product-images/182324.jpg"
   },
-  {
+  "182330": {
     "productNumber": "182330",
     "description": "SHARK PLASTIC SIDE GRIPS WITH FASTENERS",
     "brand": "",
@@ -1566,7 +1546,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 31.74,
     "barcode": "9319786472842",
@@ -1576,7 +1556,7 @@
     "productWebSearchQuery": "\"182330\" \"SHARK PLASTIC SIDE GRIPS WITH FASTENERS\"",
     "imageUrl": "../images/web-product-images/182330.jpg"
   },
-  {
+  "182338": {
     "productNumber": "182338",
     "description": "SHARK SEAT STIFFENER BRACE BLACK ALLOY WITH FASTENERS",
     "brand": "",
@@ -1595,7 +1575,7 @@
     "subCategoryDescription": "Covers, Seating & Fitout products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 2,
+    "estimatedWeightKg": 2.0,
     "freightAud": 9.6,
     "exportAudExGst": 127.66,
     "barcode": "",
@@ -1605,7 +1585,7 @@
     "productWebSearchQuery": "\"182338\" \"SHARK SEAT STIFFENER BRACE BLACK ALLOY WITH FASTENERS\"",
     "imageUrl": "../images/web-product-images/182338.jpg"
   },
-  {
+  "182342": {
     "productNumber": "182342",
     "description": "SHARK REAR SS GRAB HANDLE REQUIRES BRACE",
     "brand": "",
@@ -1624,7 +1604,7 @@
     "subCategoryDescription": "Stainless Fittings & Deck Hardware products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 127.66,
     "barcode": "9319786472859",
@@ -1634,7 +1614,7 @@
     "productWebSearchQuery": "\"182342\" \"SHARK REAR SS GRAB HANDLE REQUIRES BRACE\"",
     "imageUrl": "../images/web-product-images/182342.jpg"
   },
-  {
+  "182344": {
     "productNumber": "182344",
     "description": "SHARK STANDARD ARMREST PAIR REQUIRES BRACE",
     "brand": "",
@@ -1653,7 +1633,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 255.99,
     "barcode": "9319786472866",
@@ -1663,7 +1643,7 @@
     "productWebSearchQuery": "\"182344\" \"SHARK STANDARD ARMREST PAIR REQUIRES BRACE\"",
     "imageUrl": "../images/web-product-images/182344.webp"
   },
-  {
+  "182350": {
     "productNumber": "182350",
     "description": "SHARK HIGH BACK KIT FOR LUXE SEAT",
     "brand": "Y",
@@ -1682,7 +1662,7 @@
     "subCategoryDescription": "Covers, Seating & Fitout products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 2,
+    "estimatedWeightKg": 2.0,
     "freightAud": 9.6,
     "exportAudExGst": 255.99,
     "barcode": "9319786472873",
@@ -1692,7 +1672,7 @@
     "productWebSearchQuery": "\"182350\" \"Y SHARK HIGH BACK KIT FOR LUXE SEAT\"",
     "imageUrl": "../images/web-product-images/182350.jpg"
   },
-  {
+  "182356": {
     "productNumber": "182356",
     "description": "SHARK SEAT SWIVEL 35MM ADDED HEIGHT",
     "brand": "",
@@ -1711,7 +1691,7 @@
     "subCategoryDescription": "Stainless Fittings & Deck Hardware products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 2,
+    "estimatedWeightKg": 2.0,
     "freightAud": 9.6,
     "exportAudExGst": 680.8,
     "barcode": "9319786472880",
@@ -1721,7 +1701,7 @@
     "productWebSearchQuery": "\"182356\" \"SHARK SEAT SWIVEL 35MM ADDED HEIGHT\"",
     "imageUrl": "../images/web-product-images/182356.jpg"
   },
-  {
+  "182360": {
     "productNumber": "182360",
     "description": "SHARK FLEXPOD HD SUSPENSION PEDESTAL ONLY",
     "brand": "",
@@ -1740,7 +1720,7 @@
     "subCategoryDescription": "Covers, Seating & Fitout products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 681.65,
     "barcode": "9319786470282",
@@ -1750,7 +1730,7 @@
     "productWebSearchQuery": "\"182360\" \"SHARK FLEXPOD HD SUSPENSION PEDESTAL ONLY\"",
     "imageUrl": "../images/web-product-images/182360.jpg"
   },
-  {
+  "182362": {
     "productNumber": "182362",
     "description": "SHARK FLEX SUSPENSION PEDESTAL ONLY",
     "brand": "",
@@ -1769,7 +1749,7 @@
     "subCategoryDescription": "Covers, Seating & Fitout products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 1126.52,
     "barcode": "9319786470299",
@@ -1779,7 +1759,7 @@
     "productWebSearchQuery": "\"182362\" \"SHARK FLEX SUSPENSION PEDESTAL ONLY\"",
     "imageUrl": "../images/web-product-images/182362.jpg"
   },
-  {
+  "182364": {
     "productNumber": "182364",
     "description": "SHARK FLEX HD SUSPENSION PEDESTAL ONLY",
     "brand": "Y",
@@ -1798,7 +1778,7 @@
     "subCategoryDescription": "Covers, Seating & Fitout products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 1423.3,
     "barcode": "9319786470305",
@@ -1808,7 +1788,7 @@
     "productWebSearchQuery": "\"182364\" \"SHARK FLEX HD SUSPENSION PEDESTAL ONLY\"",
     "imageUrl": "../images/web-product-images/182364.jpg"
   },
-  {
+  "182366": {
     "productNumber": "182366",
     "description": "SHARK FLEX SUSPENSION PEDESTAL WITH PLASTIC PLINTH",
     "brand": "Y",
@@ -1827,7 +1807,7 @@
     "subCategoryDescription": "Covers, Seating & Fitout products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 1422.67,
     "barcode": "9319786470312",
@@ -1837,7 +1817,7 @@
     "productWebSearchQuery": "\"182366\" \"Y SHARK FLEX SUSPENSION PEDESTAL WITH PLASTIC PLINTH\"",
     "imageUrl": "../images/web-product-images/182366.jpg"
   },
-  {
+  "182378": {
     "productNumber": "182378",
     "description": "SHARK PLASTIC PLINTH ONLY 200MM",
     "brand": "Y",
@@ -1856,7 +1836,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 296.15,
     "barcode": "9319786470329",
@@ -1866,7 +1846,7 @@
     "productWebSearchQuery": "\"182378\" \"SHARK PLASTIC PLINTH ONLY 200MM\"",
     "imageUrl": "../images/web-product-images/182378.png"
   },
-  {
+  "182380": {
     "productNumber": "182380",
     "description": "SHARK A1 ALLOY PLINTH ONLY 170MM",
     "brand": "",
@@ -1885,7 +1865,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 236.8,
     "barcode": "9319786470336",
@@ -1895,7 +1875,7 @@
     "productWebSearchQuery": "\"182380\" \"SHARK A1 ALLOY PLINTH ONLY 170MM\"",
     "imageUrl": "../images/web-product-images/182380.jpg"
   },
-  {
+  "182382": {
     "productNumber": "182382",
     "description": "SHARK A2 ALLOY PLINTH ONLY 300MM",
     "brand": "",
@@ -1914,7 +1894,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 296.15,
     "barcode": "9319786470343",
@@ -1924,7 +1904,7 @@
     "productWebSearchQuery": "\"182382\" \"SHARK A2 ALLOY PLINTH ONLY 300MM\"",
     "imageUrl": "../images/web-product-images/182382.jpg"
   },
-  {
+  "182384": {
     "productNumber": "182384",
     "description": "SHARK A3 ALLOY PLINTH ONLY 430MM",
     "brand": "",
@@ -1943,7 +1923,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 355.52,
     "barcode": "9319786470350",
@@ -1953,7 +1933,7 @@
     "productWebSearchQuery": "\"182384\" \"SHARK A3 ALLOY PLINTH ONLY 430MM\"",
     "imageUrl": "../images/web-product-images/182384.jpg"
   },
-  {
+  "182388": {
     "productNumber": "182388",
     "description": "SHARK FOLD AWAY FOOTREST 316SS PAIR",
     "brand": "",
@@ -1972,7 +1952,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 124.89,
     "barcode": "9319786472897",
@@ -1982,13 +1962,13 @@
     "productWebSearchQuery": "\"182388\" \"SHARK FOLD AWAY FOOTREST 316SS PAIR\"",
     "imageUrl": "../images/web-product-images/182388.jpg"
   },
-  {
+  "182396": {
     "productNumber": "182396",
     "description": "SHARK TRAX FLOOR PLATE FOR ONE SEAT BLACK ALLOY",
     "brand": "",
     "variant": "PC",
     "price": 929.5,
-    "unitCostOfSale": 545,
+    "unitCostOfSale": 545.0,
     "categoryName": "Covers, Seats & Boat Fitout",
     "topCategory": "Covers, Seats & Boat Fitout",
     "subCategoryName": "Covers, Seating & Fitout",
@@ -2001,7 +1981,7 @@
     "subCategoryDescription": "Covers, Seating & Fitout products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 2,
+    "estimatedWeightKg": 2.0,
     "freightAud": 9.6,
     "exportAudExGst": 317.4,
     "barcode": "9319786472903",
@@ -2011,4 +1991,4 @@
     "productWebSearchQuery": "\"182396\" \"SHARK TRAX FLOOR PLATE FOR ONE SEAT BLACK ALLOY\"",
     "imageUrl": "../images/web-product-images/182396.jpg"
   }
-]
+}

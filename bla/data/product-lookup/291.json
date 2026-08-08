@@ -1,5 +1,5 @@
-[
-  {
+{
+  "291003": {
     "productNumber": "291003",
     "description": "SEASTAR FRONT MOUNT OUTBOARD CYLINDER HC5345-3",
     "brand": "Seastar",
@@ -18,17 +18,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/25/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 570.46,
     "barcode": "731957916754",
     "cataloguePage": 25,
-    "imageUrl": "../images/catalogue/product-photos/291003.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/291003.jpg",
     "catalogueDescription": "........... 778 281914............................................. 778 282520............................................. 779 282559............................................. 779 287250............................................. 782 287304............................................. 782 287310............................................. 782 287330............................................. 525 287514............................................. 782 287518............................................. 782 291003.....................795, 799, 802, 839 291004.....................................795, 802 291005............................................. 795 291008.....................................799, 839 291010............................................. 839 291012.....................795, 799, 802, 839 291014.............................795, 799, 839 291016.............................795, 802, 839 291017.............................795, 799, 839 291018.....................795-796, 799, 839 291024....................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/291003.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/291003.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/291003.jpg"
   },
-  {
+  "291004": {
     "productNumber": "291004",
     "description": "SEASTAR FRONT MOUNT OUTBOARD CYLINDER SHORT STROKE HC5445-3",
     "brand": "Seastar",
@@ -47,17 +46,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/25/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 803.88,
     "barcode": "731957918260",
     "cataloguePage": 25,
-    "imageUrl": "../images/catalogue/product-photos/291004.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/291004.jpg",
     "catalogueDescription": "..................... 778 282520............................................. 779 282559............................................. 779 287250............................................. 782 287304............................................. 782 287310............................................. 782 287330............................................. 525 287514............................................. 782 287518............................................. 782 291003.....................795, 799, 802, 839 291004.....................................795, 802 291005............................................. 795 291008.....................................799, 839 291010............................................. 839 291012.....................795, 799, 802, 839 291014.............................795, 799, 839 291016.............................795, 802, 839 291017.............................795, 799, 839 291018.....................795-796, 799, 839 291024.....................................803, 839 291026..............",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/291004.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/291004.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/291004.jpg"
   },
-  {
+  "291005": {
     "productNumber": "291005",
     "description": "SEASTAR COMMERCIAL GRADE OUTBOARD CYLINDER HC 5345-3",
     "brand": "Y",
@@ -76,17 +74,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/25/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 1312.74,
     "barcode": "731957932419",
     "cataloguePage": 25,
-    "imageUrl": "../images/catalogue/product-photos/291005.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/291005.jpg",
     "catalogueDescription": "......................... 779 282559............................................. 779 287250............................................. 782 287304............................................. 782 287310............................................. 782 287330............................................. 525 287514............................................. 782 287518............................................. 782 291003.....................795, 799, 802, 839 291004.....................................795, 802 291005............................................. 795 291008.....................................799, 839 291010............................................. 839 291012.....................795, 799, 802, 839 291014.............................795, 799, 839 291016.............................795, 802, 839 291017.............................795, 799, 839 291018.....................795-796, 799, 839 291024.....................................803, 839 291026.....................................803, 839 291028..............",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/291005.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/291005.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/291005.jpg"
   },
-  {
+  "291007": {
     "productNumber": "291007",
     "description": "SEASTAR CYLINDER INBOARD HYNAUTIC UNI HC5322-3",
     "brand": "Y",
@@ -105,7 +102,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 893.73,
     "barcode": "731957908339",
@@ -115,7 +112,7 @@
     "productWebSearchQuery": "\"291007\" \"SEASTAR CYLINDER INBOARD HYNAUTIC UNI HC5322-3\"",
     "imageUrl": "../images/web-product-images/291007.jpg"
   },
-  {
+  "291008": {
     "productNumber": "291008",
     "description": "SEASTAR SPLASHWELL OUTBOARD CYLINDER HC5380-3",
     "brand": "Seastar",
@@ -134,17 +131,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/25/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 625.4,
     "barcode": "731957900784",
     "cataloguePage": 25,
-    "imageUrl": "../images/catalogue/product-photos/291008.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/291008.jpg",
     "catalogueDescription": "......................... 779 287250............................................. 782 287304............................................. 782 287310............................................. 782 287330............................................. 525 287514............................................. 782 287518............................................. 782 291003.....................795, 799, 802, 839 291004.....................................795, 802 291005............................................. 795 291008.....................................799, 839 291010............................................. 839 291012.....................795, 799, 802, 839 291014.............................795, 799, 839 291016.............................795, 802, 839 291017.............................795, 799, 839 291018.....................795-796, 799, 839 291024.....................................803, 839 291026.....................................803, 839 291028.....................................803, 839 291029..................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/291008.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/291008.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/291008.jpg"
   },
-  {
+  "291010": {
     "productNumber": "291010",
     "description": "SEASTAR SIDE MOUNT OUTBOARD CYLINDER HC5370-3",
     "brand": "Seastar",
@@ -163,17 +159,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/25/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 507.14,
     "barcode": "731957902719",
     "cataloguePage": 25,
-    "imageUrl": "../images/catalogue/product-photos/291010.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/291010.jpg",
     "catalogueDescription": "............................. 782 287304............................................. 782 287310............................................. 782 287330............................................. 525 287514............................................. 782 287518............................................. 782 291003.....................795, 799, 802, 839 291004.....................................795, 802 291005............................................. 795 291008.....................................799, 839 291010............................................. 839 291012.....................795, 799, 802, 839 291014.............................795, 799, 839 291016.............................795, 802, 839 291017.............................795, 799, 839 291018.....................795-796, 799, 839 291024.....................................803, 839 291026.....................................803, 839 291028.....................................803, 839 291029.....................................803, 839 291050..................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/291010.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/291010.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/291010.jpg"
   },
-  {
+  "291012": {
     "productNumber": "291012",
     "description": "SEASTAR FRONT MOUNT OUTBOARD CYL OMC 77-90 YAM 2003> SUZ 96",
     "brand": "Seastar",
@@ -192,17 +187,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/25/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 570.46,
     "barcode": "731957917850",
     "cataloguePage": 25,
-    "imageUrl": "../images/catalogue/product-photos/291012.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/291012.jpg",
     "catalogueDescription": "............................. 782 287310............................................. 782 287330............................................. 525 287514............................................. 782 287518............................................. 782 291003.....................795, 799, 802, 839 291004.....................................795, 802 291005............................................. 795 291008.....................................799, 839 291010............................................. 839 291012.....................795, 799, 802, 839 291014.............................795, 799, 839 291016.............................795, 802, 839 291017.............................795, 799, 839 291018.....................795-796, 799, 839 291024.....................................803, 839 291026.....................................803, 839 291028.....................................803, 839 291029.....................................803, 839 291050............................................. 801 291052..................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/291012.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/291012.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/291012.jpg"
   },
-  {
+  "291014": {
     "productNumber": "291014",
     "description": "SEASTAR FRONT MOUNT OUTBOARD CYLINDER HONDA 115-130HP 1996>",
     "brand": "Seastar",
@@ -221,17 +215,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/25/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 980.42,
     "barcode": "731957918451",
     "cataloguePage": 25,
-    "imageUrl": "../images/catalogue/product-photos/291014.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/291014.jpg",
     "catalogueDescription": "....................................... 782 287330............................................. 525 287514............................................. 782 287518............................................. 782 291003.....................795, 799, 802, 839 291004.....................................795, 802 291005............................................. 795 291008.....................................799, 839 291010............................................. 839 291012.....................795, 799, 802, 839 291014.............................795, 799, 839 291016.............................795, 802, 839 291017.............................795, 799, 839 291018.....................795-796, 799, 839 291024.....................................803, 839 291026.....................................803, 839 291028.....................................803, 839 291029.....................................803, 839 291050............................................. 801 291052............................................. 801 291060........",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/291014.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/291014.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/291014.jpg"
   },
-  {
+  "291016": {
     "productNumber": "291016",
     "description": "SEASTAR F/MOUNT O/BOARD CYL YAM F115 11-13 SUZ 40-140 1998>",
     "brand": "Seastar",
@@ -250,17 +243,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/25/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 593.72,
     "barcode": "731957916846",
     "cataloguePage": 25,
-    "imageUrl": "../images/catalogue/product-photos/291016.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/291016.jpg",
     "catalogueDescription": "0............................................. 525 287514............................................. 782 287518............................................. 782 291003.....................795, 799, 802, 839 291004.....................................795, 802 291005............................................. 795 291008.....................................799, 839 291010............................................. 839 291012.....................795, 799, 802, 839 291014.............................795, 799, 839 291016.............................795, 802, 839 291017.............................795, 799, 839 291018.....................795-796, 799, 839 291024.....................................803, 839 291026.....................................803, 839 291028.....................................803, 839 291029.....................................803, 839 291050............................................. 801 291052............................................. 801 291060.....................................805, 839 291062.....",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/291016.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/291016.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/291016.jpg"
   },
-  {
+  "291017": {
     "productNumber": "291017",
     "description": "SEASTAR YAMAHA HD FRONT MOUNT O/BOARD CYLINDER CATAMARAN",
     "brand": "Seastar",
@@ -279,17 +271,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/25/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 639.42,
     "barcode": "731957918253",
     "cataloguePage": 25,
-    "imageUrl": "../images/catalogue/product-photos/291017.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/291017.jpg",
     "catalogueDescription": "5 287514............................................. 782 287518............................................. 782 291003.....................795, 799, 802, 839 291004.....................................795, 802 291005............................................. 795 291008.....................................799, 839 291010............................................. 839 291012.....................795, 799, 802, 839 291014.............................795, 799, 839 291016.............................795, 802, 839 291017.............................795, 799, 839 291018.....................795-796, 799, 839 291024.....................................803, 839 291026.....................................803, 839 291028.....................................803, 839 291029.....................................803, 839 291050............................................. 801 291052............................................. 801 291060.....................................805, 839 291062.....................................805, 839 291064..",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/291017.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/291017.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/291017.jpg"
   },
-  {
+  "291018": {
     "productNumber": "291018",
     "description": "SEASTAR FRONT MOUNT PRO OUTBOARD CYLINDER HC6345-3",
     "brand": "Seastar",
@@ -308,17 +299,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/25/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 793.94,
     "barcode": "731957916853",
     "cataloguePage": 25,
-    "imageUrl": "../images/catalogue/product-photos/291018.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/291018.jpg",
     "catalogueDescription": ".... 782 287518............................................. 782 291003.....................795, 799, 802, 839 291004.....................................795, 802 291005............................................. 795 291008.....................................799, 839 291010............................................. 839 291012.....................795, 799, 802, 839 291014.............................795, 799, 839 291016.............................795, 802, 839 291017.............................795, 799, 839 291018.....................795-796, 799, 839 291024.....................................803, 839 291026.....................................803, 839 291028.....................................803, 839 291029.....................................803, 839 291050............................................. 801 291052............................................. 801 291060.....................................805, 839 291062.....................................805, 839 291064.....................................805, 839 29106",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/291018.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/291018.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/291018.jpg"
   },
-  {
+  "291020": {
     "productNumber": "291020",
     "description": "SEASTAR FRONT MOUNT PRO OUTBOARD CYLINDER HC6358-3",
     "brand": "Y",
@@ -337,17 +327,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/870/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 1067.41,
     "barcode": "9319786247464",
     "cataloguePage": 870,
-    "imageUrl": "../images/catalogue/product-photos/291020.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/291020.jpg",
     "catalogueDescription": "ody and HC5332 (291029) cylinders 293723 HP6025 Seal Kit to suit HC5313 (291062) with black body 293724 HS5156 Seal kit to suit HC5314 (291064) and HC5326 (291030) cylinders 293726 HS5182 Seal kit to suit HC5318 (291066) cylinder 293728 HS5183 Seal kit to suit HC5319 (291068) cylinder 293730 HS5184 Seal kit to suit HC5351 (294036) and HC5357 (294038) cylinders 293770 HP6016 Replacement support rod to suit HC5340, HC5342, HC5345 (291003), HC5347 (291014), HC5348 291012), HC5358 (291016), HC6345 (291018) and HC6358 (291020) Dometic SeaStar Hydraulic Service Kits & Parts",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/291020.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/291020.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/291020.jpg"
   },
-  {
+  "291024": {
     "productNumber": "291024",
     "description": "SEASTAR MERCRUISER BMW STERNDRIVE CYLINDER HC5330-3",
     "brand": "Y",
@@ -366,17 +355,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/25/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 585.22,
     "barcode": "731957900753",
     "cataloguePage": 25,
-    "imageUrl": "../images/catalogue/product-photos/291024.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/291024.jpg",
     "catalogueDescription": "............... 782 291003.....................795, 799, 802, 839 291004.....................................795, 802 291005............................................. 795 291008.....................................799, 839 291010............................................. 839 291012.....................795, 799, 802, 839 291014.............................795, 799, 839 291016.............................795, 802, 839 291017.............................795, 799, 839 291018.....................795-796, 799, 839 291024.....................................803, 839 291026.....................................803, 839 291028.....................................803, 839 291029.....................................803, 839 291050............................................. 801 291052............................................. 801 291060.....................................805, 839 291062.....................................805, 839 291064.....................................805, 839 291069............................................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/291024.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/291024.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/291024.jpg"
   },
-  {
+  "291026": {
     "productNumber": "291026",
     "description": "SEASTAR MCRUISER BMW VOLVO YANMAR STERNDRIVE CYL HC5328-3",
     "brand": "Seastar",
@@ -395,17 +383,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/25/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 559.4,
     "barcode": "731957900739",
     "cataloguePage": 25,
-    "imageUrl": "../images/catalogue/product-photos/291026.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/291026.jpg",
     "catalogueDescription": "799, 802, 839 291004.....................................795, 802 291005............................................. 795 291008.....................................799, 839 291010............................................. 839 291012.....................795, 799, 802, 839 291014.............................795, 799, 839 291016.............................795, 802, 839 291017.............................795, 799, 839 291018.....................795-796, 799, 839 291024.....................................803, 839 291026.....................................803, 839 291028.....................................803, 839 291029.....................................803, 839 291050............................................. 801 291052............................................. 801 291060.....................................805, 839 291062.....................................805, 839 291064.....................................805, 839 291069............................................. 805 291071.............................788, 791, 8",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/291026.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/291026.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/291026.jpg"
   },
-  {
+  "291028": {
     "productNumber": "291028",
     "description": "SEASTAR STERNDRIVE CYLINDER HC5331",
     "brand": "Y",
@@ -424,17 +411,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/25/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 622.81,
     "barcode": "731957900760",
     "cataloguePage": 25,
-    "imageUrl": "../images/catalogue/product-photos/291028.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/291028.jpg",
     "catalogueDescription": ".....795, 802 291005............................................. 795 291008.....................................799, 839 291010............................................. 839 291012.....................795, 799, 802, 839 291014.............................795, 799, 839 291016.............................795, 802, 839 291017.............................795, 799, 839 291018.....................795-796, 799, 839 291024.....................................803, 839 291026.....................................803, 839 291028.....................................803, 839 291029.....................................803, 839 291050............................................. 801 291052............................................. 801 291060.....................................805, 839 291062.....................................805, 839 291064.....................................805, 839 291069............................................. 805 291071.............................788, 791, 839 291072.............................788, 791, 839",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/291028.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/291028.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/291028.jpg"
   },
-  {
+  "291029": {
     "productNumber": "291029",
     "description": "SEASTAR VOLVO STERNDRIVE CYLINDER HC5332",
     "brand": "Seastar",
@@ -453,17 +439,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/25/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 848.94,
     "barcode": "731957801852",
     "cataloguePage": 25,
-    "imageUrl": "../images/catalogue/product-photos/291029.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/291029.jpg",
     "catalogueDescription": "............. 795 291008.....................................799, 839 291010............................................. 839 291012.....................795, 799, 802, 839 291014.............................795, 799, 839 291016.............................795, 802, 839 291017.............................795, 799, 839 291018.....................795-796, 799, 839 291024.....................................803, 839 291026.....................................803, 839 291028.....................................803, 839 291029.....................................803, 839 291050............................................. 801 291052............................................. 801 291060.....................................805, 839 291062.....................................805, 839 291064.....................................805, 839 291069............................................. 805 291071.............................788, 791, 839 291072.............................788, 791, 839 291073.....................................788, 839",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/291029.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/291029.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/291029.jpg"
   },
-  {
+  "291032": {
     "productNumber": "291032",
     "description": "SEASTAR STERNDRIVE CYLINDER UNBALANCED HC5386-3",
     "brand": "Y",
@@ -482,7 +467,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 1071.62,
     "barcode": "731957931924",
@@ -492,7 +477,7 @@
     "productWebSearchQuery": "\"291032\" \"SEASTAR STERNDRIVE CYLINDER UNBALANCED HC5386-3\"",
     "imageUrl": "../images/web-product-images/291032.jpg"
   },
-  {
+  "291036": {
     "productNumber": "291036",
     "description": "SEASTAR MERCRUISER CYLINDER SEASTAR HC5339-3",
     "brand": "Y",
@@ -511,7 +496,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 1077.62,
     "barcode": "731957900777",
@@ -521,7 +506,7 @@
     "productWebSearchQuery": "\"291036\" \"SEASTAR MERCRUISER CYLINDER SEASTAR HC5339-3\"",
     "imageUrl": "../images/web-product-images/291036.jpg"
   },
-  {
+  "291041": {
     "productNumber": "291041",
     "description": "SEASTAR PIVOT CYLINDER SET",
     "brand": "Y",
@@ -540,7 +525,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 40.09,
     "barcode": "",
@@ -550,7 +535,7 @@
     "productWebSearchQuery": "\"291041\" \"SEASTAR PIVOT CYLINDER SET\"",
     "imageUrl": "../images/web-product-images/291041.jpg"
   },
-  {
+  "291050": {
     "productNumber": "291050",
     "description": "SEASTAR TOURNAMENT 2 FRONT MOUNT OUTBOARD CYLINDER HC6845",
     "brand": "Seastar",
@@ -569,17 +554,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/25/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 1242.37,
     "barcode": "731957910042",
     "cataloguePage": 25,
-    "imageUrl": "../images/catalogue/product-photos/291050.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/291050.jpg",
     "catalogueDescription": ".........799, 839 291010............................................. 839 291012.....................795, 799, 802, 839 291014.............................795, 799, 839 291016.............................795, 802, 839 291017.............................795, 799, 839 291018.....................795-796, 799, 839 291024.....................................803, 839 291026.....................................803, 839 291028.....................................803, 839 291029.....................................803, 839 291050............................................. 801 291052............................................. 801 291060.....................................805, 839 291062.....................................805, 839 291064.....................................805, 839 291069............................................. 805 291071.............................788, 791, 839 291072.............................788, 791, 839 291073.....................................788, 839 291074.............................788, 791, 839 291",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/291050.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/291050.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/291050.jpg"
   },
-  {
+  "291052": {
     "productNumber": "291052",
     "description": "SEASTAR TOURNAMENT 2 F/MOUNT O/BOARD CYL ATTACH KIT HC6845S",
     "brand": "Seastar",
@@ -598,17 +582,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/25/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 1363.17,
     "barcode": "731957910486",
     "cataloguePage": 25,
-    "imageUrl": "../images/catalogue/product-photos/291052.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/291052.jpg",
     "catalogueDescription": "............. 839 291012.....................795, 799, 802, 839 291014.............................795, 799, 839 291016.............................795, 802, 839 291017.............................795, 799, 839 291018.....................795-796, 799, 839 291024.....................................803, 839 291026.....................................803, 839 291028.....................................803, 839 291029.....................................803, 839 291050............................................. 801 291052............................................. 801 291060.....................................805, 839 291062.....................................805, 839 291064.....................................805, 839 291069............................................. 805 291071.............................788, 791, 839 291072.............................788, 791, 839 291073.....................................788, 839 291074.............................788, 791, 839 291075.............................788, 791, 839 291076....",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/291052.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/291052.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/291052.jpg"
   },
-  {
+  "291054": {
     "productNumber": "291054",
     "description": "SEASTAR TOURNAMENT CYLINDER SHORT STROKE HC6850",
     "brand": "Y",
@@ -627,7 +610,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 1125.5,
     "barcode": "731957910912",
@@ -647,7 +630,7 @@
     "imageUrl": "../images/bla-website-products/291054.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "291060": {
     "productNumber": "291060",
     "description": "SEASTAR INBOARD CYLINDER HC5312-3",
     "brand": "Seastar",
@@ -666,17 +649,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/25/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 547.37,
     "barcode": "731957900487",
     "cataloguePage": 25,
-    "imageUrl": "../images/catalogue/product-photos/291060.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/291060.jpg",
     "catalogueDescription": "02, 839 291014.............................795, 799, 839 291016.............................795, 802, 839 291017.............................795, 799, 839 291018.....................795-796, 799, 839 291024.....................................803, 839 291026.....................................803, 839 291028.....................................803, 839 291029.....................................803, 839 291050............................................. 801 291052............................................. 801 291060.....................................805, 839 291062.....................................805, 839 291064.....................................805, 839 291069............................................. 805 291071.............................788, 791, 839 291072.............................788, 791, 839 291073.....................................788, 839 291074.............................788, 791, 839 291075.............................788, 791, 839 291076.....................................805, 839 291077........",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/291060.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/291060.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/291060.jpg"
   },
-  {
+  "291062": {
     "productNumber": "291062",
     "description": "SEASTAR INBOARD CYLINDER HC5313-3",
     "brand": "Seastar",
@@ -695,17 +677,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/25/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 608.33,
     "barcode": "731957900708",
     "cataloguePage": 25,
-    "imageUrl": "../images/catalogue/product-photos/291062.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/291062.jpg",
     "catalogueDescription": "839 291016.............................795, 802, 839 291017.............................795, 799, 839 291018.....................795-796, 799, 839 291024.....................................803, 839 291026.....................................803, 839 291028.....................................803, 839 291029.....................................803, 839 291050............................................. 801 291052............................................. 801 291060.....................................805, 839 291062.....................................805, 839 291064.....................................805, 839 291069............................................. 805 291071.............................788, 791, 839 291072.............................788, 791, 839 291073.....................................788, 839 291074.............................788, 791, 839 291075.............................788, 791, 839 291076.....................................805, 839 291077.....................................791, 839 291188........",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/291062.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/291062.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/291062.jpg"
   },
-  {
+  "291064": {
     "productNumber": "291064",
     "description": "SEASTAR INBOARD CYLINDER HC5314-3",
     "brand": "Seastar",
@@ -724,17 +705,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/25/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 679.29,
     "barcode": "731957900715",
     "cataloguePage": 25,
-    "imageUrl": "../images/catalogue/product-photos/291064.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/291064.jpg",
     "catalogueDescription": "9 291017.............................795, 799, 839 291018.....................795-796, 799, 839 291024.....................................803, 839 291026.....................................803, 839 291028.....................................803, 839 291029.....................................803, 839 291050............................................. 801 291052............................................. 801 291060.....................................805, 839 291062.....................................805, 839 291064.....................................805, 839 291069............................................. 805 291071.............................788, 791, 839 291072.............................788, 791, 839 291073.....................................788, 839 291074.............................788, 791, 839 291075.............................788, 791, 839 291076.....................................805, 839 291077.....................................791, 839 291188............................................. 801 291190....",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/291064.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/291064.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/291064.jpg"
   },
-  {
+  "291069": {
     "productNumber": "291069",
     "description": "SEASTAR INBOARD CYLINDER HC5319-3",
     "brand": "Seastar",
@@ -753,17 +733,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/25/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 1049.89,
     "barcode": "731957934741",
     "cataloguePage": 25,
-    "imageUrl": "../images/catalogue/product-photos/291069.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/291069.jpg",
     "catalogueDescription": "91018.....................795-796, 799, 839 291024.....................................803, 839 291026.....................................803, 839 291028.....................................803, 839 291029.....................................803, 839 291050............................................. 801 291052............................................. 801 291060.....................................805, 839 291062.....................................805, 839 291064.....................................805, 839 291069............................................. 805 291071.............................788, 791, 839 291072.............................788, 791, 839 291073.....................................788, 839 291074.............................788, 791, 839 291075.............................788, 791, 839 291076.....................................805, 839 291077.....................................791, 839 291188............................................. 801 291190............................................. 802 291192",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/291069.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/291069.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/291069.jpg"
   },
-  {
+  "291071": {
     "productNumber": "291071",
     "description": "BAYSTAR COMPACT FRONT MOUNT OUTBOARD CYLINDER HC4645-3",
     "brand": "",
@@ -782,17 +761,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/25/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 396.61,
     "barcode": "731957932013",
     "cataloguePage": 25,
-    "imageUrl": "../images/catalogue/product-photos/291071.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/291071.jpg",
     "catalogueDescription": "...............................803, 839 291026.....................................803, 839 291028.....................................803, 839 291029.....................................803, 839 291050............................................. 801 291052............................................. 801 291060.....................................805, 839 291062.....................................805, 839 291064.....................................805, 839 291069............................................. 805 291071.............................788, 791, 839 291072.............................788, 791, 839 291073.....................................788, 839 291074.............................788, 791, 839 291075.............................788, 791, 839 291076.....................................805, 839 291077.....................................791, 839 291188............................................. 801 291190............................................. 802 291192............................................. 802 291194",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/291071.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/291071.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/291071.jpg"
   },
-  {
+  "291072": {
     "productNumber": "291072",
     "description": "BAYSTAR SIDE MOUNT OUTBOARD CYLINDER HC4670-3",
     "brand": "",
@@ -811,17 +789,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/25/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 416.23,
     "barcode": "731957902696",
     "cataloguePage": 25,
-    "imageUrl": "../images/catalogue/product-photos/291072.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/291072.jpg",
     "catalogueDescription": "..................................803, 839 291028.....................................803, 839 291029.....................................803, 839 291050............................................. 801 291052............................................. 801 291060.....................................805, 839 291062.....................................805, 839 291064.....................................805, 839 291069............................................. 805 291071.............................788, 791, 839 291072.............................788, 791, 839 291073.....................................788, 839 291074.............................788, 791, 839 291075.............................788, 791, 839 291076.....................................805, 839 291077.....................................791, 839 291188............................................. 801 291190............................................. 802 291192............................................. 802 291194............................................. 802",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/291072.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/291072.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/291072.jpg"
   },
-  {
+  "291073": {
     "productNumber": "291073",
     "description": "BAYSTAR HONDA FRONT MOUNT CYLINDER HC4647-3",
     "brand": "",
@@ -840,17 +817,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/25/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 457.02,
     "barcode": "731957932020",
     "cataloguePage": 25,
-    "imageUrl": "../images/catalogue/product-photos/291073.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/291073.jpg",
     "catalogueDescription": ".....................................803, 839 291029.....................................803, 839 291050............................................. 801 291052............................................. 801 291060.....................................805, 839 291062.....................................805, 839 291064.....................................805, 839 291069............................................. 805 291071.............................788, 791, 839 291072.............................788, 791, 839 291073.....................................788, 839 291074.............................788, 791, 839 291075.............................788, 791, 839 291076.....................................805, 839 291077.....................................791, 839 291188............................................. 801 291190............................................. 802 291192............................................. 802 291194............................................. 802 291198..........................................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/291073.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/291073.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/291073.jpg"
   },
-  {
+  "291074": {
     "productNumber": "291074",
     "description": "BAYSTAR OMC/YAMAHA FRONT MOUNT CYLINDER HC4648-3",
     "brand": "",
@@ -869,17 +845,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/25/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 396.61,
     "barcode": "731957932037",
     "cataloguePage": 25,
-    "imageUrl": "../images/catalogue/product-photos/291074.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/291074.jpg",
     "catalogueDescription": ".....................................803, 839 291050............................................. 801 291052............................................. 801 291060.....................................805, 839 291062.....................................805, 839 291064.....................................805, 839 291069............................................. 805 291071.............................788, 791, 839 291072.............................788, 791, 839 291073.....................................788, 839 291074.............................788, 791, 839 291075.............................788, 791, 839 291076.....................................805, 839 291077.....................................791, 839 291188............................................. 801 291190............................................. 802 291192............................................. 802 291194............................................. 802 291198............................................. 802 291199......................................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/291074.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/291074.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/291074.jpg"
   },
-  {
+  "291075": {
     "productNumber": "291075",
     "description": "BAYSTAR OMC/SUZUKI FRONT MOUNT HC4658-3",
     "brand": "",
@@ -898,17 +873,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/25/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 408.51,
     "barcode": "731957932044",
     "cataloguePage": 25,
-    "imageUrl": "../images/catalogue/product-photos/291075.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/291075.jpg",
     "catalogueDescription": "050............................................. 801 291052............................................. 801 291060.....................................805, 839 291062.....................................805, 839 291064.....................................805, 839 291069............................................. 805 291071.............................788, 791, 839 291072.............................788, 791, 839 291073.....................................788, 839 291074.............................788, 791, 839 291075.............................788, 791, 839 291076.....................................805, 839 291077.....................................791, 839 291188............................................. 801 291190............................................. 802 291192............................................. 802 291194............................................. 802 291198............................................. 802 291199............................................. 802 291210...............................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/291075.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/291075.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/291075.jpg"
   },
-  {
+  "291076": {
     "productNumber": "291076",
     "description": "SEASTAR JET BOAT CYLINDER HC5303-3",
     "brand": "Seastar",
@@ -927,17 +901,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/25/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 566.17,
     "barcode": "731957900470",
     "cataloguePage": 25,
-    "imageUrl": "../images/catalogue/product-photos/291076.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/291076.jpg",
     "catalogueDescription": "801 291052............................................. 801 291060.....................................805, 839 291062.....................................805, 839 291064.....................................805, 839 291069............................................. 805 291071.............................788, 791, 839 291072.............................788, 791, 839 291073.....................................788, 839 291074.............................788, 791, 839 291075.............................788, 791, 839 291076.....................................805, 839 291077.....................................791, 839 291188............................................. 801 291190............................................. 802 291192............................................. 802 291194............................................. 802 291198............................................. 802 291199............................................. 802 291210............................................. 801 291212........................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/291076.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/291076.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/291076.jpg"
   },
-  {
+  "291077": {
     "productNumber": "291077",
     "description": "BAYSTAR INBOARD CYLINDER HC4460-3",
     "brand": "",
@@ -956,17 +929,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/25/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 467.19,
     "barcode": "731957900418",
     "cataloguePage": 25,
-    "imageUrl": "../images/catalogue/product-photos/291077.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/291077.jpg",
     "catalogueDescription": "... 801 291060.....................................805, 839 291062.....................................805, 839 291064.....................................805, 839 291069............................................. 805 291071.............................788, 791, 839 291072.............................788, 791, 839 291073.....................................788, 839 291074.............................788, 791, 839 291075.............................788, 791, 839 291076.....................................805, 839 291077.....................................791, 839 291188............................................. 801 291190............................................. 802 291192............................................. 802 291194............................................. 802 291198............................................. 802 291199............................................. 802 291210............................................. 801 291212............................................. 801 291214....................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/291077.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/291077.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/291077.jpg"
   },
-  {
+  "291188": {
     "productNumber": "291188",
     "description": "SEASTAR TOURNAMENT CYLINDER TIE BAR SUIT HO6700",
     "brand": "Y",
@@ -990,12 +962,11 @@
     "exportAudExGst": 443.48,
     "barcode": "731957891976",
     "cataloguePage": 25,
-    "imageUrl": "../images/catalogue/product-photos/291188.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/291188.jpg",
     "catalogueDescription": "05, 839 291062.....................................805, 839 291064.....................................805, 839 291069............................................. 805 291071.............................788, 791, 839 291072.............................788, 791, 839 291073.....................................788, 839 291074.............................788, 791, 839 291075.............................788, 791, 839 291076.....................................805, 839 291077.....................................791, 839 291188............................................. 801 291190............................................. 802 291192............................................. 802 291194............................................. 802 291198............................................. 802 291199............................................. 802 291210............................................. 801 291212............................................. 801 291214.....................................801, 822 291216....................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/291188.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/291188.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/291188.jpg"
   },
-  {
+  "291190": {
     "productNumber": "291190",
     "description": "SEASTAR CYLINDER TIE BAR SUIT PIVOT HO6001",
     "brand": "Seastar",
@@ -1019,12 +990,11 @@
     "exportAudExGst": 598.46,
     "barcode": "731957819093",
     "cataloguePage": 25,
-    "imageUrl": "../images/catalogue/product-photos/291190.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/291190.jpg",
     "catalogueDescription": "839 291064.....................................805, 839 291069............................................. 805 291071.............................788, 791, 839 291072.............................788, 791, 839 291073.....................................788, 839 291074.............................788, 791, 839 291075.............................788, 791, 839 291076.....................................805, 839 291077.....................................791, 839 291188............................................. 801 291190............................................. 802 291192............................................. 802 291194............................................. 802 291198............................................. 802 291199............................................. 802 291210............................................. 801 291212............................................. 801 291214.....................................801, 822 291216.............................799, 801, 822 291218...........................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/291190.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/291190.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/291190.jpg"
   },
-  {
+  "291192": {
     "productNumber": "291192",
     "description": "SEASTAR CYLINDER TIE BAR SUIT PIVOT HO6002",
     "brand": "Seastar",
@@ -1048,12 +1018,11 @@
     "exportAudExGst": 604.33,
     "barcode": "731957819109",
     "cataloguePage": 25,
-    "imageUrl": "../images/catalogue/product-photos/291192.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/291192.jpg",
     "catalogueDescription": "291069............................................. 805 291071.............................788, 791, 839 291072.............................788, 791, 839 291073.....................................788, 839 291074.............................788, 791, 839 291075.............................788, 791, 839 291076.....................................805, 839 291077.....................................791, 839 291188............................................. 801 291190............................................. 802 291192............................................. 802 291194............................................. 802 291198............................................. 802 291199............................................. 802 291210............................................. 801 291212............................................. 801 291214.....................................801, 822 291216.............................799, 801, 822 291218............................................. 801 291220...........................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/291192.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/291192.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/291192.jpg"
   },
-  {
+  "291194": {
     "productNumber": "291194",
     "description": "SEASTAR CYLINDER TIE BAR SUIT PIVOT HO6003",
     "brand": "Seastar",
@@ -1077,12 +1046,11 @@
     "exportAudExGst": 598.46,
     "barcode": "731957819116",
     "cataloguePage": 25,
-    "imageUrl": "../images/catalogue/product-photos/291194.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/291194.jpg",
     "catalogueDescription": "291071.............................788, 791, 839 291072.............................788, 791, 839 291073.....................................788, 839 291074.............................788, 791, 839 291075.............................788, 791, 839 291076.....................................805, 839 291077.....................................791, 839 291188............................................. 801 291190............................................. 802 291192............................................. 802 291194............................................. 802 291198............................................. 802 291199............................................. 802 291210............................................. 801 291212............................................. 801 291214.....................................801, 822 291216.............................799, 801, 822 291218............................................. 801 291220............................................. 801 291222...........................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/291194.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/291194.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/291194.jpg"
   },
-  {
+  "291196": {
     "productNumber": "291196",
     "description": "SEASTAR CYLINDER TIE BAR TRIPLE YAMAHA/OMC 90-250HP",
     "brand": "Y",
@@ -1106,12 +1074,11 @@
     "exportAudExGst": 1187.32,
     "barcode": "9319786144169",
     "cataloguePage": 816,
-    "imageUrl": "../images/catalogue/product-photos/291196.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/291196.jpg",
     "catalogueDescription": "y duty pivot plate. Available in port, starboard or centre configuration to suit most dual and triple applications. Refer page 800 for specific details. *Picture of 291050 consists of 291222 Hardware Kit. Dometic SeaStar Stern Drive Hydraulic Steering A range of cylinders is available, specifically designed to suit the engine manufacturer's steering mounts on most models of stern drives. Supplied in kit form with all the necessary components to complete the installation. Refer page 803 for specific details. 291195 291196 291194 Dometic SeaStar Outboard Hydraulic Steering Unmatched comfort and control. Only with SeaStar steering. The worlds most popular outboard hydraulic system offers smooth, super efficient steering for todays high performance hulls with single or multiple outboards up to 600 HP combined. (600 combined HP for counter rotating duals) that have ABYC standard engine tilt tubes. 291003 Dometic SeaStar Inboard Hydraulic Steering Large range of trunnion mounted inboard cylinders suitable for use in applications as vari",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/291196.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/291196.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/291196.jpg"
   },
-  {
+  "291198": {
     "productNumber": "291198",
     "description": "SEASTAR UNIVERSAL CYLINDER TIE BAR SIDE MOUNT H5009",
     "brand": "Seastar",
@@ -1135,12 +1102,11 @@
     "exportAudExGst": 469.06,
     "barcode": "731957804242",
     "cataloguePage": 25,
-    "imageUrl": "../images/catalogue/product-photos/291198.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/291198.jpg",
     "catalogueDescription": "............................788, 791, 839 291073.....................................788, 839 291074.............................788, 791, 839 291075.............................788, 791, 839 291076.....................................805, 839 291077.....................................791, 839 291188............................................. 801 291190............................................. 802 291192............................................. 802 291194............................................. 802 291198............................................. 802 291199............................................. 802 291210............................................. 801 291212............................................. 801 291214.....................................801, 822 291216.............................799, 801, 822 291218............................................. 801 291220............................................. 801 291222............................................. 801 291224...........................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/291198.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/291198.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/291198.jpg"
   },
-  {
+  "291199": {
     "productNumber": "291199",
     "description": "SEASTAR UNIVERSAL CYLINDER TIE BAR SPLASHWELL MOUNT H5010",
     "brand": "Seastar",
@@ -1164,12 +1130,11 @@
     "exportAudExGst": 625.26,
     "barcode": "731957804259",
     "cataloguePage": 25,
-    "imageUrl": "../images/catalogue/product-photos/291199.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/291199.jpg",
     "catalogueDescription": ".............................788, 839 291074.............................788, 791, 839 291075.............................788, 791, 839 291076.....................................805, 839 291077.....................................791, 839 291188............................................. 801 291190............................................. 802 291192............................................. 802 291194............................................. 802 291198............................................. 802 291199............................................. 802 291210............................................. 801 291212............................................. 801 291214.....................................801, 822 291216.............................799, 801, 822 291218............................................. 801 291220............................................. 801 291222............................................. 801 291224............................................. 801 291226...........................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/291199.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/291199.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/291199.jpg"
   },
-  {
+  "291210": {
     "productNumber": "291210",
     "description": "SEASTAR TOURNAMENT CYL TIE BAR ADJUSTABLE 635-673MM HO6820",
     "brand": "Y",
@@ -1193,12 +1158,11 @@
     "exportAudExGst": 532.54,
     "barcode": "731957910110",
     "cataloguePage": 25,
-    "imageUrl": "../images/catalogue/product-photos/291210.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/291210.jpg",
     "catalogueDescription": ".................788, 791, 839 291075.............................788, 791, 839 291076.....................................805, 839 291077.....................................791, 839 291188............................................. 801 291190............................................. 802 291192............................................. 802 291194............................................. 802 291198............................................. 802 291199............................................. 802 291210............................................. 801 291212............................................. 801 291214.....................................801, 822 291216.............................799, 801, 822 291218............................................. 801 291220............................................. 801 291222............................................. 801 291224............................................. 801 291226............................................. 801 291228...........................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/291210.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/291210.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/291210.jpg"
   },
-  {
+  "291212": {
     "productNumber": "291212",
     "description": "SEASTAR TOURNAMENT CYL TIE BAR ADJUSTABLE 676-744MM HO6821",
     "brand": "Seastar",
@@ -1222,12 +1186,11 @@
     "exportAudExGst": 566.88,
     "barcode": "731957910127",
     "cataloguePage": 25,
-    "imageUrl": "../images/catalogue/product-photos/291212.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/291212.jpg",
     "catalogueDescription": "..........788, 791, 839 291076.....................................805, 839 291077.....................................791, 839 291188............................................. 801 291190............................................. 802 291192............................................. 802 291194............................................. 802 291198............................................. 802 291199............................................. 802 291210............................................. 801 291212............................................. 801 291214.....................................801, 822 291216.............................799, 801, 822 291218............................................. 801 291220............................................. 801 291222............................................. 801 291224............................................. 801 291226............................................. 801 291228............................................. 801 291490...........................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/291212.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/291212.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/291212.jpg"
   },
-  {
+  "291214": {
     "productNumber": "291214",
     "description": "SEASTAR TOURNAMENT CYL TIE BAR ADJUSTABLE 747-869MM HO6822",
     "brand": "Seastar",
@@ -1251,12 +1214,11 @@
     "exportAudExGst": 652.78,
     "barcode": "731957910134",
     "cataloguePage": 25,
-    "imageUrl": "../images/catalogue/product-photos/291214.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/291214.jpg",
     "catalogueDescription": "...........805, 839 291077.....................................791, 839 291188............................................. 801 291190............................................. 802 291192............................................. 802 291194............................................. 802 291198............................................. 802 291199............................................. 802 291210............................................. 801 291212............................................. 801 291214.....................................801, 822 291216.............................799, 801, 822 291218............................................. 801 291220............................................. 801 291222............................................. 801 291224............................................. 801 291226............................................. 801 291228............................................. 801 291490............................................. 791 291492...........................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/291214.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/291214.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/291214.jpg"
   },
-  {
+  "291215": {
     "productNumber": "291215",
     "description": "SEASTAR MARINE HARD MOUNTING BRACKET SET",
     "brand": "Y",
@@ -1285,7 +1247,7 @@
     "productWebSearchQuery": "\"291215\" \"Y SEASTAR MARINE HARD MOUNTING BRACKET SET\"",
     "imageUrl": "../images/web-product-images/291215.jpg"
   },
-  {
+  "291216": {
     "productNumber": "291216",
     "description": "SEASTAR TOURNAMENT CYL TIE BAR ADJUSTABLE 871-1092MM HO6823",
     "brand": "Seastar",
@@ -1309,12 +1271,11 @@
     "exportAudExGst": 773.01,
     "barcode": "731957910141",
     "cataloguePage": 25,
-    "imageUrl": "../images/catalogue/product-photos/291216.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/291216.jpg",
     "catalogueDescription": "...........791, 839 291188............................................. 801 291190............................................. 802 291192............................................. 802 291194............................................. 802 291198............................................. 802 291199............................................. 802 291210............................................. 801 291212............................................. 801 291214.....................................801, 822 291216.............................799, 801, 822 291218............................................. 801 291220............................................. 801 291222............................................. 801 291224............................................. 801 291226............................................. 801 291228............................................. 801 291490............................................. 791 291492............................................. 791 291498.......................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/291216.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/291216.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/291216.jpg"
   },
-  {
+  "291218": {
     "productNumber": "291218",
     "description": "SEASTAR TOURNAMENT CYL TIE BAR 1105-1473MM HO6824",
     "brand": "Y",
@@ -1338,12 +1299,11 @@
     "exportAudExGst": 863.19,
     "barcode": "731957910752",
     "cataloguePage": 25,
-    "imageUrl": "../images/catalogue/product-photos/291218.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/291218.jpg",
     "catalogueDescription": "...................... 801 291190............................................. 802 291192............................................. 802 291194............................................. 802 291198............................................. 802 291199............................................. 802 291210............................................. 801 291212............................................. 801 291214.....................................801, 822 291216.............................799, 801, 822 291218............................................. 801 291220............................................. 801 291222............................................. 801 291224............................................. 801 291226............................................. 801 291228............................................. 801 291490............................................. 791 291492............................................. 791 291498............................................. 797 291499................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/291218.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/291218.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/291218.jpg"
   },
-  {
+  "291219": {
     "productNumber": "291219",
     "description": "SEASTAR TILLER BUSHING KIT CYLINDER",
     "brand": "Seastar",
@@ -1362,7 +1322,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 87.78,
     "barcode": "731957849168",
@@ -1372,7 +1332,7 @@
     "productWebSearchQuery": "\"291219\" \"Seastar SEASTAR TILLER BUSHING KIT CYLINDER\"",
     "imageUrl": "../images/web-product-images/291219.jpg"
   },
-  {
+  "291220": {
     "productNumber": "291220",
     "description": "SEASTAR TOURNAMENT 2 HARDWARE KIT 1 ENGINE 1CYL HA6801",
     "brand": "Seastar",
@@ -1391,17 +1351,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/25/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 132.63,
     "barcode": "731957910172",
     "cataloguePage": 25,
-    "imageUrl": "../images/catalogue/product-photos/291220.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/291220.jpg",
     "catalogueDescription": "...................... 802 291192............................................. 802 291194............................................. 802 291198............................................. 802 291199............................................. 802 291210............................................. 801 291212............................................. 801 291214.....................................801, 822 291216.............................799, 801, 822 291218............................................. 801 291220............................................. 801 291222............................................. 801 291224............................................. 801 291226............................................. 801 291228............................................. 801 291490............................................. 791 291492............................................. 791 291498............................................. 797 291499............................................. 790 291502................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/291220.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/291220.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/291220.jpg"
   },
-  {
+  "291222": {
     "productNumber": "291222",
     "description": "SEASTAR TOURNAMENT 2 HARDWARE KIT 2 ENGINE 1CYL HA6802",
     "brand": "Seastar",
@@ -1420,17 +1379,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/25/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 795.94,
     "barcode": "731957910424",
     "cataloguePage": 25,
-    "imageUrl": "../images/catalogue/product-photos/291222.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/291222.jpg",
     "catalogueDescription": "...................... 802 291194............................................. 802 291198............................................. 802 291199............................................. 802 291210............................................. 801 291212............................................. 801 291214.....................................801, 822 291216.............................799, 801, 822 291218............................................. 801 291220............................................. 801 291222............................................. 801 291224............................................. 801 291226............................................. 801 291228............................................. 801 291490............................................. 791 291492............................................. 791 291498............................................. 797 291499............................................. 790 291502............................................. 797 291503................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/291222.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/291222.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/291222.jpg"
   },
-  {
+  "291224": {
     "productNumber": "291224",
     "description": "SEASTAR TOURNAMENT 2 HARDWARE KIT 2 ENGINE 2CYL HA6804",
     "brand": "Seastar",
@@ -1449,17 +1407,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/25/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 571.6,
     "barcode": "731957910189",
     "cataloguePage": 25,
-    "imageUrl": "../images/catalogue/product-photos/291224.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/291224.jpg",
     "catalogueDescription": "...................... 802 291198............................................. 802 291199............................................. 802 291210............................................. 801 291212............................................. 801 291214.....................................801, 822 291216.............................799, 801, 822 291218............................................. 801 291220............................................. 801 291222............................................. 801 291224............................................. 801 291226............................................. 801 291228............................................. 801 291490............................................. 791 291492............................................. 791 291498............................................. 797 291499............................................. 790 291502............................................. 797 291503............................................. 797 291504................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/291224.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/291224.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/291224.jpg"
   },
-  {
+  "291226": {
     "productNumber": "291226",
     "description": "SEASTAR TOURNAMENT 2 HARDWARE KIT 3 ENGINE 2CYL HA6806",
     "brand": "Seastar",
@@ -1478,17 +1435,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/25/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 1014.96,
     "barcode": "731957910165",
     "cataloguePage": 25,
-    "imageUrl": "../images/catalogue/product-photos/291226.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/291226.jpg",
     "catalogueDescription": "...................... 802 291199............................................. 802 291210............................................. 801 291212............................................. 801 291214.....................................801, 822 291216.............................799, 801, 822 291218............................................. 801 291220............................................. 801 291222............................................. 801 291224............................................. 801 291226............................................. 801 291228............................................. 801 291490............................................. 791 291492............................................. 791 291498............................................. 797 291499............................................. 790 291502............................................. 797 291503............................................. 797 291504............................................. 797 291506................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/291226.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/291226.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/291226.jpg"
   },
-  {
+  "291228": {
     "productNumber": "291228",
     "description": "SEASTAR TOURNAMENT 2 HARDWARE KIT 4 ENGINE 2CYL HA6811",
     "brand": "Y",
@@ -1507,17 +1463,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/25/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 1478.26,
     "barcode": "731957910196",
     "cataloguePage": 25,
-    "imageUrl": "../images/catalogue/product-photos/291228.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/291228.jpg",
     "catalogueDescription": "...................... 802 291210............................................. 801 291212............................................. 801 291214.....................................801, 822 291216.............................799, 801, 822 291218............................................. 801 291220............................................. 801 291222............................................. 801 291224............................................. 801 291226............................................. 801 291228............................................. 801 291490............................................. 791 291492............................................. 791 291498............................................. 797 291499............................................. 790 291502............................................. 797 291503............................................. 797 291504............................................. 797 291506............................................. 797 291508................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/291228.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/291228.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/291228.jpg"
   },
-  {
+  "291230": {
     "productNumber": "291230",
     "description": "SEASTAR HARDWARE KIT 2 ENGINE 2CYL HA5520",
     "brand": "Y",
@@ -1536,7 +1491,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 271.3,
     "barcode": "731957929822",
@@ -1546,7 +1501,7 @@
     "productWebSearchQuery": "\"291230\" \"SEASTAR HARDWARE KIT 2 ENGINE 2CYL HA5520\"",
     "imageUrl": "../images/web-product-images/291230.jpg"
   },
-  {
+  "291232": {
     "productNumber": "291232",
     "description": "SEASTAR HARDWARE KIT 2 ENGINE 1CYL HA5521",
     "brand": "Y",
@@ -1565,7 +1520,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 258.7,
     "barcode": "731957928542",
@@ -1575,7 +1530,7 @@
     "productWebSearchQuery": "\"291232\" \"SEASTAR HARDWARE KIT 2 ENGINE 1CYL HA5521\"",
     "imageUrl": "../images/web-product-images/291232.png"
   },
-  {
+  "291233": {
     "productNumber": "291233",
     "description": "SEASTAR TILLER BUSHING KIT",
     "brand": "Y",
@@ -1594,7 +1549,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 49.16,
     "barcode": "731957926395",
@@ -1604,7 +1559,7 @@
     "productWebSearchQuery": "\"291233\" \"Y SEASTAR TILLER BUSHING KIT\"",
     "imageUrl": "../images/web-product-images/291233.jpg"
   },
-  {
+  "291235": {
     "productNumber": "291235",
     "description": "SEASTAR TIE BAR CMS ENGINE TILLER BRACKET",
     "brand": "Seastar",
@@ -1633,7 +1588,7 @@
     "productWebSearchQuery": "\"291235\" \"Seastar SEASTAR TIE BAR CMS ENGINE TILLER BRACKET\"",
     "imageUrl": "../images/web-product-images/291235.jpg"
   },
-  {
+  "291490": {
     "productNumber": "291490",
     "description": "BAYSTAR FRONT MOUNT HELM 1.4 HH4314-4",
     "brand": "",
@@ -1652,17 +1607,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/25/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 357.74,
     "barcode": "731957918185",
     "cataloguePage": 25,
-    "imageUrl": "../images/catalogue/product-photos/291490.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/291490.jpg",
     "catalogueDescription": "...................... 801 291212............................................. 801 291214.....................................801, 822 291216.............................799, 801, 822 291218............................................. 801 291220............................................. 801 291222............................................. 801 291224............................................. 801 291226............................................. 801 291228............................................. 801 291490............................................. 791 291492............................................. 791 291498............................................. 797 291499............................................. 790 291502............................................. 797 291503............................................. 797 291504............................................. 797 291506............................................. 797 291508............................................. 797 291512................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/291490.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/291490.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/291490.jpg"
   },
-  {
+  "291492": {
     "productNumber": "291492",
     "description": "BAYSTAR FRONT MOUNT TILT HELM 1.4 HH4315-4",
     "brand": "",
@@ -1681,17 +1635,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/25/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 579.96,
     "barcode": "731957918581",
     "cataloguePage": 25,
-    "imageUrl": "../images/catalogue/product-photos/291492.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/291492.jpg",
     "catalogueDescription": "...................... 801 291214.....................................801, 822 291216.............................799, 801, 822 291218............................................. 801 291220............................................. 801 291222............................................. 801 291224............................................. 801 291226............................................. 801 291228............................................. 801 291490............................................. 791 291492............................................. 791 291498............................................. 797 291499............................................. 790 291502............................................. 797 291503............................................. 797 291504............................................. 797 291506............................................. 797 291508............................................. 797 291512............................................. 797 291515................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/291492.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/291492.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/291492.jpg"
   },
-  {
+  "291498": {
     "productNumber": "291498",
     "description": "SEASTAR FRONT MOUNT HELM 1.4 HH5269-4",
     "brand": "Seastar",
@@ -1710,17 +1663,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/25/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 424.78,
     "barcode": "731957918666",
     "cataloguePage": 25,
-    "imageUrl": "../images/catalogue/product-photos/291498.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/291498.jpg",
     "catalogueDescription": "..............801, 822 291216.............................799, 801, 822 291218............................................. 801 291220............................................. 801 291222............................................. 801 291224............................................. 801 291226............................................. 801 291228............................................. 801 291490............................................. 791 291492............................................. 791 291498............................................. 797 291499............................................. 790 291502............................................. 797 291503............................................. 797 291504............................................. 797 291506............................................. 797 291508............................................. 797 291512............................................. 797 291515............................................. 798 291516................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/291498.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/291498.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/291498.jpg"
   },
-  {
+  "291499": {
     "productNumber": "291499",
     "description": "BAYSTAR FRONT MOUNT B/HEAD O/BOARD HOSE STEER KIT ADJUSTABLE",
     "brand": "",
@@ -1739,12 +1691,12 @@
     "subCategoryDescription": "Toilets, Plumbing & Galley products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/25/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 1047.93,
     "barcode": "9319786410189",
     "cataloguePage": 25,
-    "imageUrl": "../images/bla-website-products/291499.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/291499.jpg",
     "catalogueDescription": "..799, 801, 822 291218............................................. 801 291220............................................. 801 291222............................................. 801 291224............................................. 801 291226............................................. 801 291228............................................. 801 291490............................................. 791 291492............................................. 791 291498............................................. 797 291499............................................. 790 291502............................................. 797 291503............................................. 797 291504............................................. 797 291506............................................. 797 291508............................................. 797 291512............................................. 797 291515............................................. 798 291516............................................. 797 291520................",
     "productBlockImageUrl": "../images/catalogue/product-blocks/291499.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/dometic-baystar-compact-steering-kit-adjustable-with-bulkhead-outboard-hose/",
@@ -1762,7 +1714,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2024/10/291499_F.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "291502": {
     "productNumber": "291502",
     "description": "SEASTAR FRONT MOUNT HELM 1.7 HH5271-4",
     "brand": "Seastar",
@@ -1781,17 +1733,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/25/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 416.57,
     "barcode": "731957918192",
     "cataloguePage": 25,
-    "imageUrl": "../images/catalogue/product-photos/291502.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/291502.jpg",
     "catalogueDescription": "........... 801 291220............................................. 801 291222............................................. 801 291224............................................. 801 291226............................................. 801 291228............................................. 801 291490............................................. 791 291492............................................. 791 291498............................................. 797 291499............................................. 790 291502............................................. 797 291503............................................. 797 291504............................................. 797 291506............................................. 797 291508............................................. 797 291512............................................. 797 291515............................................. 798 291516............................................. 797 291520............................................. 797 291522................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/291502.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/291502.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/291502.jpg"
   },
-  {
+  "291503": {
     "productNumber": "291503",
     "description": "SEASTAR FRONT MOUNT HELM 1.7HD HH5217-4",
     "brand": "Seastar",
@@ -1810,17 +1761,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/25/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 653.21,
     "barcode": "731957918611",
     "cataloguePage": 25,
-    "imageUrl": "../images/catalogue/product-photos/291503.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/291503.jpg",
     "catalogueDescription": "........... 801 291222............................................. 801 291224............................................. 801 291226............................................. 801 291228............................................. 801 291490............................................. 791 291492............................................. 791 291498............................................. 797 291499............................................. 790 291502............................................. 797 291503............................................. 797 291504............................................. 797 291506............................................. 797 291508............................................. 797 291512............................................. 797 291515............................................. 798 291516............................................. 797 291520............................................. 797 291522............................................. 797 291526................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/291503.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/291503.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/291503.jpg"
   },
-  {
+  "291504": {
     "productNumber": "291504",
     "description": "SEASTAR FRONT MOUNT HELM 2.0 HH5273-4",
     "brand": "Seastar",
@@ -1839,17 +1789,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/25/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 529.5,
     "barcode": "731957918673",
     "cataloguePage": 25,
-    "imageUrl": "../images/catalogue/product-photos/291504.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/291504.jpg",
     "catalogueDescription": "........... 801 291224............................................. 801 291226............................................. 801 291228............................................. 801 291490............................................. 791 291492............................................. 791 291498............................................. 797 291499............................................. 790 291502............................................. 797 291503............................................. 797 291504............................................. 797 291506............................................. 797 291508............................................. 797 291512............................................. 797 291515............................................. 798 291516............................................. 797 291520............................................. 797 291522............................................. 797 291526............................................. 797 291540................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/291504.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/291504.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/291504.jpg"
   },
-  {
+  "291505": {
     "productNumber": "291505",
     "description": "SEASTAR FRONT MOUNT SPORT TILT HELM 1.7 HH6491-4",
     "brand": "Y",
@@ -1868,7 +1817,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 1194.62,
     "barcode": "731957918338",
@@ -1878,7 +1827,7 @@
     "productWebSearchQuery": "\"291505\" \"Y SEASTAR FRONT MOUNT SPORT TILT HELM 1.7 HH6491-4\"",
     "imageUrl": "../images/web-product-images/291505.jpg"
   },
-  {
+  "291506": {
     "productNumber": "291506",
     "description": "SEASTAR FRONT MOUNT HELM 2.4 HH5272-4",
     "brand": "Seastar",
@@ -1897,17 +1846,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/25/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 558.46,
     "barcode": "731957918505",
     "cataloguePage": 25,
-    "imageUrl": "../images/catalogue/product-photos/291506.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/291506.jpg",
     "catalogueDescription": "........... 801 291226............................................. 801 291228............................................. 801 291490............................................. 791 291492............................................. 791 291498............................................. 797 291499............................................. 790 291502............................................. 797 291503............................................. 797 291504............................................. 797 291506............................................. 797 291508............................................. 797 291512............................................. 797 291515............................................. 798 291516............................................. 797 291520............................................. 797 291522............................................. 797 291526............................................. 797 291540............................................. 797 291542................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/291506.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/291506.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/291506.jpg"
   },
-  {
+  "291508": {
     "productNumber": "291508",
     "description": "SEASTAR FRONT MOUNT HELM 3.0 HH5285-4",
     "brand": "Seastar",
@@ -1926,17 +1874,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/25/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 1067.52,
     "barcode": "731957918918",
     "cataloguePage": 25,
-    "imageUrl": "../images/catalogue/product-photos/291508.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/291508.jpg",
     "catalogueDescription": "........... 801 291228............................................. 801 291490............................................. 791 291492............................................. 791 291498............................................. 797 291499............................................. 790 291502............................................. 797 291503............................................. 797 291504............................................. 797 291506............................................. 797 291508............................................. 797 291512............................................. 797 291515............................................. 798 291516............................................. 797 291520............................................. 797 291522............................................. 797 291526............................................. 797 291540............................................. 797 291542............................................. 798 291561................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/291508.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/291508.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/291508.jpg"
   },
-  {
+  "291512": {
     "productNumber": "291512",
     "description": "SEASTAR FRONT MOUNT TILT HELM 1.7 HH6541-4",
     "brand": "Seastar",
@@ -1955,17 +1902,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/25/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 808.77,
     "barcode": "731957918215",
     "cataloguePage": 25,
-    "imageUrl": "../images/catalogue/product-photos/291512.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/291512.jpg",
     "catalogueDescription": "........... 801 291490............................................. 791 291492............................................. 791 291498............................................. 797 291499............................................. 790 291502............................................. 797 291503............................................. 797 291504............................................. 797 291506............................................. 797 291508............................................. 797 291512............................................. 797 291515............................................. 798 291516............................................. 797 291520............................................. 797 291522............................................. 797 291526............................................. 797 291540............................................. 797 291542............................................. 798 291561............................................. 789 291599................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/291512.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/291512.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/291512.jpg"
   },
-  {
+  "291515": {
     "productNumber": "291515",
     "description": "SEASTAR FRONT MOUNT SPORT TILT HELM 1.7 HH6191-4",
     "brand": "Seastar",
@@ -1984,12 +1930,12 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/25/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 793.57,
     "barcode": "731957918208",
     "cataloguePage": 25,
-    "imageUrl": "../images/bla-website-products/291515.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/291515.jpg",
     "catalogueDescription": "........... 791 291492............................................. 791 291498............................................. 797 291499............................................. 790 291502............................................. 797 291503............................................. 797 291504............................................. 797 291506............................................. 797 291508............................................. 797 291512............................................. 797 291515............................................. 798 291516............................................. 797 291520............................................. 797 291522............................................. 797 291526............................................. 797 291540............................................. 797 291542............................................. 798 291561............................................. 789 291599............................................. 794 291618................",
     "productBlockImageUrl": "../images/catalogue/product-blocks/291515.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/dometic-seastar-helm-sport-tilt/",
@@ -2007,7 +1953,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/07/291515.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "291516": {
     "productNumber": "291516",
     "description": "SEASTAR FRONT MOUNT TILT HELM 2.4 HH6542-4",
     "brand": "Seastar",
@@ -2026,17 +1972,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/25/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 808.79,
     "barcode": "731957918765",
     "cataloguePage": 25,
-    "imageUrl": "../images/catalogue/product-photos/291516.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/291516.jpg",
     "catalogueDescription": "........... 791 291498............................................. 797 291499............................................. 790 291502............................................. 797 291503............................................. 797 291504............................................. 797 291506............................................. 797 291508............................................. 797 291512............................................. 797 291515............................................. 798 291516............................................. 797 291520............................................. 797 291522............................................. 797 291526............................................. 797 291540............................................. 797 291542............................................. 798 291561............................................. 789 291599............................................. 794 291618............................................. 794 291619................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/291516.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/291516.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/291516.jpg"
   },
-  {
+  "291522": {
     "productNumber": "291522",
     "description": "SEASTAR REAR MOUNT HELM 1.7 HH5261-4",
     "brand": "Seastar",
@@ -2055,17 +2000,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/25/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 885.41,
     "barcode": "731957918642",
     "cataloguePage": 25,
-    "imageUrl": "../images/catalogue/product-photos/291522.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/291522.jpg",
     "catalogueDescription": "........... 790 291502............................................. 797 291503............................................. 797 291504............................................. 797 291506............................................. 797 291508............................................. 797 291512............................................. 797 291515............................................. 798 291516............................................. 797 291520............................................. 797 291522............................................. 797 291526............................................. 797 291540............................................. 797 291542............................................. 798 291561............................................. 789 291599............................................. 794 291618............................................. 794 291619............................................. 794 291830............................................. 801 291895................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/291522.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/291522.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/291522.jpg"
   },
-  {
+  "291526": {
     "productNumber": "291526",
     "description": "SEASTAR REAR MOUNT HELM 2.4 HH5262-4",
     "brand": "Y",
@@ -2084,17 +2028,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/25/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 1191.74,
     "barcode": "731957918659",
     "cataloguePage": 25,
-    "imageUrl": "../images/catalogue/product-photos/291526.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/291526.jpg",
     "catalogueDescription": "........... 797 291503............................................. 797 291504............................................. 797 291506............................................. 797 291508............................................. 797 291512............................................. 797 291515............................................. 798 291516............................................. 797 291520............................................. 797 291522............................................. 797 291526............................................. 797 291540............................................. 797 291542............................................. 798 291561............................................. 789 291599............................................. 794 291618............................................. 794 291619............................................. 794 291830............................................. 801 291895............................................. 838 291896................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/291526.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/291526.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/291526.jpg"
   },
-  {
+  "291540": {
     "productNumber": "291540",
     "description": "SEASTAR FRONT MOUNT PRO HELM 2.0 HH5770-4",
     "brand": "Seastar",
@@ -2113,12 +2056,12 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/25/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 568.74,
     "barcode": "731957918871",
     "cataloguePage": 25,
-    "imageUrl": "../images/bla-website-products/291540.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/291540.jpg",
     "catalogueDescription": "........... 797 291504............................................. 797 291506............................................. 797 291508............................................. 797 291512............................................. 797 291515............................................. 798 291516............................................. 797 291520............................................. 797 291522............................................. 797 291526............................................. 797 291540............................................. 797 291542............................................. 798 291561............................................. 789 291599............................................. 794 291618............................................. 794 291619............................................. 794 291830............................................. 801 291895............................................. 838 291896............................................. 838 291897................",
     "productBlockImageUrl": "../images/catalogue/product-blocks/291540.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/dometic-seastar-pro-helm-front-mount/",
@@ -2136,7 +2079,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/07/291540.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "291541": {
     "productNumber": "291541",
     "description": "SEASTAR FRONT MOUNT PRO HELM 2.4 HH5772-4",
     "brand": "Y",
@@ -2155,7 +2098,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 997.03,
     "barcode": "7315091535915",
@@ -2165,7 +2108,7 @@
     "productWebSearchQuery": "\"291541\" \"Y SEASTAR FRONT MOUNT PRO HELM 2.4 HH5772-4\"",
     "imageUrl": "../images/web-product-images/291541.jpg"
   },
-  {
+  "291542": {
     "productNumber": "291542",
     "description": "SEASTAR FRONT MOUNT TILT PRO HELM 2.0 HH6574-4",
     "brand": "Seastar",
@@ -2184,12 +2127,12 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/25/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 1072.98,
     "barcode": "731957918345",
     "cataloguePage": 25,
-    "imageUrl": "../images/bla-website-products/291542.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/291542.jpg",
     "catalogueDescription": "........... 797 291506............................................. 797 291508............................................. 797 291512............................................. 797 291515............................................. 798 291516............................................. 797 291520............................................. 797 291522............................................. 797 291526............................................. 797 291540............................................. 797 291542............................................. 798 291561............................................. 789 291599............................................. 794 291618............................................. 794 291619............................................. 794 291830............................................. 801 291895............................................. 838 291896............................................. 838 291897............................................. 838 291898................",
     "productBlockImageUrl": "../images/catalogue/product-blocks/291542.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/dometic-seastar-pro-helm-tilt/",
@@ -2207,7 +2150,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/07/291542.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "291544": {
     "productNumber": "291544",
     "description": "SEASTAR HYDRAULIC CLASSIC HELM TILT REPLACEMENT KIT",
     "brand": "Y",
@@ -2226,7 +2169,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 523.42,
     "barcode": "731957905413",
@@ -2236,7 +2179,7 @@
     "productWebSearchQuery": "\"291544\" \"SEASTAR HYDRAULIC CLASSIC HELM TILT REPLACEMENT KIT\"",
     "imageUrl": "../images/web-product-images/291544.png"
   },
-  {
+  "291561": {
     "productNumber": "291561",
     "description": "BAYSTAR OUTBOARD STEERING KIT ADJUSTABLE",
     "brand": "",
@@ -2255,12 +2198,12 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/25/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 1010.1,
     "barcode": "9319786309360",
     "cataloguePage": 25,
-    "imageUrl": "../images/bla-website-products/291561.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/291561.jpg",
     "catalogueDescription": "........... 797 291508............................................. 797 291512............................................. 797 291515............................................. 798 291516............................................. 797 291520............................................. 797 291522............................................. 797 291526............................................. 797 291540............................................. 797 291542............................................. 798 291561............................................. 789 291599............................................. 794 291618............................................. 794 291619............................................. 794 291830............................................. 801 291895............................................. 838 291896............................................. 838 291897............................................. 838 291898............................................. 838 291899................",
     "productBlockImageUrl": "../images/catalogue/product-blocks/291561.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/dometic-baystar-compact-steering-kit-adjustable-with-outboard-hose/",
@@ -2278,7 +2221,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/07/291561.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "291563": {
     "productNumber": "291563",
     "description": "BAYSTAR OUTBOARD STEERING KIT ADJUSTABLE  TILT HELM",
     "brand": "",
@@ -2297,7 +2240,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 1163.61,
     "barcode": "9319786462645",
@@ -2307,7 +2250,7 @@
     "productWebSearchQuery": "\"291563\" \"BAYSTAR OUTBOARD STEERING KIT ADJUSTABLE TILT HELM\"",
     "imageUrl": "../images/web-product-images/291563.jpg"
   },
-  {
+  "291568": {
     "productNumber": "291568",
     "description": "BAYSTAR FRONT MOUNT OUTBOARD STEERING KIT NO HOSE",
     "brand": "",
@@ -2326,17 +2269,16 @@
     "subCategoryDescription": "Toilets, Plumbing & Galley products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/819/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 781.98,
     "barcode": "9319786452929",
     "cataloguePage": 819,
-    "imageUrl": "../images/catalogue/product-photos/291568.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/291568.jpg",
     "catalogueDescription": "the ability to make whatever hydraulic hose length required, without the need for specialist swaged fittings. The two unique re-usable brass end fittings allow the installer to simply cut the hose to length and insert the brass connectors. Complete kit includes 50 foot length of outboard hose, Dometic BayStar helm, Dometic BayStar front mount cylinder, hydraulic oil, rubber boot and two re-usable hose fittings. Please refer to page 788 for cylinder application guide. BLA Code Standard Kit Inclusions Cat. Ref. Page 291568 1 x 291071 Cylinder front mount 799 1 x 291490 Helm - Dometic BayStar 1.4 797 2 x 291902 946ml Dometic oil 838",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/291568.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/291568.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/291568.jpg"
   },
-  {
+  "291598": {
     "productNumber": "291598",
     "description": "SEASTAR FRONT MOUNT STEERING KIT ADJUSTABLE B/H TLIT HELM",
     "brand": "Seastar",
@@ -2355,7 +2297,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 1534.5,
     "barcode": "9319786462652",
@@ -2365,7 +2307,7 @@
     "productWebSearchQuery": "\"291598\" \"Seastar SEASTAR FRONT MOUNT STEERING KIT ADJUSTABLE B/H TLIT HELM\"",
     "imageUrl": "../images/web-product-images/291598.jpg"
   },
-  {
+  "291599": {
     "productNumber": "291599",
     "description": "SEASTAR FRONT MOUNT REUSEABLE B/HEAD O/BOARD HOSE STEER KIT",
     "brand": "Seastar",
@@ -2384,17 +2326,16 @@
     "subCategoryDescription": "Toilets, Plumbing & Galley products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/25/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 1251.62,
     "barcode": "9319786410172",
     "cataloguePage": 25,
-    "imageUrl": "../images/catalogue/product-photos/291599.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/291599.jpg",
     "catalogueDescription": "........... 797 291512............................................. 797 291515............................................. 798 291516............................................. 797 291520............................................. 797 291522............................................. 797 291526............................................. 797 291540............................................. 797 291542............................................. 798 291561............................................. 789 291599............................................. 794 291618............................................. 794 291619............................................. 794 291830............................................. 801 291895............................................. 838 291896............................................. 838 291897............................................. 838 291898............................................. 838 291899............................................. 838 291900................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/291599.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/291599.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/291599.jpg"
   },
-  {
+  "291601": {
     "productNumber": "291601",
     "description": "SEASTAR FRONT MOUNT ADJUSTABLE OUTBOARD HOSE STEERING KIT",
     "brand": "Seastar",
@@ -2413,17 +2354,16 @@
     "subCategoryDescription": "Toilets, Plumbing & Galley products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/824/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 1211.38,
     "barcode": "9319786309377",
     "cataloguePage": 824,
-    "imageUrl": "../images/catalogue/product-photos/291601.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/291601.jpg",
     "catalogueDescription": "s made available the most popular kit to now include a 50 foot length of hose and 2 x re-usable fittings. Simply cut the hose to length and apply fittings. BLA Code Bulkhead Kit Inclusions Cat. Ref. Page 291599 1 x 291003 Cylinder front mount 799 1 x 291502 Helm - Dometic SeaStar 1.7 797 2 x 291902 946ml Dometic SeaStar oil 838 1 x 293050 50 Foot outboard hose 844 2 x 297332 Re-usable hose fitting 845 1 x 293001 Rubber boot N/A 2 x 293628 Bulkhead hose restrictor 845 BLA Code Standard Kit Inclusions Cat. Ref. Page 291601 1 x 291003 Cylinder front mount 799 1 x 291502 Helm - Dometic SeaStar 1.7 797 2 x 291902 946ml Dometic SeaStar oil 838 1 x 293050 50 Foot outboard hose 844 2 x 297332 Re-usable hose fitting 845 1 x 293001 Rubber boot N/A BLA Code Standard Kit Inclusions Cat. Ref. Page 291604 1 x 291016 Cylinder front mount 799 1 x 291502 Helm - Dometic SeaStar 1.7 797 2 x 291902 946ml Dometic SeaStar oil 838 1 x 293050 50 Foot outboard hose 844 2 x 297332 Re-usable hose fitting 845 1 x 293001 Rubber boot N/A BLA Code Standard Kit",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/291601.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/291601.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/291601.jpg"
   },
-  {
+  "291604": {
     "productNumber": "291604",
     "description": "SEASTAR SUZ/YAM/BRP F/MOUNT ADJUSTABLE O/B HOSE STEER KIT",
     "brand": "Seastar",
@@ -2442,17 +2382,16 @@
     "subCategoryDescription": "Toilets, Plumbing & Galley products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/824/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 1211.38,
     "barcode": "9319786337387",
     "cataloguePage": 824,
-    "imageUrl": "../images/catalogue/product-photos/291604.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/291604.jpg",
     "catalogueDescription": "Star 1.7 797 2 x 291902 946ml Dometic SeaStar oil 838 1 x 293050 50 Foot outboard hose 844 2 x 297332 Re-usable hose fitting 845 1 x 293001 Rubber boot N/A 2 x 293628 Bulkhead hose restrictor 845 BLA Code Standard Kit Inclusions Cat. Ref. Page 291601 1 x 291003 Cylinder front mount 799 1 x 291502 Helm - Dometic SeaStar 1.7 797 2 x 291902 946ml Dometic SeaStar oil 838 1 x 293050 50 Foot outboard hose 844 2 x 297332 Re-usable hose fitting 845 1 x 293001 Rubber boot N/A BLA Code Standard Kit Inclusions Cat. Ref. Page 291604 1 x 291016 Cylinder front mount 799 1 x 291502 Helm - Dometic SeaStar 1.7 797 2 x 291902 946ml Dometic SeaStar oil 838 1 x 293050 50 Foot outboard hose 844 2 x 297332 Re-usable hose fitting 845 1 x 293001 Rubber boot N/A BLA Code Standard Kit Inclusions Cat. Ref. Page 291611 1 x 291016 Cylinder front mount 799 1 x 291502 Helm - Dometic SeaStar 1.7 797 2 x 291902 946ml Dometic SeaStar oil 838 1 x 293040 40 Foot outboard hose 844 2 x 297332 Re-usable hose fitting 845 1 x 293001 Rubber boot N/A BLA Code Standard Kit",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/291604.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/291604.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/291604.jpg"
   },
-  {
+  "291606": {
     "productNumber": "291606",
     "description": "SEASTAR FRONT MOUNT OUTBOARD STEERING KIT NO HOSE",
     "brand": "Seastar",
@@ -2471,17 +2410,16 @@
     "subCategoryDescription": "Toilets, Plumbing & Galley products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/823/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 942.59,
     "barcode": "9319786452936",
     "cataloguePage": 823,
-    "imageUrl": "../images/catalogue/product-photos/291606.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/291606.jpg",
     "catalogueDescription": "t at hard-over than competitive systems \u2022 Rigid tilt tube mount for no-compromise performance \u2022 Unique pivoting tiller connection allows full engine articulation with independent tilt and trim on twin engines \u2022 Ultra corrosion resistant construction. Painted components are anodised before coating for extra protection \u2022 Small footprint fits virtually all splashwells \u2022 Meets ABYC standards/NMMA requirements Dometic SeaStar Front Mount Steering Kits 291502 291902 291003 BLA Code Standard Kit Inclusions Cat. Ref. Page 291606 1 x 291003 Cylinder front mount 799 1 x 291502 Helm - Dometic SeaStar 1.7 797 2 x 291902 946ml Dometic SeaStar oil 838 BLA Code Standard Kit Inclusions Cat. Ref. Page 291613 1 x 291003 Cylinder front mount 799 1 x 291540 Helm - Dometic SeaStar 2.0 Pro 797 2 x 291902 946ml Dometic SeaStar oil 838 N.B. Kit requires pro hoses 2931XX HYDRAULIC & ELECTRIC POWER STEER SYSTEMS 793 29 BOATING LIFESTYLE ADVENTURE",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/291606.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/291606.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/291606.jpg"
   },
-  {
+  "291611": {
     "productNumber": "291611",
     "description": "SEASTAR FRONT MOUNT ADJUSTABLE OUTBOARD HOSE STEER KIT 40FT",
     "brand": "Seastar",
@@ -2500,17 +2438,16 @@
     "subCategoryDescription": "Toilets, Plumbing & Galley products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/824/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 1166.63,
     "barcode": "9319786439241",
     "cataloguePage": 824,
-    "imageUrl": "../images/catalogue/product-photos/291611.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/291611.jpg",
     "catalogueDescription": "mount 799 1 x 291502 Helm - Dometic SeaStar 1.7 797 2 x 291902 946ml Dometic SeaStar oil 838 1 x 293050 50 Foot outboard hose 844 2 x 297332 Re-usable hose fitting 845 1 x 293001 Rubber boot N/A BLA Code Standard Kit Inclusions Cat. Ref. Page 291604 1 x 291016 Cylinder front mount 799 1 x 291502 Helm - Dometic SeaStar 1.7 797 2 x 291902 946ml Dometic SeaStar oil 838 1 x 293050 50 Foot outboard hose 844 2 x 297332 Re-usable hose fitting 845 1 x 293001 Rubber boot N/A BLA Code Standard Kit Inclusions Cat. Ref. Page 291611 1 x 291016 Cylinder front mount 799 1 x 291502 Helm - Dometic SeaStar 1.7 797 2 x 291902 946ml Dometic SeaStar oil 838 1 x 293040 40 Foot outboard hose 844 2 x 297332 Re-usable hose fitting 845 1 x 293001 Rubber boot N/A BLA Code Standard Kit Inclusions Cat. Ref. Page 291640 1 x 291012 Cylinder front mount 799 1 x 291502 Helm - Dometic SeaStar 1.7 797 2 x 291902 946ml Dometic SeaStar oil 838 1 x 293050 50 Foot outboard hose 844 2 x 297332 Re-usable hose fitting 845 1 x 293001 Rubber boot N/A 291003 BOATING LIFESTY",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/291611.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/291611.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/291611.jpg"
   },
-  {
+  "291613": {
     "productNumber": "291613",
     "description": "SEASTAR PRO FRONT MOUNT OUTBOARD STEERING KIT NO HOSE",
     "brand": "Seastar",
@@ -2529,17 +2466,16 @@
     "subCategoryDescription": "Toilets, Plumbing & Galley products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/823/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 1072.04,
     "barcode": "9319786443743",
     "cataloguePage": 823,
-    "imageUrl": "../images/catalogue/product-photos/291613.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/291613.jpg",
     "catalogueDescription": "dent tilt and trim on twin engines \u2022 Ultra corrosion resistant construction. Painted components are anodised before coating for extra protection \u2022 Small footprint fits virtually all splashwells \u2022 Meets ABYC standards/NMMA requirements Dometic SeaStar Front Mount Steering Kits 291502 291902 291003 BLA Code Standard Kit Inclusions Cat. Ref. Page 291606 1 x 291003 Cylinder front mount 799 1 x 291502 Helm - Dometic SeaStar 1.7 797 2 x 291902 946ml Dometic SeaStar oil 838 BLA Code Standard Kit Inclusions Cat. Ref. Page 291613 1 x 291003 Cylinder front mount 799 1 x 291540 Helm - Dometic SeaStar 2.0 Pro 797 2 x 291902 946ml Dometic SeaStar oil 838 N.B. Kit requires pro hoses 2931XX HYDRAULIC & ELECTRIC POWER STEER SYSTEMS 793 29 BOATING LIFESTYLE ADVENTURE",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/291613.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/291613.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/291613.jpg"
   },
-  {
+  "291618": {
     "productNumber": "291618",
     "description": "SEASTAR INTEGRATED HYDRAULIC HELM PACKAGE B/ HEAD",
     "brand": "Seastar",
@@ -2558,17 +2494,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/25/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 735.14,
     "barcode": "9319786459249",
     "cataloguePage": 25,
-    "imageUrl": "../images/catalogue/product-photos/291618.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/291618.jpg",
     "catalogueDescription": "........... 797 291515............................................. 798 291516............................................. 797 291520............................................. 797 291522............................................. 797 291526............................................. 797 291540............................................. 797 291542............................................. 798 291561............................................. 789 291599............................................. 794 291618............................................. 794 291619............................................. 794 291830............................................. 801 291895............................................. 838 291896............................................. 838 291897............................................. 838 291898............................................. 838 291899............................................. 838 291900............................................. 838 291902................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/291618.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/291618.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/291618.jpg"
   },
-  {
+  "291619": {
     "productNumber": "291619",
     "description": "SEASTAR INTEGRATED HYDRAULIC HELM PACKAGE",
     "brand": "Seastar",
@@ -2587,17 +2522,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/25/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 688.02,
     "barcode": "9319786459256",
     "cataloguePage": 25,
-    "imageUrl": "../images/catalogue/product-photos/291619.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/291619.jpg",
     "catalogueDescription": "........... 798 291516............................................. 797 291520............................................. 797 291522............................................. 797 291526............................................. 797 291540............................................. 797 291542............................................. 798 291561............................................. 789 291599............................................. 794 291618............................................. 794 291619............................................. 794 291830............................................. 801 291895............................................. 838 291896............................................. 838 291897............................................. 838 291898............................................. 838 291899............................................. 838 291900............................................. 838 291902............................................. 838 291904................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/291619.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/291619.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/291619.jpg"
   },
-  {
+  "291630": {
     "productNumber": "291630",
     "description": "SEASTAR FRONT MOUNT RECESSED HELM STEERING KIT NO HOSE",
     "brand": "Seastar",
@@ -2616,7 +2550,7 @@
     "subCategoryDescription": "Toilets, Plumbing & Galley products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 1137.5,
     "barcode": "9319786472590",
@@ -2626,7 +2560,7 @@
     "productWebSearchQuery": "\"291630\" \"Seastar SEASTAR FRONT MOUNT RECESSED HELM STEERING KIT NO HOSE\"",
     "imageUrl": "../images/web-product-images/291630.jpg"
   },
-  {
+  "291640": {
     "productNumber": "291640",
     "description": "SEASTAR SUZ/YAM/BRP F/MOUNT ADJUSTABLE O/B HOSE STEER KIT",
     "brand": "Seastar",
@@ -2645,17 +2579,16 @@
     "subCategoryDescription": "Toilets, Plumbing & Galley products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/824/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 1211.38,
     "barcode": "9319786372401",
     "cataloguePage": 824,
-    "imageUrl": "../images/catalogue/product-photos/291640.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/291640.jpg",
     "catalogueDescription": "mount 799 1 x 291502 Helm - Dometic SeaStar 1.7 797 2 x 291902 946ml Dometic SeaStar oil 838 1 x 293050 50 Foot outboard hose 844 2 x 297332 Re-usable hose fitting 845 1 x 293001 Rubber boot N/A BLA Code Standard Kit Inclusions Cat. Ref. Page 291611 1 x 291016 Cylinder front mount 799 1 x 291502 Helm - Dometic SeaStar 1.7 797 2 x 291902 946ml Dometic SeaStar oil 838 1 x 293040 40 Foot outboard hose 844 2 x 297332 Re-usable hose fitting 845 1 x 293001 Rubber boot N/A BLA Code Standard Kit Inclusions Cat. Ref. Page 291640 1 x 291012 Cylinder front mount 799 1 x 291502 Helm - Dometic SeaStar 1.7 797 2 x 291902 946ml Dometic SeaStar oil 838 1 x 293050 50 Foot outboard hose 844 2 x 297332 Re-usable hose fitting 845 1 x 293001 Rubber boot N/A 291003 BOATING LIFESTYLE ADVENTURE 794 HYDRAULIC & ELECTRIC POWER STEER SYSTEMS 29",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/291640.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/291640.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/291640.jpg"
   },
-  {
+  "291830": {
     "productNumber": "291830",
     "description": "SEASTAR TOURNAMENT FRONT MOUNT OUTBOARD HOSE STEER KIT 50FT",
     "brand": "Seastar",
@@ -2674,12 +2607,12 @@
     "subCategoryDescription": "Toilets, Plumbing & Galley products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/25/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 1927.98,
     "barcode": "9319786324172",
     "cataloguePage": 25,
-    "imageUrl": "../images/bla-website-products/291830.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/291830.jpg",
     "catalogueDescription": "........... 797 291520............................................. 797 291522............................................. 797 291526............................................. 797 291540............................................. 797 291542............................................. 798 291561............................................. 789 291599............................................. 794 291618............................................. 794 291619............................................. 794 291830............................................. 801 291895............................................. 838 291896............................................. 838 291897............................................. 838 291898............................................. 838 291899............................................. 838 291900............................................. 838 291902............................................. 838 291904............................................. 838 291906................",
     "productBlockImageUrl": "../images/catalogue/product-blocks/291830.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/dometic-seastar-front-mount-tournament-series-steering-kit-adjustable/",
@@ -2697,7 +2630,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/07/291830.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "291895": {
     "productNumber": "291895",
     "description": "SEASTAR POWER PURGE REPLACEMENT PUMP",
     "brand": "Seastar",
@@ -2716,17 +2649,16 @@
     "subCategoryDescription": "Batteries, Charging & Solar products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/25/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 5,
-    "freightAud": 24,
+    "estimatedWeightKg": 5.0,
+    "freightAud": 24.0,
     "exportAudExGst": 653.12,
     "barcode": "731957899125",
     "cataloguePage": 25,
-    "imageUrl": "../images/catalogue/product-photos/291895.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/291895.jpg",
     "catalogueDescription": "........... 797 291522............................................. 797 291526............................................. 797 291540............................................. 797 291542............................................. 798 291561............................................. 789 291599............................................. 794 291618............................................. 794 291619............................................. 794 291830............................................. 801 291895............................................. 838 291896............................................. 838 291897............................................. 838 291898............................................. 838 291899............................................. 838 291900............................................. 838 291902............................................. 838 291904............................................. 838 291906............................................. 838 291908................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/291895.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/291895.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/291895.jpg"
   },
-  {
+  "291896": {
     "productNumber": "291896",
     "description": "SEASTAR SERVICE KIT SUIT POWER PURGE JR",
     "brand": "Seastar",
@@ -2745,17 +2677,16 @@
     "subCategoryDescription": "Batteries, Charging & Solar products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/25/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 62.14,
     "barcode": "731957925886",
     "cataloguePage": 25,
-    "imageUrl": "../images/catalogue/product-photos/291896.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/291896.jpg",
     "catalogueDescription": "........... 797 291526............................................. 797 291540............................................. 797 291542............................................. 798 291561............................................. 789 291599............................................. 794 291618............................................. 794 291619............................................. 794 291830............................................. 801 291895............................................. 838 291896............................................. 838 291897............................................. 838 291898............................................. 838 291899............................................. 838 291900............................................. 838 291902............................................. 838 291904............................................. 838 291906............................................. 838 291908............................................. 837 291912................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/291896.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/291896.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/291896.jpg"
   },
-  {
+  "291897": {
     "productNumber": "291897",
     "description": "SEASTAR POWER PURGE HELM END FITTING",
     "brand": "Seastar",
@@ -2779,12 +2710,11 @@
     "exportAudExGst": 269.98,
     "barcode": "731957907295",
     "cataloguePage": 25,
-    "imageUrl": "../images/catalogue/product-photos/291897.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/291897.jpg",
     "catalogueDescription": "........... 797 291540............................................. 797 291542............................................. 798 291561............................................. 789 291599............................................. 794 291618............................................. 794 291619............................................. 794 291830............................................. 801 291895............................................. 838 291896............................................. 838 291897............................................. 838 291898............................................. 838 291899............................................. 838 291900............................................. 838 291902............................................. 838 291904............................................. 838 291906............................................. 838 291908............................................. 837 291912............................................. 837 291913................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/291897.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/291897.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/291897.jpg"
   },
-  {
+  "291898": {
     "productNumber": "291898",
     "description": "SEASTAR FILLER KIT HA5438",
     "brand": "Seastar",
@@ -2803,12 +2733,12 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/25/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 38.81,
     "barcode": "731957801074",
     "cataloguePage": 25,
-    "imageUrl": "../images/bla-website-products/291898.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/291898.jpg",
     "catalogueDescription": "........... 797 291542............................................. 798 291561............................................. 789 291599............................................. 794 291618............................................. 794 291619............................................. 794 291830............................................. 801 291895............................................. 838 291896............................................. 838 291897............................................. 838 291898............................................. 838 291899............................................. 838 291900............................................. 838 291902............................................. 838 291904............................................. 838 291906............................................. 838 291908............................................. 837 291912............................................. 837 291913............................................. 837 291914................",
     "productBlockImageUrl": "../images/catalogue/product-blocks/291898.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/dometic-seastar-filler-kit/",
@@ -2826,7 +2756,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/07/291898.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "291899": {
     "productNumber": "291899",
     "description": "SEASTAR POWER PURGE JUNIOR TWIN CYLINDER KIT",
     "brand": "Seastar",
@@ -2845,17 +2775,16 @@
     "subCategoryDescription": "Batteries, Charging & Solar products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/25/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 419.68,
     "barcode": "731957879868",
     "cataloguePage": 25,
-    "imageUrl": "../images/catalogue/product-photos/291899.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/291899.jpg",
     "catalogueDescription": "........... 798 291561............................................. 789 291599............................................. 794 291618............................................. 794 291619............................................. 794 291830............................................. 801 291895............................................. 838 291896............................................. 838 291897............................................. 838 291898............................................. 838 291899............................................. 838 291900............................................. 838 291902............................................. 838 291904............................................. 838 291906............................................. 838 291908............................................. 837 291912............................................. 837 291913............................................. 837 291914............................................. 838 291916................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/291899.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/291899.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/291899.jpg"
   },
-  {
+  "291900": {
     "productNumber": "291900",
     "description": "SEASTAR POWER PURGE JUNIOR",
     "brand": "Seastar",
@@ -2874,17 +2803,16 @@
     "subCategoryDescription": "Batteries, Charging & Solar products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/25/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 1391.76,
     "barcode": "731957883643",
     "cataloguePage": 25,
-    "imageUrl": "../images/catalogue/product-photos/291900.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/291900.jpg",
     "catalogueDescription": "........... 789 291599............................................. 794 291618............................................. 794 291619............................................. 794 291830............................................. 801 291895............................................. 838 291896............................................. 838 291897............................................. 838 291898............................................. 838 291899............................................. 838 291900............................................. 838 291902............................................. 838 291904............................................. 838 291906............................................. 838 291908............................................. 837 291912............................................. 837 291913............................................. 837 291914............................................. 838 291916............................................. 838 292102................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/291900.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/291900.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/291900.jpg"
   },
-  {
+  "291902": {
     "productNumber": "291902",
     "description": "SEASTAR HYDRAULIC OIL 946ML",
     "brand": "Seastar",
@@ -2903,17 +2831,16 @@
     "subCategoryDescription": "Lubricants, Fuel & Boat Care products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/25/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 21.26,
     "barcode": "9319786036051",
     "cataloguePage": 25,
-    "imageUrl": "../images/catalogue/product-photos/291902.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/291902.jpg",
     "catalogueDescription": "........... 794 291618............................................. 794 291619............................................. 794 291830............................................. 801 291895............................................. 838 291896............................................. 838 291897............................................. 838 291898............................................. 838 291899............................................. 838 291900............................................. 838 291902............................................. 838 291904............................................. 838 291906............................................. 838 291908............................................. 837 291912............................................. 837 291913............................................. 837 291914............................................. 838 291916............................................. 838 292102............................................. 822 292103................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/291902.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/291902.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/291902.jpg"
   },
-  {
+  "291903": {
     "productNumber": "291903",
     "description": "SEASTAR POWER PURGE JUNIOR 50FT HOSE EXTENSION KIT",
     "brand": "Y",
@@ -2932,7 +2859,7 @@
     "subCategoryDescription": "Batteries, Charging & Solar products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 1162.54,
     "barcode": "731957883131",
@@ -2942,7 +2869,7 @@
     "productWebSearchQuery": "\"291903\" \"Y SEASTAR POWER PURGE JUNIOR 50FT HOSE EXTENSION KIT\"",
     "imageUrl": "../images/web-product-images/291903.jpg"
   },
-  {
+  "291904": {
     "productNumber": "291904",
     "description": "SEASTAR HYDRAULIC OIL 18.92L",
     "brand": "Seastar",
@@ -2961,17 +2888,16 @@
     "subCategoryDescription": "Lubricants, Fuel & Boat Care products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/25/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 357.33,
     "barcode": "808282372767",
     "cataloguePage": 25,
-    "imageUrl": "../images/catalogue/product-photos/291904.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/291904.jpg",
     "catalogueDescription": "........... 794 291619............................................. 794 291830............................................. 801 291895............................................. 838 291896............................................. 838 291897............................................. 838 291898............................................. 838 291899............................................. 838 291900............................................. 838 291902............................................. 838 291904............................................. 838 291906............................................. 838 291908............................................. 837 291912............................................. 837 291913............................................. 837 291914............................................. 838 291916............................................. 838 292102............................................. 822 292103............................................. 823 292104................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/291904.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/291904.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/291904.jpg"
   },
-  {
+  "291906": {
     "productNumber": "291906",
     "description": "SEASTAR WEDGE MOUNT KIT 20\u00b0 T/S S/STAR & S/STAR PRO HELMS",
     "brand": "Seastar",
@@ -2990,12 +2916,12 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/25/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 83.49,
     "barcode": "731957800947",
     "cataloguePage": 25,
-    "imageUrl": "../images/bla-website-products/291906.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/291906.jpg",
     "catalogueDescription": "........... 794 291830............................................. 801 291895............................................. 838 291896............................................. 838 291897............................................. 838 291898............................................. 838 291899............................................. 838 291900............................................. 838 291902............................................. 838 291904............................................. 838 291906............................................. 838 291908............................................. 837 291912............................................. 837 291913............................................. 837 291914............................................. 838 291916............................................. 838 292102............................................. 822 292103............................................. 823 292104............................................. 822 292106................",
     "productBlockImageUrl": "../images/catalogue/product-blocks/291906.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/dometic-seastar-20o-wedge-mount-kit/",
@@ -3013,7 +2939,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/07/291906.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "291908": {
     "productNumber": "291908",
     "description": "SEASTAR BACK PLATE KIT T/S SEASTAR & SEASTAR PRO HELM",
     "brand": "Seastar",
@@ -3032,12 +2958,12 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/25/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 54.47,
     "barcode": "731957800930",
     "cataloguePage": 25,
-    "imageUrl": "../images/bla-website-products/291908.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/291908.jpg",
     "catalogueDescription": "........... 801 291895............................................. 838 291896............................................. 838 291897............................................. 838 291898............................................. 838 291899............................................. 838 291900............................................. 838 291902............................................. 838 291904............................................. 838 291906............................................. 838 291908............................................. 837 291912............................................. 837 291913............................................. 837 291914............................................. 838 291916............................................. 838 292102............................................. 822 292103............................................. 823 292104............................................. 822 292106............................................. 823 292107................",
     "productBlockImageUrl": "../images/catalogue/product-blocks/291908.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/dometic-seastar-back-plate-kit/",
@@ -3055,12 +2981,12 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/07/291908.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "291914": {
     "productNumber": "291914",
     "description": "SEASTAR HELM FILLER PLUG NON VENTED",
     "brand": "Seastar",
     "variant": "PC",
-    "price": 85,
+    "price": 85.0,
     "unitCostOfSale": 48.23,
     "categoryName": "Tools & Chandlery",
     "topCategory": "Tools & Chandlery",
@@ -3074,17 +3000,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/25/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 24.14,
     "barcode": "731957801043",
     "cataloguePage": 25,
-    "imageUrl": "../images/catalogue/product-photos/291914.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/291914.jpg",
     "catalogueDescription": "........... 838 291898............................................. 838 291899............................................. 838 291900............................................. 838 291902............................................. 838 291904............................................. 838 291906............................................. 838 291908............................................. 837 291912............................................. 837 291913............................................. 837 291914............................................. 838 291916............................................. 838 292102............................................. 822 292103............................................. 823 292104............................................. 822 292106............................................. 823 292107............................................. 823 292110............................................. 822 292112............................................. 822 292114................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/291914.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/291914.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/291914.jpg"
   },
-  {
+  "291915": {
     "productNumber": "291915",
     "description": "SEASTAR HELM RECESSED MOUNT KIT SUITS SEASTAR HELM - 4",
     "brand": "Seastar",
@@ -3103,7 +3028,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 77.05,
     "barcode": "808282800024",
@@ -3113,7 +3038,7 @@
     "productWebSearchQuery": "\"291915\" \"Seastar SEASTAR HELM RECESSED MOUNT KIT SUITS SEASTAR HELM - 4\"",
     "imageUrl": "../images/web-product-images/291915.jpg"
   },
-  {
+  "291916": {
     "productNumber": "291916",
     "description": "SEASTAR HELM FILLER PLUG VENTED",
     "brand": "Seastar",
@@ -3132,17 +3057,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/25/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 24.86,
     "barcode": "731957801036",
     "cataloguePage": 25,
-    "imageUrl": "../images/catalogue/product-photos/291916.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/291916.jpg",
     "catalogueDescription": "........... 838 291899............................................. 838 291900............................................. 838 291902............................................. 838 291904............................................. 838 291906............................................. 838 291908............................................. 837 291912............................................. 837 291913............................................. 837 291914............................................. 838 291916............................................. 838 292102............................................. 822 292103............................................. 823 292104............................................. 822 292106............................................. 823 292107............................................. 823 292110............................................. 822 292112............................................. 822 292114............................................. 822 292118................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/291916.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/291916.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/291916.jpg"
   },
-  {
+  "291917": {
     "productNumber": "291917",
     "description": "SEASTAR HELM RECESSED MOUNT KIT SUITS BAYSTAR HELM - 4",
     "brand": "Seastar",
@@ -3161,7 +3085,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 107.22,
     "barcode": "808282800017",
@@ -3171,4 +3095,4 @@
     "productWebSearchQuery": "\"291917\" \"Seastar SEASTAR HELM RECESSED MOUNT KIT SUITS BAYSTAR HELM - 4\"",
     "imageUrl": "../images/web-product-images/291917.jpg"
   }
-]
+}

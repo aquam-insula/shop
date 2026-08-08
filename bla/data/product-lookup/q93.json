@@ -1,1 +1,31 @@
-[{"productNumber":"Q93320A13","description":"QUICKSILVER SPACER KIT MERCRUISER MANIFOLD 3\"","brand":"Y","variant":"PC","price":976.22,"unitCostOfSale":572.48,"categoryName":"Tools & Chandlery","topCategory":"Tools & Chandlery","subCategoryName":"General Marine Supplies","subCategory":"M - Marine Supplies","pricingCategoryUsed":"M - Marine Supplies","categoryImage":"../images/catalogue/pages/page0481.jpg","subCategoryImage":"../images/catalogue/pages/page0481.jpg","catalogueImageUrl":"../images/catalogue/bla-edition-15-cover.jpg","categoryDescription":"Tools & Chandlery from the BLA Australia Edition 15 catalogue.","subCategoryDescription":"General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.","sourceUrl":"","printCatalogueUrl":"https://online.flippingbook.com/view/328167/","estimatedWeightKg":3,"freightAud":14.4,"exportAudExGst":329.09,"barcode":"745061212473","productWebSearchImageUrl":"../images/web-product-images/Q93320A13.jpg","productWebSearchImageSourceUrl":"https://i5.walmartimages.com/seo/Mercruiser-3-Spacer-Blocks-Gaskets-Bolts-Replaces-93320-93320A3-93320A13-Fits-1982-2001-Mercruiser-Manifolds-V6-V8-Engines-Pair-3-inch-Wet-Joint-Spac_7f79e28d-cc0b-4d4a-af82-4da65b5e5b92.754e0e8b51eb730892b95de2a1ac286a.jpeg","productWebSearchImageSourcePage":"","productWebSearchQuery":"\"Q93320A13\" \"Y QUICKSILVER SPACER KIT MERCRUISER MANIFOLD 3\"\"","imageUrl":"../images/web-product-images/Q93320A13.jpg"}]
+{
+  "Q93320A13": {
+    "productNumber": "Q93320A13",
+    "description": "QUICKSILVER SPACER KIT MERCRUISER MANIFOLD 3\"",
+    "brand": "Y",
+    "variant": "PC",
+    "price": 976.22,
+    "unitCostOfSale": 572.48,
+    "categoryName": "Tools & Chandlery",
+    "topCategory": "Tools & Chandlery",
+    "subCategoryName": "General Marine Supplies",
+    "subCategory": "M - Marine Supplies",
+    "pricingCategoryUsed": "M - Marine Supplies",
+    "categoryImage": "../images/catalogue/pages/page0481.jpg",
+    "subCategoryImage": "../images/catalogue/pages/page0481.jpg",
+    "catalogueImageUrl": "../images/catalogue/bla-edition-15-cover.jpg",
+    "categoryDescription": "Tools & Chandlery from the BLA Australia Edition 15 catalogue.",
+    "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
+    "sourceUrl": "",
+    "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
+    "estimatedWeightKg": 3.0,
+    "freightAud": 14.4,
+    "exportAudExGst": 329.09,
+    "barcode": "745061212473",
+    "productWebSearchImageUrl": "../images/web-product-images/Q93320A13.jpg",
+    "productWebSearchImageSourceUrl": "https://i5.walmartimages.com/seo/Mercruiser-3-Spacer-Blocks-Gaskets-Bolts-Replaces-93320-93320A3-93320A13-Fits-1982-2001-Mercruiser-Manifolds-V6-V8-Engines-Pair-3-inch-Wet-Joint-Spac_7f79e28d-cc0b-4d4a-af82-4da65b5e5b92.754e0e8b51eb730892b95de2a1ac286a.jpeg",
+    "productWebSearchImageSourcePage": "",
+    "productWebSearchQuery": "\"Q93320A13\" \"Y QUICKSILVER SPACER KIT MERCRUISER MANIFOLD 3\"\"",
+    "imageUrl": "../images/web-product-images/Q93320A13.jpg"
+  }
+}

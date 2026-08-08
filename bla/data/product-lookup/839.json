@@ -1,1 +1,31 @@
-[{"productNumber":"839110","description":"BLA TELESCOPIC FOLDING BOARDING LADDER 2 STEP 270MM","brand":"Bla","variant":"PC","price":240.29,"unitCostOfSale":139.58,"categoryName":"Tools & Chandlery","topCategory":"Tools & Chandlery","subCategoryName":"General Marine Supplies","subCategory":"M - Marine Supplies","pricingCategoryUsed":"M - Marine Supplies","categoryImage":"../images/catalogue/pages/page0481.jpg","subCategoryImage":"../images/catalogue/pages/page0481.jpg","catalogueImageUrl":"../images/catalogue/bla-edition-15-cover.jpg","categoryDescription":"Tools & Chandlery from the BLA Australia Edition 15 catalogue.","subCategoryDescription":"General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.","sourceUrl":"","printCatalogueUrl":"https://online.flippingbook.com/view/328167/","estimatedWeightKg":1,"freightAud":4.8,"exportAudExGst":78.95,"barcode":"9319786284865","productWebSearchImageUrl":"../images/web-product-images/839110.webp","productWebSearchImageSourceUrl":"https://www.outbackequipment.com.au/assets/full/194218.webp?20250609151151","productWebSearchImageSourcePage":"","productWebSearchQuery":"\"839110\" \"Bla BLA TELESCOPIC FOLDING BOARDING LADDER 2 STEP 270MM\"","imageUrl":"../images/web-product-images/839110.webp"}]
+{
+  "839110": {
+    "productNumber": "839110",
+    "description": "BLA TELESCOPIC FOLDING BOARDING LADDER 2 STEP 270MM",
+    "brand": "Bla",
+    "variant": "PC",
+    "price": 240.29,
+    "unitCostOfSale": 139.58,
+    "categoryName": "Tools & Chandlery",
+    "topCategory": "Tools & Chandlery",
+    "subCategoryName": "General Marine Supplies",
+    "subCategory": "M - Marine Supplies",
+    "pricingCategoryUsed": "M - Marine Supplies",
+    "categoryImage": "../images/catalogue/pages/page0481.jpg",
+    "subCategoryImage": "../images/catalogue/pages/page0481.jpg",
+    "catalogueImageUrl": "../images/catalogue/bla-edition-15-cover.jpg",
+    "categoryDescription": "Tools & Chandlery from the BLA Australia Edition 15 catalogue.",
+    "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
+    "sourceUrl": "",
+    "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
+    "estimatedWeightKg": 1.0,
+    "freightAud": 4.8,
+    "exportAudExGst": 78.95,
+    "barcode": "9319786284865",
+    "productWebSearchImageUrl": "../images/web-product-images/839110.webp",
+    "productWebSearchImageSourceUrl": "https://www.outbackequipment.com.au/assets/full/194218.webp?20250609151151",
+    "productWebSearchImageSourcePage": "",
+    "productWebSearchQuery": "\"839110\" \"Bla BLA TELESCOPIC FOLDING BOARDING LADDER 2 STEP 270MM\"",
+    "imageUrl": "../images/web-product-images/839110.webp"
+  }
+}

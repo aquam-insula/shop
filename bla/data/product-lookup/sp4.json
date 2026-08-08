@@ -1,5 +1,5 @@
-[
-  {
+{
+  "SP41419911": {
     "productNumber": "SP41419911",
     "description": "LEWMAR HTX2 END STOPP BUFFER X2",
     "brand": "Y",
@@ -18,7 +18,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 20.1,
     "barcode": "743683215049",
@@ -28,7 +28,7 @@
     "productWebSearchQuery": "\"SP41419911\" \"Y LEWMAR HTX2 END STOPP BUFFER X2\"",
     "imageUrl": "../images/web-product-images/SP41419911.jpg"
   },
-  {
+  "SP42420500": {
     "productNumber": "SP42420500",
     "description": "LEWMAR CONTROL LINE SHEAVE SIZE 2",
     "brand": "Y",
@@ -57,7 +57,7 @@
     "productWebSearchQuery": "\"SP42420500\" \"Y LEWMAR CONTROL LINE SHEAVE SIZE 2\"",
     "imageUrl": "../images/web-product-images/SP42420500.webp"
   },
-  {
+  "SP42420501": {
     "productNumber": "SP42420501",
     "description": "LEWMAR SHEAVE BEARING SIZE 2",
     "brand": "Y",
@@ -76,7 +76,7 @@
     "subCategoryDescription": "Trailer Parts & Towing products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 9.38,
     "barcode": "743683230851",
@@ -86,7 +86,7 @@
     "productWebSearchQuery": "\"SP42420501\" \"Y LEWMAR SHEAVE BEARING SIZE 2\"",
     "imageUrl": "../images/web-product-images/SP42420501.jpg"
   },
-  {
+  "SP42420502": {
     "productNumber": "SP42420502",
     "description": "LEWMAR GENOA SHEAVE SIZE 2 MK2",
     "brand": "Y",
@@ -105,7 +105,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 8.78,
     "barcode": "743683216978",
@@ -115,7 +115,7 @@
     "productWebSearchQuery": "\"SP42420502\" \"Y LEWMAR GENOA SHEAVE SIZE 2 MK2\"",
     "imageUrl": "../images/web-product-images/SP42420502.jpg"
   },
-  {
+  "SP42420503": {
     "productNumber": "SP42420503",
     "description": "LEWMAR SHEAVE ASSEMBLY 40MM",
     "brand": "Y",
@@ -134,7 +134,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 20.12,
     "barcode": "743683219504",
@@ -144,7 +144,7 @@
     "productWebSearchQuery": "\"SP42420503\" \"LEWMAR SHEAVE ASSEMBLY 40MM\"",
     "imageUrl": "../images/web-product-images/SP42420503.jpg"
   },
-  {
+  "SP42420504": {
     "productNumber": "SP42420504",
     "description": "LEWMAR GENOA SHEAVE SIZE 3",
     "brand": "Y",
@@ -163,7 +163,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 14.9,
     "barcode": "743683230912",
@@ -173,7 +173,7 @@
     "productWebSearchQuery": "\"SP42420504\" \"Y LEWMAR GENOA SHEAVE SIZE 3\"",
     "imageUrl": "../images/web-product-images/SP42420504.png"
   },
-  {
+  "SP42420516": {
     "productNumber": "SP42420516",
     "description": "LEWMAR DELRIN BALL SIZE 0",
     "brand": "Y",
@@ -192,7 +192,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 19.26,
     "barcode": "743683231407",
@@ -202,7 +202,7 @@
     "productWebSearchQuery": "\"SP42420516\" \"Y LEWMAR DELRIN BALL SIZE 0\"",
     "imageUrl": "../images/web-product-images/SP42420516.png"
   },
-  {
+  "SP42420521": {
     "productNumber": "SP42420521",
     "description": "LEWMAR TORLON BALL SIZE 1",
     "brand": "Y",
@@ -221,17 +221,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/30/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 80.04,
     "barcode": "743683208614",
     "cataloguePage": 30,
-    "imageUrl": "../images/catalogue/product-photos/SP42420521.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/SP42420521.jpg",
     "catalogueDescription": "SP33337376. ................................... 911 SP33337516. ................................... 911 SP33337629. ................................... 911 SP33337679. ................................... 911 SP33337684. ................................... 911 SP33337690. ................................... 911 SP33337692. ................................... 911 SP33337702. ................................... 914 SP33337704. ................................... 914 SP33337884. ................................... 911 SP42420521. ................................... 963 SP42420523. ................................... 963 SP42420558. ................................... 962 SP42420560. ................................... 962 SP42420562. ................................... 962 SP42420563. ................................... 962 SP42420565. ................................... 962 SP42420569. ................................... 963 SP42420570. ................................... 962 SP42420573. ................................... 962 SP42420581",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/SP42420521.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/SP42420521.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/SP42420521.jpg"
   },
-  {
+  "SP42420522": {
     "productNumber": "SP42420522",
     "description": "LEWMAR DELRIN BALL SIZE 1",
     "brand": "Y",
@@ -250,7 +249,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 13.66,
     "barcode": "743683208591",
@@ -260,7 +259,7 @@
     "productWebSearchQuery": "\"SP42420522\" \"Y LEWMAR DELRIN BALL SIZE 1\"",
     "imageUrl": "../images/web-product-images/SP42420522.jpg"
   },
-  {
+  "SP42420523": {
     "productNumber": "SP42420523",
     "description": "LEWMAR TORLON BALL SIZE 2",
     "brand": "Y",
@@ -279,17 +278,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/30/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 100.63,
     "barcode": "743683209888",
     "cataloguePage": 30,
-    "imageUrl": "../images/catalogue/product-photos/SP42420523.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/SP42420523.jpg",
     "catalogueDescription": "SP33337516. ................................... 911 SP33337629. ................................... 911 SP33337679. ................................... 911 SP33337684. ................................... 911 SP33337690. ................................... 911 SP33337692. ................................... 911 SP33337702. ................................... 914 SP33337704. ................................... 914 SP33337884. ................................... 911 SP42420521. ................................... 963 SP42420523. ................................... 963 SP42420558. ................................... 962 SP42420560. ................................... 962 SP42420562. ................................... 962 SP42420563. ................................... 962 SP42420565. ................................... 962 SP42420569. ................................... 963 SP42420570. ................................... 962 SP42420573. ................................... 962 SP42420581. ................................... 963 SP42420608",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/SP42420523.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/SP42420523.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/SP42420523.jpg"
   },
-  {
+  "SP42420524": {
     "productNumber": "SP42420524",
     "description": "LEWMAR TORLON BALL SIZE 3",
     "brand": "Lewmar",
@@ -308,7 +306,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 174.15,
     "barcode": "743683210150",
@@ -318,7 +316,7 @@
     "productWebSearchQuery": "\"SP42420524\" \"Lewmar LEWMAR TORLON BALL SIZE 3\"",
     "imageUrl": "../images/web-product-images/SP42420524.webp"
   },
-  {
+  "SP42420528": {
     "productNumber": "SP42420528",
     "description": "LEWMAR REPLACEMENT SLIDE ROD SIZE 2 PAIR",
     "brand": "Lewmar",
@@ -337,7 +335,7 @@
     "subCategoryDescription": "Fishing Equipment & Accessories products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 8.87,
     "barcode": "743683203992",
@@ -347,7 +345,7 @@
     "productWebSearchQuery": "\"SP42420528\" \"Lewmar LEWMAR REPLACEMENT SLIDE ROD SIZE 2 PAIR\"",
     "imageUrl": "../images/web-product-images/SP42420528.jpg"
   },
-  {
+  "SP42420538": {
     "productNumber": "SP42420538",
     "description": "LEWMAR NYLON BUSH TRACK INSERT",
     "brand": "Y",
@@ -366,7 +364,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 3.39,
     "barcode": "743683230943",
@@ -376,7 +374,7 @@
     "productWebSearchQuery": "\"SP42420538\" \"LEWMAR NYLON BUSH TRACK INSERT\"",
     "imageUrl": "../images/web-product-images/SP42420538.jpg"
   },
-  {
+  "SP42420542": {
     "productNumber": "SP42420542",
     "description": "LEWMAR HTX END STOP SIZE 1",
     "brand": "Y",
@@ -395,7 +393,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 18.63,
     "barcode": "743683205699",
@@ -405,7 +403,7 @@
     "productWebSearchQuery": "\"SP42420542\" \"Y LEWMAR HTX END STOP SIZE 1\"",
     "imageUrl": "../images/web-product-images/SP42420542.jpg"
   },
-  {
+  "SP42420543": {
     "productNumber": "SP42420543",
     "description": "LEWMAR HTX END STOP SIZE 2",
     "brand": "Y",
@@ -424,7 +422,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 25.74,
     "barcode": "743683205705",
@@ -434,7 +432,7 @@
     "productWebSearchQuery": "\"SP42420543\" \"Y LEWMAR HTX END STOP SIZE 2\"",
     "imageUrl": "../images/web-product-images/SP42420543.jpg"
   },
-  {
+  "SP42420544": {
     "productNumber": "SP42420544",
     "description": "LEWMAR HTX END STOP SHEET LEAD SIZE 1",
     "brand": "Y",
@@ -453,7 +451,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 400.89,
     "barcode": "743683206450",
@@ -463,7 +461,7 @@
     "productWebSearchQuery": "\"SP42420544\" \"Y LEWMAR HTX END STOP SHEET LEAD SIZE 1\"",
     "imageUrl": "../images/web-product-images/SP42420544.jpg"
   },
-  {
+  "SP42420545": {
     "productNumber": "SP42420545",
     "description": "LEWMAR HTX UPSTAND KIT SIZE 1",
     "brand": "Y",
@@ -482,7 +480,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 46.75,
     "barcode": "743683206627",
@@ -492,7 +490,7 @@
     "productWebSearchQuery": "\"SP42420545\" \"Y LEWMAR HTX UPSTAND KIT SIZE 1\"",
     "imageUrl": "../images/web-product-images/SP42420545.jpg"
   },
-  {
+  "SP42420546": {
     "productNumber": "SP42420546",
     "description": "LEWMAR HTX1 SLIDE ROD KIT (2 CARS)",
     "brand": "Y",
@@ -511,7 +509,7 @@
     "subCategoryDescription": "Fishing Equipment & Accessories products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 13.37,
     "barcode": "743683208447",
@@ -521,7 +519,7 @@
     "productWebSearchQuery": "\"SP42420546\" \"Y LEWMAR HTX1 SLIDE ROD KIT (2 CARS)\"",
     "imageUrl": "../images/web-product-images/SP42420546.jpg"
   },
-  {
+  "SP42420547": {
     "productNumber": "SP42420547",
     "description": "LEWMAR HTX1 END STOP BUFFER",
     "brand": "Y",
@@ -540,7 +538,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 17.02,
     "barcode": "743683213120",
@@ -550,7 +548,7 @@
     "productWebSearchQuery": "\"SP42420547\" \"Y LEWMAR HTX1 END STOP BUFFER\"",
     "imageUrl": "../images/web-product-images/SP42420547.jpg"
   },
-  {
+  "SP42420558": {
     "productNumber": "SP42420558",
     "description": "LEWMAR SIMPLE END STOP SIZE 0 BLACK",
     "brand": "Y",
@@ -569,17 +567,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/30/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 11.62,
     "barcode": "743683205132",
     "cataloguePage": 30,
-    "imageUrl": "../images/catalogue/product-photos/SP42420558.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/SP42420558.jpg",
     "catalogueDescription": "SP33337629. ................................... 911 SP33337679. ................................... 911 SP33337684. ................................... 911 SP33337690. ................................... 911 SP33337692. ................................... 911 SP33337702. ................................... 914 SP33337704. ................................... 914 SP33337884. ................................... 911 SP42420521. ................................... 963 SP42420523. ................................... 963 SP42420558. ................................... 962 SP42420560. ................................... 962 SP42420562. ................................... 962 SP42420563. ................................... 962 SP42420565. ................................... 962 SP42420569. ................................... 963 SP42420570. ................................... 962 SP42420573. ................................... 962 SP42420581. ................................... 963 SP42420608. ................................... 963 SP42420651",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/SP42420558.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/SP42420558.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/SP42420558.jpg"
   },
-  {
+  "SP42420559": {
     "productNumber": "SP42420559",
     "description": "LEWMAR END BUFFER KIT SIZE 0",
     "brand": "Y",
@@ -598,7 +595,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 31.4,
     "barcode": "743683207853",
@@ -608,7 +605,7 @@
     "productWebSearchQuery": "\"SP42420559\" \"Y LEWMAR END BUFFER KIT SIZE 0\"",
     "imageUrl": "../images/web-product-images/SP42420559.jpg"
   },
-  {
+  "SP42420560": {
     "productNumber": "SP42420560",
     "description": "LEWMAR SIMPLE END STOP SIZE 1 BLACK",
     "brand": "Lewmar",
@@ -627,17 +624,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/30/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 21.41,
     "barcode": "743683235726",
     "cataloguePage": 30,
-    "imageUrl": "../images/catalogue/product-photos/SP42420560.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/SP42420560.jpg",
     "catalogueDescription": "SP33337679. ................................... 911 SP33337684. ................................... 911 SP33337690. ................................... 911 SP33337692. ................................... 911 SP33337702. ................................... 914 SP33337704. ................................... 914 SP33337884. ................................... 911 SP42420521. ................................... 963 SP42420523. ................................... 963 SP42420558. ................................... 962 SP42420560. ................................... 962 SP42420562. ................................... 962 SP42420563. ................................... 962 SP42420565. ................................... 962 SP42420569. ................................... 963 SP42420570. ................................... 962 SP42420573. ................................... 962 SP42420581. ................................... 963 SP42420608. ................................... 963 SP42420651. ................................... 962 SP42420724",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/SP42420560.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/SP42420560.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/SP42420560.jpg"
   },
-  {
+  "SP42420562": {
     "productNumber": "SP42420562",
     "description": "LEWMAR SIMPLE END STOP SIZE 2 BLACK",
     "brand": "Lewmar",
@@ -656,17 +652,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/30/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 26.2,
     "barcode": "743683208829",
     "cataloguePage": 30,
-    "imageUrl": "../images/catalogue/product-photos/SP42420562.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/SP42420562.jpg",
     "catalogueDescription": "SP33337684. ................................... 911 SP33337690. ................................... 911 SP33337692. ................................... 911 SP33337702. ................................... 914 SP33337704. ................................... 914 SP33337884. ................................... 911 SP42420521. ................................... 963 SP42420523. ................................... 963 SP42420558. ................................... 962 SP42420560. ................................... 962 SP42420562. ................................... 962 SP42420563. ................................... 962 SP42420565. ................................... 962 SP42420569. ................................... 963 SP42420570. ................................... 962 SP42420573. ................................... 962 SP42420581. ................................... 963 SP42420608. ................................... 963 SP42420651. ................................... 962 SP42420724. ................................... 962 SP42420750",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/SP42420562.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/SP42420562.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/SP42420562.jpg"
   },
-  {
+  "SP42420563": {
     "productNumber": "SP42420563",
     "description": "LEWMAR SIMPLE END STOP SIZE 3 BLACK",
     "brand": "Lewmar",
@@ -685,17 +680,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/30/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 23.18,
     "barcode": "743683203602",
     "cataloguePage": 30,
-    "imageUrl": "../images/catalogue/product-photos/SP42420563.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/SP42420563.jpg",
     "catalogueDescription": "SP33337690. ................................... 911 SP33337692. ................................... 911 SP33337702. ................................... 914 SP33337704. ................................... 914 SP33337884. ................................... 911 SP42420521. ................................... 963 SP42420523. ................................... 963 SP42420558. ................................... 962 SP42420560. ................................... 962 SP42420562. ................................... 962 SP42420563. ................................... 962 SP42420565. ................................... 962 SP42420569. ................................... 963 SP42420570. ................................... 962 SP42420573. ................................... 962 SP42420581. ................................... 963 SP42420608. ................................... 963 SP42420651. ................................... 962 SP42420724. ................................... 962 SP42420750. ................................... 962 SP43430316",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/SP42420563.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/SP42420563.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/SP42420563.jpg"
   },
-  {
+  "SP42420565": {
     "productNumber": "SP42420565",
     "description": "LEWMAR T-TRACK END STOP",
     "brand": "Lewmar",
@@ -714,17 +708,45 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/30/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 25.7,
     "barcode": "743683206573",
     "cataloguePage": 30,
-    "imageUrl": "../images/catalogue/product-photos/SP42420565.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/SP42420565.jpg",
     "catalogueDescription": "SP33337692. ................................... 911 SP33337702. ................................... 914 SP33337704. ................................... 914 SP33337884. ................................... 911 SP42420521. ................................... 963 SP42420523. ................................... 963 SP42420558. ................................... 962 SP42420560. ................................... 962 SP42420562. ................................... 962 SP42420563. ................................... 962 SP42420565. ................................... 962 SP42420569. ................................... 963 SP42420570. ................................... 962 SP42420573. ................................... 962 SP42420581. ................................... 963 SP42420608. ................................... 963 SP42420651. ................................... 962 SP42420724. ................................... 962 SP42420750. ................................... 962 SP43430316. ................................... 969 SP43430321",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/SP42420565.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/SP42420565.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/SP42420565.jpg"
   },
-  {
+  "SP424205701": {
+    "productNumber": "SP424205701",
+    "description": "LEWMAR D2 CLUTCH SPRING KIT",
+    "brand": "Y",
+    "variant": "PC",
+    "price": 52.27,
+    "unitCostOfSale": 28.98,
+    "categoryName": "Tools & Chandlery",
+    "topCategory": "Tools & Chandlery",
+    "subCategoryName": "General Marine Supplies",
+    "subCategory": "M - Marine Supplies",
+    "pricingCategoryUsed": "M - Marine Supplies",
+    "categoryImage": "../images/catalogue/pages/page0481.jpg",
+    "subCategoryImage": "../images/catalogue/pages/page0481.jpg",
+    "catalogueImageUrl": "../images/catalogue/bla-edition-15-cover.jpg",
+    "categoryDescription": "Tools & Chandlery from the BLA Australia Edition 15 catalogue.",
+    "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
+    "sourceUrl": "",
+    "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
+    "estimatedWeightKg": 1.0,
+    "freightAud": 4.8,
+    "exportAudExGst": 12.59,
+    "barcode": "743683231230",
+    "productWebSearchImageUrl": "../images/web-product-images/SP424205701.jpg",
+    "productWebSearchImageSourceUrl": "https://d3gpbqyz2aphnw.cloudfront.net/wp-content/uploads/2021/03/lewmar-clutch-spring-kit-44108.jpg",
+    "productWebSearchImageSourcePage": "",
+    "productWebSearchQuery": "\"SP424205701\" \"Y LEWMAR D2 CLUTCH SPRING KIT\"",
+    "imageUrl": "../images/web-product-images/SP424205701.jpg"
+  },
+  "SP42420570": {
     "productNumber": "SP42420570",
     "description": "LEWMAR NTR BUFFER SIZE 3 MK2",
     "brand": "Y",
@@ -743,17 +765,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/30/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 2.24,
     "barcode": "743683217722",
     "cataloguePage": 30,
-    "imageUrl": "../images/catalogue/product-photos/SP42420570.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/SP42420570.jpg",
     "catalogueDescription": "SP33337704. ................................... 914 SP33337884. ................................... 911 SP42420521. ................................... 963 SP42420523. ................................... 963 SP42420558. ................................... 962 SP42420560. ................................... 962 SP42420562. ................................... 962 SP42420563. ................................... 962 SP42420565. ................................... 962 SP42420569. ................................... 963 SP42420570. ................................... 962 SP42420573. ................................... 962 SP42420581. ................................... 963 SP42420608. ................................... 963 SP42420651. ................................... 962 SP42420724. ................................... 962 SP42420750. ................................... 962 SP43430316. ................................... 969 SP43430321. ................................... 969 SP43430322. ................................... 969 SP43430370",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/SP42420570.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/SP42420570.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/SP42420570.jpg"
   },
-  {
+  "SP42420572": {
     "productNumber": "SP42420572",
     "description": "LEWMAR END BUFFER KIT SIZE 3",
     "brand": "Y",
@@ -772,7 +793,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 38.21,
     "barcode": "743683217630",
@@ -782,7 +803,7 @@
     "productWebSearchQuery": "\"SP42420572\" \"Y LEWMAR END BUFFER KIT SIZE 3\"",
     "imageUrl": "../images/web-product-images/SP42420572.jpg"
   },
-  {
+  "SP42420573": {
     "productNumber": "SP42420573",
     "description": "LEWMAR IMPACT END STOP SIZE 1",
     "brand": "Lewmar",
@@ -801,17 +822,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/30/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 8.2,
     "barcode": "743683237133",
     "cataloguePage": 30,
-    "imageUrl": "../images/catalogue/product-photos/SP42420573.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/SP42420573.jpg",
     "catalogueDescription": "SP33337884. ................................... 911 SP42420521. ................................... 963 SP42420523. ................................... 963 SP42420558. ................................... 962 SP42420560. ................................... 962 SP42420562. ................................... 962 SP42420563. ................................... 962 SP42420565. ................................... 962 SP42420569. ................................... 963 SP42420570. ................................... 962 SP42420573. ................................... 962 SP42420581. ................................... 963 SP42420608. ................................... 963 SP42420651. ................................... 962 SP42420724. ................................... 962 SP42420750. ................................... 962 SP43430316. ................................... 969 SP43430321. ................................... 969 SP43430322. ................................... 969 SP43430370. ................................... 968 SP43430384",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/SP42420573.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/SP42420573.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/SP42420573.jpg"
   },
-  {
+  "SP42420575": {
     "productNumber": "SP42420575",
     "description": "LEWMAR IMPACT END STOP SIZE 2",
     "brand": "Y",
@@ -830,7 +850,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 64.86,
     "barcode": "743683214721",
@@ -840,7 +860,7 @@
     "productWebSearchQuery": "\"SP42420575\" \"Y LEWMAR IMPACT END STOP SIZE 2\"",
     "imageUrl": "../images/web-product-images/SP42420575.jpg"
   },
-  {
+  "SP42420576": {
     "productNumber": "SP42420576",
     "description": "LEWMAR REPLACEMENT BALL CAR KIT NTR SZ 2 BLK",
     "brand": "Y",
@@ -859,7 +879,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 262.64,
     "barcode": "743683218385",
@@ -869,7 +889,7 @@
     "productWebSearchQuery": "\"SP42420576\" \"Y LEWMAR REPLACEMENT BALL CAR KIT NTR SZ 2 BLK\"",
     "imageUrl": "../images/web-product-images/SP42420576.jpg"
   },
-  {
+  "SP42420578": {
     "productNumber": "SP42420578",
     "description": "LEWMAR CONTROL SHEAVE BEARING SIZE 1",
     "brand": "Y",
@@ -888,7 +908,7 @@
     "subCategoryDescription": "Trailer Parts & Towing products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 9.38,
     "barcode": "743683230820",
@@ -898,7 +918,7 @@
     "productWebSearchQuery": "\"SP42420578\" \"Y LEWMAR CONTROL SHEAVE BEARING SIZE 1\"",
     "imageUrl": "../images/web-product-images/SP42420578.jpg"
   },
-  {
+  "SP42420579": {
     "productNumber": "SP42420579",
     "description": "LEWMAR CAR SHACKLE 8MM",
     "brand": "Y",
@@ -927,7 +947,7 @@
     "productWebSearchQuery": "\"SP42420579\" \"Y LEWMAR CAR SHACKLE 8MM\"",
     "imageUrl": "../images/web-product-images/SP42420579.jpg"
   },
-  {
+  "SP42420581": {
     "productNumber": "SP42420581",
     "description": "LEWMAR UPSTAND SPRING SIZE 2",
     "brand": "Y",
@@ -946,17 +966,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/30/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 6.82,
     "barcode": "743683232954",
     "cataloguePage": 30,
-    "imageUrl": "../images/catalogue/product-photos/SP42420581.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/SP42420581.jpg",
     "catalogueDescription": "SP42420521. ................................... 963 SP42420523. ................................... 963 SP42420558. ................................... 962 SP42420560. ................................... 962 SP42420562. ................................... 962 SP42420563. ................................... 962 SP42420565. ................................... 962 SP42420569. ................................... 963 SP42420570. ................................... 962 SP42420573. ................................... 962 SP42420581. ................................... 963 SP42420608. ................................... 963 SP42420651. ................................... 962 SP42420724. ................................... 962 SP42420750. ................................... 962 SP43430316. ................................... 969 SP43430321. ................................... 969 SP43430322. ................................... 969 SP43430370. ................................... 968 SP43430384. ................................... 969 SP43430520",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/SP42420581.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/SP42420581.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/SP42420581.jpg"
   },
-  {
+  "SP42420582": {
     "productNumber": "SP42420582",
     "description": "LEWMAR SHEAVE BEARING SIZE 3",
     "brand": "Y",
@@ -975,7 +994,7 @@
     "subCategoryDescription": "Trailer Parts & Towing products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 9.38,
     "barcode": "743683230899",
@@ -985,7 +1004,7 @@
     "productWebSearchQuery": "\"SP42420582\" \"Y LEWMAR SHEAVE BEARING SIZE 3\"",
     "imageUrl": "../images/web-product-images/SP42420582.jpg"
   },
-  {
+  "SP42420583": {
     "productNumber": "SP42420583",
     "description": "LEWMAR CONTROL LINE SHEAVE SIZE 3",
     "brand": "Y",
@@ -1014,7 +1033,7 @@
     "productWebSearchQuery": "\"SP42420583\" \"Y LEWMAR CONTROL LINE SHEAVE SIZE 3\"",
     "imageUrl": "../images/web-product-images/SP42420583.jpg"
   },
-  {
+  "SP42420584": {
     "productNumber": "SP42420584",
     "description": "LEWMAR UPSTAND SPRING SIZE 3",
     "brand": "Y",
@@ -1033,7 +1052,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 7.25,
     "barcode": "743683232978",
@@ -1043,7 +1062,36 @@
     "productWebSearchQuery": "\"SP42420584\" \"Y LEWMAR UPSTAND SPRING SIZE 3\"",
     "imageUrl": "../images/web-product-images/SP42420584.jpg"
   },
-  {
+  "SP424205921": {
+    "productNumber": "SP424205921",
+    "description": "LEWMAR 80MM 25000611 BLOCK SHEAVE",
+    "brand": "Y",
+    "variant": "PC",
+    "price": 335.66,
+    "unitCostOfSale": 195.68,
+    "categoryName": "Tools & Chandlery",
+    "topCategory": "Tools & Chandlery",
+    "subCategoryName": "General Marine Supplies",
+    "subCategory": "M - Marine Supplies",
+    "pricingCategoryUsed": "M - Marine Supplies",
+    "categoryImage": "../images/catalogue/pages/page0481.jpg",
+    "subCategoryImage": "../images/catalogue/pages/page0481.jpg",
+    "catalogueImageUrl": "../images/catalogue/bla-edition-15-cover.jpg",
+    "categoryDescription": "Tools & Chandlery from the BLA Australia Edition 15 catalogue.",
+    "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
+    "sourceUrl": "",
+    "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
+    "estimatedWeightKg": 1.0,
+    "freightAud": 4.8,
+    "exportAudExGst": 112.61,
+    "barcode": "743683233180",
+    "productWebSearchImageUrl": "../images/web-product-images/SP424205921.png",
+    "productWebSearchImageSourceUrl": "https://cdn.shopify.com/s/files/1/0701/8948/2228/files/29946801_3_3b7kpmj0gv1ey563.png?v=1739117087",
+    "productWebSearchImageSourcePage": "",
+    "productWebSearchQuery": "\"SP424205921\" \"Y LEWMAR 80MM 25000611 BLOCK SHEAVE\"",
+    "imageUrl": "../images/web-product-images/SP424205921.png"
+  },
+  "SP42420592": {
     "productNumber": "SP42420592",
     "description": "LEWMAR SHEAVE ACETAL 80MM 25001689",
     "brand": "Y",
@@ -1062,7 +1110,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 5.06,
     "barcode": "743683231049",
@@ -1072,7 +1120,7 @@
     "productWebSearchQuery": "\"SP42420592\" \"Y LEWMAR SHEAVE ACETAL 80MM 25001689\"",
     "imageUrl": "../images/web-product-images/SP42420592.jpg"
   },
-  {
+  "SP42420597": {
     "productNumber": "SP42420597",
     "description": "LEWMAR SBC CLUTCH SPRING 25002741",
     "brand": "Y",
@@ -1091,7 +1139,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 1.49,
     "barcode": "743683231070",
@@ -1101,7 +1149,7 @@
     "productWebSearchQuery": "\"SP42420597\" \"Y LEWMAR SBC CLUTCH SPRING 25002741\"",
     "imageUrl": "../images/web-product-images/SP42420597.jpg"
   },
-  {
+  "SP42420601": {
     "productNumber": "SP42420601",
     "description": "LEWMAR SIZE 2 GENOA STIRRUP ASSEMBLY PLAIN BEARING 28003226",
     "brand": "Lewmar",
@@ -1120,7 +1168,7 @@
     "subCategoryDescription": "Trailer Parts & Towing products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 129.03,
     "barcode": "743683235719",
@@ -1130,7 +1178,7 @@
     "productWebSearchQuery": "\"SP42420601\" \"Lewmar LEWMAR SIZE 2 GENOA STIRRUP ASSEMBLY PLAIN BEARING 28003226\"",
     "imageUrl": "../images/web-product-images/SP42420601.jpg"
   },
-  {
+  "SP42420602": {
     "productNumber": "SP42420602",
     "description": "LEWMAR SIZE 2 PLUNGER KIT 28003459",
     "brand": "Y",
@@ -1149,7 +1197,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 44.65,
     "barcode": "743683201707",
@@ -1159,7 +1207,7 @@
     "productWebSearchQuery": "\"SP42420602\" \"Y LEWMAR SIZE 2 PLUNGER KIT 28003459\"",
     "imageUrl": "../images/web-product-images/SP42420602.jpg"
   },
-  {
+  "SP42420608": {
     "productNumber": "SP42420608",
     "description": "LEWMAR SIZE 1 GENOA STIRRUP ASSEMBLY PLAIN BEARING 28003225",
     "brand": "Lewmar",
@@ -1178,17 +1226,16 @@
     "subCategoryDescription": "Trailer Parts & Towing products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/30/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 91.94,
     "barcode": "743683235702",
     "cataloguePage": 30,
-    "imageUrl": "../images/catalogue/product-photos/SP42420608.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/SP42420608.jpg",
     "catalogueDescription": "SP42420523. ................................... 963 SP42420558. ................................... 962 SP42420560. ................................... 962 SP42420562. ................................... 962 SP42420563. ................................... 962 SP42420565. ................................... 962 SP42420569. ................................... 963 SP42420570. ................................... 962 SP42420573. ................................... 962 SP42420581. ................................... 963 SP42420608. ................................... 963 SP42420651. ................................... 962 SP42420724. ................................... 962 SP42420750. ................................... 962 SP43430316. ................................... 969 SP43430321. ................................... 969 SP43430322. ................................... 969 SP43430370. ................................... 968 SP43430384. ................................... 969 SP43430520. ................................... 969 SP43430521",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/SP42420608.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/SP42420608.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/SP42420608.jpg"
   },
-  {
+  "SP42420610": {
     "productNumber": "SP42420610",
     "description": "LEWMAR DC1 CLUTCH HANDLE KIT 29100010BK",
     "brand": "Y",
@@ -1207,7 +1254,7 @@
     "subCategoryDescription": "Stainless Fittings & Deck Hardware products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 23.71,
     "barcode": "743683225895",
@@ -1217,7 +1264,7 @@
     "productWebSearchQuery": "\"SP42420610\" \"Y LEWMAR DC1 CLUTCH HANDLE KIT 29100010BK\"",
     "imageUrl": "../images/web-product-images/SP42420610.jpg"
   },
-  {
+  "SP42420640": {
     "productNumber": "SP42420640",
     "description": "LEWMAR SIZE 1 BECKET ASSEMBLY KIT PAIR 29471010",
     "brand": "Y",
@@ -1236,7 +1283,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 31.28,
     "barcode": "743683227608",
@@ -1246,7 +1293,7 @@
     "productWebSearchQuery": "\"SP42420640\" \"LEWMAR SIZE 1 BECKET ASSEMBLY KIT PAIR 29471010\"",
     "imageUrl": "../images/web-product-images/SP42420640.jpg"
   },
-  {
+  "SP42420641": {
     "productNumber": "SP42420641",
     "description": "LEWMAR SIZE 2 BECKET ASSEMBLY KIT PAIR 29472010",
     "brand": "Y",
@@ -1265,7 +1312,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 36.8,
     "barcode": "743683227912",
@@ -1275,7 +1322,7 @@
     "productWebSearchQuery": "\"SP42420641\" \"LEWMAR SIZE 2 BECKET ASSEMBLY KIT PAIR 29472010\"",
     "imageUrl": "../images/web-product-images/SP42420641.jpg"
   },
-  {
+  "SP42420646": {
     "productNumber": "SP42420646",
     "description": "LEWMAR SIZE 1 DOUBLE CONTROL LINE END STOP SHEAVE KIT PAIR",
     "brand": "Y",
@@ -1294,7 +1341,7 @@
     "subCategoryDescription": "Rope, Dock Lines & Mooring products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 2,
+    "estimatedWeightKg": 2.0,
     "freightAud": 9.6,
     "exportAudExGst": 97.98,
     "barcode": "743683212185",
@@ -1304,7 +1351,7 @@
     "productWebSearchQuery": "\"SP42420646\" \"Y LEWMAR SIZE 1 DOUBLE CONTROL LINE END STOP SHEAVE KIT PAIR\"",
     "imageUrl": "../images/web-product-images/SP42420646.jpg"
   },
-  {
+  "SP42420647": {
     "productNumber": "SP42420647",
     "description": "LEWMAR SIZE 1 CLEAT ASSEMBLY FOR END STOP PAIR",
     "brand": "Y",
@@ -1323,7 +1370,7 @@
     "subCategoryDescription": "Rope, Dock Lines & Mooring products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 87.92,
     "barcode": "743683236839",
@@ -1333,7 +1380,7 @@
     "productWebSearchQuery": "\"SP42420647\" \"LEWMAR SIZE 1 CLEAT ASSEMBLY FOR END STOP PAIR\"",
     "imageUrl": "../images/web-product-images/SP42420647.jpg"
   },
-  {
+  "SP42420648": {
     "productNumber": "SP42420648",
     "description": "LEWMAR SZ1 NTR DOUBLE CONTROL SHEAVES BECKETS AND CLEATS KIT",
     "brand": "Y",
@@ -1352,7 +1399,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 188.36,
     "barcode": "9319786469101",
@@ -1362,7 +1409,7 @@
     "productWebSearchQuery": "\"SP42420648\" \"Y LEWMAR SZ1 NTR DOUBLE CONTROL SHEAVES BECKETS AND CLEATS KIT\"",
     "imageUrl": "../images/web-product-images/SP42420648.png"
   },
-  {
+  "SP42420651": {
     "productNumber": "SP42420651",
     "description": "LEWMAR SIZE 2 END BUFFER KIT 29472046",
     "brand": "Lewmar",
@@ -1381,17 +1428,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/30/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 53.51,
     "barcode": "743683217623",
     "cataloguePage": 30,
-    "imageUrl": "../images/catalogue/product-photos/SP42420651.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/SP42420651.jpg",
     "catalogueDescription": "SP42420558. ................................... 962 SP42420560. ................................... 962 SP42420562. ................................... 962 SP42420563. ................................... 962 SP42420565. ................................... 962 SP42420569. ................................... 963 SP42420570. ................................... 962 SP42420573. ................................... 962 SP42420581. ................................... 963 SP42420608. ................................... 963 SP42420651. ................................... 962 SP42420724. ................................... 962 SP42420750. ................................... 962 SP43430316. ................................... 969 SP43430321. ................................... 969 SP43430322. ................................... 969 SP43430370. ................................... 968 SP43430384. ................................... 969 SP43430520. ................................... 969 SP43430521. ................................... 969 SP43430580",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/SP42420651.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/SP42420651.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/SP42420651.jpg"
   },
-  {
+  "SP42420652": {
     "productNumber": "SP42420652",
     "description": "LEWMAR 29472064 DOG BONE LINK SS SIZE 2",
     "brand": "Y",
@@ -1410,7 +1456,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 74.15,
     "barcode": "743683231605",
@@ -1420,7 +1466,7 @@
     "productWebSearchQuery": "\"SP42420652\" \"Y LEWMAR 29472064 DOG BONE LINK SS SIZE 2\"",
     "imageUrl": "../images/web-product-images/SP42420652.png"
   },
-  {
+  "SP42420653": {
     "productNumber": "SP42420653",
     "description": "LEWMAR SIZE 1 BUFFER KIT",
     "brand": "Y",
@@ -1439,7 +1485,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 45.98,
     "barcode": "743683217760",
@@ -1449,7 +1495,7 @@
     "productWebSearchQuery": "\"SP42420653\" \"Y LEWMAR SIZE 1 BUFFER KIT\"",
     "imageUrl": "../images/web-product-images/SP42420653.jpg"
   },
-  {
+  "SP42420654": {
     "productNumber": "SP42420654",
     "description": "LEWMAR BUFFER SPARE KIT SZ2 NTR 29472046BK",
     "brand": "Y",
@@ -1468,7 +1514,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 32.52,
     "barcode": "743683226700",
@@ -1478,7 +1524,7 @@
     "productWebSearchQuery": "\"SP42420654\" \"Y LEWMAR BUFFER SPARE KIT SZ2 NTR 29472046BK\"",
     "imageUrl": "../images/web-product-images/SP42420654.jpg"
   },
-  {
+  "SP42420668": {
     "productNumber": "SP42420668",
     "description": "LEWMAR SIZE 2 DOUBLE CONTROL LINE END STOP SHEAVE KIT PAIR",
     "brand": "Y",
@@ -1497,7 +1543,7 @@
     "subCategoryDescription": "Rope, Dock Lines & Mooring products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 2,
+    "estimatedWeightKg": 2.0,
     "freightAud": 9.6,
     "exportAudExGst": 151.69,
     "barcode": "743683212055",
@@ -1507,7 +1553,7 @@
     "productWebSearchQuery": "\"SP42420668\" \"Y LEWMAR SIZE 2 DOUBLE CONTROL LINE END STOP SHEAVE KIT PAIR\"",
     "imageUrl": "../images/web-product-images/SP42420668.jpg"
   },
-  {
+  "SP42420670": {
     "productNumber": "SP42420670",
     "description": "LEWMAR HD BEAM TRACK END COVER PAIR SZ2",
     "brand": "Y",
@@ -1536,7 +1582,7 @@
     "productWebSearchQuery": "\"SP42420670\" \"Y LEWMAR HD BEAM TRACK END COVER PAIR SZ2\"",
     "imageUrl": "../images/web-product-images/SP42420670.jpg"
   },
-  {
+  "SP42420680": {
     "productNumber": "SP42420680",
     "description": "LEWMAR SIZE 2 BALL BEARING COMPOSITE SHEAVES 4 PACK",
     "brand": "Y",
@@ -1555,7 +1601,7 @@
     "subCategoryDescription": "Trailer Parts & Towing products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 82.52,
     "barcode": "743683212369",
@@ -1565,7 +1611,7 @@
     "productWebSearchQuery": "\"SP42420680\" \"Y LEWMAR SIZE 2 BALL BEARING COMPOSITE SHEAVES 4 PACK\"",
     "imageUrl": "../images/web-product-images/SP42420680.jpg"
   },
-  {
+  "SP42420691": {
     "productNumber": "SP42420691",
     "description": "LEWMAR SIZE 1 UPSTAND SPRING 25000016",
     "brand": "Y",
@@ -1584,7 +1630,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 2.45,
     "barcode": "743683232886",
@@ -1594,7 +1640,7 @@
     "productWebSearchQuery": "\"SP42420691\" \"Y LEWMAR SIZE 1 UPSTAND SPRING 25000016\"",
     "imageUrl": "../images/web-product-images/SP42420691.jpg"
   },
-  {
+  "SP42420692": {
     "productNumber": "SP42420692",
     "description": "LEWMAR SIZE 1 UPSTAND CUP 25004739",
     "brand": "Y",
@@ -1613,7 +1659,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 6.82,
     "barcode": "743683219009",
@@ -1623,7 +1669,7 @@
     "productWebSearchQuery": "\"SP42420692\" \"Y LEWMAR SIZE 1 UPSTAND CUP 25004739\"",
     "imageUrl": "../images/web-product-images/SP42420692.jpg"
   },
-  {
+  "SP42420693": {
     "productNumber": "SP42420693",
     "description": "LEWMAR SIZE 2 UPSTAND CUP 25004740",
     "brand": "Y",
@@ -1642,7 +1688,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 7.19,
     "barcode": "743683219016",
@@ -1652,7 +1698,7 @@
     "productWebSearchQuery": "\"SP42420693\" \"Y LEWMAR SIZE 2 UPSTAND CUP 25004740\"",
     "imageUrl": "../images/web-product-images/SP42420693.jpg"
   },
-  {
+  "SP42420694": {
     "productNumber": "SP42420694",
     "description": "LEWMAR SIZE 3 UPSTAND CUP 25004741",
     "brand": "Y",
@@ -1671,7 +1717,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 7.07,
     "barcode": "743683219023",
@@ -1681,7 +1727,7 @@
     "productWebSearchQuery": "\"SP42420694\" \"Y LEWMAR SIZE 3 UPSTAND CUP 25004741\"",
     "imageUrl": "../images/web-product-images/SP42420694.jpg"
   },
-  {
+  "SP42420698": {
     "productNumber": "SP42420698",
     "description": "LEWMAR NTR SIZE 1 BUFFER BLACK 25002915BK",
     "brand": "Y",
@@ -1700,7 +1746,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 2.07,
     "barcode": "743683316197",
@@ -1710,7 +1756,7 @@
     "productWebSearchQuery": "\"SP42420698\" \"Y LEWMAR NTR SIZE 1 BUFFER BLACK 25002915BK\"",
     "imageUrl": "../images/web-product-images/SP42420698.jpg"
   },
-  {
+  "SP42420700": {
     "productNumber": "SP42420700",
     "description": "LEWMAR SIZE 1 BALL LOADER 25003346",
     "brand": "Y",
@@ -1729,7 +1775,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 6.01,
     "barcode": "743683233944",
@@ -1739,7 +1785,7 @@
     "productWebSearchQuery": "\"SP42420700\" \"Y LEWMAR SIZE 1 BALL LOADER 25003346\"",
     "imageUrl": "../images/web-product-images/SP42420700.jpg"
   },
-  {
+  "SP42420701": {
     "productNumber": "SP42420701",
     "description": "LEWMAR SIZE 2 BALL LOADER 25003347",
     "brand": "Y",
@@ -1758,7 +1804,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 2.62,
     "barcode": "743683233951",
@@ -1768,7 +1814,7 @@
     "productWebSearchQuery": "\"SP42420701\" \"Y LEWMAR SIZE 2 BALL LOADER 25003347\"",
     "imageUrl": "../images/web-product-images/SP42420701.jpg"
   },
-  {
+  "SP42420720": {
     "productNumber": "SP42420720",
     "description": "LEWMAR SIZE 1 CAR END CAP KIT 29171045",
     "brand": "Y",
@@ -1787,7 +1833,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 13.86,
     "barcode": "743683235740",
@@ -1797,7 +1843,7 @@
     "productWebSearchQuery": "\"SP42420720\" \"Y LEWMAR SIZE 1 CAR END CAP KIT 29171045\"",
     "imageUrl": "../images/web-product-images/SP42420720.jpg"
   },
-  {
+  "SP42420724": {
     "productNumber": "SP42420724",
     "description": "LEWMAR SIZE 2 CAR END CAP KIT 29172045",
     "brand": "Lewmar",
@@ -1816,17 +1862,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/30/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 61.12,
     "barcode": "743683217777",
     "cataloguePage": 30,
-    "imageUrl": "../images/catalogue/product-photos/SP42420724.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/SP42420724.jpg",
     "catalogueDescription": "SP42420560. ................................... 962 SP42420562. ................................... 962 SP42420563. ................................... 962 SP42420565. ................................... 962 SP42420569. ................................... 963 SP42420570. ................................... 962 SP42420573. ................................... 962 SP42420581. ................................... 963 SP42420608. ................................... 963 SP42420651. ................................... 962 SP42420724. ................................... 962 SP42420750. ................................... 962 SP43430316. ................................... 969 SP43430321. ................................... 969 SP43430322. ................................... 969 SP43430370. ................................... 968 SP43430384. ................................... 969 SP43430520. ................................... 969 SP43430521. ................................... 969 SP43430580. ................................... 968 SP43430582",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/SP42420724.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/SP42420724.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/SP42420724.jpg"
   },
-  {
+  "SP42420726": {
     "productNumber": "SP42420726",
     "description": "LEWMAR CHEEK BLOCK 130MM R/H",
     "brand": "Y",
@@ -1845,7 +1890,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 292.85,
     "barcode": "9319786466056",
@@ -1855,7 +1900,7 @@
     "productWebSearchQuery": "\"SP42420726\" \"Y LEWMAR CHEEK BLOCK 130MM R/H\"",
     "imageUrl": "../images/web-product-images/SP42420726.jpg"
   },
-  {
+  "SP42420750": {
     "productNumber": "SP42420750",
     "description": "LEWMAR SIZE 2 HTX CAR END CAP KIT",
     "brand": "Y",
@@ -1874,17 +1919,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/30/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 172.91,
     "barcode": "743683217869",
     "cataloguePage": 30,
-    "imageUrl": "../images/catalogue/product-photos/SP42420750.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/SP42420750.jpg",
     "catalogueDescription": "SP42420562. ................................... 962 SP42420563. ................................... 962 SP42420565. ................................... 962 SP42420569. ................................... 963 SP42420570. ................................... 962 SP42420573. ................................... 962 SP42420581. ................................... 963 SP42420608. ................................... 963 SP42420651. ................................... 962 SP42420724. ................................... 962 SP42420750. ................................... 962 SP43430316. ................................... 969 SP43430321. ................................... 969 SP43430322. ................................... 969 SP43430370. ................................... 968 SP43430384. ................................... 969 SP43430520. ................................... 969 SP43430521. ................................... 969 SP43430580. ................................... 968 SP43430582. ................................... 968 SP43430593",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/SP42420750.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/SP42420750.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/SP42420750.jpg"
   },
-  {
+  "SP42420756": {
     "productNumber": "SP42420756",
     "description": "LEWMAR OCEAN CAR SIZE 0 SLIDE RODS",
     "brand": "Y",
@@ -1903,7 +1947,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 19.21,
     "barcode": "743683207815",
@@ -1913,7 +1957,7 @@
     "productWebSearchQuery": "\"SP42420756\" \"Y LEWMAR OCEAN CAR SIZE 0 SLIDE RODS\"",
     "imageUrl": "../images/web-product-images/SP42420756.jpg"
   },
-  {
+  "SP42420760": {
     "productNumber": "SP42420760",
     "description": "LEWMAR OCEAN CAR SIZE 3 SLIDE RODS",
     "brand": "Y",
@@ -1932,7 +1976,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 71.85,
     "barcode": "743683210174",
@@ -1942,7 +1986,7 @@
     "productWebSearchQuery": "\"SP42420760\" \"Y LEWMAR OCEAN CAR SIZE 3 SLIDE RODS\"",
     "imageUrl": "../images/web-product-images/SP42420760.jpg"
   },
-  {
+  "SP42420761": {
     "productNumber": "SP42420761",
     "description": "LEWMAR OCEAN CAR SIZE 3 END CAP KIT BLACK",
     "brand": "Y",
@@ -1961,7 +2005,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 26.83,
     "barcode": "743683235788",
@@ -1971,7 +2015,7 @@
     "productWebSearchQuery": "\"SP42420761\" \"Y LEWMAR OCEAN CAR SIZE 3 END CAP KIT BLACK\"",
     "imageUrl": "../images/web-product-images/SP42420761.jpg"
   },
-  {
+  "SP42420762": {
     "productNumber": "SP42420762",
     "description": "LEWMAR CARRIER SIZE 3 250MM",
     "brand": "Y",
@@ -1990,7 +2034,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 36.51,
     "barcode": "9319786459676",
@@ -2000,7 +2044,7 @@
     "productWebSearchQuery": "\"SP42420762\" \"Y LEWMAR CARRIER SIZE 3 250MM\"",
     "imageUrl": "../images/web-product-images/SP42420762.png"
   },
-  {
+  "SP42420764": {
     "productNumber": "SP42420764",
     "description": "LEWMAR CONTROL LINE SHEAVES & BEARINGS OCEAN SZ 2 X 6",
     "brand": "Y",
@@ -2019,7 +2063,7 @@
     "subCategoryDescription": "Rope, Dock Lines & Mooring products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 2,
+    "estimatedWeightKg": 2.0,
     "freightAud": 9.6,
     "exportAudExGst": 113.88,
     "barcode": "743683200458",
@@ -2029,7 +2073,7 @@
     "productWebSearchQuery": "\"SP42420764\" \"Y LEWMAR CONTROL LINE SHEAVES & BEARINGS OCEAN SZ 2 X 6\"",
     "imageUrl": "../images/web-product-images/SP42420764.jpg"
   },
-  {
+  "SP42420768": {
     "productNumber": "SP42420768",
     "description": "LEWMAR CONTROL LINE SHEAVES SZ 2",
     "brand": "Y",
@@ -2048,7 +2092,7 @@
     "subCategoryDescription": "Rope, Dock Lines & Mooring products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 2,
+    "estimatedWeightKg": 2.0,
     "freightAud": 9.6,
     "exportAudExGst": 62.04,
     "barcode": "743683212147",
@@ -2058,7 +2102,7 @@
     "productWebSearchQuery": "\"SP42420768\" \"Y LEWMAR CONTROL LINE SHEAVES SZ 2\"",
     "imageUrl": "../images/web-product-images/SP42420768.jpg"
   },
-  {
+  "SP42420769": {
     "productNumber": "SP42420769",
     "description": "LEWMAR UPSTAND BUFFER SZ2/SZ3 BLK",
     "brand": "Y",
@@ -2077,7 +2121,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 2.39,
     "barcode": "743683215490",
@@ -2087,7 +2131,7 @@
     "productWebSearchQuery": "\"SP42420769\" \"Y LEWMAR UPSTAND BUFFER SZ2/SZ3 BLK\"",
     "imageUrl": "../images/web-product-images/SP42420769.jpg"
   },
-  {
+  "SP43430300": {
     "productNumber": "SP43430300",
     "description": "LEWMAR MAIN SPINDLE SLEEVE SIZE 16-46",
     "brand": "Y",
@@ -2106,7 +2150,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 1.18,
     "barcode": "743683012006",
@@ -2116,7 +2160,7 @@
     "productWebSearchQuery": "\"SP43430300\" \"Y LEWMAR MAIN SPINDLE SLEEVE SIZE 16-46\"",
     "imageUrl": "../images/web-product-images/SP43430300.jpg"
   },
-  {
+  "SP43430301": {
     "productNumber": "SP43430301",
     "description": "LEWMAR GEAR SPINDLE SLEEVE SIZE 24-40",
     "brand": "Y",
@@ -2135,7 +2179,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 1.13,
     "barcode": "743683012013",
@@ -2145,7 +2189,7 @@
     "productWebSearchQuery": "\"SP43430301\" \"Y LEWMAR GEAR SPINDLE SLEEVE SIZE 24-40\"",
     "imageUrl": "../images/web-product-images/SP43430301.jpg"
   },
-  {
+  "SP43430302": {
     "productNumber": "SP43430302",
     "description": "LEWMAR GEAR SPNDLE SLEEVE SIZE 40-46",
     "brand": "Y",
@@ -2164,7 +2208,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 1.13,
     "barcode": "743683012082",
@@ -2174,7 +2218,7 @@
     "productWebSearchQuery": "\"SP43430302\" \"Y LEWMAR GEAR SPNDLE SLEEVE SIZE 40-46\"",
     "imageUrl": "../images/web-product-images/SP43430302.jpg"
   },
-  {
+  "SP43430310": {
     "productNumber": "SP43430310",
     "description": "LEWMAR ROLLER BEARING ZU0321",
     "brand": "Y",
@@ -2193,7 +2237,7 @@
     "subCategoryDescription": "Trailer Parts & Towing products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 9.95,
     "barcode": "743683013027",
@@ -2203,7 +2247,7 @@
     "productWebSearchQuery": "\"SP43430310\" \"Y LEWMAR ROLLER BEARING ZU0321\"",
     "imageUrl": "../images/web-product-images/SP43430310.jpg"
   },
-  {
+  "SP43430311": {
     "productNumber": "SP43430311",
     "description": "LEWMAR ROLLER BEARING ZU0322",
     "brand": "Y",
@@ -2222,7 +2266,7 @@
     "subCategoryDescription": "Trailer Parts & Towing products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 14.72,
     "barcode": "743683013140",
@@ -2232,7 +2276,7 @@
     "productWebSearchQuery": "\"SP43430311\" \"Y LEWMAR ROLLER BEARING ZU0322\"",
     "imageUrl": "../images/web-product-images/SP43430311.jpg"
   },
-  {
+  "SP43430312": {
     "productNumber": "SP43430312",
     "description": "LEWMAR ROLLER BEARING 17 ZU0317",
     "brand": "Y",
@@ -2251,7 +2295,7 @@
     "subCategoryDescription": "Trailer Parts & Towing products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 5.06,
     "barcode": "743683011634",
@@ -2261,7 +2305,7 @@
     "productWebSearchQuery": "\"SP43430312\" \"Y LEWMAR ROLLER BEARING 17 ZU0317\"",
     "imageUrl": "../images/web-product-images/SP43430312.jpg"
   },
-  {
+  "SP43430313": {
     "productNumber": "SP43430313",
     "description": "LEWMAR ROLLER BEARING ZU0318",
     "brand": "Y",
@@ -2280,7 +2324,7 @@
     "subCategoryDescription": "Trailer Parts & Towing products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 12.97,
     "barcode": "743683011641",
@@ -2290,7 +2334,7 @@
     "productWebSearchQuery": "\"SP43430313\" \"Y LEWMAR ROLLER BEARING ZU0318\"",
     "imageUrl": "../images/web-product-images/SP43430313.jpg"
   },
-  {
+  "SP43430314": {
     "productNumber": "SP43430314",
     "description": "LEWMAR ROLLER BEARING 19 ZU0317",
     "brand": "Y",
@@ -2309,7 +2353,7 @@
     "subCategoryDescription": "Trailer Parts & Towing products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 7.76,
     "barcode": "743683011658",
@@ -2319,7 +2363,7 @@
     "productWebSearchQuery": "\"SP43430314\" \"Y LEWMAR ROLLER BEARING 19 ZU0317\"",
     "imageUrl": "../images/web-product-images/SP43430314.jpg"
   },
-  {
+  "SP43430315": {
     "productNumber": "SP43430315",
     "description": "LEWMAR ROLLER BEARING ZUO695",
     "brand": "Lewmar",
@@ -2338,7 +2382,7 @@
     "subCategoryDescription": "Trailer Parts & Towing products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 9.71,
     "barcode": "743683011627",
@@ -2348,7 +2392,7 @@
     "productWebSearchQuery": "\"SP43430315\" \"Lewmar LEWMAR ROLLER BEARING ZUO695\"",
     "imageUrl": "../images/web-product-images/SP43430315.jpg"
   },
-  {
+  "SP43430316": {
     "productNumber": "SP43430316",
     "description": "LEWMAR ROLLER BEARING ZU0320",
     "brand": "Y",
@@ -2367,17 +2411,16 @@
     "subCategoryDescription": "Trailer Parts & Towing products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/30/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 11.13,
     "barcode": "743683013003",
     "cataloguePage": 30,
-    "imageUrl": "../images/catalogue/product-photos/SP43430316.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/SP43430316.jpg",
     "catalogueDescription": "SP42420563. ................................... 962 SP42420565. ................................... 962 SP42420569. ................................... 963 SP42420570. ................................... 962 SP42420573. ................................... 962 SP42420581. ................................... 963 SP42420608. ................................... 963 SP42420651. ................................... 962 SP42420724. ................................... 962 SP42420750. ................................... 962 SP43430316. ................................... 969 SP43430321. ................................... 969 SP43430322. ................................... 969 SP43430370. ................................... 968 SP43430384. ................................... 969 SP43430520. ................................... 969 SP43430521. ................................... 969 SP43430580. ................................... 968 SP43430582. ................................... 968 SP43430593. ................................... 968 SP43430622",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/SP43430316.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/SP43430316.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/SP43430316.jpg"
   },
-  {
+  "SP43430317": {
     "productNumber": "SP43430317",
     "description": "LEWMAR DRUM BEARING KIT 34/40ST",
     "brand": "Y",
@@ -2396,7 +2439,7 @@
     "subCategoryDescription": "Trailer Parts & Towing products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 44.27,
     "barcode": "743683009242",
@@ -2406,7 +2449,7 @@
     "productWebSearchQuery": "\"SP43430317\" \"Y LEWMAR DRUM BEARING KIT 34/40ST\"",
     "imageUrl": "../images/web-product-images/SP43430317.jpg"
   },
-  {
+  "SP43430318": {
     "productNumber": "SP43430318",
     "description": "LEWMAR PLAIN BEARING (LONG)",
     "brand": "Y",
@@ -2425,7 +2468,7 @@
     "subCategoryDescription": "Trailer Parts & Towing products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 41.34,
     "barcode": "743683014871",
@@ -2435,7 +2478,7 @@
     "productWebSearchQuery": "\"SP43430318\" \"Y LEWMAR PLAIN BEARING (LONG)\"",
     "imageUrl": "../images/web-product-images/SP43430318.jpg"
   },
-  {
+  "SP43430320": {
     "productNumber": "SP43430320",
     "description": "LEWMAR SPRING TOP CAP ASSY 3 SPEED WINCH",
     "brand": "Y",
@@ -2464,7 +2507,7 @@
     "productWebSearchQuery": "\"SP43430320\" \"LEWMAR SPRING TOP CAP ASSY 3 SPEED WINCH\"",
     "imageUrl": "../images/web-product-images/SP43430320.jpg"
   },
-  {
+  "SP43430321": {
     "productNumber": "SP43430321",
     "description": "LEWMAR SPRING TOP CAP ASSY 55/65",
     "brand": "Y",
@@ -2483,17 +2526,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/30/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 9.38,
     "barcode": "743683013102",
     "cataloguePage": 30,
-    "imageUrl": "../images/catalogue/product-photos/SP43430321.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/SP43430321.jpg",
     "catalogueDescription": "SP42420565. ................................... 962 SP42420569. ................................... 963 SP42420570. ................................... 962 SP42420573. ................................... 962 SP42420581. ................................... 963 SP42420608. ................................... 963 SP42420651. ................................... 962 SP42420724. ................................... 962 SP42420750. ................................... 962 SP43430316. ................................... 969 SP43430321. ................................... 969 SP43430322. ................................... 969 SP43430370. ................................... 968 SP43430384. ................................... 969 SP43430520. ................................... 969 SP43430521. ................................... 969 SP43430580. ................................... 968 SP43430582. ................................... 968 SP43430593. ................................... 968 SP43430622. ................................... 968 SP43430624",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/SP43430321.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/SP43430321.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/SP43430321.jpg"
   },
-  {
+  "SP43430322": {
     "productNumber": "SP43430322",
     "description": "LEWMAR PUSH BUTTON TOP CAP ASSY 55/65",
     "brand": "Y",
@@ -2512,17 +2554,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/30/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 9.38,
     "barcode": "743683013119",
     "cataloguePage": 30,
-    "imageUrl": "../images/catalogue/product-photos/SP43430322.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/SP43430322.jpg",
     "catalogueDescription": "SP42420569. ................................... 963 SP42420570. ................................... 962 SP42420573. ................................... 962 SP42420581. ................................... 963 SP42420608. ................................... 963 SP42420651. ................................... 962 SP42420724. ................................... 962 SP42420750. ................................... 962 SP43430316. ................................... 969 SP43430321. ................................... 969 SP43430322. ................................... 969 SP43430370. ................................... 968 SP43430384. ................................... 969 SP43430520. ................................... 969 SP43430521. ................................... 969 SP43430580. ................................... 968 SP43430582. ................................... 968 SP43430593. ................................... 968 SP43430622. ................................... 968 SP43430624. ................................... 968 SP43430626",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/SP43430322.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/SP43430322.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/SP43430322.jpg"
   },
-  {
+  "SP43430323": {
     "productNumber": "SP43430323",
     "description": "LEWMAR PLUNGER TOP CAP ASSY 3 SPEED WINCH",
     "brand": "Y",
@@ -2551,7 +2592,7 @@
     "productWebSearchQuery": "\"SP43430323\" \"LEWMAR PLUNGER TOP CAP ASSY 3 SPEED WINCH\"",
     "imageUrl": "../images/web-product-images/SP43430323.jpg"
   },
-  {
+  "SP43430324": {
     "productNumber": "SP43430324",
     "description": "LEWMAR SPRING ANCHOR PIN SUIT TOP CAP ASSY 15044115",
     "brand": "Y",
@@ -2580,7 +2621,7 @@
     "productWebSearchQuery": "\"SP43430324\" \"LEWMAR SPRING ANCHOR PIN SUIT TOP CAP ASSY 15044115\"",
     "imageUrl": "../images/web-product-images/SP43430324.jpg"
   },
-  {
+  "SP43430325": {
     "productNumber": "SP43430325",
     "description": "LEWMAR 15008005 8-40STD PLASTIC KEY",
     "brand": "Y",
@@ -2599,7 +2640,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 2.3,
     "barcode": "743683012990",
@@ -2609,7 +2650,7 @@
     "productWebSearchQuery": "\"SP43430325\" \"LEWMAR 15008005 8-40STD PLASTIC KEY\"",
     "imageUrl": "../images/web-product-images/SP43430325.jpg"
   },
-  {
+  "SP43430330": {
     "productNumber": "SP43430330",
     "description": "LEWMAR TENSION SPRING",
     "brand": "Y",
@@ -2628,7 +2669,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 10.64,
     "barcode": "743683023255",
@@ -2638,7 +2679,7 @@
     "productWebSearchQuery": "\"SP43430330\" \"Y LEWMAR TENSION SPRING\"",
     "imageUrl": "../images/web-product-images/SP43430330.webp"
   },
-  {
+  "SP43430340": {
     "productNumber": "SP43430340",
     "description": "LEWMAR BALL BEARING CAGE",
     "brand": "Y",
@@ -2657,7 +2698,7 @@
     "subCategoryDescription": "Trailer Parts & Towing products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 0.38,
     "barcode": "743683232206",
@@ -2667,7 +2708,7 @@
     "productWebSearchQuery": "\"SP43430340\" \"Y LEWMAR BALL BEARING CAGE\"",
     "imageUrl": "../images/web-product-images/SP43430340.jpg"
   },
-  {
+  "SP43430346": {
     "productNumber": "SP43430346",
     "description": "LEWMAR DELRIN ORGANSER SHEAVE GREY 15900496G",
     "brand": "Y",
@@ -2686,7 +2727,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 5.89,
     "barcode": "743683230431",
@@ -2705,7 +2746,7 @@
     "imageUrl": "../images/bla-website-products/SP43430346.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "SP43430360": {
     "productNumber": "SP43430360",
     "description": "LEWMAR PAWL 15096049",
     "brand": "Y",
@@ -2724,7 +2765,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 54.31,
     "barcode": "743683023248",
@@ -2734,7 +2775,7 @@
     "productWebSearchQuery": "\"SP43430360\" \"Y LEWMAR PAWL 15096049\"",
     "imageUrl": "../images/web-product-images/SP43430360.jpg"
   },
-  {
+  "SP43430362": {
     "productNumber": "SP43430362",
     "description": "LEWMAR 16-48ST SPRING 45000112",
     "brand": "Lewmar",
@@ -2753,7 +2794,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 15.74,
     "barcode": "743683014314",
@@ -2763,7 +2804,7 @@
     "productWebSearchQuery": "\"SP43430362\" \"Lewmar LEWMAR 16-48ST SPRING 45000112\"",
     "imageUrl": "../images/web-product-images/SP43430362.jpg"
   },
-  {
+  "SP43430370": {
     "productNumber": "SP43430370",
     "description": "LEWMAR TOP CAP & O RING KIT 28-54ST CHROME",
     "brand": "Lewmar",
@@ -2782,23 +2823,22 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/30/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 49.16,
     "barcode": "743683009129",
     "cataloguePage": 30,
-    "imageUrl": "../images/catalogue/product-photos/SP43430370.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/SP43430370.jpg",
     "catalogueDescription": "SP42420570. ................................... 962 SP42420573. ................................... 962 SP42420581. ................................... 963 SP42420608. ................................... 963 SP42420651. ................................... 962 SP42420724. ................................... 962 SP42420750. ................................... 962 SP43430316. ................................... 969 SP43430321. ................................... 969 SP43430322. ................................... 969 SP43430370. ................................... 968 SP43430384. ................................... 969 SP43430520. ................................... 969 SP43430521. ................................... 969 SP43430580. ................................... 968 SP43430582. ................................... 968 SP43430593. ................................... 968 SP43430622. ................................... 968 SP43430624. ................................... 968 SP43430626. ................................... 968 SP43430628",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/SP43430370.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/SP43430370.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/SP43430370.jpg"
   },
-  {
+  "SP43430371": {
     "productNumber": "SP43430371",
     "description": "LEWMAR TOP CAP & O RING KIT 28-54ST GREY",
     "brand": "Y",
     "variant": "PC",
     "price": 67.6,
-    "unitCostOfSale": 38,
+    "unitCostOfSale": 38.0,
     "categoryName": "Tools & Chandlery",
     "topCategory": "Tools & Chandlery",
     "subCategoryName": "General Marine Supplies",
@@ -2811,9 +2851,9 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
-    "exportAudExGst": 18,
+    "exportAudExGst": 18.0,
     "barcode": "743683016851",
     "productWebSearchImageUrl": "../images/web-product-images/SP43430371.jpg",
     "productWebSearchImageSourceUrl": "https://www.v-rigger.com/WebRoot/Store/Shops/es140267/639B/420B/EDCC/25A8/A650/0A0F/1117/8099/LM48500030-Technical-Detail.jpg",
@@ -2821,7 +2861,7 @@
     "productWebSearchQuery": "\"SP43430371\" \"LEWMAR TOP CAP & O RING KIT 28-54ST GREY\"",
     "imageUrl": "../images/web-product-images/SP43430371.jpg"
   },
-  {
+  "SP43430372": {
     "productNumber": "SP43430372",
     "description": "LEWMAR TOP CAP & O RING KIT 58-77ST CHROME",
     "brand": "Y",
@@ -2840,7 +2880,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 29.21,
     "barcode": "743683009136",
@@ -2850,7 +2890,7 @@
     "productWebSearchQuery": "\"SP43430372\" \"Y LEWMAR TOP CAP & O RING KIT 58-77ST CHROME\"",
     "imageUrl": "../images/web-product-images/SP43430372.png"
   },
-  {
+  "SP43430380": {
     "productNumber": "SP43430380",
     "description": "LEWMAR CHROME FEEDER ARM 48ST",
     "brand": "Y",
@@ -2869,7 +2909,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 84.47,
     "barcode": "743683009532",
@@ -2879,7 +2919,7 @@
     "productWebSearchQuery": "\"SP43430380\" \"Y LEWMAR CHROME FEEDER ARM 48ST\"",
     "imageUrl": "../images/web-product-images/SP43430380.jpg"
   },
-  {
+  "SP43430384": {
     "productNumber": "SP43430384",
     "description": "LEWMAR 16ST-77ST COLLET KIT 48000446",
     "brand": "Lewmar",
@@ -2898,17 +2938,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/30/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 16.13,
     "barcode": "743683009143",
     "cataloguePage": 30,
-    "imageUrl": "../images/catalogue/product-photos/SP43430384.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/SP43430384.jpg",
     "catalogueDescription": "SP42420573. ................................... 962 SP42420581. ................................... 963 SP42420608. ................................... 963 SP42420651. ................................... 962 SP42420724. ................................... 962 SP42420750. ................................... 962 SP43430316. ................................... 969 SP43430321. ................................... 969 SP43430322. ................................... 969 SP43430370. ................................... 968 SP43430384. ................................... 969 SP43430520. ................................... 969 SP43430521. ................................... 969 SP43430580. ................................... 968 SP43430582. ................................... 968 SP43430593. ................................... 968 SP43430622. ................................... 968 SP43430624. ................................... 968 SP43430626. ................................... 968 SP43430628. ................................... 968 SPC51180-1",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/SP43430384.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/SP43430384.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/SP43430384.jpg"
   },
-  {
+  "SP43430385": {
     "productNumber": "SP43430385",
     "description": "LEWMAR 16ST-56ST SHEET WINCH COLLET",
     "brand": "Y",
@@ -2937,7 +2976,7 @@
     "productWebSearchQuery": "\"SP43430385\" \"Y LEWMAR 16ST-56ST SHEET WINCH COLLET\"",
     "imageUrl": "../images/web-product-images/SP43430385.jpg"
   },
-  {
+  "SP43430390": {
     "productNumber": "SP43430390",
     "description": "LEWMAR 40ST PAWL GEAR 2 KIT 17T 48000467",
     "brand": "Y",
@@ -2956,7 +2995,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 97.29,
     "barcode": "743683009358",
@@ -2966,7 +3005,7 @@
     "productWebSearchQuery": "\"SP43430390\" \"Y LEWMAR 40ST PAWL GEAR 2 KIT 17T 48000467\"",
     "imageUrl": "../images/web-product-images/SP43430390.jpg"
   },
-  {
+  "SP43430391": {
     "productNumber": "SP43430391",
     "description": "LEWMAR 44/50 PAWL GEAR 2 KIT",
     "brand": "Y",
@@ -2985,7 +3024,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 269.19,
     "barcode": "743683032103",
@@ -2995,7 +3034,7 @@
     "productWebSearchQuery": "\"SP43430391\" \"Y LEWMAR 44/50 PAWL GEAR 2 KIT\"",
     "imageUrl": "../images/web-product-images/SP43430391.jpg"
   },
-  {
+  "SP43430393": {
     "productNumber": "SP43430393",
     "description": "LEWMAR 30ST PAWL GEAR 2 KIT 17T",
     "brand": "Y",
@@ -3014,7 +3053,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 94.04,
     "barcode": "743683009334",
@@ -3024,7 +3063,7 @@
     "productWebSearchQuery": "\"SP43430393\" \"Y LEWMAR 30ST PAWL GEAR 2 KIT 17T\"",
     "imageUrl": "../images/web-product-images/SP43430393.jpg"
   },
-  {
+  "SP43430440": {
     "productNumber": "SP43430440",
     "description": "LEWMAR MOTOR/GEAR BOX ASSY 40-48 12V 48000116",
     "brand": "Y",
@@ -3043,8 +3082,8 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 5,
-    "freightAud": 24,
+    "estimatedWeightKg": 5.0,
+    "freightAud": 24.0,
     "exportAudExGst": 977.42,
     "barcode": "743683004117",
     "blaWebsiteUrl": "https://bla.com.au/product/lewmar-40-to-50evo-12v-m-gbox-assy/",
@@ -3062,7 +3101,7 @@
     "imageUrl": "../images/bla-website-products/SP43430440.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "SP43430441": {
     "productNumber": "SP43430441",
     "description": "LEWMAR KEY 40-56EST MK11 GEAR BOX",
     "brand": "Y",
@@ -3081,7 +3120,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 6.87,
     "barcode": "743683012853",
@@ -3091,7 +3130,7 @@
     "productWebSearchQuery": "\"SP43430441\" \"LEWMAR KEY 40-56EST MK11 GEAR BOX\"",
     "imageUrl": "../images/web-product-images/SP43430441.jpg"
   },
-  {
+  "SP43430445": {
     "productNumber": "SP43430445",
     "description": "LEWMAR 66-88 EST MOTOR GEARBOX 24V",
     "brand": "Y",
@@ -3110,8 +3149,8 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 5,
-    "freightAud": 24,
+    "estimatedWeightKg": 5.0,
+    "freightAud": 24.0,
     "exportAudExGst": 1303.24,
     "barcode": "743683004056",
     "productWebSearchImageUrl": "../images/web-product-images/SP43430445.jpg",
@@ -3120,7 +3159,7 @@
     "productWebSearchQuery": "\"SP43430445\" \"Y LEWMAR 66-88 EST MOTOR GEARBOX 24V\"",
     "imageUrl": "../images/web-product-images/SP43430445.jpg"
   },
-  {
+  "SP43430446": {
     "productNumber": "SP43430446",
     "description": "LEWMAR MOTOR GEARBOX ASSSEMBLY 68-88 12V",
     "brand": "Y",
@@ -3139,8 +3178,8 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 5,
-    "freightAud": 24,
+    "estimatedWeightKg": 5.0,
+    "freightAud": 24.0,
     "exportAudExGst": 743.88,
     "barcode": "9319786461426",
     "productWebSearchImageUrl": "../images/web-product-images/SP43430446.jpg",
@@ -3149,7 +3188,7 @@
     "productWebSearchQuery": "\"SP43430446\" \"LEWMAR MOTOR GEARBOX ASSSEMBLY 68-88 12V\"",
     "imageUrl": "../images/web-product-images/SP43430446.jpg"
   },
-  {
+  "SP43430450": {
     "productNumber": "SP43430450",
     "description": "LEWMAR LOCK HANDLE KIT 10' GREY 29140013",
     "brand": "Y",
@@ -3168,7 +3207,7 @@
     "subCategoryDescription": "Stainless Fittings & Deck Hardware products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 17.57,
     "barcode": "743683200304",
@@ -3178,7 +3217,7 @@
     "productWebSearchQuery": "\"SP43430450\" \"LEWMAR LOCK HANDLE KIT 10' GREY 29140013\"",
     "imageUrl": "../images/web-product-images/SP43430450.jpg"
   },
-  {
+  "SP43430451": {
     "productNumber": "SP43430451",
     "description": "LEWMAR SPLIT BUSH 40004996",
     "brand": "Y",
@@ -3197,7 +3236,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 281.41,
     "barcode": "743683023842",
@@ -3207,7 +3246,7 @@
     "productWebSearchQuery": "\"SP43430451\" \"Y LEWMAR SPLIT BUSH 40004996\"",
     "imageUrl": "../images/web-product-images/SP43430451.jpg"
   },
-  {
+  "SP43430452": {
     "productNumber": "SP43430452",
     "description": "LEWMAR PLANET GEAR 40004997",
     "brand": "Y",
@@ -3226,7 +3265,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 590.87,
     "barcode": "743683023859",
@@ -3236,7 +3275,7 @@
     "productWebSearchQuery": "\"SP43430452\" \"Y LEWMAR PLANET GEAR 40004997\"",
     "imageUrl": "../images/web-product-images/SP43430452.jpg"
   },
-  {
+  "SP43430455": {
     "productNumber": "SP43430455",
     "description": "LEWMAR 66ST SPRING RETAINER BLACK 45000995",
     "brand": "Y",
@@ -3255,7 +3294,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 19.43,
     "barcode": "743683024337",
@@ -3265,7 +3304,7 @@
     "productWebSearchQuery": "\"SP43430455\" \"Y LEWMAR 66ST SPRING RETAINER BLACK 45000995\"",
     "imageUrl": "../images/web-product-images/SP43430455.jpg"
   },
-  {
+  "SP43430456": {
     "productNumber": "SP43430456",
     "description": "LEWMAR WINCH HNDLE SNGL GRIP REP KIT 8\"",
     "brand": "Y",
@@ -3294,7 +3333,7 @@
     "productWebSearchQuery": "\"SP43430456\" \"Y LEWMAR WINCH HNDLE SNGL GRIP REP KIT 8\"\"",
     "imageUrl": "../images/web-product-images/SP43430456.jpg"
   },
-  {
+  "SP43430458": {
     "productNumber": "SP43430458",
     "description": "LEWMAR MOTOR GEARBOX ASSEMBLY SZ40-50 24V",
     "brand": "Y",
@@ -3313,8 +3352,8 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 5,
-    "freightAud": 24,
+    "estimatedWeightKg": 5.0,
+    "freightAud": 24.0,
     "exportAudExGst": 1047.41,
     "barcode": "743683004124",
     "productWebSearchImageUrl": "../images/web-product-images/SP43430458.jpg",
@@ -3323,7 +3362,7 @@
     "productWebSearchQuery": "\"SP43430458\" \"LEWMAR MOTOR GEARBOX ASSEMBLY SZ40-50 24V\"",
     "imageUrl": "../images/web-product-images/SP43430458.jpg"
   },
-  {
+  "SP43430459": {
     "productNumber": "SP43430459",
     "description": "LEWMAR SINGLE CONTACTOR SEALED 24V",
     "brand": "Y",
@@ -3342,7 +3381,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 90.43,
     "barcode": "743683329067",
@@ -3352,7 +3391,7 @@
     "productWebSearchQuery": "\"SP43430459\" \"Y LEWMAR SINGLE CONTACTOR SEALED 24V\"",
     "imageUrl": "../images/web-product-images/SP43430459.webp"
   },
-  {
+  "SP43430462": {
     "productNumber": "SP43430462",
     "description": "LEWMAR 16 STRIPPER RING SPARES KIT 45000008P",
     "brand": "Y",
@@ -3371,7 +3410,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 17.71,
     "barcode": "743683024245",
@@ -3381,7 +3420,7 @@
     "productWebSearchQuery": "\"SP43430462\" \"Y LEWMAR 16 STRIPPER RING SPARES KIT 45000008P\"",
     "imageUrl": "../images/web-product-images/SP43430462.jpg"
   },
-  {
+  "SP43430465": {
     "productNumber": "SP43430465",
     "description": "LEWMAR RR312S(J) CIRCLIP TOP CAP ASSY B2083",
     "brand": "Y",
@@ -3400,7 +3439,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 7.01,
     "barcode": "743683026515",
@@ -3410,7 +3449,7 @@
     "productWebSearchQuery": "\"SP43430465\" \"LEWMAR RR312S(J) CIRCLIP TOP CAP ASSY B2083\"",
     "imageUrl": "../images/web-product-images/SP43430465.jpg"
   },
-  {
+  "SP43430468": {
     "productNumber": "SP43430468",
     "description": "LEWMAR EST WINCH DRIVE SHAFT 40/44/48",
     "brand": "Y",
@@ -3429,8 +3468,8 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 5,
-    "freightAud": 24,
+    "estimatedWeightKg": 5.0,
+    "freightAud": 24.0,
     "exportAudExGst": 162.53,
     "barcode": "743683014864",
     "productWebSearchImageUrl": "../images/web-product-images/SP43430468.jpg",
@@ -3439,7 +3478,7 @@
     "productWebSearchQuery": "\"SP43430468\" \"Y LEWMAR EST WINCH DRIVE SHAFT 40/44/48\"",
     "imageUrl": "../images/web-product-images/SP43430468.jpg"
   },
-  {
+  "SP43430469": {
     "productNumber": "SP43430469",
     "description": "LEWMAR 48000027 ASTOR C/STEM SPARE KIT",
     "brand": "Y",
@@ -3458,7 +3497,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 1120.31,
     "barcode": "743683016707",
@@ -3468,7 +3507,7 @@
     "productWebSearchQuery": "\"SP43430469\" \"Y LEWMAR 48000027 ASTOR C/STEM SPARE KIT\"",
     "imageUrl": "../images/web-product-images/SP43430469.jpg"
   },
-  {
+  "SP43430471": {
     "productNumber": "SP43430471",
     "description": "LEWMAR RATCHET PAWL GEAR 54/55EST",
     "brand": "Y",
@@ -3487,7 +3526,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 264.82,
     "barcode": "743683015564",
@@ -3497,7 +3536,7 @@
     "productWebSearchQuery": "\"SP43430471\" \"Y LEWMAR RATCHET PAWL GEAR 54/55EST\"",
     "imageUrl": "../images/web-product-images/SP43430471.jpg"
   },
-  {
+  "SP43430472": {
     "productNumber": "SP43430472",
     "description": "LEWMAR 77 ELS CONTROL BOX 24V",
     "brand": "Y",
@@ -3516,7 +3555,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 1996.92,
     "barcode": "743683016806",
@@ -3526,7 +3565,7 @@
     "productWebSearchQuery": "\"SP43430472\" \"Y LEWMAR 77 ELS CONTROL BOX 24V\"",
     "imageUrl": "../images/web-product-images/SP43430472.jpg"
   },
-  {
+  "SP43430473": {
     "productNumber": "SP43430473",
     "description": "LEWMAR SS ELS WINCH CONTROL BOX TYPE 2-3",
     "brand": "Y",
@@ -3545,8 +3584,8 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 5,
-    "freightAud": 24,
+    "estimatedWeightKg": 5.0,
+    "freightAud": 24.0,
     "exportAudExGst": 773.69,
     "barcode": "743683008696",
     "productWebSearchImageUrl": "../images/web-product-images/SP43430473.jpg",
@@ -3555,13 +3594,13 @@
     "productWebSearchQuery": "\"SP43430473\" \"LEWMAR SS ELS WINCH CONTROL BOX TYPE 2-3\"",
     "imageUrl": "../images/web-product-images/SP43430473.jpg"
   },
-  {
+  "SP43430501": {
     "productNumber": "SP43430501",
     "description": "LEWMAR WASHER 15000247",
     "brand": "Y",
     "variant": "PC",
     "price": 28.5,
-    "unitCostOfSale": 15,
+    "unitCostOfSale": 15.0,
     "categoryName": "Tools & Chandlery",
     "topCategory": "Tools & Chandlery",
     "subCategoryName": "General Marine Supplies",
@@ -3574,7 +3613,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 4.2,
     "barcode": "743683011931",
@@ -3584,7 +3623,7 @@
     "productWebSearchQuery": "\"SP43430501\" \"Y LEWMAR WASHER 15000247\"",
     "imageUrl": "../images/web-product-images/SP43430501.jpg"
   },
-  {
+  "SP43430502": {
     "productNumber": "SP43430502",
     "description": "LEWMAR 30/40ST STRIPPER RING 15000375",
     "brand": "Y",
@@ -3603,7 +3642,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 2.07,
     "barcode": "743683000348",
@@ -3613,7 +3652,7 @@
     "productWebSearchQuery": "\"SP43430502\" \"Y LEWMAR 30/40ST STRIPPER RING 15000375\"",
     "imageUrl": "../images/web-product-images/SP43430502.jpg"
   },
-  {
+  "SP43430503": {
     "productNumber": "SP43430503",
     "description": "LEWMAR 15000387 COLLET TO SUIT 16ST-52ST SHEET WINCH",
     "brand": "Y",
@@ -3642,7 +3681,7 @@
     "productWebSearchQuery": "\"SP43430503\" \"Y LEWMAR 15000387 COLLET TO SUIT 16ST-52ST SHEET WINCH\"",
     "imageUrl": "../images/web-product-images/SP43430503.jpg"
   },
-  {
+  "SP43430504": {
     "productNumber": "SP43430504",
     "description": "LEWMAR 44/48/65ST SPACER 15000404",
     "brand": "Y",
@@ -3661,7 +3700,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 1.49,
     "barcode": "743683012099",
@@ -3671,7 +3710,7 @@
     "productWebSearchQuery": "\"SP43430504\" \"Y LEWMAR 44/48/65ST SPACER 15000404\"",
     "imageUrl": "../images/web-product-images/SP43430504.jpg"
   },
-  {
+  "SP43430506": {
     "productNumber": "SP43430506",
     "description": "LEWMAR 40STD/ST BEARING SPACER 15000491",
     "brand": "Y",
@@ -3690,7 +3729,7 @@
     "subCategoryDescription": "Trailer Parts & Towing products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 2.99,
     "barcode": "743683012297",
@@ -3700,7 +3739,7 @@
     "productWebSearchQuery": "\"SP43430506\" \"Y LEWMAR 40STD/ST BEARING SPACER 15000491\"",
     "imageUrl": "../images/web-product-images/SP43430506.jpg"
   },
-  {
+  "SP43430508": {
     "productNumber": "SP43430508",
     "description": "LEWMAR FLANGED WASHER 15000646",
     "brand": "Y",
@@ -3719,7 +3758,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 3.37,
     "barcode": "743683012389",
@@ -3729,7 +3768,7 @@
     "productWebSearchQuery": "\"SP43430508\" \"Y LEWMAR FLANGED WASHER 15000646\"",
     "imageUrl": "../images/web-product-images/SP43430508.jpg"
   },
-  {
+  "SP43430509": {
     "productNumber": "SP43430509",
     "description": "LEWMAR 50/54 WASHER 15000981",
     "brand": "Y",
@@ -3748,7 +3787,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 1.87,
     "barcode": "743683012587",
@@ -3758,7 +3797,7 @@
     "productWebSearchQuery": "\"SP43430509\" \"Y LEWMAR 50/54 WASHER 15000981\"",
     "imageUrl": "../images/web-product-images/SP43430509.jpg"
   },
-  {
+  "SP43430511": {
     "productNumber": "SP43430511",
     "description": "LEWMAR SMALL FRICTION DISC 3000 GPSY",
     "brand": "Y",
@@ -3777,7 +3816,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 38.47,
     "barcode": "743683012884",
@@ -3787,7 +3826,7 @@
     "productWebSearchQuery": "\"SP43430511\" \"LEWMAR SMALL FRICTION DISC 3000 GPSY\"",
     "imageUrl": "../images/web-product-images/SP43430511.jpg"
   },
-  {
+  "SP43430514": {
     "productNumber": "SP43430514",
     "description": "LEWMAR CLOSING RING TOP CAP ASSY 15044106",
     "brand": "Y",
@@ -3806,7 +3845,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 5.63,
     "barcode": "743683000362",
@@ -3816,7 +3855,7 @@
     "productWebSearchQuery": "\"SP43430514\" \"LEWMAR CLOSING RING TOP CAP ASSY 15044106\"",
     "imageUrl": "../images/web-product-images/SP43430514.jpg"
   },
-  {
+  "SP43430515": {
     "productNumber": "SP43430515",
     "description": "LEWMAR 46STD/ST DRUM WASHER 15044116",
     "brand": "Y",
@@ -3835,7 +3874,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 3.82,
     "barcode": "743683013133",
@@ -3845,7 +3884,7 @@
     "productWebSearchQuery": "\"SP43430515\" \"Y LEWMAR 46STD/ST DRUM WASHER 15044116\"",
     "imageUrl": "../images/web-product-images/SP43430515.jpg"
   },
-  {
+  "SP43430517": {
     "productNumber": "SP43430517",
     "description": "LEWMAR 46ST 12V E CONVERSION KIT",
     "brand": "Y",
@@ -3864,7 +3903,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 2148.32,
     "barcode": "743683017025",
@@ -3874,7 +3913,7 @@
     "productWebSearchQuery": "\"SP43430517\" \"Y LEWMAR 46ST 12V E CONVERSION KIT\"",
     "imageUrl": "../images/web-product-images/SP43430517.jpg"
   },
-  {
+  "SP43430520": {
     "productNumber": "SP43430520",
     "description": "LEWMAR STRIPPER RING PAIR 30/40ST",
     "brand": "Lewmar",
@@ -3893,17 +3932,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/30/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 27.52,
     "barcode": "743683014291",
     "cataloguePage": 30,
-    "imageUrl": "../images/catalogue/product-photos/SP43430520.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/SP43430520.jpg",
     "catalogueDescription": "SP42420581. ................................... 963 SP42420608. ................................... 963 SP42420651. ................................... 962 SP42420724. ................................... 962 SP42420750. ................................... 962 SP43430316. ................................... 969 SP43430321. ................................... 969 SP43430322. ................................... 969 SP43430370. ................................... 968 SP43430384. ................................... 969 SP43430520. ................................... 969 SP43430521. ................................... 969 SP43430580. ................................... 968 SP43430582. ................................... 968 SP43430593. ................................... 968 SP43430622. ................................... 968 SP43430624. ................................... 968 SP43430626. ................................... 968 SP43430628. ................................... 968 SPC51180-1. ................................... 127 SRK19210..",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/SP43430520.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/SP43430520.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/SP43430520.jpg"
   },
-  {
+  "SP43430521": {
     "productNumber": "SP43430521",
     "description": "LEWMAR STRIPPER RING PAIR 44/46ST",
     "brand": "Lewmar",
@@ -3922,17 +3960,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/30/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 31.74,
     "barcode": "743683014666",
     "cataloguePage": 30,
-    "imageUrl": "../images/catalogue/product-photos/SP43430521.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/SP43430521.jpg",
     "catalogueDescription": "SP42420608. ................................... 963 SP42420651. ................................... 962 SP42420724. ................................... 962 SP42420750. ................................... 962 SP43430316. ................................... 969 SP43430321. ................................... 969 SP43430322. ................................... 969 SP43430370. ................................... 968 SP43430384. ................................... 969 SP43430520. ................................... 969 SP43430521. ................................... 969 SP43430580. ................................... 968 SP43430582. ................................... 968 SP43430593. ................................... 968 SP43430622. ................................... 968 SP43430624. ................................... 968 SP43430626. ................................... 968 SP43430628. ................................... 968 SPC51180-1. ................................... 127 SRK19210........................................ 196 SRK19220.",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/SP43430521.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/SP43430521.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/SP43430521.jpg"
   },
-  {
+  "SP43430522": {
     "productNumber": "SP43430522",
     "description": "LEWMAR STRIPPER RING PAIR 48ST",
     "brand": "Y",
@@ -3951,7 +3988,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 22.28,
     "barcode": "743683015021",
@@ -3961,7 +3998,7 @@
     "productWebSearchQuery": "\"SP43430522\" \"Y LEWMAR STRIPPER RING PAIR 48ST\"",
     "imageUrl": "../images/web-product-images/SP43430522.jpg"
   },
-  {
+  "SP43430523": {
     "productNumber": "SP43430523",
     "description": "LEWMAR STRIPPER RING PAIR 50/54ST",
     "brand": "Y",
@@ -3980,7 +4017,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 23.42,
     "barcode": "743683015229",
@@ -3990,7 +4027,7 @@
     "productWebSearchQuery": "\"SP43430523\" \"Y LEWMAR STRIPPER RING PAIR 50/54ST\"",
     "imageUrl": "../images/web-product-images/SP43430523.jpg"
   },
-  {
+  "SP43430524": {
     "productNumber": "SP43430524",
     "description": "LEWMAR SPRING RETAINER PAIR 50/54ST",
     "brand": "Y",
@@ -4009,7 +4046,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 26.87,
     "barcode": "743683015366",
@@ -4019,7 +4056,7 @@
     "productWebSearchQuery": "\"SP43430524\" \"Y LEWMAR SPRING RETAINER PAIR 50/54ST\"",
     "imageUrl": "../images/web-product-images/SP43430524.png"
   },
-  {
+  "SP43430525": {
     "productNumber": "SP43430525",
     "description": "LEWMAR STRIPPER RING PAIR 56/65ST",
     "brand": "Y",
@@ -4038,7 +4075,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 24.35,
     "barcode": "743683015618",
@@ -4048,12 +4085,12 @@
     "productWebSearchQuery": "\"SP43430525\" \"Y LEWMAR STRIPPER RING PAIR 56/65ST\"",
     "imageUrl": "../images/web-product-images/SP43430525.jpg"
   },
-  {
+  "SP43430526": {
     "productNumber": "SP43430526",
     "description": "LEWMAR 4500008P 15ST STRIPPER RING PAIR",
     "brand": "Y",
     "variant": "PC",
-    "price": 68,
+    "price": 68.0,
     "unitCostOfSale": 38.23,
     "categoryName": "Tools & Chandlery",
     "topCategory": "Tools & Chandlery",
@@ -4067,7 +4104,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 18.14,
     "barcode": "743683007361",
@@ -4077,7 +4114,7 @@
     "productWebSearchQuery": "\"SP43430526\" \"Y LEWMAR 4500008P 15ST STRIPPER RING PAIR\"",
     "imageUrl": "../images/web-product-images/SP43430526.jpg"
   },
-  {
+  "SP43430527": {
     "productNumber": "SP43430527",
     "description": "LEWMAR PAWL CLOSING RING SPAR 93/1030",
     "brand": "Y",
@@ -4106,7 +4143,7 @@
     "productWebSearchQuery": "\"SP43430527\" \"Y LEWMAR PAWL CLOSING RING SPAR 93/1030\"",
     "imageUrl": "../images/web-product-images/SP43430527.jpg"
   },
-  {
+  "SP43430528": {
     "productNumber": "SP43430528",
     "description": "LEWMAR WINCH 48ST DRUM BEARING KIT",
     "brand": "Y",
@@ -4125,8 +4162,8 @@
     "subCategoryDescription": "Trailer Parts & Towing products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 5,
-    "freightAud": 24,
+    "estimatedWeightKg": 5.0,
+    "freightAud": 24.0,
     "exportAudExGst": 62.62,
     "barcode": "743683009266",
     "productWebSearchImageUrl": "../images/web-product-images/SP43430528.jpg",
@@ -4135,7 +4172,7 @@
     "productWebSearchQuery": "\"SP43430528\" \"Y LEWMAR WINCH 48ST DRUM BEARING KIT\"",
     "imageUrl": "../images/web-product-images/SP43430528.jpg"
   },
-  {
+  "SP43430529": {
     "productNumber": "SP43430529",
     "description": "LEWMAR 48000457 DRUM BEARING KIT 44/46ST",
     "brand": "Y",
@@ -4154,7 +4191,7 @@
     "subCategoryDescription": "Trailer Parts & Towing products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 58.86,
     "barcode": "743683009259",
@@ -4164,7 +4201,7 @@
     "productWebSearchQuery": "\"SP43430529\" \"Y LEWMAR 48000457 DRUM BEARING KIT 44/46ST\"",
     "imageUrl": "../images/web-product-images/SP43430529.jpg"
   },
-  {
+  "SP43430538": {
     "productNumber": "SP43430538",
     "description": "LEWMAR 44 STD CROWN GREY 45000362",
     "brand": "Y",
@@ -4183,7 +4220,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 917.53,
     "barcode": "743683014895",
@@ -4193,7 +4230,7 @@
     "productWebSearchQuery": "\"SP43430538\" \"LEWMAR 44 STD CROWN GREY 45000362\"",
     "imageUrl": "../images/web-product-images/SP43430538.jpg"
   },
-  {
+  "SP43430540": {
     "productNumber": "SP43430540",
     "description": "LEWMAR SPRING 50-65ST",
     "brand": "Y",
@@ -4212,7 +4249,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 1.4,
     "barcode": "743683015243",
@@ -4222,7 +4259,7 @@
     "productWebSearchQuery": "\"SP43430540\" \"Y LEWMAR SPRING 50-65ST\"",
     "imageUrl": "../images/web-product-images/SP43430540.webp"
   },
-  {
+  "SP43430545": {
     "productNumber": "SP43430545",
     "description": "LEWMAR SPRING RETAINER 58/65ST",
     "brand": "Y",
@@ -4241,7 +4278,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 6.56,
     "barcode": "743683015724",
@@ -4251,7 +4288,7 @@
     "productWebSearchQuery": "\"SP43430545\" \"Y LEWMAR SPRING RETAINER 58/65ST\"",
     "imageUrl": "../images/web-product-images/SP43430545.jpg"
   },
-  {
+  "SP43430551": {
     "productNumber": "SP43430551",
     "description": "LEWMAR 40STD DRUM ALLOY GREY 45001614",
     "brand": "Y",
@@ -4270,7 +4307,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 1252.12,
     "barcode": "743683016233",
@@ -4280,7 +4317,7 @@
     "productWebSearchQuery": "\"SP43430551\" \"LEWMAR 40STD DRUM ALLOY GREY 45001614\"",
     "imageUrl": "../images/web-product-images/SP43430551.jpg"
   },
-  {
+  "SP43430552": {
     "productNumber": "SP43430552",
     "description": "LEWMAR DECK SWITCH ADAPTER 45005199",
     "brand": "Y",
@@ -4309,7 +4346,7 @@
     "productWebSearchQuery": "\"SP43430552\" \"Y LEWMAR DECK SWITCH ADAPTER 45005199\"",
     "imageUrl": "../images/web-product-images/SP43430552.jpg"
   },
-  {
+  "SP43430554": {
     "productNumber": "SP43430554",
     "description": "LEWMAR 45000522 52STD/ST 50/54ST RATGEAR",
     "brand": "Y",
@@ -4328,7 +4365,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 84.98,
     "barcode": "743683015335",
@@ -4338,7 +4375,7 @@
     "productWebSearchQuery": "\"SP43430554\" \"Y LEWMAR 45000522 52STD/ST 50/54ST RATGEAR\"",
     "imageUrl": "../images/web-product-images/SP43430554.jpg"
   },
-  {
+  "SP43430555": {
     "productNumber": "SP43430555",
     "description": "LEWMAR 48000473 PAWL GEAR 54/55ST",
     "brand": "Y",
@@ -4357,7 +4394,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 158.33,
     "barcode": "9319786449790",
@@ -4367,7 +4404,7 @@
     "productWebSearchQuery": "\"SP43430555\" \"Y LEWMAR 48000473 PAWL GEAR 54/55ST\"",
     "imageUrl": "../images/web-product-images/SP43430555.jpg"
   },
-  {
+  "SP43430558": {
     "productNumber": "SP43430558",
     "description": "LEWMAR 16-48ST SPRING CUP",
     "brand": "Y",
@@ -4386,7 +4423,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 0.09,
     "barcode": "743683014321",
@@ -4396,7 +4433,7 @@
     "productWebSearchQuery": "\"SP43430558\" \"Y LEWMAR 16-48ST SPRING CUP\"",
     "imageUrl": "../images/web-product-images/SP43430558.jpg"
   },
-  {
+  "SP43430559": {
     "productNumber": "SP43430559",
     "description": "LEWMAR 48500047 45 EVO FEEDER ARM",
     "brand": "Y",
@@ -4415,7 +4452,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 90.25,
     "barcode": "743683033766",
@@ -4425,7 +4462,7 @@
     "productWebSearchQuery": "\"SP43430559\" \"Y LEWMAR 48500047 45 EVO FEEDER ARM\"",
     "imageUrl": "../images/web-product-images/SP43430559.jpg"
   },
-  {
+  "SP43430560": {
     "productNumber": "SP43430560",
     "description": "LEWMAR EVO FEEDER ARM 30/40ST",
     "brand": "Lewmar",
@@ -4444,7 +4481,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 120.03,
     "barcode": "743683033759",
@@ -4454,7 +4491,7 @@
     "productWebSearchQuery": "\"SP43430560\" \"Lewmar LEWMAR EVO FEEDER ARM 30/40ST\"",
     "imageUrl": "../images/web-product-images/SP43430560.jpg"
   },
-  {
+  "SP43430561": {
     "productNumber": "SP43430561",
     "description": "LEWMAR EVO STRIPPER RING PAIR 30/40ST",
     "brand": "Y",
@@ -4473,7 +4510,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 18.08,
     "barcode": "743683007378",
@@ -4483,7 +4520,7 @@
     "productWebSearchQuery": "\"SP43430561\" \"Y LEWMAR EVO STRIPPER RING PAIR 30/40ST\"",
     "imageUrl": "../images/web-product-images/SP43430561.jpg"
   },
-  {
+  "SP43430562": {
     "productNumber": "SP43430562",
     "description": "LEWMAR EVO STRIPPER RING PAIR 45ST",
     "brand": "Y",
@@ -4502,7 +4539,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 16.76,
     "barcode": "743683007385",
@@ -4512,7 +4549,7 @@
     "productWebSearchQuery": "\"SP43430562\" \"Y LEWMAR EVO STRIPPER RING PAIR 45ST\"",
     "imageUrl": "../images/web-product-images/SP43430562.jpg"
   },
-  {
+  "SP43430563": {
     "productNumber": "SP43430563",
     "description": "LEWMAR EVO STRIPPER RING PAIR 50ST",
     "brand": "Y",
@@ -4531,7 +4568,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 16.45,
     "barcode": "743683007392",
@@ -4541,7 +4578,7 @@
     "productWebSearchQuery": "\"SP43430563\" \"Y LEWMAR EVO STRIPPER RING PAIR 50ST\"",
     "imageUrl": "../images/web-product-images/SP43430563.jpg"
   },
-  {
+  "SP43430564": {
     "productNumber": "SP43430564",
     "description": "LEWMAR GEAR SPINDLE SLEEVE 30-48",
     "brand": "Y",
@@ -4560,7 +4597,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 0.75,
     "barcode": "743683014147",
@@ -4570,7 +4607,7 @@
     "productWebSearchQuery": "\"SP43430564\" \"Y LEWMAR GEAR SPINDLE SLEEVE 30-48\"",
     "imageUrl": "../images/web-product-images/SP43430564.jpg"
   },
-  {
+  "SP43430565": {
     "productNumber": "SP43430565",
     "description": "LEWMAR OCEAN STRIPPER RING 66ST",
     "brand": "Y",
@@ -4589,7 +4626,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 14.43,
     "barcode": "743683015915",
@@ -4599,7 +4636,7 @@
     "productWebSearchQuery": "\"SP43430565\" \"Y LEWMAR OCEAN STRIPPER RING 66ST\"",
     "imageUrl": "../images/web-product-images/SP43430565.jpg"
   },
-  {
+  "SP43430566": {
     "productNumber": "SP43430566",
     "description": "LEWMAR 44ST/46ST GEAR SPINDLE",
     "brand": "Y",
@@ -4618,7 +4655,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 39.91,
     "barcode": "9319786458556",
@@ -4628,7 +4665,7 @@
     "productWebSearchQuery": "\"SP43430566\" \"Y LEWMAR 44ST/46ST GEAR SPINDLE\"",
     "imageUrl": "../images/web-product-images/SP43430566.jpg"
   },
-  {
+  "SP43430567": {
     "productNumber": "SP43430567",
     "description": "LEWMAR EVO STRIPPER RING PAIR 55ST",
     "brand": "Lewmar",
@@ -4647,7 +4684,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 21.55,
     "barcode": "743683007408",
@@ -4657,7 +4694,7 @@
     "productWebSearchQuery": "\"SP43430567\" \"Lewmar LEWMAR EVO STRIPPER RING PAIR 55ST\"",
     "imageUrl": "../images/web-product-images/SP43430567.jpg"
   },
-  {
+  "SP43430568": {
     "productNumber": "SP43430568",
     "description": "LEWMAR MAIN SPINDLE 41/44STD",
     "brand": "Y",
@@ -4676,7 +4713,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 344.8,
     "barcode": "743683515828",
@@ -4686,7 +4723,7 @@
     "productWebSearchQuery": "\"SP43430568\" \"Y LEWMAR MAIN SPINDLE 41/44STD\"",
     "imageUrl": "../images/web-product-images/SP43430568.jpg"
   },
-  {
+  "SP43430571": {
     "productNumber": "SP43430571",
     "description": "LEWMAR 48000443 14/16ST CH TOP CAP/O KIT",
     "brand": "Y",
@@ -4705,7 +4742,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 25.39,
     "barcode": "743683009112",
@@ -4715,7 +4752,7 @@
     "productWebSearchQuery": "\"SP43430571\" \"Y LEWMAR 48000443 14/16ST CH TOP CAP/O KIT\"",
     "imageUrl": "../images/web-product-images/SP43430571.png"
   },
-  {
+  "SP43430576": {
     "productNumber": "SP43430576",
     "description": "LEWMAR CENTRE STEM ASSEMBLY 48ST",
     "brand": "Y",
@@ -4734,7 +4771,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 460.29,
     "barcode": "743683025259",
@@ -4744,7 +4781,7 @@
     "productWebSearchQuery": "\"SP43430576\" \"LEWMAR CENTRE STEM ASSEMBLY 48ST\"",
     "imageUrl": "../images/web-product-images/SP43430576.jpg"
   },
-  {
+  "SP43430577": {
     "productNumber": "SP43430577",
     "description": "LEWMAR OCEAN WINCH 48ST RATCHET GEAR",
     "brand": "Y",
@@ -4763,8 +4800,8 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 5,
-    "freightAud": 24,
+    "estimatedWeightKg": 5.0,
+    "freightAud": 24.0,
     "exportAudExGst": 137.63,
     "barcode": "743683015083",
     "productWebSearchImageUrl": "../images/web-product-images/SP43430577.jpg",
@@ -4773,7 +4810,7 @@
     "productWebSearchQuery": "\"SP43430577\" \"Y LEWMAR OCEAN WINCH 48ST RATCHET GEAR\"",
     "imageUrl": "../images/web-product-images/SP43430577.jpg"
   },
-  {
+  "SP43430579": {
     "productNumber": "SP43430579",
     "description": "LEWMAR JAW KIT 14ST/16ST",
     "brand": "Y",
@@ -4792,7 +4829,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 48.57,
     "barcode": "743683009150",
@@ -4802,7 +4839,7 @@
     "productWebSearchQuery": "\"SP43430579\" \"Y LEWMAR JAW KIT 14ST/16ST\"",
     "imageUrl": "../images/web-product-images/SP43430579.jpg"
   },
-  {
+  "SP43430580": {
     "productNumber": "SP43430580",
     "description": "LEWMAR JAW KIT GREY 34ST/40ST",
     "brand": "Y",
@@ -4821,17 +4858,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/30/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 63.29,
     "barcode": "743683009174",
     "cataloguePage": 30,
-    "imageUrl": "../images/catalogue/product-photos/SP43430580.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/SP43430580.jpg",
     "catalogueDescription": "SP42420651. ................................... 962 SP42420724. ................................... 962 SP42420750. ................................... 962 SP43430316. ................................... 969 SP43430321. ................................... 969 SP43430322. ................................... 969 SP43430370. ................................... 968 SP43430384. ................................... 969 SP43430520. ................................... 969 SP43430521. ................................... 969 SP43430580. ................................... 968 SP43430582. ................................... 968 SP43430593. ................................... 968 SP43430622. ................................... 968 SP43430624. ................................... 968 SP43430626. ................................... 968 SP43430628. ................................... 968 SPC51180-1. ................................... 127 SRK19210........................................ 196 SRK19220........................................ 196 SRK19230",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/SP43430580.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/SP43430580.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/SP43430580.jpg"
   },
-  {
+  "SP43430581": {
     "productNumber": "SP43430581",
     "description": "LEWMAR JAW KIT GREY 48ST",
     "brand": "Y",
@@ -4850,7 +4886,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 89.98,
     "barcode": "743683009198",
@@ -4860,7 +4896,7 @@
     "productWebSearchQuery": "\"SP43430581\" \"LEWMAR JAW KIT GREY 48ST\"",
     "imageUrl": "../images/web-product-images/SP43430581.jpg"
   },
-  {
+  "SP43430582": {
     "productNumber": "SP43430582",
     "description": "LEWMAR JAW KIT GREY 50/54ST",
     "brand": "Y",
@@ -4879,17 +4915,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/30/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 64.03,
     "barcode": "743683009204",
     "cataloguePage": 30,
-    "imageUrl": "../images/catalogue/product-photos/SP43430582.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/SP43430582.jpg",
     "catalogueDescription": "SP42420724. ................................... 962 SP42420750. ................................... 962 SP43430316. ................................... 969 SP43430321. ................................... 969 SP43430322. ................................... 969 SP43430370. ................................... 968 SP43430384. ................................... 969 SP43430520. ................................... 969 SP43430521. ................................... 969 SP43430580. ................................... 968 SP43430582. ................................... 968 SP43430593. ................................... 968 SP43430622. ................................... 968 SP43430624. ................................... 968 SP43430626. ................................... 968 SP43430628. ................................... 968 SPC51180-1. ................................... 127 SRK19210........................................ 196 SRK19220........................................ 196 SRK19230........................................ 196 SRK1924",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/SP43430582.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/SP43430582.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/SP43430582.jpg"
   },
-  {
+  "SP43430583": {
     "productNumber": "SP43430583",
     "description": "LEWMAR JAW KIT GREY 58/65ST",
     "brand": "Y",
@@ -4908,17 +4943,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/998/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 97.81,
     "barcode": "743683009211",
     "cataloguePage": 998,
-    "imageUrl": "../images/catalogue/product-photos/SP43430583.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/SP43430583.jpg",
     "catalogueDescription": "0 2.6 430342 3.9 2:01 \u2013 15.8:1 \u2013 66.8 121 119 8-12 5 x M6 94 30ST 430344 4 430346 5.4 2:1 4.2:1 13.8:1 29.1:1 74 138 146 8-12 5 x M6 113 40ST 430348 4.9 430350 6.5 1.9:1 5.8:1 13.2:1 40.2:1 74 148 159 8-12 5 x M6 121 45ST 430352 7.1 430354 9.7 2.4:1 7.6:1 13.9:1 44.8:1 87 168 178 8-14 5 x M8 136 50ST 430356 9 12.3 2.6:1 9:1 13.9:1 48.6:1 93 181 197 8-14 5 x M8 150 55ST 430360 12.2 18 2.8:111.2:1 13.8:1 54:1 105 205 233 8-16 6 x M8 165 Spare Parts: SP43430593 30/40 EVO Jaw Kit SP43430628 55 EVO Top Cap & O Ring Kit SP43430583 Jaw Kit 58/65ST SP43430622 40 EVO Top Cap & O Ring Kit SP43430370 16-48ST Top Cap & O Ring Kit SP43430585 Jaw Kit 44/46ST SP43430624 45 EVO Top Cap & O Ring Kit SP43430580 Jaw Kit 34/40ST SP43430626 50 EVO Top Cap & O Ring Kit SP43430582 Jaw Kit 50/54ST H D B Lewmar\u00ae EVO\u00ae Self-Tailing Winches The EVO\u00ae self-tailing range of winches are ideally suited to a wide range of sailing vessels from club racers to world cruisers. An evolution of the renowned tried and tested Lewmar\u00ae Ocean winch, which today still remains ava",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/SP43430583.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/SP43430583.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/SP43430583.jpg"
   },
-  {
+  "SP43430584": {
     "productNumber": "SP43430584",
     "description": "LEWMAR JAW KIT GREY 28/30ST",
     "brand": "Y",
@@ -4937,7 +4971,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 38.84,
     "barcode": "743683009167",
@@ -4947,7 +4981,7 @@
     "productWebSearchQuery": "\"SP43430584\" \"LEWMAR JAW KIT GREY 28/30ST\"",
     "imageUrl": "../images/web-product-images/SP43430584.png"
   },
-  {
+  "SP43430585": {
     "productNumber": "SP43430585",
     "description": "LEWMAR JAW KIT GREY 44/46ST",
     "brand": "Y",
@@ -4966,17 +5000,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/998/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 41.46,
     "barcode": "743683009181",
     "cataloguePage": 998,
-    "imageUrl": "../images/catalogue/product-photos/SP43430585.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/SP43430585.jpg",
     "catalogueDescription": "1:1 74 138 146 8-12 5 x M6 113 40ST 430348 4.9 430350 6.5 1.9:1 5.8:1 13.2:1 40.2:1 74 148 159 8-12 5 x M6 121 45ST 430352 7.1 430354 9.7 2.4:1 7.6:1 13.9:1 44.8:1 87 168 178 8-14 5 x M8 136 50ST 430356 9 12.3 2.6:1 9:1 13.9:1 48.6:1 93 181 197 8-14 5 x M8 150 55ST 430360 12.2 18 2.8:111.2:1 13.8:1 54:1 105 205 233 8-16 6 x M8 165 Spare Parts: SP43430593 30/40 EVO Jaw Kit SP43430628 55 EVO Top Cap & O Ring Kit SP43430583 Jaw Kit 58/65ST SP43430622 40 EVO Top Cap & O Ring Kit SP43430370 16-48ST Top Cap & O Ring Kit SP43430585 Jaw Kit 44/46ST SP43430624 45 EVO Top Cap & O Ring Kit SP43430580 Jaw Kit 34/40ST SP43430626 50 EVO Top Cap & O Ring Kit SP43430582 Jaw Kit 50/54ST H D B Lewmar\u00ae EVO\u00ae Self-Tailing Winches The EVO\u00ae self-tailing range of winches are ideally suited to a wide range of sailing vessels from club racers to world cruisers. An evolution of the renowned tried and tested Lewmar\u00ae Ocean winch, which today still remains available on request, the EVO\u00ae self-tailing range is designed for use where durability and ease of maintenanc",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/SP43430585.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/SP43430585.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/SP43430585.jpg"
   },
-  {
+  "SP43430587": {
     "productNumber": "SP43430587",
     "description": "LEWMAR PAWL GEAR 2 KIT 44/48ST",
     "brand": "Y",
@@ -4995,7 +5028,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 197.51,
     "barcode": "743683009365",
@@ -5005,7 +5038,7 @@
     "productWebSearchQuery": "\"SP43430587\" \"Y LEWMAR PAWL GEAR 2 KIT 44/48ST\"",
     "imageUrl": "../images/web-product-images/SP43430587.jpg"
   },
-  {
+  "SP43430588": {
     "productNumber": "SP43430588",
     "description": "LEWMAR PAWL GEAR 1 KIT 44/46ST",
     "brand": "Y",
@@ -5024,7 +5057,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 133.89,
     "barcode": "743683009372",
@@ -5034,7 +5067,7 @@
     "productWebSearchQuery": "\"SP43430588\" \"Y LEWMAR PAWL GEAR 1 KIT 44/46ST\"",
     "imageUrl": "../images/web-product-images/SP43430588.jpg"
   },
-  {
+  "SP43430589": {
     "productNumber": "SP43430589",
     "description": "LEWMAR PAWL GEAR 2 KIT 50ST",
     "brand": "Y",
@@ -5053,7 +5086,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 208.87,
     "barcode": "743683009396",
@@ -5063,7 +5096,7 @@
     "productWebSearchQuery": "\"SP43430589\" \"Y LEWMAR PAWL GEAR 2 KIT 50ST\"",
     "imageUrl": "../images/web-product-images/SP43430589.jpg"
   },
-  {
+  "SP43430591": {
     "productNumber": "SP43430591",
     "description": "LEWMAR EVO JAW KIT 65",
     "brand": "Y",
@@ -5082,7 +5115,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 133.95,
     "barcode": "743683006418",
@@ -5092,7 +5125,7 @@
     "productWebSearchQuery": "\"SP43430591\" \"Y LEWMAR EVO JAW KIT 65\"",
     "imageUrl": "../images/web-product-images/SP43430591.jpg"
   },
-  {
+  "SP43430593": {
     "productNumber": "SP43430593",
     "description": "LEWMAR EVO JAW KIT 30/40ST",
     "brand": "Lewmar",
@@ -5111,12 +5144,12 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/30/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 37.84,
     "barcode": "743683006364",
     "cataloguePage": 30,
-    "imageUrl": "../images/bla-website-products/SP43430593.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/SP43430593.jpg",
     "catalogueDescription": "SP42420750. ................................... 962 SP43430316. ................................... 969 SP43430321. ................................... 969 SP43430322. ................................... 969 SP43430370. ................................... 968 SP43430384. ................................... 969 SP43430520. ................................... 969 SP43430521. ................................... 969 SP43430580. ................................... 968 SP43430582. ................................... 968 SP43430593. ................................... 968 SP43430622. ................................... 968 SP43430624. ................................... 968 SP43430626. ................................... 968 SP43430628. ................................... 968 SPC51180-1. ................................... 127 SRK19210........................................ 196 SRK19220........................................ 196 SRK19230........................................ 196 SRK19240........................................ 196 SRK193",
     "productBlockImageUrl": "../images/catalogue/product-blocks/SP43430593.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/30-40-evo-jaw-kit/",
@@ -5133,7 +5166,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/06/SP43430593.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "SP43430595": {
     "productNumber": "SP43430595",
     "description": "LEWMAR EVO JAW KIT 45ST",
     "brand": "Lewmar",
@@ -5152,7 +5185,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 52.49,
     "barcode": "743683006388",
@@ -5171,7 +5204,7 @@
     "imageUrl": "../images/bla-website-products/SP43430595.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "SP43430596": {
     "productNumber": "SP43430596",
     "description": "LEWMAR 55 EVO POWER CENTRE STEM SPARE",
     "brand": "Y",
@@ -5190,7 +5223,7 @@
     "subCategoryDescription": "Batteries, Charging & Solar products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 452.72,
     "barcode": "743683040566",
@@ -5200,7 +5233,7 @@
     "productWebSearchQuery": "\"SP43430596\" \"Y LEWMAR 55 EVO POWER CENTRE STEM SPARE\"",
     "imageUrl": "../images/web-product-images/SP43430596.jpg"
   },
-  {
+  "SP43430597": {
     "productNumber": "SP43430597",
     "description": "LEWMAR EVO JAW KIT 50",
     "brand": "Lewmar",
@@ -5219,7 +5252,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 59.17,
     "barcode": "743683006395",
@@ -5229,7 +5262,7 @@
     "productWebSearchQuery": "\"SP43430597\" \"Lewmar LEWMAR EVO JAW KIT 50\"",
     "imageUrl": "../images/web-product-images/SP43430597.jpg"
   },
-  {
+  "SP43430598": {
     "productNumber": "SP43430598",
     "description": "LEWMAR 55 EVO SELF TAILING JAW KIT",
     "brand": "Y",
@@ -5248,7 +5281,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 60.72,
     "barcode": "743683006401",
@@ -5258,7 +5291,7 @@
     "productWebSearchQuery": "\"SP43430598\" \"Y LEWMAR 55 EVO SELF TAILING JAW KIT\"",
     "imageUrl": "../images/web-product-images/SP43430598.png"
   },
-  {
+  "SP43430599": {
     "productNumber": "SP43430599",
     "description": "LEWMAR RATCHET GEAR 44/46ST",
     "brand": "Y",
@@ -5277,7 +5310,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 96.17,
     "barcode": "743683014734",
@@ -5287,7 +5320,7 @@
     "productWebSearchQuery": "\"SP43430599\" \"Y LEWMAR RATCHET GEAR 44/46ST\"",
     "imageUrl": "../images/web-product-images/SP43430599.jpg"
   },
-  {
+  "SP43430600": {
     "productNumber": "SP43430600",
     "description": "LEWMAR OCEAN CHROME FEEDER ARM 30ST",
     "brand": "Y",
@@ -5306,7 +5339,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 83.22,
     "barcode": "743683009488",
@@ -5316,7 +5349,7 @@
     "productWebSearchQuery": "\"SP43430600\" \"Y LEWMAR OCEAN CHROME FEEDER ARM 30ST\"",
     "imageUrl": "../images/web-product-images/SP43430600.jpg"
   },
-  {
+  "SP43430601": {
     "productNumber": "SP43430601",
     "description": "LEWMAR OCEAN CHROME FEEDER ARM 40ST",
     "brand": "Y",
@@ -5335,7 +5368,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 90.66,
     "barcode": "743683009501",
@@ -5345,7 +5378,7 @@
     "productWebSearchQuery": "\"SP43430601\" \"Y LEWMAR OCEAN CHROME FEEDER ARM 40ST\"",
     "imageUrl": "../images/web-product-images/SP43430601.jpg"
   },
-  {
+  "SP43430602": {
     "productNumber": "SP43430602",
     "description": "LEWMAR OCEAN CHROME FEEDER ARM 44ST",
     "brand": "Y",
@@ -5364,7 +5397,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 134.1,
     "barcode": "743683009518",
@@ -5374,7 +5407,7 @@
     "productWebSearchQuery": "\"SP43430602\" \"Y LEWMAR OCEAN CHROME FEEDER ARM 44ST\"",
     "imageUrl": "../images/web-product-images/SP43430602.png"
   },
-  {
+  "SP43430603": {
     "productNumber": "SP43430603",
     "description": "LEWMAR OCEAN CHROME FEEDER ARM 46ST",
     "brand": "Y",
@@ -5393,7 +5426,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 105.75,
     "barcode": "743683009525",
@@ -5403,7 +5436,7 @@
     "productWebSearchQuery": "\"SP43430603\" \"Y LEWMAR OCEAN CHROME FEEDER ARM 46ST\"",
     "imageUrl": "../images/web-product-images/SP43430603.jpg"
   },
-  {
+  "SP43430604": {
     "productNumber": "SP43430604",
     "description": "LEWMAR OCEAN CHROME FEEDER ARM 50ST",
     "brand": "Y",
@@ -5422,7 +5455,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 143.09,
     "barcode": "743683009549",
@@ -5432,7 +5465,7 @@
     "productWebSearchQuery": "\"SP43430604\" \"Y LEWMAR OCEAN CHROME FEEDER ARM 50ST\"",
     "imageUrl": "../images/web-product-images/SP43430604.jpg"
   },
-  {
+  "SP43430605": {
     "productNumber": "SP43430605",
     "description": "LEWMAR OCEAN CHROME FEEDER ARM 54ST",
     "brand": "Y",
@@ -5451,7 +5484,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 120.59,
     "barcode": "743683009556",
@@ -5461,7 +5494,7 @@
     "productWebSearchQuery": "\"SP43430605\" \"Y LEWMAR OCEAN CHROME FEEDER ARM 54ST\"",
     "imageUrl": "../images/web-product-images/SP43430605.jpg"
   },
-  {
+  "SP43430606": {
     "productNumber": "SP43430606",
     "description": "LEWMAR OCEAN CHROME FEEDER ARM 58ST",
     "brand": "Y",
@@ -5480,7 +5513,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 151.71,
     "barcode": "743683009563",
@@ -5490,7 +5523,7 @@
     "productWebSearchQuery": "\"SP43430606\" \"Y LEWMAR OCEAN CHROME FEEDER ARM 58ST\"",
     "imageUrl": "../images/web-product-images/SP43430606.jpg"
   },
-  {
+  "SP43430608": {
     "productNumber": "SP43430608",
     "description": "LEWMAR CHROME FEEDER ARM 16ST",
     "brand": "Y",
@@ -5509,7 +5542,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 92.24,
     "barcode": "743683009464",
@@ -5519,7 +5552,7 @@
     "productWebSearchQuery": "\"SP43430608\" \"Y LEWMAR CHROME FEEDER ARM 16ST\"",
     "imageUrl": "../images/web-product-images/SP43430608.jpg"
   },
-  {
+  "SP43430610": {
     "productNumber": "SP43430610",
     "description": "LEWMAR 48000491 14/16ST GY TOP CAP/O KIT",
     "brand": "Y",
@@ -5538,7 +5571,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 28.85,
     "barcode": "743683016844",
@@ -5548,7 +5581,7 @@
     "productWebSearchQuery": "\"SP43430610\" \"LEWMAR 48000491 14/16ST GY TOP CAP/O KIT\"",
     "imageUrl": "../images/web-product-images/SP43430610.png"
   },
-  {
+  "SP43430611": {
     "productNumber": "SP43430611",
     "description": "LEWMAR TOP CAP COVER",
     "brand": "Y",
@@ -5577,13 +5610,13 @@
     "productWebSearchQuery": "\"SP43430611\" \"Y LEWMAR TOP CAP COVER\"",
     "imageUrl": "../images/web-product-images/SP43430611.jpg"
   },
-  {
+  "SP43430618": {
     "productNumber": "SP43430618",
     "description": "LEWMAR TOP CAP & O RING KIT EVO 15",
     "brand": "Y",
     "variant": "PC",
     "price": 82.9,
-    "unitCostOfSale": 47,
+    "unitCostOfSale": 47.0,
     "categoryName": "Tools & Chandlery",
     "topCategory": "Tools & Chandlery",
     "subCategoryName": "General Marine Supplies",
@@ -5596,7 +5629,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 23.4,
     "barcode": "743683006289",
@@ -5606,13 +5639,13 @@
     "productWebSearchQuery": "\"SP43430618\" \"Y LEWMAR TOP CAP & O RING KIT EVO 15\"",
     "imageUrl": "../images/web-product-images/SP43430618.jpg"
   },
-  {
+  "SP43430620": {
     "productNumber": "SP43430620",
     "description": "LEWMAR TOP CAP & O RING KIT EVO 30",
     "brand": "Lewmar",
     "variant": "PC",
     "price": 76.1,
-    "unitCostOfSale": 43,
+    "unitCostOfSale": 43.0,
     "categoryName": "Tools & Chandlery",
     "topCategory": "Tools & Chandlery",
     "subCategoryName": "General Marine Supplies",
@@ -5625,9 +5658,9 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
-    "exportAudExGst": 21,
+    "exportAudExGst": 21.0,
     "barcode": "743683006296",
     "blaWebsiteUrl": "https://bla.com.au/product/30-evo-top-cap-o-ring-kit/",
     "websiteDescription": "30 EVO Top Cap & O Ring Kit",
@@ -5644,7 +5677,7 @@
     "imageUrl": "../images/bla-website-products/SP43430620.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "SP43430622": {
     "productNumber": "SP43430622",
     "description": "LEWMAR TOP CAP & O RING KIT EVO 40",
     "brand": "Lewmar",
@@ -5663,12 +5696,12 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/30/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 21.23,
     "barcode": "743683006302",
     "cataloguePage": 30,
-    "imageUrl": "../images/bla-website-products/SP43430622.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/SP43430622.jpg",
     "catalogueDescription": "SP43430316. ................................... 969 SP43430321. ................................... 969 SP43430322. ................................... 969 SP43430370. ................................... 968 SP43430384. ................................... 969 SP43430520. ................................... 969 SP43430521. ................................... 969 SP43430580. ................................... 968 SP43430582. ................................... 968 SP43430593. ................................... 968 SP43430622. ................................... 968 SP43430624. ................................... 968 SP43430626. ................................... 968 SP43430628. ................................... 968 SPC51180-1. ................................... 127 SRK19210........................................ 196 SRK19220........................................ 196 SRK19230........................................ 196 SRK19240........................................ 196 SRK19310........................................ 196 SRK19",
     "productBlockImageUrl": "../images/catalogue/product-blocks/SP43430622.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/40-evo-top-cap-o-ring-kit/",
@@ -5685,7 +5718,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/06/SP43430622.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "SP43430624": {
     "productNumber": "SP43430624",
     "description": "LEWMAR TOP CAP & O RING KIT EVO 45",
     "brand": "Lewmar",
@@ -5704,12 +5737,12 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/30/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 21.44,
     "barcode": "743683006319",
     "cataloguePage": 30,
-    "imageUrl": "../images/bla-website-products/SP43430624.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/SP43430624.jpg",
     "catalogueDescription": "SP43430321. ................................... 969 SP43430322. ................................... 969 SP43430370. ................................... 968 SP43430384. ................................... 969 SP43430520. ................................... 969 SP43430521. ................................... 969 SP43430580. ................................... 968 SP43430582. ................................... 968 SP43430593. ................................... 968 SP43430622. ................................... 968 SP43430624. ................................... 968 SP43430626. ................................... 968 SP43430628. ................................... 968 SPC51180-1. ................................... 127 SRK19210........................................ 196 SRK19220........................................ 196 SRK19230........................................ 196 SRK19240........................................ 196 SRK19310........................................ 196 SRK19320........................................ 196 SRK1",
     "productBlockImageUrl": "../images/catalogue/product-blocks/SP43430624.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/45-evo-top-cap-o-ring-kit/",
@@ -5726,7 +5759,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/06/SP43430624.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "SP43430626": {
     "productNumber": "SP43430626",
     "description": "LEWMAR TOP CAP & O RING KIT EVO 50",
     "brand": "Y",
@@ -5745,12 +5778,12 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/30/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 21.44,
     "barcode": "743683006326",
     "cataloguePage": 30,
-    "imageUrl": "../images/bla-website-products/SP43430626.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/SP43430626.jpg",
     "catalogueDescription": "SP43430322. ................................... 969 SP43430370. ................................... 968 SP43430384. ................................... 969 SP43430520. ................................... 969 SP43430521. ................................... 969 SP43430580. ................................... 968 SP43430582. ................................... 968 SP43430593. ................................... 968 SP43430622. ................................... 968 SP43430624. ................................... 968 SP43430626. ................................... 968 SP43430628. ................................... 968 SPC51180-1. ................................... 127 SRK19210........................................ 196 SRK19220........................................ 196 SRK19230........................................ 196 SRK19240........................................ 196 SRK19310........................................ 196 SRK19320........................................ 196 SRK19400-1. ................................... 196 SRK1",
     "productBlockImageUrl": "../images/catalogue/product-blocks/SP43430626.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/50-evo-top-cap-o-ring-kit/",
@@ -5767,7 +5800,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/06/SP43430626.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "SP43430628": {
     "productNumber": "SP43430628",
     "description": "LEWMAR TOP CAP & O RING KIT EVO 55",
     "brand": "Lewmar",
@@ -5786,12 +5819,12 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/30/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 21.5,
     "barcode": "743683006333",
     "cataloguePage": 30,
-    "imageUrl": "../images/bla-website-products/SP43430628.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/SP43430628.jpg",
     "catalogueDescription": "SP43430370. ................................... 968 SP43430384. ................................... 969 SP43430520. ................................... 969 SP43430521. ................................... 969 SP43430580. ................................... 968 SP43430582. ................................... 968 SP43430593. ................................... 968 SP43430622. ................................... 968 SP43430624. ................................... 968 SP43430626. ................................... 968 SP43430628. ................................... 968 SPC51180-1. ................................... 127 SRK19210........................................ 196 SRK19220........................................ 196 SRK19230........................................ 196 SRK19240........................................ 196 SRK19310........................................ 196 SRK19320........................................ 196 SRK19400-1. ................................... 196 SRK19410-1. ................................... 196 SRK1",
     "productBlockImageUrl": "../images/catalogue/product-blocks/SP43430628.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/55-evo-top-cap-o-ring-kit/",
@@ -5808,7 +5841,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/06/SP43430628.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "SP43430630": {
     "productNumber": "SP43430630",
     "description": "LEWMAR TOP CAP & O RING KIT EVO 65",
     "brand": "Y",
@@ -5827,7 +5860,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 23.48,
     "barcode": "743683006340",
@@ -5837,7 +5870,7 @@
     "productWebSearchQuery": "\"SP43430630\" \"Y LEWMAR TOP CAP & O RING KIT EVO 65\"",
     "imageUrl": "../images/web-product-images/SP43430630.jpg"
   },
-  {
+  "SP43430685": {
     "productNumber": "SP43430685",
     "description": "LEWMAR TOP CAP TO SUIT 30ST-56ST SHEET WINCH",
     "brand": "Y",
@@ -5866,7 +5899,7 @@
     "productWebSearchQuery": "\"SP43430685\" \"Y LEWMAR TOP CAP TO SUIT 30ST-56ST SHEET WINCH\"",
     "imageUrl": "../images/web-product-images/SP43430685.png"
   },
-  {
+  "SP43430700": {
     "productNumber": "SP43430700",
     "description": "LEWMAR SPLIT FIELD MOTOR SPARE 24V 900W",
     "brand": "Y",
@@ -5885,8 +5918,8 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 5,
-    "freightAud": 24,
+    "estimatedWeightKg": 5.0,
+    "freightAud": 24.0,
     "exportAudExGst": 241.67,
     "barcode": "743683018046",
     "productWebSearchImageUrl": "../images/web-product-images/SP43430700.jpg",
@@ -5895,7 +5928,7 @@
     "productWebSearchQuery": "\"SP43430700\" \"Y LEWMAR SPLIT FIELD MOTOR SPARE 24V 900W\"",
     "imageUrl": "../images/web-product-images/SP43430700.jpg"
   },
-  {
+  "SP43430702": {
     "productNumber": "SP43430702",
     "description": "LEWMAR DRUM 40 EVO CHROME",
     "brand": "Y",
@@ -5914,7 +5947,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 612.38,
     "barcode": "743683005831",
@@ -5924,7 +5957,7 @@
     "productWebSearchQuery": "\"SP43430702\" \"Y LEWMAR DRUM 40 EVO CHROME\"",
     "imageUrl": "../images/web-product-images/SP43430702.jpg"
   },
-  {
+  "SP43430704": {
     "productNumber": "SP43430704",
     "description": "LEWMAR DRUM 45 EVO CHROME",
     "brand": "Y",
@@ -5943,7 +5976,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 559.36,
     "barcode": "743683029226",
@@ -5953,7 +5986,7 @@
     "productWebSearchQuery": "\"SP43430704\" \"Y LEWMAR DRUM 45 EVO CHROME\"",
     "imageUrl": "../images/web-product-images/SP43430704.jpg"
   },
-  {
+  "SP43430706": {
     "productNumber": "SP43430706",
     "description": "LEWMAR DRUM 50 EVO CHROME",
     "brand": "Y",
@@ -5972,7 +6005,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 982.5,
     "barcode": "743683011047",
@@ -5981,63 +6014,5 @@
     "productWebSearchImageSourcePage": "",
     "productWebSearchQuery": "\"SP43430706\" \"Y LEWMAR DRUM 50 EVO CHROME\"",
     "imageUrl": "../images/web-product-images/SP43430706.jpg"
-  },
-  {
-    "productNumber": "SP424205701",
-    "description": "LEWMAR D2 CLUTCH SPRING KIT",
-    "brand": "Y",
-    "variant": "PC",
-    "price": 52.27,
-    "unitCostOfSale": 28.98,
-    "categoryName": "Tools & Chandlery",
-    "topCategory": "Tools & Chandlery",
-    "subCategoryName": "General Marine Supplies",
-    "subCategory": "M - Marine Supplies",
-    "pricingCategoryUsed": "M - Marine Supplies",
-    "categoryImage": "../images/catalogue/pages/page0481.jpg",
-    "subCategoryImage": "../images/catalogue/pages/page0481.jpg",
-    "catalogueImageUrl": "../images/catalogue/bla-edition-15-cover.jpg",
-    "categoryDescription": "Tools & Chandlery from the BLA Australia Edition 15 catalogue.",
-    "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
-    "sourceUrl": "",
-    "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
-    "freightAud": 4.8,
-    "exportAudExGst": 12.59,
-    "barcode": "743683231230",
-    "productWebSearchImageUrl": "../images/web-product-images/SP424205701.jpg",
-    "productWebSearchImageSourceUrl": "https://d3gpbqyz2aphnw.cloudfront.net/wp-content/uploads/2021/03/lewmar-clutch-spring-kit-44108.jpg",
-    "productWebSearchImageSourcePage": "",
-    "productWebSearchQuery": "\"SP424205701\" \"Y LEWMAR D2 CLUTCH SPRING KIT\"",
-    "imageUrl": "../images/web-product-images/SP424205701.jpg"
-  },
-  {
-    "productNumber": "SP424205921",
-    "description": "LEWMAR 80MM 25000611 BLOCK SHEAVE",
-    "brand": "Y",
-    "variant": "PC",
-    "price": 335.66,
-    "unitCostOfSale": 195.68,
-    "categoryName": "Tools & Chandlery",
-    "topCategory": "Tools & Chandlery",
-    "subCategoryName": "General Marine Supplies",
-    "subCategory": "M - Marine Supplies",
-    "pricingCategoryUsed": "M - Marine Supplies",
-    "categoryImage": "../images/catalogue/pages/page0481.jpg",
-    "subCategoryImage": "../images/catalogue/pages/page0481.jpg",
-    "catalogueImageUrl": "../images/catalogue/bla-edition-15-cover.jpg",
-    "categoryDescription": "Tools & Chandlery from the BLA Australia Edition 15 catalogue.",
-    "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
-    "sourceUrl": "",
-    "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
-    "freightAud": 4.8,
-    "exportAudExGst": 112.61,
-    "barcode": "743683233180",
-    "productWebSearchImageUrl": "../images/web-product-images/SP424205921.png",
-    "productWebSearchImageSourceUrl": "https://cdn.shopify.com/s/files/1/0701/8948/2228/files/29946801_3_3b7kpmj0gv1ey563.png?v=1739117087",
-    "productWebSearchImageSourcePage": "",
-    "productWebSearchQuery": "\"SP424205921\" \"Y LEWMAR 80MM 25000611 BLOCK SHEAVE\"",
-    "imageUrl": "../images/web-product-images/SP424205921.png"
   }
-]
+}

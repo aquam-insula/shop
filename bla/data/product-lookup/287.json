@@ -1,5 +1,5 @@
-[
-  {
+{
+  "287000": {
     "productNumber": "287000",
     "description": "LEWMAR COMMODORE YACHT WHEEL FLAT 5 SPOKE SS 760MM DIA.",
     "brand": "Y",
@@ -18,7 +18,7 @@
     "subCategoryDescription": "Trailer Parts & Towing products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 566.02,
     "barcode": "743683509575",
@@ -28,7 +28,7 @@
     "productWebSearchQuery": "\"287000\" \"LEWMAR COMMODORE YACHT WHEEL FLAT 5 SPOKE SS 760MM DIA.\"",
     "imageUrl": "../images/web-product-images/287000.jpg"
   },
-  {
+  "287004": {
     "productNumber": "287004",
     "description": "LEWMAR COMMODORE YACHT WHEEL FLAT 5 SPOKE SS 810MM DIA.",
     "brand": "Y",
@@ -47,7 +47,7 @@
     "subCategoryDescription": "Trailer Parts & Towing products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 619.6,
     "barcode": "743683509599",
@@ -57,7 +57,7 @@
     "productWebSearchQuery": "\"287004\" \"LEWMAR COMMODORE YACHT WHEEL FLAT 5 SPOKE SS 810MM DIA.\"",
     "imageUrl": "../images/web-product-images/287004.jpg"
   },
-  {
+  "287009": {
     "productNumber": "287009",
     "description": "LEWMAR COMMODORE YACHT WHEEL FLAT 5 SPOKE HIDE CV 910MM DIA.",
     "brand": "Y",
@@ -76,7 +76,7 @@
     "subCategoryDescription": "Trailer Parts & Towing products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 934.67,
     "barcode": "743683509735",
@@ -86,7 +86,7 @@
     "productWebSearchQuery": "\"287009\" \"LEWMAR COMMODORE YACHT WHEEL FLAT 5 SPOKE HIDE CV 910MM DIA.\"",
     "imageUrl": "../images/web-product-images/287009.jpg"
   },
-  {
+  "287010": {
     "productNumber": "287010",
     "description": "LEWMAR FOLDING YACHT WHEEL 6 SPOKE HIDE COVER 810MM DIA.",
     "brand": "Y",
@@ -115,7 +115,7 @@
     "productWebSearchQuery": "\"287010\" \"LEWMAR FOLDING YACHT WHEEL 6 SPOKE HIDE COVER 810MM DIA.\"",
     "imageUrl": "../images/web-product-images/287010.jpg"
   },
-  {
+  "287014": {
     "productNumber": "287014",
     "description": "LEWMAR FOLDING YACHT WHEEL 6 SPOKE HIDE COVER 1020MM DIA",
     "brand": "Y",
@@ -144,7 +144,7 @@
     "productWebSearchQuery": "\"287014\" \"LEWMAR FOLDING YACHT WHEEL 6 SPOKE HIDE COVER 1020MM DIA\"",
     "imageUrl": "../images/web-product-images/287014.jpg"
   },
-  {
+  "287015": {
     "productNumber": "287015",
     "description": "LEWMAR FOLDING YACHT WHEEL 6 SPOKE HIDE COVER 1070MM DIA",
     "brand": "Y",
@@ -173,7 +173,7 @@
     "productWebSearchQuery": "\"287015\" \"LEWMAR FOLDING YACHT WHEEL 6 SPOKE HIDE COVER 1070MM DIA\"",
     "imageUrl": "../images/web-product-images/287015.jpg"
   },
-  {
+  "287019": {
     "productNumber": "287019",
     "description": "LEWMAR FOLDING YACHT WHEEL DUAL HUB 6 SP HIDE CVR 910MM DIA",
     "brand": "Y",
@@ -192,7 +192,7 @@
     "subCategoryDescription": "Trailer Parts & Towing products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 1670.78,
     "barcode": "743683500336",
@@ -202,7 +202,7 @@
     "productWebSearchQuery": "\"287019\" \"LEWMAR FOLDING YACHT WHEEL DUAL HUB 6 SP HIDE CVR 910MM DIA\"",
     "imageUrl": "../images/web-product-images/287019.jpg"
   },
-  {
+  "287020": {
     "productNumber": "287020",
     "description": "LEWMAR FOLDING YACHT WHEEL DUAL HUB 6 SP HIDE CVR 1020MM DIA",
     "brand": "Y",
@@ -221,7 +221,7 @@
     "subCategoryDescription": "Trailer Parts & Towing products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 1752.53,
     "barcode": "743683500343",
@@ -231,7 +231,7 @@
     "productWebSearchQuery": "\"287020\" \"LEWMAR FOLDING YACHT WHEEL DUAL HUB 6 SP HIDE CVR 1020MM DIA\"",
     "imageUrl": "../images/web-product-images/287020.jpg"
   },
-  {
+  "287076": {
     "productNumber": "287076",
     "description": "LEWMAR GUARDRAIL KIT TOP PLATE, CUP HOLDER, ENGINE CONTROL",
     "brand": "Y",
@@ -250,7 +250,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 1402.48,
     "barcode": "743683507670",
@@ -270,7 +270,7 @@
     "imageUrl": "../images/bla-website-products/287076.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "287100": {
     "productNumber": "287100",
     "description": "LEWMAR CONSTELLATION ENGUARD PEDESTAL 11 TEETH 5/8\" CHAIN",
     "brand": "Y",
@@ -289,8 +289,8 @@
     "subCategoryDescription": "Anchors, Chains & Windlasses products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 5,
-    "freightAud": 24,
+    "estimatedWeightKg": 5.0,
+    "freightAud": 24.0,
     "exportAudExGst": 2645.92,
     "barcode": "743683510489",
     "productWebSearchImageUrl": "../images/web-product-images/287100.jpg",
@@ -299,7 +299,7 @@
     "productWebSearchQuery": "\"287100\" \"Y LEWMAR CONSTELLATION ENGUARD PEDESTAL 11 TEETH 5/8\" CHAIN\"",
     "imageUrl": "../images/web-product-images/287100.jpg"
   },
-  {
+  "287110": {
     "productNumber": "287110",
     "description": "LEWMAR COBRA CRUISING ENGUARD PEDESTAL",
     "brand": "Y",
@@ -318,7 +318,7 @@
     "subCategoryDescription": "Covers, Seating & Fitout products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 2956.15,
     "barcode": "743683510526",
@@ -328,7 +328,7 @@
     "productWebSearchQuery": "\"287110\" \"Y LEWMAR COBRA CRUISING ENGUARD PEDESTAL\"",
     "imageUrl": "../images/web-product-images/287110.jpg"
   },
-  {
+  "287126": {
     "productNumber": "287126",
     "description": "LEWMAR COMPASS BINNACLE SUIT ENGUARD PEDESTAL",
     "brand": "Y",
@@ -347,7 +347,7 @@
     "subCategoryDescription": "Covers, Seating & Fitout products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 142.31,
     "barcode": "743683507045",
@@ -357,7 +357,7 @@
     "productWebSearchQuery": "\"287126\" \"Y LEWMAR COMPASS BINNACLE SUIT ENGUARD PEDESTAL\"",
     "imageUrl": "../images/web-product-images/287126.jpg"
   },
-  {
+  "287128": {
     "productNumber": "287128",
     "description": "LEWMAR COMPASS 135 COMPLETE WITH BINNACLE BLACK",
     "brand": "Y",
@@ -376,7 +376,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 934.68,
     "barcode": "743683507038",
@@ -386,7 +386,7 @@
     "productWebSearchQuery": "\"287128\" \"Y LEWMAR COMPASS 135 COMPLETE WITH BINNACLE BLACK\"",
     "imageUrl": "../images/web-product-images/287128.jpg"
   },
-  {
+  "287140": {
     "productNumber": "287140",
     "description": "LEWMAR STEERING HELM QUICK MOUNT B/HEAD 15 TOOTH NO BRAKE",
     "brand": "Y",
@@ -405,7 +405,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 1435.37,
     "barcode": "743683503658",
@@ -415,7 +415,7 @@
     "productWebSearchQuery": "\"287140\" \"Y LEWMAR STEERING HELM QUICK MOUNT B/HEAD 15 TOOTH NO BRAKE\"",
     "imageUrl": "../images/web-product-images/287140.jpg"
   },
-  {
+  "287180": {
     "productNumber": "287180",
     "description": "LEWMAR STEERING CHAIN KIT 5/8\" SUIT QUADRANT <305MM",
     "brand": "Y",
@@ -444,7 +444,7 @@
     "productWebSearchQuery": "\"287180\" \"LEWMAR STEERING CHAIN KIT 5/8\" SUIT QUADRANT <305MM\"",
     "imageUrl": "../images/web-product-images/287180.jpg"
   },
-  {
+  "287182": {
     "productNumber": "287182",
     "description": "LEWMAR STEERING CHAIN KIT 5/8\" SUIT QUADRANT <357MM",
     "brand": "Y",
@@ -473,7 +473,7 @@
     "productWebSearchQuery": "\"287182\" \"LEWMAR STEERING CHAIN KIT 5/8\" SUIT QUADRANT <357MM\"",
     "imageUrl": "../images/web-product-images/287182.jpg"
   },
-  {
+  "287200": {
     "productNumber": "287200",
     "description": "LEWMAR STEERING BREAK SPINNER S/STEEL T/S FOLD & COMMODORE",
     "brand": "Lewmar",
@@ -492,7 +492,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 105.99,
     "barcode": "743683501388",
@@ -502,7 +502,7 @@
     "productWebSearchQuery": "\"287200\" \"Lewmar LEWMAR STEERING BREAK SPINNER S/STEEL T/S FOLD & COMMODORE\"",
     "imageUrl": "../images/web-product-images/287200.jpg"
   },
-  {
+  "287204": {
     "productNumber": "287204",
     "description": "LEWMAR STEERING BRAKE SPINNER S/STEEL SUIT MINI MAXI",
     "brand": "Y",
@@ -521,7 +521,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 108.66,
     "barcode": "743683504006",
@@ -531,7 +531,7 @@
     "productWebSearchQuery": "\"287204\" \"Y LEWMAR STEERING BRAKE SPINNER S/STEEL SUIT MINI MAXI\"",
     "imageUrl": "../images/web-product-images/287204.jpg"
   },
-  {
+  "287210": {
     "productNumber": "287210",
     "description": "LEWMAR QUICK RELEASE WHEEL NUT SUIT COMMODORE",
     "brand": "Lewmar",
@@ -550,7 +550,7 @@
     "subCategoryDescription": "Trailer Parts & Towing products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 37.13,
     "barcode": "743683500046",
@@ -570,7 +570,7 @@
     "imageUrl": "../images/bla-website-products/287210.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "287240": {
     "productNumber": "287240",
     "description": "LEWMAR AUTOPILOT DRIVE UNIT MAMBA 1/4HP 12 VOLT",
     "brand": "Y",
@@ -589,7 +589,7 @@
     "subCategoryDescription": "Navigation, Sounders & Radios products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 3540.2,
     "barcode": "743683500732",
@@ -599,7 +599,7 @@
     "productWebSearchQuery": "\"287240\" \"Y LEWMAR AUTOPILOT DRIVE UNIT MAMBA 1/4HP 12 VOLT\"",
     "imageUrl": "../images/web-product-images/287240.jpg"
   },
-  {
+  "287248": {
     "productNumber": "287248",
     "description": "LEWMAR AUTOPILOT INTEGRA MAMBA DRIVE UNIT 12 VOLT",
     "brand": "Lewmar",
@@ -618,7 +618,7 @@
     "subCategoryDescription": "Navigation, Sounders & Radios products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 3101.32,
     "barcode": "743683506918",
@@ -628,7 +628,7 @@
     "productWebSearchQuery": "\"287248\" \"Lewmar LEWMAR AUTOPILOT INTEGRA MAMBA DRIVE UNIT 12 VOLT\"",
     "imageUrl": "../images/web-product-images/287248.jpg"
   },
-  {
+  "287250": {
     "productNumber": "287250",
     "description": "LEWMAR AUTOPILOT INTEGRA BASE DRIVE UNIT 12 VOLT BAVARIA",
     "brand": "Y",
@@ -647,17 +647,16 @@
     "subCategoryDescription": "Navigation, Sounders & Radios products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/25/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 3553.38,
     "barcode": "743683506901",
     "cataloguePage": 25,
-    "imageUrl": "../images/catalogue/product-photos/287250.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/287250.jpg",
     "catalogueDescription": "............... 768 2818XX.....................................768, 775 281908............................................. 778 281909............................................. 778 281911............................................. 778 281912............................................. 778 281913............................................. 778 281914............................................. 778 282520............................................. 779 282559............................................. 779 287250............................................. 782 287304............................................. 782 287310............................................. 782 287330............................................. 525 287514............................................. 782 287518............................................. 782 291003.....................795, 799, 802, 839 291004.....................................795, 802 291005............................................. 795 291008..............................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/287250.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/287250.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/287250.jpg"
   },
-  {
+  "287252": {
     "productNumber": "287252",
     "description": "LEWMAR INTEGRA MK2 SHIMMED CLUTCH KIT",
     "brand": "Y",
@@ -676,7 +675,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 1064.49,
     "barcode": "743683512148",
@@ -686,7 +685,7 @@
     "productWebSearchQuery": "\"287252\" \"Y LEWMAR INTEGRA MK2 SHIMMED CLUTCH KIT\"",
     "imageUrl": "../images/web-product-images/287252.jpg"
   },
-  {
+  "287254": {
     "productNumber": "287254",
     "description": "LEWMAR INTEGRA DRIVE UNIT BAV 42/26",
     "brand": "Y",
@@ -705,7 +704,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 2381.7,
     "barcode": "743683512476",
@@ -715,7 +714,7 @@
     "productWebSearchQuery": "\"287254\" \"Y LEWMAR INTEGRA DRIVE UNIT BAV 42/26\"",
     "imageUrl": "../images/web-product-images/287254.webp"
   },
-  {
+  "287256": {
     "productNumber": "287256",
     "description": "LEWMAR AUTO PILOT DRIVE ASSEMBLY 1/4HP 12V 134MM LEVER",
     "brand": "Y",
@@ -734,7 +733,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 4129.32,
     "barcode": "743683502750",
@@ -744,7 +743,7 @@
     "productWebSearchQuery": "\"287256\" \"LEWMAR AUTO PILOT DRIVE ASSEMBLY 1/4HP 12V 134MM LEVER\"",
     "imageUrl": "../images/web-product-images/287256.jpg"
   },
-  {
+  "287260": {
     "productNumber": "287260",
     "description": "LEWMAR TILLER LEVER PILOT 203MM CENTRES 80MM MAX DIA",
     "brand": "Y",
@@ -763,7 +762,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 408.3,
     "barcode": "743683507892",
@@ -773,7 +772,7 @@
     "productWebSearchQuery": "\"287260\" \"Y LEWMAR TILLER LEVER PILOT 203MM CENTRES 80MM MAX DIA\"",
     "imageUrl": "../images/web-product-images/287260.jpg"
   },
-  {
+  "287270": {
     "productNumber": "287270",
     "description": "LEWMAR INTEGRA DRIVE FOR INTEGRA PEDESTAL",
     "brand": "Y",
@@ -792,7 +791,7 @@
     "subCategoryDescription": "Covers, Seating & Fitout products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 3318.23,
     "barcode": "743683512070",
@@ -802,7 +801,7 @@
     "productWebSearchQuery": "\"287270\" \"Y LEWMAR INTEGRA DRIVE FOR INTEGRA PEDESTAL\"",
     "imageUrl": "../images/web-product-images/287270.jpg"
   },
-  {
+  "287280": {
     "productNumber": "287280",
     "description": "LEWMAR AUTOPILOT TILLER LEVER MULTI POSITION DIRECT DRIVE",
     "brand": "Y",
@@ -821,7 +820,7 @@
     "subCategoryDescription": "Navigation, Sounders & Radios products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 751.49,
     "barcode": "743683507960",
@@ -831,7 +830,7 @@
     "productWebSearchQuery": "\"287280\" \"Y LEWMAR AUTOPILOT TILLER LEVER MULTI POSITION DIRECT DRIVE\"",
     "imageUrl": "../images/web-product-images/287280.jpg"
   },
-  {
+  "287300": {
     "productNumber": "287300",
     "description": "LEWMAR ENGINE CONTROL MECHANISM, HANDLE & FACIA PLATE",
     "brand": "Y",
@@ -850,7 +849,7 @@
     "subCategoryDescription": "Stainless Fittings & Deck Hardware products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 463.1,
     "barcode": "743683507311",
@@ -860,12 +859,12 @@
     "productWebSearchQuery": "\"287300\" \"Y LEWMAR ENGINE CONTROL MECHANISM, HANDLE & FACIA PLATE\"",
     "imageUrl": "../images/web-product-images/287300.jpg"
   },
-  {
+  "287302": {
     "productNumber": "287302",
     "description": "LEWMAR CONTROL MECHANISM & HANDLE MORSE SL3",
     "brand": "Y",
     "variant": "PC",
-    "price": 1043,
+    "price": 1043.0,
     "unitCostOfSale": 611.77,
     "categoryName": "Deck Hardware",
     "topCategory": "Deck Hardware",
@@ -879,17 +878,16 @@
     "subCategoryDescription": "Stainless Fittings & Deck Hardware products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/812/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 352.66,
     "barcode": "743683507304",
     "cataloguePage": 812,
-    "imageUrl": "../images/catalogue/product-photos/287302.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/287302.jpg",
     "catalogueDescription": "Lewmar\u00ae Autopilot Drive Units Lewmar\u00ae offer an Autopilot Drive Unit provision for all of their steering systems as well as for retro-fitting to any boat. Models for Constellation\u2122, Cobra\u2122 and Mamba\u2122 steering systems come in 12v or 24v models and are all compatible with the major brands of autopilot electronics on the market. BLA Code Description 287250 Integra Base Drive 12 volt Bavaria 782 28 BOATING LIFESTYLE ADVENTURE MECHANICAL STEERING - POWER & SAIL 287302 Lewmar\u00ae Steering Pedestal Accessories A range of accessories are available to compliment Lewmar\u00ae pedestals to aid in controlling the boat and enjoying the cockpit area while anchored, moored or at the marina. A variety of guardrails can be used as a secure hand hold while underway and a range of kickback guardrails allow instrument pods to be attached. Having an engine control mechanism positioned on the guardrail and a binnacle and compass to suit the pedestal goes further to control the boat from the steering po",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/287302.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/287302.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/287302.jpg"
   },
-  {
+  "287304": {
     "productNumber": "287304",
     "description": "LEWMAR MORSE CONTROL MECHANISM ONLY SL3",
     "brand": "Y",
@@ -908,22 +906,21 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/25/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 286.06,
     "barcode": "743683507458",
     "cataloguePage": 25,
-    "imageUrl": "../images/catalogue/product-photos/287304.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/287304.jpg",
     "catalogueDescription": ".......768, 775 281908............................................. 778 281909............................................. 778 281911............................................. 778 281912............................................. 778 281913............................................. 778 281914............................................. 778 282520............................................. 779 282559............................................. 779 287250............................................. 782 287304............................................. 782 287310............................................. 782 287330............................................. 525 287514............................................. 782 287518............................................. 782 291003.....................795, 799, 802, 839 291004.....................................795, 802 291005............................................. 795 291008.....................................799, 839 291010..................................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/287304.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/287304.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/287304.jpg"
   },
-  {
+  "287310": {
     "productNumber": "287310",
     "description": "LEWMAR CONTROL MECHANISM FITTING KIT",
     "brand": "Lewmar",
     "variant": "PC",
-    "price": 132,
+    "price": 132.0,
     "unitCostOfSale": 75.88,
     "categoryName": "Tools & Chandlery",
     "topCategory": "Tools & Chandlery",
@@ -942,12 +939,11 @@
     "exportAudExGst": 43.13,
     "barcode": "743683507465",
     "cataloguePage": 25,
-    "imageUrl": "../images/catalogue/product-photos/287310.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/287310.jpg",
     "catalogueDescription": "........... 778 281909............................................. 778 281911............................................. 778 281912............................................. 778 281913............................................. 778 281914............................................. 778 282520............................................. 779 282559............................................. 779 287250............................................. 782 287304............................................. 782 287310............................................. 782 287330............................................. 525 287514............................................. 782 287518............................................. 782 291003.....................795, 799, 802, 839 291004.....................................795, 802 291005............................................. 795 291008.....................................799, 839 291010............................................. 839 291012.....................795, 799, 802",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/287310.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/287310.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/287310.jpg"
   },
-  {
+  "287330": {
     "productNumber": "287330",
     "description": "LEWMAR COCKPIT LOCKER HATCH S/STEEL 316",
     "brand": "Lewmar",
@@ -966,12 +962,12 @@
     "subCategoryDescription": "Stainless Fittings & Deck Hardware products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/25/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 143.64,
     "barcode": "743683500008",
     "cataloguePage": 25,
-    "imageUrl": "../images/bla-website-products/287330.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/287330.jpg",
     "catalogueDescription": "........... 778 281911............................................. 778 281912............................................. 778 281913............................................. 778 281914............................................. 778 282520............................................. 779 282559............................................. 779 287250............................................. 782 287304............................................. 782 287310............................................. 782 287330............................................. 525 287514............................................. 782 287518............................................. 782 291003.....................795, 799, 802, 839 291004.....................................795, 802 291005............................................. 795 291008.....................................799, 839 291010............................................. 839 291012.....................795, 799, 802, 839 291014.............................795, 799, 839 2",
     "productBlockImageUrl": "../images/catalogue/product-blocks/287330.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/lewmar-cockpit-locker-hatch-cast-stainless-steel/",
@@ -988,7 +984,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/07/287330.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "287504": {
     "productNumber": "287504",
     "description": "SCANSTRUT SCANPOD HELM POD COMPACT 228MM",
     "brand": "Y",
@@ -1007,7 +1003,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 535.54,
     "barcode": "5060114794313",
@@ -1017,7 +1013,7 @@
     "productWebSearchQuery": "\"287504\" \"Y SCANSTRUT SCANPOD HELM POD COMPACT 228MM\"",
     "imageUrl": "../images/web-product-images/287504.jpg"
   },
-  {
+  "287506": {
     "productNumber": "287506",
     "description": "SCANSTRUT SCANPOD HELM POD COMPACT 305MM",
     "brand": "Y",
@@ -1036,7 +1032,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 579.65,
     "barcode": "5060114794320",
@@ -1046,7 +1042,7 @@
     "productWebSearchQuery": "\"287506\" \"Y SCANSTRUT SCANPOD HELM POD COMPACT 305MM\"",
     "imageUrl": "../images/web-product-images/287506.jpg"
   },
-  {
+  "287509": {
     "productNumber": "287509",
     "description": "SCANSTRUT HELM POD 2 INSTRUMENT TO SUIT 12\" DISPLAY",
     "brand": "Y",
@@ -1065,7 +1061,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 850.58,
     "barcode": "5060114792722",
@@ -1075,7 +1071,7 @@
     "productWebSearchQuery": "\"287509\" \"SCANSTRUT HELM POD 2 INSTRUMENT TO SUIT 12\" DISPLAY\"",
     "imageUrl": "../images/web-product-images/287509.jpg"
   },
-  {
+  "287510": {
     "productNumber": "287510",
     "description": "SCANSTRUT SCANPOD DECK POD DEEP 178MM",
     "brand": "Y",
@@ -1094,7 +1090,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 554.45,
     "barcode": "5060114794276",
@@ -1104,7 +1100,7 @@
     "productWebSearchQuery": "\"287510\" \"Y SCANSTRUT SCANPOD DECK POD DEEP 178MM\"",
     "imageUrl": "../images/web-product-images/287510.jpg"
   },
-  {
+  "287511": {
     "productNumber": "287511",
     "description": "SCANSTRUT SCANPOD DECK POD ULTRA COMPACT 178MM",
     "brand": "Y",
@@ -1123,7 +1119,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 554.45,
     "barcode": "5060114795686",
@@ -1133,7 +1129,7 @@
     "productWebSearchQuery": "\"287511\" \"Y SCANSTRUT SCANPOD DECK POD ULTRA COMPACT 178MM\"",
     "imageUrl": "../images/web-product-images/287511.jpg"
   },
-  {
+  "287512": {
     "productNumber": "287512",
     "description": "SCANSTRUT SCANPOD DECK POD DEEP 228MM",
     "brand": "Y",
@@ -1152,7 +1148,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 579.65,
     "barcode": "5060114794283",
@@ -1162,7 +1158,7 @@
     "productWebSearchQuery": "\"287512\" \"Y SCANSTRUT SCANPOD DECK POD DEEP 228MM\"",
     "imageUrl": "../images/web-product-images/287512.jpg"
   },
-  {
+  "287513": {
     "productNumber": "287513",
     "description": "SCANSTRUT SCANPOD DECK 9\"",
     "brand": "Y",
@@ -1181,7 +1177,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 567.58,
     "barcode": "5060114797291",
@@ -1191,7 +1187,7 @@
     "productWebSearchQuery": "\"287513\" \"Y SCANSTRUT SCANPOD DECK 9\"\"",
     "imageUrl": "../images/web-product-images/287513.jpg"
   },
-  {
+  "287514": {
     "productNumber": "287514",
     "description": "SCANSTRUT SCANPOD DECK POD SLIM 305MM",
     "brand": "",
@@ -1210,17 +1206,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/25/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 674.16,
     "barcode": "5060114794290",
     "cataloguePage": 25,
-    "imageUrl": "../images/catalogue/product-photos/287514.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/287514.jpg",
     "catalogueDescription": "........... 778 281912............................................. 778 281913............................................. 778 281914............................................. 778 282520............................................. 779 282559............................................. 779 287250............................................. 782 287304............................................. 782 287310............................................. 782 287330............................................. 525 287514............................................. 782 287518............................................. 782 291003.....................795, 799, 802, 839 291004.....................................795, 802 291005............................................. 795 291008.....................................799, 839 291010............................................. 839 291012.....................795, 799, 802, 839 291014.............................795, 799, 839 291016.............................795, 802, 839 291017..",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/287514.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/287514.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/287514.jpg"
   },
-  {
+  "287515": {
     "productNumber": "287515",
     "description": "SCANSTRUT SCANPOD DECK POD 330MM",
     "brand": "Y",
@@ -1239,7 +1234,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 674.16,
     "barcode": "5060114797284",
@@ -1249,7 +1244,7 @@
     "productWebSearchQuery": "\"287515\" \"Y SCANSTRUT SCANPOD DECK POD 330MM\"",
     "imageUrl": "../images/web-product-images/287515.jpg"
   },
-  {
+  "287516": {
     "productNumber": "287516",
     "description": "SCANSTRUT SCANPOD HELM POD 3 STANDARD INSTRUMENTS",
     "brand": "",
@@ -1268,7 +1263,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 428.44,
     "barcode": "5060114793712",
@@ -1287,7 +1282,7 @@
     "imageUrl": "../images/bla-website-products/287516.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "287518": {
     "productNumber": "287518",
     "description": "SCANSTRUT SCANPOD RAIL MOUNTED POD DEEP STANDARD",
     "brand": "",
@@ -1306,12 +1301,12 @@
     "subCategoryDescription": "Stainless Fittings & Deck Hardware products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/25/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 201.62,
     "barcode": "5060114794382",
     "cataloguePage": 25,
-    "imageUrl": "../images/bla-website-products/287518.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/287518.jpg",
     "catalogueDescription": "........... 778 281913............................................. 778 281914............................................. 778 282520............................................. 779 282559............................................. 779 287250............................................. 782 287304............................................. 782 287310............................................. 782 287330............................................. 525 287514............................................. 782 287518............................................. 782 291003.....................795, 799, 802, 839 291004.....................................795, 802 291005............................................. 795 291008.....................................799, 839 291010............................................. 839 291012.....................795, 799, 802, 839 291014.............................795, 799, 839 291016.............................795, 802, 839 291017.............................795, 799, 839 291018.........",
     "productBlockImageUrl": "../images/catalogue/product-blocks/287518.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/scanstrut-pod-rail-mounted/",
@@ -1328,7 +1323,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/07/287518.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "287520": {
     "productNumber": "287520",
     "description": "SCANSTRUT SCANPOD FLEX MOUNT FOR SPH-9-W, 3I, 4I, 4XI",
     "brand": "Y",
@@ -1347,7 +1342,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 425.68,
     "barcode": "9319786470503",
@@ -1357,7 +1352,7 @@
     "productWebSearchQuery": "\"287520\" \"Y SCANSTRUT SCANPOD FLEX MOUNT FOR SPH-9-W, 3I, 4I, 4XI\"",
     "imageUrl": "../images/web-product-images/287520.jpg"
   },
-  {
+  "287522": {
     "productNumber": "287522",
     "description": "SCANSTRUT SCANPOD SPH-13-W HELM POD FOR DISPLAYS UP TO 13\"",
     "brand": "Y",
@@ -1376,7 +1371,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 549.06,
     "barcode": "9319786470510",
@@ -1386,7 +1381,7 @@
     "productWebSearchQuery": "\"287522\" \"SCANSTRUT SCANPOD SPH-13-W HELM POD FOR DISPLAYS UP TO 13\"\"",
     "imageUrl": "../images/web-product-images/287522.jpg"
   },
-  {
+  "287532": {
     "productNumber": "287532",
     "description": "SCANSTRUT SCANPOD FLEX MOUNT",
     "brand": "Y",
@@ -1405,7 +1400,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 462.7,
     "barcode": "5060114797581",
@@ -1415,7 +1410,7 @@
     "productWebSearchQuery": "\"287532\" \"Y SCANSTRUT SCANPOD FLEX MOUNT\"",
     "imageUrl": "../images/web-product-images/287532.jpg"
   },
-  {
+  "287534": {
     "productNumber": "287534",
     "description": "SCANSTRUT FLEX MOUNT SYSTEM FOR \"9\" POD",
     "brand": "Y",
@@ -1434,7 +1429,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 420.32,
     "barcode": "5060114797598",
@@ -1444,7 +1439,7 @@
     "productWebSearchQuery": "\"287534\" \"SCANSTRUT FLEX MOUNT SYSTEM FOR \"9\" POD\"",
     "imageUrl": "../images/web-product-images/287534.jpg"
   },
-  {
+  "287536": {
     "productNumber": "287536",
     "description": "SCANSTRUT HELM POD TS 9\" SPH-9-W",
     "brand": "Y",
@@ -1463,7 +1458,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 535.54,
     "barcode": "5060114797260",
@@ -1473,7 +1468,7 @@
     "productWebSearchQuery": "\"287536\" \"Y SCANSTRUT HELM POD TS 9\" SPH-9-W\"",
     "imageUrl": "../images/web-product-images/287536.jpg"
   },
-  {
+  "287538": {
     "productNumber": "287538",
     "description": "SCANSTRUT SCANPOD TO SUIT 15\" DISPLAY SPD-15-W",
     "brand": "Y",
@@ -1492,7 +1487,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 919.22,
     "barcode": "5060114798175",
@@ -1502,4 +1497,4 @@
     "productWebSearchQuery": "\"287538\" \"SCANSTRUT SCANPOD TO SUIT 15\" DISPLAY SPD-15-W\"",
     "imageUrl": "../images/web-product-images/287538.jpg"
   }
-]
+}

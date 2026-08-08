@@ -1,5 +1,5 @@
-[
-  {
+{
+  "354506": {
     "productNumber": "354506",
     "description": "BLA NYLON 3 STRAND ROPE 6MM X 250M FLANGED REELS",
     "brand": "Y",
@@ -18,7 +18,7 @@
     "subCategoryDescription": "Rope, Dock Lines & Mooring products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 2,
+    "estimatedWeightKg": 2.0,
     "freightAud": 9.6,
     "exportAudExGst": 62.22,
     "barcode": "9319786229217",
@@ -28,7 +28,7 @@
     "productWebSearchQuery": "\"354506\" \"BLA NYLON 3 STRAND ROPE 6MM X 250M FLANGED REELS\"",
     "imageUrl": "../images/web-product-images/354506.jpg"
   },
-  {
+  "354508": {
     "productNumber": "354508",
     "description": "BLA NYLON 3 STRAND ROPE 8MM X 125M FLANGED REELS",
     "brand": "Bla",
@@ -47,17 +47,16 @@
     "subCategoryDescription": "Rope, Dock Lines & Mooring products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/27/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 2,
+    "estimatedWeightKg": 2.0,
     "freightAud": 9.6,
     "exportAudExGst": 57.66,
     "barcode": "9319786229200",
     "cataloguePage": 27,
-    "imageUrl": "../images/catalogue/product-photos/354508.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/354508.jpg",
     "catalogueDescription": "....................... 923 353566............................................. 923 353584............................................. 923 353586............................................. 923 353604............................................. 923 353624............................................. 923 353626............................................. 923 353713.....................................923, 980 353714.....................................923, 980 353716.....................................923, 980 354508............................................. 921 354510............................................. 921 354512............................................. 921 354515............................................. 921 354517............................................. 921 354518............................................. 921 354519............................................. 921 354521............................................. 921 354528............................................. 921 354532................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/354508.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/354508.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/354508.jpg"
   },
-  {
+  "354510": {
     "productNumber": "354510",
     "description": "BLA NYLON 3 STRAND ROPE 10MM X 125M FLANGED REELS",
     "brand": "Bla",
@@ -76,17 +75,16 @@
     "subCategoryDescription": "Rope, Dock Lines & Mooring products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/27/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 2,
+    "estimatedWeightKg": 2.0,
     "freightAud": 9.6,
     "exportAudExGst": 88.02,
     "barcode": "9319786229194",
     "cataloguePage": 27,
-    "imageUrl": "../images/catalogue/product-photos/354510.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/354510.jpg",
     "catalogueDescription": "....................... 923 353584............................................. 923 353586............................................. 923 353604............................................. 923 353624............................................. 923 353626............................................. 923 353713.....................................923, 980 353714.....................................923, 980 353716.....................................923, 980 354508............................................. 921 354510............................................. 921 354512............................................. 921 354515............................................. 921 354517............................................. 921 354518............................................. 921 354519............................................. 921 354521............................................. 921 354528............................................. 921 354532............................................. 921 354536................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/354510.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/354510.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/354510.jpg"
   },
-  {
+  "354512": {
     "productNumber": "354512",
     "description": "BLA NYLON 3 STRAND ROPE 12MM X 125M FLANGED REELS",
     "brand": "Bla",
@@ -105,17 +103,16 @@
     "subCategoryDescription": "Rope, Dock Lines & Mooring products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/27/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 2,
+    "estimatedWeightKg": 2.0,
     "freightAud": 9.6,
     "exportAudExGst": 152.02,
     "barcode": "9319786229187",
     "cataloguePage": 27,
-    "imageUrl": "../images/catalogue/product-photos/354512.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/354512.jpg",
     "catalogueDescription": "....................... 923 353586............................................. 923 353604............................................. 923 353624............................................. 923 353626............................................. 923 353713.....................................923, 980 353714.....................................923, 980 353716.....................................923, 980 354508............................................. 921 354510............................................. 921 354512............................................. 921 354515............................................. 921 354517............................................. 921 354518............................................. 921 354519............................................. 921 354521............................................. 921 354528............................................. 921 354532............................................. 921 354536............................................. 921 354540................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/354512.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/354512.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/354512.jpg"
   },
-  {
+  "354515": {
     "productNumber": "354515",
     "description": "BLA NYLON 3 STRAND ROPE 14MM X 100M FLANGED REELS",
     "brand": "Bla",
@@ -134,17 +131,16 @@
     "subCategoryDescription": "Rope, Dock Lines & Mooring products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/27/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 2,
+    "estimatedWeightKg": 2.0,
     "freightAud": 9.6,
     "exportAudExGst": 140.5,
     "barcode": "9319786251102",
     "cataloguePage": 27,
-    "imageUrl": "../images/catalogue/product-photos/354515.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/354515.jpg",
     "catalogueDescription": "....................... 923 353604............................................. 923 353624............................................. 923 353626............................................. 923 353713.....................................923, 980 353714.....................................923, 980 353716.....................................923, 980 354508............................................. 921 354510............................................. 921 354512............................................. 921 354515............................................. 921 354517............................................. 921 354518............................................. 921 354519............................................. 921 354521............................................. 921 354528............................................. 921 354532............................................. 921 354536............................................. 921 354540............................................. 921 354544................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/354515.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/354515.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/354515.jpg"
   },
-  {
+  "354517": {
     "productNumber": "354517",
     "description": "BLA NYLON 3 STRAND ROPE 16MM X 100M FLANGED REELS",
     "brand": "Bla",
@@ -163,17 +159,16 @@
     "subCategoryDescription": "Rope, Dock Lines & Mooring products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/27/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 2,
+    "estimatedWeightKg": 2.0,
     "freightAud": 9.6,
     "exportAudExGst": 171.38,
     "barcode": "9319786251119",
     "cataloguePage": 27,
-    "imageUrl": "../images/catalogue/product-photos/354517.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/354517.jpg",
     "catalogueDescription": "....................... 923 353624............................................. 923 353626............................................. 923 353713.....................................923, 980 353714.....................................923, 980 353716.....................................923, 980 354508............................................. 921 354510............................................. 921 354512............................................. 921 354515............................................. 921 354517............................................. 921 354518............................................. 921 354519............................................. 921 354521............................................. 921 354528............................................. 921 354532............................................. 921 354536............................................. 921 354540............................................. 921 354544............................................. 921 354550................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/354517.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/354517.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/354517.jpg"
   },
-  {
+  "354518": {
     "productNumber": "354518",
     "description": "BLA NYLON 3 STRAND ROPE 18MM X 100M FLANGED REELS",
     "brand": "Bla",
@@ -192,17 +187,16 @@
     "subCategoryDescription": "Rope, Dock Lines & Mooring products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/27/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 2,
+    "estimatedWeightKg": 2.0,
     "freightAud": 9.6,
     "exportAudExGst": 205.56,
     "barcode": "9319786251126",
     "cataloguePage": 27,
-    "imageUrl": "../images/catalogue/product-photos/354518.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/354518.jpg",
     "catalogueDescription": "....................... 923 353626............................................. 923 353713.....................................923, 980 353714.....................................923, 980 353716.....................................923, 980 354508............................................. 921 354510............................................. 921 354512............................................. 921 354515............................................. 921 354517............................................. 921 354518............................................. 921 354519............................................. 921 354521............................................. 921 354528............................................. 921 354532............................................. 921 354536............................................. 921 354540............................................. 921 354544............................................. 921 354550............................................. 921 354554................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/354518.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/354518.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/354518.jpg"
   },
-  {
+  "354519": {
     "productNumber": "354519",
     "description": "BLA NYLON 3 STRAND ROPE 20MM X 100M FLANGED REELS",
     "brand": "Bla",
@@ -221,17 +215,16 @@
     "subCategoryDescription": "Rope, Dock Lines & Mooring products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/27/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 2,
+    "estimatedWeightKg": 2.0,
     "freightAud": 9.6,
     "exportAudExGst": 237.03,
     "barcode": "9319786251133",
     "cataloguePage": 27,
-    "imageUrl": "../images/catalogue/product-photos/354519.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/354519.jpg",
     "catalogueDescription": "....................... 923 353713.....................................923, 980 353714.....................................923, 980 353716.....................................923, 980 354508............................................. 921 354510............................................. 921 354512............................................. 921 354515............................................. 921 354517............................................. 921 354518............................................. 921 354519............................................. 921 354521............................................. 921 354528............................................. 921 354532............................................. 921 354536............................................. 921 354540............................................. 921 354544............................................. 921 354550............................................. 921 354554............................................. 921 354556................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/354519.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/354519.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/354519.jpg"
   },
-  {
+  "354521": {
     "productNumber": "354521",
     "description": "BLA NYLON 3 STRAND ROPE 24MM X 100M FLANGED REELS",
     "brand": "Y",
@@ -250,17 +243,16 @@
     "subCategoryDescription": "Rope, Dock Lines & Mooring products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/27/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 2,
+    "estimatedWeightKg": 2.0,
     "freightAud": 9.6,
     "exportAudExGst": 367.99,
     "barcode": "9319786251140",
     "cataloguePage": 27,
-    "imageUrl": "../images/catalogue/product-photos/354521.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/354521.jpg",
     "catalogueDescription": "...............923, 980 353714.....................................923, 980 353716.....................................923, 980 354508............................................. 921 354510............................................. 921 354512............................................. 921 354515............................................. 921 354517............................................. 921 354518............................................. 921 354519............................................. 921 354521............................................. 921 354528............................................. 921 354532............................................. 921 354536............................................. 921 354540............................................. 921 354544............................................. 921 354550............................................. 921 354554............................................. 921 354556............................................. 921 354558................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/354521.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/354521.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/354521.jpg"
   },
-  {
+  "354524": {
     "productNumber": "354524",
     "description": "BLA NYLON 3 STRAND ROPE 8MM X 250M COIL",
     "brand": "Y",
@@ -279,7 +271,7 @@
     "subCategoryDescription": "Rope, Dock Lines & Mooring products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 2,
+    "estimatedWeightKg": 2.0,
     "freightAud": 9.6,
     "exportAudExGst": 95.39,
     "barcode": "9319786136102",
@@ -289,7 +281,7 @@
     "productWebSearchQuery": "\"354524\" \"BLA NYLON 3 STRAND ROPE 8MM X 250M COIL\"",
     "imageUrl": "../images/web-product-images/354524.jpg"
   },
-  {
+  "354528": {
     "productNumber": "354528",
     "description": "BLA NYLON 3 STRAND ROPE 10MM X 250M COIL",
     "brand": "Y",
@@ -308,17 +300,16 @@
     "subCategoryDescription": "Rope, Dock Lines & Mooring products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/27/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 2,
+    "estimatedWeightKg": 2.0,
     "freightAud": 9.6,
     "exportAudExGst": 161.34,
     "barcode": "9319786136119",
     "cataloguePage": 27,
-    "imageUrl": "../images/catalogue/product-photos/354528.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/354528.jpg",
     "catalogueDescription": "...........923, 980 353716.....................................923, 980 354508............................................. 921 354510............................................. 921 354512............................................. 921 354515............................................. 921 354517............................................. 921 354518............................................. 921 354519............................................. 921 354521............................................. 921 354528............................................. 921 354532............................................. 921 354536............................................. 921 354540............................................. 921 354544............................................. 921 354550............................................. 921 354554............................................. 921 354556............................................. 921 354558............................................. 921 354562................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/354528.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/354528.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/354528.jpg"
   },
-  {
+  "354532": {
     "productNumber": "354532",
     "description": "BLA NYLON 3 STRAND ROPE 12MM X 250M COIL",
     "brand": "Bla",
@@ -337,17 +328,16 @@
     "subCategoryDescription": "Rope, Dock Lines & Mooring products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/27/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 2,
+    "estimatedWeightKg": 2.0,
     "freightAud": 9.6,
     "exportAudExGst": 249.66,
     "barcode": "9319786136126",
     "cataloguePage": 27,
-    "imageUrl": "../images/catalogue/product-photos/354532.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/354532.jpg",
     "catalogueDescription": ".......923, 980 354508............................................. 921 354510............................................. 921 354512............................................. 921 354515............................................. 921 354517............................................. 921 354518............................................. 921 354519............................................. 921 354521............................................. 921 354528............................................. 921 354532............................................. 921 354536............................................. 921 354540............................................. 921 354544............................................. 921 354550............................................. 921 354554............................................. 921 354556............................................. 921 354558............................................. 921 354562............................................. 921 354566................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/354532.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/354532.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/354532.jpg"
   },
-  {
+  "354536": {
     "productNumber": "354536",
     "description": "BLA NYLON 3 STRAND ROPE 14MM X 250M COIL",
     "brand": "Y",
@@ -366,17 +356,16 @@
     "subCategoryDescription": "Rope, Dock Lines & Mooring products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/27/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 2,
+    "estimatedWeightKg": 2.0,
     "freightAud": 9.6,
     "exportAudExGst": 328.65,
     "barcode": "9319786136133",
     "cataloguePage": 27,
-    "imageUrl": "../images/catalogue/product-photos/354536.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/354536.jpg",
     "catalogueDescription": "........... 921 354510............................................. 921 354512............................................. 921 354515............................................. 921 354517............................................. 921 354518............................................. 921 354519............................................. 921 354521............................................. 921 354528............................................. 921 354532............................................. 921 354536............................................. 921 354540............................................. 921 354544............................................. 921 354550............................................. 921 354554............................................. 921 354556............................................. 921 354558............................................. 921 354562............................................. 921 354566............................................. 921 354918................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/354536.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/354536.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/354536.jpg"
   },
-  {
+  "354540": {
     "productNumber": "354540",
     "description": "BLA NYLON 3 STRAND ROPE 16MM X 250M COIL",
     "brand": "Bla",
@@ -395,17 +384,16 @@
     "subCategoryDescription": "Rope, Dock Lines & Mooring products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/27/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 2,
+    "estimatedWeightKg": 2.0,
     "freightAud": 9.6,
     "exportAudExGst": 384.62,
     "barcode": "9319786136140",
     "cataloguePage": 27,
-    "imageUrl": "../images/catalogue/product-photos/354540.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/354540.jpg",
     "catalogueDescription": "........... 921 354512............................................. 921 354515............................................. 921 354517............................................. 921 354518............................................. 921 354519............................................. 921 354521............................................. 921 354528............................................. 921 354532............................................. 921 354536............................................. 921 354540............................................. 921 354544............................................. 921 354550............................................. 921 354554............................................. 921 354556............................................. 921 354558............................................. 921 354562............................................. 921 354566............................................. 921 354918............................................. 921 354920................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/354540.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/354540.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/354540.jpg"
   },
-  {
+  "354544": {
     "productNumber": "354544",
     "description": "BLA NYLON 3 STRAND ROPE 18MM X 250M COIL",
     "brand": "Bla",
@@ -424,17 +412,16 @@
     "subCategoryDescription": "Rope, Dock Lines & Mooring products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/27/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 2,
+    "estimatedWeightKg": 2.0,
     "freightAud": 9.6,
     "exportAudExGst": 575.39,
     "barcode": "9319786251065",
     "cataloguePage": 27,
-    "imageUrl": "../images/catalogue/product-photos/354544.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/354544.jpg",
     "catalogueDescription": "........... 921 354515............................................. 921 354517............................................. 921 354518............................................. 921 354519............................................. 921 354521............................................. 921 354528............................................. 921 354532............................................. 921 354536............................................. 921 354540............................................. 921 354544............................................. 921 354550............................................. 921 354554............................................. 921 354556............................................. 921 354558............................................. 921 354562............................................. 921 354566............................................. 921 354918............................................. 921 354920............................................. 921 354922................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/354544.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/354544.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/354544.jpg"
   },
-  {
+  "354550": {
     "productNumber": "354550",
     "description": "BLA NYLON 3 STRAND ROPE 10MM X 50M",
     "brand": "Bla",
@@ -453,17 +440,16 @@
     "subCategoryDescription": "Rope, Dock Lines & Mooring products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/27/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 2,
+    "estimatedWeightKg": 2.0,
     "freightAud": 9.6,
     "exportAudExGst": 28.28,
     "barcode": "9319786452325",
     "cataloguePage": 27,
-    "imageUrl": "../images/catalogue/product-photos/354550.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/354550.jpg",
     "catalogueDescription": "........... 921 354517............................................. 921 354518............................................. 921 354519............................................. 921 354521............................................. 921 354528............................................. 921 354532............................................. 921 354536............................................. 921 354540............................................. 921 354544............................................. 921 354550............................................. 921 354554............................................. 921 354556............................................. 921 354558............................................. 921 354562............................................. 921 354566............................................. 921 354918............................................. 921 354920............................................. 921 354922............................................. 921 354924................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/354550.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/354550.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/354550.jpg"
   },
-  {
+  "354554": {
     "productNumber": "354554",
     "description": "BLA NYLON 3 STRAND ROPE 10MM X 100M",
     "brand": "Bla",
@@ -482,17 +468,16 @@
     "subCategoryDescription": "Rope, Dock Lines & Mooring products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/27/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 2,
+    "estimatedWeightKg": 2.0,
     "freightAud": 9.6,
     "exportAudExGst": 55.3,
     "barcode": "9319786452349",
     "cataloguePage": 27,
-    "imageUrl": "../images/catalogue/product-photos/354554.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/354554.jpg",
     "catalogueDescription": "........... 921 354518............................................. 921 354519............................................. 921 354521............................................. 921 354528............................................. 921 354532............................................. 921 354536............................................. 921 354540............................................. 921 354544............................................. 921 354550............................................. 921 354554............................................. 921 354556............................................. 921 354558............................................. 921 354562............................................. 921 354566............................................. 921 354918............................................. 921 354920............................................. 921 354922............................................. 921 354924............................................. 921 354926................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/354554.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/354554.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/354554.jpg"
   },
-  {
+  "354556": {
     "productNumber": "354556",
     "description": "BLA NYLON 3 STRAND ROPE 12MM X 50M",
     "brand": "Bla",
@@ -511,17 +496,16 @@
     "subCategoryDescription": "Rope, Dock Lines & Mooring products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/27/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 2,
+    "estimatedWeightKg": 2.0,
     "freightAud": 9.6,
     "exportAudExGst": 48.62,
     "barcode": "9319786452356",
     "cataloguePage": 27,
-    "imageUrl": "../images/catalogue/product-photos/354556.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/354556.jpg",
     "catalogueDescription": "........... 921 354519............................................. 921 354521............................................. 921 354528............................................. 921 354532............................................. 921 354536............................................. 921 354540............................................. 921 354544............................................. 921 354550............................................. 921 354554............................................. 921 354556............................................. 921 354558............................................. 921 354562............................................. 921 354566............................................. 921 354918............................................. 921 354920............................................. 921 354922............................................. 921 354924............................................. 921 354926............................................. 921 354928................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/354556.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/354556.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/354556.jpg"
   },
-  {
+  "354558": {
     "productNumber": "354558",
     "description": "BLA NYLON 3 STRAND ROPE 12MM X 100M",
     "brand": "Bla",
@@ -540,17 +524,16 @@
     "subCategoryDescription": "Rope, Dock Lines & Mooring products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/27/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 2,
+    "estimatedWeightKg": 2.0,
     "freightAud": 9.6,
     "exportAudExGst": 97.24,
     "barcode": "9319786452363",
     "cataloguePage": 27,
-    "imageUrl": "../images/catalogue/product-photos/354558.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/354558.jpg",
     "catalogueDescription": "........... 921 354521............................................. 921 354528............................................. 921 354532............................................. 921 354536............................................. 921 354540............................................. 921 354544............................................. 921 354550............................................. 921 354554............................................. 921 354556............................................. 921 354558............................................. 921 354562............................................. 921 354566............................................. 921 354918............................................. 921 354920............................................. 921 354922............................................. 921 354924............................................. 921 354926............................................. 921 354928............................................. 921 354930................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/354558.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/354558.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/354558.jpg"
   },
-  {
+  "354560": {
     "productNumber": "354560",
     "description": "BLA NYLON 3 STRAND ROPE 14MM X 50M",
     "brand": "Bla",
@@ -569,7 +552,7 @@
     "subCategoryDescription": "Rope, Dock Lines & Mooring products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 2,
+    "estimatedWeightKg": 2.0,
     "freightAud": 9.6,
     "exportAudExGst": 62.71,
     "barcode": "9319786452370",
@@ -579,7 +562,7 @@
     "productWebSearchQuery": "\"354560\" \"Bla BLA NYLON 3 STRAND ROPE 14MM X 50M\"",
     "imageUrl": "../images/web-product-images/354560.jpg"
   },
-  {
+  "354562": {
     "productNumber": "354562",
     "description": "BLA NYLON 3 STRAND ROPE 14MM X 100M",
     "brand": "Bla",
@@ -598,17 +581,16 @@
     "subCategoryDescription": "Rope, Dock Lines & Mooring products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/27/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 2,
+    "estimatedWeightKg": 2.0,
     "freightAud": 9.6,
     "exportAudExGst": 125.45,
     "barcode": "9319786452387",
     "cataloguePage": 27,
-    "imageUrl": "../images/catalogue/product-photos/354562.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/354562.jpg",
     "catalogueDescription": "........... 921 354528............................................. 921 354532............................................. 921 354536............................................. 921 354540............................................. 921 354544............................................. 921 354550............................................. 921 354554............................................. 921 354556............................................. 921 354558............................................. 921 354562............................................. 921 354566............................................. 921 354918............................................. 921 354920............................................. 921 354922............................................. 921 354924............................................. 921 354926............................................. 921 354928............................................. 921 354930............................................. 921 354934................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/354562.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/354562.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/354562.jpg"
   },
-  {
+  "354564": {
     "productNumber": "354564",
     "description": "BLA NYLON 3 STRAND ROPE 14MM X 125M",
     "brand": "Y",
@@ -627,7 +609,7 @@
     "subCategoryDescription": "Rope, Dock Lines & Mooring products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 2,
+    "estimatedWeightKg": 2.0,
     "freightAud": 9.6,
     "exportAudExGst": 156.8,
     "barcode": "9319786452394",
@@ -637,7 +619,7 @@
     "productWebSearchQuery": "\"354564\" \"BLA NYLON 3 STRAND ROPE 14MM X 125M\"",
     "imageUrl": "../images/web-product-images/354564.jpg"
   },
-  {
+  "354566": {
     "productNumber": "354566",
     "description": "BLA NYLON 3 STRAND ROPE 16MM X 125M",
     "brand": "Bla",
@@ -656,17 +638,16 @@
     "subCategoryDescription": "Rope, Dock Lines & Mooring products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/27/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 2,
+    "estimatedWeightKg": 2.0,
     "freightAud": 9.6,
     "exportAudExGst": 190.46,
     "barcode": "9319786452400",
     "cataloguePage": 27,
-    "imageUrl": "../images/catalogue/product-photos/354566.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/354566.jpg",
     "catalogueDescription": "........... 921 354532............................................. 921 354536............................................. 921 354540............................................. 921 354544............................................. 921 354550............................................. 921 354554............................................. 921 354556............................................. 921 354558............................................. 921 354562............................................. 921 354566............................................. 921 354918............................................. 921 354920............................................. 921 354922............................................. 921 354924............................................. 921 354926............................................. 921 354928............................................. 921 354930............................................. 921 354934............................................. 921 354938................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/354566.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/354566.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/354566.jpg"
   },
-  {
+  "354610": {
     "productNumber": "354610",
     "description": "BLA NYLON 8 STRAND ROPE 12MM X 100M",
     "brand": "Bla",
@@ -685,7 +666,7 @@
     "subCategoryDescription": "Rope, Dock Lines & Mooring products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 2,
+    "estimatedWeightKg": 2.0,
     "freightAud": 9.6,
     "exportAudExGst": 135.43,
     "barcode": "9319786467008",
@@ -695,7 +676,7 @@
     "productWebSearchQuery": "\"354610\" \"Bla BLA NYLON 8 STRAND ROPE 12MM X 100M\"",
     "imageUrl": "../images/web-product-images/354610.jpg"
   },
-  {
+  "354612": {
     "productNumber": "354612",
     "description": "BLA NYLON 8 STRAND ROPE 14MM X 100M",
     "brand": "Bla",
@@ -714,7 +695,7 @@
     "subCategoryDescription": "Rope, Dock Lines & Mooring products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 2,
+    "estimatedWeightKg": 2.0,
     "freightAud": 9.6,
     "exportAudExGst": 152.01,
     "barcode": "9319786467015",
@@ -724,7 +705,7 @@
     "productWebSearchQuery": "\"354612\" \"Bla BLA NYLON 8 STRAND ROPE 14MM X 100M\"",
     "imageUrl": "../images/web-product-images/354612.jpg"
   },
-  {
+  "354614": {
     "productNumber": "354614",
     "description": "BLA NYLON 8 STRAND ROPE 16MM X 100M",
     "brand": "Bla",
@@ -743,7 +724,7 @@
     "subCategoryDescription": "Rope, Dock Lines & Mooring products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 2,
+    "estimatedWeightKg": 2.0,
     "freightAud": 9.6,
     "exportAudExGst": 177.57,
     "barcode": "9319786467022",
@@ -753,7 +734,7 @@
     "productWebSearchQuery": "\"354614\" \"Bla BLA NYLON 8 STRAND ROPE 16MM X 100M\"",
     "imageUrl": "../images/web-product-images/354614.jpg"
   },
-  {
+  "354918": {
     "productNumber": "354918",
     "description": "BLA AQUADAN ROPE 4MM X 220M COIL",
     "brand": "Bla",
@@ -777,12 +758,11 @@
     "exportAudExGst": 14.95,
     "barcode": "9319786250938",
     "cataloguePage": 27,
-    "imageUrl": "../images/catalogue/product-photos/354918.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/354918.jpg",
     "catalogueDescription": "........... 921 354536............................................. 921 354540............................................. 921 354544............................................. 921 354550............................................. 921 354554............................................. 921 354556............................................. 921 354558............................................. 921 354562............................................. 921 354566............................................. 921 354918............................................. 921 354920............................................. 921 354922............................................. 921 354924............................................. 921 354926............................................. 921 354928............................................. 921 354930............................................. 921 354934............................................. 921 354938............................................. 921 354960................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/354918.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/354918.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/354918.jpg"
   },
-  {
+  "354920": {
     "productNumber": "354920",
     "description": "BLA AQUADAN ROPE 6MM X 220M COIL",
     "brand": "Bla",
@@ -801,17 +781,16 @@
     "subCategoryDescription": "Rope, Dock Lines & Mooring products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/27/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 2,
+    "estimatedWeightKg": 2.0,
     "freightAud": 9.6,
     "exportAudExGst": 28.83,
     "barcode": "9319786136157",
     "cataloguePage": 27,
-    "imageUrl": "../images/catalogue/product-photos/354920.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/354920.jpg",
     "catalogueDescription": "........... 921 354540............................................. 921 354544............................................. 921 354550............................................. 921 354554............................................. 921 354556............................................. 921 354558............................................. 921 354562............................................. 921 354566............................................. 921 354918............................................. 921 354920............................................. 921 354922............................................. 921 354924............................................. 921 354926............................................. 921 354928............................................. 921 354930............................................. 921 354934............................................. 921 354938............................................. 921 354960............................................. 921 354964................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/354920.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/354920.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/354920.jpg"
   },
-  {
+  "354922": {
     "productNumber": "354922",
     "description": "BLA AQUADAN ROPE 8MM X 220M COIL",
     "brand": "Bla",
@@ -830,17 +809,16 @@
     "subCategoryDescription": "Rope, Dock Lines & Mooring products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/27/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 2,
+    "estimatedWeightKg": 2.0,
     "freightAud": 9.6,
     "exportAudExGst": 45.07,
     "barcode": "9319786136164",
     "cataloguePage": 27,
-    "imageUrl": "../images/catalogue/product-photos/354922.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/354922.jpg",
     "catalogueDescription": "........... 921 354544............................................. 921 354550............................................. 921 354554............................................. 921 354556............................................. 921 354558............................................. 921 354562............................................. 921 354566............................................. 921 354918............................................. 921 354920............................................. 921 354922............................................. 921 354924............................................. 921 354926............................................. 921 354928............................................. 921 354930............................................. 921 354934............................................. 921 354938............................................. 921 354960............................................. 921 354964............................................. 921 359020................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/354922.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/354922.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/354922.jpg"
   },
-  {
+  "354924": {
     "productNumber": "354924",
     "description": "BLA AQUADAN ROPE 10MM X 220M COIL",
     "brand": "Bla",
@@ -859,17 +837,16 @@
     "subCategoryDescription": "Rope, Dock Lines & Mooring products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/27/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 2,
+    "estimatedWeightKg": 2.0,
     "freightAud": 9.6,
     "exportAudExGst": 63.9,
     "barcode": "9319786136171",
     "cataloguePage": 27,
-    "imageUrl": "../images/catalogue/product-photos/354924.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/354924.jpg",
     "catalogueDescription": "........... 921 354550............................................. 921 354554............................................. 921 354556............................................. 921 354558............................................. 921 354562............................................. 921 354566............................................. 921 354918............................................. 921 354920............................................. 921 354922............................................. 921 354924............................................. 921 354926............................................. 921 354928............................................. 921 354930............................................. 921 354934............................................. 921 354938............................................. 921 354960............................................. 921 354964............................................. 921 359020............................................. 924 359028................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/354924.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/354924.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/354924.jpg"
   },
-  {
+  "354926": {
     "productNumber": "354926",
     "description": "BLA AQUADAN ROPE 12MM X 220M COIL",
     "brand": "Bla",
@@ -888,17 +865,16 @@
     "subCategoryDescription": "Rope, Dock Lines & Mooring products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/27/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 2,
+    "estimatedWeightKg": 2.0,
     "freightAud": 9.6,
     "exportAudExGst": 93.22,
     "barcode": "9319786136188",
     "cataloguePage": 27,
-    "imageUrl": "../images/catalogue/product-photos/354926.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/354926.jpg",
     "catalogueDescription": "........... 921 354554............................................. 921 354556............................................. 921 354558............................................. 921 354562............................................. 921 354566............................................. 921 354918............................................. 921 354920............................................. 921 354922............................................. 921 354924............................................. 921 354926............................................. 921 354928............................................. 921 354930............................................. 921 354934............................................. 921 354938............................................. 921 354960............................................. 921 354964............................................. 921 359020............................................. 924 359028............................................. 924 359030................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/354926.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/354926.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/354926.jpg"
   },
-  {
+  "354928": {
     "productNumber": "354928",
     "description": "BLA AQUADAN ROPE 14MM X 220M COIL",
     "brand": "Bla",
@@ -917,17 +893,16 @@
     "subCategoryDescription": "Rope, Dock Lines & Mooring products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/27/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 2,
+    "estimatedWeightKg": 2.0,
     "freightAud": 9.6,
     "exportAudExGst": 104.68,
     "barcode": "9319786250945",
     "cataloguePage": 27,
-    "imageUrl": "../images/catalogue/product-photos/354928.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/354928.jpg",
     "catalogueDescription": "........... 921 354556............................................. 921 354558............................................. 921 354562............................................. 921 354566............................................. 921 354918............................................. 921 354920............................................. 921 354922............................................. 921 354924............................................. 921 354926............................................. 921 354928............................................. 921 354930............................................. 921 354934............................................. 921 354938............................................. 921 354960............................................. 921 354964............................................. 921 359020............................................. 924 359028............................................. 924 359030............................................. 924 359050................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/354928.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/354928.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/354928.jpg"
   },
-  {
+  "354930": {
     "productNumber": "354930",
     "description": "BLA AQUADAN ROPE 16MM X 125M COIL",
     "brand": "Bla",
@@ -946,17 +921,16 @@
     "subCategoryDescription": "Rope, Dock Lines & Mooring products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/27/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 2,
+    "estimatedWeightKg": 2.0,
     "freightAud": 9.6,
     "exportAudExGst": 75.19,
     "barcode": "9319786250952",
     "cataloguePage": 27,
-    "imageUrl": "../images/catalogue/product-photos/354930.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/354930.jpg",
     "catalogueDescription": "........... 921 354558............................................. 921 354562............................................. 921 354566............................................. 921 354918............................................. 921 354920............................................. 921 354922............................................. 921 354924............................................. 921 354926............................................. 921 354928............................................. 921 354930............................................. 921 354934............................................. 921 354938............................................. 921 354960............................................. 921 354964............................................. 921 359020............................................. 924 359028............................................. 924 359030............................................. 924 359050............................................. 924 359060................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/354930.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/354930.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/354930.jpg"
   },
-  {
+  "354932": {
     "productNumber": "354932",
     "description": "BLA AQUADAN ROPE 18MM X 125M COIL",
     "brand": "Y",
@@ -975,17 +949,16 @@
     "subCategoryDescription": "Rope, Dock Lines & Mooring products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/951/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 2,
+    "estimatedWeightKg": 2.0,
     "freightAud": 9.6,
     "exportAudExGst": 102.26,
     "barcode": "9319786250969",
     "cataloguePage": 951,
-    "imageUrl": "../images/catalogue/product-photos/354932.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/354932.jpg",
     "catalogueDescription": "twice as strong as comparable silver rope, resistant to rot, mildew and marine growth, making it a very popular commercial fishing, industrial and general purpose rope. Ends can be heat welded. Coils BLA Code Rope Dia. mm Length m Break Load approx. kg 354918 4 220 235 354920 6 220 660 354922 8 220 1120 354924 10 220 1650 354926 12 220 2350 354928 14 220 3200 354930 16 125 3900 354934 20 125 6060 354938 24 125 8400 Flanged Reels BLA Code Rope Dia. mm Length m Break Load approx. kg 354960 4 500 235 354964 6 500 660 354932 354960 BLA Rope - Mini Rope Spools A range of convenient mini spools ideal for a wide variety of applications. Each plastic spool features 20 metres of quality 3mm 16 plait polyester rope. The spools are sold in multiples of 12, complete with point of sale display and contains an assortment of four colours. BLA Code 353160P",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/354932.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/354932.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/354932.jpg"
   },
-  {
+  "354934": {
     "productNumber": "354934",
     "description": "BLA AQUADAN ROPE 20MM X 125M COIL",
     "brand": "Bla",
@@ -1004,17 +977,16 @@
     "subCategoryDescription": "Rope, Dock Lines & Mooring products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/27/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 2,
+    "estimatedWeightKg": 2.0,
     "freightAud": 9.6,
     "exportAudExGst": 113.19,
     "barcode": "9319786250976",
     "cataloguePage": 27,
-    "imageUrl": "../images/catalogue/product-photos/354934.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/354934.jpg",
     "catalogueDescription": "........... 921 354562............................................. 921 354566............................................. 921 354918............................................. 921 354920............................................. 921 354922............................................. 921 354924............................................. 921 354926............................................. 921 354928............................................. 921 354930............................................. 921 354934............................................. 921 354938............................................. 921 354960............................................. 921 354964............................................. 921 359020............................................. 924 359028............................................. 924 359030............................................. 924 359050............................................. 924 359060............................................. 924 359520................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/354934.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/354934.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/354934.jpg"
   },
-  {
+  "354938": {
     "productNumber": "354938",
     "description": "BLA AQUADAN ROPE 24MM X 125M COIL",
     "brand": "Bla",
@@ -1033,17 +1005,16 @@
     "subCategoryDescription": "Rope, Dock Lines & Mooring products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/27/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 2,
+    "estimatedWeightKg": 2.0,
     "freightAud": 9.6,
     "exportAudExGst": 167.8,
     "barcode": "9319786250990",
     "cataloguePage": 27,
-    "imageUrl": "../images/catalogue/product-photos/354938.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/354938.jpg",
     "catalogueDescription": "........... 921 354566............................................. 921 354918............................................. 921 354920............................................. 921 354922............................................. 921 354924............................................. 921 354926............................................. 921 354928............................................. 921 354930............................................. 921 354934............................................. 921 354938............................................. 921 354960............................................. 921 354964............................................. 921 359020............................................. 924 359028............................................. 924 359030............................................. 924 359050............................................. 924 359060............................................. 924 359520............................................. 924 359530................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/354938.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/354938.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/354938.jpg"
   },
-  {
+  "354942": {
     "productNumber": "354942",
     "description": "BLA AQUADAN ROPE 28MM X 125M COIL",
     "brand": "Bla",
@@ -1062,7 +1033,7 @@
     "subCategoryDescription": "Rope, Dock Lines & Mooring products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 2,
+    "estimatedWeightKg": 2.0,
     "freightAud": 9.6,
     "exportAudExGst": 238.3,
     "barcode": "9319786251010",
@@ -1072,7 +1043,7 @@
     "productWebSearchQuery": "\"354942\" \"Bla BLA AQUADAN ROPE 28MM X 125M COIL\"",
     "imageUrl": "../images/web-product-images/354942.jpg"
   },
-  {
+  "354960": {
     "productNumber": "354960",
     "description": "BLA AQUADAN ROPE 4MM X 500M FLANGED REELS",
     "brand": "Bla",
@@ -1096,12 +1067,11 @@
     "exportAudExGst": 24.26,
     "barcode": "9319786251027",
     "cataloguePage": 27,
-    "imageUrl": "../images/catalogue/product-photos/354960.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/354960.jpg",
     "catalogueDescription": "........... 921 354918............................................. 921 354920............................................. 921 354922............................................. 921 354924............................................. 921 354926............................................. 921 354928............................................. 921 354930............................................. 921 354934............................................. 921 354938............................................. 921 354960............................................. 921 354964............................................. 921 359020............................................. 924 359028............................................. 924 359030............................................. 924 359050............................................. 924 359060............................................. 924 359520............................................. 924 359530............................................. 924 359532................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/354960.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/354960.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/354960.jpg"
   },
-  {
+  "354962": {
     "productNumber": "354962",
     "description": "BLA AQUADAN ROPE 5MM X 500M FLANGED REELS",
     "brand": "Bla",
@@ -1120,7 +1090,7 @@
     "subCategoryDescription": "Rope, Dock Lines & Mooring products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 2,
+    "estimatedWeightKg": 2.0,
     "freightAud": 9.6,
     "exportAudExGst": 38.65,
     "barcode": "9319786251034",
@@ -1130,7 +1100,7 @@
     "productWebSearchQuery": "\"354962\" \"Bla BLA AQUADAN ROPE 5MM X 500M FLANGED REELS\"",
     "imageUrl": "../images/web-product-images/354962.jpg"
   },
-  {
+  "354964": {
     "productNumber": "354964",
     "description": "BLA AQUADAN ROPE 6MM X 500M FLANGED REELS",
     "brand": "Bla",
@@ -1149,14 +1119,13 @@
     "subCategoryDescription": "Rope, Dock Lines & Mooring products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/27/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 2,
+    "estimatedWeightKg": 2.0,
     "freightAud": 9.6,
     "exportAudExGst": 51.73,
     "barcode": "9319786251041",
     "cataloguePage": 27,
-    "imageUrl": "../images/catalogue/product-photos/354964.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/354964.jpg",
     "catalogueDescription": "........... 921 354920............................................. 921 354922............................................. 921 354924............................................. 921 354926............................................. 921 354928............................................. 921 354930............................................. 921 354934............................................. 921 354938............................................. 921 354960............................................. 921 354964............................................. 921 359020............................................. 924 359028............................................. 924 359030............................................. 924 359050............................................. 924 359060............................................. 924 359520............................................. 924 359530............................................. 924 359532............................................. 924 381502................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/354964.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/354964.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/354964.jpg"
   }
-]
+}

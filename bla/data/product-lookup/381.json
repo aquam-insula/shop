@@ -1,5 +1,5 @@
-[
-  {
+{
+  "381500": {
     "productNumber": "381500",
     "description": "ISOTHERM COMPACT CLASSIC SYSTEM 125/40L L EVAPORATOR",
     "brand": "",
@@ -18,7 +18,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 766.91,
     "barcode": "",
@@ -28,7 +28,7 @@
     "productWebSearchQuery": "\"381500\" \"ISOTHERM COMPACT CLASSIC SYSTEM 125/40L L EVAPORATOR\"",
     "imageUrl": "../images/web-product-images/381500.webp"
   },
-  {
+  "381501": {
     "productNumber": "381501",
     "description": "ISOTHERM COMPACT CLASSIC SYSTEM 125/40L O EVAPORATOR",
     "brand": "",
@@ -47,7 +47,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 766.91,
     "barcode": "",
@@ -57,7 +57,7 @@
     "productWebSearchQuery": "\"381501\" \"ISOTHERM COMPACT CLASSIC SYSTEM 125/40L O EVAPORATOR\"",
     "imageUrl": "../images/web-product-images/381501.webp"
   },
-  {
+  "381503": {
     "productNumber": "381503",
     "description": "ISOTHERM COMPACT CLASSIC SYSTEM 150/50L O EVAPORATOR",
     "brand": "",
@@ -76,7 +76,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 871.86,
     "barcode": "",
@@ -86,7 +86,7 @@
     "productWebSearchQuery": "\"381503\" \"ISOTHERM COMPACT CLASSIC SYSTEM 150/50L O EVAPORATOR\"",
     "imageUrl": "../images/web-product-images/381503.jpg"
   },
-  {
+  "381506": {
     "productNumber": "381506",
     "description": "ISOTHERM COMPACT CLASSIC SYSTEM 200/65L O EVAPORATOR",
     "brand": "",
@@ -105,17 +105,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/27/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 1152.61,
     "barcode": "9319786113011",
     "cataloguePage": 27,
-    "imageUrl": "../images/catalogue/product-photos/381506.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/381506.jpg",
     "catalogueDescription": "........... 924 359028............................................. 924 359030............................................. 924 359050............................................. 924 359060............................................. 924 359520............................................. 924 359530............................................. 924 359532............................................. 924 381502............................................. 934 381504............................................. 934 381506............................................. 934 381507............................................. 934 381508............................................. 934 381510............................................. 934 381512............................................. 934 381514............................................. 934 381516............................................. 934 381524.....................................934, 936 381534............................................. 935 381538....................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/381506.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/381506.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/381506.jpg"
   },
-  {
+  "381509": {
     "productNumber": "381509",
     "description": "ISOTHERM COMPACT CLASSIC SYSTEM 60/20L FLAT EVAPORATOR",
     "brand": "",
@@ -134,7 +133,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 766.91,
     "barcode": "",
@@ -144,7 +143,7 @@
     "productWebSearchQuery": "\"381509\" \"ISOTHERM COMPACT CLASSIC SYSTEM 60/20L FLAT EVAPORATOR\"",
     "imageUrl": "../images/web-product-images/381509.png"
   },
-  {
+  "381510": {
     "productNumber": "381510",
     "description": "ISOTHERM COMPACT CLASSIC SYSTEM 170/55L FLAT EVAPORATOR",
     "brand": "",
@@ -163,17 +162,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/27/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 1194.88,
     "barcode": "9319786113301",
     "cataloguePage": 27,
-    "imageUrl": "../images/catalogue/product-photos/381510.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/381510.jpg",
     "catalogueDescription": "........... 924 359060............................................. 924 359520............................................. 924 359530............................................. 924 359532............................................. 924 381502............................................. 934 381504............................................. 934 381506............................................. 934 381507............................................. 934 381508............................................. 934 381510............................................. 934 381512............................................. 934 381514............................................. 934 381516............................................. 934 381524.....................................934, 936 381534............................................. 935 381538............................................. 935 381540............................................. 935 381606............................................. 933 381632....................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/381510.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/381510.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/381510.jpg"
   },
-  {
+  "381512": {
     "productNumber": "381512",
     "description": "ISOTHERM COMPACT CLASSIC SYSTEM 200/65L FLAT EVAPORATOR",
     "brand": "",
@@ -192,17 +190,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/27/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 1194.88,
     "barcode": "9319786113318",
     "cataloguePage": 27,
-    "imageUrl": "../images/catalogue/product-photos/381512.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/381512.jpg",
     "catalogueDescription": "........... 924 359520............................................. 924 359530............................................. 924 359532............................................. 924 381502............................................. 934 381504............................................. 934 381506............................................. 934 381507............................................. 934 381508............................................. 934 381510............................................. 934 381512............................................. 934 381514............................................. 934 381516............................................. 934 381524.....................................934, 936 381534............................................. 935 381538............................................. 935 381540............................................. 935 381606............................................. 933 381632............................................. 931 381635....................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/381512.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/381512.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/381512.jpg"
   },
-  {
+  "381514": {
     "productNumber": "381514",
     "description": "ISOTHERM COMPACT CLASSIC SYSTEM 260/85L FLAT EVAPORATOR",
     "brand": "",
@@ -221,17 +218,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/27/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 1194.88,
     "barcode": "9319786113325",
     "cataloguePage": 27,
-    "imageUrl": "../images/catalogue/product-photos/381514.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/381514.jpg",
     "catalogueDescription": "........... 924 359530............................................. 924 359532............................................. 924 381502............................................. 934 381504............................................. 934 381506............................................. 934 381507............................................. 934 381508............................................. 934 381510............................................. 934 381512............................................. 934 381514............................................. 934 381516............................................. 934 381524.....................................934, 936 381534............................................. 935 381538............................................. 935 381540............................................. 935 381606............................................. 933 381632............................................. 931 381635............................................. 931 381639....................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/381514.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/381514.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/381514.jpg"
   },
-  {
+  "381516": {
     "productNumber": "381516",
     "description": "ISOTHERM COMPACT CLASSIC SYSTEM 400/140L FLAT EVAPORATOR",
     "brand": "",
@@ -250,17 +246,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/27/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 1194.88,
     "barcode": "9319786113332",
     "cataloguePage": 27,
-    "imageUrl": "../images/catalogue/product-photos/381516.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/381516.jpg",
     "catalogueDescription": "........... 924 359532............................................. 924 381502............................................. 934 381504............................................. 934 381506............................................. 934 381507............................................. 934 381508............................................. 934 381510............................................. 934 381512............................................. 934 381514............................................. 934 381516............................................. 934 381524.....................................934, 936 381534............................................. 935 381538............................................. 935 381540............................................. 935 381606............................................. 933 381632............................................. 931 381635............................................. 931 381639............................................. 931 381641....................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/381516.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/381516.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/381516.jpg"
   },
-  {
+  "381524": {
     "productNumber": "381524",
     "description": "ISOTHERM QUICK RELEASE COMPRESSOR MOUNT BRACKET",
     "brand": "Y",
@@ -279,12 +274,12 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/27/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 101.46,
     "barcode": "9319786124369",
     "cataloguePage": 27,
-    "imageUrl": "../images/bla-website-products/381524.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/381524.jpg",
     "catalogueDescription": "........... 924 381502............................................. 934 381504............................................. 934 381506............................................. 934 381507............................................. 934 381508............................................. 934 381510............................................. 934 381512............................................. 934 381514............................................. 934 381516............................................. 934 381524.....................................934, 936 381534............................................. 935 381538............................................. 935 381540............................................. 935 381606............................................. 933 381632............................................. 931 381635............................................. 931 381639............................................. 931 381641............................................. 931 381646....................",
     "productBlockImageUrl": "../images/catalogue/product-blocks/381524.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/isotherm-quick-release-compressor-mount-bracket/",
@@ -301,7 +296,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/06/381524.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "381534": {
     "productNumber": "381534",
     "description": "ISOTHERM ITC+ REFRIGERATION SYSTEM 100/35L",
     "brand": "",
@@ -320,17 +315,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/27/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 1862.77,
     "barcode": "8053670389762",
     "cataloguePage": 27,
-    "imageUrl": "../images/catalogue/product-photos/381534.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/381534.jpg",
     "catalogueDescription": "............... 934 381504............................................. 934 381506............................................. 934 381507............................................. 934 381508............................................. 934 381510............................................. 934 381512............................................. 934 381514............................................. 934 381516............................................. 934 381524.....................................934, 936 381534............................................. 935 381538............................................. 935 381540............................................. 935 381606............................................. 933 381632............................................. 931 381635............................................. 931 381639............................................. 931 381641............................................. 931 381646............................................. 936 381648................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/381534.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/381534.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/381534.jpg"
   },
-  {
+  "381538": {
     "productNumber": "381538",
     "description": "ISOTHERM ITC+ REFRIGERATION SYSTEM 150/50L",
     "brand": "",
@@ -349,17 +343,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/27/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 2105.13,
     "barcode": "8056039156777",
     "cataloguePage": 27,
-    "imageUrl": "../images/catalogue/product-photos/381538.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/381538.jpg",
     "catalogueDescription": "............... 934 381506............................................. 934 381507............................................. 934 381508............................................. 934 381510............................................. 934 381512............................................. 934 381514............................................. 934 381516............................................. 934 381524.....................................934, 936 381534............................................. 935 381538............................................. 935 381540............................................. 935 381606............................................. 933 381632............................................. 931 381635............................................. 931 381639............................................. 931 381641............................................. 931 381646............................................. 936 381648.....................................934, 936 381660....................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/381538.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/381538.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/381538.jpg"
   },
-  {
+  "381540": {
     "productNumber": "381540",
     "description": "ISOTHERM ITC+ REFRIGERATION SYSTEM 200/65L",
     "brand": "",
@@ -378,17 +371,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/27/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 2908.29,
     "barcode": "8056039157040",
     "cataloguePage": 27,
-    "imageUrl": "../images/catalogue/product-photos/381540.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/381540.jpg",
     "catalogueDescription": "............... 934 381507............................................. 934 381508............................................. 934 381510............................................. 934 381512............................................. 934 381514............................................. 934 381516............................................. 934 381524.....................................934, 936 381534............................................. 935 381538............................................. 935 381540............................................. 935 381606............................................. 933 381632............................................. 931 381635............................................. 931 381639............................................. 931 381641............................................. 931 381646............................................. 936 381648.....................................934, 936 381660............................................. 936 381664....................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/381540.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/381540.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/381540.jpg"
   },
-  {
+  "381564": {
     "productNumber": "381564",
     "description": "ISOTHERM ITC+ WATER COOLED SP REFRIGERATION SYSTEM 100/35L",
     "brand": "Y",
@@ -407,7 +399,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 2279.86,
     "barcode": "8056039156753",
@@ -426,7 +418,7 @@
     "imageUrl": "../images/bla-website-products/381564.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "381584": {
     "productNumber": "381584",
     "description": "ISOTHERM REPLACEMENT ZINC ANODE SUIT SKIN FITTING",
     "brand": "",
@@ -464,7 +456,7 @@
     "imageUrl": "../images/bla-website-products/381584.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "381590": {
     "productNumber": "381590",
     "description": "ISOTHERM EVAPORATOR DOOR \"O\" LARGE",
     "brand": "Y",
@@ -483,7 +475,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 58.22,
     "barcode": "9319786124352",
@@ -502,7 +494,7 @@
     "imageUrl": "../images/bla-website-products/381590.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "381606": {
     "productNumber": "381606",
     "description": "ISOTHERM BI 40 BUILT-IN COOLING BOX 41L",
     "brand": "",
@@ -521,12 +513,12 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/27/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 1315.86,
     "barcode": "8056590829066",
     "cataloguePage": 27,
-    "imageUrl": "../images/bla-website-products/381606.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/381606.jpg",
     "catalogueDescription": "............... 934 381508............................................. 934 381510............................................. 934 381512............................................. 934 381514............................................. 934 381516............................................. 934 381524.....................................934, 936 381534............................................. 935 381538............................................. 935 381540............................................. 935 381606............................................. 933 381632............................................. 931 381635............................................. 931 381639............................................. 931 381641............................................. 931 381646............................................. 936 381648.....................................934, 936 381660............................................. 936 381664............................................. 323 381668....................",
     "productBlockImageUrl": "../images/catalogue/product-blocks/381606.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/isotherm-refrigerator-top-load-bi-41/",
@@ -543,7 +535,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/06/381606.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "381608": {
     "productNumber": "381608",
     "description": "ISOTHERM BI 53 F BUILT-IN COOLING BOX 53L",
     "brand": "Y",
@@ -562,7 +554,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 2637.54,
     "barcode": "9319786298916",
@@ -581,7 +573,7 @@
     "imageUrl": "../images/bla-website-products/381608.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "381610": {
     "productNumber": "381610",
     "description": "ISOTHERM VE200 COOLING UNIT PLUG & PLAY",
     "brand": "",
@@ -610,7 +602,7 @@
     "productWebSearchQuery": "\"381610\" \"ISOTHERM VE200 COOLING UNIT PLUG & PLAY\"",
     "imageUrl": "../images/web-product-images/381610.png"
   },
-  {
+  "381620": {
     "productNumber": "381620",
     "description": "ISOTHERM DRAWER INOX CLEAN TOUCH FRIDGE 85L",
     "brand": "",
@@ -629,7 +621,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 2123.14,
     "barcode": "8057507150655",
@@ -639,7 +631,7 @@
     "productWebSearchQuery": "\"381620\" \"ISOTHERM DRAWER INOX CLEAN TOUCH FRIDGE 85L\"",
     "imageUrl": "../images/web-product-images/381620.webp"
   },
-  {
+  "381624": {
     "productNumber": "381624",
     "description": "ISOTHERM DRAWER LIGHT INOX CLEAN TOUCH FRIDGE 160L",
     "brand": "",
@@ -668,7 +660,7 @@
     "productWebSearchQuery": "\"381624\" \"ISOTHERM DRAWER LIGHT INOX CLEAN TOUCH FRIDGE 160L\"",
     "imageUrl": "../images/web-product-images/381624.jpg"
   },
-  {
+  "381625": {
     "productNumber": "381625",
     "description": "ISOTHERM DRAWER LIGHT INOX CLEAN TOUCH FRIDGE FREEZER 160L",
     "brand": "",
@@ -697,7 +689,7 @@
     "productWebSearchQuery": "\"381625\" \"ISOTHERM DRAWER LIGHT INOX CLEAN TOUCH FRIDGE FREEZER 160L\"",
     "imageUrl": "../images/web-product-images/381625.jpg"
   },
-  {
+  "381626": {
     "productNumber": "381626",
     "description": "ISOTHERM DRAWER LIGHT INOX CLEAN TOUCH FREEZER 160L",
     "brand": "",
@@ -726,7 +718,7 @@
     "productWebSearchQuery": "\"381626\" \"ISOTHERM DRAWER LIGHT INOX CLEAN TOUCH FREEZER 160L\"",
     "imageUrl": "../images/web-product-images/381626.png"
   },
-  {
+  "381627": {
     "productNumber": "381627",
     "description": "ISOTHERM DRAWER INOX CLEAN TOUCH FRIDGE FROST FREE 65L",
     "brand": "",
@@ -745,7 +737,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 2541.65,
     "barcode": "",
@@ -755,7 +747,7 @@
     "productWebSearchQuery": "\"381627\" \"ISOTHERM DRAWER INOX CLEAN TOUCH FRIDGE FROST FREE 65L\"",
     "imageUrl": "../images/web-product-images/381627.jpg"
   },
-  {
+  "381628": {
     "productNumber": "381628",
     "description": "ISOTHERM DRAWER INOX CLEAN TOUCH FRIDGE 190L",
     "brand": "",
@@ -774,7 +766,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 3591.12,
     "barcode": "8057507154189",
@@ -784,7 +776,7 @@
     "productWebSearchQuery": "\"381628\" \"ISOTHERM DRAWER INOX CLEAN TOUCH FRIDGE 190L\"",
     "imageUrl": "../images/web-product-images/381628.jpg"
   },
-  {
+  "381633": {
     "productNumber": "381633",
     "description": "ISOTHERM INOX CRUISE DRAWER FRIDGE 36L",
     "brand": "",
@@ -803,7 +795,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 1649.54,
     "barcode": "",
@@ -813,7 +805,7 @@
     "productWebSearchQuery": "\"381633\" \"ISOTHERM INOX CRUISE DRAWER FRIDGE 36L\"",
     "imageUrl": "../images/web-product-images/381633.webp"
   },
-  {
+  "381634": {
     "productNumber": "381634",
     "description": "ISOTHERM DRAWER 70 CLEAN TOUCH FREEZER 70L AC/DC",
     "brand": "",
@@ -832,7 +824,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 3273.89,
     "barcode": "9319786452431",
@@ -842,7 +834,7 @@
     "productWebSearchQuery": "\"381634\" \"ISOTHERM DRAWER 70 CLEAN TOUCH FREEZER 70L AC/DC\"",
     "imageUrl": "../images/web-product-images/381634.jpg"
   },
-  {
+  "381635": {
     "productNumber": "381635",
     "description": "ISOTHERM DRAWER 49 CLEAN TOUCH REFRIGERATOR 49L",
     "brand": "",
@@ -861,17 +853,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/27/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 1991.65,
     "barcode": "8056590826812",
     "cataloguePage": 27,
-    "imageUrl": "../images/catalogue/product-photos/381635.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/381635.jpg",
     "catalogueDescription": "............... 934 381512............................................. 934 381514............................................. 934 381516............................................. 934 381524.....................................934, 936 381534............................................. 935 381538............................................. 935 381540............................................. 935 381606............................................. 933 381632............................................. 931 381635............................................. 931 381639............................................. 931 381641............................................. 931 381646............................................. 936 381648.....................................934, 936 381660............................................. 936 381664............................................. 323 381668............................................. 323 381673............................................. 930 381675....................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/381635.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/381635.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/381635.jpg"
   },
-  {
+  "381636": {
     "productNumber": "381636",
     "description": "ISOTHERM DRAWER 55 INOX FREEZER 55L",
     "brand": "Y",
@@ -890,7 +881,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 3088.65,
     "barcode": "9319786298961",
@@ -909,7 +900,7 @@
     "imageUrl": "../images/bla-website-products/381636.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "381639": {
     "productNumber": "381639",
     "description": "ISOTHERM DRAWER 65 CLEAN TOUCH REFRIGERATOR 65L",
     "brand": "",
@@ -928,17 +919,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/27/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 2072.94,
     "barcode": "8056590826829",
     "cataloguePage": 27,
-    "imageUrl": "../images/catalogue/product-photos/381639.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/381639.jpg",
     "catalogueDescription": "............... 934 381514............................................. 934 381516............................................. 934 381524.....................................934, 936 381534............................................. 935 381538............................................. 935 381540............................................. 935 381606............................................. 933 381632............................................. 931 381635............................................. 931 381639............................................. 931 381641............................................. 931 381646............................................. 936 381648.....................................934, 936 381660............................................. 936 381664............................................. 323 381668............................................. 323 381673............................................. 930 381675............................................. 930 381678....................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/381639.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/381639.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/381639.jpg"
   },
-  {
+  "381641": {
     "productNumber": "381641",
     "description": "ISOTHERM DRAWER 100 CLEAN TOUCH REFRIGERATOR 100L",
     "brand": "",
@@ -957,17 +947,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/27/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 2259.91,
     "barcode": "8056590827277",
     "cataloguePage": 27,
-    "imageUrl": "../images/catalogue/product-photos/381641.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/381641.jpg",
     "catalogueDescription": "............... 934 381516............................................. 934 381524.....................................934, 936 381534............................................. 935 381538............................................. 935 381540............................................. 935 381606............................................. 933 381632............................................. 931 381635............................................. 931 381639............................................. 931 381641............................................. 931 381646............................................. 936 381648.....................................934, 936 381660............................................. 936 381664............................................. 323 381668............................................. 323 381673............................................. 930 381675............................................. 930 381678............................................. 930 381694....................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/381641.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/381641.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/381641.jpg"
   },
-  {
+  "381643": {
     "productNumber": "381643",
     "description": "ISOTHERM DRAWER 130 INOX REFRIGERATOR 130L",
     "brand": "",
@@ -986,7 +975,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 2209.3,
     "barcode": "9319786448779",
@@ -996,7 +985,7 @@
     "productWebSearchQuery": "\"381643\" \"ISOTHERM DRAWER 130 INOX REFRIGERATOR 130L\"",
     "imageUrl": "../images/web-product-images/381643.jpg"
   },
-  {
+  "381645": {
     "productNumber": "381645",
     "description": "ISOTHERM DRAWER 100 CLEAN TOUCH FREEZER 100L",
     "brand": "",
@@ -1015,7 +1004,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 2154.67,
     "barcode": "8056590827307",
@@ -1025,7 +1014,7 @@
     "productWebSearchQuery": "\"381645\" \"ISOTHERM DRAWER 100 CLEAN TOUCH FREEZER 100L\"",
     "imageUrl": "../images/web-product-images/381645.jpg"
   },
-  {
+  "381646": {
     "productNumber": "381646",
     "description": "ISOTHERM FRIDGE THERMOSTAT",
     "brand": "",
@@ -1044,17 +1033,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/27/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 127.06,
     "barcode": "9319786117439",
     "cataloguePage": 27,
-    "imageUrl": "../images/catalogue/product-photos/381646.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/381646.jpg",
     "catalogueDescription": "............... 934 381524.....................................934, 936 381534............................................. 935 381538............................................. 935 381540............................................. 935 381606............................................. 933 381632............................................. 931 381635............................................. 931 381639............................................. 931 381641............................................. 931 381646............................................. 936 381648.....................................934, 936 381660............................................. 936 381664............................................. 323 381668............................................. 323 381673............................................. 930 381675............................................. 930 381678............................................. 930 381694............................................. 929 381696....................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/381646.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/381646.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/381646.jpg"
   },
-  {
+  "381648": {
     "productNumber": "381648",
     "description": "ISOTHERM FREEZER THERMOSTAT",
     "brand": "",
@@ -1073,17 +1061,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/27/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 136.37,
     "barcode": "9319786117453",
     "cataloguePage": 27,
-    "imageUrl": "../images/catalogue/product-photos/381648.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/381648.jpg",
     "catalogueDescription": ".......934, 936 381534............................................. 935 381538............................................. 935 381540............................................. 935 381606............................................. 933 381632............................................. 931 381635............................................. 931 381639............................................. 931 381641............................................. 931 381646............................................. 936 381648.....................................934, 936 381660............................................. 936 381664............................................. 323 381668............................................. 323 381673............................................. 930 381675............................................. 930 381678............................................. 930 381694............................................. 929 381696............................................. 929 381701....................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/381648.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/381648.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/381648.jpg"
   },
-  {
+  "381650": {
     "productNumber": "381650",
     "description": "ISOTHERM FRIDGE/FREEZER TWIN THERMOSTAT",
     "brand": "Y",
@@ -1102,7 +1089,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 328.51,
     "barcode": "9319786117422",
@@ -1112,7 +1099,7 @@
     "productWebSearchQuery": "\"381650\" \"Y ISOTHERM FRIDGE/FREEZER TWIN THERMOSTAT\"",
     "imageUrl": "../images/web-product-images/381650.png"
   },
-  {
+  "381656": {
     "productNumber": "381656",
     "description": "ISOTHERM CRUISE 16 DRAWER REFRIGERATOR 16L",
     "brand": "",
@@ -1131,7 +1118,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 1029.7,
     "barcode": "8053670387881",
@@ -1141,7 +1128,7 @@
     "productWebSearchQuery": "\"381656\" \"ISOTHERM CRUISE 16 DRAWER REFRIGERATOR 16L\"",
     "imageUrl": "../images/web-product-images/381656.jpg"
   },
-  {
+  "381660": {
     "productNumber": "381660",
     "description": "ISOTHERM THERMOSTAT KIT SUIT 49/65/85/130L FRIDGES",
     "brand": "",
@@ -1160,17 +1147,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/27/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 52.69,
     "barcode": "9319786321003",
     "cataloguePage": 27,
-    "imageUrl": "../images/catalogue/product-photos/381660.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/381660.jpg",
     "catalogueDescription": "............... 935 381538............................................. 935 381540............................................. 935 381606............................................. 933 381632............................................. 931 381635............................................. 931 381639............................................. 931 381641............................................. 931 381646............................................. 936 381648.....................................934, 936 381660............................................. 936 381664............................................. 323 381668............................................. 323 381673............................................. 930 381675............................................. 930 381678............................................. 930 381694............................................. 929 381696............................................. 929 381701............................................. 928 381705................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/381660.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/381660.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/381660.jpg"
   },
-  {
+  "381662": {
     "productNumber": "381662",
     "description": "ISOTHERM THERMOSTAT KIT SUIT 130L DRINK COOLER",
     "brand": "Y",
@@ -1189,7 +1175,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 37.19,
     "barcode": "9319786321010",
@@ -1199,7 +1185,7 @@
     "productWebSearchQuery": "\"381662\" \"Y ISOTHERM THERMOSTAT KIT SUIT 130L DRINK COOLER\"",
     "imageUrl": "../images/web-product-images/381662.jpg"
   },
-  {
+  "381664": {
     "productNumber": "381664",
     "description": "ISOTHERM THERMOSTAT SUIT BASIC/SLIM",
     "brand": "",
@@ -1218,12 +1204,12 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/353/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 65.08,
     "barcode": "9319786320983",
     "cataloguePage": 353,
-    "imageUrl": "../images/bla-website-products/381664.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/381664.jpg",
     "catalogueDescription": "board. The Isotemp range of water heaters by Isotherm\u00ae have a two year full warranty and a five year limited warranty on the tank. BLA Code Volume Style Dimensions Length x Dia. Weight Max. Pressure Immersion Heater L mm kg bar V Watt 135692 20 Slim 655 x 295 9 5.0 240 750 135696 25 Slim 780 x 295 11 5.0 240 750 135700 24 Basic 460 x 395 11 5.0 240 750 135702 40 Basic 630 x 395 17 5.0 240 750 135704 50 Basic 750 x 395 20 5.0 240 750 135706 75 Basic 1040 x 395 24 5.0 240 750 Accessories: 381668 Overheat thermostat 381664 Thermostat Isotherm\u00ae Immersion Heater Element Isotherm\u00ae stainless steel water heaters are supplied standard with 240 volt, 750 watt immersion heating elements. For vessels travelling to or being exported to USA, the 240 volt element can be replaced with a 110 volt 750 watt element. Element to be fitted by a licensed electrician or registered electrical contractor. Pressure Relief Valve Replacement hot water pressure relief valve to suit Isotemp water heaters. Threaded 1/2\" BSP and preset to 500kPa. Requires 135730",
     "productBlockImageUrl": "../images/catalogue/product-blocks/381664.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/isotherm-stainless-steel-water-heaters-thermostat/",
@@ -1240,7 +1226,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/07/No_image.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "381668": {
     "productNumber": "381668",
     "description": "ISOTHERM OVER THERMOSTAT SUIT BASIC/SLIM",
     "brand": "",
@@ -1259,12 +1245,12 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/353/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 52.69,
     "barcode": "9319786320990",
     "cataloguePage": 353,
-    "imageUrl": "../images/bla-website-products/381668.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/381668.jpg",
     "catalogueDescription": "if having young children on board. The Isotemp range of water heaters by Isotherm\u00ae have a two year full warranty and a five year limited warranty on the tank. BLA Code Volume Style Dimensions Length x Dia. Weight Max. Pressure Immersion Heater L mm kg bar V Watt 135692 20 Slim 655 x 295 9 5.0 240 750 135696 25 Slim 780 x 295 11 5.0 240 750 135700 24 Basic 460 x 395 11 5.0 240 750 135702 40 Basic 630 x 395 17 5.0 240 750 135704 50 Basic 750 x 395 20 5.0 240 750 135706 75 Basic 1040 x 395 24 5.0 240 750 Accessories: 381668 Overheat thermostat 381664 Thermostat Isotherm\u00ae Immersion Heater Element Isotherm\u00ae stainless steel water heaters are supplied standard with 240 volt, 750 watt immersion heating elements. For vessels travelling to or being exported to USA, the 240 volt element can be replaced with a 110 volt 750 watt element. Element to be fitted by a licensed electrician or registered electrical contractor. Pressure Relief Valve Replacement hot water pressure relief valve to suit Isotemp water heaters. Threaded 1/2\" BSP and preset",
     "productBlockImageUrl": "../images/catalogue/product-blocks/381668.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/isotherm-stainless-steel-water-heaters-overheat-thermostat/",
@@ -1281,7 +1267,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/07/381668.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "381671": {
     "productNumber": "381671",
     "description": "ISOTHERM DRAWER CRUISE16 REFRIGERATOR 16L BLACK",
     "brand": "",
@@ -1300,7 +1286,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 1008.02,
     "barcode": "9319786467473",
@@ -1310,7 +1296,7 @@
     "productWebSearchQuery": "\"381671\" \"ISOTHERM DRAWER CRUISE16 REFRIGERATOR 16L BLACK\"",
     "imageUrl": "../images/web-product-images/381671.jpg"
   },
-  {
+  "381672": {
     "productNumber": "381672",
     "description": "ISOTHERM MINI DRAWER BLACK 30L",
     "brand": "",
@@ -1329,7 +1315,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 1157.1,
     "barcode": "8053670389687",
@@ -1339,7 +1325,7 @@
     "productWebSearchQuery": "\"381672\" \"ISOTHERM MINI DRAWER BLACK 30L\"",
     "imageUrl": "../images/web-product-images/381672.jpg"
   },
-  {
+  "381689": {
     "productNumber": "381689",
     "description": "ISOTHERM CRUISE 200 REFRIGERATOR & FREEZER 12/24VDC 150/50L",
     "brand": "",
@@ -1358,7 +1344,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 3278.77,
     "barcode": "8053670382794",
@@ -1368,7 +1354,7 @@
     "productWebSearchQuery": "\"381689\" \"ISOTHERM CRUISE 200 REFRIGERATOR & FREEZER 12/24VDC 150/50L\"",
     "imageUrl": "../images/web-product-images/381689.jpg"
   },
-  {
+  "381694": {
     "productNumber": "381694",
     "description": "ISOTHERM CRUISE SILVER 225 REFRIGERATOR & FREEZER 225L",
     "brand": "Y",
@@ -1387,23 +1373,22 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/27/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 2051.26,
     "barcode": "8056590826980",
     "cataloguePage": 27,
-    "imageUrl": "../images/catalogue/product-photos/381694.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/381694.jpg",
     "catalogueDescription": "............... 931 381641............................................. 931 381646............................................. 936 381648.....................................934, 936 381660............................................. 936 381664............................................. 323 381668............................................. 323 381673............................................. 930 381675............................................. 930 381678............................................. 930 381694............................................. 929 381696............................................. 929 381701............................................. 928 381705............................................. 928 381709............................................. 928 381710............................................. 928 381711............................................. 928 381714............................................. 932 381715............................................. 929 381717................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/381694.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/381694.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/381694.jpg"
   },
-  {
+  "381698": {
     "productNumber": "381698",
     "description": "ISOTHERM CRUISE COMBI INOX 260L",
     "brand": "",
     "variant": "PC",
     "price": 12691.8,
-    "unitCostOfSale": 7464,
+    "unitCostOfSale": 7464.0,
     "categoryName": "Tools & Chandlery",
     "topCategory": "Tools & Chandlery",
     "subCategoryName": "General Marine Supplies",
@@ -1416,9 +1401,9 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
-    "exportAudExGst": 4440,
+    "exportAudExGst": 4440.0,
     "barcode": "8056039159839",
     "productWebSearchImageUrl": "../images/web-product-images/381698.jpg",
     "productWebSearchImageSourceUrl": "https://www.westmarine.com/dw/image/v2/BGFG_PRD/on/demandware.static/-/Sites-wm-master-catalog/default/dw7713199c/images/orig/18609537_2_1500.12042019033221.jpg?sw=800&sh=800",
@@ -1426,7 +1411,7 @@
     "productWebSearchQuery": "\"381698\" \"ISOTHERM CRUISE COMBI INOX 260L\"",
     "imageUrl": "../images/web-product-images/381698.jpg"
   },
-  {
+  "381700": {
     "productNumber": "381700",
     "description": "ISOTHERM CRUISE INOX CLEAN TOUCH FRIDGE 42L",
     "brand": "",
@@ -1445,7 +1430,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 1388.51,
     "barcode": "8057507157203",
@@ -1455,7 +1440,7 @@
     "productWebSearchQuery": "\"381700\" \"ISOTHERM CRUISE INOX CLEAN TOUCH FRIDGE 42L\"",
     "imageUrl": "../images/web-product-images/381700.jpg"
   },
-  {
+  "381702": {
     "productNumber": "381702",
     "description": "ISOTHERM CRUISE INOX CLEAN TOUCH FRIDGE 49L",
     "brand": "",
@@ -1474,7 +1459,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 1493.46,
     "barcode": "8057507157210",
@@ -1484,7 +1469,7 @@
     "productWebSearchQuery": "\"381702\" \"ISOTHERM CRUISE INOX CLEAN TOUCH FRIDGE 49L\"",
     "imageUrl": "../images/web-product-images/381702.jpg"
   },
-  {
+  "381703": {
     "productNumber": "381703",
     "description": "ISOTHERM CRUISE INOX CLEAN TOUCH FRIDGE 65L",
     "brand": "",
@@ -1503,7 +1488,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 1574.18,
     "barcode": "8057507157227",
@@ -1513,7 +1498,7 @@
     "productWebSearchQuery": "\"381703\" \"ISOTHERM CRUISE INOX CLEAN TOUCH FRIDGE 65L\"",
     "imageUrl": "../images/web-product-images/381703.jpg"
   },
-  {
+  "381704": {
     "productNumber": "381704",
     "description": "ISOTHERM CRUISE INOX CLEAN TOUCH FRIDGE 85L",
     "brand": "",
@@ -1532,7 +1517,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 1660.3,
     "barcode": "8057507157234",
@@ -1542,7 +1527,7 @@
     "productWebSearchQuery": "\"381704\" \"ISOTHERM CRUISE INOX CLEAN TOUCH FRIDGE 85L\"",
     "imageUrl": "../images/web-product-images/381704.jpg"
   },
-  {
+  "381705": {
     "productNumber": "381705",
     "description": "ISOTHERM CLEAN TOUCH CRUISE 65 REFRIGERATOR 65L",
     "brand": "",
@@ -1561,12 +1546,12 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/27/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 1648.59,
     "barcode": "9319786431122",
     "cataloguePage": 27,
-    "imageUrl": "../images/bla-website-products/381705.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/381705.jpg",
     "catalogueDescription": ".......934, 936 381660............................................. 936 381664............................................. 323 381668............................................. 323 381673............................................. 930 381675............................................. 930 381678............................................. 930 381694............................................. 929 381696............................................. 929 381701............................................. 928 381705............................................. 928 381709............................................. 928 381710............................................. 928 381711............................................. 928 381714............................................. 932 381715............................................. 929 381717............................................. 927 381719............................................. 927 381720............................................. 933 381749................",
     "productBlockImageUrl": "../images/catalogue/product-blocks/381705.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/isotherm-refrigerator-cruise-65-inox-clean-touch/",
@@ -1583,7 +1568,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/06/381705.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "381706": {
     "productNumber": "381706",
     "description": "ISOTHERM CRUISE INOX CLEAN TOUCH FRIDGE 130L",
     "brand": "",
@@ -1602,7 +1587,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 1746.51,
     "barcode": "8057507157241",
@@ -1612,7 +1597,7 @@
     "productWebSearchQuery": "\"381706\" \"ISOTHERM CRUISE INOX CLEAN TOUCH FRIDGE 130L\"",
     "imageUrl": "../images/web-product-images/381706.webp"
   },
-  {
+  "381707": {
     "productNumber": "381707",
     "description": "ISOTHERM CRUISE INOX CLEAN TOUCH FRIDGE DRINK 160L",
     "brand": "",
@@ -1631,7 +1616,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 2680.7,
     "barcode": "8057507154226",
@@ -1641,7 +1626,7 @@
     "productWebSearchQuery": "\"381707\" \"ISOTHERM CRUISE INOX CLEAN TOUCH FRIDGE DRINK 160L\"",
     "imageUrl": "../images/web-product-images/381707.jpg"
   },
-  {
+  "381709": {
     "productNumber": "381709",
     "description": "ISOTHERM CLEAN TOUCH CRUISE 85 REFRIGERATOR 85L",
     "brand": "",
@@ -1660,12 +1645,12 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/27/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 1821.82,
     "barcode": "8053670389021",
     "cataloguePage": 27,
-    "imageUrl": "../images/bla-website-products/381709.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/381709.jpg",
     "catalogueDescription": "........... 936 381664............................................. 323 381668............................................. 323 381673............................................. 930 381675............................................. 930 381678............................................. 930 381694............................................. 929 381696............................................. 929 381701............................................. 928 381705............................................. 928 381709............................................. 928 381710............................................. 928 381711............................................. 928 381714............................................. 932 381715............................................. 929 381717............................................. 927 381719............................................. 927 381720............................................. 933 381749............................................. 930 381752................",
     "productBlockImageUrl": "../images/catalogue/product-blocks/381709.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/isotherm-refrigerator-cruise-85-inox-clean-touch/",
@@ -1682,7 +1667,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/06/381709.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "381710": {
     "productNumber": "381710",
     "description": "ISOTHERM INOX CRUISE 130 DRINK REFRIGERATOR 130L LEFT HINGE",
     "brand": "",
@@ -1701,17 +1686,16 @@
     "subCategoryDescription": "Stainless Fittings & Deck Hardware products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/27/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 2085.68,
     "barcode": "9319786295601",
     "cataloguePage": 27,
-    "imageUrl": "../images/catalogue/product-photos/381710.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/381710.jpg",
     "catalogueDescription": "........... 323 381668............................................. 323 381673............................................. 930 381675............................................. 930 381678............................................. 930 381694............................................. 929 381696............................................. 929 381701............................................. 928 381705............................................. 928 381709............................................. 928 381710............................................. 928 381711............................................. 928 381714............................................. 932 381715............................................. 929 381717............................................. 927 381719............................................. 927 381720............................................. 933 381749............................................. 930 381752............................................. 930 381754................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/381710.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/381710.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/381710.jpg"
   },
-  {
+  "381711": {
     "productNumber": "381711",
     "description": "ISOTHERM INOX CRUISE 130 DRINK REFRIGERATOR 130L RIGHT HINGE",
     "brand": "",
@@ -1730,17 +1714,16 @@
     "subCategoryDescription": "Stainless Fittings & Deck Hardware products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/27/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 2080.42,
     "barcode": "9319786295618",
     "cataloguePage": 27,
-    "imageUrl": "../images/catalogue/product-photos/381711.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/381711.jpg",
     "catalogueDescription": "........... 323 381673............................................. 930 381675............................................. 930 381678............................................. 930 381694............................................. 929 381696............................................. 929 381701............................................. 928 381705............................................. 928 381709............................................. 928 381710............................................. 928 381711............................................. 928 381714............................................. 932 381715............................................. 929 381717............................................. 927 381719............................................. 927 381720............................................. 933 381749............................................. 930 381752............................................. 930 381754............................................. 932 381834................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/381711.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/381711.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/381711.jpg"
   },
-  {
+  "381712": {
     "productNumber": "381712",
     "description": "ISOTHERM CRUISE INOX CLEAN TOUCH FREEZER 65L",
     "brand": "",
@@ -1759,7 +1742,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 1837.9,
     "barcode": "8057507154059",
@@ -1769,7 +1752,7 @@
     "productWebSearchQuery": "\"381712\" \"ISOTHERM CRUISE INOX CLEAN TOUCH FREEZER 65L\"",
     "imageUrl": "../images/web-product-images/381712.jpg"
   },
-  {
+  "381714": {
     "productNumber": "381714",
     "description": "ISOTHERM CRUISE INOX 90 F FREEZER 90L",
     "brand": "",
@@ -1788,12 +1771,12 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/27/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 2127.67,
     "barcode": "9319786298954",
     "cataloguePage": 27,
-    "imageUrl": "../images/bla-website-products/381714.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/381714.jpg",
     "catalogueDescription": "........... 930 381675............................................. 930 381678............................................. 930 381694............................................. 929 381696............................................. 929 381701............................................. 928 381705............................................. 928 381709............................................. 928 381710............................................. 928 381711............................................. 928 381714............................................. 932 381715............................................. 929 381717............................................. 927 381719............................................. 927 381720............................................. 933 381749............................................. 930 381752............................................. 930 381754............................................. 932 381834............................................. 936 381840................",
     "productBlockImageUrl": "../images/catalogue/product-blocks/381714.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/isotherm-freezer-cruise-90-f-inox/",
@@ -1810,7 +1793,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/06/381714.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "381716": {
     "productNumber": "381716",
     "description": "ISOTHERM COMBI CRUISE 195 REFRIGERATOR 195L LEFT HINGE",
     "brand": "Y",
@@ -1829,7 +1812,7 @@
     "subCategoryDescription": "Stainless Fittings & Deck Hardware products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 3306.06,
     "barcode": "9319786239032",
@@ -1839,7 +1822,7 @@
     "productWebSearchQuery": "\"381716\" \"Y ISOTHERM COMBI CRUISE 195 REFRIGERATOR 195L LEFT HINGE\"",
     "imageUrl": "../images/web-product-images/381716.webp"
   },
-  {
+  "381717": {
     "productNumber": "381717",
     "description": "ISOTHERM COMBI CRUISE 195 REFRIGERATOR 195L RIGHT HINGE",
     "brand": "",
@@ -1858,17 +1841,16 @@
     "subCategoryDescription": "Stainless Fittings & Deck Hardware products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/27/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 3306.06,
     "barcode": "9319786250181",
     "cataloguePage": 27,
-    "imageUrl": "../images/catalogue/product-photos/381717.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/381717.jpg",
     "catalogueDescription": "........... 930 381694............................................. 929 381696............................................. 929 381701............................................. 928 381705............................................. 928 381709............................................. 928 381710............................................. 928 381711............................................. 928 381714............................................. 932 381715............................................. 929 381717............................................. 927 381719............................................. 927 381720............................................. 933 381749............................................. 930 381752............................................. 930 381754............................................. 932 381834............................................. 936 381840............................................. 936 381843............................................. 936 381846................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/381717.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/381717.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/381717.jpg"
   },
-  {
+  "381719": {
     "productNumber": "381719",
     "description": "ISOTHERM CRUISE INOX 200 REFRIGERATOR&FREEZER 12/24V 150/50L",
     "brand": "",
@@ -1887,17 +1869,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/27/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 3325.58,
     "barcode": "8053670381032",
     "cataloguePage": 27,
-    "imageUrl": "../images/catalogue/product-photos/381719.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/381719.jpg",
     "catalogueDescription": "........... 929 381696............................................. 929 381701............................................. 928 381705............................................. 928 381709............................................. 928 381710............................................. 928 381711............................................. 928 381714............................................. 932 381715............................................. 929 381717............................................. 927 381719............................................. 927 381720............................................. 933 381749............................................. 930 381752............................................. 930 381754............................................. 932 381834............................................. 936 381840............................................. 936 381843............................................. 936 381846............................................. 935 381905................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/381719.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/381719.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/381719.jpg"
   },
-  {
+  "381720": {
     "productNumber": "381720",
     "description": "ISOTHERM ICEDRINK CLEAR ICE MAKER 23L 230V AC",
     "brand": "",
@@ -1916,17 +1897,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/27/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 1951.38,
     "barcode": "9319786113172",
     "cataloguePage": 27,
-    "imageUrl": "../images/catalogue/product-photos/381720.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/381720.jpg",
     "catalogueDescription": "........... 929 381701............................................. 928 381705............................................. 928 381709............................................. 928 381710............................................. 928 381711............................................. 928 381714............................................. 932 381715............................................. 929 381717............................................. 927 381719............................................. 927 381720............................................. 933 381749............................................. 930 381752............................................. 930 381754............................................. 932 381834............................................. 936 381840............................................. 936 381843............................................. 936 381846............................................. 935 381905............................................. 930 381906................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/381720.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/381720.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/381720.jpg"
   },
-  {
+  "381722": {
     "productNumber": "381722",
     "description": "ISOTHERM ICE MAKER INOX 12L 230V",
     "brand": "",
@@ -1945,7 +1925,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 1677.91,
     "barcode": "9319786467381",
@@ -1955,7 +1935,7 @@
     "productWebSearchQuery": "\"381722\" \"ISOTHERM ICE MAKER INOX 12L 230V\"",
     "imageUrl": "../images/web-product-images/381722.jpg"
   },
-  {
+  "381724": {
     "productNumber": "381724",
     "description": "ISOTHERM ICE MAKER WHITE INOX LOW PROFILE",
     "brand": "",
@@ -1974,7 +1954,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 1769.56,
     "barcode": "9319786467152",
@@ -1984,7 +1964,7 @@
     "productWebSearchQuery": "\"381724\" \"ISOTHERM ICE MAKER WHITE INOX LOW PROFILE\"",
     "imageUrl": "../images/web-product-images/381724.jpg"
   },
-  {
+  "381735": {
     "productNumber": "381735",
     "description": "ISOTHERM FRIDGE/FREEZER BUILT IN DUAL VOLTAGE 172/V",
     "brand": "Y",
@@ -2003,7 +1983,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 3612.06,
     "barcode": "9319786462966",
@@ -2013,7 +1993,7 @@
     "productWebSearchQuery": "\"381735\" \"Y ISOTHERM FRIDGE/FREEZER BUILT IN DUAL VOLTAGE 172/V\"",
     "imageUrl": "../images/web-product-images/381735.jpg"
   },
-  {
+  "381753": {
     "productNumber": "381753",
     "description": "ISOTHERM CRUISE CLASSIC TOTAL BLACK REFRIGERATOR DRINK 130L",
     "brand": "",
@@ -2032,7 +2012,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 1510.02,
     "barcode": "8057507153557",
@@ -2042,7 +2022,7 @@
     "productWebSearchQuery": "\"381753\" \"ISOTHERM CRUISE CLASSIC TOTAL BLACK REFRIGERATOR DRINK 130L\"",
     "imageUrl": "../images/web-product-images/381753.jpg"
   },
-  {
+  "381761": {
     "productNumber": "381761",
     "description": "ISOTHERM CRUISE CLASSIC TOTAL BLACK FRIDGE 49L",
     "brand": "",
@@ -2061,7 +2041,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 1073.66,
     "barcode": "",
@@ -2071,7 +2051,7 @@
     "productWebSearchQuery": "\"381761\" \"ISOTHERM CRUISE CLASSIC TOTAL BLACK FRIDGE 49L\"",
     "imageUrl": "../images/web-product-images/381761.jpg"
   },
-  {
+  "381763": {
     "productNumber": "381763",
     "description": "ISOTHERM CRUISE CLASSIC TOTAL BLACK FRIDGE 65L",
     "brand": "",
@@ -2090,7 +2070,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 1135.56,
     "barcode": "",
@@ -2100,7 +2080,7 @@
     "productWebSearchQuery": "\"381763\" \"ISOTHERM CRUISE CLASSIC TOTAL BLACK FRIDGE 65L\"",
     "imageUrl": "../images/web-product-images/381763.jpg"
   },
-  {
+  "381765": {
     "productNumber": "381765",
     "description": "ISOTHERM CRUISE CLASSIC TOTAL BLACK FRIDGE 85L",
     "brand": "",
@@ -2119,7 +2099,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 1251.26,
     "barcode": "",
@@ -2129,7 +2109,7 @@
     "productWebSearchQuery": "\"381765\" \"ISOTHERM CRUISE CLASSIC TOTAL BLACK FRIDGE 85L\"",
     "imageUrl": "../images/web-product-images/381765.jpg"
   },
-  {
+  "381767": {
     "productNumber": "381767",
     "description": "ISOTHERM CRUISE CLASSIC TOTAL BLACK FRIDGE 130L",
     "brand": "",
@@ -2148,7 +2128,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 1322.32,
     "barcode": "",
@@ -2158,7 +2138,7 @@
     "productWebSearchQuery": "\"381767\" \"ISOTHERM CRUISE CLASSIC TOTAL BLACK FRIDGE 130L\"",
     "imageUrl": "../images/web-product-images/381767.jpg"
   },
-  {
+  "381768": {
     "productNumber": "381768",
     "description": "ISOTHERM CRUISE CLASSIC TOTAL BLACK REFRIGERATOR 100L",
     "brand": "",
@@ -2177,7 +2157,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 1394.18,
     "barcode": "8057507153496",
@@ -2187,7 +2167,7 @@
     "productWebSearchQuery": "\"381768\" \"ISOTHERM CRUISE CLASSIC TOTAL BLACK REFRIGERATOR 100L\"",
     "imageUrl": "../images/web-product-images/381768.jpg"
   },
-  {
+  "381769": {
     "productNumber": "381769",
     "description": "ISOTHERM CRUISE CLASSIC TOTAL BLACK FRIDGE 200L",
     "brand": "",
@@ -2206,7 +2186,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 3060.04,
     "barcode": "8057507153632",
@@ -2216,7 +2196,7 @@
     "productWebSearchQuery": "\"381769\" \"ISOTHERM CRUISE CLASSIC TOTAL BLACK FRIDGE 200L\"",
     "imageUrl": "../images/web-product-images/381769.jpg"
   },
-  {
+  "381770": {
     "productNumber": "381770",
     "description": "ISOTHERM CRUISE CLASSIC TOTAL BLACK REFRIGERATOR 226L",
     "brand": "",
@@ -2235,7 +2215,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 2595.24,
     "barcode": "8057507150082",
@@ -2245,7 +2225,7 @@
     "productWebSearchQuery": "\"381770\" \"ISOTHERM CRUISE CLASSIC TOTAL BLACK REFRIGERATOR 226L\"",
     "imageUrl": "../images/web-product-images/381770.jpg"
   },
-  {
+  "381780": {
     "productNumber": "381780",
     "description": "ISOTHERM CRUISE CLASSIC TOTAL BLACK FREEZER 65L",
     "brand": "",
@@ -2264,7 +2244,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 1563.9,
     "barcode": "8057507153458",
@@ -2274,7 +2254,7 @@
     "productWebSearchQuery": "\"381780\" \"ISOTHERM CRUISE CLASSIC TOTAL BLACK FREEZER 65L\"",
     "imageUrl": "../images/web-product-images/381780.jpg"
   },
-  {
+  "381782": {
     "productNumber": "381782",
     "description": "ISOTHERM CRUISE CLASSIC TOTAL BLACK FREEZER 90L",
     "brand": "",
@@ -2293,7 +2273,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 1589.45,
     "barcode": "8057507153465",
@@ -2303,7 +2283,7 @@
     "productWebSearchQuery": "\"381782\" \"ISOTHERM CRUISE CLASSIC TOTAL BLACK FREEZER 90L\"",
     "imageUrl": "../images/web-product-images/381782.webp"
   },
-  {
+  "381830": {
     "productNumber": "381830",
     "description": "ISOTHERM COMPRESSOR UNIT BD35F 12/24V",
     "brand": "Y",
@@ -2322,7 +2302,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 710.17,
     "barcode": "9319786144701",
@@ -2332,7 +2312,7 @@
     "productWebSearchQuery": "\"381830\" \"Y ISOTHERM COMPRESSOR UNIT BD35F 12/24V\"",
     "imageUrl": "../images/web-product-images/381830.webp"
   },
-  {
+  "381834": {
     "productNumber": "381834",
     "description": "ISOTHERM COMPRESSOR UNIT BD50F 12/24V",
     "brand": "",
@@ -2351,17 +2331,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/27/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 913.07,
     "barcode": "9319786144718",
     "cataloguePage": 27,
-    "imageUrl": "../images/catalogue/product-photos/381834.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/381834.jpg",
     "catalogueDescription": "........... 928 381711............................................. 928 381714............................................. 932 381715............................................. 929 381717............................................. 927 381719............................................. 927 381720............................................. 933 381749............................................. 930 381752............................................. 930 381754............................................. 932 381834............................................. 936 381840............................................. 936 381843............................................. 936 381846............................................. 935 381905............................................. 930 381906............................................. 930 381907............................................. 930 381922............................................. 928 381924............................................. 928 381928................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/381834.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/381834.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/381834.jpg"
   },
-  {
+  "381840": {
     "productNumber": "381840",
     "description": "ISOTHERM ELECTRONIC CONTROL UNIT 12/24V DC",
     "brand": "",
@@ -2380,12 +2359,12 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/27/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 219.45,
     "barcode": "9319786144725",
     "cataloguePage": 27,
-    "imageUrl": "../images/bla-website-products/381840.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/381840.jpg",
     "catalogueDescription": "........... 928 381714............................................. 932 381715............................................. 929 381717............................................. 927 381719............................................. 927 381720............................................. 933 381749............................................. 930 381752............................................. 930 381754............................................. 932 381834............................................. 936 381840............................................. 936 381843............................................. 936 381846............................................. 935 381905............................................. 930 381906............................................. 930 381907............................................. 930 381922............................................. 928 381924............................................. 928 381928......................................928-929 381980....................",
     "productBlockImageUrl": "../images/catalogue/product-blocks/381840.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/isotherm-electronic-control-unit/",
@@ -2402,7 +2381,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/06/381840.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "381843": {
     "productNumber": "381843",
     "description": "ISOTHERM POWER PACK 100/240VAC 50/60HZ 24VDC AU PLUG",
     "brand": "",
@@ -2421,17 +2400,16 @@
     "subCategoryDescription": "Batteries, Charging & Solar products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/27/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 260.48,
     "barcode": "8056590828168",
     "cataloguePage": 27,
-    "imageUrl": "../images/catalogue/product-photos/381843.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/381843.jpg",
     "catalogueDescription": "........... 932 381715............................................. 929 381717............................................. 927 381719............................................. 927 381720............................................. 933 381749............................................. 930 381752............................................. 930 381754............................................. 932 381834............................................. 936 381840............................................. 936 381843............................................. 936 381846............................................. 935 381905............................................. 930 381906............................................. 930 381907............................................. 930 381922............................................. 928 381924............................................. 928 381928......................................928-929 381980............................................. 323 393100....................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/381843.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/381843.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/381843.jpg"
   },
-  {
+  "381844": {
     "productNumber": "381844",
     "description": "ISOTHERM SMART ENERGY CONTROL KIT",
     "brand": "Y",
@@ -2450,7 +2428,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 286.68,
     "barcode": "9319786419939",
@@ -2460,7 +2438,7 @@
     "productWebSearchQuery": "\"381844\" \"ISOTHERM SMART ENERGY CONTROL KIT\"",
     "imageUrl": "../images/web-product-images/381844.jpg"
   },
-  {
+  "381846": {
     "productNumber": "381846",
     "description": "ISOTHERM ITC DIGITAL DISPLAY KIT",
     "brand": "",
@@ -2479,12 +2457,12 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/27/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 297.2,
     "barcode": "9319786432624",
     "cataloguePage": 27,
-    "imageUrl": "../images/bla-website-products/381846.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/381846.jpg",
     "catalogueDescription": "........... 929 381717............................................. 927 381719............................................. 927 381720............................................. 933 381749............................................. 930 381752............................................. 930 381754............................................. 932 381834............................................. 936 381840............................................. 936 381843............................................. 936 381846............................................. 935 381905............................................. 930 381906............................................. 930 381907............................................. 930 381922............................................. 928 381924............................................. 928 381928......................................928-929 381980............................................. 323 393100............................................. 951 393102....................",
     "productBlockImageUrl": "../images/catalogue/product-blocks/381846.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/isotherm-itc-digital-display-kit/",
@@ -2501,7 +2479,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/06/381846.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "381868": {
     "productNumber": "381868",
     "description": "ISOTHERM EVAPORATOR PLATE FLAT 815X210MM",
     "brand": "Y",
@@ -2520,7 +2498,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 405.82,
     "barcode": "8056039158214",
@@ -2530,7 +2508,7 @@
     "productWebSearchQuery": "\"381868\" \"Y ISOTHERM EVAPORATOR PLATE FLAT 815X210MM\"",
     "imageUrl": "../images/web-product-images/381868.jpg"
   },
-  {
+  "381872": {
     "productNumber": "381872",
     "description": "ISOTHERM EVAPORATOR PLATE FLAT 1000X270MM",
     "brand": "Y",
@@ -2549,7 +2527,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 426.86,
     "barcode": "8056039158122",
@@ -2559,7 +2537,7 @@
     "productWebSearchQuery": "\"381872\" \"Y ISOTHERM EVAPORATOR PLATE FLAT 1000X270MM\"",
     "imageUrl": "../images/web-product-images/381872.png"
   },
-  {
+  "381876": {
     "productNumber": "381876",
     "description": "ISOTHERM EVAPORATOR PLATE FLAT 1200X190MM",
     "brand": "Y",
@@ -2578,7 +2556,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 435.89,
     "barcode": "8056039158177",
@@ -2588,7 +2566,7 @@
     "productWebSearchQuery": "\"381876\" \"Y ISOTHERM EVAPORATOR PLATE FLAT 1200X190MM\"",
     "imageUrl": "../images/web-product-images/381876.png"
   },
-  {
+  "381880": {
     "productNumber": "381880",
     "description": "ISOTHERM EVAPORATOR PLATE FLAT 1370X300MM",
     "brand": "Y",
@@ -2607,7 +2585,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 405.82,
     "barcode": "8056039158054",
@@ -2617,7 +2595,7 @@
     "productWebSearchQuery": "\"381880\" \"Y ISOTHERM EVAPORATOR PLATE FLAT 1370X300MM\"",
     "imageUrl": "../images/web-product-images/381880.png"
   },
-  {
+  "381896": {
     "productNumber": "381896",
     "description": "ISOTHERM EVAPORATOR SMALL O 210X240X95MM",
     "brand": "Y",
@@ -2636,7 +2614,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 336.69,
     "barcode": "8056039158221",
@@ -2646,7 +2624,7 @@
     "productWebSearchQuery": "\"381896\" \"Y ISOTHERM EVAPORATOR SMALL O 210X240X95MM\"",
     "imageUrl": "../images/web-product-images/381896.jpg"
   },
-  {
+  "381898": {
     "productNumber": "381898",
     "description": "ISOTHERM EVAPORATOR LARGE O 270X380X140MM",
     "brand": "Y",
@@ -2665,7 +2643,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 405.82,
     "barcode": "8056039158245",
@@ -2675,7 +2653,7 @@
     "productWebSearchQuery": "\"381898\" \"Y ISOTHERM EVAPORATOR LARGE O 270X380X140MM\"",
     "imageUrl": "../images/web-product-images/381898.jpg"
   },
-  {
+  "381903": {
     "productNumber": "381903",
     "description": "ISOTHERM PROUD MOUNT FIXING FRAME SUIT CRUISE 42/49",
     "brand": "Y",
@@ -2694,12 +2672,12 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/959/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 73.46,
     "barcode": "8056039157996",
     "cataloguePage": 959,
-    "imageUrl": "../images/bla-website-products/381903.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/381903.jpg",
     "catalogueDescription": "egetable bins. Isotherm Refrigerator and Freezer - Cruise Silver 280 The CR280 Silver is a two door fridge-freezer unit with a combination of a 238L refrigerator and a 42L Freezer. The CR280 is equipped with a BD50F compressor, LED interior light, 4 shelves and 2 vegetable bins. BLA Code Volume L Dimensions H x W x D mm 381696 280 1700 x 547 x 486 H W D H W D BLA Code Volume Fridge L Dimensions H x W x D mm 381694 225 1444 x 540 x 506 BLA Code Volume L Dimensions H x W x D mm 381655 49 523 x 386 x 450 Accessories: 381903 Installation frame Isotherm\u00ae Refrigerator - Cruise 49 The Isotherm Cruise 49 is one of the most popular-sized refrigerators in the marine market. Its compact size fits most boats yet it has the storage capacity to stand large bottles of champagne, wine, and soft drinks inside the fridge and on the door. It features a 4L freezer compartment and a built in compressor for better internal dimensions. H W D H W D Isotherm Refrigerator - Cruise 130 Inox Clean Touch The CR 130 Inox Clean Touch is the stainless steel desi",
     "productBlockImageUrl": "../images/catalogue/product-blocks/381903.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/installation-frame-5/",
@@ -2716,7 +2694,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/07/No_image.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "381905": {
     "productNumber": "381905",
     "description": "ISOTHERM PROUD MOUNT FIXING FRAME SUIT CRUISE 65",
     "brand": "",
@@ -2735,12 +2713,12 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/27/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 57.5,
     "barcode": "8056039158009",
     "cataloguePage": 27,
-    "imageUrl": "../images/bla-website-products/381905.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/381905.jpg",
     "catalogueDescription": "........... 927 381719............................................. 927 381720............................................. 933 381749............................................. 930 381752............................................. 930 381754............................................. 932 381834............................................. 936 381840............................................. 936 381843............................................. 936 381846............................................. 935 381905............................................. 930 381906............................................. 930 381907............................................. 930 381922............................................. 928 381924............................................. 928 381928......................................928-929 381980............................................. 323 393100............................................. 951 393102............................................. 951 393104....................",
     "productBlockImageUrl": "../images/catalogue/product-blocks/381905.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/installation-frame-2/",
@@ -2757,7 +2735,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/07/No_image.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "381906": {
     "productNumber": "381906",
     "description": "ISOTHERM SIDE MOUNT FIXING FRAME SUIT CRUISE 85",
     "brand": "Y",
@@ -2776,12 +2754,12 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/27/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 31.94,
     "barcode": "9319786239087",
     "cataloguePage": 27,
-    "imageUrl": "../images/bla-website-products/381906.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/381906.jpg",
     "catalogueDescription": "........... 927 381720............................................. 933 381749............................................. 930 381752............................................. 930 381754............................................. 932 381834............................................. 936 381840............................................. 936 381843............................................. 936 381846............................................. 935 381905............................................. 930 381906............................................. 930 381907............................................. 930 381922............................................. 928 381924............................................. 928 381928......................................928-929 381980............................................. 323 393100............................................. 951 393102............................................. 951 393104............................................. 951 393106....................",
     "productBlockImageUrl": "../images/catalogue/product-blocks/381906.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/installation-frame/",
@@ -2798,7 +2776,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/07/No_image.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "381907": {
     "productNumber": "381907",
     "description": "ISOTHERM SIDE MOUNT FIXING FRAME SUIT CRUISE 100/120",
     "brand": "Y",
@@ -2817,12 +2795,12 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/27/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 54.3,
     "barcode": "9319786238981",
     "cataloguePage": 27,
-    "imageUrl": "../images/bla-website-products/381907.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/381907.jpg",
     "catalogueDescription": "........... 933 381749............................................. 930 381752............................................. 930 381754............................................. 932 381834............................................. 936 381840............................................. 936 381843............................................. 936 381846............................................. 935 381905............................................. 930 381906............................................. 930 381907............................................. 930 381922............................................. 928 381924............................................. 928 381928......................................928-929 381980............................................. 323 393100............................................. 951 393102............................................. 951 393104............................................. 951 393106............................................. 951 393108....................",
     "productBlockImageUrl": "../images/catalogue/product-blocks/381907.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/installation-frame-4/",
@@ -2839,7 +2817,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/07/No_image.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "381908": {
     "productNumber": "381908",
     "description": "ISOTHERM INTERNAL LIGHT KIT",
     "brand": "",
@@ -2877,7 +2855,7 @@
     "imageUrl": "../images/bla-website-products/381908.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "381909": {
     "productNumber": "381909",
     "description": "ISOTHERM PROUD MOUNT FIXING FRAME SUIT CRUISE 130",
     "brand": "Y",
@@ -2896,7 +2874,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 107.09,
     "barcode": "8056039158016",
@@ -2915,7 +2893,7 @@
     "imageUrl": "../images/bla-website-products/381909.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "381912": {
     "productNumber": "381912",
     "description": "ISOTHERM FLUSH MOUNT FIXING FRAME SUIT CRUISE 90/130",
     "brand": "Y",
@@ -2934,7 +2912,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 242.36,
     "barcode": "9319786297667",
@@ -2953,7 +2931,7 @@
     "imageUrl": "../images/bla-website-products/381912.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "381914": {
     "productNumber": "381914",
     "description": "ISOTHERM EXTENSION TUBES REFRIGERANT PRE-GASSED 3M PR",
     "brand": "Y",
@@ -2972,7 +2950,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 374.81,
     "barcode": "8056590822050",
@@ -2982,7 +2960,7 @@
     "productWebSearchQuery": "\"381914\" \"Y ISOTHERM EXTENSION TUBES REFRIGERANT PRE-GASSED 3M PR\"",
     "imageUrl": "../images/web-product-images/381914.png"
   },
-  {
+  "381922": {
     "productNumber": "381922",
     "description": "ISOTHERM LOWER FLUSH MOUNT FIXING FRAME SUIT CRUISE 49 INOX",
     "brand": "Y",
@@ -3001,12 +2979,12 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/27/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 70.27,
     "barcode": "8056039158023",
     "cataloguePage": 27,
-    "imageUrl": "../images/bla-website-products/381922.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/381922.jpg",
     "catalogueDescription": "........... 930 381752............................................. 930 381754............................................. 932 381834............................................. 936 381840............................................. 936 381843............................................. 936 381846............................................. 935 381905............................................. 930 381906............................................. 930 381907............................................. 930 381922............................................. 928 381924............................................. 928 381928......................................928-929 381980............................................. 323 393100............................................. 951 393102............................................. 951 393104............................................. 951 393106............................................. 951 393108............................................. 951 393110....................",
     "productBlockImageUrl": "../images/catalogue/product-blocks/381922.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/lower-flush-mount-flange-2/",
@@ -3023,7 +3001,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/07/No_image.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "381924": {
     "productNumber": "381924",
     "description": "ISOTHERM LOWER FLUSH MOUNT FIXING FRAME SUIT CRUISE 65 INOX",
     "brand": "",
@@ -3042,12 +3020,12 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/27/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 35.14,
     "barcode": "8056039152595",
     "cataloguePage": 27,
-    "imageUrl": "../images/bla-website-products/381924.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/381924.jpg",
     "catalogueDescription": "........... 930 381754............................................. 932 381834............................................. 936 381840............................................. 936 381843............................................. 936 381846............................................. 935 381905............................................. 930 381906............................................. 930 381907............................................. 930 381922............................................. 928 381924............................................. 928 381928......................................928-929 381980............................................. 323 393100............................................. 951 393102............................................. 951 393104............................................. 951 393106............................................. 951 393108............................................. 951 393110............................................. 950 393112....................",
     "productBlockImageUrl": "../images/catalogue/product-blocks/381924.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/lower-flush-mount-flange-4/",
@@ -3064,7 +3042,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/07/No_image.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "381926": {
     "productNumber": "381926",
     "description": "ISOTHERM LOWER FLUSH MOUNT FIXING FRAME SUIT CRUISE 85 INOX",
     "brand": "",
@@ -3083,7 +3061,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 38.33,
     "barcode": "8056039155930",
@@ -3102,7 +3080,7 @@
     "imageUrl": "../images/bla-website-products/381926.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "381928": {
     "productNumber": "381928",
     "description": "ISOTHERM LOWER FLUSH MOUNT FIXING FRAME SUIT CRUISE 130 INOX",
     "brand": "Y",
@@ -3121,12 +3099,12 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/27/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 38.33,
     "barcode": "8056039158030",
     "cataloguePage": 27,
-    "imageUrl": "../images/bla-website-products/381928.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/381928.jpg",
     "catalogueDescription": "........... 932 381834............................................. 936 381840............................................. 936 381843............................................. 936 381846............................................. 935 381905............................................. 930 381906............................................. 930 381907............................................. 930 381922............................................. 928 381924............................................. 928 381928......................................928-929 381980............................................. 323 393100............................................. 951 393102............................................. 951 393104............................................. 951 393106............................................. 951 393108............................................. 951 393110............................................. 950 393112............................................. 950 393114....................",
     "productBlockImageUrl": "../images/catalogue/product-blocks/381928.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/lower-flush-mount-flange/",
@@ -3143,7 +3121,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/07/No_image.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "381940": {
     "productNumber": "381940",
     "description": "ISOTHERM HANDLE DOOR COMPARTMENT KIT SUIT CRUISE",
     "brand": "Y",
@@ -3162,7 +3140,7 @@
     "subCategoryDescription": "Stainless Fittings & Deck Hardware products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 25.36,
     "barcode": "9319786146323",
@@ -3172,7 +3150,7 @@
     "productWebSearchQuery": "\"381940\" \"Y ISOTHERM HANDLE DOOR COMPARTMENT KIT SUIT CRUISE\"",
     "imageUrl": "../images/web-product-images/381940.jpg"
   },
-  {
+  "381950": {
     "productNumber": "381950",
     "description": "ISOTHERM FRIDGE OR FREEZER BUILT-IN DUAL BI-92/V",
     "brand": "Y",
@@ -3191,7 +3169,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 3159.1,
     "barcode": "",
@@ -3201,7 +3179,7 @@
     "productWebSearchQuery": "\"381950\" \"Y ISOTHERM FRIDGE OR FREEZER BUILT-IN DUAL BI-92/V\"",
     "imageUrl": "../images/web-product-images/381950.jpg"
   },
-  {
+  "381980": {
     "productNumber": "381980",
     "description": "ISOTHERM GASKET KIT SUIT BASIC/SLIM",
     "brand": "",
@@ -3220,12 +3198,12 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/353/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 42.27,
     "barcode": "9319786351437",
     "cataloguePage": 353,
-    "imageUrl": "../images/bla-website-products/381980.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/381980.jpg",
     "catalogueDescription": "hoses from both engine cooling system and fresh water supply to Isotemp Slim and Basic water heaters. Kit includes 2 x 16mm barbed tails with 1\u20442\" BSP internal thread, 2 x 13mm straight tails with 1/2\" BSP internal thread and 1 x 13mm barbed tail with 1/2\" BSPM external thread. The engine connection tails accept 16mm hose and the fresh water connections accept 13mm hose. BLA Code 135640 BLA Code 135728 Accessories 135730 15mm Brass 'T' BLA Code Description Volts Watt 135720 Replacement element 240 750 Accessories: 381980 Gasket kit Whale\u00ae Heater Connector Stainless steel reinforced heater hose installed between water heater outlet and system 15 plumbing. 1/2\" NPT external thread one end and 1/2\" NPT internal thread the other. 400mm in length. BLA Code 136663 135700 135692 135704 381980",
     "productBlockImageUrl": "../images/catalogue/product-blocks/381980.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/isotherm-immersion-heater-element-gasket-kit/",
@@ -3242,7 +3220,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/07/No_image.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "381990": {
     "productNumber": "381990",
     "description": "ISOTHERM MODEL X QUICK COUPLING FEMALE",
     "brand": "Y",
@@ -3261,7 +3239,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 59.18,
     "barcode": "8056039155749",
@@ -3271,7 +3249,7 @@
     "productWebSearchQuery": "\"381990\" \"Y ISOTHERM MODEL X QUICK COUPLING FEMALE\"",
     "imageUrl": "../images/web-product-images/381990.webp"
   },
-  {
+  "381992": {
     "productNumber": "381992",
     "description": "ISOTHERM MODEL X QUICK COUPLING MALE",
     "brand": "Y",
@@ -3290,7 +3268,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 67.63,
     "barcode": "8056039155756",
@@ -3300,7 +3278,7 @@
     "productWebSearchQuery": "\"381992\" \"Y ISOTHERM MODEL X QUICK COUPLING MALE\"",
     "imageUrl": "../images/web-product-images/381992.webp"
   },
-  {
+  "381994": {
     "productNumber": "381994",
     "description": "ISOTHERM WINE CELLAR DIVINO 23",
     "brand": "",
@@ -3319,7 +3297,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 8,
+    "estimatedWeightKg": 8.0,
     "freightAud": 38.4,
     "exportAudExGst": 2795.9,
     "barcode": "9319786467176",
@@ -3329,4 +3307,4 @@
     "productWebSearchQuery": "\"381994\" \"ISOTHERM WINE CELLAR DIVINO 23\"",
     "imageUrl": "../images/web-product-images/381994.png"
   }
-]
+}

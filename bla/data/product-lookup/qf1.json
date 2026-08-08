@@ -1,1 +1,40 @@
-[{"productNumber":"QF197787Q3","description":"QUICKSILVER CONNECTOR FORCE FUEL TANK END FEMALE","brand":"Y","variant":"PC","price":136.76,"unitCostOfSale":78.68,"categoryName":"Pumps, Plumbing & Galley","topCategory":"Pumps, Plumbing & Galley","subCategoryName":"Toilets, Plumbing & Galley","subCategory":"M - Marine Supplies","pricingCategoryUsed":"M - Marine Supplies","categoryImage":"../images/catalogue/pages/page0285.jpg","subCategoryImage":"../images/catalogue/pages/page0285.jpg","catalogueImageUrl":"../images/catalogue/bla-edition-15-cover.jpg","categoryDescription":"Pumps, Plumbing & Galley from the BLA Australia Edition 15 catalogue.","subCategoryDescription":"Toilets, Plumbing & Galley products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.","sourceUrl":"","printCatalogueUrl":"https://online.flippingbook.com/view/328167/","estimatedWeightKg":1,"freightAud":4.8,"exportAudExGst":42.41,"barcode":"745061035539","blaWebsiteUrl":"https://bla.com.au/product/quicksilver-quick-disconnect-engine-end-4/","websiteDescription":"Engine end fits Force 5HP, and fits 9.9/15 (1997 and prior) and 25HP (3 cyl., 1997 and prior). Priced individually, sold in multiples of 2. Quicksilver branded, clamshell package point of sale packaged.","blaWebsiteCategories":["Engine Parts","Outboard, Fuel Fittings & Propellers"],"blaWebsiteBrands":["Quicksilver"],"blaWebsiteProductId":50903,"productWebsiteImageUrl":"../images/bla-website-products/QF197787Q3.jpg","productWebsiteImageSourceUrl":"https://bla.com.au/wp-content/uploads/2020/07/QF197787Q3.jpg","imageUrl":"../images/bla-website-products/QF197787Q3.jpg","productWebsiteImageDownloaded":true}]
+{
+  "QF197787Q3": {
+    "productNumber": "QF197787Q3",
+    "description": "QUICKSILVER CONNECTOR FORCE FUEL TANK END FEMALE",
+    "brand": "Y",
+    "variant": "PC",
+    "price": 136.76,
+    "unitCostOfSale": 78.68,
+    "categoryName": "Pumps, Plumbing & Galley",
+    "topCategory": "Pumps, Plumbing & Galley",
+    "subCategoryName": "Toilets, Plumbing & Galley",
+    "subCategory": "M - Marine Supplies",
+    "pricingCategoryUsed": "M - Marine Supplies",
+    "categoryImage": "../images/catalogue/pages/page0285.jpg",
+    "subCategoryImage": "../images/catalogue/pages/page0285.jpg",
+    "catalogueImageUrl": "../images/catalogue/bla-edition-15-cover.jpg",
+    "categoryDescription": "Pumps, Plumbing & Galley from the BLA Australia Edition 15 catalogue.",
+    "subCategoryDescription": "Toilets, Plumbing & Galley products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
+    "sourceUrl": "",
+    "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
+    "estimatedWeightKg": 1.0,
+    "freightAud": 4.8,
+    "exportAudExGst": 42.41,
+    "barcode": "745061035539",
+    "blaWebsiteUrl": "https://bla.com.au/product/quicksilver-quick-disconnect-engine-end-4/",
+    "websiteDescription": "Engine end fits Force 5HP, and fits 9.9/15 (1997 and prior) and 25HP (3 cyl., 1997 and prior). Priced individually, sold in multiples of 2. Quicksilver branded, clamshell package point of sale packaged.",
+    "blaWebsiteCategories": [
+      "Engine Parts",
+      "Outboard, Fuel Fittings & Propellers"
+    ],
+    "blaWebsiteBrands": [
+      "Quicksilver"
+    ],
+    "blaWebsiteProductId": 50903,
+    "productWebsiteImageUrl": "../images/bla-website-products/QF197787Q3.jpg",
+    "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/07/QF197787Q3.jpg",
+    "imageUrl": "../images/bla-website-products/QF197787Q3.jpg",
+    "productWebsiteImageDownloaded": true
+  }
+}

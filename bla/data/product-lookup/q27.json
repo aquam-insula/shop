@@ -1,1 +1,31 @@
-[{"productNumber":"Q27290","description":"QUICKSILVER RETAINER MERCURY RING","brand":"Y","variant":"PC","price":22.07,"unitCostOfSale":11.22,"categoryName":"Tools & Chandlery","topCategory":"Tools & Chandlery","subCategoryName":"General Marine Supplies","subCategory":"M - Marine Supplies","pricingCategoryUsed":"M - Marine Supplies","categoryImage":"../images/catalogue/pages/page0481.jpg","subCategoryImage":"../images/catalogue/pages/page0481.jpg","catalogueImageUrl":"../images/catalogue/bla-edition-15-cover.jpg","categoryDescription":"Tools & Chandlery from the BLA Australia Edition 15 catalogue.","subCategoryDescription":"General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.","sourceUrl":"","printCatalogueUrl":"https://online.flippingbook.com/view/328167/","estimatedWeightKg":1,"freightAud":4.8,"exportAudExGst":1.93,"barcode":"745061132641","productWebSearchImageUrl":"../images/web-product-images/Q27290.jpg","productWebSearchImageSourceUrl":"https://assets.suredone.com/2479/media-photos/gb706044191-9e76e637fdb0b910a1732061df3d9ab4b0048c34-2.jpeg","productWebSearchImageSourcePage":"","productWebSearchQuery":"\"Q27290\" \"QUICKSILVER RETAINER MERCURY RING\"","imageUrl":"../images/web-product-images/Q27290.jpg"}]
+{
+  "Q27290": {
+    "productNumber": "Q27290",
+    "description": "QUICKSILVER RETAINER MERCURY RING",
+    "brand": "Y",
+    "variant": "PC",
+    "price": 22.07,
+    "unitCostOfSale": 11.22,
+    "categoryName": "Tools & Chandlery",
+    "topCategory": "Tools & Chandlery",
+    "subCategoryName": "General Marine Supplies",
+    "subCategory": "M - Marine Supplies",
+    "pricingCategoryUsed": "M - Marine Supplies",
+    "categoryImage": "../images/catalogue/pages/page0481.jpg",
+    "subCategoryImage": "../images/catalogue/pages/page0481.jpg",
+    "catalogueImageUrl": "../images/catalogue/bla-edition-15-cover.jpg",
+    "categoryDescription": "Tools & Chandlery from the BLA Australia Edition 15 catalogue.",
+    "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
+    "sourceUrl": "",
+    "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
+    "estimatedWeightKg": 1.0,
+    "freightAud": 4.8,
+    "exportAudExGst": 1.93,
+    "barcode": "745061132641",
+    "productWebSearchImageUrl": "../images/web-product-images/Q27290.jpg",
+    "productWebSearchImageSourceUrl": "https://assets.suredone.com/2479/media-photos/gb706044191-9e76e637fdb0b910a1732061df3d9ab4b0048c34-2.jpeg",
+    "productWebSearchImageSourcePage": "",
+    "productWebSearchQuery": "\"Q27290\" \"QUICKSILVER RETAINER MERCURY RING\"",
+    "imageUrl": "../images/web-product-images/Q27290.jpg"
+  }
+}

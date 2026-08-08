@@ -1,1 +1,31 @@
-[{"productNumber":"Q78690002","description":"QUICKSILVER GASKET MERCURY","brand":"","variant":"PC","price":24,"unitCostOfSale":12.35,"categoryName":"Tools & Chandlery","topCategory":"Tools & Chandlery","subCategoryName":"General Marine Supplies","subCategory":"M - Marine Supplies","pricingCategoryUsed":"M - Marine Supplies","categoryImage":"../images/catalogue/pages/page0481.jpg","subCategoryImage":"../images/catalogue/pages/page0481.jpg","catalogueImageUrl":"../images/catalogue/bla-edition-15-cover.jpg","categoryDescription":"Tools & Chandlery from the BLA Australia Edition 15 catalogue.","subCategoryDescription":"General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.","sourceUrl":"","printCatalogueUrl":"https://online.flippingbook.com/view/328167/","estimatedWeightKg":1,"freightAud":4.8,"exportAudExGst":2.61,"barcode":"745061590328","productWebSearchImageUrl":"../images/web-product-images/Q78690002.jpg","productWebSearchImageSourceUrl":"https://media.maxmarineelectronics.com/maxmarine/wp-content/uploads/2019/02/01131302/sc-rgg-t-t-thyj-iki-u-jy-ht5-26.jpg","productWebSearchImageSourcePage":"","productWebSearchQuery":"\"Q78690002\" \"QUICKSILVER GASKET MERCURY\"","imageUrl":"../images/web-product-images/Q78690002.jpg"}]
+{
+  "Q78690002": {
+    "productNumber": "Q78690002",
+    "description": "QUICKSILVER GASKET MERCURY",
+    "brand": "",
+    "variant": "PC",
+    "price": 24.0,
+    "unitCostOfSale": 12.35,
+    "categoryName": "Tools & Chandlery",
+    "topCategory": "Tools & Chandlery",
+    "subCategoryName": "General Marine Supplies",
+    "subCategory": "M - Marine Supplies",
+    "pricingCategoryUsed": "M - Marine Supplies",
+    "categoryImage": "../images/catalogue/pages/page0481.jpg",
+    "subCategoryImage": "../images/catalogue/pages/page0481.jpg",
+    "catalogueImageUrl": "../images/catalogue/bla-edition-15-cover.jpg",
+    "categoryDescription": "Tools & Chandlery from the BLA Australia Edition 15 catalogue.",
+    "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
+    "sourceUrl": "",
+    "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
+    "estimatedWeightKg": 1.0,
+    "freightAud": 4.8,
+    "exportAudExGst": 2.61,
+    "barcode": "745061590328",
+    "productWebSearchImageUrl": "../images/web-product-images/Q78690002.jpg",
+    "productWebSearchImageSourceUrl": "https://media.maxmarineelectronics.com/maxmarine/wp-content/uploads/2019/02/01131302/sc-rgg-t-t-thyj-iki-u-jy-ht5-26.jpg",
+    "productWebSearchImageSourcePage": "",
+    "productWebSearchQuery": "\"Q78690002\" \"QUICKSILVER GASKET MERCURY\"",
+    "imageUrl": "../images/web-product-images/Q78690002.jpg"
+  }
+}

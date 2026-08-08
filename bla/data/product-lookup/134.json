@@ -1,5 +1,5 @@
-[
-  {
+{
+  "134004": {
     "productNumber": "134004",
     "description": "WHALE TUCKAWAY FAUCET",
     "brand": "",
@@ -18,20 +18,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/347/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 28.64,
     "barcode": "766478127600",
     "cataloguePage": 347,
-    "imageUrl": "../images/web-product-images/134004.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/134004.jpg",
     "catalogueDescription": "PUMPS, PLUMBING & GALLEY 317 13 BOATING LIFESTYLE ADVENTURE Whale\u00ae The Elegance Range Suitable for pressure or micro switched systems. Use 136639 adaptor for connection to Whale\u00ae System 15 pipework. Features: \u2022 Microswitch supplied with 134100, 134004 and 134102 is easily installed without tools. Turns on and off non pressure pumps with turn of tap \u2022 Pillar valve for fine flow control \u2022 Internal joints and seals are not under pressure when taps are closed \u2022 Available as single or mixer units \u2022 Robust ABS construction \u2022 Elegance faucets and showers are serviceable, they are not sealed units Whale\u00ae Combination Faucet Showers The swivelling faucet features a socket base unit with a retractable hose that enables use as a faucet or shower. Water flow can be temporar",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/134004.jpg",
-    "productWebSearchImageUrl": "../images/web-product-images/134004.jpg",
-    "productWebSearchImageSourceUrl": "https://www.boathut.com.au/boathutbasel/wp-content/uploads/2017/01/134004-600x516.jpg",
-    "productWebSearchImageSourcePage": "",
-    "productWebSearchQuery": "\"134004\" \"WHALE TUCKAWAY FAUCET\""
+    "productBlockImageUrl": "../images/catalogue/product-blocks/134004.jpg"
   },
-  {
+  "134006": {
     "productNumber": "134006",
     "description": "WHALE TELESCOPIC FAUCET",
     "brand": "",
@@ -50,20 +46,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/351/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 21.87,
     "barcode": "766478115201",
     "cataloguePage": 351,
-    "imageUrl": "../images/web-product-images/134006.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/134006.jpg",
     "catalogueDescription": "NTURE Telescopic Faucet For use with foot operated galley pumps and non-pressurised electric galley pumps. Twist on/off valve. 20mm mount hole. Suits 10 and 13mm hose. Whale\u00ae Tuckaway and Telescopic Faucets Simple and lightweight Whale\u00ae faucets. Easy to install and available with an optional on/off valve. For use with Whale\u00ae foot or non-pressurised electric pumps. Moulded acetal and anodised aluminium construction. Suits 10 and 13mm hose. BLA Code 134018 BLA Code Style On/Off Valve Colour 134004 Tuckaway Yes White 134006 Telescopic No White 134006 134004",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/134006.jpg",
-    "productWebSearchImageUrl": "../images/web-product-images/134006.jpg",
-    "productWebSearchImageSourceUrl": "https://cdn11.bigcommerce.com/s-ydm181c/images/stencil/2560w/products/12477/26251/whale-telescopic-faucet-134006-6794__62615.1580139449.jpg?c=2",
-    "productWebSearchImageSourcePage": "",
-    "productWebSearchQuery": "\"134006\" \"WHALE TELESCOPIC FAUCET\""
+    "productBlockImageUrl": "../images/catalogue/product-blocks/134006.jpg"
   },
-  {
+  "134008": {
     "productNumber": "134008",
     "description": "WHALE TELESCOPIC FAUCET WITH VALVE",
     "brand": "Y",
@@ -82,7 +74,7 @@
     "subCategoryDescription": "Toilets, Plumbing & Galley products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 27.02,
     "barcode": "766478116000",
@@ -92,7 +84,7 @@
     "productWebSearchQuery": "\"134008\" \"Y WHALE TELESCOPIC FAUCET WITH VALVE\"",
     "imageUrl": "../images/web-product-images/134008.jpg"
   },
-  {
+  "134018": {
     "productNumber": "134018",
     "description": "BLA FAUCET TELESCOPIC ON/OFF VALVE",
     "brand": "Bla",
@@ -111,12 +103,12 @@
     "subCategoryDescription": "Toilets, Plumbing & Galley products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/351/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 13.49,
     "barcode": "9319786010075",
     "cataloguePage": 351,
-    "imageUrl": "../images/bla-website-products/134018.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/134018.jpg",
     "catalogueDescription": "PUMPS, PLUMBING & GALLEY 321 13 BOATING LIFESTYLE ADVENTURE Telescopic Faucet For use with foot operated galley pumps and non-pressurised electric galley pumps. Twist on/off valve. 20mm mount hole. Suits 10 and 13mm hose. Whale\u00ae Tuckaway and Telescopic Faucets Simple and lightweight Whale\u00ae faucets. Easy to install and available with an optional on/off valve. For use with Whale\u00ae foot or non-pressurised electric pumps. Moulded acetal and anodised aluminium construction. Suits 10 and 13mm hose. BLA Code 134018 BLA Code Style On/Off Valve Colour 134004 Tuckaway Yes White 134006 Telescopic No White 134006 134004",
     "productBlockImageUrl": "../images/catalogue/product-blocks/134018.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/telescopic-faucet/",
@@ -133,7 +125,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/07/No_image.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "134100": {
     "productNumber": "134100",
     "description": "WHALE ELEGANCE FAUCET SINGLE",
     "brand": "",
@@ -152,12 +144,12 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/347/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 68.37,
     "barcode": "766478942500",
     "cataloguePage": 347,
-    "imageUrl": "../images/bla-website-products/134100.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/134100.jpg",
     "catalogueDescription": "PUMPS, PLUMBING & GALLEY 317 13 BOATING LIFESTYLE ADVENTURE Whale\u00ae The Elegance Range Suitable for pressure or micro switched systems. Use 136639 adaptor for connection to Whale\u00ae System 15 pipework. Features: \u2022 Microswitch supplied with 134100, 134004 and 134102 is easily installed without tools. Turns on and off non pressure pumps with turn of tap \u2022 Pillar valve for fine flow control \u2022 Internal joints and seals are not under pressure when taps are closed \u2022 Available as single or mixer units \u2022 Robust ABS construction \u2022 Elegance faucets and showers are serviceable, they are not sealed units Whale\u00ae Combination Faucet Showers The swivelling faucet features a socket base unit with a retractable hose that enables use as a faucet or shower. Water flow can be",
     "productBlockImageUrl": "../images/catalogue/product-blocks/134100.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/whale-single-faucet-tap/",
@@ -174,7 +166,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2021/01/134100.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "134102": {
     "productNumber": "134102",
     "description": "WHALE ELEGANCE FAUCET MIXER",
     "brand": "",
@@ -193,20 +185,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/347/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 93.82,
     "barcode": "766478942548",
     "cataloguePage": 347,
-    "imageUrl": "../images/web-product-images/134102.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/134102.jpg",
     "catalogueDescription": "PUMPS, PLUMBING & GALLEY 317 13 BOATING LIFESTYLE ADVENTURE Whale\u00ae The Elegance Range Suitable for pressure or micro switched systems. Use 136639 adaptor for connection to Whale\u00ae System 15 pipework. Features: \u2022 Microswitch supplied with 134100, 134004 and 134102 is easily installed without tools. Turns on and off non pressure pumps with turn of tap \u2022 Pillar valve for fine flow control \u2022 Internal joints and seals are not under pressure when taps are closed \u2022 Available as single or mixer units \u2022 Robust ABS construction \u2022 Elegance faucets and showers are serviceable, they are not sealed units Whale\u00ae Combination Faucet Showers The swivelling faucet features a socket base unit with a retractable hose that enables use as a faucet or shower. Water flow can be temporarily shut of",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/134102.jpg",
-    "productWebSearchImageUrl": "../images/web-product-images/134102.jpg",
-    "productWebSearchImageSourceUrl": "https://www.boathut.com.au/boathutbasel/wp-content/uploads/2017/01/134102-600x450.jpg",
-    "productWebSearchImageSourcePage": "",
-    "productWebSearchQuery": "\"134102\" \"WHALE ELEGANCE FAUCET MIXER\""
+    "productBlockImageUrl": "../images/catalogue/product-blocks/134102.jpg"
   },
-  {
+  "134104": {
     "productNumber": "134104",
     "description": "WHALE ELEGANCE FAUCET MIXER LONG",
     "brand": "",
@@ -225,20 +213,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/347/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 88.48,
     "barcode": "766478200709",
     "cataloguePage": 347,
-    "imageUrl": "../images/web-product-images/134104.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/134104.jpg",
     "catalogueDescription": "the swim platform of any boat. This recess mounted unit features a retracting hose and multi adjustable shower head. Available as a single or mixer tap with or without hinged cover. Whale\u00ae Single Faucet Tap Swivelling standard faucet for cold water only systems. Whale\u00ae Mixer Faucet Tap Swivelling mixer faucet for hot and cold water systems. Available in short or long faucet configuration. BLA Code Description Mount Base mm Hose Size mm Height Above Bench mm Mount Screws mm 134102 Mixer short 164 x 55 12 120 4 c/s 134104 Mixer long 164 x 55 12 184 4 c/s Spare Parts: 134602 Tap service kit 134603 Tap knob, stem, red and blue rings 136637 Adaptor to connect to system 15 (2 pack) BLA Code Mount Base mm Hose Size mm Height Above Bench mm Mount Screws mm 134100 112 x 53 12 120 4 c/s Spare Parts: 134602 Tap service kit 134603 Tap knob, stem, red and blue rings 136637 Adaptor to connect to system 15 (2 pack) BLA Code Description Mount Base mm Hose Size mm Height Above Bench mm Mount Screws mm 134108 Mixer 164 x 55 12 120 4 c/s Spare Part",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/134104.jpg",
-    "productWebSearchImageUrl": "../images/web-product-images/134104.jpg",
-    "productWebSearchImageSourceUrl": "http://www.cassellmarine.com.au/cdn/shop/files/elegance-mixer-faucet-tap-whale-134102-134104-bla.jpg?v=1709240516",
-    "productWebSearchImageSourcePage": "",
-    "productWebSearchQuery": "\"134104\" \"WHALE ELEGANCE FAUCET MIXER LONG\""
+    "productBlockImageUrl": "../images/catalogue/product-blocks/134104.jpg"
   },
-  {
+  "134108": {
     "productNumber": "134108",
     "description": "WHALE ELEGANCE COMBINATION FAUCET SHOWER MIXER",
     "brand": "",
@@ -257,12 +241,12 @@
     "subCategoryDescription": "Toilets, Plumbing & Galley products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/347/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 97.98,
     "barcode": "766478250001",
     "cataloguePage": 347,
-    "imageUrl": "../images/bla-website-products/134108.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/134108.jpg",
     "catalogueDescription": "4102 Mixer short 164 x 55 12 120 4 c/s 134104 Mixer long 164 x 55 12 184 4 c/s Spare Parts: 134602 Tap service kit 134603 Tap knob, stem, red and blue rings 136637 Adaptor to connect to system 15 (2 pack) BLA Code Mount Base mm Hose Size mm Height Above Bench mm Mount Screws mm 134100 112 x 53 12 120 4 c/s Spare Parts: 134602 Tap service kit 134603 Tap knob, stem, red and blue rings 136637 Adaptor to connect to system 15 (2 pack) BLA Code Description Mount Base mm Hose Size mm Height Above Bench mm Mount Screws mm 134108 Mixer 164 x 55 12 120 4 c/s Spare Parts: 134602 Tap service kit 134603 Tap knob, stem, red and blue rings 134609 Replacement handset \u2013 1/2\" BSP 136637 Adaptor to connect to system 15 (2 pack) Superceded Parts 134606 Replacement handset \u2013 3/8\" BSP BLA Code Description Cover Lock Tap Tall BSP Mount Screws mm 134112 Mixer swim/rinse No - \u00bd\" ext. 6 c/s 134113 Mixer swim/rinse Yes No \u00bd\" ext. 6 c/s 130156 Mixer swim/rinse Yes Yes \u00bd\" ext. 6 c/s Spare Parts: 134602 Tap service kit 134603 Tap knob, stem, red and blue rings",
     "productBlockImageUrl": "../images/catalogue/product-blocks/134108.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/whale-combination-faucet-showers/",
@@ -279,7 +263,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2021/01/134106.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "134112": {
     "productNumber": "134112",
     "description": "WHALE SWIM N RINSE SHOWER MIXER",
     "brand": "",
@@ -298,12 +282,12 @@
     "subCategoryDescription": "Toilets, Plumbing & Galley products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/347/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 94.83,
     "barcode": "766478264800",
     "cataloguePage": 347,
-    "imageUrl": "../images/bla-website-products/134112.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/134112.jpg",
     "catalogueDescription": "arts: 134602 Tap service kit 134603 Tap knob, stem, red and blue rings 136637 Adaptor to connect to system 15 (2 pack) BLA Code Description Mount Base mm Hose Size mm Height Above Bench mm Mount Screws mm 134108 Mixer 164 x 55 12 120 4 c/s Spare Parts: 134602 Tap service kit 134603 Tap knob, stem, red and blue rings 134609 Replacement handset \u2013 1/2\" BSP 136637 Adaptor to connect to system 15 (2 pack) Superceded Parts 134606 Replacement handset \u2013 3/8\" BSP BLA Code Description Cover Lock Tap Tall BSP Mount Screws mm 134112 Mixer swim/rinse No - \u00bd\" ext. 6 c/s 134113 Mixer swim/rinse Yes No \u00bd\" ext. 6 c/s 130156 Mixer swim/rinse Yes Yes \u00bd\" ext. 6 c/s Spare Parts: 134602 Tap service kit 134603 Tap knob, stem, red and blue rings 134608 Replacement hose, 1/2\" and 3/8\" BSP metal ends, 2.1m 134609 Replacement handset \u2013 1/2\" BSP Superceded Parts: 134606 Replacement handset \u2013 3/8\" BSP 180 298 134104 134113 N.B. Space must be available beneath tap for shower hose storage. N.B. Space must be available beneath tap for shower hose storage. 110 88",
     "productBlockImageUrl": "../images/catalogue/product-blocks/134112.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/swim-n-rinse-mixer-rt2648/",
@@ -320,7 +304,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2021/01/134112.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "134113": {
     "productNumber": "134113",
     "description": "WHALE SWIM N RINSE SHOWER MIXER WITH COVER",
     "brand": "",
@@ -344,15 +328,11 @@
     "exportAudExGst": 141.23,
     "barcode": "766478265814",
     "cataloguePage": 347,
-    "imageUrl": "../images/web-product-images/134113.webp",
+    "imageUrl": "../images/catalogue/product-blocks/134113.jpg",
     "catalogueDescription": "b, stem, red and blue rings 136637 Adaptor to connect to system 15 (2 pack) BLA Code Description Mount Base mm Hose Size mm Height Above Bench mm Mount Screws mm 134108 Mixer 164 x 55 12 120 4 c/s Spare Parts: 134602 Tap service kit 134603 Tap knob, stem, red and blue rings 134609 Replacement handset \u2013 1/2\" BSP 136637 Adaptor to connect to system 15 (2 pack) Superceded Parts 134606 Replacement handset \u2013 3/8\" BSP BLA Code Description Cover Lock Tap Tall BSP Mount Screws mm 134112 Mixer swim/rinse No - \u00bd\" ext. 6 c/s 134113 Mixer swim/rinse Yes No \u00bd\" ext. 6 c/s 130156 Mixer swim/rinse Yes Yes \u00bd\" ext. 6 c/s Spare Parts: 134602 Tap service kit 134603 Tap knob, stem, red and blue rings 134608 Replacement hose, 1/2\" and 3/8\" BSP metal ends, 2.1m 134609 Replacement handset \u2013 1/2\" BSP Superceded Parts: 134606 Replacement handset \u2013 3/8\" BSP 180 298 134104 134113 N.B. Space must be available beneath tap for shower hose storage. N.B. Space must be available beneath tap for shower hose storage. 110 88",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/134113.jpg",
-    "productWebSearchImageUrl": "../images/web-product-images/134113.webp",
-    "productWebSearchImageSourceUrl": "https://www.outbackequipment.com.au/assets/full/130156.webp?20250609043626",
-    "productWebSearchImageSourcePage": "",
-    "productWebSearchQuery": "\"134113\" \"WHALE SWIM N RINSE SHOWER MIXER WITH COVER\""
+    "productBlockImageUrl": "../images/catalogue/product-blocks/134113.jpg"
   },
-  {
+  "134117": {
     "productNumber": "134117",
     "description": "WHALE SWIM N RINSE COMPACT DECK SHOWER",
     "brand": "",
@@ -371,12 +351,12 @@
     "subCategoryDescription": "Toilets, Plumbing & Galley products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/348/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 74.06,
     "barcode": "766478946485",
     "cataloguePage": 348,
-    "imageUrl": "../images/bla-website-products/134117.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/134117.jpg",
     "catalogueDescription": "\u2022 Easy to use - One hand trigger \u2022 High performance - Great flow and pressure \u2022 Ease of Installation - Straight or angled holder \u2022 Quality and reliability - Long-life marine grade materials BLA Code Type Housing Hose Length m Outside Dia. mm Cut Out Size mm Max. Intrusion mm Plumbing Connection BSP 134160 Single Angled 2 120 88 330 3/8\" int 134162 Mixer Straight 2.5 53 48 330 1/2\" ext 134164 Mixer Angled 2.5 120 89 350 1/2\" ext 134165 Mixer Angled 4 120 89 350 1/2\" ext Accessories: 134170 Hose storage bag BLA Code 134117 134162 122 118 81 108 Compact Shower Off white U.V. stabilised polypropylene body and cover can easily be mounted on most common surfaces. ABS shower handset body with removable rose for cleaning and brass on/off valve with stainless steel return spring. Suitable for cold water only with 2 metres of hose attached. Features: \u2022 Low profile compact housing \u2022 Splash proof U.V. stabilised cover \u2022 On/off control in shower head \u2022 2 metre reinforced retracting hose \u2022 3\u20448\" BSP internal thread hose connection BLA Code Intru",
     "productBlockImageUrl": "../images/catalogue/product-blocks/134117.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/whale-swim-n-rinse-compact-deck-shower/",
@@ -393,7 +373,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2021/01/134117.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "134120": {
     "productNumber": "134120",
     "description": "SCANSTRUT VENTURA SERIES - QUICK CONNECT COLD WATER OUTLET",
     "brand": "",
@@ -412,7 +392,7 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 113.05,
     "barcode": "5060114799516",
@@ -431,7 +411,7 @@
     "imageUrl": "../images/bla-website-products/134120.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "134144": {
     "productNumber": "134144",
     "description": "ATTWOOD AFT DECK SHOWER",
     "brand": "Y",
@@ -450,7 +430,7 @@
     "subCategoryDescription": "Toilets, Plumbing & Galley products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 129.59,
     "barcode": "022697413147",
@@ -460,7 +440,7 @@
     "productWebSearchQuery": "\"134144\" \"Y ATTWOOD AFT DECK SHOWER\"",
     "imageUrl": "../images/web-product-images/134144.jpg"
   },
-  {
+  "134150": {
     "productNumber": "134150",
     "description": "OSCULATI EDGE SHOWER BOX WHITE PVC 4M HOSE",
     "brand": "Y",
@@ -479,7 +459,7 @@
     "subCategoryDescription": "Toilets, Plumbing & Galley products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 120.5,
     "barcode": "8033137093906",
@@ -489,7 +469,7 @@
     "productWebSearchQuery": "\"134150\" \"Y OSCULATI EDGE SHOWER BOX WHITE PVC 4M HOSE\"",
     "imageUrl": "../images/web-product-images/134150.jpg"
   },
-  {
+  "134160": {
     "productNumber": "134160",
     "description": "WHALE TWIST DECK SHOWER ANGLED COLD",
     "brand": "",
@@ -508,20 +488,16 @@
     "subCategoryDescription": "Toilets, Plumbing & Galley products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/348/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 118.18,
     "barcode": "766478950482",
     "cataloguePage": 348,
-    "imageUrl": "../images/web-product-images/134160.png",
+    "imageUrl": "../images/catalogue/product-blocks/134160.jpg",
     "catalogueDescription": "ect\u2122 end cap design prevents damage to gelcoat and deck \u2022 Wipe clean nozzles for easy removal of lime scale \u2022 Twist control adjusts temperature if connected to hot water supply \u2022 High quality ceramic valves for maximum efficiency and accurate control \u2022 Streamlined ergonomic design \u2022 Manufactured from high quality U.V. resistant ASA materials \u2022 Can be conveniently mounted on flat or curved surfaces \u2022 Rubberised end cap makes handset easy to pull out for use and acts as a seal when stowed, no need for cover or lid \u2022 134160 is supplied with adapters to System 12 and 15 plumbing Whale\u00ae Swim 'n' Rinse Compact Deck Shower This easy to use compact shower is the simple deck shower solution. The shower boasts high performance levels while the one touch trigger allows effortless control and uses high quality marine grade materials ensuring reliability. The shower is also simple to install with an angled holder and is virtually maintenance free. Features: \u2022 Easy to use - One hand trigger \u2022 High performance - Great flow and pressure \u2022 Ease of",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/134160.jpg",
-    "productWebSearchImageUrl": "../images/web-product-images/134160.png",
-    "productWebSearchImageSourceUrl": "https://comar-marine.com/wp-content/uploads/15.290.10-15.png",
-    "productWebSearchImageSourcePage": "",
-    "productWebSearchQuery": "\"134160\" \"WHALE TWIST DECK SHOWER ANGLED COLD\""
+    "productBlockImageUrl": "../images/catalogue/product-blocks/134160.jpg"
   },
-  {
+  "134162": {
     "productNumber": "134162",
     "description": "WHALE TWIST DECK SHOWER STRAIGHT MIXER",
     "brand": "",
@@ -540,20 +516,16 @@
     "subCategoryDescription": "Toilets, Plumbing & Galley products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/348/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 195.82,
     "barcode": "766478943422",
     "cataloguePage": 348,
-    "imageUrl": "../images/web-product-images/134162.webp",
+    "imageUrl": "../images/catalogue/product-blocks/134162.jpg",
     "catalogueDescription": "ntrol and uses high quality marine grade materials ensuring reliability. The shower is also simple to install with an angled holder and is virtually maintenance free. Features: \u2022 Easy to use - One hand trigger \u2022 High performance - Great flow and pressure \u2022 Ease of Installation - Straight or angled holder \u2022 Quality and reliability - Long-life marine grade materials BLA Code Type Housing Hose Length m Outside Dia. mm Cut Out Size mm Max. Intrusion mm Plumbing Connection BSP 134160 Single Angled 2 120 88 330 3/8\" int 134162 Mixer Straight 2.5 53 48 330 1/2\" ext 134164 Mixer Angled 2.5 120 89 350 1/2\" ext 134165 Mixer Angled 4 120 89 350 1/2\" ext Accessories: 134170 Hose storage bag BLA Code 134117 134162 122 118 81 108 Compact Shower Off white U.V. stabilised polypropylene body and cover can easily be mounted on most common surfaces. ABS shower handset body with removable rose for cleaning and brass on/off valve with stainless steel return spring. Suitable for cold water only with 2 metres of hose attached. Features: \u2022 Low profile co",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/134162.jpg",
-    "productWebSearchImageUrl": "../images/web-product-images/134162.webp",
-    "productWebSearchImageSourceUrl": "https://www.outbackequipment.com.au/assets/full/134162.webp?20250606114315",
-    "productWebSearchImageSourcePage": "",
-    "productWebSearchQuery": "\"134162\" \"WHALE TWIST DECK SHOWER STRAIGHT MIXER\""
+    "productBlockImageUrl": "../images/catalogue/product-blocks/134162.jpg"
   },
-  {
+  "134164": {
     "productNumber": "134164",
     "description": "WHALE TWIST DECK SHOWER ANGLED MIXER",
     "brand": "",
@@ -572,20 +544,16 @@
     "subCategoryDescription": "Toilets, Plumbing & Galley products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/348/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 200.04,
     "barcode": "766478943439",
     "cataloguePage": 348,
-    "imageUrl": "../images/web-product-images/134164.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/134164.jpg",
     "catalogueDescription": "rials ensuring reliability. The shower is also simple to install with an angled holder and is virtually maintenance free. Features: \u2022 Easy to use - One hand trigger \u2022 High performance - Great flow and pressure \u2022 Ease of Installation - Straight or angled holder \u2022 Quality and reliability - Long-life marine grade materials BLA Code Type Housing Hose Length m Outside Dia. mm Cut Out Size mm Max. Intrusion mm Plumbing Connection BSP 134160 Single Angled 2 120 88 330 3/8\" int 134162 Mixer Straight 2.5 53 48 330 1/2\" ext 134164 Mixer Angled 2.5 120 89 350 1/2\" ext 134165 Mixer Angled 4 120 89 350 1/2\" ext Accessories: 134170 Hose storage bag BLA Code 134117 134162 122 118 81 108 Compact Shower Off white U.V. stabilised polypropylene body and cover can easily be mounted on most common surfaces. ABS shower handset body with removable rose for cleaning and brass on/off valve with stainless steel return spring. Suitable for cold water only with 2 metres of hose attached. Features: \u2022 Low profile compact housing \u2022 Splash proof U.V. stabilised",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/134164.jpg",
-    "productWebSearchImageUrl": "../images/web-product-images/134164.jpg",
-    "productWebSearchImageSourceUrl": "https://www.boathut.com.au/boathutbasel/wp-content/uploads/2017/01/134160-600x598.jpg",
-    "productWebSearchImageSourcePage": "",
-    "productWebSearchQuery": "\"134164\" \"WHALE TWIST DECK SHOWER ANGLED MIXER\""
+    "productBlockImageUrl": "../images/catalogue/product-blocks/134164.jpg"
   },
-  {
+  "134165": {
     "productNumber": "134165",
     "description": "WHALE TWIST DECK SHOWER ANGLED MIXER 4M HOSE",
     "brand": "",
@@ -604,20 +572,16 @@
     "subCategoryDescription": "Toilets, Plumbing & Galley products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/348/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 236.12,
     "barcode": "766478943477",
     "cataloguePage": 348,
-    "imageUrl": "../images/web-product-images/134165.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/134165.jpg",
     "catalogueDescription": "so simple to install with an angled holder and is virtually maintenance free. Features: \u2022 Easy to use - One hand trigger \u2022 High performance - Great flow and pressure \u2022 Ease of Installation - Straight or angled holder \u2022 Quality and reliability - Long-life marine grade materials BLA Code Type Housing Hose Length m Outside Dia. mm Cut Out Size mm Max. Intrusion mm Plumbing Connection BSP 134160 Single Angled 2 120 88 330 3/8\" int 134162 Mixer Straight 2.5 53 48 330 1/2\" ext 134164 Mixer Angled 2.5 120 89 350 1/2\" ext 134165 Mixer Angled 4 120 89 350 1/2\" ext Accessories: 134170 Hose storage bag BLA Code 134117 134162 122 118 81 108 Compact Shower Off white U.V. stabilised polypropylene body and cover can easily be mounted on most common surfaces. ABS shower handset body with removable rose for cleaning and brass on/off valve with stainless steel return spring. Suitable for cold water only with 2 metres of hose attached. Features: \u2022 Low profile compact housing \u2022 Splash proof U.V. stabilised cover \u2022 On/off control in shower head \u2022 2 me",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/134165.jpg",
-    "productWebSearchImageUrl": "../images/web-product-images/134165.jpg",
-    "productWebSearchImageSourceUrl": "https://www.marinagosselin.com/DATA/PRODUITIMAGE/4512.jpg",
-    "productWebSearchImageSourcePage": "",
-    "productWebSearchQuery": "\"134165\" \"WHALE TWIST DECK SHOWER ANGLED MIXER 4M HOSE\""
+    "productBlockImageUrl": "../images/catalogue/product-blocks/134165.jpg"
   },
-  {
+  "134170": {
     "productNumber": "134170",
     "description": "WHALE TWIST DECK SHOWER STOWAGE BAG",
     "brand": "",
@@ -636,12 +600,12 @@
     "subCategoryDescription": "Toilets, Plumbing & Galley products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/348/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 27.64,
     "barcode": "766478944665",
     "cataloguePage": 348,
-    "imageUrl": "../images/bla-website-products/134170.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/134170.jpg",
     "catalogueDescription": "318 PUMPS, PLUMBING & GALLEY 13 BOATING LIFESTYLE ADVENTURE Whale\u00ae Twist Hand Showers A truly innovative and versatile deck shower combining real shower feel with performance and functionality. Fast, simple installation requiring only one circular hole and easy plumbing connection. The design incorporates integral twist control allowing simple flow adjustment. For neat under deck stowage of hose use the twist stowage bag, 134170. Features: \u2022 Lightweight rubber Deck Protect\u2122 end cap design prevents damage to gelcoat and deck \u2022 Wipe clean nozzles for easy removal of lime scale \u2022 Twist control adjusts temperature if connected to hot water supply \u2022 High quality ceramic valves for maximum efficiency and accurate control \u2022 Streamlined ergonomic design \u2022 Manufactured from high quality U.V. resistant ASA materials \u2022 Can be conveniently mounted on flat or curved surfaces \u2022 Rubberised end cap makes handset easy to pull out for use and acts as a sea",
     "productBlockImageUrl": "../images/catalogue/product-blocks/134170.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/hose-storage-bag/",
@@ -658,7 +622,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/07/No_image.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "134172": {
     "productNumber": "134172",
     "description": "WHALE TWIST SHOWER ANGLE HOLDER WHITE",
     "brand": "Y",
@@ -677,7 +641,7 @@
     "subCategoryDescription": "Toilets, Plumbing & Galley products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 19.07,
     "barcode": "766478954831",
@@ -687,7 +651,7 @@
     "productWebSearchQuery": "\"134172\" \"Y WHALE TWIST SHOWER ANGLE HOLDER WHITE\"",
     "imageUrl": "../images/web-product-images/134172.jpg"
   },
-  {
+  "134220": {
     "productNumber": "134220",
     "description": "ARAVON BORA FAUCET SINGLE",
     "brand": "",
@@ -706,20 +670,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/350/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 85.75,
     "barcode": "8033891623180",
     "cataloguePage": 350,
-    "imageUrl": "../images/web-product-images/134220.webp",
+    "imageUrl": "../images/catalogue/product-blocks/134220.jpg",
     "catalogueDescription": "320 PUMPS, PLUMBING & GALLEY 13 BOATING LIFESTYLE ADVENTURE BLA Code Type A mm B mm C mm Thread BSP 134220 Single faucet 36 105 180 3/8\" ext 134226 Dual faucet 36 105 180 3/8\" ext Bora Tapware Range Italian made chrome plated brass. Range includes single and double tap controls in a variety of handle styles plus hot and cold mixer unit. Faucet (134226 excluded) can be laid flat for easy and convenient storage under a sink in-fill. Ideal for use in restricted areas such as caravans, RV's and smaller boats. All controls feature hot or cold water indicators where applicable. Features: \u2022 Elegant Euro styling \u2022 All bright c",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/134220.jpg",
-    "productWebSearchImageUrl": "../images/web-product-images/134220.webp",
-    "productWebSearchImageSourceUrl": "https://www.outbackequipment.com.au/assets/full/134220.webp?20250608114247",
-    "productWebSearchImageSourcePage": "",
-    "productWebSearchQuery": "\"134220\" \"ARAVON BORA FAUCET SINGLE\""
+    "productBlockImageUrl": "../images/catalogue/product-blocks/134220.jpg"
   },
-  {
+  "134226": {
     "productNumber": "134226",
     "description": "ARAVON BORA FAUCET MIXER",
     "brand": "",
@@ -738,20 +698,16 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/350/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 155.48,
     "barcode": "8033891623258",
     "cataloguePage": 350,
-    "imageUrl": "../images/web-product-images/134226.webp",
+    "imageUrl": "../images/catalogue/product-blocks/134226.jpg",
     "catalogueDescription": "320 PUMPS, PLUMBING & GALLEY 13 BOATING LIFESTYLE ADVENTURE BLA Code Type A mm B mm C mm Thread BSP 134220 Single faucet 36 105 180 3/8\" ext 134226 Dual faucet 36 105 180 3/8\" ext Bora Tapware Range Italian made chrome plated brass. Range includes single and double tap controls in a variety of handle styles plus hot and cold mixer unit. Faucet (134226 excluded) can be laid flat for easy and convenient storage under a sink in-fill. Ideal for use in restricted areas such as caravans, RV's and smaller boats. All controls feature hot or cold water indicators where applicable. Features: \u2022 Elegant Euro styling \u2022 All bright chrome finish over heavy duty brass \u2022 Swiv",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/134226.jpg",
-    "productWebSearchImageUrl": "../images/web-product-images/134226.webp",
-    "productWebSearchImageSourceUrl": "https://www.outbackequipment.com.au/assets/full/134226.webp?20250609082447",
-    "productWebSearchImageSourcePage": "",
-    "productWebSearchQuery": "\"134226\" \"ARAVON BORA FAUCET MIXER\""
+    "productBlockImageUrl": "../images/catalogue/product-blocks/134226.jpg"
   },
-  {
+  "134238": {
     "productNumber": "134238",
     "description": "ARAVON CAPRI MIXER TAP SHORT FAUCET",
     "brand": "",
@@ -770,20 +726,16 @@
     "subCategoryDescription": "Toilets, Plumbing & Galley products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/350/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 113.99,
     "barcode": "8033891621834",
     "cataloguePage": 350,
-    "imageUrl": "../images/web-product-images/134238.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/134238.jpg",
     "catalogueDescription": "3\u20448 \" C 134226 Capri Tapware Range Contoured hollow grip handle and a slim profile make the Capri range the ideal choice for compact areas. Features: \u2022 Single lever flick mixer control \u2022 Maintenance free ceramic disc valves \u2022 Bright chrome finish \u2022 Connector hoses and under bench mount hardware included 134240 has a pull out handset/shower with trigger on/off control. The water can also be adjusted from stream to spray by moving the rose surround in or out. BLA Code Type A mm B mm C mm D mm Plumbing Connection BSP 134238 Short swivel faucet 45 140 140 250 1/2\" ext 134240 Combo tap/shower 45 150 140 250 1/2\" ext N.B. 134240 also requires space below for shower hose storage. 134238 134240 B C D 134240 A B C D 134238, 134239 A",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/134238.jpg",
-    "productWebSearchImageUrl": "../images/web-product-images/134238.jpg",
-    "productWebSearchImageSourceUrl": "https://www.mygenerator.com.au/assets/full/134238.jpg?20240119084957",
-    "productWebSearchImageSourcePage": "",
-    "productWebSearchQuery": "\"134238\" \"ARAVON CAPRI MIXER TAP SHORT FAUCET\""
+    "productBlockImageUrl": "../images/catalogue/product-blocks/134238.jpg"
   },
-  {
+  "134239": {
     "productNumber": "134239",
     "description": "ARAVON CAPRI MIXER TAP LONG FAUCET",
     "brand": "Y",
@@ -802,20 +754,16 @@
     "subCategoryDescription": "Toilets, Plumbing & Galley products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/350/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 113.99,
     "barcode": "8033891621971",
     "cataloguePage": 350,
-    "imageUrl": "../images/web-product-images/134239.webp",
+    "imageUrl": "../images/catalogue/product-blocks/134239.jpg",
     "catalogueDescription": "eramic disc valves \u2022 Bright chrome finish \u2022 Connector hoses and under bench mount hardware included 134240 has a pull out handset/shower with trigger on/off control. The water can also be adjusted from stream to spray by moving the rose surround in or out. BLA Code Type A mm B mm C mm D mm Plumbing Connection BSP 134238 Short swivel faucet 45 140 140 250 1/2\" ext 134240 Combo tap/shower 45 150 140 250 1/2\" ext N.B. 134240 also requires space below for shower hose storage. 134238 134240 B C D 134240 A B C D 134238, 134239 A",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/134239.jpg",
-    "productWebSearchImageUrl": "../images/web-product-images/134239.webp",
-    "productWebSearchImageSourceUrl": "https://www.outbackequipment.com.au/assets/full/134239.webp?20250608015338",
-    "productWebSearchImageSourcePage": "",
-    "productWebSearchQuery": "\"134239\" \"Y ARAVON CAPRI MIXER TAP LONG FAUCET\""
+    "productBlockImageUrl": "../images/catalogue/product-blocks/134239.jpg"
   },
-  {
+  "134240": {
     "productNumber": "134240",
     "description": "ARAVON CAPRI MIXER TAP/SHOWER COMBO",
     "brand": "",
@@ -834,20 +782,16 @@
     "subCategoryDescription": "Toilets, Plumbing & Galley products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/349/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 189.1,
     "barcode": "9319786091876",
     "cataloguePage": 349,
-    "imageUrl": "../images/web-product-images/134240.webp",
+    "imageUrl": "../images/catalogue/product-blocks/134240.jpg",
     "catalogueDescription": "PUMPS, PLUMBING & GALLEY 319 13 BOATING LIFESTYLE ADVENTURE Hand Shower Wall Brackets Chrome finish ABS plastic wall brackets that provide angled wall mounting for shower hand sets. All brackets accept the 134328 shower hose end fitting and also accept the shower hand set of 134240. Shower Handset White moulded ABS plastic shower head with chrome trim. Lever action on/off flow thumb control. Chrome trim ring slides in and out to control flow (stream/spray). Accepts 134328 hoses. Shower Hoses Available in white finish reinforced PVC or chrome finish spiral reinforced PVC hose. Swaged chrome and stainless steel end fittings. Fits all wall brackets above and all handsets above. BSP internal thread SSI Cold Water Stowaway Shower Cold water tap set in flush mount, U.V. resistant, white ABS plasti",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/134240.jpg",
-    "productWebSearchImageUrl": "../images/web-product-images/134240.webp",
-    "productWebSearchImageSourceUrl": "https://www.outbackequipment.com.au/assets/full/134240.webp?20250609222937",
-    "productWebSearchImageSourcePage": "",
-    "productWebSearchQuery": "\"134240\" \"ARAVON CAPRI MIXER TAP/SHOWER COMBO\""
+    "productBlockImageUrl": "../images/catalogue/product-blocks/134240.jpg"
   },
-  {
+  "134302": {
     "productNumber": "134302",
     "description": "BLA CHROME PLATED BRASS MINI TAP MIXER FAUCET",
     "brand": "Bla",
@@ -866,20 +810,16 @@
     "subCategoryDescription": "Toilets, Plumbing & Galley products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/349/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 91.3,
     "barcode": "8033891626877",
     "cataloguePage": 349,
-    "imageUrl": "../images/web-product-images/134302.webp",
+    "imageUrl": "../images/catalogue/product-blocks/134302.jpg",
     "catalogueDescription": "ode Length mm Width mm Height mm Thread BSP 134324 130 48 75 \u00bd\" ext BLA Code Cut Out Size mm Overall Width mm Overall Height mm Overall Depth mm 134352 180 x 152 209 185 92 N.B. Space must be available underneath panel for showerhead and hose storage. Mini Taps - Chrome Plated Brass Italian made chrome plated brass mini single tap, double tap and double shower mixer unit taps have chrome ABS handles with red and blue indicators. Suitable for bench or wall mounting. 134306 BLA Code Style Tap Tall BSP A mm B mm C mm 134302 Mixer faucet 3/8\" & 1/2\" 135 65 240 134304 Single faucet 3/8\" & 1/2\" 95 65 225 134306 Shower mixer 3/8\" & 1/2\" 135 65 \u2013 134302 C A B 134304 C B A B A",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/134302.jpg",
-    "productWebSearchImageUrl": "../images/web-product-images/134302.webp",
-    "productWebSearchImageSourceUrl": "https://www.outbackequipment.com.au/assets/full/134302.webp?20250607095726",
-    "productWebSearchImageSourcePage": "",
-    "productWebSearchQuery": "\"134302\" \"Bla BLA CHROME PLATED BRASS MINI TAP MIXER FAUCET\""
+    "productBlockImageUrl": "../images/catalogue/product-blocks/134302.jpg"
   },
-  {
+  "134304": {
     "productNumber": "134304",
     "description": "BLA CHROME PLATED BRASS MINI TAP SINGLE FAUCET",
     "brand": "Bla",
@@ -898,20 +838,16 @@
     "subCategoryDescription": "Toilets, Plumbing & Galley products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/349/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 47.21,
     "barcode": "8033891626280",
     "cataloguePage": 349,
-    "imageUrl": "../images/web-product-images/134304.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/134304.jpg",
     "catalogueDescription": "134324 130 48 75 \u00bd\" ext BLA Code Cut Out Size mm Overall Width mm Overall Height mm Overall Depth mm 134352 180 x 152 209 185 92 N.B. Space must be available underneath panel for showerhead and hose storage. Mini Taps - Chrome Plated Brass Italian made chrome plated brass mini single tap, double tap and double shower mixer unit taps have chrome ABS handles with red and blue indicators. Suitable for bench or wall mounting. 134306 BLA Code Style Tap Tall BSP A mm B mm C mm 134302 Mixer faucet 3/8\" & 1/2\" 135 65 240 134304 Single faucet 3/8\" & 1/2\" 95 65 225 134306 Shower mixer 3/8\" & 1/2\" 135 65 \u2013 134302 C A B 134304 C B A B A",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/134304.jpg",
-    "productWebSearchImageUrl": "../images/web-product-images/134304.jpg",
-    "productWebSearchImageSourceUrl": "https://bla.com.au/wp-content/uploads/2021/01/134302.jpg",
-    "productWebSearchImageSourcePage": "",
-    "productWebSearchQuery": "\"134304\" \"Bla BLA CHROME PLATED BRASS MINI TAP SINGLE FAUCET\""
+    "productBlockImageUrl": "../images/catalogue/product-blocks/134304.jpg"
   },
-  {
+  "134306": {
     "productNumber": "134306",
     "description": "BLA CHROME PLATED BRASS MINI TAP SHOWER MIXER",
     "brand": "Bla",
@@ -930,20 +866,16 @@
     "subCategoryDescription": "Toilets, Plumbing & Galley products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/349/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 86.08,
     "barcode": "8033891626297",
     "cataloguePage": 349,
-    "imageUrl": "../images/web-product-images/134306.webp",
+    "imageUrl": "../images/catalogue/product-blocks/134306.jpg",
     "catalogueDescription": "ur Length m Width mm 134328 White 1.5 \u00bd\" int BLA Code Length mm Width mm Height mm Thread BSP 134324 130 48 75 \u00bd\" ext BLA Code Cut Out Size mm Overall Width mm Overall Height mm Overall Depth mm 134352 180 x 152 209 185 92 N.B. Space must be available underneath panel for showerhead and hose storage. Mini Taps - Chrome Plated Brass Italian made chrome plated brass mini single tap, double tap and double shower mixer unit taps have chrome ABS handles with red and blue indicators. Suitable for bench or wall mounting. 134306 BLA Code Style Tap Tall BSP A mm B mm C mm 134302 Mixer faucet 3/8\" & 1/2\" 135 65 240 134304 Single faucet 3/8\" & 1/2\" 95 65 225 134306 Shower mixer 3/8\" & 1/2\" 135 65 \u2013 134302 C A B 134304 C B A B A",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/134306.jpg",
-    "productWebSearchImageUrl": "../images/web-product-images/134306.webp",
-    "productWebSearchImageSourceUrl": "https://www.outbackequipment.com.au/assets/full/134306.webp?20250609145811",
-    "productWebSearchImageSourcePage": "",
-    "productWebSearchQuery": "\"134306\" \"Bla BLA CHROME PLATED BRASS MINI TAP SHOWER MIXER\""
+    "productBlockImageUrl": "../images/catalogue/product-blocks/134306.jpg"
   },
-  {
+  "134312": {
     "productNumber": "134312",
     "description": "ARAVON COMPACT SHOWER KIT",
     "brand": "",
@@ -962,12 +894,12 @@
     "subCategoryDescription": "Toilets, Plumbing & Galley products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/348/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 69.9,
     "barcode": "8033891625474",
     "cataloguePage": 348,
-    "imageUrl": "../images/bla-website-products/134312.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/134312.jpg",
     "catalogueDescription": "Shower Off white U.V. stabilised polypropylene body and cover can easily be mounted on most common surfaces. ABS shower handset body with removable rose for cleaning and brass on/off valve with stainless steel return spring. Suitable for cold water only with 2 metres of hose attached. Features: \u2022 Low profile compact housing \u2022 Splash proof U.V. stabilised cover \u2022 On/off control in shower head \u2022 2 metre reinforced retracting hose \u2022 3\u20448\" BSP internal thread hose connection BLA Code Intrusion mm Cut Out mm Thread BSP 134312 150 65 3/8\" int",
     "productBlockImageUrl": "../images/catalogue/product-blocks/134312.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/compact-shower/",
@@ -984,7 +916,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2021/01/134312.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "134324": {
     "productNumber": "134324",
     "description": "ARAVON SHOWER HANDSET ON/OFF/FLOW CONTROL",
     "brand": "",
@@ -1003,12 +935,12 @@
     "subCategoryDescription": "Toilets, Plumbing & Galley products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/349/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 34.31,
     "barcode": "8033891624842",
     "cataloguePage": 349,
-    "imageUrl": "../images/bla-website-products/134324.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/134324.jpg",
     "catalogueDescription": "thread SSI Cold Water Stowaway Shower Cold water tap set in flush mount, U.V. resistant, white ABS plastic housing. Incorporates shower head on a 1.8m long hose. Has a built in 12/24 volt switch for pump control. Pull switch to activate pump, connection closing the door, automatically switches pump off. \u00bd\" BSP external thread plumbing connection. BLA Code Protrusion mm Height mm Width mm 134346 82 49 70 BLA Code Hose Colour Length m Width mm 134328 White 1.5 \u00bd\" int BLA Code Length mm Width mm Height mm Thread BSP 134324 130 48 75 \u00bd\" ext BLA Code Cut Out Size mm Overall Width mm Overall Height mm Overall Depth mm 134352 180 x 152 209 185 92 N.B. Space must be available underneath panel for showerhead and hose storage. Mini Taps - Chrome Plated Brass Italian made chrome plated brass mini single tap, double tap and double shower mixer unit taps have chrome ABS handles with red and blue indicators. Suitable for bench or wall mounting. 134306 BLA Code Style Tap Tall BSP A mm B mm C mm 134302 Mixer faucet 3/8\" & 1/2\" 135 65 240 134304",
     "productBlockImageUrl": "../images/catalogue/product-blocks/134324.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/shower-handset/",
@@ -1025,7 +957,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2021/01/134324.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "134328": {
     "productNumber": "134328",
     "description": "ARAVON SHOWER HOSE WHITE",
     "brand": "",
@@ -1044,20 +976,16 @@
     "subCategoryDescription": "Toilets, Plumbing & Galley products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/349/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 29.98,
     "barcode": "8033891623654",
     "cataloguePage": 349,
-    "imageUrl": "../images/web-product-images/134328.webp",
+    "imageUrl": "../images/catalogue/product-blocks/134328.jpg",
     "catalogueDescription": "PUMPS, PLUMBING & GALLEY 319 13 BOATING LIFESTYLE ADVENTURE Hand Shower Wall Brackets Chrome finish ABS plastic wall brackets that provide angled wall mounting for shower hand sets. All brackets accept the 134328 shower hose end fitting and also accept the shower hand set of 134240. Shower Handset White moulded ABS plastic shower head with chrome trim. Lever action on/off flow thumb control. Chrome trim ring slides in and out to control flow (stream/spray). Accepts 134328 hoses. Shower Hoses Available in white finish reinforced PVC or chrome finish spiral reinforced PVC hose. Swaged chrome and stainless steel end fittings. Fits all wall brackets above and all handsets above. BSP internal thread SSI Cold Water Stowaway Show",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/134328.jpg",
-    "productWebSearchImageUrl": "../images/web-product-images/134328.webp",
-    "productWebSearchImageSourceUrl": "https://www.outbackequipment.com.au/assets/full/134328.webp?20250608214632",
-    "productWebSearchImageSourcePage": "",
-    "productWebSearchQuery": "\"134328\" \"ARAVON SHOWER HOSE WHITE\""
+    "productBlockImageUrl": "../images/catalogue/product-blocks/134328.jpg"
   },
-  {
+  "134346": {
     "productNumber": "134346",
     "description": "BLA HAND SHOWER WALL BRACKET PIVOT",
     "brand": "Bla",
@@ -1076,20 +1004,16 @@
     "subCategoryDescription": "Toilets, Plumbing & Galley products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/349/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 12.86,
     "barcode": "9319786274880",
     "cataloguePage": 349,
-    "imageUrl": "../images/web-product-images/134346.webp",
+    "imageUrl": "../images/catalogue/product-blocks/134346.jpg",
     "catalogueDescription": "rced PVC hose. Swaged chrome and stainless steel end fittings. Fits all wall brackets above and all handsets above. BSP internal thread SSI Cold Water Stowaway Shower Cold water tap set in flush mount, U.V. resistant, white ABS plastic housing. Incorporates shower head on a 1.8m long hose. Has a built in 12/24 volt switch for pump control. Pull switch to activate pump, connection closing the door, automatically switches pump off. \u00bd\" BSP external thread plumbing connection. BLA Code Protrusion mm Height mm Width mm 134346 82 49 70 BLA Code Hose Colour Length m Width mm 134328 White 1.5 \u00bd\" int BLA Code Length mm Width mm Height mm Thread BSP 134324 130 48 75 \u00bd\" ext BLA Code Cut Out Size mm Overall Width mm Overall Height mm Overall Depth mm 134352 180 x 152 209 185 92 N.B. Space must be available underneath panel for showerhead and hose storage. Mini Taps - Chrome Plated Brass Italian made chrome plated brass mini single tap, double tap and double shower mixer unit taps have chrome ABS handles with red and blue indicators. Suitable",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/134346.jpg",
-    "productWebSearchImageUrl": "../images/web-product-images/134346.webp",
-    "productWebSearchImageSourceUrl": "https://www.outbackequipment.com.au/assets/full/134346.webp?20250607175146",
-    "productWebSearchImageSourcePage": "",
-    "productWebSearchQuery": "\"134346\" \"Bla BLA HAND SHOWER WALL BRACKET PIVOT\""
+    "productBlockImageUrl": "../images/catalogue/product-blocks/134346.jpg"
   },
-  {
+  "134352": {
     "productNumber": "134352",
     "description": "SSI COLD WATER STOWAWAY SHOWER",
     "brand": "",
@@ -1108,12 +1032,12 @@
     "subCategoryDescription": "Toilets, Plumbing & Galley products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/349/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 271.83,
     "barcode": "9319786010341",
     "cataloguePage": 349,
-    "imageUrl": "../images/bla-website-products/134352.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/134352.jpg",
     "catalogueDescription": "lastic housing. Incorporates shower head on a 1.8m long hose. Has a built in 12/24 volt switch for pump control. Pull switch to activate pump, connection closing the door, automatically switches pump off. \u00bd\" BSP external thread plumbing connection. BLA Code Protrusion mm Height mm Width mm 134346 82 49 70 BLA Code Hose Colour Length m Width mm 134328 White 1.5 \u00bd\" int BLA Code Length mm Width mm Height mm Thread BSP 134324 130 48 75 \u00bd\" ext BLA Code Cut Out Size mm Overall Width mm Overall Height mm Overall Depth mm 134352 180 x 152 209 185 92 N.B. Space must be available underneath panel for showerhead and hose storage. Mini Taps - Chrome Plated Brass Italian made chrome plated brass mini single tap, double tap and double shower mixer unit taps have chrome ABS handles with red and blue indicators. Suitable for bench or wall mounting. 134306 BLA Code Style Tap Tall BSP A mm B mm C mm 134302 Mixer faucet 3/8\" & 1/2\" 135 65 240 134304 Single faucet 3/8\" & 1/2\" 95 65 225 134306 Shower mixer 3/8\" & 1/2\" 135 65 \u2013 134302 C A B 134304 C B",
     "productBlockImageUrl": "../images/catalogue/product-blocks/134352.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/ssi-cold-water-stowaway-shower/",
@@ -1130,7 +1054,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2021/01/134352.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "134353": {
     "productNumber": "134353",
     "description": "SSI ULTIMATE COMPACT STOWAWAY SHOWER HOT COLD",
     "brand": "Y",
@@ -1149,7 +1073,7 @@
     "subCategoryDescription": "Toilets, Plumbing & Galley products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 3,
+    "estimatedWeightKg": 3.0,
     "freightAud": 14.4,
     "exportAudExGst": 357.62,
     "barcode": "9319786459980",
@@ -1159,7 +1083,7 @@
     "productWebSearchQuery": "\"134353\" \"SSI ULTIMATE COMPACT STOWAWAY SHOWER HOT COLD\"",
     "imageUrl": "../images/web-product-images/134353.jpg"
   },
-  {
+  "134370": {
     "productNumber": "134370",
     "description": "WHALE SHOWER GULLEY",
     "brand": "",
@@ -1178,20 +1102,16 @@
     "subCategoryDescription": "Toilets, Plumbing & Galley products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/373/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 11.69,
     "barcode": "766478945303",
     "cataloguePage": 373,
-    "imageUrl": "../images/web-product-images/134370.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/134370.jpg",
     "catalogueDescription": "PUMPS, PLUMBING & GALLEY 343 13 BOATING LIFESTYLE ADVENTURE Whale\u00ae Shower Wastes The Whale\u00ae range of shower wastes (also knows as Gulleys) are available in two sizes to suit 19mm hose in both IC and non IC versions. Features include modern compact design, easily removed cover for cleaning and simplistic mounting. IC models are pre-wired with 4m of cable for direct connection to Gulper IC and are supplied with hose tail and non-return valve as shown in the line drawings below. BLA Code Size IC Hose Size mm 134370 Small No 22 134382 Small Yes 19/25 134384 Large Yes 19/25 134384 134382 82 76 205 200 342 141 19 25 41 62 51 42 19 25.5 Water Strainers Utility water filter. ABS plastic housing. Clear Marelon cover. Nylon filter element. Easily dismantled for cleaning. BLA Code Capacity L/m Port Thread BSP Dia. mm Height mm 138864 150 3/4\" 142 120 138866 300 11/2\" 142 180 138866 138864",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/134370.jpg",
-    "productWebSearchImageUrl": "../images/web-product-images/134370.jpg",
-    "productWebSearchImageSourceUrl": "https://marine-deals-au.freetls.fastly.net/media/catalog/product/cache/2/image/368x/1b2e871699de66caea4208e2cf16bd73/1/1/114101_1_pc_1.jpg",
-    "productWebSearchImageSourcePage": "",
-    "productWebSearchQuery": "\"134370\" \"WHALE SHOWER GULLEY\""
+    "productBlockImageUrl": "../images/catalogue/product-blocks/134370.jpg"
   },
-  {
+  "134382": {
     "productNumber": "134382",
     "description": "WHALE SHOWER GULLEY IC SMALL",
     "brand": "",
@@ -1210,20 +1130,16 @@
     "subCategoryDescription": "Toilets, Plumbing & Galley products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/373/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 90.02,
     "barcode": "766478944894",
     "cataloguePage": 373,
-    "imageUrl": "../images/web-product-images/134382.webp",
+    "imageUrl": "../images/catalogue/product-blocks/134382.jpg",
     "catalogueDescription": "MBING & GALLEY 343 13 BOATING LIFESTYLE ADVENTURE Whale\u00ae Shower Wastes The Whale\u00ae range of shower wastes (also knows as Gulleys) are available in two sizes to suit 19mm hose in both IC and non IC versions. Features include modern compact design, easily removed cover for cleaning and simplistic mounting. IC models are pre-wired with 4m of cable for direct connection to Gulper IC and are supplied with hose tail and non-return valve as shown in the line drawings below. BLA Code Size IC Hose Size mm 134370 Small No 22 134382 Small Yes 19/25 134384 Large Yes 19/25 134384 134382 82 76 205 200 342 141 19 25 41 62 51 42 19 25.5 Water Strainers Utility water filter. ABS plastic housing. Clear Marelon cover. Nylon filter element. Easily dismantled for cleaning. BLA Code Capacity L/m Port Thread BSP Dia. mm Height mm 138864 150 3/4\" 142 120 138866 300 11/2\" 142 180 138866 138864",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/134382.jpg",
-    "productWebSearchImageUrl": "../images/web-product-images/134382.webp",
-    "productWebSearchImageSourceUrl": "https://www.outbackequipment.com.au/assets/full/134382.webp?20250609015942",
-    "productWebSearchImageSourcePage": "",
-    "productWebSearchQuery": "\"134382\" \"WHALE SHOWER GULLEY IC SMALL\""
+    "productBlockImageUrl": "../images/catalogue/product-blocks/134382.jpg"
   },
-  {
+  "134384": {
     "productNumber": "134384",
     "description": "WHALE SHOWER GULLEY IC LARGE",
     "brand": "",
@@ -1242,20 +1158,16 @@
     "subCategoryDescription": "Toilets, Plumbing & Galley products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/373/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 82.92,
     "barcode": "766478945327",
     "cataloguePage": 373,
-    "imageUrl": "../images/web-product-images/134384.webp",
+    "imageUrl": "../images/catalogue/product-blocks/134384.jpg",
     "catalogueDescription": "OATING LIFESTYLE ADVENTURE Whale\u00ae Shower Wastes The Whale\u00ae range of shower wastes (also knows as Gulleys) are available in two sizes to suit 19mm hose in both IC and non IC versions. Features include modern compact design, easily removed cover for cleaning and simplistic mounting. IC models are pre-wired with 4m of cable for direct connection to Gulper IC and are supplied with hose tail and non-return valve as shown in the line drawings below. BLA Code Size IC Hose Size mm 134370 Small No 22 134382 Small Yes 19/25 134384 Large Yes 19/25 134384 134382 82 76 205 200 342 141 19 25 41 62 51 42 19 25.5 Water Strainers Utility water filter. ABS plastic housing. Clear Marelon cover. Nylon filter element. Easily dismantled for cleaning. BLA Code Capacity L/m Port Thread BSP Dia. mm Height mm 138864 150 3/4\" 142 120 138866 300 11/2\" 142 180 138866 138864",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/134384.jpg",
-    "productWebSearchImageUrl": "../images/web-product-images/134384.webp",
-    "productWebSearchImageSourceUrl": "https://www.outbackequipment.com.au/assets/full/134384.webp?20250609110245",
-    "productWebSearchImageSourcePage": "",
-    "productWebSearchQuery": "\"134384\" \"WHALE SHOWER GULLEY IC LARGE\""
+    "productBlockImageUrl": "../images/catalogue/product-blocks/134384.jpg"
   },
-  {
+  "134602": {
     "productNumber": "134602",
     "description": "WHALE ELEGANCE SERVICE KIT",
     "brand": "",
@@ -1274,12 +1186,12 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/347/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 33.4,
     "barcode": "766478503008",
     "cataloguePage": 347,
-    "imageUrl": "../images/bla-website-products/134602.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/134602.jpg",
     "catalogueDescription": "nit features a retracting hose and multi adjustable shower head. Available as a single or mixer tap with or without hinged cover. Whale\u00ae Single Faucet Tap Swivelling standard faucet for cold water only systems. Whale\u00ae Mixer Faucet Tap Swivelling mixer faucet for hot and cold water systems. Available in short or long faucet configuration. BLA Code Description Mount Base mm Hose Size mm Height Above Bench mm Mount Screws mm 134102 Mixer short 164 x 55 12 120 4 c/s 134104 Mixer long 164 x 55 12 184 4 c/s Spare Parts: 134602 Tap service kit 134603 Tap knob, stem, red and blue rings 136637 Adaptor to connect to system 15 (2 pack) BLA Code Mount Base mm Hose Size mm Height Above Bench mm Mount Screws mm 134100 112 x 53 12 120 4 c/s Spare Parts: 134602 Tap service kit 134603 Tap knob, stem, red and blue rings 136637 Adaptor to connect to system 15 (2 pack) BLA Code Description Mount Base mm Hose Size mm Height Above Bench mm Mount Screws mm 134108 Mixer 164 x 55 12 120 4 c/s Spare Parts: 134602 Tap service kit 134603 Tap knob, stem, red",
     "productBlockImageUrl": "../images/catalogue/product-blocks/134602.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/tap-service-kit/",
@@ -1296,7 +1208,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/07/134602.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "134603": {
     "productNumber": "134603",
     "description": "WHALE ELEGANCE TAP KNOB KIT",
     "brand": "",
@@ -1315,12 +1227,12 @@
     "subCategoryDescription": "Toilets, Plumbing & Galley products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/347/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 14.81,
     "barcode": "766478512208",
     "cataloguePage": 347,
-    "imageUrl": "../images/bla-website-products/134603.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/134603.jpg",
     "catalogueDescription": "ng hose and multi adjustable shower head. Available as a single or mixer tap with or without hinged cover. Whale\u00ae Single Faucet Tap Swivelling standard faucet for cold water only systems. Whale\u00ae Mixer Faucet Tap Swivelling mixer faucet for hot and cold water systems. Available in short or long faucet configuration. BLA Code Description Mount Base mm Hose Size mm Height Above Bench mm Mount Screws mm 134102 Mixer short 164 x 55 12 120 4 c/s 134104 Mixer long 164 x 55 12 184 4 c/s Spare Parts: 134602 Tap service kit 134603 Tap knob, stem, red and blue rings 136637 Adaptor to connect to system 15 (2 pack) BLA Code Mount Base mm Hose Size mm Height Above Bench mm Mount Screws mm 134100 112 x 53 12 120 4 c/s Spare Parts: 134602 Tap service kit 134603 Tap knob, stem, red and blue rings 136637 Adaptor to connect to system 15 (2 pack) BLA Code Description Mount Base mm Hose Size mm Height Above Bench mm Mount Screws mm 134108 Mixer 164 x 55 12 120 4 c/s Spare Parts: 134602 Tap service kit 134603 Tap knob, stem, red and blue rings 134609 R",
     "productBlockImageUrl": "../images/catalogue/product-blocks/134603.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/tap-knob-stem-red-and-blue-rings/",
@@ -1337,7 +1249,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2025/08/134603.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "134604": {
     "productNumber": "134604",
     "description": "WHALE ELEGANCE SHOWER HOSE PLASTIC 3/8\" BSP",
     "brand": "Y",
@@ -1356,7 +1268,7 @@
     "subCategoryDescription": "Toilets, Plumbing & Galley products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 20.29,
     "barcode": "766478514509",
@@ -1375,7 +1287,7 @@
     "imageUrl": "../images/bla-website-products/134604.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "134606": {
     "productNumber": "134606",
     "description": "WHALE ELEGANCE SHOWER HANDSET 3/8\" BSP",
     "brand": "",
@@ -1394,12 +1306,12 @@
     "subCategoryDescription": "Toilets, Plumbing & Galley products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/347/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 18.74,
     "barcode": "766478512307",
     "cataloguePage": 347,
-    "imageUrl": "../images/bla-website-products/134606.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/134606.jpg",
     "catalogueDescription": "unt Base mm Hose Size mm Height Above Bench mm Mount Screws mm 134100 112 x 53 12 120 4 c/s Spare Parts: 134602 Tap service kit 134603 Tap knob, stem, red and blue rings 136637 Adaptor to connect to system 15 (2 pack) BLA Code Description Mount Base mm Hose Size mm Height Above Bench mm Mount Screws mm 134108 Mixer 164 x 55 12 120 4 c/s Spare Parts: 134602 Tap service kit 134603 Tap knob, stem, red and blue rings 134609 Replacement handset \u2013 1/2\" BSP 136637 Adaptor to connect to system 15 (2 pack) Superceded Parts 134606 Replacement handset \u2013 3/8\" BSP BLA Code Description Cover Lock Tap Tall BSP Mount Screws mm 134112 Mixer swim/rinse No - \u00bd\" ext. 6 c/s 134113 Mixer swim/rinse Yes No \u00bd\" ext. 6 c/s 130156 Mixer swim/rinse Yes Yes \u00bd\" ext. 6 c/s Spare Parts: 134602 Tap service kit 134603 Tap knob, stem, red and blue rings 134608 Replacement hose, 1/2\" and 3/8\" BSP metal ends, 2.1m 134609 Replacement handset \u2013 1/2\" BSP Superceded Parts: 134606 Replacement handset \u2013 3/8\" BSP 180 298 134104 134113 N.B. Space must be available beneath ta",
     "productBlockImageUrl": "../images/catalogue/product-blocks/134606.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/whale-combination-faucet-showers-superceded-parts-2/",
@@ -1416,7 +1328,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2025/08/134606.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "134607": {
     "productNumber": "134607",
     "description": "WHALE ELEGANCE SHOWER HOSE 1/2\" BSP",
     "brand": "Y",
@@ -1435,7 +1347,7 @@
     "subCategoryDescription": "Toilets, Plumbing & Galley products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 27.69,
     "barcode": "766478514608",
@@ -1454,7 +1366,7 @@
     "imageUrl": "../images/bla-website-products/134607.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "134608": {
     "productNumber": "134608",
     "description": "WHALE SWIM N RINSE SHOWER HOSE 3/8\" BSP - 1/2\" BSP",
     "brand": "",
@@ -1473,12 +1385,12 @@
     "subCategoryDescription": "Toilets, Plumbing & Galley products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/347/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 27.81,
     "barcode": "766478514806",
     "cataloguePage": 347,
-    "imageUrl": "../images/bla-website-products/134608.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/134608.jpg",
     "catalogueDescription": "Mixer 164 x 55 12 120 4 c/s Spare Parts: 134602 Tap service kit 134603 Tap knob, stem, red and blue rings 134609 Replacement handset \u2013 1/2\" BSP 136637 Adaptor to connect to system 15 (2 pack) Superceded Parts 134606 Replacement handset \u2013 3/8\" BSP BLA Code Description Cover Lock Tap Tall BSP Mount Screws mm 134112 Mixer swim/rinse No - \u00bd\" ext. 6 c/s 134113 Mixer swim/rinse Yes No \u00bd\" ext. 6 c/s 130156 Mixer swim/rinse Yes Yes \u00bd\" ext. 6 c/s Spare Parts: 134602 Tap service kit 134603 Tap knob, stem, red and blue rings 134608 Replacement hose, 1/2\" and 3/8\" BSP metal ends, 2.1m 134609 Replacement handset \u2013 1/2\" BSP Superceded Parts: 134606 Replacement handset \u2013 3/8\" BSP 180 298 134104 134113 N.B. Space must be available beneath tap for shower hose storage. N.B. Space must be available beneath tap for shower hose storage. 110 88",
     "productBlockImageUrl": "../images/catalogue/product-blocks/134608.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/whale-swim-n-rinse-showers-superceded-parts/",
@@ -1495,7 +1407,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2025/08/134608.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "134609": {
     "productNumber": "134609",
     "description": "WHALE ELEGANCE SHOWER HANDSET 1/2\" BSP",
     "brand": "",
@@ -1514,12 +1426,12 @@
     "subCategoryDescription": "Toilets, Plumbing & Galley products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/347/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 18.88,
     "barcode": "766478513304",
     "cataloguePage": 347,
-    "imageUrl": "../images/bla-website-products/134609.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/134609.jpg",
     "catalogueDescription": "t 134603 Tap knob, stem, red and blue rings 136637 Adaptor to connect to system 15 (2 pack) BLA Code Mount Base mm Hose Size mm Height Above Bench mm Mount Screws mm 134100 112 x 53 12 120 4 c/s Spare Parts: 134602 Tap service kit 134603 Tap knob, stem, red and blue rings 136637 Adaptor to connect to system 15 (2 pack) BLA Code Description Mount Base mm Hose Size mm Height Above Bench mm Mount Screws mm 134108 Mixer 164 x 55 12 120 4 c/s Spare Parts: 134602 Tap service kit 134603 Tap knob, stem, red and blue rings 134609 Replacement handset \u2013 1/2\" BSP 136637 Adaptor to connect to system 15 (2 pack) Superceded Parts 134606 Replacement handset \u2013 3/8\" BSP BLA Code Description Cover Lock Tap Tall BSP Mount Screws mm 134112 Mixer swim/rinse No - \u00bd\" ext. 6 c/s 134113 Mixer swim/rinse Yes No \u00bd\" ext. 6 c/s 130156 Mixer swim/rinse Yes Yes \u00bd\" ext. 6 c/s Spare Parts: 134602 Tap service kit 134603 Tap knob, stem, red and blue rings 134608 Replacement hose, 1/2\" and 3/8\" BSP metal ends, 2.1m 134609 Replacement handset \u2013 1/2\" BSP Superceded Par",
     "productBlockImageUrl": "../images/catalogue/product-blocks/134609.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/whale-swim-n-rinse-showers-superceded-parts-2/",
@@ -1536,4 +1448,4 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/07/No_image.jpg",
     "productWebsiteImageDownloaded": true
   }
-]
+}

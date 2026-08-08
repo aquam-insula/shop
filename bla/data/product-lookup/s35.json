@@ -1,1 +1,31 @@
-[{"productNumber":"S35-SS715","description":"SIERRA SAFE SKEG MERCURY","brand":"Y","variant":"PC","price":647.53,"unitCostOfSale":379.13,"categoryName":"Tools & Chandlery","topCategory":"Tools & Chandlery","subCategoryName":"General Marine Supplies","subCategory":"M - Marine Supplies","pricingCategoryUsed":"M - Marine Supplies","categoryImage":"../images/catalogue/pages/page0481.jpg","subCategoryImage":"../images/catalogue/pages/page0481.jpg","catalogueImageUrl":"../images/catalogue/bla-edition-15-cover.jpg","categoryDescription":"Tools & Chandlery from the BLA Australia Edition 15 catalogue.","subCategoryDescription":"General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.","sourceUrl":"","printCatalogueUrl":"https://online.flippingbook.com/view/328167/","estimatedWeightKg":1,"freightAud":4.8,"exportAudExGst":222.68,"barcode":"836125003752","productWebSearchImageUrl":"../images/web-product-images/S35-SS715.png","productWebSearchImageSourceUrl":"https://diy-docks.com/cdn/shop/files/35SS715.png?v=1720400806&width=1445","productWebSearchImageSourcePage":"","productWebSearchQuery":"\"S35-SS715\" \"SIERRA SAFE SKEG MERCURY\"","imageUrl":"../images/web-product-images/S35-SS715.png"}]
+{
+  "S35-SS715": {
+    "productNumber": "S35-SS715",
+    "description": "SIERRA SAFE SKEG MERCURY",
+    "brand": "Y",
+    "variant": "PC",
+    "price": 647.53,
+    "unitCostOfSale": 379.13,
+    "categoryName": "Tools & Chandlery",
+    "topCategory": "Tools & Chandlery",
+    "subCategoryName": "General Marine Supplies",
+    "subCategory": "M - Marine Supplies",
+    "pricingCategoryUsed": "M - Marine Supplies",
+    "categoryImage": "../images/catalogue/pages/page0481.jpg",
+    "subCategoryImage": "../images/catalogue/pages/page0481.jpg",
+    "catalogueImageUrl": "../images/catalogue/bla-edition-15-cover.jpg",
+    "categoryDescription": "Tools & Chandlery from the BLA Australia Edition 15 catalogue.",
+    "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
+    "sourceUrl": "",
+    "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
+    "estimatedWeightKg": 1.0,
+    "freightAud": 4.8,
+    "exportAudExGst": 222.68,
+    "barcode": "836125003752",
+    "productWebSearchImageUrl": "../images/web-product-images/S35-SS715.png",
+    "productWebSearchImageSourceUrl": "https://diy-docks.com/cdn/shop/files/35SS715.png?v=1720400806&width=1445",
+    "productWebSearchImageSourcePage": "",
+    "productWebSearchQuery": "\"S35-SS715\" \"SIERRA SAFE SKEG MERCURY\"",
+    "imageUrl": "../images/web-product-images/S35-SS715.png"
+  }
+}

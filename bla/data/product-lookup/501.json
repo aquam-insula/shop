@@ -1,5 +1,5 @@
-[
-  {
+{
+  "501030": {
     "productNumber": "501030",
     "description": "AIRHEAD WAKE SHAKER KNEEBOARD 1 PERSON",
     "brand": "",
@@ -18,12 +18,12 @@
     "subCategoryDescription": "General Marine Supplies products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/28/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 190.31,
     "barcode": "737826039678",
     "cataloguePage": 28,
-    "imageUrl": "../images/bla-website-products/501030.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/501030.jpg",
     "catalogueDescription": "........... 969 430636............................................. 969 430637............................................. 969 430640............................................. 969 430700............................................. 970 430702............................................. 970 430708............................................. 970 430712............................................. 970 430716............................................. 970 430740............................................. 970 501030............................................. 973 501041............................................. 978 501045............................................. 978 501053............................................. 978 501054............................................. 980 501055............................................. 980 501056............................................. 978 501057............................................. 977 501058............................................. 980 501059................",
     "productBlockImageUrl": "../images/catalogue/product-blocks/501030.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/airhead-kneeboard-wake-shaker/",
@@ -40,7 +40,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/06/501030.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "501041": {
     "productNumber": "501041",
     "description": "AIRHEAD SKI ROPE AND HANDLE BASIC 22M",
     "brand": "",
@@ -59,12 +59,12 @@
     "subCategoryDescription": "Rope, Dock Lines & Mooring products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/28/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 2,
+    "estimatedWeightKg": 2.0,
     "freightAud": 9.6,
     "exportAudExGst": 29.09,
     "barcode": "737826019076",
     "cataloguePage": 28,
-    "imageUrl": "../images/bla-website-products/501041.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/501041.jpg",
     "catalogueDescription": "........... 969 430637............................................. 969 430640............................................. 969 430700............................................. 970 430702............................................. 970 430708............................................. 970 430712............................................. 970 430716............................................. 970 430740............................................. 970 501030............................................. 973 501041............................................. 978 501045............................................. 978 501053............................................. 978 501054............................................. 980 501055............................................. 980 501056............................................. 978 501057............................................. 977 501058............................................. 980 501059............................................. 979 501060................",
     "productBlockImageUrl": "../images/catalogue/product-blocks/501041.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/airhead-ski-ropeand-handle-basic/",
@@ -81,7 +81,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/06/501041.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "501045": {
     "productNumber": "501045",
     "description": "AIRHEAD WAKEBOARD ROPE AND HANDLE BLUE 3 SECTION 19M",
     "brand": "",
@@ -100,12 +100,12 @@
     "subCategoryDescription": "Rope, Dock Lines & Mooring products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/28/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 2,
+    "estimatedWeightKg": 2.0,
     "freightAud": 9.6,
     "exportAudExGst": 46.51,
     "barcode": "737826021161",
     "cataloguePage": 28,
-    "imageUrl": "../images/bla-website-products/501045.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/501045.jpg",
     "catalogueDescription": "........... 969 430640............................................. 969 430700............................................. 970 430702............................................. 970 430708............................................. 970 430712............................................. 970 430716............................................. 970 430740............................................. 970 501030............................................. 973 501041............................................. 978 501045............................................. 978 501053............................................. 978 501054............................................. 980 501055............................................. 980 501056............................................. 978 501057............................................. 977 501058............................................. 980 501059............................................. 979 501060............................................. 979 501061................",
     "productBlockImageUrl": "../images/catalogue/product-blocks/501045.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/airhead-wakeboard-rope-and-handle/",
@@ -122,7 +122,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/06/501045.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "501047": {
     "productNumber": "501047",
     "description": "AIRHEAD PHAT GRIP WAKEBOARD ROPE AND HANDLE RED 21M",
     "brand": "Y",
@@ -141,7 +141,7 @@
     "subCategoryDescription": "Rope, Dock Lines & Mooring products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 2,
+    "estimatedWeightKg": 2.0,
     "freightAud": 9.6,
     "exportAudExGst": 58.14,
     "barcode": "9319786422021",
@@ -160,7 +160,7 @@
     "imageUrl": "../images/bla-website-products/501047.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "501049": {
     "productNumber": "501049",
     "description": "AIRHEAD BLING SPECTRA WAKEBOARD ROPE & HANDLE BLUE 5 SECTION",
     "brand": "",
@@ -179,7 +179,7 @@
     "subCategoryDescription": "Rope, Dock Lines & Mooring products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 2,
+    "estimatedWeightKg": 2.0,
     "freightAud": 9.6,
     "exportAudExGst": 56.52,
     "barcode": "737826034550",
@@ -198,7 +198,7 @@
     "imageUrl": "../images/bla-website-products/501049.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "501051": {
     "productNumber": "501051",
     "description": "AIRHEAD WAKESURF ROPE AND HANDLE BLUE 3 SECTION 4.8M",
     "brand": "Y",
@@ -217,7 +217,7 @@
     "subCategoryDescription": "Rope, Dock Lines & Mooring products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 2,
+    "estimatedWeightKg": 2.0,
     "freightAud": 9.6,
     "exportAudExGst": 41.1,
     "barcode": "737826038282",
@@ -236,7 +236,7 @@
     "imageUrl": "../images/bla-website-products/501051.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "501053": {
     "productNumber": "501053",
     "description": "AIRHEAD SKI ROPE AND HANDLE 4 SECTION 22M",
     "brand": "",
@@ -255,12 +255,12 @@
     "subCategoryDescription": "Rope, Dock Lines & Mooring products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/28/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 2,
+    "estimatedWeightKg": 2.0,
     "freightAud": 9.6,
     "exportAudExGst": 46.51,
     "barcode": "737826019083",
     "cataloguePage": 28,
-    "imageUrl": "../images/bla-website-products/501053.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/501053.jpg",
     "catalogueDescription": "........... 969 430700............................................. 970 430702............................................. 970 430708............................................. 970 430712............................................. 970 430716............................................. 970 430740............................................. 970 501030............................................. 973 501041............................................. 978 501045............................................. 978 501053............................................. 978 501054............................................. 980 501055............................................. 980 501056............................................. 978 501057............................................. 977 501058............................................. 980 501059............................................. 979 501060............................................. 979 501061............................................. 979 501063................",
     "productBlockImageUrl": "../images/catalogue/product-blocks/501053.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/airhead-ski-ropeand-handle-4-section-performance/",
@@ -277,7 +277,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/06/501053.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "501054": {
     "productNumber": "501054",
     "description": "AIRHEAD KWIK-CONNECT TUBE CONNECTOR ROPE",
     "brand": "",
@@ -301,7 +301,7 @@
     "exportAudExGst": 13.34,
     "barcode": "737826020713",
     "cataloguePage": 28,
-    "imageUrl": "../images/bla-website-products/501054.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/501054.jpg",
     "catalogueDescription": "........... 970 430702............................................. 970 430708............................................. 970 430712............................................. 970 430716............................................. 970 430740............................................. 970 501030............................................. 973 501041............................................. 978 501045............................................. 978 501053............................................. 978 501054............................................. 980 501055............................................. 980 501056............................................. 978 501057............................................. 977 501058............................................. 980 501059............................................. 979 501060............................................. 979 501061............................................. 979 501063............................................. 980 501065................",
     "productBlockImageUrl": "../images/catalogue/product-blocks/501054.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/airhead-tube-connector-kwik-connect/",
@@ -318,7 +318,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/06/501054.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "501055": {
     "productNumber": "501055",
     "description": "AIRHEAD TOW BRIDLE YELLOW 3.6M",
     "brand": "",
@@ -337,12 +337,12 @@
     "subCategoryDescription": "Trailer Parts & Towing products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/28/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 15.13,
     "barcode": "737826018253",
     "cataloguePage": 28,
-    "imageUrl": "../images/bla-website-products/501055.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/501055.jpg",
     "catalogueDescription": "........... 970 430708............................................. 970 430712............................................. 970 430716............................................. 970 430740............................................. 970 501030............................................. 973 501041............................................. 978 501045............................................. 978 501053............................................. 978 501054............................................. 980 501055............................................. 980 501056............................................. 978 501057............................................. 977 501058............................................. 980 501059............................................. 979 501060............................................. 979 501061............................................. 979 501063............................................. 980 501065............................................. 979 501536................",
     "productBlockImageUrl": "../images/catalogue/product-blocks/501055.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/airhead-tow-harness/",
@@ -359,7 +359,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/06/501055.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "501056": {
     "productNumber": "501056",
     "description": "AIRHEAD HEAVY DUTY TOW BRIDLE YELLOW 3.6M",
     "brand": "",
@@ -378,12 +378,12 @@
     "subCategoryDescription": "Trailer Parts & Towing products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/28/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 29.09,
     "barcode": "737826018260",
     "cataloguePage": 28,
-    "imageUrl": "../images/bla-website-products/501056.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/501056.jpg",
     "catalogueDescription": "........... 970 430712............................................. 970 430716............................................. 970 430740............................................. 970 501030............................................. 973 501041............................................. 978 501045............................................. 978 501053............................................. 978 501054............................................. 980 501055............................................. 980 501056............................................. 978 501057............................................. 977 501058............................................. 980 501059............................................. 979 501060............................................. 979 501061............................................. 979 501063............................................. 980 501065............................................. 979 501536............................................. 980 501538................",
     "productBlockImageUrl": "../images/catalogue/product-blocks/501056.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/airhead-tow-harness-heavy-duty/",
@@ -400,7 +400,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/06/501056.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "501057": {
     "productNumber": "501057",
     "description": "AIRHEAD LINE WINDER RED",
     "brand": "",
@@ -424,7 +424,7 @@
     "exportAudExGst": 11.63,
     "barcode": "737826020751",
     "cataloguePage": 28,
-    "imageUrl": "../images/bla-website-products/501057.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/501057.jpg",
     "catalogueDescription": "........... 970 430716............................................. 970 430740............................................. 970 501030............................................. 973 501041............................................. 978 501045............................................. 978 501053............................................. 978 501054............................................. 980 501055............................................. 980 501056............................................. 978 501057............................................. 977 501058............................................. 980 501059............................................. 979 501060............................................. 979 501061............................................. 979 501063............................................. 980 501065............................................. 979 501536............................................. 980 501538............................................. 980 502418................",
     "productBlockImageUrl": "../images/catalogue/product-blocks/501057.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/airhead-line-winder/",
@@ -441,7 +441,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/06/501057.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "501058": {
     "productNumber": "501058",
     "description": "AIRHEAD SELF-CENTRING TOW BRIDLE WITH PULLEY YELLOW 3.6M",
     "brand": "",
@@ -460,12 +460,12 @@
     "subCategoryDescription": "Trailer Parts & Towing products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/28/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 40.7,
     "barcode": "737826019045",
     "cataloguePage": 28,
-    "imageUrl": "../images/bla-website-products/501058.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/501058.jpg",
     "catalogueDescription": "........... 970 430740............................................. 970 501030............................................. 973 501041............................................. 978 501045............................................. 978 501053............................................. 978 501054............................................. 980 501055............................................. 980 501056............................................. 978 501057............................................. 977 501058............................................. 980 501059............................................. 979 501060............................................. 979 501061............................................. 979 501063............................................. 980 501065............................................. 979 501536............................................. 980 501538............................................. 980 502418............................................. 977 502420................",
     "productBlockImageUrl": "../images/catalogue/product-blocks/501058.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/airheadtow-harness-self-centreing/",
@@ -482,7 +482,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/06/501058.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "501059": {
     "productNumber": "501059",
     "description": "AIRHEAD 2 RIDER TUBE TOW ROPE 18.2M 1077KG",
     "brand": "",
@@ -506,7 +506,7 @@
     "exportAudExGst": 20.93,
     "barcode": "737826016730",
     "cataloguePage": 28,
-    "imageUrl": "../images/bla-website-products/501059.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/501059.jpg",
     "catalogueDescription": "........... 970 501030............................................. 973 501041............................................. 978 501045............................................. 978 501053............................................. 978 501054............................................. 980 501055............................................. 980 501056............................................. 978 501057............................................. 977 501058............................................. 980 501059............................................. 979 501060............................................. 979 501061............................................. 979 501063............................................. 980 501065............................................. 979 501536............................................. 980 501538............................................. 980 502418............................................. 977 502420............................................. 977 502440................",
     "productBlockImageUrl": "../images/catalogue/product-blocks/501059.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/airhead-tow-rope-2-rider-tube/",
@@ -523,7 +523,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/06/501059.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "501060": {
     "productNumber": "501060",
     "description": "AIRHEAD 4 RIDER TUBE TOW ROPE 18.2M 1882KG",
     "brand": "",
@@ -542,12 +542,12 @@
     "subCategoryDescription": "Rope, Dock Lines & Mooring products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/28/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 2,
+    "estimatedWeightKg": 2.0,
     "freightAud": 9.6,
     "exportAudExGst": 29.09,
     "barcode": "737826017263",
     "cataloguePage": 28,
-    "imageUrl": "../images/bla-website-products/501060.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/501060.jpg",
     "catalogueDescription": "........... 973 501041............................................. 978 501045............................................. 978 501053............................................. 978 501054............................................. 980 501055............................................. 980 501056............................................. 978 501057............................................. 977 501058............................................. 980 501059............................................. 979 501060............................................. 979 501061............................................. 979 501063............................................. 980 501065............................................. 979 501536............................................. 980 501538............................................. 980 502418............................................. 977 502420............................................. 977 502440............................................. 973 502441................",
     "productBlockImageUrl": "../images/catalogue/product-blocks/501060.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/airhead-tow-rope-deluxe-1882kg/",
@@ -564,7 +564,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/06/501060.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "501061": {
     "productNumber": "501061",
     "description": "AIRHEAD 1 RIDER TUBE TOW ROPE 15.2M 680KG",
     "brand": "",
@@ -588,7 +588,7 @@
     "exportAudExGst": 17.45,
     "barcode": "737826018277",
     "cataloguePage": 28,
-    "imageUrl": "../images/bla-website-products/501061.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/501061.jpg",
     "catalogueDescription": "........... 978 501045............................................. 978 501053............................................. 978 501054............................................. 980 501055............................................. 980 501056............................................. 978 501057............................................. 977 501058............................................. 980 501059............................................. 979 501060............................................. 979 501061............................................. 979 501063............................................. 980 501065............................................. 979 501536............................................. 980 501538............................................. 980 502418............................................. 977 502420............................................. 977 502440............................................. 973 502441............................................. 973 502444................",
     "productBlockImageUrl": "../images/catalogue/product-blocks/501061.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/airhead-tow-rope-1-rider-tube/",
@@ -605,7 +605,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/06/501061.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "501063": {
     "productNumber": "501063",
     "description": "AIRHEAD TOW ROPE BUNGEE EXTENSION 1882KG",
     "brand": "",
@@ -629,7 +629,7 @@
     "exportAudExGst": 23.26,
     "barcode": "737826039975",
     "cataloguePage": 28,
-    "imageUrl": "../images/bla-website-products/501063.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/501063.jpg",
     "catalogueDescription": "........... 978 501053............................................. 978 501054............................................. 980 501055............................................. 980 501056............................................. 978 501057............................................. 977 501058............................................. 980 501059............................................. 979 501060............................................. 979 501061............................................. 979 501063............................................. 980 501065............................................. 979 501536............................................. 980 501538............................................. 980 502418............................................. 977 502420............................................. 977 502440............................................. 973 502441............................................. 973 502444............................................. 976 502446................",
     "productBlockImageUrl": "../images/catalogue/product-blocks/501063.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/airhead-tow-rope-bungee-extension/",
@@ -646,7 +646,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/06/501063.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "501065": {
     "productNumber": "501065",
     "description": "AIRHEAD 6 RIDER TUBE TOW ROPE 18.2M 2721KG",
     "brand": "",
@@ -665,12 +665,12 @@
     "subCategoryDescription": "Rope, Dock Lines & Mooring products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/28/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 2,
+    "estimatedWeightKg": 2.0,
     "freightAud": 9.6,
     "exportAudExGst": 40.7,
     "barcode": "737826019823",
     "cataloguePage": 28,
-    "imageUrl": "../images/bla-website-products/501065.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/501065.jpg",
     "catalogueDescription": "........... 978 501054............................................. 980 501055............................................. 980 501056............................................. 978 501057............................................. 977 501058............................................. 980 501059............................................. 979 501060............................................. 979 501061............................................. 979 501063............................................. 980 501065............................................. 979 501536............................................. 980 501538............................................. 980 502418............................................. 977 502420............................................. 977 502440............................................. 973 502441............................................. 973 502444............................................. 976 502446............................................. 974 502448................",
     "productBlockImageUrl": "../images/catalogue/product-blocks/501065.jpg",
     "blaWebsiteUrl": "https://bla.com.au/product/airhead-tow-rope-super-strength-2721kg/",
@@ -687,7 +687,7 @@
     "productWebsiteImageSourceUrl": "https://bla.com.au/wp-content/uploads/2020/06/501065.jpg",
     "productWebsiteImageDownloaded": true
   },
-  {
+  "501536": {
     "productNumber": "501536",
     "description": "TREM TOW BRIDLE WITH PULLEY PLASTIC FLOAT",
     "brand": "",
@@ -706,17 +706,16 @@
     "subCategoryDescription": "Fenders, Floats & Buoys products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/28/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 38.14,
     "barcode": "8024827053058",
     "cataloguePage": 28,
-    "imageUrl": "../images/catalogue/product-photos/501536.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/501536.jpg",
     "catalogueDescription": "........... 980 501055............................................. 980 501056............................................. 978 501057............................................. 977 501058............................................. 980 501059............................................. 979 501060............................................. 979 501061............................................. 979 501063............................................. 980 501065............................................. 979 501536............................................. 980 501538............................................. 980 502418............................................. 977 502420............................................. 977 502440............................................. 973 502441............................................. 973 502444............................................. 976 502446............................................. 974 502448............................................. 974 502450................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/501536.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/501536.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/501536.jpg"
   },
-  {
+  "501538": {
     "productNumber": "501538",
     "description": "TREM TOW BRIDLE WITH PULLEY TOPREDO FLOAT QUICK RELEASE",
     "brand": "",
@@ -735,14 +734,13 @@
     "subCategoryDescription": "Fenders, Floats & Buoys products grouped for AQUAM INSULA Fiji quotation and paid-order fulfilment.",
     "sourceUrl": "https://online.flippingbook.com/view/328167/28/",
     "printCatalogueUrl": "https://online.flippingbook.com/view/328167/",
-    "estimatedWeightKg": 1,
+    "estimatedWeightKg": 1.0,
     "freightAud": 4.8,
     "exportAudExGst": 30.65,
     "barcode": "8024827053072",
     "cataloguePage": 28,
-    "imageUrl": "../images/catalogue/product-photos/501538.jpg",
+    "imageUrl": "../images/catalogue/product-blocks/501538.jpg",
     "catalogueDescription": "........... 980 501056............................................. 978 501057............................................. 977 501058............................................. 980 501059............................................. 979 501060............................................. 979 501061............................................. 979 501063............................................. 980 501065............................................. 979 501536............................................. 980 501538............................................. 980 502418............................................. 977 502420............................................. 977 502440............................................. 973 502441............................................. 973 502444............................................. 976 502446............................................. 974 502448............................................. 974 502450............................................. 973 502457................",
-    "productBlockImageUrl": "../images/catalogue/product-blocks/501538.jpg",
-    "productPhotoImageUrl": "../images/catalogue/product-photos/501538.jpg"
+    "productBlockImageUrl": "../images/catalogue/product-blocks/501538.jpg"
   }
-]
+}
