@@ -2442,6 +2442,33 @@
         }
       }
     }
+    function normalizeBlaSummaryData(data) {
+      if (!data) return { totalProducts: 0, categories: [] };
+      if (Array.isArray(data.categories)) return data;
+      if (data.categories && typeof data.categories === 'object') {
+        const categoriesArray = Object.entries(data.categories).map(([catName, catObj]) => {
+          const subCategoriesDict = (catObj && (catObj.subCategories || catObj.subcategories)) || {};
+          const subcategoriesArray = Array.isArray(subCategoriesDict)
+            ? subCategoriesDict
+            : Object.entries(subCategoriesDict).map(([subName, subObj]) => ({
+                name: subName,
+                count: typeof subObj === 'number' ? subObj : (subObj && subObj.count) || 0,
+                file: (subObj && subObj.file) || `${assetSlug(catName)}--${assetSlug(subName)}.json`
+              }));
+          return {
+            name: catName,
+            count: (catObj && catObj.count) || 0,
+            subcategories: subcategoriesArray
+          };
+        });
+        return {
+          totalProducts: data.totalProducts || 0,
+          categories: categoriesArray
+        };
+      }
+      return { totalProducts: 0, categories: [] };
+    }
+
     function loadCatalogue() {
       document.getElementById('productCount').innerHTML = '<span class="spinner small" aria-hidden="true"></span> Loading BLA range...';
       document.getElementById('resultCount').textContent = 'Loading BLA range...';
@@ -2449,10 +2476,10 @@
       fetchJsonWithTimeout(STATIC_CATALOGUE_SUMMARY_URL, JSON_TIMEOUT_MS)
         .then(data => {
           if (data && data.error) throw new Error(data.error);
-          categorySummary = data;
+          categorySummary = normalizeBlaSummaryData(data);
           categorySummaryLoaded = true;
-          if (!catalogueLoaded && data.totalProducts) {
-            document.getElementById('productCount').textContent = `${Number(data.totalProducts).toLocaleString('en-US')} BLA products`;
+          if (!catalogueLoaded && categorySummary.totalProducts) {
+            document.getElementById('productCount').textContent = `${Number(categorySummary.totalProducts).toLocaleString('en-US')} BLA products`;
           }
           render();
         })

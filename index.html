@@ -1498,9 +1498,36 @@
         .map(normalizeShopProduct);
     }
 
+    function normalizeBlaSummaryData(data) {
+      if (!data) return { totalProducts: 0, categories: [] };
+      if (Array.isArray(data.categories)) return data;
+      if (data.categories && typeof data.categories === 'object') {
+        const categoriesArray = Object.entries(data.categories).map(([catName, catObj]) => {
+          const subCategoriesDict = (catObj && (catObj.subCategories || catObj.subcategories)) || {};
+          const subcategoriesArray = Array.isArray(subCategoriesDict)
+            ? subCategoriesDict
+            : Object.entries(subCategoriesDict).map(([subName, subObj]) => ({
+                name: subName,
+                count: typeof subObj === 'number' ? subObj : (subObj && subObj.count) || 0,
+                file: (subObj && subObj.file) || `${assetSlug(catName)}--${assetSlug(subName)}.json`
+              }));
+          return {
+            name: catName,
+            count: (catObj && catObj.count) || 0,
+            subcategories: subcategoriesArray
+          };
+        });
+        return {
+          totalProducts: data.totalProducts || 0,
+          categories: categoriesArray
+        };
+      }
+      return { totalProducts: 0, categories: [] };
+    }
+
     async function loadBlaSummary() {
       const data = await fetchJson(BLA_SUMMARY_URL, 20000);
-      state.blaSummary = data && Array.isArray(data.categories) ? data : { totalProducts: 0, categories: [] };
+      state.blaSummary = normalizeBlaSummaryData(data);
       return state.blaSummary;
     }
 
@@ -1526,8 +1553,18 @@
         : null;
       if (!subcategory || !subcategory.file) return [];
       if (state.blaChunks.has(subcategory.file)) return state.blaChunks.get(subcategory.file);
-      const rows = await fetchJson(`./bla/data/catalogue-chunks/${subcategory.file}`, 30000);
-      const products = (Array.isArray(rows) ? rows : []).map(normalizeBlaProduct);
+      let products = [];
+      try {
+        const rows = await fetchJson(`./bla/data/catalogue-chunks/${subcategory.file}`, 30000);
+        products = (Array.isArray(rows) ? rows : []).map(normalizeBlaProduct);
+      } catch (error) {
+        console.warn(`Chunk file ${subcategory.file} failed to load, falling back to compact search feed`, error);
+        const allBla = await loadBlaProducts().catch(() => []);
+        products = allBla.filter(p =>
+          (p.category === categoryName || p.topCategory === categoryName || p.categoryName === categoryName) &&
+          (p.subCategory === subcategoryName || p.subCategoryName === subcategoryName)
+        );
+      }
       state.blaChunks.set(subcategory.file, products);
       return products;
     }
@@ -2104,10 +2141,17 @@
       showLoading('Loading products...');
       try {
         const localRows = localSubcategoryProducts(categoryName, subcategoryName);
-        const blaRows = await loadBlaSubcategoryChunk(categoryName, subcategoryName).catch(error => {
+        let blaRows = await loadBlaSubcategoryChunk(categoryName, subcategoryName).catch(error => {
           console.warn('Additional catalogue products unavailable', error);
           return [];
         });
+        if (!blaRows.length) {
+          const allBla = await loadBlaProducts().catch(() => []);
+          blaRows = allBla.filter(p =>
+            (p.category === categoryName || p.topCategory === categoryName || p.categoryName === categoryName) &&
+            (p.subCategory === subcategoryName || p.subCategoryName === subcategoryName)
+          );
+        }
         if (state.section !== 'marine' || state.selectedCategory !== categoryName || state.selectedSubCategory !== subcategoryName) return;
         openBlaSubcategory(subcategoryName, localRows.concat(blaRows));
         renderSidebar();
