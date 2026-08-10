@@ -1605,7 +1605,7 @@
       return /[0-9]/.test(value) && /^[A-Za-z0-9-]{4,18}$/.test(value);
     }
     function normalizeProductCode(value) {
-      return String(value || '').toLowerCase().replace(/[^a-z0-9]+/g, '');
+      return String(value || '').toLowerCase().replace(/^b[-_\s]?/, '').replace(/[^a-z0-9]+/g, '');
     }
     function productLookupPrefix(value) {
       return normalizeProductCode(value).slice(0, 3) || 'misc';

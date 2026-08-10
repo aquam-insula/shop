@@ -1260,11 +1260,16 @@
     function text(value) { return String(value == null ? '' : value); }
     function number(value) { const parsed = Number(value); return Number.isFinite(parsed) ? parsed : 0; }
     function money(value) { return number(value).toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 }); }
-    function productKey(product) { return `${product.source}:${product.productNumber}`; }
+    function productKey(product) {
+      const pNum = text(product && product.productNumber).trim().replace(/^B[-_\s]?/i, '');
+      return `${(product && product.source) || 'stock'}:${pNum}`;
+    }
 
     function quotationProductNumber(product) {
       const productNumber = text(product && product.productNumber).trim();
-      if (!productNumber || !product || product.source !== 'bla') return productNumber;
+      if (!productNumber || !product) return productNumber;
+      const isBla = product.source === 'bla' || /^B[-_\s]?/i.test(productNumber) || text(product.supplier).toUpperCase() === 'BLA';
+      if (!isBla) return productNumber;
       return /^B/i.test(productNumber) ? productNumber : `B${productNumber}`;
     }
     function vip(product) { return number(product.price) * (1 + state.vatRate); }
@@ -1331,13 +1336,15 @@
     }
 
     function normalizeShopProduct(product) {
+      const pNum = text(product && product.productNumber).trim();
+      const isBla = /^B/i.test(pNum) || text(product && product.source).toLowerCase() === 'bla' || text(product && product.supplier).toUpperCase() === 'BLA';
       const market = product.superCategory === 'Maritime Lifestyle' ? 'lifestyle' : 'marine';
       const taxonomy = market === 'marine' ? localMarineTaxonomy(product) : [text(product.superCategory), text(product.subCategory)];
       return {
         ...product,
-        source: 'stock',
+        source: isBla ? 'bla' : 'stock',
         market,
-        productNumber: text(product.productNumber),
+        productNumber: pNum,
         description: text(product.description),
         brand: text(product.brand),
         variant: text(product.variant),
@@ -1350,16 +1357,17 @@
         categoryDisplayOrder: number(product.categoryDisplayOrder),
         productDisplayOrder: number(product.productDisplayOrder),
         imageUrl: text(product.imageUrl),
-        fulfilment: 'Available in house'
+        fulfilment: isBla ? 'BLA special order from Australia' : 'Available in house'
       };
     }
 
     function normalizeBlaProduct(product) {
+      const pNum = text(product && product.productNumber).trim();
       return {
         ...product,
         source: 'bla',
         market: 'marine',
-        productNumber: text(product.productNumber),
+        productNumber: pNum,
         description: text(product.description),
         brand: text(product.brand),
         variant: text(product.variant),
@@ -1656,11 +1664,12 @@
       const queryWords = normalizeWords(query);
       const groups = queryWords.map(variants);
       return products.map(product => {
-        const code = text(product.productNumber).toLowerCase();
+        const rawCode = text(product.productNumber).toLowerCase();
+        const cleanCode = rawCode.replace(/^b[-_\s]?/, '');
         const description = text(product.description).toLowerCase();
         const brand = text(product.brand).toLowerCase();
         const category = `${product.category} ${product.subCategory}`.toLowerCase();
-        const identity = `${code} ${description} ${product.variant} ${product.material}`.toLowerCase();
+        const identity = `${rawCode} ${cleanCode} ${description} ${product.variant} ${product.material}`.toLowerCase();
         const primary = `${identity} ${category}`;
         const combined = `${primary} ${brand}`;
         const identityWords = new Set(normalizeWords(identity));
@@ -1668,14 +1677,18 @@
         let matched = 0;
         let score = 0;
         groups.forEach(group => {
-          const primaryMatched = group.some(word => identityWords.has(word) || code.includes(word));
+          const primaryMatched = group.some(word => {
+            const cleanWord = word.toLowerCase().replace(/^b[-_\s]?/, '');
+            return identityWords.has(word) || identityWords.has(cleanWord) || rawCode.includes(word) || cleanCode.includes(cleanWord);
+          });
           const exactBrandMatched = group.some(word => brandWords.has(word));
           const groupMatched = primaryMatched || exactBrandMatched;
           if (!groupMatched) return;
           matched += 1;
           group.forEach(word => {
-            if (code === word) score += 900;
-            else if (code.startsWith(word)) score += 280;
+            const cleanWord = word.toLowerCase().replace(/^b[-_\s]?/, '');
+            if (rawCode === word || cleanCode === cleanWord) score += 900;
+            else if (rawCode.startsWith(word) || cleanCode.startsWith(cleanWord)) score += 280;
             if (description.includes(word)) score += 115;
             if (category.includes(word)) score += 62;
             if (brandWords.has(word)) score += 70;
@@ -1692,8 +1705,9 @@
 
     function makeAiCandidate(row) {
       const product = row.product;
+      const cleanCode = text(product.productNumber).trim().replace(/^B[-_\s]?/i, '');
       return {
-        productNumber: `${product.source === 'bla' ? 'BLA' : 'STOCK'}:${product.productNumber}`,
+        productNumber: `${product.source === 'bla' ? 'BLA' : 'STOCK'}:${cleanCode}`,
         description: product.description,
         brand: product.brand,
         variant: product.variant,
@@ -1715,11 +1729,21 @@
     }
 
     function mapRankedCodes(codes, candidateRows) {
-      const byKey = new Map(candidateRows.map(row => [
-        `${row.product.source === 'bla' ? 'BLA' : 'STOCK'}:${row.product.productNumber}`,
-        row.product
-      ]));
-      return (Array.isArray(codes) ? codes : []).map(code => byKey.get(text(code))).filter(Boolean);
+      const byKey = new Map();
+      candidateRows.forEach(row => {
+        const rawCode = text(row.product.productNumber).trim();
+        const cleanCode = rawCode.replace(/^B[-_\s]?/i, '');
+        const prefix = row.product.source === 'bla' ? 'BLA' : 'STOCK';
+        byKey.set(`${prefix}:${rawCode}`, row.product);
+        byKey.set(`${prefix}:${cleanCode}`, row.product);
+        byKey.set(rawCode, row.product);
+        byKey.set(cleanCode, row.product);
+      });
+      return (Array.isArray(codes) ? codes : []).map(code => {
+        const raw = text(code).trim();
+        const clean = raw.replace(/^BLA:B?/i, 'BLA:').replace(/^STOCK:B?/i, 'STOCK:');
+        return byKey.get(raw) || byKey.get(clean);
+      }).filter(Boolean);
     }
 
     async function runSearch() {
@@ -1851,20 +1875,48 @@
       return blaCategorySummaries().find(category => category.name === name) || null;
     }
 
+    function matchCategoryName(product, categoryName) {
+      if (!categoryName) return true;
+      const target = text(categoryName).trim().toLowerCase();
+      return [product.category, product.topCategory, product.categoryName]
+        .some(c => text(c).trim().toLowerCase() === target);
+    }
+
+    function matchSubcategoryName(product, subcategoryName) {
+      if (!subcategoryName) return true;
+      const target = text(subcategoryName).trim().toLowerCase();
+      return [product.subCategory, product.subCategoryName]
+        .some(s => text(s).trim().toLowerCase() === target);
+    }
+
+    function allMarineProducts() {
+      const map = new Map();
+      state.shopProducts.forEach(p => {
+        if (p.market === 'marine') map.set(productKey(p), p);
+      });
+      state.blaProducts.forEach(p => {
+        const key = productKey(p);
+        if (!map.has(key)) map.set(key, p);
+      });
+      return Array.from(map.values());
+    }
+
     function localMarineProducts() {
       return state.shopProducts.filter(product => product.market === 'marine');
     }
 
     function localToolsProducts() {
-      return localMarineProducts().filter(product => product.category === 'Tools');
+      return allMarineProducts().filter(product => matchCategoryName(product, 'Tools'));
     }
 
     function localCategoryProducts(categoryName) {
-      return localMarineProducts().filter(product => product.category === categoryName);
+      return allMarineProducts().filter(product => matchCategoryName(product, categoryName));
     }
 
     function localSubcategoryProducts(categoryName, subcategoryName) {
-      return localMarineProducts().filter(product => product.category === categoryName && product.subCategory === subcategoryName);
+      return allMarineProducts().filter(product =>
+        matchCategoryName(product, categoryName) && matchSubcategoryName(product, subcategoryName)
+      );
     }
 
     function unifiedCategorySummaries() {
@@ -2110,7 +2162,7 @@
       elements.categoryGrid.appendChild(fragment);
     }
 
-    function openBlaSummaryCategory(name) {
+    async function openBlaSummaryCategory(name) {
       const category = unifiedCategorySummary(name);
       if (!category) return;
       movePageToTop();
@@ -2122,9 +2174,10 @@
       elements.contextTitle.textContent = name;
       elements.contextDescription.textContent = '';
       renderSidebar();
+      showLoading('Loading products...');
+      await loadBlaProducts().catch(() => []);
       if ((category.subcategories || []).length > 0) {
         renderBlaSummarySubcategories(category);
-        prefetchBla();
       } else {
         openCategory(category.name, localCategoryProducts(category.name));
       }
@@ -2140,20 +2193,10 @@
       renderSidebar();
       showLoading('Loading products...');
       try {
-        const localRows = localSubcategoryProducts(categoryName, subcategoryName);
-        let blaRows = await loadBlaSubcategoryChunk(categoryName, subcategoryName).catch(error => {
-          console.warn('Additional catalogue products unavailable', error);
-          return [];
-        });
-        if (!blaRows.length) {
-          const allBla = await loadBlaProducts().catch(() => []);
-          blaRows = allBla.filter(p =>
-            (p.category === categoryName || p.topCategory === categoryName || p.categoryName === categoryName) &&
-            (p.subCategory === subcategoryName || p.subCategoryName === subcategoryName)
-          );
-        }
+        await loadBlaProducts().catch(() => []);
+        const products = localSubcategoryProducts(categoryName, subcategoryName);
         if (state.section !== 'marine' || state.selectedCategory !== categoryName || state.selectedSubCategory !== subcategoryName) return;
-        openBlaSubcategory(subcategoryName, localRows.concat(blaRows));
+        openBlaSubcategory(subcategoryName, products);
         renderSidebar();
       } catch (error) {
         elements.loadingPanel.classList.add('hidden');
@@ -2376,7 +2419,9 @@
     }
 
     function blaImage(product) {
-      const raw = text(product.imageUrl);
+      const raw = text((product && (product.imageUrl || product.productWebsiteImageSourceUrl || product.productWebSearchImageSourceUrl)) || '');
+      const pNum = text(product && product.productNumber).trim().replace(/^B[-_\s]?/i, '');
+      if (!raw && pNum) return `./bla/assets/product-thumbs/${pNum}.jpg`;
       if (!raw) return '';
       if (/^https?:\/\//i.test(raw)) return raw;
       const cleaned = raw.replace(/^(\.\.\/)+/, '').replace(/^\.\//, '').replace(/\.(webp|png|gif|jpeg)$/i, '.jpg');
@@ -2388,7 +2433,9 @@
     }
 
     function imageFor(product) {
-      return product.source === 'bla' ? blaImage(product) : driveImage(product.imageUrl);
+      const pNum = text(product && product.productNumber).trim();
+      const isBla = (product && product.source) === 'bla' || /^B[-_\s]?/i.test(pNum) || text(product && product.supplier).toUpperCase() === 'BLA';
+      return isBla ? blaImage(product) : driveImage(product && product.imageUrl);
     }
 
     function makeImage(product, className) {
