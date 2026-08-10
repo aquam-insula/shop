@@ -1260,15 +1260,24 @@
     function text(value) { return String(value == null ? '' : value); }
     function number(value) { const parsed = Number(value); return Number.isFinite(parsed) ? parsed : 0; }
     function money(value) { return number(value).toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 }); }
+    function cleanProductNumber(value) {
+      const s = text(value).trim();
+      if (!s) return s;
+      if (/^[Bb][0-9]{4,8}/.test(s)) return s.slice(1);
+      const m = s.match(/^[A-Za-z]+[-_\s]?([0-9]{4,8}.*)$/);
+      if (m && s.toUpperCase().startsWith('B')) return m[1];
+      return s;
+    }
+
     function productKey(product) {
-      const pNum = text(product && product.productNumber).trim().replace(/^B[-_\s]?/i, '');
+      const pNum = cleanProductNumber(product && product.productNumber);
       return `${(product && product.source) || 'stock'}:${pNum}`;
     }
 
     function quotationProductNumber(product) {
-      const productNumber = text(product && product.productNumber).trim();
+      const productNumber = cleanProductNumber(product && product.productNumber);
       if (!productNumber || !product) return productNumber;
-      const isBla = product.source === 'bla' || /^B[-_\s]?/i.test(productNumber) || text(product.supplier).toUpperCase() === 'BLA';
+      const isBla = product.source === 'bla' || text(product.supplier).toUpperCase() === 'BLA';
       if (!isBla) return productNumber;
       return /^B/i.test(productNumber) ? productNumber : `B${productNumber}`;
     }
@@ -1336,8 +1345,9 @@
     }
 
     function normalizeShopProduct(product) {
-      const pNum = text(product && product.productNumber).trim();
-      const isBla = /^B/i.test(pNum) || text(product && product.source).toLowerCase() === 'bla' || text(product && product.supplier).toUpperCase() === 'BLA';
+      const rawNum = text(product && product.productNumber).trim();
+      const pNum = cleanProductNumber(rawNum);
+      const isBla = /^B/i.test(rawNum) || text(product && product.source).toLowerCase() === 'bla' || text(product && product.supplier).toUpperCase() === 'BLA';
       const market = product.superCategory === 'Maritime Lifestyle' ? 'lifestyle' : 'marine';
       const taxonomy = market === 'marine' ? localMarineTaxonomy(product) : [text(product.superCategory), text(product.subCategory)];
       return {
@@ -1362,7 +1372,8 @@
     }
 
     function normalizeBlaProduct(product) {
-      const pNum = text(product && product.productNumber).trim();
+      const rawNum = text(product && product.productNumber).trim();
+      const pNum = cleanProductNumber(rawNum);
       return {
         ...product,
         source: 'bla',
