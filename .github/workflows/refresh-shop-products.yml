@@ -20,24 +20,25 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Download live catalogue
+      - name: Download live catalogue from FBM
         shell: bash
         run: |
           set -euo pipefail
-          base_url='https://script.google.com/macros/s/AKfycbxpg0ptxrXsGXO6vmir-RxK5mHQ_I5XdFPxNeIp9uDgPumGxz9c9ATs_r51Mr4R4UpONA/exec?action=getProductsFromSheet'
+          # FBM Products is the in-house shop source. Equipment List Apps Script is retired.
+          base_url='https://fbm.framesoft.com/api/v1/public/shop-inhouse-catalog'
           output='data/shop_products.json.new'
           rm -f "$output"
 
           for attempt in 1 2 3; do
             echo "Catalogue download attempt ${attempt}/3"
-            url="${base_url}&refresh=${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}-${attempt}"
+            url="${base_url}?refresh=${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}-${attempt}"
 
-            if curl --fail-with-body --location --connect-timeout 20 --max-time 120 "$url" --output "$output"; then
-              if python -m json.tool "$output" > /dev/null; then
+            if curl --fail-with-body --location --connect-timeout 20 --max-time 180 "$url" --output "$output"; then
+              if python -c "import json; data=json.load(open('$output', encoding='utf-8')); assert isinstance(data, list) and len(data) >= 100"; then
                 mv "$output" data/shop_products.json
                 exit 0
               fi
-              echo 'Downloaded response was not valid JSON.'
+              echo 'Downloaded response was not a valid FBM shop catalogue.'
             fi
 
             rm -f "$output"
@@ -46,7 +47,7 @@ jobs:
             fi
           done
 
-          echo 'Catalogue download failed after 3 attempts.'
+          echo 'FBM catalogue download failed after 3 attempts.'
           exit 1
 
       - name: Publish catalogue change
@@ -60,5 +61,5 @@ jobs:
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add data/shop_products.json
-          git commit -m 'Refresh shop product catalogue'
+          git commit -m 'Refresh shop product catalogue from FBM'
           git push
