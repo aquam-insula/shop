@@ -1236,6 +1236,7 @@
     const VISIT_DATA_VERSION = Date.now().toString(36);
     const SEARCH_PROXY_URL = 'https://aqiml-search.t-98d.workers.dev';
     const SHOP_GAS_URL = 'https://script.google.com/macros/s/AKfycbxpg0ptxrXsGXO6vmir-RxK5mHQ_I5XdFPxNeIp9uDgPumGxz9c9ATs_r51Mr4R4UpONA/exec';
+    const FBM_SHOP_QUOTE_URL = 'https://fbm.framesoft.com/api/v1/public/shop-quotation';
     const BLA_GAS_URL = 'https://script.google.com/macros/s/AKfycbxQxHW4iCUh7im8_Q6jXbx5aLAxglySAgXkE7tIDyI6Wx0iHP2OhIOdKhB29vHZoO8/exec';
     const BASKET_STORAGE_KEY = 'aqiml-shop-basket-v2';
     const MAX_AI_CANDIDATES = 500;
@@ -1493,6 +1494,27 @@
         let data = {};
         try { data = JSON.parse(raw); } catch (error) {}
         if (!response.ok || data.error) throw new Error(data.error || `Request failed (${response.status})`);
+        return data;
+      } finally {
+        clearTimeout(timer);
+      }
+    }
+
+    async function postJson(url, payload, timeoutMs) {
+      const controller = new AbortController();
+      const timer = setTimeout(() => controller.abort(), timeoutMs || 20000);
+      try {
+        const response = await fetch(url, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+          body: JSON.stringify(payload || {}),
+          signal: controller.signal
+        });
+        const raw = await response.text();
+        let data = {};
+        try { data = JSON.parse(raw); } catch (error) {}
+        const detail = typeof data.detail === 'string' ? data.detail : data.error;
+        if (!response.ok || detail) throw new Error(detail || `Request failed (${response.status})`);
         return data;
       } finally {
         clearTimeout(timer);
@@ -2892,9 +2914,7 @@
       button.textContent = 'Sending...';
       status.textContent = 'Sending your quote request...';
       try {
-        const result = await postForm(`${SHOP_GAS_URL}?action=submitQuotation`, {
-          quotationData: JSON.stringify(quotationData)
-        }, 30000);
+        const result = await postJson(FBM_SHOP_QUOTE_URL, quotationData, 30000);
         const quotationNumber = text(result.quotationNr);
         status.textContent = quotationNumber
           ? `Quotation ${quotationNumber} has been sent. Thank you.`
