@@ -1652,7 +1652,11 @@
     }
 
     function prefetchBla() {
-      const run = () => loadBlaProducts().catch(error => console.warn('BLA prefetch unavailable', error));
+      const run = () => loadBlaProducts()
+        .then(() => {
+          if (state.section === 'home' && state.view === 'categories') renderHomeCategories();
+        })
+        .catch(error => console.warn('BLA prefetch unavailable', error));
       if ('requestIdleCallback' in window) window.requestIdleCallback(run, { timeout: 2500 });
       else setTimeout(run, 900);
     }
@@ -2117,7 +2121,33 @@
       elements.categoryGrid.classList.remove('hidden');
     }
 
-    function makeHomeRangeCard(section, title, imageUrl, description) {
+    function productsInCatalogOrder(products) {
+      return (products || []).slice().sort(compareProductDisplayOrder);
+    }
+
+    function firstCategoryProduct(products) {
+      return productsInCatalogOrder(products)[0] || null;
+    }
+
+    function appendCategoryCardImage(imageWrap, products, fallbackUrl, alt) {
+      const sample = firstCategoryProduct(products);
+      if (sample && imageFor(sample)) {
+        imageWrap.appendChild(makeImage(sample, 'category-image'));
+        return;
+      }
+      if (fallbackUrl) {
+        const image = document.createElement('img');
+        image.className = 'category-image';
+        image.src = fallbackUrl;
+        image.alt = alt || '';
+        image.loading = 'lazy';
+        imageWrap.appendChild(image);
+        return;
+      }
+      imageWrap.appendChild(makeImage(sample, 'category-image'));
+    }
+
+    function makeHomeRangeCard(section, title, products, fallbackUrl, description) {
       const card = document.createElement('article');
       card.className = 'category-card home-range-card';
       card.dataset.section = section;
@@ -2126,11 +2156,7 @@
       card.setAttribute('aria-label', `Open ${title}`);
       const imageWrap = document.createElement('div');
       imageWrap.className = 'category-image-wrap';
-      const image = document.createElement('img');
-      image.className = 'category-image';
-      image.src = imageUrl;
-      image.alt = title;
-      imageWrap.appendChild(image);
+      appendCategoryCardImage(imageWrap, products, fallbackUrl, title);
       const body = document.createElement('div');
       body.className = 'category-body';
       const heading = document.createElement('h3');
@@ -2156,12 +2182,12 @@
       card.setAttribute('aria-label', `Open ${category.name}`);
       const imageWrap = document.createElement('div');
       imageWrap.className = 'category-image-wrap';
-      const image = document.createElement('img');
-      image.className = 'category-image';
-      image.src = blaCategoryImageSource(category.name);
-      image.alt = category.name;
-      image.loading = 'lazy';
-      imageWrap.appendChild(image);
+      appendCategoryCardImage(
+        imageWrap,
+        localCategoryProducts(category.name),
+        blaCategoryImageSource(category.name),
+        category.name
+      );
       const body = document.createElement('div');
       body.className = 'category-body';
       const heading = document.createElement('h3');
@@ -2186,7 +2212,13 @@
       elements.resultTitle.textContent = 'Categories';
       elements.resultCount.textContent = `${unifiedCategorySummaries().length + 1} categories`;
       const fragment = document.createDocumentFragment();
-      fragment.append(makeHomeRangeCard('tools', 'Tools', 'https://raw.githubusercontent.com/toralf-dittmann/aqiml/main/Marine%20Chandlery.jpg', `${localToolsProducts().length} products`));
+      fragment.append(makeHomeRangeCard(
+        'tools',
+        'Tools',
+        localToolsProducts(),
+        'https://raw.githubusercontent.com/toralf-dittmann/aqiml/main/Marine%20Chandlery.jpg',
+        `${localToolsProducts().length} products`
+      ));
       unifiedCategorySummaries().forEach(category => fragment.appendChild(makeBlaSummaryCard(category)));
       elements.categoryGrid.appendChild(fragment);
     }
@@ -2212,12 +2244,12 @@
         card.setAttribute('aria-label', `Open ${subcategory.name}`);
         const imageWrap = document.createElement('div');
         imageWrap.className = 'category-image-wrap';
-        const image = document.createElement('img');
-        image.className = 'category-image';
-        image.src = blaSubcategoryImageSource(category.name, subcategory.name);
-        image.alt = subcategory.name;
-        image.loading = 'lazy';
-        imageWrap.appendChild(image);
+        appendCategoryCardImage(
+          imageWrap,
+          localSubcategoryProducts(category.name, subcategory.name),
+          blaSubcategoryImageSource(category.name, subcategory.name),
+          subcategory.name
+        );
         const body = document.createElement('div');
         body.className = 'category-body';
         const heading = document.createElement('h3');
@@ -2345,7 +2377,7 @@
 
       const fragment = document.createDocumentFragment();
       categories.forEach(({ name, rows }) => {
-        const sample = rows.find(product => imageFor(product)) || rows[0];
+        const ordered = productsInCatalogOrder(rows);
         const card = document.createElement('article');
         card.className = 'category-card';
         card.tabIndex = 0;
@@ -2353,16 +2385,16 @@
         card.setAttribute('aria-label', `Open ${name}`);
         const imageWrap = document.createElement('div');
         imageWrap.className = 'category-image-wrap';
-        imageWrap.appendChild(makeImage(sample, 'category-image'));
+        appendCategoryCardImage(imageWrap, ordered, '', name);
         const body = document.createElement('div');
         body.className = 'category-body';
         const title = document.createElement('h3');
         title.textContent = name;
         const count = document.createElement('p');
-        count.textContent = `${rows.length} product${rows.length === 1 ? '' : 's'}`;
+        count.textContent = `${ordered.length} product${ordered.length === 1 ? '' : 's'}`;
         body.append(title, count);
         card.append(imageWrap, body);
-        const open = () => openCategory(name, rows);
+        const open = () => openCategory(name, ordered);
         card.addEventListener('click', open);
         card.addEventListener('keydown', event => {
           if (event.key === 'Enter' || event.key === ' ') {
@@ -2380,7 +2412,7 @@
       state.view = 'products';
       state.selectedCategory = name;
       state.selectedSubCategory = '';
-      state.unfilteredResults = rows.slice();
+      state.unfilteredResults = productsInCatalogOrder(rows);
       renderSidebar();
       elements.searchInput.value = '';
       elements.searchStatus.textContent = '';
@@ -2420,7 +2452,7 @@
 
       const fragment = document.createDocumentFragment();
       subcategories.forEach(([name, subcategoryRows]) => {
-        const sample = subcategoryRows.find(product => imageFor(product)) || subcategoryRows[0];
+        const ordered = productsInCatalogOrder(subcategoryRows);
         const card = document.createElement('article');
         card.className = 'category-card';
         card.tabIndex = 0;
@@ -2429,18 +2461,18 @@
 
         const imageWrap = document.createElement('div');
         imageWrap.className = 'category-image-wrap';
-        imageWrap.appendChild(makeImage(sample, 'category-image'));
+        appendCategoryCardImage(imageWrap, ordered, '', name);
 
         const body = document.createElement('div');
         body.className = 'category-body';
         const title = document.createElement('h3');
         title.textContent = name;
         const count = document.createElement('p');
-        count.textContent = `${subcategoryRows.length} product${subcategoryRows.length === 1 ? '' : 's'}`;
+        count.textContent = `${ordered.length} product${ordered.length === 1 ? '' : 's'}`;
         body.append(title, count);
         card.append(imageWrap, body);
 
-        const open = () => openBlaSubcategory(name, subcategoryRows);
+        const open = () => openBlaSubcategory(name, ordered);
         card.addEventListener('click', open);
         card.addEventListener('keydown', event => {
           if (event.key === 'Enter' || event.key === ' ') {
@@ -2457,7 +2489,7 @@
       movePageToTop();
       state.view = 'products';
       state.selectedSubCategory = name;
-      state.unfilteredResults = rows.slice();
+      state.unfilteredResults = productsInCatalogOrder(rows);
       renderSidebar();
       elements.searchInput.value = '';
       elements.searchStatus.textContent = '';
@@ -2543,6 +2575,9 @@
     }
 
     function compareProductDisplayOrder(a, b) {
+      const aCat = number(a.categoryDisplayOrder) || Number.MAX_SAFE_INTEGER;
+      const bCat = number(b.categoryDisplayOrder) || Number.MAX_SAFE_INTEGER;
+      if (aCat !== bCat) return aCat - bCat;
       const aOrder = number(a.productDisplayOrder) || Number.MAX_SAFE_INTEGER;
       const bOrder = number(b.productDisplayOrder) || Number.MAX_SAFE_INTEGER;
       return aOrder - bOrder || text(a.productNumber).localeCompare(text(b.productNumber), undefined, { numeric: true });
