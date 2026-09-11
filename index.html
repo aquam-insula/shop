@@ -1791,6 +1791,18 @@
       return Array.from(set);
     }
 
+    function searchWordMatches(word, tokenSet, ...haystacks) {
+      const cleanWord = String(word || '').toLowerCase().replace(/^b[-_\s]?/, '');
+      if (tokenSet.has(word) || (cleanWord && tokenSet.has(cleanWord))) return true;
+      for (const token of tokenSet) {
+        if (token.startsWith(word) || (cleanWord && token.startsWith(cleanWord))) return true;
+      }
+      return haystacks.some(value => {
+        const haystack = String(value || '').toLowerCase();
+        return haystack.includes(word) || (cleanWord && haystack.includes(cleanWord));
+      });
+    }
+
     function rankLocally(query, products) {
       const queryWords = normalizeWords(query);
       const groups = queryWords.map(variants);
@@ -1808,11 +1820,8 @@
         let matched = 0;
         let score = 0;
         groups.forEach(group => {
-          const primaryMatched = group.some(word => {
-            const cleanWord = word.toLowerCase().replace(/^b[-_\s]?/, '');
-            return identityWords.has(word) || identityWords.has(cleanWord) || rawCode.includes(word) || cleanCode.includes(cleanWord);
-          });
-          const exactBrandMatched = group.some(word => brandWords.has(word));
+          const primaryMatched = group.some(word => searchWordMatches(word, identityWords, rawCode, cleanCode, description, identity));
+          const exactBrandMatched = group.some(word => searchWordMatches(word, brandWords, brand));
           const groupMatched = primaryMatched || exactBrandMatched;
           if (!groupMatched) return;
           matched += 1;

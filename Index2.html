@@ -1579,8 +1579,20 @@
         let matched = 0;
         let score = 0;
         groups.forEach(group => {
-          const primaryMatched = group.some(word => identityWords.has(word) || code.includes(word));
-          const exactBrandMatched = group.some(word => brandWords.has(word));
+          const primaryMatched = group.some(word => {
+            if (identityWords.has(word) || code.includes(word) || description.includes(word)) return true;
+            for (const token of identityWords) {
+              if (token.startsWith(word)) return true;
+            }
+            return false;
+          });
+          const exactBrandMatched = group.some(word => {
+            if (brandWords.has(word) || brand.includes(word)) return true;
+            for (const token of brandWords) {
+              if (token.startsWith(word)) return true;
+            }
+            return false;
+          });
           const groupMatched = primaryMatched || exactBrandMatched;
           if (!groupMatched) return;
           matched += 1;
