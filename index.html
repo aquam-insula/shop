@@ -102,8 +102,10 @@
     }
     .brand-logo {
       display: block;
-      width: min(100%, 260px);
-      height: auto;
+      height: 64px;
+      width: auto;
+      max-width: 260px;
+      object-fit: contain;
       flex: 0 0 auto;
     }
     .bla-logo {
@@ -637,7 +639,7 @@
     }
     @media (max-width: 900px) {
       .top-row { gap: 13px; }
-      .brand-logo { width: 200px; }
+      .brand-logo { height: 48px; }
       .bla-logo { height: 48px; max-width: 140px; }
       .search-area { width: 200px; max-width: 200px; flex-basis: 200px; }
       .product-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
@@ -648,7 +650,7 @@
       .top-row { flex-wrap: wrap; }
       .header-brands { flex: 1 1 auto; }
       .header-tools { width: 100%; margin-left: 0; }
-      .brand-logo { width: 180px; }
+      .brand-logo { height: 40px; }
       .bla-logo { height: 40px; max-width: 120px; }
       .search-area { flex: 1 1 auto; width: auto; max-width: none; }
       .section-nav { margin-top: 10px; }
@@ -671,7 +673,7 @@
       .form-grid { grid-template-columns: 1fr; }
     }
     @media (max-width: 430px) {
-      .brand-logo { width: 150px; }
+      .brand-logo { height: 32px; }
       .bla-logo { height: 32px; max-width: 100px; }
       .section-tab { padding: 0 12px; }
       .product-grid { grid-template-columns: 1fr; }
@@ -1155,7 +1157,7 @@
     <div class="header-inner">
       <div class="top-row">
         <div class="header-brands">
-          <img class="brand-logo" src="https://raw.githubusercontent.com/toralf-dittmann/aqiml/468d8135b8b830cfcfc753be0fe270cbdcdd01f1/AQUAM%20INSULA%20Maritime%20Lifestyle%20160%20x%2040.jpg" alt="Aquam Insula Maritime Lifestyle">
+          <img class="brand-logo" src="./aquam-insula-logo.png" alt="Aquam Insula">
           <img class="bla-logo" src="./bla/assets/bla-logo.jpg" alt="BLA">
         </div>
         <div class="header-tools">
