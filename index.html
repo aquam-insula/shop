@@ -1399,7 +1399,6 @@
       'Fasteners': ['Hull, Deck & Cabin Hardware', 'Fasteners & General Hardware'],
       'Ropes': ['Rope', 'General Rope'],
       'Electrical': ['Electrical', 'General Electrical'],
-      'Gadgets & Decoration': ['Hull, Deck & Cabin Hardware', 'Cabin Hardware & Accessories'],
       'Safety Equipment': ['Safety Equipment', 'General Safety Equipment'],
       'Wire Ropes & Equipment': ['Rigging & Architectural', 'Stainless Rigging Fittings'],
       'Lights': ['Lighting', 'General Lighting'],
@@ -1432,6 +1431,7 @@
     function localMarineTaxonomy(product) {
       const localCategory = text(product.subCategory).trim();
       if (localCategory === 'Tools') return ['Tools', 'Tools'];
+      if (localCategory === 'Gadgets & Decoration') return ['Gadgets & Decoration', 'Gadgets & Decoration'];
       if (localCategory === 'Anchors & Chains') return keywordMarineTaxonomy(product);
       if (localCategory === 'Pumps') {
         const value = text(product.description).toLowerCase();
@@ -2158,7 +2158,7 @@
           active: state.selectedCategory === category.name && !state.selectedSubCategory,
           onClick: () => openBlaSummaryCategory(category.name)
         });
-        if (state.selectedCategory === category.name) {
+        if (state.selectedCategory === category.name && category.name !== 'Gadgets & Decoration') {
           (category.subcategories || []).forEach(subcategory => {
             appendTreeButton(elements.categoryTree, `${subcategory.name} (${number(subcategory.count)})`, {
               subcategory: true,
@@ -2346,7 +2346,7 @@
       renderSidebar();
       showLoading('Loading products...');
       await loadBlaProducts().catch(() => []);
-      if ((category.subcategories || []).length > 0) {
+      if ((category.subcategories || []).length > 0 && category.name !== 'Gadgets & Decoration') {
         renderBlaSummarySubcategories(category);
       } else {
         openCategory(category.name, localCategoryProducts(category.name));
