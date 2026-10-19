@@ -1356,7 +1356,12 @@
 
     function text(value) { return String(value == null ? '' : value); }
     function number(value) { const parsed = Number(value); return Number.isFinite(parsed) ? parsed : 0; }
-    function money(value) { return number(value).toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 }); }
+    function money(value) {
+      // Match the product catalogue: toFixed half-cent rounding, then group digits.
+      // Locale rounding turns a catalogue VIP of 76.00 (67.56 x 1.125 = 76.005) into 76.01.
+      const rounded = Number(number(value).toFixed(2));
+      return rounded.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+    }
     function cleanProductNumber(value) {
       const s = text(value).trim();
       if (!s) return s;
@@ -1378,7 +1383,8 @@
       if (!isBla) return productNumber;
       return /^B/i.test(productNumber) ? productNumber : `B${productNumber}`;
     }
-    function vip(product) { return number(product.price) * (1 + state.vatRate); }
+    function unitVip(price) { return Number((number(price) * (1 + state.vatRate)).toFixed(2)); }
+    function vip(product) { return unitVip(product && product.price); }
     function productStorageLocation(product) {
       return /^[SJ]/i.test(text(product.productNumber).trim()) ? text(product.storageLocation).trim() : '';
     }
@@ -2809,6 +2815,7 @@
       const quantity = state.basket.reduce((sum, item) => sum + item.quantity, 0);
       elements.basketCount.textContent = quantity;
       let totalVep = 0;
+      let totalVip = 0;
 
       if (!state.basket.length) {
         const empty = document.createElement('li');
@@ -2818,7 +2825,9 @@
       }
 
       state.basket.forEach(item => {
+        const lineVip = unitVip(item.price) * item.quantity;
         totalVep += number(item.price) * item.quantity;
+        totalVip += lineVip;
         const row = document.createElement('li');
         row.className = 'basket-item';
         const image = document.createElement('img');
@@ -2847,17 +2856,16 @@
         plus.addEventListener('click', () => changeQuantity(item.key, 1));
         controls.append(minus, count, plus);
         const price = document.createElement('strong');
-        price.textContent = `FJD ${money(number(item.price) * item.quantity * (1 + state.vatRate))}`;
+        price.textContent = `FJD ${money(lineVip)}`;
         quantityRow.append(controls, price);
         detail.append(name, meta, quantityRow);
         row.append(image, detail);
         elements.basketItems.appendChild(row);
       });
 
-      const vat = totalVep * state.vatRate;
       elements.basketVep.textContent = `FJD ${money(totalVep)}`;
-      elements.basketVat.textContent = `FJD ${money(vat)}`;
-      elements.basketVip.textContent = `FJD ${money(totalVep + vat)}`;
+      elements.basketVat.textContent = `FJD ${money(totalVip - totalVep)}`;
+      elements.basketVip.textContent = `FJD ${money(totalVip)}`;
       elements.vatLabel.textContent = `VAT (${money(state.vatRate * 100).replace('.00', '')}%)`;
     }
 
@@ -2963,7 +2971,7 @@
           row.className = 'quote-row';
           const qty = document.createElement('strong'); qty.textContent = `${item.quantity} x`;
           const name = document.createElement('span'); name.textContent = `${quotationProductNumber(item)} - ${item.description}`;
-          const price = document.createElement('strong'); price.textContent = `FJD ${money(item.price * item.quantity * (1 + state.vatRate))}`;
+          const price = document.createElement('strong'); price.textContent = `FJD ${money(unitVip(item.price) * item.quantity)}`;
           row.append(qty, name, price);
           section.appendChild(row);
         });

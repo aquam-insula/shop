@@ -1175,10 +1175,13 @@
       'Watersports': '#d9a300'
     };
 
-    const money = value => Number(value || 0).toLocaleString('en-US', {
-      minimumFractionDigits: 2,
-      maximumFractionDigits: 2
-    });
+    const money = value => {
+      const rounded = Number(Number(value || 0).toFixed(2));
+      return rounded.toLocaleString('en-US', {
+        minimumFractionDigits: 2,
+        maximumFractionDigits: 2
+      });
+    };
     const esc = value => String(value ?? '').replace(/[&<>"']/g, ch => ({
       '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
     }[ch]));
@@ -2206,7 +2209,7 @@
         description: activeRequestProduct.description,
         category: topCategory(activeRequestProduct),
         subCategory: subCategoryName(activeRequestProduct),
-        priceFjdVip: Number(activeRequestProduct.price || 0) * (1 + vatRate)
+        priceFjdVip: Number((Number(activeRequestProduct.price || 0) * (1 + vatRate)).toFixed(2))
       };
       submit.disabled = true;
       status.classList.add('is-loading');
