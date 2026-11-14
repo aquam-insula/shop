@@ -5955,6 +5955,21 @@
     "productDisplayOrder": 192
   },
   {
+    "productNumber": "E0422",
+    "description": "4mm2 Three Core Triple Sheath Tinned Cable",
+    "variant": "",
+    "price": 9.571,
+    "sheetName": "E - Electrical",
+    "material": "",
+    "imageUrl": "https://fbm.framesoft.com/api/v1/flow-suite/pilot/AFLFJ/products/56ba5f0d-5db7-4a84-ae33-f01627224c2c/image?v=7a994ff11a3434e544d1b941da3e47f2b919d3c0ca4bb81a486bd1d8305c99f1",
+    "imageHash": "7a994ff11a3434e544d1b941da3e47f2b919d3c0ca4bb81a486bd1d8305c99f1",
+    "superCategory": "Marine Chandlery",
+    "subCategory": "Electrical",
+    "storageLocation": "",
+    "categoryDisplayOrder": 17,
+    "productDisplayOrder": 193
+  },
+  {
     "productNumber": "F0001",
     "description": "Threaded Rod SS SS316",
     "variant": "6mm x 1m",
