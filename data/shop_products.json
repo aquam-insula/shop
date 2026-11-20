@@ -25257,7 +25257,7 @@
     "subCategory": "Necklaces",
     "storageLocation": "C3",
     "categoryDisplayOrder": 40,
-    "productDisplayOrder": 113
+    "productDisplayOrder": 114
   },
   {
     "productNumber": "J0825",
@@ -25377,7 +25377,7 @@
     "subCategory": "Necklaces",
     "storageLocation": "B4",
     "categoryDisplayOrder": 40,
-    "productDisplayOrder": 114
+    "productDisplayOrder": 115
   },
   {
     "productNumber": "J0833",
@@ -25392,7 +25392,7 @@
     "subCategory": "Necklaces",
     "storageLocation": "B4",
     "categoryDisplayOrder": 40,
-    "productDisplayOrder": 115
+    "productDisplayOrder": 116
   },
   {
     "productNumber": "J0834",
@@ -25407,7 +25407,7 @@
     "subCategory": "Necklaces",
     "storageLocation": "B4",
     "categoryDisplayOrder": 40,
-    "productDisplayOrder": 116
+    "productDisplayOrder": 117
   },
   {
     "productNumber": "J0835",
@@ -25422,7 +25422,7 @@
     "subCategory": "Necklaces",
     "storageLocation": "B4",
     "categoryDisplayOrder": 40,
-    "productDisplayOrder": 117
+    "productDisplayOrder": 118
   },
   {
     "productNumber": "J0836",
@@ -25437,7 +25437,7 @@
     "subCategory": "Necklaces",
     "storageLocation": "B4",
     "categoryDisplayOrder": 40,
-    "productDisplayOrder": 118
+    "productDisplayOrder": 119
   },
   {
     "productNumber": "J0837",
@@ -25452,7 +25452,7 @@
     "subCategory": "Necklaces",
     "storageLocation": "B5",
     "categoryDisplayOrder": 40,
-    "productDisplayOrder": 119
+    "productDisplayOrder": 120
   },
   {
     "productNumber": "J0838",
@@ -25768,6 +25768,21 @@
     "storageLocation": "",
     "categoryDisplayOrder": 43,
     "productDisplayOrder": 96
+  },
+  {
+    "productNumber": "J0914",
+    "description": "Multicolour Natural Stone Necklace",
+    "variant": "uni",
+    "price": 28.836,
+    "sheetName": "J - Necklaces",
+    "material": "18K Gold Plated Stainless Steel",
+    "imageUrl": "https://fbm.framesoft.com/api/v1/flow-suite/pilot/AFLFJ/products/9ee507cf-6ff9-4bff-b6de-338d50cfb11a/image?v=7a752314f81b13e8f66c0a17879eb96f5340cc86f11c4ac7992adcd0fcb3da9a",
+    "imageHash": "7a752314f81b13e8f66c0a17879eb96f5340cc86f11c4ac7992adcd0fcb3da9a",
+    "superCategory": "Maritime Lifestyle",
+    "subCategory": "Necklaces",
+    "storageLocation": "C5",
+    "categoryDisplayOrder": 40,
+    "productDisplayOrder": 113
   },
   {
     "productNumber": "L0001",
