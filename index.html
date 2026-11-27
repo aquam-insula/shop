@@ -1366,7 +1366,9 @@
       searchTimer: null,
       searchSequence: 0,
       activeProduct: null,
-      activeGroup: []
+      activeGroup: [],
+      searchQuery: '',
+      searchCache: new Map()
     };
 
     const elements = {
@@ -1786,11 +1788,13 @@
     }
 
     function movePageToTop() {
+      navFreezeScroll();
       window.scrollTo({ top: 0, left: 0, behavior: 'auto' });
     }
 
     function setSection(section, preserveQuery) {
       movePageToTop();
+      if (!preserveQuery) cancelPendingSearch();
       state.section = section;
       state.view = 'categories';
       state.selectedCategory = '';
@@ -1955,6 +1959,7 @@
         return;
       }
 
+      navFreezeScroll();
       const lifestyleOnly = state.section === 'lifestyle';
       elements.contextTitle.textContent = lifestyleOnly ? 'Maritime Lifestyle Collection' : 'Marine Chandlery';
       elements.contextDescription.textContent = lifestyleOnly
@@ -2015,8 +2020,11 @@
       elements.searchStatus.textContent = statusMessage;
       elements.viewTools.classList.remove('hidden');
       state.visibleResults = products.slice();
+      state.searchQuery = query;
+      if (!statusMessage) state.searchCache.set(searchCacheKey(query), products.slice());
       renderSidebar();
       renderProducts(state.visibleResults);
+      navRecord();
     }
 
     const BLA_CATEGORY_COLORS = {
@@ -2224,6 +2232,7 @@
     }
 
     function prepareCategoryView() {
+      cancelPendingSearch();
       state.view = 'categories';
       state.selectedCategory = '';
       state.selectedSubCategory = '';
@@ -2338,10 +2347,13 @@
       ));
       unifiedCategorySummaries().forEach(category => fragment.appendChild(makeBlaSummaryCard(category)));
       elements.categoryGrid.appendChild(fragment);
+      navRecord();
     }
 
     function renderBlaSummarySubcategories(category) {
       state.view = 'subcategories';
+      state.selectedCategory = category.name;
+      state.selectedSubCategory = '';
       elements.viewTools.classList.remove('hidden');
       elements.backToCategories.textContent = 'Back to Categories';
       elements.resultTitle.textContent = category.name;
@@ -2383,12 +2395,14 @@
         fragment.appendChild(card);
       });
       elements.categoryGrid.appendChild(fragment);
+      navRecord();
     }
 
     async function openBlaSummaryCategory(name) {
       const category = unifiedCategorySummary(name);
       if (!category) return;
       movePageToTop();
+      cancelPendingSearch();
       state.section = 'marine';
       state.selectedCategory = name;
       state.selectedSubCategory = '';
@@ -2399,6 +2413,7 @@
       renderSidebar();
       showLoading('Loading products...');
       await loadBlaProducts().catch(() => []);
+      if (state.section !== 'marine' || state.selectedCategory !== name || state.selectedSubCategory) return;
       if ((category.subcategories || []).length > 0 && category.name !== 'Gadgets & Decoration') {
         renderBlaSummarySubcategories(category);
       } else {
@@ -2408,6 +2423,7 @@
 
     async function openBlaSummarySubcategory(categoryName, subcategoryName) {
       movePageToTop();
+      cancelPendingSearch();
       state.section = 'marine';
       state.selectedCategory = categoryName;
       state.selectedSubCategory = subcategoryName;
@@ -2430,6 +2446,7 @@
 
     function openToolsCategory() {
       movePageToTop();
+      cancelPendingSearch();
       state.section = 'marine';
       state.selectedCategory = 'Tools';
       state.selectedSubCategory = '';
@@ -2454,6 +2471,7 @@
         renderHomeCategories();
         return;
       }
+      cancelPendingSearch();
       state.view = 'categories';
       state.selectedCategory = '';
       state.selectedSubCategory = '';
@@ -2522,10 +2540,12 @@
         fragment.appendChild(card);
       });
       elements.categoryGrid.appendChild(fragment);
+      navRecord();
     }
 
     function openCategory(name, rows) {
       movePageToTop();
+      cancelPendingSearch();
       state.view = 'products';
       state.selectedCategory = name;
       state.selectedSubCategory = '';
@@ -2537,6 +2557,7 @@
       elements.resultTitle.textContent = name;
       elements.categoryGrid.classList.add('hidden');
       renderProducts(state.unfilteredResults);
+      navRecord();
     }
 
     function renderBlaSubcategories(topCategory, rows) {
@@ -2615,9 +2636,11 @@
       elements.resultTitle.textContent = name;
       elements.categoryGrid.classList.add('hidden');
       renderProducts(state.unfilteredResults);
+      navRecord();
     }
 
     function showLoading(message) {
+      navFreezeScroll();
       elements.loadingPanel.classList.remove('hidden');
       elements.loadingPanel.innerHTML = `<div><div class="spinner"></div><div>${escapeHtml(message)}</div></div>`;
       elements.emptyPanel.classList.add('hidden');
@@ -2947,6 +2970,7 @@
       }
       updateProductDetail(product);
       openModal(elements.productModal);
+      navRecord();
     }
 
     function updateProductDetail(product) {
@@ -2984,6 +3008,13 @@
       elements.modalBackdrop.classList.remove('hidden');
       modal.classList.remove('hidden');
       modal.setAttribute('aria-hidden', 'false');
+    }
+
+    function hideModal(modal) {
+      modal.classList.add('hidden');
+      modal.setAttribute('aria-hidden', 'true');
+      const anyOpen = [elements.productModal, elements.quoteModal].some(item => !item.classList.contains('hidden'));
+      if (!anyOpen) elements.modalBackdrop.classList.add('hidden');
     }
 
     function closeModals() {
@@ -3026,6 +3057,7 @@
       });
       document.getElementById('quoteStatus').textContent = '';
       openModal(elements.quoteModal);
+      navRecord({ replacePanel: true });
     }
 
     async function submitQuote() {
@@ -3109,7 +3141,10 @@
         elements.searchStatus.textContent = '';
         if (state.section === 'marine' && state.view === 'products' && state.selectedCategory !== 'Tools' && state.selectedCategory) {
           const summary = unifiedCategorySummary(state.selectedCategory);
-          if (summary) renderBlaSummarySubcategories(summary);
+          if (summary) {
+            renderBlaSummarySubcategories(summary);
+            renderSidebar();
+          }
           return;
         }
         if (state.section === 'marine' && (state.view === 'subcategories' || state.selectedCategory === 'Tools')) {
@@ -3118,22 +3153,28 @@
         }
         renderCategories();
       });
-      elements.basketButton.addEventListener('click', openBasket);
-      document.getElementById('closeBasket').addEventListener('click', closeBasket);
-      elements.drawerBackdrop.addEventListener('click', closeBasket);
-      elements.modalBackdrop.addEventListener('click', closeModals);
-      document.querySelectorAll('[data-close-modal]').forEach(button => button.addEventListener('click', closeModals));
+      elements.basketButton.addEventListener('click', openBasketByUser);
+      document.getElementById('closeBasket').addEventListener('click', closeBasketByUser);
+      elements.drawerBackdrop.addEventListener('click', closeBasketByUser);
+      elements.modalBackdrop.addEventListener('click', closeModalsByUser);
+      document.querySelectorAll('[data-close-modal]').forEach(button => button.addEventListener('click', closeModalsByUser));
       document.getElementById('detailAdd').addEventListener('click', () => {
         if (state.activeProduct) addToBasket(state.activeProduct);
       });
       document.getElementById('detailVariantSelect').addEventListener('change', event => {
         const selected = state.activeGroup.find(product => productKey(product) === event.target.value);
-        if (selected) updateProductDetail(selected);
+        if (selected) {
+          updateProductDetail(selected);
+          navRecord({ replace: true });
+        }
       });
       document.getElementById('reviewQuote').addEventListener('click', reviewQuote);
       document.getElementById('validateQuote').addEventListener('click', submitQuote);
       document.addEventListener('keydown', event => {
-        if (event.key === 'Escape') { closeBasket(); closeModals(); }
+        if (event.key === 'Escape') {
+          if (isOpen(elements.basketDrawer)) closeBasketByUser();
+          else if (isOpen(elements.productModal) || isOpen(elements.quoteModal)) closeModalsByUser();
+        }
       });
       const toTop = document.getElementById('toTop');
       function updateToTop() {
@@ -3151,7 +3192,377 @@
       updateToTop();
     }
 
+    // ======= IN-SHOP BROWSER HISTORY (Back / Forward) =======
+    // Every meaningful activity (category, subcategory, search, product, basket, quote preview)
+    // becomes a browser history entry, so the browser Back button returns to where the visitor
+    // was before - including the previous product and the scroll position - and never leaves
+    // the shop while there is still shop history to go back to.
+    const NAV_PARAMS = ['category', 'sub', 'q', 'product', 'open'];
+    const NAV_SEARCH_MERGE_MS = 4000;
+    const nav = {
+      ready: false,
+      restoring: false,
+      frozen: false,
+      token: 0,
+      lastScroll: 0,
+      saveTimer: null,
+      unfreezeTimer: null
+    };
+
+    function isOpen(element) {
+      return !!element && !element.classList.contains('hidden');
+    }
+
+    function searchCacheKey(query) {
+      return `${state.section === 'lifestyle' ? 'lifestyle' : 'marine'}|${text(query).trim().toLowerCase()}`;
+    }
+
+    function cancelPendingSearch() {
+      clearTimeout(state.searchTimer);
+      state.searchSequence += 1;
+    }
+
+    function navFreezeScroll() {
+      if (!nav.ready) return;
+      nav.frozen = true;
+      clearTimeout(nav.unfreezeTimer);
+      // Safety net: never stop tracking the scroll position for long.
+      nav.unfreezeTimer = setTimeout(() => {
+        if (!nav.restoring) { nav.frozen = false; nav.lastScroll = window.scrollY; }
+      }, 15000);
+    }
+
+    function navUnfreeze() {
+      clearTimeout(nav.unfreezeTimer);
+      nav.frozen = false;
+      nav.lastScroll = window.scrollY;
+    }
+
+    function navEntry() {
+      const current = window.history.state;
+      return current && current.aqiShopNav ? current : null;
+    }
+
+    function cleanRoute(route) {
+      const result = {};
+      NAV_PARAMS.forEach(key => {
+        const value = text(route && route[key]).trim();
+        if (value) result[key] = value;
+      });
+      if (result.q) { delete result.category; delete result.sub; }
+      if (!result.category) delete result.sub;
+      if (result.open && result.open !== 'basket' && result.open !== 'quote') delete result.open;
+      return result;
+    }
+
+    function routeKey(route) {
+      const clean = cleanRoute(route);
+      return NAV_PARAMS.map(key => `${key}=${clean[key] || ''}`).join('&');
+    }
+
+    function baseRouteKey(route) {
+      const clean = cleanRoute(route);
+      return `q=${clean.q || ''}&category=${clean.category || ''}&sub=${clean.sub || ''}`;
+    }
+
+    function routeFromUrl() {
+      const params = new URLSearchParams(window.location.search);
+      const route = {};
+      NAV_PARAMS.forEach(key => { route[key] = params.get(key) || ''; });
+      return cleanRoute(route);
+    }
+
+    function routeUrl(route) {
+      const clean = cleanRoute(route);
+      const params = new URLSearchParams(window.location.search);
+      NAV_PARAMS.forEach(key => params.delete(key));
+      NAV_PARAMS.forEach(key => { if (clean[key]) params.set(key, clean[key]); });
+      const query = params.toString();
+      return `${window.location.pathname}${query ? `?${query}` : ''}${window.location.hash}`;
+    }
+
+    function currentRoute() {
+      const route = {};
+      if (state.view === 'search' && state.searchQuery) {
+        route.q = state.searchQuery;
+      } else if (state.view !== 'categories' || state.selectedCategory) {
+        if (state.selectedCategory) route.category = state.selectedCategory;
+        if (state.selectedSubCategory) route.sub = state.selectedSubCategory;
+      }
+      if (isOpen(elements.productModal) && state.activeProduct) route.product = productKey(state.activeProduct);
+      if (isOpen(elements.quoteModal)) route.open = 'quote';
+      else if (isOpen(elements.basketDrawer)) route.open = 'basket';
+      return cleanRoute(route);
+    }
+
+    function writeEntry(entry, push) {
+      try {
+        const url = routeUrl(entry.route);
+        if (push) window.history.pushState(entry, '', url);
+        else window.history.replaceState(entry, '', url);
+      } catch (error) {
+        console.warn('Shop history update skipped', error);
+      }
+    }
+
+    // Record the view that is now visible. A new activity becomes a new Back step; an update of the
+    // same view (search refinement while typing, variant switch, re-render) replaces the current step.
+    function navRecord(options = {}) {
+      if (!nav.ready || nav.restoring) return;
+      const route = currentRoute();
+      const current = navEntry();
+      const now = Date.now();
+      let replace = !!options.replace || !current || routeKey(current.route) === routeKey(route);
+
+      if (!replace && current) {
+        const was = cleanRoute(current.route);
+        // Typing in the search box refines the same search step instead of adding one per keystroke.
+        if (was.q && route.q && !was.product && !route.product && !was.open && !route.open &&
+            now - number(current.ts) < NAV_SEARCH_MERGE_MS) replace = true;
+        // Basket -> Quote preview stays one panel step.
+        if (options.replacePanel && was.open && baseRouteKey(was) === baseRouteKey(route) && was.product === route.product) replace = true;
+        // After closing Product A, opening Product B continues from A: Back from B returns to A.
+        if (current.afterProductClose && route.product && !was.product && !was.open && baseRouteKey(was) === baseRouteKey(route)) replace = true;
+      }
+
+      if (!replace && current) {
+        // Remember where the visitor was on the view they are leaving.
+        writeEntry({ ...current, scroll: nav.lastScroll }, false);
+      }
+      const entry = {
+        aqiShopNav: 1,
+        route,
+        scroll: window.scrollY,
+        ts: now,
+        depth: replace ? number(current && current.depth) : number(current && current.depth) + 1,
+        afterProductClose: !!options.afterProductClose
+      };
+      writeEntry(entry, !replace);
+      navUnfreeze();
+    }
+
+    function saveScrollSoon() {
+      if (!nav.ready || nav.restoring || nav.frozen) return;
+      nav.lastScroll = window.scrollY;
+      clearTimeout(nav.saveTimer);
+      nav.saveTimer = setTimeout(saveScrollNow, 250);
+    }
+
+    function saveScrollNow() {
+      clearTimeout(nav.saveTimer);
+      if (!nav.ready || nav.restoring || nav.frozen) return;
+      const current = navEntry();
+      if (!current) return;
+      nav.lastScroll = window.scrollY;
+      writeEntry({ ...current, scroll: nav.lastScroll }, false);
+    }
+
+    function restoreScroll(y, token) {
+      const target = Math.max(0, number(y));
+      return new Promise(resolve => {
+        let attempts = 0;
+        const step = () => {
+          if (token !== nav.token) { resolve(); return; }
+          window.scrollTo({ top: target, left: 0, behavior: 'auto' });
+          attempts += 1;
+          if (Math.abs(window.scrollY - target) > 2 && attempts < 40) setTimeout(step, 50);
+          else resolve();
+        };
+        step();
+      });
+    }
+
+    function lifestyleCategoryRows(name) {
+      return state.shopProducts.filter(product => product.market === 'lifestyle' && (product.subCategory || 'Other Products') === name);
+    }
+
+    function restoreSearch(query) {
+      elements.searchInput.value = query;
+      const cached = state.searchCache.get(searchCacheKey(query));
+      if (cached) {
+        cancelPendingSearch();
+        const lifestyleOnly = state.section === 'lifestyle';
+        elements.contextTitle.textContent = lifestyleOnly ? 'Maritime Lifestyle Collection' : 'Marine Chandlery';
+        elements.contextDescription.textContent = lifestyleOnly ? 'Fashion, footwear and everyday essentials for island life.' : '';
+        finishSearch(cached, query);
+        return;
+      }
+      runSearch();
+    }
+
+    async function applyBaseRoute(route) {
+      const lifestyle = state.startMode === 'lifestyle';
+      elements.searchStatus.textContent = '';
+      if (route.q) {
+        state.section = lifestyle ? 'lifestyle' : (state.section === 'lifestyle' ? 'home' : state.section);
+        restoreSearch(route.q);
+        return;
+      }
+      if (route.category) {
+        elements.searchInput.value = '';
+        if (lifestyle) {
+          const rows = lifestyleCategoryRows(route.category);
+          if (rows.length) {
+            state.section = 'lifestyle';
+            elements.contextTitle.textContent = 'Maritime Lifestyle Collection';
+            elements.contextDescription.textContent = 'Fashion, footwear and everyday essentials for island life.';
+            openCategory(route.category, productsInCatalogOrder(rows));
+            return;
+          }
+        } else if (route.category === 'Tools') {
+          openToolsCategory();
+          return;
+        } else if (unifiedCategorySummary(route.category)) {
+          if (route.sub) await openBlaSummarySubcategory(route.category, route.sub);
+          else await openBlaSummaryCategory(route.category);
+          if (state.selectedCategory === route.category) return;
+        }
+      }
+      setSection(lifestyle ? 'lifestyle' : 'home', false);
+    }
+
+    async function findProductByKey(key) {
+      const match = rows => (rows || []).find(product => productKey(product) === key) || null;
+      let product = match(state.shopProducts) || match(state.blaProducts);
+      if (!product && key.startsWith('bla:')) {
+        await loadBlaProducts().catch(() => []);
+        product = match(state.blaProducts);
+      }
+      return product;
+    }
+
+    function productGroupFor(product) {
+      const key = productKey(product);
+      const rows = state.view === 'search' ? state.visibleResults : state.unfilteredResults;
+      const group = groupProductsForDisplay(rows || [], state.view === 'products')
+        .find(items => items.some(item => productKey(item) === key));
+      return group && group.length ? group : [product];
+    }
+
+    async function applyOverlayRoute(route, token) {
+      if (route.product) {
+        const shownKey = isOpen(elements.productModal) && state.activeProduct ? productKey(state.activeProduct) : '';
+        if (shownKey !== route.product) {
+          const product = await findProductByKey(route.product);
+          if (token !== nav.token) return;
+          if (product) openProduct(product, productGroupFor(product));
+          else hideModal(elements.productModal);
+        }
+      } else if (isOpen(elements.productModal)) {
+        hideModal(elements.productModal);
+      }
+
+      if (route.open === 'quote' && state.basket.length) {
+        if (!isOpen(elements.quoteModal)) reviewQuote();
+      } else if (isOpen(elements.quoteModal)) {
+        hideModal(elements.quoteModal);
+      }
+
+      if (route.open === 'basket') {
+        if (!isOpen(elements.basketDrawer)) openBasket();
+      } else if (isOpen(elements.basketDrawer)) {
+        closeBasket();
+      }
+    }
+
+    async function navApply(route, scroll, initial) {
+      const token = ++nav.token;
+      nav.restoring = true;
+      nav.frozen = true;
+      clearTimeout(nav.saveTimer);
+      try {
+        const clean = cleanRoute(route);
+        const shown = currentRoute();
+        if (initial || baseRouteKey(clean) !== baseRouteKey(shown)) {
+          await applyBaseRoute(clean);
+          if (token !== nav.token) return;
+          await restoreScroll(scroll, token);
+        } else if (Math.abs(window.scrollY - number(scroll)) > 2 && !clean.product && !clean.open) {
+          await restoreScroll(scroll, token);
+        }
+        if (token !== nav.token) return;
+        await applyOverlayRoute(clean, token);
+      } finally {
+        if (token === nav.token) {
+          nav.restoring = false;
+          navUnfreeze();
+        }
+      }
+    }
+
+    function openBasketByUser() {
+      openBasket();
+      navRecord();
+    }
+
+    function closeBasketByUser() {
+      const current = navEntry();
+      if (current && cleanRoute(current.route).open === 'basket' && number(current.depth) > 0) {
+        window.history.back();
+        return;
+      }
+      closeBasket();
+      navRecord({ replace: true });
+    }
+
+    function closeModalsByUser() {
+      if (isOpen(elements.quoteModal)) {
+        const current = navEntry();
+        if (current && cleanRoute(current.route).open === 'quote' && number(current.depth) > 0) {
+          window.history.back();
+          return;
+        }
+        hideModal(elements.quoteModal);
+        navRecord({ replace: true });
+        return;
+      }
+      if (isOpen(elements.productModal)) {
+        hideModal(elements.productModal);
+        // Closing a product is an activity of its own: Back afterwards returns to that product.
+        navRecord({ afterProductClose: true });
+        return;
+      }
+      closeModals();
+    }
+
+    function navInit() {
+      if ('scrollRestoration' in window.history) window.history.scrollRestoration = 'manual';
+      window.addEventListener('popstate', event => {
+        if (!nav.ready) return;
+        const entry = event.state && event.state.aqiShopNav ? event.state : null;
+        const route = entry ? entry.route : routeFromUrl();
+        navApply(route, entry ? entry.scroll : 0, false);
+      });
+      window.addEventListener('scroll', saveScrollSoon, { passive: true });
+      ['wheel', 'touchmove', 'keydown'].forEach(type => window.addEventListener(type, () => {
+        if (nav.frozen && !nav.restoring) navUnfreeze();
+      }, { passive: true }));
+      window.addEventListener('pagehide', saveScrollNow);
+    }
+
+    async function navStart() {
+      const urlRoute = routeFromUrl();
+      const saved = navEntry();
+      const sameEntry = saved && routeKey(saved.route) === routeKey(urlRoute);
+      nav.ready = true;
+      await navApply(urlRoute, sameEntry ? saved.scroll : 0, true);
+      const route = currentRoute();
+      writeEntry({
+        aqiShopNav: 1,
+        route,
+        scroll: window.scrollY,
+        ts: 0,
+        depth: sameEntry ? number(saved.depth) : 0,
+        afterProductClose: !!(sameEntry && saved.afterProductClose)
+      }, false);
+    }
+
+    // Test hook (read-only): lets automated checks see the in-shop history state.
+    window.aqiShopNav = { route: currentRoute, entry: navEntry };
+
+
     async function initialize() {
+      navInit();
       bindEvents();
       loadSavedBasket();
       state.startMode = startModeFromUrl();
@@ -3167,7 +3578,7 @@
           })
         ]);
         renderBasket();
-        setSection(state.section, true);
+        await navStart();
         fetchJson(`${SHOP_GAS_URL}?action=getVatRate`, 8000)
           .then(vat => {
             state.vatRate = number(vat.rate) || 0.125;
